@@ -1,0 +1,39 @@
+---
+obsidianUIMode: preview
+title: "Scramble Body"
+noteType: pf2eSpell
+cssclasses: pf2e,pf2e-spell
+tags:
+  - spell/level/1
+  - trait/concentrate
+  - trait/focus
+  - trait/manipulate
+  - trait/wizard
+  - trait/uncommon
+  - remaster
+aliases: "Compendium.pf2e.spells-srd.Item.XcMObj2p9nIBp53b" 
+license: ORC
+statblock: inline
+---
+```statblock
+name: "Scramble Body  `pf2:2`"
+level: "Focus 1"
+rare_03: Uncommon
+trait_01: "concentrate"
+trait_02: "focus"
+trait_03: "manipulate"
+trait_04: "wizard"
+layout: Basic Pathfinder 2e Layout
+columns: 1
+columnWidth: x
+abilities_top:
+  - name: ""
+  - name: "Range"
+    desc: "30 feet; **Targets** 1 living creature"
+  - name: "Defense"
+    desc: " fortitude"
+abilities_mid:
+  - name: ""
+    desc: "Your magic throws the creature's biology into disarray, inducing nausea, fever, and other unpleasant conditions.\n* * *\n\n**Success** The target is unaffected.\n\n**Failure** The target becomes [[Conditions/Sickened 1|Sickened 1]].\n\n**Critical Failure** The target becomes [[Conditions/Sickened 1|Sickened 2]] and [[Conditions/Slowed 1|Slowed 1]] as long as it's sickened."
+sourcebook: "_Pathfinder Player Core_"
+```

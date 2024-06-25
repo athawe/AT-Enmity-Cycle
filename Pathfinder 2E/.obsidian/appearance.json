@@ -1,0 +1,13 @@
+{
+  "accentColor": "",
+  "theme": "obsidian",
+  "cssTheme": "ITS Theme",
+  "translucency": false,
+  "nativeMenus": false,
+  "baseFontSize": 15,
+  "enabledCssSnippets": [
+    "pf2e-spell",
+    "S - Encoded Fonts",
+    "S - Encoded Icons"
+  ]
+}

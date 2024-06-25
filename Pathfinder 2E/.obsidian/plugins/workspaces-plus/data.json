@@ -1,0 +1,27 @@
+{
+  "showInstructions": true,
+  "showDeletePrompt": true,
+  "saveOnSwitch": false,
+  "saveOnChange": false,
+  "workspaceSettings": false,
+  "systemDarkMode": false,
+  "globalSettings": {
+    "accentColor": "",
+    "theme": "obsidian",
+    "cssTheme": "Minimal",
+    "translucency": false,
+    "nativeMenus": false,
+    "baseFontSize": 15,
+    "readableLineLength": false,
+    "showLineNumber": true,
+    "rightToLeft": false,
+    "spellcheck": false,
+    "attachmentFolderPath": "zz-Attachments"
+  },
+  "activeWorkspaceDesktop": "Enmity Cycle Prep",
+  "activeWorkspaceMobile": "",
+  "reloadLivePreview": false,
+  "workspaceSwitcherRibbon": false,
+  "modeSwitcherRibbon": false,
+  "replaceNativeRibbon": false
+}
