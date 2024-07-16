@@ -4,5 +4,7 @@
   "rightToLeft": false,
   "spellcheck": true,
   "attachmentFolderPath": "zz-Attachments",
-  "showRibbon": true
+  "showRibbon": true,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current"
 }

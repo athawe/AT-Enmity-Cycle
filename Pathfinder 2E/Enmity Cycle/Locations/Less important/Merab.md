@@ -73,7 +73,7 @@ alignment: Lawful Neutral
 		- Also is a repo for dangerous evil artifacts. The most famous being  a series of inscribed steel plates called the Plaques of the Black Sun. The plaques are an Osiriani translation of the Book of the Damned that detail the cults and traditions dedicated to the archdevil Belial, as well as a number of dangerous, evil spells. While well-defended, there have been several attempted thefts of the plaques in the last few years, and there are whispers of a growing cult of Belial in the city.
 ## Characters
 ### Government 
-- (Mayor) Ilepodus,  (LN male human prince 12) Patron of Merab
+- (Mayor) [[Ilepodus]],  (LN male human prince 12) Patron of Merab
 - The Blessed Orchid
 	- Leader - Ulthiir (LG male half-elf champion 12)
 	- order of champions, train at Temple of the Redeeming Sun, serve as Ilepodus' elite guard.

@@ -8,18 +8,79 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a9ac4d7451208d15",
+            "id": "dd12a36662c1e4cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enmity Cycle/EC - Prep Work To Do.md",
+                "file": "Enmity Cycle/Quests and Plot Threads/Side Quests & Political Plots.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0b18c424daabd6f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Enmity Cycle/Quests and Plot Threads/Side Quests/My only Sunshine.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d48c0cb9e45db3c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Enmity Cycle/NPCs/Characters/Townsfolk.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d43f887912ce215d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Enmity Cycle/NPCs/Antagonists/Water Lords.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ede55c89fb68a77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Enmity Cycle/Quests and Plot Threads/Background Events.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd363f6d528e8ae7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Enmity Cycle/Locations/Districts/F-Grand Market/Hannah's Herbs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 297.5
   },
   "right": {
     "id": "965c9aa8692f5245",
@@ -85,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enmity Cycle/EC - Prep Work To Do.md",
+                "file": "Enmity Cycle/Quests and Plot Threads/Side Quests/My only Sunshine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,9 +163,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Enmity Cycle/EC - Prep Work To Do.md",
+                "file": "Enmity Cycle/Quests and Plot Threads/Side Quests/My only Sunshine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "90aa2952518d2890",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Enmity Cycle/Quests and Plot Threads/Side Quests/My only Sunshine.md"
               }
             }
           },
@@ -117,7 +188,35 @@
             }
           },
           {
-            "id": "dab6efc8a594f279",
+            "id": "582e2df218784cac",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM",
+              "state": {
+                "calendar": "ID_c83a681958fb",
+                "ephemeral": {
+                  "viewing": {
+                    "day": 1,
+                    "month": 5,
+                    "year": 4725
+                  },
+                  "viewState": 1,
+                  "displaying": {
+                    "day": 8,
+                    "month": 5,
+                    "year": 4725
+                  },
+                  "displayDayNumber": true,
+                  "displayAbsoluteYear": true,
+                  "displayMoons": true
+                },
+                "id": "ID_e9b8fb0a1bd9",
+                "child": "ID_da8859f979fb"
+              }
+            }
+          },
+          {
+            "id": "87ee60fb283cbca2",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -127,28 +226,34 @@
                 "searchQuery": ""
               }
             }
-          },
-          {
-            "id": "90aa2952518d2890",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Enmity Cycle/EC - Prep Work To Do.md"
-              }
-            }
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "8274381c4eb283dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "659da17274ed1248",
+            "type": "leaf",
+            "state": {
+              "type": "CALENDARIUM_AGENDA",
+              "state": {
+                "calendar": "ID_c83a681958fb",
+                "id": "ID_da8859f979fb",
+                "parent": "ID_e9b8fb0a1bd9"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 382.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "dbfolder:Create a new database table": false,
-      "canvas:Create new canvas": false,
       "switcher:Open quick switcher": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
@@ -156,57 +261,58 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
-      "fantasy-content-generator:Fantasy Generators": false
+      "fantasy-content-generator:Fantasy Generators": false,
+      "calendarium:Open Calendarium": false
     }
   },
-  "active": "a9ac4d7451208d15",
+  "active": "0b18c424daabd6f4",
   "lastOpenFiles": [
-    "Enmity Cycle/NPCs/Lamasara Characters.md",
-    "Enmity Cycle/Quests and Plot Threads/Main Quest.md",
-    "Enmity Cycle/Campaign Status Document.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/My Favourite Coven of Bitches.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/My only Sunshine.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Murky Water.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Looking for Arika Avertin.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/It just takes one!.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Influence Encounter to help a Troupe.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Infiltration.md",
+    "Enmity Cycle/NPCs/Characters/Townsfolk.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Holy Vapours.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Gross Blockage.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Goin' Hard in the Sheets.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Duels.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Cop Girl.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Chase Encounters.md",
     "Enmity Cycle/Quests and Plot Threads/Side Quests & Political Plots.md",
-    "Enmity Cycle/Locations/Lamasara.md",
-    "Enmity Cycle/Party Treasure.md",
-    "Enmity Cycle/Locations/Districts/Theatre District.md",
-    "Enmity Cycle/Locations/Districts/Riverside Estates.md",
-    "Enmity Cycle/Locations/Districts/Port District.md",
+    "Enmity Cycle/Quests and Plot Threads/Background Events.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Bounty Board 3.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Bounty Board 4.md",
+    "Enmity Cycle/Locations/Districts/F-Grand Market/Hannah's Herbs.md",
     "Enmity Cycle/Locations/Districts/North Shoulder.md",
-    "Enmity Cycle/NPCs/NPC Names.md",
-    "Enmity Cycle/Locations/Districts/Lower District.md",
-    "Enmity Cycle/Locations/Districts/Little Arm.md",
-    "Enmity Cycle/Locations/Districts/Grand Market.md",
-    "Enmity Cycle/Scenes/Overland Travel.md",
-    "CompendiumDirectoryPF2e/Bestiaries/Monster Core/Qarna.md",
-    "CompendiumDirectoryPF2e/Character Building/Backgrounds/Propaganda Promoter.md",
-    "CompendiumDirectoryPF2e/Character Building/Feats/Impressive Performance.md",
-    "CompendiumDirectoryPF2e/Bestiaries/Monster Core/Fortune Dragon (Young, Spellcaster).md",
-    "Enmity Cycle/Locations/Lamasara's Factions.md",
-    "Enmity Cycle/PC Stats.md",
-    "Systems and Adventures on my Radar.md",
-    "Enmity Cycle/Scenes/Quest #6 Archaeology in Aspenthar.pdf",
-    "Enmity Cycle/Scenes/Prisoners Of The Electric Castle.pdf",
-    "Enmity Cycle/Scenes/21 In Pursuit of Water.pdf",
-    "Enmity Cycle/Scenes/17_ Trapping The Hag's Claw.pdf",
-    "Enmity Cycle/Scenes/08_ Battle For Star's Fate.pdf",
-    "Enmity Cycle/Scenes/06_ Signal From The Electric Laboratory.pdf",
-    "Enmity Cycle/Scenes/04_ To Seek The Heart Of Calamity.pdf",
-    "Enmity Cycle/Scenes/S09-07 - Salvation of the Sages.pdf",
-    "zz-Attachments/Enmity Cycle Assets/Map Resources/Hex - Urban - Tower (lush).png",
-    "zz-Attachments/Enmity Cycle Assets/Map Resources/Hex - Urban - Tower desert.png",
-    "zz-Attachments/Enmity Cycle Assets/Map Resources/Hex - Urban - Modern Town, abandoned desert 1.png",
-    "zz-Attachments/Enmity Cycle Assets/Map Resources/Hex - Urban - Monastery desert edited.png",
-    "zz-Attachments/Enmity Cycle Assets/Map Resources/Hex - Urban - Monastery (lush).png",
-    "zz-Attachments/Enmity Cycle Assets/Map Resources/Hex - Urban - Farm desert.png",
-    "zz-Attachments/Enmity Cycle Assets/Map Resources/Hex - Urban - City desert.png",
-    "zz-Attachments/Enmity Cycle Assets/Map Resources/Hex - Ruin (desert).png",
-    "zz-Attachments/Enmity Cycle Assets/Map Resources/Hex - Plains (desert) 5.png",
-    "zz-Attachments/Enmity Cycle Assets/Map Resources/Hex - Plains (desert) 4.png",
-    "zz-Attachments/Enmity Cycle Assets/Map Resources",
-    "Enmity Cycle/Map Resources",
-    "Enmity Cycle/Scenes/Running Dungeons.md",
-    "Enmity Cycle/Quests and Plot Threads/Key Info and Clues.md",
-    "Enmity Cycle/Ideas for Enmity Cycle.md",
-    "Enmity Cycle/EC - Prep Work To Do.md",
+    "Enmity Cycle/NPCs/Antagonists/Water Lords.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Bounty Board 2.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Bounty Board 1.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Angry Guest.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/Ancient Grudge.md",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/An Ear Full of Pain.md",
+    "Enmity Cycle/Scenes/Society Modules/Archaeology in Aspenthar.pdf",
+    "Enmity Cycle/Scenes/Society Modules/21 In Pursuit of Water.pdf",
+    "Enmity Cycle/Screenshot 2024-07-14 115241.jpg",
+    "Enmity Cycle/Screenshot 2024-07-14 201059.jpg",
+    "zz-Attachments/Enmity Cycle Assets/EC-Character Art/nastya- shcherbakova.jpg",
+    "zz-Attachments/Enmity Cycle Assets/EC-Character Art/Thulgurn Lastaxe - nastya- shcherbakova.jpg",
+    "zz-Attachments/Enmity Cycle Assets/EC-Character Art/Thulgurn Lastaxe - nastya-shcherbakova.jpg",
+    "zz-Attachments/Enmity Cycle Assets/EC-Character Art/sanjin-halimic-sanjinhalimic-innkeeper-1400px.jpg",
+    "zz-Attachments/Enmity Cycle Assets/EC-Character Art/Security manager by willobrien.jpg",
+    "Enmity Cycle/Security manager by willobrien.jpg",
+    "Enmity Cycle/sanjin-halimic-sanjinhalimic-innkeeper-1400px.jpg",
+    "zz-Attachments/Enmity Cycle Assets/EC-Character Art/Ragmor Evendelver.jpg",
+    "zz-Attachments/PDFs/Pathfinder Society Guide.pdf",
+    "Enmity Cycle/Farseer Tower.jpg.0.pdnSave",
+    "Enmity Cycle/Scenes/Society Modules/S09-07 - Salvation of the Sages.pdf",
+    "Enmity Cycle/JonahtheLich1720200553.json",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/5 - Of Reefs & Ruin/Of Reefs & Ruin - Bestiary.pdf",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/5 - Of Reefs & Ruin/Of Reefs & Ruin - Map Folio.pdf",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/5 - Of Reefs & Ruin/Of Reefs & Ruin - Adventure.pdf",
+    "Enmity Cycle/Quests and Plot Threads/Side Quests/5 - Of Reefs & Ruin/Bestiary.pdf",
     "Untitled.canvas"
   ]
 }

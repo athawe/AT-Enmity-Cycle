@@ -9,9 +9,9 @@ defenses:
 rulers:
   - democracy
   - Kharane
-population: 8300 (60% humans, 15% dwarves, 10% elves, 10% gnomes, 5% other)
+population: 8300 (40% humans, 40% dwarves, 10% gnomes, 5% elves, 5% other)
 imports: 
-exports: 
+exports: metal, ore
 level: 6
 languages:
   - Osiriani
@@ -23,10 +23,11 @@ Religions:
   - Sarenrae
   - Brigh
   - Gozreh
+  - Torag
 Threats:
   - harsh environment
   - raiders from the mountains
-  -  out-of-control clockworks
+  - out-of-control clockworks
 alignment: Neutral
 ---
 
@@ -84,5 +85,5 @@ Gamplix Noraneanithar (CG male gnome inventor 12) Erratic creator of clockwork m
 - contains many windmills that power the city's ingenious industry.
 - The people of Duwwor have little interest in the other cities of Thuvia, and try to live in harmony with the desert. Because of this, the city is an ideal place to find a desert guide. A circle of desert [druids](https://pathfinderwiki.com/wiki/Druid "Druid") live close to the city with a reputation of being good allies and bad enemies.
 - Quality Resources Few can deny the fine quality of ore from Duwwor. Ingots of steel, silver, and adamantine up to high quality are always available, although all these materials cost 10% more than normal. Their purity makes them easy to work with; the Craft activity done with these materials takes 1 fewer day (minimum 1). 
-- 
+- The dwarves of [[Duwwor]] export the best ore, and control how much they sell to other city-states tightly. This keeps Aspenthar in check
 ---

@@ -8,11 +8,11 @@
   "various-complements",
   "workspaces-plus",
   "obsidian-style-settings",
-  "dataview",
-  "dbfolder",
   "obsidian-excalidraw-plugin",
   "obsidian-dice-roller",
   "obsidian-5e-statblocks",
   "fantasy-content-generator",
-  "initiative-tracker"
+  "initiative-tracker",
+  "calendarium",
+  "dataview"
 ]

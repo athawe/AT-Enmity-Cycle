@@ -169,6 +169,7 @@
 	1. [[Called]] (60 gp)
 	2. Returning (55 gp)
 	3. [[Crushing]] (50 gp)
+	4. [[Cunning]] (140 gp) (Pathfinder Society secret)
 
 ## 4th level items
 1. [[bag-of-holding]] type 1

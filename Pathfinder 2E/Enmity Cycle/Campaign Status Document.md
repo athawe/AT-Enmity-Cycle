@@ -4,7 +4,9 @@
 
 
 ## Background Events
-
+- Someone has been replacing plants in North Shoulder with [[Bloodlash Bush]]es that attack people in the dark. It starts off with people suspecting the attacks as being some kind of invisible stalker. 
+- A week before the sun orchid festival, a clan of notorious Roma-esque people from one of the Water Lord's domains show up. It's the talk of the town as foreign dignitaries and other nobles come to town. By the next day, Queen Zamere decides to have them removed from town.
+- .
 
 ## Scenario Updates 
 

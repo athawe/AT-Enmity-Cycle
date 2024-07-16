@@ -5,12 +5,17 @@
 ## Flavour Plans
 - Food and spices as loot. Thuvia relies on food imports.
 - Look for the rules on water requirements...even a barrel of water can be viable loot if survival issues are brought to the forefront.
-- Art objects as loot. 
+- Art objects as loot, leading to clues that further the plot. (who the artist is or what the art portrays/does)
 - The areas outside of cities are left to monsters and those brave enough to set up out in the wilderness.
 - Really impress the players with the strength of a boss early to set the tone. 
 - A curse inflicts a random child every generation causing it to transform into an aberrant beast upon its 16th birthday. The source of this is the ghost of a young man who was in line to be pharaoh 1000s of years ago. An artifact that his spirit has bonded with has been used as a decoration for ages. Perhaps his sword is used as part of a decorative sundial.
+- Tempt the party with [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Graveknight|Graveknight]] armour.
 
 - I should have a workspace prepared in Obsidian for social encounters with a page for tracking reputation and social scores. Also a workspace for exploration scenes (don't forget to track time)
+
+- I'll wash my beard in your blood!
+
+- Maybe the reason I don't find that the group engages with the world to the extent that I wish they did is because they are presented with areas that don't feel like they need heroes. If things are fine and dandy, who needs heroes?
 
 ## Lamasara House Rules 
 - Everyone is making characters at level 4 for this game, expecting to pass level 6 by the end. I'll be adding in some extra content, but not a ton. Please build short backstories for your characters, using details on the local area as well as the backstory starters below.

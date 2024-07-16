@@ -1,0 +1,12 @@
+- The campaign starts off with everyone attending a play, themed like a jovial musical (name?). At the beginning there's an announcer (female gnome?) giving special thanks mentioning that 
+	- someone from the ever generous **Other Hand** had secured this favoured venue (which theatre?) 
+	- the ever gracious **Zridi** sponsored the playwright, the esteemed Valls, known throughout the Golden Road  
+	- and the ever blessed presence of Shelyn's faithful amongst the cast and crew to encourage quality and dedication to artistic rigor
+- describe some people in the crowd and how they act while things develop.
+	- each PC could notice 2 people or groups of people in the theatre. It's dim light within, apart from the stage.
+- A few minutes into the second musical number someone yells *Fire!!* in a crowded theatre. 
+- Chaos ensues 
+	- Who is there and how do they react? 
+- Who did it? why? 
+- I don't really want "committing arson for insurance money" to be the starting tone of the adventure.
+- What's the source of the fire? Combat time! 

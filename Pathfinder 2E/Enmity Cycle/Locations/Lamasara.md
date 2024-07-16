@@ -9,7 +9,7 @@ defenses:
 rulers:
   - monarchy
   - Queen Zamere
-population: 11450 (40% humans, 20% dwarves, 15% elves, 10% gnomes, 5% halflings, 5% catfolk, 5% other)
+population: 11450 (40% humans, 20% dwarves, 15% halflings, 10% gnomes, 5% elves, 5% catfolk, 5% other)
 imports:
   - reliant on food imports
 exports: 
@@ -82,8 +82,8 @@ alignment: Chaotic Good
 - Includes outskirts of town. 
 - Soccer, golf, camel racing, sandboarding all happen on the outskirts 
 ### Core Structures
-- Larksong Temple - Shelyn worship 
-- Serene Spiral - an important temple to Pharasma. 
+- [[Larksong Temple]] - Shelyn worship 
+- [[Serene Spiral]] - an important temple to Pharasma. 
 	- Its central feature is a delicate-looking alabaster tower with the image of a comet spiraling upward carved into its exterior. Those who want to bid on the sun orchid elixir often come here first to present offerings in hopes of earning favor with the goddess before they make their purchase.  
 	- Outer edge of the Theatre District 
 	- It rose up stark and black against the sky, its dark walls in startling contrast to the ocher mud brick of the buildings around it. Here were the same high, gothic spires and sharply peaked roofs that would have been at home in the streets of Egorian or Oppara. Clearly the priests in Lamasara had been heavily influenced by their northern comrades, rather than the lighter, airier practices of the south.
@@ -92,55 +92,44 @@ alignment: Chaotic Good
 	- Extensive catacombs beneath the church, holding many of those worthy. Wide stone stairwell heading down to them as well as up the main tower. 
 	- In theory, every church of Pharasma was run by a triumvirate of priests representing the goddess’s threefold concerns—birth, death, and prophecy. That was in theory, and it held in some of the bigger cities. In practice, many churches had one priest—often the priest concerned with death, the goddess’s most public face—who rose above his or her fellows, becoming the de facto leader of the church as a whole. Khoyar had. There are towers for each of the high priests.
 - Also temples to Abadar and Sarenrae
-- J.A. Wittle's, the technical academy 
-	- As his numerous duties keep him busy in Absalom, Lord Yamthar tasked an associate of his, **Vinn Gharban** (NG male human inventor), to oversee renovations on the building site and attract instructors and creators to join in getting the academy up and running.
+- [[J.A. Wittle's]], the technical academy 
+	- As his numerous duties keep him busy in Absalom, Lord Yamthar tasked an associate of his, **[[Vinn Gharban]]** (NG male human inventor), to oversee renovations on the building site and attract instructors and creators to join in getting the academy up and running.
 ## Key Characters
 ### Government 
-- **Queen Zamere** (NG female human queen 10) Queen of Lamasara, famed orator 
+- **[[Queen Zamere]]** (NG female human queen 10) Queen of Lamasara, famed orator 
 	- often Thuvia’s chief representative in international business. She administers the city with a light touch to build and maintain the welcoming and creative environment Lamasara is known for. Those who work alongside her, however, know that she is a determined, driven leader with little time for nonsense. She tries to attend as many performances as time permits, and occasionally she holds small classes in the art of public speaking for the children of important community members.
 	- She knows that her competent and experienced advisors on her council are more than capable of handling affairs in her stead. 
-- **Sheed Caltor** - (CG male orc noble 4), Lord of Commerce
-- **Horgron Hardale** - (LG dwarf [[Warden]] 8), Lord of Law 
-- **Luwarin Laramelkii** - (CG elf [[Astronomer]]), Lord of Art
+- **[[Sheed Caltor]]** - (CG male orc noble 4), Lord of Commerce
+- **[[Horgron Hardass]]** - (LG dwarf [[Warden]] 8), Lord of Law 
+- **[[Luwarin Laramelkii]]** - (CG elf [[Astronomer]]), Lord of Art
 ### Commerce
 #### Taverns / Inns
-- **Quinten Murrey** (CG male human bard 12) Skilled performer with tales of his plane-hopping adventures 
+- **[[Quinten Murrey]]** (CG male human bard 12) Skilled performer with tales of his plane-hopping adventures 
 #### Others
 - Starbow’s Tours
-	- Proprietor - **Silue Starbow** (CN female elf guide 8)
+	- Proprietor - **[[Silue Starbow]]** (CN female elf guide 8)
 	- offering expeditions into the desert.
 ### Religion 
-- **Khoyar Roshan** - (male human cleric 16) High priest of Pharasma at the Serene Spiral
-	- tall and lean, dark hair, perhaps in his late forties. Cassock of highest quality black silk, with silver thread piping. Large silver ring, and silver spiral shaped holy symbol. His clean-shaven face was strong and proud, with the hooked Thuvian nose and darkly tanned skin, yet something in the way he held his lips—thin and tight—kept him from being truly handsome, giving him a somewhat effete, officious air.
-	- I am High Priest Khoyar Roshan, steward of Death and shepherd of Lamasara’s faithful.
-- **Djamila Nacera** (NG female half-elf cleric 10) High priestess of Shelyn at the Larksong Temple.
-- **Tritra Tombes** , priest of Sarenrae 
+- **[[Khoyar Roshan]]** - (male human cleric 16) High priest of Pharasma at the Serene Spiral
+- **[[Djamila Nacera]]** (NG female half-elf cleric 10) High priestess of Shelyn at the Larksong Temple.
+- **[[Tritra Tombes]]** , female gnome cleric 8, priestess of Sarenrae
+- [[Barrick Flintmane]], male halfling cleric 12, High priest of Abadar
 ### Others 
-- **Lady Leantina Issa Jbade** 
-	- Lounging on the mattress like a cat, she wore a long gown of iridescent green which clung flatteringly to her slim waist and rounded hips, a long slit exposing a smooth expanse of leg all the way up to the outside of her thigh. Her arms were bare and bronze, and Salim would have put her as roughly thirty years old if her face didn’t display the delicate, porcelain features of the elf-blooded. Slightly pointed ears poking through the sheer black waterfall of her hair confirmed the fact, as did slanted eyes with oversized emerald irises.
-	- resides in the theater district, just up the hill from a place called the Firelark
-	- “Every man in Lamasara knows the Queen of Spice. Some might try to deny it, but only in their wives’ hearing. Among other men, they say that a pretty girl puts an ache in your heart, but Lady Jbade strikes lower. I saw her dance once as a boy, when I snuck away from the market with my father’s purse.” He sighed. “I learned more watching her on stage than I have in twenty years of marriage.”
-	- “They say her mother was the most beautiful elf in Kyonin, overcome with lust for a simple herdsman as her retinue passed through Qadira. The result was Jbade. When she was in her prime, her dancing would make a Calistrian temple-whore blush. Half the nobles in Lamasara have attempted to claim her, but she owns the most popular theaters in the city, as well as the best brothels. If she dances anymore, it’s not because she has to. Nor for us to see.”
-	- Women of all shapes and colors, from a black-skinned Zenj Mwangi woman with the proud shoulders of a jungle warrior to an impish Vudrani in saffron silks, and even a purple-haired gnome whose plum-colored nipples were visible shadows through the gauzy white wrap she wore. Short and tall, willow-thin or well upholstered, there was no question that each was striking in her own way. A full dozen of these women lounged in chairs or perched on benches, laughing and playing games with colored stones or quietly conversing with each other.
-	- Lady Jbade’s manor looked like a combination theater and brothel. The grand entryway was hung thick with silks and tapestries, the walls beyond sporting murals and mosaics of tiny, colored pieces of glass blown from desert sands. Several more women lounged on low couches or leaned over the upstairs balcony, seemingly with no other purpose than to be seen. In lieu of doorways, most of the chambers that extended off of the house’s hallways bore curtains of diaphanous cloth or beads that could be drawn across the opening. Some had been left open, and through these Salim saw women dancing slowly and sensually for men with expensive clothes and wide grins. Some of these women wore elaborate costumes, others cascades of tiny bells that provided their own accompanying music. Still others wore nothing at all. And these were just the doors that were left open. Of the rooms they passed, twice that number had the curtains drawn, and from behind these came laughter, moans, and the occasional shriek.
-	- Jbade waved a hand dismissively. “Talent is everywhere in Lamasara. Throw a stone and you’ll bruise a dancer or a singer. Most will never make it beyond a street corner in the marketplace, let alone into the top cabarets. Yet there are a few with potential, and I try to take those under my wing, help them make a name for themselves.”
-	- “I offer them a chance to improve their routines and perform in reputable venues. And in return, they agree to help me entertain my many friends to the fullest of their abilities.”
-	- So that was her game. No wonder the women out front and in the curtained rooms had seemed so studied in their movements. Though he had never been much for art, Salim understood that patronage—more commonly known as “sleeping your way to the top”—was common in the performance circles of many cities. In Lamasara, Lady Jbade appeared to have codified it, trading top billing for the performers’ willingness to prostitute themselves to their fans, with Jbade acting as their madame.
-	- Jbade was indeed a bastard child of the elf nation Kyonin, though Salim didn’t ask about the story Olar had told him. Relegated to the port city of Erages and denied full citizenship in her country of origin due to the human blood in her veins, she quickly developed a grudge against her elven kin. Though she matured into an unparalleled beauty, even among those who shared her benevolent breeding, she seethed with resentment, knowing that hers was a perfection that would fade with comparative speed while the true elves remained almost ageless. Furious, she took sail on a ship headed down the Sellen and left her patronizing kin behind, paying for her passage in the universal coin. It was this first transaction, with a gruff but kind river captain, that set her on her course.
-	- From the dance halls of Cassomir to the highest courts of Absalom, beautiful Jbade practiced her art, amassing a sizable fortune as both a high-profile dancer and a courtesan and sometimes wife to a number of powerful and aged nobles. When the last of these died, she liquidated her assets and set sail for Lamasara and the fabled sun orchid elixir, with which she could at last achieve what even her pureblooded cousins could not—eternal youth.
+- Lady [[Leantina Issa Jbade]]
+- [[Hakren Zost]] - Head of Runewatchers faction, strongest wizard in town. 
+- [[Deyad Vhiski]] - head of The Other Hand 
 	- 
-- **Hakren Zost** - Head of Runewatchers faction, strongest wizard in town. 
-- **Deyad** - head of The Other Hand 
-	- 
-- **Kylas Akhom** - head of The Lingering Note 
+- [[Kylas Akhom]] ([[Indrajit]]) - head of The Lingering Note 
 	- “This was an orange,” he said. “A man is a far easier target, and the desert has no shortage of shallow graves, nor of men willing to keep a prisoner alive and hidden to prevent resurrection. I am a criminal, it’s true, but I am an honest one, as I believe I have proved. And first and foremost, I am a businessman.”
 - 
 ## DM Notes
+- Lamasara is called the *jewel of the desert*. 
 - *Artistically Inclined* - The incredible art scene in Lamasara means there are more opportunities for those interested in creative work. Earn Income tasks up to level 15 are available for any Craft related to the arts, as well as Performance.
 - Lamasara is known across Thuvia as a center of arts, entertainment, and pleasure, as well as place of diplomacy and negotiation.
 - While Lamasara is known as a center of art and diplomacy, there have been efforts to open technical academies in the city, drawing on the study of ancient Jistkan techniques found in the deserts. The most recent and likely to succeed is being pursued and funded by **Lord Yamthar**, a power player in Absalom and Queen Zamere’s cousin.
 - Shelyn (pray for divine inspiration or guidance), Desna (the luck she can grant and the protection over nighttime performances she provides) and Sarenrae are all popular here. 
-- Lamasara is called the *jewel of the desert*. 
+- [[Queen Zamere]]'s Lord of Law ([[Horgron Hardass]]) commissions the Bank of Abadar to run the sheriff's office and law enforcement in town. Because of limited resources, they pay a regular fee to Prince Zinlo in [[Aspenthar]] for a few squads of his soldiers to aid them in and around Lamasara. The Queen keeps a small retinue of Lamasarans around her. 
+- The soldiers from Aspenthar have uniforms of orange, blue, and black. Lamasaran soldiers have uniforms of red, orange and white.
 - the dry, baking heat that comes only from the desert. Not even the spray from the river could completely eliminate the fine, particulate grit that permeated the air.
 - Thuvian saying - "Man is made for the desert, for what is man but dust and water?" 
 - The city was as bright as any garden. The city opened itself in a barrage of color and sound. Awnings dyed every hue of the rainbow shaded market stalls in which hawkers pressed their wares on passersby at the top of their lungs. Irritable camels stomped and spat, and urchins ran riot through the streets, thieving what they could from greengrocers and wine merchants. And everywhere—everywhere—there was music. Sitars and tambourines and low horns, and a thousand others besides, blending in with the crowd until it was impossible to tell the rumble of the drummers from the breathing of the city itself.
@@ -153,13 +142,13 @@ alignment: Chaotic Good
 ![[Lamasara's Factions]]
 ## Living in Lamasara
 Homeless PCs can always attempt to *Subsist* in the alleys (with a *DC 13 Society check*), by hiding in a hazardous location (with a *DC 15 Stealth check*), or in the immediate hinterlands (with a *DC 17 Survival check*). 
-### EARNING INCOME 
+### Earning Income 
 - While it’s expected that the PCs’ primary source of income is adventuring, there’s plenty of opportunity to augment wallets and coffers during downtime via Earning Income. Any PC can attempt to Earn Income in Lamasara with a *Crafting, Lore, or Performance check*, but the maximum task level that can normally be attempted in town is equal to that of Lamasara’s level: *4*. Earn Income tasks up to *level 15* are available for any Craft related to the arts, as well as *Performance*.
 - A shady PC can attempt to Earn Income through petty crime such as pickpocketing, running con games, or even minor burglaries, but without support, a freelance criminal in Lamasara runs a greater risk of punishment. As with other methods of earning income, unsupported Thievery in town is limited to a maximum task level of 4. 
 - If a PC fails at an attempt to Earn Income with Thievery, they can abandon any payment they would have earned from the failure to escape repercussions, otherwise they’re caught in the act; a critical failure guarantees being caught. 
 - Each time a PC is caught during freelance Thievery, the party loses 1d4 Reputation Points from every faction. For minor crimes, the PC is expected to return all stolen property and pay a fine to the town equal to twice the value of the property they stole or face a number of days in jail in the garrison. An agent of the The Other Hand is likely to approach a captured PC to offer them a chance at freedom if they join the club— see Earning Reputation below. 
 - Earning the support of an NPC who lives at an employer location (see Earning Support below) often allows a PC to use other skills to Earn Income or unlocks higher task levels to pursue. 
-### EARNING SUPPORT 
+### Earning Support 
 If a PC adjusts an NPC’s attitude condition to *Helpful* (which might require completion of a task, but *usually just requires successful Diplomacy checks to Make an Impression*), that NPC’s location supports the party in certain exploration and downtime activities. The specific benefits are based on the location’s traits and are listed below. This support generally lasts throughout the campaign, although sometimes events in play can automatically adjust support—some examples are noted in the individual adventures, but other events in the game should have ramifications as well. There’s no limit to the number of locations that can support the party; once the PCs gain the support of a location, they retain it until significant events say otherwise. 
 Some locations allow certain types of characters to *retrain more efficiently* once they’ve made that location’s NPC Helpful. In such a location, retraining that would normally require a week takes only 5 days, retraining that would normally require a month takes only 3 weeks, and the retraining itself is generally free. Every location’s first tag indicates what faction it belongs to. The first time anyone in the party earns the support of a location, the party increases their Reputation Points with that faction by 1, unless they are already **Admired** or **Hated**, in which case no Reputation Points are earned. 
 **Criminal**: Characters who focus on criminal activities can retrain efficiently at this location. A character who uses Underworld Lore to Earn Income gains a +1 circumstance bonus on the check. A character can use Thievery to Earn Income (the task level is equal to or less than the NPC’s level), but a critical failure on this check may result in legal action or possible imprisonment. 

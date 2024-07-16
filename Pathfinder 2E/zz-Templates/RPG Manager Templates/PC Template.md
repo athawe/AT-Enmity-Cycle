@@ -19,7 +19,6 @@ WillSave: ""
 faith: []
 ---
 ### Core Details
----
 **Player:** `=this.title`
 **Character Name:** `=this.name`
 **Alignment:** `=this.alignment`
@@ -34,39 +33,27 @@ faith: []
 - Refl:  `=this.ReflSave`
 - Will:  `=this.WillSave`
 ### Secondary Details
----
 **Faith:** `=this.faith`
 **Appearance:**
 **Languages:** 
 ### Health-Speed-AC 
----
 HP: `=this.health`
 AC: `=this.AC`
 Speed: `=this.speed`
 ### Feats and Note-worthy Abilities
----
 - #### Ancestral
 - 
 - #### Class Based
 - 
 - #### Items
-- .
+- 
 - #### Languages 
-- .
+- 
 ### Combat Specs
----
-
 
 ### General Notes
----
 - 
-```dataview
-table without ID name, owner
-from "RPG Note Vault/Pathfinder 2E/Netherdeep/Party Treasure"
-```
 ### Backstory
----
 - 
 ### Downtime Activities
----
 - 

@@ -10,19 +10,34 @@ Mardum Shokun
 Rizeim Binni  
 Bacror Silverorb  
 Vildem Evenspear  
-Kebrol Radz  
-Pam Dukrutsk  
 Brordur Dreamforce  
 Eth Mossbrand  
 Koned Fezrahr  
-Vlorondos Garolmonze  
-Bazer Teretra  
-Hu Piaong  
-Thaw Eim  
-Zantuldal Vudrendu  
+Ugadh Restud  
+Daqdin Doshaa  
+Thosir Viskher  
+Addalf Rakom
+Jodden Bebul
+Icon Injol
+Yaeskad Dreamwind  
+Firninn Sharpmark
+Hrornell Dreamkiller  
+Estaur Hallowbear  
+Evgec Vhegrent  
+Suadas Andong  
+Vastis Charton 
+Hingarr Bronzeblade  
+Olmi Enbur  
+Raulmi Grollo
+Hashim
 Palie Fuciso
 Augustinius
 Marzellus  
+Galmod Shilmus  
+Omdel Stargel  
+Osga Forestrock  
+Emru Makuth
+Funki Jeenho
 Linn  
 Muck  
 Blaize  
@@ -32,35 +47,20 @@ Duval
 Shlomo
 Thorley  
 Diego
-Madin Khossan  
-Sahlum Mammal  
-Tibrirk Terrascar  
-Radron Glask  
-Sel Glovrotsk  
-Blagrarth Tarrenbreath  
 ### Female
 Fahmeil Jessu  
 Tainaznu Fourgleam  
 Luzze Rivercreek  
 Mohris Sask  
-His Rekrorsk  
-Sistrothro Horserock  
-Mivi Slatewalker
-Seeri Brightmane  
 Termel Dig  
 Hoh Vuleg  
-Eshemay Flintvigor  
 Veni Crystalshine  
-Nufrathoh Dithezdob  
-Humoth Luldrihk  
-Enrulmin Chagibyemo
 Fasmeil Dasha
 Za Grerniz  
 Wilotha Rockridge  
 Lafrey Morninghand
 Omol Mukhid  
 Tiellirva Honormourn  
-Randree Glowshade  
 Mirmoh Glug  
 Ro Gruvrog
 ## Elf 
@@ -89,7 +89,6 @@ Admaris Dawnsmile
 Kelcan Lunarlight  
 Ianvalur Farspirit  
 Farnan Wildsinger  
-Tralamin Bluebrook  
 Carris Shievoth  
 Luwarin Laramelkii  
 Hernelis Futhras  
@@ -185,32 +184,25 @@ Thonus Bravemane
 Hulthran Lastbrow  
 Morram Halfstorm  
 Berkuhm Glazzenuln  
-Thurrigg Bekan  
-Dalkuhm Gonkonart  
-Bannik Mankikam  
 Grenrik Brolduhr
 Horrim Kindbranch  
 Thurdek Bloodback  
 Adkuhm Broodbleeder  
 Bhargrom Bloodhandle  
 Mormyl Fireguard
-Berkom Stormale
 Hjaldrak Brighthead
 Kharmyr Bigboots
 Horgron Hardale  
 Ermtharm Cohir  
 Brangran Grodum  
 Bardan Dreriverk  
-Thalbek Cahehk  
-Rannam Bruronn
 Hjalrus Stonedelver  
 Hjalrom Brightfury  
 Adbek Broadfeast  
 Huldor Coldtale  
 Huldrak Brawnbelt
 Thalryl Bronzekith  
-Thordan Darkstrike  
-Ragmor Evendelver  
+Thordan Darkstrike   
 Thurbrek Evenboot  
 Regrigg Cerdarihk  
 Thuldrak Taengaren  
@@ -230,13 +222,8 @@ Germyl Graherr
 Bryllelen Drenkonuk
 Gemwin Starkstand  
 Tyshthiel Deepbuster  
-Katri Darkfeast  
-Maerla Broodreach  
 Gerryl Keenblood  
-Bryllenyss Grezzann  
-Nasssyl Raezzok  
-Brilnip Hofdorack  
-Bryllenan Berenert  
+Bryllenyss Grezzann   
 Dimsael Struzzirihr
 Bralledille Strongguard  
 Tiznora Goldblade  
@@ -270,14 +257,12 @@ Uriric Longtopple
 Gohorn Nightdew  
 Tarrich Warmpot  
 Sanfire Thistlebloom  
-Anzu Greengather  
 Zalret Dusttopple  
 Flynrich Proudcobble  
 Sanras Bigbluff  
 Idoner Stillrabbit  
 Springdancer
 ### Female
-Isaleigh Nightspirit  
 Marleigh Marbledance  
 Leris Underbottle  
 Hilnys Springhill  
@@ -296,7 +281,6 @@ Breora Shadowearth
 Shaemia Mildsurge  
 Thamhaly Earthseeker  
 Darkath Greencreek  
-Paeda Rosemane
 ## Gnome 
 ### Male 
 Orukas Tinkermane  
@@ -304,7 +288,6 @@ Aldon Thistlespring
 Umgim Deepflow  
 Sinhim Boonbit  
 Biltor Copperfeast  
-Kasgrim Higgladabol  
 Umfan Wickledackle  
 Zanston Onpidomp  
 Horvyn Ziddlezaddle  
@@ -868,8 +851,7 @@ Agile Stone (Agile)
 Grand Smoke (Grand)  
 Twin Fish (Twin)  
 Lone Stitch (Stitch)
-
-
+Poumkym  Meowise
 
 ## Group Names 
 The Soldiers of the Ash 

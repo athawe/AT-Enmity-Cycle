@@ -97,9 +97,3 @@ We're not here to optimize builds. When you level up, think about and take the o
 
 ## Setting 
 - Really good and expensive tobacco comes from Garund.
-
-
-## Various Ideas 
-- Patty Hearst 
-- Dwarven mega-dungeon campaign, 1-20. Write characters with detailed backstories, connections, and personalities.
-- Bounty board missions

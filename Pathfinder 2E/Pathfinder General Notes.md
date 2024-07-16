@@ -951,3 +951,30 @@ Monsters with Grab changes
 Before - hit with grab, monster spends action -> grabbed automatically
 
 Remaster - hit with grab, monster spends action, -> roll grapple as usual, but disregard MAP, nor cause MAP.
+
+## Remaster Changes 
+Several languages have been renamed.
+- Abyssal is now Chthonian.
+- Aquan is now Thalassic.
+- Auran is now Sussuran.
+- Celestial is now Empyrean.
+- Druidic is now Wildsong.
+- Gnoll is now Kholo.
+- Ignan is now Pyric.
+- Infernal is now Diabolic.
+- Sylvan is now Fey.
+- Terran is now Petran.
+- Undercommon is now Sakvroth.
+
+**Removal of Spell Schools** Seven of the eight spell schools have been removed: Abjuration, conjuration, divination, enchantment, evocation, necromancy, and transmutation have been removed from spells, feats, equipment, and the like. Illusion is still a trait used in the remaster rules and has been kept.
+
+**Removal of Spell Components** Spell components (verbal, somatic, material) have been removed from all spells. If a spell had a verbal component it gained the concentrate trait. If the spell had a somatic component it gained the manipulate trait. As a general rule, all spells now require speaking. This general rule is modified by the new 'subtle' trait.
+
+**Removal of Alignment**
+
+Lots of renamed features, like Attack of Opportunity to Reactive Strike 
+\
+- Darkwood is now duskwood.
+- Mithral is now dawnsilver.
+
+Most equipment changes are direct renames.

@@ -1,5 +1,0 @@
-- Start of with a play, mentioning that Zridi is the sponsor, describe some people in the crowd and how they act while things develop.
-- Someone yells Fire in a crowded theatre 
-- Chaos ensues 
-- Who did it? why? 
-- What's the source of the fire? Combat time! 
