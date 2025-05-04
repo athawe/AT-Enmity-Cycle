@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/earth
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Cobbleswarm (B5)"
@@ -25,9 +26,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "earth"
-trait_03: "swarm"
+trait_01: [[aberration]]
+trait_02: [[earth]]
+trait_03: [[swarm]]
 modifier: 9
 perception:
   - name: "Perception"

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.VCYF0NAfPKwTHkK1"
 tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/3
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "mindless"
+trait_01: [[aberration]]
+trait_02: [[mindless]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -53,10 +54,10 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Disgusting Demise"
-    desc: " (acid,poison) When the grothlut is reduced to 0 Hit Points, its digestive organs rupture, unleashing alchemical acid and poison upon all creatures in a 30-foot emanation. Each creature in the area must succeed at a DC 19 Fortitude check save or take 2d6 acid damage and become [[Conditions/Sickened 1|Sickened 1]] (double damage and [[Conditions/Sickened 1|Sickened 2]] on a critical failure)."
+    desc: " (acid,poison) When the grothlut is reduced to 0 Hit Points, its digestive organs rupture, unleashing alchemical acid and poison upon all creatures in a @Template[emanation|distance:30]. Each creature in the area must succeed at a DC 19 Fortitude check save or take 2d6 acid damage and become [[Conditions/Sickened|Sickened 1]] (double damage and [[Conditions/Sickened|Sickened 2]] on a critical failure)."
 
   - name: "Piteous Moan"
-    desc: " (auditory,aura,concentrate,emotion,mental,occult) 60 feet.\n\nEach nongrothlut creature that enters or starts its turn within the area must succeed at a DC 17 Will check saving throw or become [[Conditions/Sickened 1|Sickened 1]] ([[Conditions/Sickened 1|Sickened 2]] on a critical failure). The creature then becomes temporarily immune for 1 minute.\n\nThe grothlut can Dismiss this aura.\n\nA grothlut usually does not begin moaning until it senses the presence of a non-grothlut creature, and it usually stops once it doesn't sense any more such creatures."
+    desc: " (auditory,aura,concentrate,emotion,mental,occult) 60 feet.\n\nEach nongrothlut creature that enters or starts its turn within the area must succeed at a DC 17 Will check saving throw or become [[Conditions/Sickened|Sickened 1]] ([[Conditions/Sickened|Sickened 2]] on a critical failure). The creature then becomes temporarily immune for 1 minute.\n\nThe grothlut can Dismiss this aura.\n\nA grothlut usually does not begin moaning until it senses the presence of a non-grothlut creature, and it usually stops once it doesn't sense any more such creatures."
 
 attacks:
   - name: ""

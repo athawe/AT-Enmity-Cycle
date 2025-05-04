@@ -14,7 +14,7 @@ tags:
 
 # Overcompensate
 
-> Cover provides a [[Other Effects/Effect\_ +4 circumstance bonus to AC against your ranged attacks|+4 circumstance bonus to AC against your ranged attacks]] against your ranged attacks for 1 minute.
+> Cover provides a [[Other Effects/Effect_ +4 circumstance bonus to AC against your ranged attacks|+4 circumstance bonus to AC against your ranged attacks]] against your ranged attacks for 1 minute.
 
 `Ranged`
 

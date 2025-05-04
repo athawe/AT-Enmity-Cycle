@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.np82jquWwQRzRdEp"
 tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lizardfolk
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Terwa Star Reader"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #171: Hurricane&#x27;s Howl"
 name: "Terwa Star Reader"
 level: "Creature 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
-trait_02: "lizardfolk"
+trait_01: [[humanoid]]
+trait_02: [[lizardfolk]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Draconic, Iruxi"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +19, Astrology Lore: +19, Diplomacy: +22, Nature: +22, Religion: +22"
+    desc: "Acrobatics: +19, Diplomacy: +22, Nature: +22, Religion: +22, Astrology Lore: +19"
 abilityMods: [1, 5, 3, 4, 6, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder #171: Hurricane&#x27;s Howl_"

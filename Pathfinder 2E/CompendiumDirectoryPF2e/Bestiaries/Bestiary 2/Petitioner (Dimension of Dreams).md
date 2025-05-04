@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.sHKhlvs40YywkYw4"
 tags:
   - pf2e/creature/type/dream
   - pf2e/creature/type/petitioner
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Petitioner (Dimension of Dreams)"
@@ -24,8 +25,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "dream"
-trait_02: "petitioner"
+trait_01: [[dream]]
+trait_02: [[petitioner]]
 modifier: 7
 perception:
   - name: "Perception"

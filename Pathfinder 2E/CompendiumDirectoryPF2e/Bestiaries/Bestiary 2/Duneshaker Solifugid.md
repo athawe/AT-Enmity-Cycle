@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.r3yLNfqS00g8sdrT" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Duneshaker Solifugid"
@@ -23,7 +24,7 @@ level: "Creature 18"
 
 alignment: ""
 size: "grg"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -68,7 +69,7 @@ attacks:
     desc: "`pf2:1`  Claw\n\n* * *\n"
 
   - name: "Venom Spray"
-    desc: "`pf2:2` (poison) The duneshaker solifugid spews toxic barbs at all creatures in a 30-foot cone. Each creature within the area takes 10d6 poison damage (DC 39 Fortitude check save). A creature that fails its saving throw is [[Conditions/Blinded|Blinded]] for 1d6 rounds (or permanently on a critical failure).\n\nThe duneshaker solifugid can't use Venom Spray again for 1d4 rounds."
+    desc: "`pf2:2` (poison) The duneshaker solifugid spews toxic barbs at all creatures in a @Template[cone|distance:30]. Each creature within the area takes 10d6 poison damage (DC 39 Fortitude check save). A creature that fails its saving throw is [[Conditions/Blinded|Blinded]] for 1d6 rounds (or permanently on a critical failure).\n\nThe duneshaker solifugid can't use Venom Spray again for 1d4 rounds."
  
 ```
 

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/monitor
   - pf2e/creature/type/protean
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "The Scholar of Sorts (1-2)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-09: The Seven Secrets of Dacilane Academy"
 name: "The Scholar of Sorts (1-2)"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "monitor"
-trait_03: "protean"
+trait_01: [[chaotic]]
+trait_02: [[monitor]]
+trait_03: [[protean]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -75,13 +76,13 @@ attacks:
     desc: "`pf2:1` (concentrate,divine,polymorph) The Scholar takes on the appearance of any Small or smaller creature. This doesn't change its Speed or its attack and damage bonuses with its Strikes, but might change the damage type its Strikes deal.\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  1d8 + 3 bludgeoning damage, DC 20 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  1d8+3 bludgeoning damage, DC 20 Fortitude check\n\n* * *\n"
 
   - name: "Garbled Thoughts"
-    desc: " (divine,emotion,mental) A creature hit by the Scholar's bite Strike must attempt a DC 20 Will check save.\n* * *\n\n**Success** The creature is unaffected.\n\n**Failure** The creature is [[Conditions/Stupefied 1|Stupefied 1]] for 1d4 rounds.\n\n**Critical Failure** As failure, but the creature is also [[Conditions/Confused|Confused]] for 1 round."
+    desc: " (divine,emotion,mental) A creature hit by the Scholar's bite Strike must attempt a DC 20 Will check save.\n* * *\n\n**Success** The creature is unaffected.\n\n**Failure** The creature is [[Conditions/Stupefied|Stupefied 1]] for 1d4 rounds.\n\n**Critical Failure** As failure, but the creature is also [[Conditions/Confused|Confused]] for 1 round."
 
   - name: "Text Immersion"
-    desc: " (divine) When the Scholar casts [[Spells/Secret Page|Secret Page]], it can physically immerse itself in the text, changing the message of the text in the process. It can exit the book at any point by Dismissing _secret page_, at which point it appears in a space adjacent to the text. If it does so to begin combat, it rolls a Deception check for initiative.\n\nAs long as it remains immersed in the text, the Scholar has no body. It can communicate telepathically with a creature as long as the creature touches the book or scroll that contains the secret page. It can sense nearby creatures using its entropy sense, but not in any other way, nor can it use any attack, manipulate, or move actions or speak aloud. If the object they are immersed in is destroyed, the Scholar reappears in an adjacent square and is [[Conditions/Stunned 1|Stunned 1]]."
+    desc: " (divine) When the Scholar casts [[Spells/Secret Page|Secret Page]], it can physically immerse itself in the text, changing the message of the text in the process. It can exit the book at any point by Dismissing _secret page_, at which point it appears in a space adjacent to the text. If it does so to begin combat, it rolls a Deception check for initiative.\n\nAs long as it remains immersed in the text, the Scholar has no body. It can communicate telepathically with a creature as long as the creature touches the book or scroll that contains the secret page. It can sense nearby creatures using its entropy sense, but not in any other way, nor can it use any attack, manipulate, or move actions or speak aloud. If the object they are immersed in is destroyed, the Scholar reappears in an adjacent square and is [[Conditions/Stunned|Stunned 1]]."
 
   - name: "Text Passage"
     desc: "`pf2:1` (divine,teleportation) **Requirements** The Scholar is adjacent to a text they have modified with [[Spells/Secret Page|Secret Page]], and another such text is within 500 feet\n* * *\n\n**Effect** The Scholar has a way with words beyond other akizendris. They physically immerse themself into the adjacent text, which they use as a medium to teleport to another text within 500 feet that they have modified with _secret page_. Once they enter the first text, they instantly know the locations of the other texts within range.\n\nEntering a text in this manner automatically dispels the _secret page_ effect on it, but not the _secret page_ effect on the destination text. The locations of the Scholar's modified texts are marked on the map."

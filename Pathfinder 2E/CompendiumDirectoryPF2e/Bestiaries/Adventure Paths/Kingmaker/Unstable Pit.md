@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Kingmaker
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.hQ0aR4oXug0yoTbT" 
@@ -21,7 +22,7 @@ name: "Unstable Pit"
 level: "Hazard 0"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 2
 sourcebook: "_Pathfinder Kingmaker_"
 perception:

@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.z6ppbqLxzV2yoVV8" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Giant Bloodseeker"
@@ -23,7 +24,7 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ attacks:
     desc: "`pf2:1` Proboscis +7 ()\n__Damage__  1d6 + 3 piercing plus blood-drain"
 
   - name: "Blood Drain"
-    desc: "`pf2:1`  **Requirements** The bloodseeker's last action was a successful Strike with its proboscis against a target with blood\n* * *\n\n**Effect** The bloodseeker sucks blood from that target, dealing 2d4 damage, and the bloodseeker gains temporary Hit Points equal to the damage dealt. The target becomes [[Conditions/Drained 1|Drained 1]]."
+    desc: "`pf2:1`  **Requirements** The bloodseeker's last action was a successful Strike with its proboscis against a target with blood\n* * *\n\n**Effect** The bloodseeker sucks blood from that target, dealing 2d4 damage, and the bloodseeker gains temporary Hit Points equal to the damage dealt. The target becomes [[Conditions/Drained|Drained 1]]."
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

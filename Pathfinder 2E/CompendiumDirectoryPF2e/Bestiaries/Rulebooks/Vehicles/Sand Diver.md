@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
 source: Pathfinder Guns &amp; Gears
 aliases: "Compendium.pf2e.vehicles.Actor.w6auGNQQ2VyMT001" 
@@ -19,7 +20,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Guns & Gears"
 name: "Sand Diver"
 level: "Vehicle 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 
 size: "Large"
 modifier: 

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.quest-for-the-frozen-flame-bestiary.Actor.EWT9OXxBuKQL
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Rime Sludge"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #175: Broken Tusk Moon"
 name: "Rime Sludge"
 level: "Creature 1"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "mindless"
-trait_02: "ooze"
+trait_01: [[mindless]]
+trait_02: [[ooze]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Noxious Sublimation"
-    desc: "  The first time each round that the rime sludge takes fire damage, a cloud of sickening decay roils outward, dealing 2d6 poison damage (DC 17 Fortitude check) to all creatures in a 10-foot emanation. A creature that fails its saving throw is also [[Conditions/Sickened 1|Sickened 1]] (or [[Conditions/Sickened 1|Sickened 3]] on a critical failure)."
+    desc: "  The first time each round that the rime sludge takes fire damage, a cloud of sickening decay roils outward, dealing 2d6 poison damage (DC 17 Fortitude check) to all creatures in a @Template[emanation|distance:10]. A creature that fails its saving throw is also [[Conditions/Sickened|Sickened 1]] (or [[Conditions/Sickened|Sickened 3]] on a critical failure)."
 
 attacks:
   - name: ""

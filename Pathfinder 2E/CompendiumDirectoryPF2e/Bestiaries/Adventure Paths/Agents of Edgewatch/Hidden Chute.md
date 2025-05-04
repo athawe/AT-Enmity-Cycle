@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #157: Devil at the Dreaming Palace
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.ce2SoJ7nRNZ1AoK6" 
@@ -22,14 +23,14 @@ name: "Hidden Chute"
 level: "Hazard 3"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 13
 sourcebook: "_Pathfinder #157: Devil at the Dreaming Palace_"
 ac: 12
 armorclass:
   - name: AC
-    desc: "12; __Fort__ +10, __Ref__ +6, __Will__ +0"
+    desc: "12; __Fort__ +10, __Ref__ +6, "
 hp: 30
 health:
   - name: ""

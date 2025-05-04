@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/giant
   - pf2e/creature/type/troll
   - pf2e/creature/type/wood
+  - pf2eMonster
   - pf2e/creature/level/9
   - remaster
 statblock: inline
@@ -23,12 +24,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Rage of Elements"
 name: "Nightwood Guardian"
 level: "Creature 9"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "giant"
-trait_02: "troll"
-trait_03: "wood"
+trait_01: [[giant]]
+trait_02: [[troll]]
+trait_03: [[wood]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -80,7 +81,7 @@ attacks:
     desc: "`pf2:1` Jaws +21 ()\n__Damage__  2d12 + 6 piercing"
 
   - name: "Nightwood Roar"
-    desc: "`pf2:2` (concentrate,darkness,primal) **Frequency** once per hour;\n* * *\n\n**Effect** The guardian roars, snuffing out lights in a 30-foot cone. Ordinary flames and lights are extinguished, and the guardian attempts to counteract any magical light with a +21 counteract modifier and a counteract rank of 5."
+    desc: "`pf2:2` (concentrate,darkness,primal) **Frequency** once per hour;\n* * *\n\n**Effect** The guardian roars, snuffing out lights in a @Template[cone|distance:30]. Ordinary flames and lights are extinguished, and the guardian attempts to counteract any magical light with a +21 counteract modifier and a counteract rank of 5."
  
 ```
 

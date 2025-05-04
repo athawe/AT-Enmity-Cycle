@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/duskwalker
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Duskwalker Ghost Hunter"
@@ -25,9 +26,9 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "duskwalker"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[duskwalker]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -61,10 +62,10 @@ attacks:
     desc: "`pf2:1` Hatchet +12 (agile, sweep)\n__Damage__  1d6 + 5 slashing"
 
   - name: "Ranged"
-    desc: "`pf2:1` Composite Longbow +14 (deadly d10, propulsive, range increment 100 feet, reload 0, volley 30 ft.)\n__Damage__  1d8 + 4 piercing"
+    desc: "`pf2:1` Hatchet +14 (agile, sweep, thrown 10 ft.)\n__Damage__  1d6 + 5 slashing"
 
   - name: "Ranged"
-    desc: "`pf2:1` Hatchet +14 (agile, sweep, thrown 10 ft.)\n__Damage__  1d6 + 5 slashing"
+    desc: "`pf2:1` Composite Longbow +14 (deadly d10, propulsive, range increment 100 feet, reload 0, volley 30 ft.)\n__Damage__  1d8 + 4 piercing"
 
   - name: "Ghost Hunter"
     desc: "  The duskwalker's weapons have the benefits of the _[[Equipment/Ghost Touch|Ghost Touch]]_ property rune on attacks against incorporeal undead."

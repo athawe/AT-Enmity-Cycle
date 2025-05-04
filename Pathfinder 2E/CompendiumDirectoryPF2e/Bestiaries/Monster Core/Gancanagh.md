@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/azata
   - pf2e/creature/type/celestial
   - pf2e/creature/type/holy
+  - pf2eMonster
   - pf2e/creature/level/4
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "azata"
-trait_02: "celestial"
-trait_03: "holy"
+trait_01: [[azata]]
+trait_02: [[celestial]]
+trait_03: [[holy]]
 modifier: 11
 perception:
   - name: "Perception"

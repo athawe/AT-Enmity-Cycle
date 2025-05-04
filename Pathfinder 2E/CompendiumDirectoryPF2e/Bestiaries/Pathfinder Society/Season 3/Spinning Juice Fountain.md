@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #3-12: Fury&#x27;s Toll
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.df7a1D5Zbv1yZIYl" 
@@ -22,14 +23,14 @@ name: "Spinning Juice Fountain"
 level: "Hazard 1"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 7
 sourcebook: "_Pathfinder Society Scenario #3-12: Fury's Toll_"
 ac: 16
 armorclass:
   - name: AC
-    desc: "16; __Fort__ +7, __Ref__ +5, __Will__ +0"
+    desc: "16; __Fort__ +7, __Ref__ +5, "
 hp: 24
 health:
   - name: ""
@@ -54,7 +55,7 @@ attacks:
     desc: "`pf2:r` **Trigger** Safa commands the fountain to start spinning at the beginning of **Event 1: Safa's Arrival**\n* * *\n\n**Effect** The fountain sprays juice in all directions, making every square adjacent to it difficult terrain. The trap rolls initiative."
 
   - name: "Centrifugal Slam"
-    desc: "`pf2:r` **Trigger** A creature attempts to [[Actions/Grapple|Grapple]] one of the fountain's tiers. Each tier of the fountain has one reaction per round\n* * *\n\n**Effect** The heavy, spinning marble has enough sheer force to crush the hands of those trying to stop it. The triggering creature must attempt a DC 15 Fortitude check save before it rolls its check to Grapple the fountain.\n* * *\n\n**Critical Success** The creature takes no damage and gains a +2 circumstance bonus to its next check to Grapple the fountain.\n\n**Success** The creature takes no damage.\n\n**Failure** The creature takes 1d6 + 3 bludgeoning damage and takes a -2 circumstance penalty to its next check to Grapple the fountain.\n\n**Critical Failure** The creature takes 2d6 + 3 bludgeoning damage and is flung 10 feet away from the fountain in a random direction, preventing its attempt to Grapple the fountain."
+    desc: "`pf2:r` **Trigger** A creature attempts to [[Actions/Grapple|Grapple]] one of the fountain's tiers. Each tier of the fountain has one reaction per round\n* * *\n\n**Effect** The heavy, spinning marble has enough sheer force to crush the hands of those trying to stop it. The triggering creature must attempt a DC 15 Fortitude check save before it rolls its check to Grapple the fountain.\n* * *\n\n**Critical Success** The creature takes no damage and gains a +2 circumstance bonus to its next check to Grapple the fountain.\n\n**Success** The creature takes no damage.\n\n**Failure** The creature takes 1d6+3 bludgeoning damage and takes a -2 circumstance penalty to its next check to Grapple the fountain.\n\n**Critical Failure** The creature takes 2d6+3 bludgeoning damage and is flung 10 feet away from the fountain in a random direction, preventing its attempt to Grapple the fountain."
 
   - name: "Routine"
     desc: "(1 action) The fountain accelerates its spinning, spraying juice 10 feet in all directions on its first turn, 15 feet in all directions on its second turn, and 20 feet in all directions on its third turn. Every square where it sprays juice becomes difficult terrain. At the start of its fourth turn, the fountain breaks, disabling the hazard and flinging juice 25 feet in all directions."

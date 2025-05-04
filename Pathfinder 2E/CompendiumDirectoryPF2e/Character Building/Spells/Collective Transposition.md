@@ -27,8 +27,10 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, occult"
-**Area** 30-foot emanation
-**Targets** up to 2 creatures  - name: "Defense"
+
+  - name: "Area"
+    desc: "30-foot emanationup to 2 creatures"
+  - name: "Defense"
     desc: " will"
 abilities_mid:
   - name: ""

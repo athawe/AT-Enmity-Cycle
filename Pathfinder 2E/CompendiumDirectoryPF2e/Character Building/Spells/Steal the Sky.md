@@ -25,7 +25,11 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
-**Targets** the creature you hit  - name: "Defense"
+
+  - name: "Targets"
+
+    desc: "the creature you hit"
+  - name: "Defense"
     desc: " fortitude"
 abilities_mid:
   - name: ""

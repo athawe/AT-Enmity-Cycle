@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #198: No Breath to Cry
 aliases: "Compendium.pf2e.season-of-ghosts-bestiary.Actor.k9JJEqd1G2EB27Gd" 
@@ -22,8 +23,8 @@ name: "Nosois' Vengeance"
 level: "Hazard 11"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 23
 sourcebook: "_Pathfinder #198: No Breath to Cry_"
 perception:

@@ -27,7 +27,9 @@ abilities_top:
     desc: "1 day; **Cost** 3 drops of fresh water taken from a naturally occurring lake within 1,000 miles of the ritual site; **Secondary Casters** 1"
   - name: "Primary Check"
     desc: "Nature (expert); **Secondary Checks** Nature or Survival"
-**Area** 10-foot burst
+
+  - name: "Area"
+    desc: "10-foot burst"
   - name: "Duration"
     desc: "1 year"
 abilities_mid:

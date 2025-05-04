@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Adventure: Crown of the Kobold King
 aliases: "Compendium.pf2e.crown-of-the-kobold-king-bestiary.Actor.GXJ3EeN5MH9muvCh" 
@@ -22,14 +23,14 @@ name: "Lodestone Trap"
 level: "Hazard 2"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: -2
 sourcebook: "_Pathfinder Adventure: Crown of the Kobold King_"
 ac: 18
 armorclass:
   - name: AC
-    desc: "18; __Fort__ +11, __Ref__ +5, __Will__ +0"
+    desc: "18; __Fort__ +11, __Ref__ +5, "
 hp: 30
 health:
   - name: ""

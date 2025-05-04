@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fire
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/22
 statblock: inline
 name: "Lesser Manifestation Of Dahak"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #150: Broken Promises"
 name: "Lesser Manifestation Of Dahak"
 level: "Creature 22"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "grg"
-trait_01: "chaotic"
-trait_02: "dragon"
-trait_03: "evil"
-trait_04: "fire"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[dragon]]
+trait_03: [[evil]]
+trait_04: [[fire]]
+trait_05: [[unholy]]
 modifier: 39
 perception:
   - name: "Perception"
@@ -91,7 +92,7 @@ attacks:
     desc: "DC 46, attack +38; __8th __  _[[Spells/Wall of Fire|Wall of Fire (x4)]]_; __4th __  _[[Spells/Suggestion|Suggestion (x3)]]_\n__Cantrips__  __(9th)__ _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Read Aura|Read Aura]]_"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (divine) The manifestation of Dahak breathes a blast of dragonstorm energy that deals 5d6 acid, 5d6 cold, 5d6 electricity, 5d6 fire, and 5d6 poison damage in a 60-foot cone (DC 46 Reflex check save).\n\nIt can't use Dragonstorm Breath again for 1d4 rounds."
+    desc: "`pf2:2` (divine) The manifestation of Dahak breathes a blast of dragonstorm energy that deals 5d6 acid, 5d6 cold, 5d6 electricity, 5d6 fire, and 5d6 poison damage in a @Template[cone|distance:60] (DC 46 Reflex check save).\n\nIt can't use Dragonstorm Breath again for 1d4 rounds."
 
   - name: "Draconic Frenzy"
     desc: "`pf2:2`  The dragon makes two claw Strikes and one wing Strike in any order."

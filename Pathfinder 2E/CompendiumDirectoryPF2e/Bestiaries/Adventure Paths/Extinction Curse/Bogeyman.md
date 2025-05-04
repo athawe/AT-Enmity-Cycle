@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.nFYpYIL5OUCFZCr9"
 tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Bogeyman"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #152: Legacy of the Lost God"
 name: "Bogeyman"
 level: "Creature 10"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fey"
+trait_01: [[evil]]
+trait_02: [[fey]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -52,7 +53,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Deepest Fear"
-    desc: " (aura,emotion,fear,illusion,mental,visual) 60 feet. A bogeyman's aura of terror manifests as a shifting haze of images that reflect the viewers' deepest fears. Whenever a creature ends its turn within the aura, it must succeed at a DC 28 Will check save or become [[Conditions/Frightened 1|Frightened 1]]. A creature's frightened condition (including from striking fear) does not reduce as long as the creature remains in the aura. If the creature succeeds at its saving throw, it becomes temporarily immune to the aura for 24 hours."
+    desc: " (aura,emotion,fear,illusion,mental,visual) 60 feet. A bogeyman's aura of terror manifests as a shifting haze of images that reflect the viewers' deepest fears. Whenever a creature ends its turn within the aura, it must succeed at a DC 28 Will check save or become [[Conditions/Frightened|Frightened 1]]. A creature's frightened condition (including from striking fear) does not reduce as long as the creature remains in the aura. If the creature succeeds at its saving throw, it becomes temporarily immune to the aura for 24 hours."
 
 attacks:
   - name: ""
@@ -73,7 +74,7 @@ attacks:
     desc: "  The bogeyman deals 1d6 extra precision damage to [[Conditions/Off-Guard|Off-Guard]] creatures."
 
   - name: "Striking Fear"
-    desc: " (emotion,fear,mental) If a bogeyman scores a critical hit with a claw Strike, the target must attempt a DC 29 Will check save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is [[Conditions/Frightened 1|Frightened 1]].\n\n**Failure** The target is [[Conditions/Frightened 1|Frightened 2]].\n\n**Critical Failure** The target is [[Conditions/Frightened 1|Frightened 3]] and [[Conditions/Fleeing|Fleeing]] for 1 round."
+    desc: " (emotion,fear,mental) If a bogeyman scores a critical hit with a claw Strike, the target must attempt a DC 29 Will check save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is [[Conditions/Frightened|Frightened 1]].\n\n**Failure** The target is [[Conditions/Frightened|Frightened 2]].\n\n**Critical Failure** The target is [[Conditions/Frightened|Frightened 3]] and [[Conditions/Fleeing|Fleeing]] for 1 round."
 
   - name: "Surprise Attack"
     desc: "  On the first round of combat, creatures that haven't acted yet are [[Conditions/Off-Guard|Off-Guard]] to the bogeyman."

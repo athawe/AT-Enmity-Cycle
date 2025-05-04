@@ -30,8 +30,7 @@ abilities_top:
   - name: "Traditions"
     desc: "arcane, primal"
   - name: "Range"
-    desc: "30 feet; **Area** 5-foot burst
-"
+    desc: "30 feet; **Area** 5-foot burst"
   - name: "Defense"
     desc: "basic reflex"
 abilities_mid:

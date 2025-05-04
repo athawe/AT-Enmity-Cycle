@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.oZVeE7D70bHOrs1d"
 tags:
   - pf2e/creature/type/giant
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
   - remaster
 statblock: inline
@@ -22,11 +23,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Monster Core"
 name: "Cyclops"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "giant"
-trait_02: "humanoid"
+trait_01: [[giant]]
+trait_02: [[humanoid]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -34,7 +35,7 @@ perception:
 languages: "Common, Cyclops, Jotun"
 skills:
   - name: "Skills"
-    desc: "Athletics: +14, Fortune-Telling Lore: +13, Intimidation: +10, Survival: +12"
+    desc: "Athletics: +14, Intimidation: +10, Survival: +12, Fortune-Telling Lore: +13"
 abilityMods: [5, -1, 2, 0, 3, -1]
 speed: 30 feet
 sourcebook: "_Pathfinder Monster Core_"

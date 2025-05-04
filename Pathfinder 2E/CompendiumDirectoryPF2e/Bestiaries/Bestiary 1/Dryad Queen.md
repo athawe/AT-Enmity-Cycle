@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/nymph
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Dryad Queen"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Dryad Queen"
 level: "Creature 13"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "fey"
-trait_03: "good"
-trait_04: "nymph"
-trait_05: "plant"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
+trait_03: [[good]]
+trait_04: [[nymph]]
+trait_05: [[plant]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Elven, Fey; speak with plants"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +25, Athletics: +19, Crafting: +23 (+25 woodworking), Deception: +30, Diplomacy: +30, Intimidation: +27, Nature: +24, Performance: +28, Stealth: +25, Survival: +24"
+    desc: "Acrobatics: +25, Athletics: +19, Crafting: +23, Deception: +30, Diplomacy: +30, Intimidation: +27, Nature: +24, Performance: +28, Stealth: +25, Survival: +24"
 abilityMods: [2, 6, 6, 4, 4, 8]
 speed: 30 feet
 sourcebook: "_Pathfinder Bestiary_"

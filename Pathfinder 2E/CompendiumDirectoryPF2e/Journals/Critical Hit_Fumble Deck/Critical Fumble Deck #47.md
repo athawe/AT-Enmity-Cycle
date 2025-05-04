@@ -20,7 +20,7 @@ tags:
 
 # Stinging Failure
 
-> Until healed, you take a [[Other Effects/Effect\_ -2 circumstance penalty to attack rolls made with this attack until healed|-2 circumstance penalty to attack rolls made with this attack until healed]].
+> Until healed, you take a [[Other Effects/Effect_ -2 circumstance penalty to attack rolls made with this attack until healed|-2 circumstance penalty to attack rolls made with this attack until healed]].
 
 `Unarmed`
 

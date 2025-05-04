@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fungus
   - pf2e/creature/type/leshy
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Follower of Shumfallow"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #178: Punks in a Powder Keg"
 name: "Follower of Shumfallow"
 level: "Creature -1"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fungus"
-trait_04: "leshy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fungus]]
+trait_04: [[leshy]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -56,7 +57,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Verdant Burst"
-    desc: " (healing) When a follower of Shumfallow dies, a burst of primal energy explodes from its body, restoring 1d8 Hit Points to each fungus creature in a 30-foot emanation. This area is filled with fungi, becoming difficult terrain. If the terrain is not a viable environment for this fungi, they wither after 24 hours."
+    desc: " (healing) When a follower of Shumfallow dies, a burst of primal energy explodes from its body, restoring 1d8 Hit Points to each fungus creature in a @Template[emanation|distance:30]. This area is filled with fungi, becoming difficult terrain. If the terrain is not a viable environment for this fungi, they wither after 24 hours."
 
 attacks:
   - name: ""

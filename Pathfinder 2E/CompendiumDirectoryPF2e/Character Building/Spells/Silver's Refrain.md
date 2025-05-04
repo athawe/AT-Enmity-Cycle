@@ -27,7 +27,9 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
-**Area** 60-foot emanation
+
+  - name: "Area"
+    desc: "60-foot emanation"
   - name: "Duration"
     desc: "1 round"
 abilities_mid:

@@ -34,6 +34,6 @@ abilities_top:
     desc: "1 minute"
 abilities_mid:
   - name: ""
-    desc: "You summon a creature that has the monitor trait and whose level is 5 or lower to fight for you. The GM might determine your deity restricts the specific types of monitors you can summon in certain cases. For instance, Urgathoa typically doesn't allow her followers to summon psychopomps.\n* * *\n\n**Heightened** As listed in the [[PF2e Journals/GM Screen/summon|summon]] trait"
+    desc: "You summon a creature that has the monitor trait and whose level is 5 or lower to fight for you. The GM might determine your deity restricts the specific types of monitors you can summon in certain cases. For instance, Urgathoa typically doesn't allow her followers to summon psychopomps.\n* * *\n\n**Heightened** As listed in the [[PF2e Journals/GM Screen/summon|summon]] trait."
 sourcebook: "_Pathfinder Player Core_"
 ```

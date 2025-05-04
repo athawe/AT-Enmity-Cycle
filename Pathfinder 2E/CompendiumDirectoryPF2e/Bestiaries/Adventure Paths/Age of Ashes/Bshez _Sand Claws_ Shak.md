@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Bshez &quot;Sand Claws&quot; Shak"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #149: Against the Scarlet Triad"
 name: "Bshez "Sand Claws" Shak"
 level: "Creature 17"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -51,7 +52,7 @@ health:
 abilities_top:
   - name: ""
   - name: "Items"
-    desc: "[[Equipment/Javelin|+2 Greater Striking Javelin]], 2x [[Equipment/Kukri|+2 Greater Striking Thundering Kukri]], 2x [[Equipment/Scale Mail|+2 Resilient Scale Mail]], [[Equipment/Potion of Flying (Greater)|Potion of Flying (Greater)]], [[Equipment/Potion of Quickness|Potion of Quickness]]"
+    desc: "[[Equipment/Javelin|+2 Greater Striking Javelin]], 2x [[Equipment/Kukri|+2 Greater Striking Thundering Kukri]], [[Equipment/Scale Mail|+2 Resilient Scale Mail]], [[Equipment/Potion of Flying (Greater)|Potion of Flying (Greater)]], [[Equipment/Potion of Quickness|Potion of Quickness]]"
   - name: "Incredible Initiative"
     desc: "  Bshez gains a +2 circumstance bonus to initiative rolls."
 

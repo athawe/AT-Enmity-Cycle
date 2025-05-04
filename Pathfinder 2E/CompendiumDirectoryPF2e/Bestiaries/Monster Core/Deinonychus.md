@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.wNkS1ArFjS6ZsrPS"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/dinosaur
+  - pf2eMonster
   - pf2e/creature/level/2
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "animal"
-trait_02: "dinosaur"
+trait_01: [[animal]]
+trait_02: [[dinosaur]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -34,7 +35,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Athletics: +9 (+12 jumping), Stealth: +7"
+    desc: "Acrobatics: +7, Athletics: +9, Stealth: +7"
 abilityMods: [3, 3, 4, -4, 1, 2]
 speed: 30 feet
 sourcebook: "_Pathfinder Monster Core_"

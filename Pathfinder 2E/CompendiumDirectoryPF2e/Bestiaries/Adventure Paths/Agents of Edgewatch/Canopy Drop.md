@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #157: Devil at the Dreaming Palace
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.l3AqEkQwRJS8TY7f" 
@@ -22,14 +23,14 @@ name: "Canopy Drop"
 level: "Hazard 4"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 15
 sourcebook: "_Pathfinder #157: Devil at the Dreaming Palace_"
 ac: 20
 armorclass:
   - name: AC
-    desc: "20; __Fort__ +13, __Ref__ +8, __Will__ +0"
+    desc: "20; __Fort__ +13, __Ref__ +8, "
 hp: 40
 health:
   - name: ""

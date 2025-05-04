@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Angazhani Cultist"
@@ -26,10 +27,10 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Chthonian, Common, Mwangi"
 skills:
   - name: "Skills"
-    desc: "Athletics: +12, Demon Lore: +8, Diplomacy: +8 (+10 against demons), Intimidation: +10, Religion: +8, Stealth: +9, Survival: +11"
+    desc: "Athletics: +12, Diplomacy: +8, Intimidation: +10, Religion: +8, Stealth: +9, Survival: +11, Demon Lore: +8"
 abilityMods: [4, 1, 1, 0, 3, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder Adventure: The Slithering_"

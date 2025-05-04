@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Orochi"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #168: King of the Mountain"
 name: "Orochi"
 level: "Creature 18"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "amphibious"
-trait_02: "beast"
-trait_03: "chaotic"
-trait_04: "evil"
+trait_01: [[amphibious]]
+trait_02: [[beast]]
+trait_03: [[chaotic]]
+trait_04: [[evil]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -86,7 +87,7 @@ attacks:
     desc: "`pf2:2`  The orochi makes a number of jaws Strikes equal to the number of their remaining heads, each against a different target. The orochi's multiple attack penalty doesn't increase until after the orochi makes all of their attacks."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Huge, 2d12 + 18 bludgeoning damage, Rupture 40\n\n* * *\n"
+    desc: "`pf2:1` (attack) Huge, 2d12+18 bludgeoning damage, Rupture 40\n\n* * *\n"
  
 ```
 

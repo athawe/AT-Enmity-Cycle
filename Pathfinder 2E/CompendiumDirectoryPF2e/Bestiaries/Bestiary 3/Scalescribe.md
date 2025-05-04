@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.VUYg62jFjYB5Mxh0" 
 tags:
   - pf2e/creature/type/aberration
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Scalescribe"
@@ -23,7 +24,7 @@ level: "Creature 3"
 
 alignment: ""
 size: "tiny"
-trait_01: "aberration"
+trait_01: [[aberration]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Aklo, Common, Draconic"
 skills:
   - name: "Skills"
-    desc: "Arcana: +11, Library Lore: +11, Occultism: +9, Scribing Lore: +11, Stealth: +8"
+    desc: "Arcana: +11, Occultism: +9, Stealth: +8, Library Lore: +11, Scribing Lore: +11"
 abilityMods: [-2, 3, 1, 4, 4, 0]
 speed: 20 feet
 sourcebook: "_Pathfinder Bestiary 3_"

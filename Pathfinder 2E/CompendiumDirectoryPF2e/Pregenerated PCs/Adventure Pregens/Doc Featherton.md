@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Doc Featherton
-creatures:
-  - 1: Doc Featherton
-```
-
 
 
 

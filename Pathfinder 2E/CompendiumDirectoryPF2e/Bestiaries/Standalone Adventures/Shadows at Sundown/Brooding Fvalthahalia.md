@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - magical
+  - pf2eHazard
 
 source: Pathfinder Adventure: Shadows at Sundown
 aliases: "Compendium.pf2e.shadows-at-sundown-bestiary.Actor.ahsCOaQcO2mPZQrs" 
@@ -21,13 +22,13 @@ name: "Brooding Fvalthahalia"
 level: "Hazard 13"
 
 
-trait_01: "magical"
+trait_01: [[magical]]
 modifier: 27
 sourcebook: "_Pathfinder Adventure: Shadows at Sundown_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 10
 health:
   - name: ""

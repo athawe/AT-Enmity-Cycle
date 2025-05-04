@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/hag
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Moon Hag"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Moon Hag"
 level: "Creature 10"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "hag"
-trait_05: "humanoid"
-trait_06: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[hag]]
+trait_05: [[humanoid]]
+trait_06: [[unholy]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -41,7 +42,7 @@ perception:
 languages: "Aklo, Common, Jotun"
 skills:
   - name: "Skills"
-    desc: "Boneyard Lore: +21, Deception: +19, Intimidation: +17, Occultism: +19, Religion: +22"
+    desc: "Deception: +19, Intimidation: +17, Occultism: +19, Religion: +22, Boneyard Lore: +21"
 abilityMods: [7, 5, 3, 5, 6, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -84,7 +85,7 @@ attacks:
     desc: "_[[Spells/Control Weather|Control Weather]]_"
 
   - name: "Dreadful Prediction"
-    desc: "`pf2:1` (curse,mental,occult) **Frequency** once per round\n* * *\n\n**Effect** The moon hag howls a series of dreadful, apocalyptic predictions at a single creature within 30 feet, shattering its perceptions of reality.\n\nThe target must succeed at a DC 29 Will check save or become [[Conditions/Stupefied 1|Stupefied 2]] ([[Conditions/Stupefied 1|Stupefied 3]] on a critical failure); regardless of the outcome, the creature is then temporarily immune for 24 hours. A creature that can see the moon takes a -2 circumstance penalty to saving throws against Dreadful Prediction.\n\nThe stupefied condition from Dreadful Prediction persists until the curse is removed."
+    desc: "`pf2:1` (curse,mental,occult) **Frequency** once per round\n* * *\n\n**Effect** The moon hag howls a series of dreadful, apocalyptic predictions at a single creature within 30 feet, shattering its perceptions of reality.\n\nThe target must succeed at a DC 29 Will check save or become [[Conditions/Stupefied|Stupefied 2]] ([[Conditions/Stupefied|Stupefied 3]] on a critical failure); regardless of the outcome, the creature is then temporarily immune for 24 hours. A creature that can see the moon takes a -2 circumstance penalty to saving throws against Dreadful Prediction.\n\nThe stupefied condition from Dreadful Prediction persists until the curse is removed."
 
   - name: "[[Bestiary Ability Glossary/Rend|Rend]]"
     desc: "`pf2:1`  Claw\n\n* * *\n"

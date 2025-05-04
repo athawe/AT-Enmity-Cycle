@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.Eccdm7gQHoppXFU5"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Experienced Mercenary"
@@ -24,8 +25,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -57,10 +58,10 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Shortsword +7 (agile, finesse, versatile s)\n__Damage__  1d6 + 3 piercing"
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Club +7 (thrown 10 ft.)\n__Damage__  1d6 + 3 bludgeoning"
 
-  - name: "Ranged"
+  - name: "Melee"
     desc: "`pf2:1` Crossbow +5 ()\n__Damage__  1d8 piercing"
 
   - name: "Dirty Fighting"

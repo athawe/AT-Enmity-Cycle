@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kobold
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Gurtlekep"
@@ -26,10 +27,10 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "kobold"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[kobold]]
+trait_04: [[lawful]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Draconic"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8, Crafting: +6 (+8 traps), Stealth: +10, Thievery: +8"
+    desc: "Acrobatics: +8, Crafting: +6, Stealth: +10, Thievery: +8"
 abilityMods: [1, 4, 2, 4, 1, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Adventure: Crown of the Kobold King_"

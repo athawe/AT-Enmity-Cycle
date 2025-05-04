@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/fey
   - pf2e/creature/type/nymph
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Pholebis"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #188: They Watched the Stars"
 name: "Pholebis"
 level: "Creature 7"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "fey"
-trait_05: "nymph"
-trait_06: "water"
+trait_01: [[amphibious]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[fey]]
+trait_05: [[nymph]]
+trait_06: [[water]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -41,7 +42,7 @@ perception:
 languages: "Common, Elven, Fey; speak with animals"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +16, Athletics: +9 (+13 to Swim), Diplomacy: +20, Medicine: +15, Nature: +15, Performance: +20, Stealth: +14, Survival: +15"
+    desc: "Acrobatics: +16, Athletics: +9, Diplomacy: +20, Medicine: +15, Nature: +15, Performance: +20, Stealth: +14, Survival: +15"
 abilityMods: [0, 5, 4, 3, 4, 7]
 speed: 25 feet,  swim 25 feet
 sourcebook: "_Pathfinder #188: They Watched the Stars_"
@@ -67,7 +68,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "[[Creature Family Ability Glossary/(Nymph Queen) Nymph's Beauty|Nymph's Beauty]]"
-    desc: " (aura,emotion,mental,primal,visual) 30 feet. On a failed save, the target is [[Conditions/Stunned 1|Stunned 1]] for this turn and whenever it begins its turn within 30 feet of the naiad queen for the next 24 hours, even if it can't see her on subsequent turns.\n* * *\n\nCreatures that start their turn in the aura must succeed at a DC 23 Will check save or suffer an effect described in the nymph queen's entry."
+    desc: " (aura,emotion,mental,primal,visual) 30 feet. On a failed save, the target is [[Conditions/Stunned|Stunned 1]] for this turn and whenever it begins its turn within 30 feet of the naiad queen for the next 24 hours, even if it can't see her on subsequent turns.\n* * *\n\nCreatures that start their turn in the aura must succeed at a DC 23 Will check save or suffer an effect described in the nymph queen's entry."
 
 attacks:
   - name: ""

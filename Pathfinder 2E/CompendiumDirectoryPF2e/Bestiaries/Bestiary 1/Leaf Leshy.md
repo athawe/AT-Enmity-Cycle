@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.BeptBpCJ4Ny4biOH"
 tags:
   - pf2e/creature/type/leshy
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Leaf Leshy"
@@ -24,8 +25,8 @@ level: "Creature 0"
 
 alignment: ""
 size: "Small"
-trait_01: "leshy"
-trait_02: "plant"
+trait_01: [[leshy]]
+trait_02: [[plant]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -53,7 +54,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Verdant Burst"
-    desc: " (healing) When a leaf leshy dies, a burst of primal energy explodes from its body, restoring 1d4 Hit Points to each plant creature in a 30-foot emanation. This area is filled with tree saplings, becoming difficult terrain. If the terrain is not a viable environment for these trees, they wither after 24 hours."
+    desc: " (healing) When a leaf leshy dies, a burst of primal energy explodes from its body, restoring 1d4 Hit Points to each plant creature in a @Template[emanation|distance:30]. This area is filled with tree saplings, becoming difficult terrain. If the terrain is not a viable environment for these trees, they wither after 24 hours."
 
 attacks:
   - name: ""

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.xarabMfYuo7yvD1N"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/aquatic
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Giant Dragonfly Nymph"
@@ -24,8 +25,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Small"
-trait_01: "animal"
-trait_02: "aquatic"
+trait_01: [[animal]]
+trait_02: [[aquatic]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +10, Stealth: +9 (+11 in Water)"
+    desc: "Athletics: +10, Stealth: +9"
 abilityMods: [3, 2, 4, -5, 1, -5]
 speed: 10 feet,  swim 30 feet
 sourcebook: "_Pathfinder Bestiary 2_"

@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.lFlXmieuHTBIonhj" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Viper"
@@ -23,7 +24,7 @@ level: "Creature -1"
 
 alignment: ""
 size: "tiny"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +5, Athletics: +1 (+4 to Climb), Stealth: +5, Survival: +3"
+    desc: "Acrobatics: +5, Athletics: +1, Stealth: +5, Survival: +3"
 abilityMods: [-3, 4, 0, -4, 1, -2]
 speed: 20 feet,  climb 20 feet,  swim 20 feet
 sourcebook: "_Pathfinder Bestiary_"

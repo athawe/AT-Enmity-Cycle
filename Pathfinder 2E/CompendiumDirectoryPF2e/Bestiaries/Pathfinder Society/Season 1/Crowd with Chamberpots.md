@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #1-01: The Absalom Initiation
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.zqZu0W4L5HCUaKw7" 
@@ -21,7 +22,7 @@ name: "Crowd with Chamberpots"
 level: "Hazard 4"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 0
 sourcebook: "_Pathfinder Society Scenario #1-01: The Absalom Initiation_"
 ac: 18
@@ -51,7 +52,7 @@ attacks:
   - name: "Speed 25 feet"
     desc: "passive "
   - name: "Melee"
-    desc: "Chamber Pot +17 (range 20 feet) [[Conditions/Sickened 1|Sickened 2]] (DC 19 Fortitude check save negates sickened)."
+    desc: "Chamber Pot +17 (range 20 feet) [[Conditions/Sickened|Sickened 2]] (DC 19 Fortitude check save negates sickened)."
 
   - name: "Routine"
     desc: "(3 actions) The crowd uses its first action to Stride away from any opponent adjacent to them (or to get within 30 feet), then uses each remaining action to make a chamber pot Strike at a different target."

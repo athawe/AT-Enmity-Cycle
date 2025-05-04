@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/charau-ka
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Charau-ka Acolyte of Angazhan"
@@ -26,10 +27,10 @@ level: "Creature 3"
 
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "charau-ka"
-trait_03: "evil"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[charau-ka]]
+trait_03: [[evil]]
+trait_04: [[humanoid]]
 modifier: 9
 perception:
   - name: "Perception"

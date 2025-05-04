@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.lost-omens-mwangi-expanse-bestiary.Actor.rrJqsVeBKizuy
 tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Biloko Veteran"
@@ -24,8 +25,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "fey"
+trait_01: [[evil]]
+trait_02: [[fey]]
 modifier: 11
 perception:
   - name: "Perception"

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
   - pf2e/creature/type/gremlin
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Gnagrif"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #169: Kindled Magic"
 name: "Gnagrif"
 level: "Creature 2"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "tiny"
-trait_01: "evil"
-trait_02: "fey"
-trait_03: "gremlin"
+trait_01: [[evil]]
+trait_02: [[fey]]
+trait_03: [[gremlin]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -79,7 +80,7 @@ attacks:
     desc: "DC 16, attack +8; __2nd __ (1 slots) _[[Spells/Shatter|Shatter]]_, _[[Spells/Speak with Animals|Speak with Animals (At Will)]]_; __1st __ (2 slots) _[[Spells/Ant Haul|Ant Haul]]_, _[[Spells/Gentle Landing|Feather Fall]]_\n__Cantrips__  __(1st)__ _[[Spells/Prestidigitation|Prestidigitation]]_"
 
   - name: "Eat Rocks"
-    desc: "`pf2:1`  The gnagrif gnashes and tears at an object or structure, dealing 2d4 + 2 piercing damage and ignoring Hardness 2 or lower."
+    desc: "`pf2:1`  The gnagrif gnashes and tears at an object or structure, dealing 2d4+2 piercing damage and ignoring Hardness 2 or lower."
 
   - name: "Wrecker"
     desc: "  Whenever two or more gnagrifs use Eat Rocks on the same object or structure, the value of Hardness they can ignore increases by 1 for every gnagrif, to a maximum of Hardness 10."

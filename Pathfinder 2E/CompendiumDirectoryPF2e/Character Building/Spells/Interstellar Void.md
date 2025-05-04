@@ -31,7 +31,11 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
-**Targets** 1 creature  - name: "Defense"
+
+  - name: "Targets"
+
+    desc: "1 creature"
+  - name: "Defense"
     desc: "basic fortitude"
   - name: "Duration"
     desc: "1 minute"

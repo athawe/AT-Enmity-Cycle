@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Society Intro #1: The Second Confirmation
 aliases: "Compendium.pf2e.pfs-introductions-bestiary.Actor.qXaXfqQfW3cp8kbI" 
@@ -22,14 +23,14 @@ name: "Ancient Summoning Rune"
 level: "Hazard 1"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 7
 sourcebook: "_Pathfinder Society Intro #1: The Second Confirmation_"
 ac: 16
 armorclass:
   - name: AC
-    desc: "16; __Fort__ +10, __Ref__ +2, __Will__ +0"
+    desc: "16; __Fort__ +10, __Ref__ +2, "
 hp: 24
 health:
   - name: ""

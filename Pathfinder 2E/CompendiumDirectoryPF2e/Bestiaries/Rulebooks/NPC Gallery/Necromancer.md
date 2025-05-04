@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Necromancer"
@@ -25,9 +26,9 @@ level: "Creature 5"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -53,7 +54,7 @@ abilities_top:
   - name: "Items"
     desc: "[[Equipment/Light Mace|Light Mace]], [[Equipment/Explorer's Clothing|Hooded Robe]], [[Equipment/Spellbook (Blank)|Spellbook (Abominable Missives of the Atrophied)]], [[Equipment/Scroll of 2nd-rank Spell|Scroll of Spectral Hand (Level 2)]]"
   - name: "Stench of Decay"
-    desc: " (arcane,aura,poison) 5 feet. The necromancer emits a scent of putrid rot in a 5-foot emanation. A creature that enters or begins its turn in the aura is [[Conditions/Sickened 1|Sickened 1]]."
+    desc: " (arcane,aura,poison) 5 feet. The necromancer emits a scent of putrid rot in a 5-foot emanation. A creature that enters or begins its turn in the aura is [[Conditions/Sickened|Sickened 1]]."
 
 abilities_mid:
   - name: ""

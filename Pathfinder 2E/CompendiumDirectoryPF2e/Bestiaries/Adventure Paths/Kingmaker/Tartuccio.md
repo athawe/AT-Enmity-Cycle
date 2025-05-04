@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/gnome
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Tartuccio"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Tartuccio"
 level: "Creature 4"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "gnome"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[gnome]]
+trait_03: [[humanoid]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Draconic, Fey, Gnomish, Hallit"
 skills:
   - name: "Skills"
-    desc: "Bardic Lore: +8, Crafting: +8, Deception: +12, Intimidation: +10, Occultism: +10, Performance: +12, Society: +10, Stealth: +11, Thievery: +9"
+    desc: "Crafting: +8, Deception: +12, Intimidation: +10, Occultism: +10, Performance: +12, Society: +10, Stealth: +11, Thievery: +9, Bardic Lore: +8"
 abilityMods: [0, 3, 1, 2, 1, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Kingmaker_"

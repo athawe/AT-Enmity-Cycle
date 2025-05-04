@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/gnome
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Aspis Technician"
@@ -26,10 +27,10 @@ level: "Creature 7"
 
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "gnome"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[gnome]]
+trait_04: [[humanoid]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Fey, Gnomish, Mwangi"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +15, Arcana: +15, Aspis Consortium Lore: +15, Crafting: +17, Stealth: +15, Thievery: +15"
+    desc: "Acrobatics: +15, Arcana: +15, Crafting: +17, Stealth: +15, Thievery: +15, Aspis Consortium Lore: +15"
 abilityMods: [1, 4, 2, 4, 2, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Adventure: The Slithering_"
@@ -72,7 +73,7 @@ attacks:
     desc: "`pf2:1` Alchemist&#x27;s Fire +18 (range increment 20 feet, splash)\n__Damage__  2d8 + 2 fire 4 fire 4 fire"
 
   - name: "Hunting Spider Venom"
-    desc: " (poison) **Saving Throw** DC 21 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d10 poison and [[Conditions/Off-Guard|Off-Guard]] (1 round)\n\n**Stage 2** 1d12 poison, [[Conditions/Clumsy 1|Clumsy 1]], and off-guard (1 round)\n\n**Stage 3** 2d6 poison, [[Conditions/Clumsy 1|Clumsy 2]], and off-guard (1 round)"
+    desc: " (poison) **Saving Throw** DC 21 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d10 poison and [[Conditions/Off-Guard|Off-Guard]] (1 round)\n\n**Stage 2** 1d12 poison, [[Conditions/Clumsy|Clumsy 1]], and off-guard (1 round)\n\n**Stage 3** 2d6 poison, [[Conditions/Clumsy|Clumsy 2]], and off-guard (1 round)"
 
   - name: "Poison Weapon"
     desc: "`pf2:1` (manipulate) **Requirements** The Aspis technician is wielding a piercing or slashing weapon and has a free hand\n* * *\n\n**Effect** The Aspis technician applies a poison to the weapon."

@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder #176: Lost Mammoth Valley
 aliases: "Compendium.pf2e.quest-for-the-frozen-flame-bestiary.Actor.9bMjxEnzFuJfWyP8" 
@@ -21,13 +22,13 @@ name: "Abyss-warped Trees"
 level: "Hazard 4"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 2
 sourcebook: "_Pathfinder #176: Lost Mammoth Valley_"
 ac: 18
 armorclass:
   - name: AC
-    desc: "18; __Fort__ +14, __Ref__ +14, __Will__ +0"
+    desc: "18; __Fort__ +14, __Ref__ +14, "
 hp: 40
 health:
   - name: ""

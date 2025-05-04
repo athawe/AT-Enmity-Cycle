@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/azarketi
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Tiderunner Aquamancer"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #161: Belly of the Black Whale"
 name: "Tiderunner Aquamancer"
 level: "Creature 13"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "azarketi"
-trait_03: "humanoid"
+trait_01: [[amphibious]]
+trait_02: [[azarketi]]
+trait_03: [[humanoid]]
 modifier: 27
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Common, Thalassic"
 skills:
   - name: "Skills"
-    desc: "Aquatic Lore: +26, Arcana: +26, Diplomacy: +19, Medicine: +23, Warfare Lore: +26"
+    desc: "Arcana: +26, Diplomacy: +19, Medicine: +23, Aquatic Lore: +26, Warfare Lore: +26"
 abilityMods: [0, 5, 3, 5, 4, 0]
 speed: 25 feet,  swim 30 feet
 sourcebook: "_Pathfinder #161: Belly of the Black Whale_"
@@ -60,7 +61,7 @@ abilities_mid:
 attacks:
   - name: ""
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Spear +21 (magical, thrown 20 ft.)\n__Damage__  2d6 + 3 piercing"
 
   - name: "Ranged"

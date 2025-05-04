@@ -47,5 +47,10 @@
   "ITS@@heading-indicator": false,
   "ITS@@hcl": false,
   "ITS@@illusion": false,
-  "ITS@@h2-size": 28
+  "ITS@@h2-size": 24,
+  "ITS@@breadcrumbs-block": false,
+  "ITS@@ITS-Sizes": "sizing-readable",
+  "ITS@@disable-source-styling": false,
+  "ITS@@h1-size": 30,
+  "ITS@@font": "'Palatino Black', 'Book Antiqua', 'Georgia', 'Suez One', serif"
 }

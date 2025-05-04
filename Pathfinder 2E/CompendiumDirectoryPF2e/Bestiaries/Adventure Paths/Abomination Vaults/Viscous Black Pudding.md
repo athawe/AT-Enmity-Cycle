@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.abomination-vaults-bestiary.Actor.5iuvJLceeLJPlR8O"
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Viscous Black Pudding"
@@ -24,8 +25,8 @@ level: "Creature 7"
 
 alignment: ""
 size: "huge"
-trait_01: "mindless"
-trait_02: "ooze"
+trait_01: [[mindless]]
+trait_02: [[ooze]]
 modifier: 9
 perception:
   - name: "Perception"

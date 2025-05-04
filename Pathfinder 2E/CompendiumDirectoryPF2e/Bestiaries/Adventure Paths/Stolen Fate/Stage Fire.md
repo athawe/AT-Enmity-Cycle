@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - fire
+  - pf2eHazard
   - complex
 source: Pathfinder #190: The Choosing
 aliases: "Compendium.pf2e.stolen-fate-bestiary.Actor.UX7QKytewemOnNeX" 
@@ -22,8 +23,8 @@ name: "Stage Fire"
 level: "Hazard 12"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "fire"
+trait_01: [[environmental]]
+trait_02: [[fire]]
 modifier: 28
 sourcebook: "_Pathfinder #190: The Choosing_"
 perception:

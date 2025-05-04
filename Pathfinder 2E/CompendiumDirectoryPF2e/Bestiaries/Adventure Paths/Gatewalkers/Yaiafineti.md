@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.gatewalkers-bestiary.Actor.piLAtgB51zXEHmFt"
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Yaiafineti"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #189: Dreamers of the Nameless Spires"
 name: "Yaiafineti"
 level: "Creature 8"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "mindless"
-trait_02: "plant"
+trait_01: [[mindless]]
+trait_02: [[plant]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "pheromones"
 skills:
   - name: "Skills"
-    desc: "Athletics: +18, Stealth: +7 (+9 in Tundra)"
+    desc: "Athletics: +18, Stealth: +7"
 abilityMods: [6, -5, 6, -5, 3, 0]
 speed: 10 feet,  climb 10 feet
 sourcebook: "_Pathfinder #189: Dreamers of the Nameless Spires_"
@@ -67,13 +68,13 @@ attacks:
     desc: " (poison) **Saving Throw** DC 19 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** [[Conditions/Fascinated|Fascinated]] by the yaiafineti (1 round)\n\n**Stage 2** [[Conditions/Controlled|Controlled]] by the yaiafineti (1 round)"
 
   - name: "Feed"
-    desc: "`pf2:3`  The yaiafineti draws nutrients from a living creature it has swallowed, regaining 3d8 + 24 HP. The swallowed creature takes 2d12 + 8 bludgeoning."
+    desc: "`pf2:3`  The yaiafineti draws nutrients from a living creature it has swallowed, regaining 3d8+24 HP. The swallowed creature takes 2d12+8 bludgeoning."
 
   - name: "Paralyzing Poison"
-    desc: " (poison) The plants send out runner shoots that quickly develop purple bulbs. These bulbs, the plant's polyps, sprout many long, hooked vines before detaching from the mother plant. Polyps are short lived but active, foraging for a week or so before they shrivel and die. These polyps aren't dangerous unless handled. They secrete a fine dust that acts as a paralyzing poison that seizes the nervous system of creatures who come in contact with them.\n\n**Saving Throw** DC 19 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** [[Conditions/Off-Guard|Off-Guard]] and [[Conditions/Clumsy 1|Clumsy 1]] (1 round)\n\n**Stage 2** off-guard and [[Conditions/Clumsy 1|Clumsy 2]] (1 round)\n\n**Stage 3** [[Conditions/Paralyzed|Paralyzed]] (1 round)"
+    desc: " (poison) The plants send out runner shoots that quickly develop purple bulbs. These bulbs, the plant's polyps, sprout many long, hooked vines before detaching from the mother plant. Polyps are short lived but active, foraging for a week or so before they shrivel and die. These polyps aren't dangerous unless handled. They secrete a fine dust that acts as a paralyzing poison that seizes the nervous system of creatures who come in contact with them.\n\n**Saving Throw** DC 19 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** [[Conditions/Off-Guard|Off-Guard]] and [[Conditions/Clumsy|Clumsy 1]] (1 round)\n\n**Stage 2** off-guard and [[Conditions/Clumsy|Clumsy 2]] (1 round)\n\n**Stage 3** [[Conditions/Paralyzed|Paralyzed]] (1 round)"
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Medium, 2d12 + 8 bludgeoning, Rupture 18\n\n* * *\n"
+    desc: "`pf2:1` (attack) Medium, 2d12+8 bludgeoning, Rupture 18\n\n* * *\n"
  
 ```
 

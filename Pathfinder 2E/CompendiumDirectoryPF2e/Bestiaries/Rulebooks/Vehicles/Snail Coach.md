@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
 source: Pathfinder Guns &amp; Gears
 aliases: "Compendium.pf2e.vehicles.Actor.VRhdfL78HS5sT4gF" 
@@ -19,7 +20,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Guns & Gears"
 name: "Snail Coach"
 level: "Vehicle 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 
 size: "huge"
 modifier: 

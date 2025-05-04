@@ -6,6 +6,7 @@ tags:
   - magical
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #5-02: The Blackwood Lost
 aliases: "Compendium.pf2e.pfs-season-5-bestiary.Actor.vPHu4aZ0sfW1v7ky" 
@@ -23,9 +24,9 @@ name: "Augmented Azlanti Elemental Nexus"
 level: "Hazard 3"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 5
 sourcebook: "_Pathfinder Society Scenario #5-02: The Blackwood Lost_"
 ac: 19

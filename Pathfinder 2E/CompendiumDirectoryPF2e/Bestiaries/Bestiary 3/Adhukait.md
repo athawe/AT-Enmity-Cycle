@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Adhukait"
@@ -27,11 +28,11 @@ level: "Creature 7"
 
 alignment: ""
 size: "Medium"
-trait_01: "asura"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "lawful"
-trait_05: "unholy"
+trait_01: [[asura]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[lawful]]
+trait_05: [[unholy]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ abilities_mid:
     desc: "`pf2:r`  "
 
   - name: "Dual Mind"
-    desc: "`pf2:r`  **Trigger** The adhukait fails a saving throw against a mental effect\n* * *\n\n**Effect** The adhukait shunts the effect into one of their minds, rendering them temporarily insensible. They change their result to a success, but one of their bodies hangs limply until the end of their next turn.\n\nDuring this time, the adhukait is [[Conditions/Clumsy 1|Clumsy 2]]; takes a -10-foot circumstance penalty to their Speed; and can't use Dual Mind, Dual Opportunity, or Dance of Destruction."
+    desc: "`pf2:r`  **Trigger** The adhukait fails a saving throw against a mental effect\n* * *\n\n**Effect** The adhukait shunts the effect into one of their minds, rendering them temporarily insensible. They change their result to a success, but one of their bodies hangs limply until the end of their next turn.\n\nDuring this time, the adhukait is [[Conditions/Clumsy|Clumsy 2]]; takes a -10-foot circumstance penalty to their Speed; and can't use Dual Mind, Dual Opportunity, or Dance of Destruction."
 
   - name: "Dual Opportunity"
     desc: "  The adhukait gains a second reaction each round they can use only to make an Attack of Opportunity."

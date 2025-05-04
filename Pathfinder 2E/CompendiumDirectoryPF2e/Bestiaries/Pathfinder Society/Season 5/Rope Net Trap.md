@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #5-09: Equal Exchange - Skymetal Hoard
 aliases: "Compendium.pf2e.pfs-season-5-bestiary.Actor.bPUdYAQ88KS0HTzF" 
@@ -22,14 +23,14 @@ name: "Rope Net Trap"
 level: "Hazard 4"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 9
 sourcebook: "_Pathfinder Society Scenario #5-09: Equal Exchange - Skymetal Hoard_"
 ac: 8
 armorclass:
   - name: AC
-    desc: "8; __Fort__ +1, __Ref__ +0, __Will__ +0"
+    desc: "8; __Fort__ +1, "
 hp: 12
 health:
   - name: ""

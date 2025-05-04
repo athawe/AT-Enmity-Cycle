@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Hargrit Leadbuster"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: Troubles in Otari"
 name: "Hargrit Leadbuster"
 level: "Creature 4"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "dwarf"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[dwarf]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +10, Diplomacy: +12 (+14 against Devils), Fiend Lore: +10, Intimidation: +10, Religion: +10"
+    desc: "Athletics: +10, Diplomacy: +12, Intimidation: +10, Religion: +10, Fiend Lore: +10"
 abilityMods: [2, 0, 3, 0, 4, 2]
 speed: 20 feet
 sourcebook: "_Pathfinder Adventure: Troubles in Otari_"

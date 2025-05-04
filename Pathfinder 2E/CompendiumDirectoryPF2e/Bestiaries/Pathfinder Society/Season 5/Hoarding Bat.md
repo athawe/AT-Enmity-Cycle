@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pfs-season-5-bestiary.Actor.CZ6Z15ofj8zlHcol" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Hoarding Bat"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #5-04: Necessary Introductions"
 name: "Hoarding Bat"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ attacks:
     desc: "  A bat can use its hearing as a precise sense at the listed range."
 
   - name: "Treasure Toss"
-    desc: "`pf2:2`  The hoarding bat scoops up a rock or nearby item and throws it at an enemy within 30 feet. The targeted creature must succeed on a DC 17 Reflex check save or take 1d6 + 2 bludgeoning damage."
+    desc: "`pf2:2`  The hoarding bat scoops up a rock or nearby item and throws it at an enemy within 30 feet. The targeted creature must succeed on a DC 17 Reflex check save or take 1d6+2 bludgeoning damage."
  
 ```
 

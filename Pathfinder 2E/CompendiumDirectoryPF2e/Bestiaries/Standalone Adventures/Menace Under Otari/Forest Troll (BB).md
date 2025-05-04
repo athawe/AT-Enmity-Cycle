@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/troll
   - pf2e/creature/type/wood
+  - pf2eMonster
   - pf2e/creature/level/5
   - remaster
 statblock: inline
@@ -27,10 +28,10 @@ level: "Creature 5"
 
 alignment: ""
 size: "Large"
-trait_01: "giant"
-trait_02: "humanoid"
-trait_03: "troll"
-trait_04: "wood"
+trait_01: [[giant]]
+trait_02: [[humanoid]]
+trait_03: [[troll]]
+trait_04: [[wood]]
 modifier: 11
 perception:
   - name: "Perception"

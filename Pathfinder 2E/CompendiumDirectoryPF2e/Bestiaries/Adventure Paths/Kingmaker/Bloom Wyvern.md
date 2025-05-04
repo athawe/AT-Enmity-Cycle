@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.vTzbfxtvhhmS7KWr"
 tags:
   - pf2e/creature/type/dragon
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Bloom Wyvern"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Bloom Wyvern"
 level: "Creature 8"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "dragon"
-trait_02: "evil"
+trait_01: [[dragon]]
+trait_02: [[evil]]
 modifier: 16
 perception:
   - name: "Perception"

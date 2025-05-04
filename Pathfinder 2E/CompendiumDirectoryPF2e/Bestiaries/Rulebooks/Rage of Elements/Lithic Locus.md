@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/elemental
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/14
   - remaster
 statblock: inline
@@ -24,13 +25,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Rage of Elements"
 name: "Lithic Locus"
 level: "Creature 14"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "construct"
-trait_02: "earth"
-trait_03: "elemental"
-trait_04: "spirit"
+trait_01: [[construct]]
+trait_02: [[earth]]
+trait_03: [[elemental]]
+trait_04: [[spirit]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -38,7 +39,7 @@ perception:
 languages: "Petran; plus one ancient language"
 skills:
   - name: "Skills"
-    desc: "Athletics: +26, One Ancient Civilization Lore: +29, Society: +25"
+    desc: "Athletics: +26, Society: +25, One Ancient Civilization Lore: +29"
 abilityMods: [6, 0, 6, 7, 6, 2]
 speed: 30 feet
 sourcebook: "_Pathfinder Rage of Elements_"

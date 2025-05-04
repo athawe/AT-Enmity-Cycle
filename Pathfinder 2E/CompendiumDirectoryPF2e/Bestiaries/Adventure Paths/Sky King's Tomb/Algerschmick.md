@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.F3l4OxG2u3z7G41E"
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Algerschmick"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #193: Mantle of Gold"
 name: "Algerschmick"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "fey"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Fey"
 skills:
   - name: "Skills"
-    desc: "Crafting: +8, Household Lore: +11, Nature: +9, Stealth: +9"
+    desc: "Crafting: +8, Nature: +9, Stealth: +9, Household Lore: +11"
 abilityMods: [3, 2, 1, -1, 0, 1]
 speed: 30 feet
 sourcebook: "_Pathfinder #193: Mantle of Gold_"

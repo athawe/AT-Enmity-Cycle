@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #162: Ruins of the Radiant Siege
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.qy53ECS2agScE7G3" 
@@ -22,8 +23,8 @@ name: "Kharnas's Lesser Glyph"
 level: "Hazard 17"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 33
 sourcebook: "_Pathfinder #162: Ruins of the Radiant Siege_"
 perception:

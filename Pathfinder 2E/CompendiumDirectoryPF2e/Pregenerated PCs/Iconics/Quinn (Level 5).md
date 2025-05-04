@@ -69,12 +69,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Quinn (Level 5)
-creatures:
-  - 1: Quinn (Level 5)
-```
-
 
 
 

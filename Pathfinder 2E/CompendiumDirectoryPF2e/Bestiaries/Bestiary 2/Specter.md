@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Specter"
@@ -27,11 +28,11 @@ level: "Creature 7"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "incorporeal"
-trait_03: "lawful"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[evil]]
+trait_02: [[incorporeal]]
+trait_03: [[lawful]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -64,7 +65,7 @@ abilities_mid:
     desc: "  A specter that goes for more than a month without dealing void damage to a living humanoid becomes desperate and almost feral. It changes alignment from lawful evil to chaotic evil, loses control of any corrupted thralls it might have, and becomes [[Conditions/Quickened|Quickened]]. It can use its additional action only to make vile touch Strikes against humanoid targets. At the end of any turn in which it deals any amount of void damage to a living humanoid, it reverts to lawful evil and is no longer quickened, but any thralls it lost control of remain free."
 
   - name: "Sunlight Powerlessness"
-    desc: "  A specter caught in sunlight is [[Conditions/Clumsy 1|Clumsy 2]] and [[Conditions/Slowed 1|Slowed 2]] for as long as it remains in the sunlight."
+    desc: "  A specter caught in sunlight is [[Conditions/Clumsy|Clumsy 2]] and [[Conditions/Slowed|Slowed 2]] for as long as it remains in the sunlight."
 
 attacks:
   - name: ""
@@ -73,7 +74,7 @@ attacks:
     desc: "`pf2:1` Vile Touch +16 (finesse)\n__Damage__  2d8 + 8 void"
 
   - name: "Spectral Corruption"
-    desc: "`pf2:2` (curse,divine,incapacitation,mental) The specter makes a Vile Touch Strike. If it damages a living creature, the specter gains 5 temporary Hit Points and the target creature must attempt a DC 24 Will check save to avoid becoming corrupted.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune to spectral corruption for 1 minute.\n\n**Success** The creature is [[Conditions/Stupefied 1|Stupefied 2]] for 1 hour.\n\n**Failure** The creature succumbs to the corruption and becomes a spectral thrall temporarily. The creature is [[Conditions/Controlled|Controlled]] by the specter, obeying the specter's telepathic or spoken orders, though a spectral thrall does not obey obviously self-destructive orders. This lasts until the end of the thrall's next turn, at which point it is no longer controlled but becomes stupefied 2 for 1 hour.\n\n**Critical Failure** As failure, but the duration is unlimited. The thrall can attempt a new Will save at the end of each of its turns; on a success, it is no longer controlled by the specter but becomes stupefied 2 for 1 hour."
+    desc: "`pf2:2` (curse,divine,incapacitation,mental) The specter makes a Vile Touch Strike. If it damages a living creature, the specter gains 5 temporary Hit Points and the target creature must attempt a DC 24 Will check save to avoid becoming corrupted.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune to spectral corruption for 1 minute.\n\n**Success** The creature is [[Conditions/Stupefied|Stupefied 2]] for 1 hour.\n\n**Failure** The creature succumbs to the corruption and becomes a spectral thrall temporarily. The creature is [[Conditions/Controlled|Controlled]] by the specter, obeying the specter's telepathic or spoken orders, though a spectral thrall does not obey obviously self-destructive orders. This lasts until the end of the thrall's next turn, at which point it is no longer controlled but becomes stupefied 2 for 1 hour.\n\n**Critical Failure** As failure, but the duration is unlimited. The thrall can attempt a new Will save at the end of each of its turns; on a success, it is no longer controlled by the specter but becomes stupefied 2 for 1 hour."
  
 ```
 

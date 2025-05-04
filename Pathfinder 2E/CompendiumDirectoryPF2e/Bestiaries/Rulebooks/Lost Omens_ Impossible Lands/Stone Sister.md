@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.lost-omens-impossible-lands-bestiary.Actor.1SIx3wcRvplbfwk3" 
 tags:
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Stone Sister"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Impossible Lands"
 name: "Stone Sister"
 level: "Creature 6"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "undead"
+trait_01: [[undead]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -69,7 +70,7 @@ attacks:
     desc: "`pf2:1` Fist +17 (agile, earth)\n__Damage__  2d6 + 8 bludgeoning plus curse-of-stone"
 
   - name: "Curse of Stone"
-    desc: " (curse) The creature must succeed at a DC 21 Fortitude check save or become [[Conditions/Clumsy 1|Clumsy 2]] ([[Conditions/Clumsy 1|Clumsy 3]] on a critical failure) and gain a +1 status bonus to AC as their skin hardens to stone. The clumsy condition can be temporarily relieved for 24 hours by casting stone to flesh on the cursed creature but can't be removed or reduced by any other means short of removing the curse; during this time, the cursed creature also no longer receives the status bonus to AC.\n\n[[Bestiary Effects/Effect_ Curse of Stone|Effect: Curse of Stone]]"
+    desc: " (curse) The creature must succeed at a DC 21 Fortitude check save or become [[Conditions/Clumsy|Clumsy 2]] ([[Conditions/Clumsy|Clumsy 3]] on a critical failure) and gain a +1 status bonus to AC as their skin hardens to stone. The clumsy condition can be temporarily relieved for 24 hours by casting stone to flesh on the cursed creature but can't be removed or reduced by any other means short of removing the curse; during this time, the cursed creature also no longer receives the status bonus to AC.\n\n[[Bestiary Effects/Effect_ Curse of Stone|Effect: Curse of Stone]]"
 
   - name: "Statue"
     desc: "`pf2:1` (concentrate) Until the next time she acts, the stone sister appears to be a statue. She has an automatic result of 34 on Deception checks and DCs to pass as a statue. Since the Field of Maidens is filled with thousands of statues just like her, most of which aren't stone sisters, it's incredibly difficult to recognize her true nature."

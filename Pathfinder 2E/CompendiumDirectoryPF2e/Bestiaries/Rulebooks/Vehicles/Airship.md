@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
   - remaster
 source: Pathfinder GM Core
@@ -20,7 +21,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder GM Core"
 name: "Airship"
 level: "Vehicle 12"
-rare_03: "Rare"
+rare_03: [[Rare]]
 
 size: "Gargantuan"
 modifier: 

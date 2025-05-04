@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/beast
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/5
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 5"
 
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "beast"
-trait_03: "water"
+trait_01: [[amphibious]]
+trait_02: [[beast]]
+trait_03: [[water]]
 modifier: 14
 perception:
   - name: "Perception"

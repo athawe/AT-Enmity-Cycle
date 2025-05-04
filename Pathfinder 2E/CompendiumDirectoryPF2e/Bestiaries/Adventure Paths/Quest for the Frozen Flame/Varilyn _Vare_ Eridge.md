@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/halfling
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Varilyn &quot;Vare&quot; Eridge"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #176: Lost Mammoth Valley"
 name: "Varilyn "Vare" Eridge"
 level: "Creature 4"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "good"
-trait_02: "halfling"
-trait_03: "humanoid"
+trait_01: [[good]]
+trait_02: [[halfling]]
+trait_03: [[humanoid]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +14, Athletics: +12, Crafting: +14, Scouting Lore: +12, Stealth: +11, Survival: +12"
+    desc: "Acrobatics: +14, Athletics: +12, Crafting: +14, Stealth: +11, Survival: +12, Scouting Lore: +12"
 abilityMods: [4, 1, 2, 1, 3, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder #176: Lost Mammoth Valley_"

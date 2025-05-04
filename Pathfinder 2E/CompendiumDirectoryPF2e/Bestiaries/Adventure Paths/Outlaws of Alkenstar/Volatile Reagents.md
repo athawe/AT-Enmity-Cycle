@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - alchemical
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder #178: Punks in a Powder Keg
 aliases: "Compendium.pf2e.outlaws-of-alkenstar-bestiary.Actor.sCqnGbntH125iWU4" 
@@ -22,14 +23,14 @@ name: "Volatile Reagents"
 level: "Hazard 2"
 
 trait_06: "Complex"
-trait_01: "alchemical"
-trait_02: "environmental"
+trait_01: [[alchemical]]
+trait_02: [[environmental]]
 modifier: 5
 sourcebook: "_Pathfinder #178: Punks in a Powder Keg_"
 ac: 18
 armorclass:
   - name: AC
-    desc: "18; __Fort__ +10, __Ref__ +8, __Will__ +0"
+    desc: "18; __Fort__ +10, __Ref__ +8, "
 hp: 10
 health:
   - name: ""

@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/holy
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Horned Archon"
@@ -27,11 +28,11 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "archon"
-trait_02: "celestial"
-trait_03: "good"
-trait_04: "holy"
-trait_05: "lawful"
+trait_01: [[archon]]
+trait_02: [[celestial]]
+trait_03: [[good]]
+trait_04: [[holy]]
+trait_05: [[lawful]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Diabolic, Draconic, Empyrean; tongues"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +12, Nature: +11, Religion: +9, Stealth: +10, Survival: +11 (+15 to Track)"
+    desc: "Acrobatics: +12, Nature: +11, Religion: +9, Stealth: +10, Survival: +11"
 abilityMods: [3, 4, 3, 1, 3, 1]
 speed: 35 feet
 sourcebook: "_Pathfinder Bestiary_"

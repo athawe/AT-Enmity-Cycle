@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
   - remaster
 source: Pathfinder GM Core
@@ -23,8 +24,8 @@ name: "Pharaoh's Ward"
 level: "Hazard 7"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 15
 sourcebook: "_Pathfinder GM Core_"
 perception:

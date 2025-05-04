@@ -57,12 +57,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Kalaggi Nakutu
-creatures:
-  - 1: Kalaggi Nakutu
-```
-
 
 
 

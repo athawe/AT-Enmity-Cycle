@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Unshadowed Mariama"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #174: Shadows of the Ancients"
 name: "Unshadowed Mariama"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Dwarven, Fey, Kholo"
 skills:
   - name: "Skills"
-    desc: "Academia Lore: +35, Deception: +31, Intimidation: +29, Occultism: +35, Religion: +31, Stealth: +31"
+    desc: "Deception: +31, Intimidation: +29, Occultism: +35, Religion: +31, Stealth: +31, Academia Lore: +35"
 abilityMods: [1, 3, 4, 5, 4, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder #174: Shadows of the Ancients_"

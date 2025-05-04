@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.fall-of-plaguestone-bestiary.Actor.b2PXIdbqdzlkGkeX"
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Blood Ooze"
@@ -24,8 +25,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Large"
-trait_01: "mindless"
-trait_02: "ooze"
+trait_01: [[mindless]]
+trait_02: [[ooze]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +13, Stealth: +4 (+12 if hiding inside a body)"
+    desc: "Athletics: +13, Stealth: +4"
 abilityMods: [5, -4, 5, -5, 0, -5]
 speed: 10 feet,  climb 10 feet
 sourcebook: "_Pathfinder Adventure: The Fall of Plaguestone_"

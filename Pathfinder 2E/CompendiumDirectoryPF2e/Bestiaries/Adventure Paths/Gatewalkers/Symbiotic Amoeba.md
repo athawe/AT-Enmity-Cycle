@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/mindless
   - pf2e/creature/type/minion
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Symbiotic Amoeba"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #187: The Seventh Arch"
 name: "Symbiotic Amoeba"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "tiny"
-trait_01: "beast"
-trait_02: "mindless"
-trait_03: "minion"
+trait_01: [[beast]]
+trait_02: [[mindless]]
+trait_03: [[minion]]
 modifier: 0
 perception:
   - name: "Perception"

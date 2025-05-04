@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Vordakai"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Vordakai"
 level: "Creature 12"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 23
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Cyclops, Daemonic, Jotun, Necril"
 skills:
   - name: "Skills"
-    desc: "Abaddon Lore: +27, Acrobatics: +20, Arcana: +25, Athletics: +21, Crafting: +23, Deception: +21, Intimidation: +21, Occultism: +25, Religion: +25"
+    desc: "Acrobatics: +20, Arcana: +25, Athletics: +21, Crafting: +23, Deception: +21, Intimidation: +21, Occultism: +25, Religion: +25, Abaddon Lore: +27"
 abilityMods: [5, 4, 5, 7, 5, 5]
 speed: 25 feet
 sourcebook: "_Pathfinder Kingmaker_"
@@ -82,7 +83,7 @@ attacks:
     desc: "_[[Spells/Create Undead|Create Undead]]_, _[[Spells/Imprisonment|Imprisonment (Cannot Currently Cast)]]_, _[[Spells/Binding Circle|Planar Binding]]_"
 
   - name: "Consume Memories"
-    desc: "`pf2:2` (arcane,attack,mental) Vordakai draws out a creature's memories and consumes them, learning bits and pieces of the world through the victim's thoughts. The lich makes a hand Strike against the target; if he hits, he deals 6d6 void damage. The target must attempt a DC 32 Will check save, after which it is temporarily immune to Consume Memories for 24 hours.\n* * *\n\n**Critical Success** The target takes no additional ill effects.\n\n**Success** The target becomes [[Conditions/Stupefied 1|Stupefied 1]] for 1 round.\n\n**Failure** The target becomes stupefied 1 with an unlimited duration. Vordakai gains a +1 status bonus to all skill checks for 1 minute as a result of the consumed memories.\n\n**Critical Failure** As failure, but the target is [[Conditions/Stupefied 1|Stupefied 2]] with an unlimited duration. In addition, Vordakai can telepathically learn one specific bit of secret information known by the victim, subject to the GM's discretion.\n\n[[Bestiary Effects/Effect_ Consume Memories|Effect: Consume Memories]]"
+    desc: "`pf2:2` (arcane,attack,mental) Vordakai draws out a creature's memories and consumes them, learning bits and pieces of the world through the victim's thoughts. The lich makes a hand Strike against the target; if he hits, he deals 6d6 void damage. The target must attempt a DC 32 Will check save, after which it is temporarily immune to Consume Memories for 24 hours.\n* * *\n\n**Critical Success** The target takes no additional ill effects.\n\n**Success** The target becomes [[Conditions/Stupefied|Stupefied 1]] for 1 round.\n\n**Failure** The target becomes stupefied 1 with an unlimited duration. Vordakai gains a +1 status bonus to all skill checks for 1 minute as a result of the consumed memories.\n\n**Critical Failure** As failure, but the target is [[Conditions/Stupefied|Stupefied 2]] with an unlimited duration. In addition, Vordakai can telepathically learn one specific bit of secret information known by the victim, subject to the GM's discretion.\n\n[[Bestiary Effects/Effect_ Consume Memories|Effect: Consume Memories]]"
 
   - name: "Drain Oculus"
     desc: "  **Frequency** once per day\n\n**Effect** Vordakai taps into the _Oculus of Abaddon's_ power to cast any arcane spell up to 6th level, even if the spell being cast is not one of his prepared spells."

@@ -31,7 +31,11 @@ abilities_top:
     desc: "arcane, divine, occult"
   - name: "Cast"
     desc: "30 minutes"
-**Targets** 1 item of 2 Bulk or less  - name: "Defense"
+
+  - name: "Targets"
+
+    desc: "1 item of 2 Bulk or less"
+  - name: "Defense"
     desc: " will"
   - name: "Duration"
     desc: "1 month"

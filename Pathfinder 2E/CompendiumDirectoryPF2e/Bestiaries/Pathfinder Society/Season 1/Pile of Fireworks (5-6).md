@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Quest #5: The Dragon who Stole Evoking Day
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.ZUwhZ8D3TpH2ctzo" 
@@ -22,14 +23,14 @@ name: "Pile of Fireworks (5-6)"
 level: "Hazard 4"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 11
 sourcebook: "_Pathfinder Society Quest #5: The Dragon who Stole Evoking Day_"
 ac: 21
 armorclass:
   - name: AC
-    desc: "21; __Fort__ +6, __Ref__ +6, __Will__ +0"
+    desc: "21; __Fort__ +6, __Ref__ +6, "
 hp: 48
 health:
   - name: ""

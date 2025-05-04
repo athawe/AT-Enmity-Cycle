@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/dwarf
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Morgrym Leadbuster"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: Troubles in Otari"
 name: "Morgrym Leadbuster"
 level: "Creature 4"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "dwarf"
-trait_02: "evil"
-trait_03: "humanoid"
+trait_01: [[dwarf]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +12, Crafting: +12, Demon Lore: +13, Diplomacy: +13 (+15 against Demons), Intimidation: +15, Religion: +16, Society: +9, Survival: +12"
+    desc: "Athletics: +12, Crafting: +12, Diplomacy: +13, Intimidation: +15, Religion: +16, Society: +9, Survival: +12, Demon Lore: +13"
 abilityMods: [3, 2, 2, 4, 1, -1]
 speed: 20 feet
 sourcebook: "_Pathfinder Adventure: Troubles in Otari_"

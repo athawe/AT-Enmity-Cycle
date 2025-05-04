@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.QUimZFYGY12QjoC4"
 tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/halfling
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Kip The Druid (3-4)"
@@ -24,8 +25,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "halfling"
+trait_01: [[evil]]
+trait_02: [[halfling]]
 modifier: 12
 perception:
   - name: "Perception"

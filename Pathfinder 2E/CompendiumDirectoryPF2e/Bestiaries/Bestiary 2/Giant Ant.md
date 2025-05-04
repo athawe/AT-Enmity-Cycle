@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.URYQ5goPCmrQvJf5" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Giant Ant"
@@ -23,7 +24,7 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -59,7 +60,7 @@ attacks:
     desc: "`pf2:1` Stinger +11 (agile)\n__Damage__  1d6 + 4 piercing plus giant-ant-venom"
 
   - name: "Giant Ant Venom"
-    desc: " (poison) **Saving Throw** DC 18 Fortitude check\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 1d8 poison and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)\n\n**Stage 2** 1d10 poison and [[Conditions/Enfeebled 1|Enfeebled 2]] (1 round)\n\n**Stage 3** 1d12 poison and [[Conditions/Enfeebled 1|Enfeebled 3]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 18 Fortitude check\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 1d8 poison and [[Conditions/Enfeebled|Enfeebled 1]] (1 round)\n\n**Stage 2** 1d10 poison and [[Conditions/Enfeebled|Enfeebled 2]] (1 round)\n\n**Stage 3** 1d12 poison and [[Conditions/Enfeebled|Enfeebled 3]] (1 round)"
 
   - name: "Haul Away"
     desc: "`pf2:1`  **Requirements** The giant ant has a Large or smaller creature grabbed\n* * *\n\n**Effect** The giant ant Strides up to its full Speed, carrying the grabbed creature with it. It is [[Conditions/Encumbered|Encumbered]] if the grabbed creature is Medium or larger."

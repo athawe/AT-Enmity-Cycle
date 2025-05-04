@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.Uhi3wX4KveuMSARt" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Giant Joro Spider"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #160: Assault on Hunting Lodge Seven"
 name: "Giant Joro Spider"
 level: "Creature 8"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -59,7 +60,7 @@ attacks:
     desc: "`pf2:1` Web +17 (range increment 30 feet)\n__Damage__ "
 
   - name: "Joro Spider Venom"
-    desc: " (incapacitation,poison) **Saving Throw** DC 25 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d8 poison (1 round)\n\n**Stage 2** 1d8 poison and [[Conditions/Slowed 1|Slowed 1]] (1 round)\n\n**Stage 3** 1d8 poison and [[Conditions/Slowed 1|Slowed 2]] (1 round)\n\n**Stage 4** 2d8 poison and [[Conditions/Paralyzed|Paralyzed]] (1d4 rounds)"
+    desc: " (incapacitation,poison) **Saving Throw** DC 25 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d8 poison (1 round)\n\n**Stage 2** 1d8 poison and [[Conditions/Slowed|Slowed 1]] (1 round)\n\n**Stage 3** 1d8 poison and [[Conditions/Slowed|Slowed 2]] (1 round)\n\n**Stage 4** 2d8 poison and [[Conditions/Paralyzed|Paralyzed]] (1d4 rounds)"
 
   - name: "Web Trap"
     desc: "  A creature hit by the joro spider's web Strike is immobilized and stuck to the nearest surface until it [[Actions/Escape|Escapes]] (DC 25)."

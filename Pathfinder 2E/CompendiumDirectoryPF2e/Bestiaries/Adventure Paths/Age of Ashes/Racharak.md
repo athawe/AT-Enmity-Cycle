@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fire
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Racharak"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #146: Cult of Cinders"
 name: "Racharak"
 level: "Creature 8"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "charau-ka"
-trait_03: "dragon"
-trait_04: "evil"
-trait_05: "fire"
-trait_06: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[charau-ka]]
+trait_03: [[dragon]]
+trait_04: [[evil]]
+trait_05: [[fire]]
+trait_06: [[humanoid]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -78,7 +79,7 @@ attacks:
     desc: "`pf2:1` Thrown Rock +17 (thrown 20 ft., deadly d6)\n__Damage__  2d6 + 9 bludgeoning"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (divine,fire) Racharak breathes flames that deals 9d6 fire damage to all creatures in a 30-foot cone (DC 26 Reflex check save).\n\nShe can't use Breath Weapon again for 1d4 rounds"
+    desc: "`pf2:2` (divine,fire) Racharak breathes flames that deals 9d6 fire damage to all creatures in a @Template[cone|distance:30] (DC 26 Reflex check save).\n\nShe can't use Breath Weapon again for 1d4 rounds"
 
   - name: "Draconic Frenzy"
     desc: "`pf2:2`  Racharak makes two claw Strikes and one bite Strike in any order."

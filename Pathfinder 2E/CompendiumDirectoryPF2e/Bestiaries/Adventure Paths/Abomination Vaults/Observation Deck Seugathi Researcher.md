@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/seugathi
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Observation Deck Seugathi Researcher"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #164: Hands of the Devil"
 name: "Observation Deck Seugathi Researcher"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "seugathi"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[seugathi]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -74,9 +75,6 @@ attacks:
   - name: "Occult Innate Spells"
     desc: "DC 24, attack +16; __3rd __  _[[Spells/Hypercognition|Hypercognition]]_, _[[Spells/Levitate|Levitate]]_, _[[Spells/Mind Reading|Mind Reading (x3)]]_\n__Cantrips__  __(3rd)__ _[[Spells/Daze|Daze]]_, _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Telekinetic Hand|Telekinetic Hand]]_, _[[Spells/Telekinetic Projectile|Telekinetic Projectile]]_"
 
-  - name: "Magic Item Mastery"
-    desc: "DC 24, attack +16"
-
   - name: "Envenom Weapon"
     desc: "`pf2:1` (manipulate) The seugathi applies their seugathi venom to one weapon they wield."
 
@@ -84,7 +82,7 @@ attacks:
     desc: "  A seugathi can Cast a Spell from a magic item even if the spell isn't on their spell list. All such spells are occult spells and use the seugathi's innate spell DC and attack modifier."
 
   - name: "Seugathi Venom"
-    desc: " (poison) **Saving Throw** DC 21 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage and [[Conditions/Stupefied 1|Stupefied 1]] (1 round)\n\n**Stage 2** 2d6 poison damage and [[Conditions/Deafened|Deafened]] and [[Conditions/Stupefied 1|Stupefied 2]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 21 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage and [[Conditions/Stupefied|Stupefied 1]] (1 round)\n\n**Stage 2** 2d6 poison damage and [[Conditions/Deafened|Deafened]] and [[Conditions/Stupefied|Stupefied 2]] (1 round)"
  
 ```
 

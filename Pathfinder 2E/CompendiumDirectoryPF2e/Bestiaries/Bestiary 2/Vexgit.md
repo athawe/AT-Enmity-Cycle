@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/fey
   - pf2e/creature/type/gremlin
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Vexgit"
@@ -26,10 +27,10 @@ level: "Creature 1"
 
 alignment: ""
 size: "tiny"
-trait_01: "evil"
-trait_02: "fey"
-trait_03: "gremlin"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[fey]]
+trait_03: [[gremlin]]
+trait_04: [[lawful]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Athletics: +6, Crafting: +6 (+8 traps), Nature: +6, Stealth: +5 (See Clacking Exoskeleton), Thievery: +7"
+    desc: "Acrobatics: +7, Athletics: +6, Crafting: +6, Nature: +6, Stealth: +5, Thievery: +7"
 abilityMods: [1, 4, 2, 1, 1, 0]
 speed: 20 feet,  climb 20 feet
 sourcebook: "_Pathfinder Bestiary 2_"

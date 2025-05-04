@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.X7LmMMEOFUUicQ2O"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Guide"
@@ -24,8 +25,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Athletics: +14, Scouting Lore: +12, Stealth: +11, Survival: +12"
+    desc: "Athletics: +14, Stealth: +11, Survival: +12, Scouting Lore: +12"
 abilityMods: [4, 1, 2, 1, 3, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

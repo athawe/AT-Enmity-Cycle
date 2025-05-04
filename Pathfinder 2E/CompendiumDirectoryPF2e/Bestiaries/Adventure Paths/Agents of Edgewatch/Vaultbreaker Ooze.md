@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.tm8vQ7gdAe9zVdDg"
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Vaultbreaker Ooze"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #158: Sixty Feet Under"
 name: "Vaultbreaker Ooze"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "mindless"
-trait_02: "ooze"
+trait_01: [[mindless]]
+trait_02: [[ooze]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -67,10 +68,10 @@ attacks:
     desc: "`pf2:1` Pseudopod +17 ()\n__Damage__  1d8 + 8 bludgeoning 2d6 acid"
 
   - name: "[[Bestiary Ability Glossary/Engulf|Engulf]]"
-    desc: "`pf2:2`  DC 23 Reflex check, 2d8 + 9 acid damage, Escape DC 23, Rupture 14 (19 when using Metallify)\n\n* * *\n"
+    desc: "`pf2:2`  DC 23 Reflex check, 2d8+9 acid damage, Escape DC 23, Rupture 14 (19 when using Metallify)\n\n* * *\n"
 
   - name: "Form Tool"
-    desc: "`pf2:2` (manipulate,polymorph) The vaultbreaker ooze instinctually shapes its pseudopod into a key, lockpick, or tool required to bypass a locking mechanism; it uses this pseudopod as thieves' tools to Pick a Lock or Disable a Device."
+    desc: "`pf2:2` (manipulate,polymorph) The vaultbreaker ooze instinctually shapes its pseudopod into a key, lockpick, or tool required to bypass a locking mechanism; it uses this pseudopod as thieves' tools to [[Actions/Pick a Lock|Pick a Lock]] or [[Actions/Disable a Device|Disable a Device]]."
  
 ```
 

@@ -8,6 +8,7 @@ district: "[[Riverside Estates]]"
 ### Appearance
 
 %% Pithy 1-2 sentences. Never more than 3. %%
+Bright red beard down to his waist, braided and tucked away safely. Immensely thick build, 
 
 ### Roleplaying
 

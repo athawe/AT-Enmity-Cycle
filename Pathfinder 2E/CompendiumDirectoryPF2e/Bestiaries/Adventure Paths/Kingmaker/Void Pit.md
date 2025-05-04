@@ -3,6 +3,7 @@ title: Void Pit
 obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
+  - pf2eHazard
 
 source: Pathfinder Kingmaker
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.ZEpByav3dMCyvJJu" 

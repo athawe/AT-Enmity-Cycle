@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
   - remaster
 source: Pathfinder GM Core
@@ -20,7 +21,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder GM Core"
 name: "Hot Air Balloon"
 level: "Vehicle 2"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 
 size: "huge"
 modifier: 

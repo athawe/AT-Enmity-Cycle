@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "Ta&#x27;apundo"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #174: Shadows of the Ancients"
 name: "Ta'apundo"
 level: "Creature 19"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "chaotic"
-trait_02: "fey"
-trait_03: "plant"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
+trait_03: [[plant]]
 modifier: 35
 perception:
   - name: "Perception"

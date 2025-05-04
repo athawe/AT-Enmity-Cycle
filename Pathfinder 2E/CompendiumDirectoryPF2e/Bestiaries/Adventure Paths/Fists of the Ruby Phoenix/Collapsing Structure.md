@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder #167: Ready? Fight!
 aliases: "Compendium.pf2e.fists-of-the-ruby-phoenix-bestiary.Actor.zj3s5CUsTjRRiROd" 
@@ -21,13 +22,13 @@ name: "Collapsing Structure"
 level: "Hazard 15"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 20
 sourcebook: "_Pathfinder #167: Ready? Fight!_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 10
 health:
   - name: ""

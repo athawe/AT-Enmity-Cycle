@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/monitor
   - pf2e/creature/type/protean
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Azuretzi"
@@ -25,9 +26,9 @@ level: "Creature 5"
 
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "monitor"
-trait_03: "protean"
+trait_01: [[chaotic]]
+trait_02: [[monitor]]
+trait_03: [[protean]]
 modifier: 11
 perception:
   - name: "Perception"

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/tengu
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Takatorra (Level 9)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #166: Despair on Danger Island"
 name: "Takatorra (Level 9)"
 level: "Creature 9"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "good"
-trait_03: "humanoid"
-trait_04: "tengu"
+trait_01: [[chaotic]]
+trait_02: [[good]]
+trait_03: [[humanoid]]
+trait_04: [[tengu]]
 modifier: 20
 perception:
   - name: "Perception"

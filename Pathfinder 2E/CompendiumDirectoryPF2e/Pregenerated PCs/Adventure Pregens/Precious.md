@@ -56,12 +56,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Precious
-creatures:
-  - 1: Precious
-```
-
 
 
 

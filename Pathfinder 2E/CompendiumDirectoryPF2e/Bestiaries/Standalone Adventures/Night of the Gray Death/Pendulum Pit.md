@@ -6,6 +6,7 @@ tags:
   - magical
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Adventure: Night of the Gray Death
 aliases: "Compendium.pf2e.night-of-the-gray-death-bestiary.Actor.mgcQVqHyxDzNWT3e" 
@@ -23,15 +24,15 @@ name: "Pendulum Pit"
 level: "Hazard 20"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 36
 sourcebook: "_Pathfinder Adventure: Night of the Gray Death_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

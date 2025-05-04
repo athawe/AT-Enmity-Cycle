@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Glutu"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: Rusthenge"
 name: "Glutu"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "boggard"
-trait_03: "chaotic"
-trait_04: "evil"
-trait_05: "humanoid"
+trait_01: [[amphibious]]
+trait_02: [[boggard]]
+trait_03: [[chaotic]]
+trait_04: [[evil]]
+trait_05: [[humanoid]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -77,7 +78,7 @@ attacks:
     desc: "  A boggard swampseer ignores difficult terrain caused by swamp terrain features."
 
   - name: "Terrifying Croak"
-    desc: "`pf2:1` (auditory,emotion,fear,mental) The boggard swampseer unleashes a terrifying croak. Any non-boggard within 30-foot emanation becomes [[Conditions/Frightened 1|Frightened 1]] unless they succeed at a DC 19 Will check save.\n\nThose who critically succeed are temporarily immune for 1 minute."
+    desc: "`pf2:1` (auditory,emotion,fear,mental) The boggard swampseer unleashes a terrifying croak. Any non-boggard within @Template[emanation|distance:30] becomes [[Conditions/Frightened|Frightened 1]] unless they succeed at a DC 19 Will check save.\n\nThose who critically succeed are temporarily immune for 1 minute."
 
   - name: "Tongue Grab"
     desc: "  If the boggard swampseer hits a creature with its tongue, that creature becomes [[Conditions/Grabbed|Grabbed]] by the boggard. Unlike with a normal grab, the creature isn't [[Conditions/Immobilized|Immobilized]], but it can't move beyond the reach of the boggard's tongue.\n\nA creature can sever the tongue by hitting AC 15 and dealing at least 4 slashing damage. Though this doesn't deal any damage to the boggard, it prevents it from using its tongue Strike until it regrows its tongue, which takes a week."

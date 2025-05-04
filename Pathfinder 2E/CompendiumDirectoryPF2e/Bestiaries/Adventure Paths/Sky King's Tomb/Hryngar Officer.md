@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/hryngar
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Hryngar Officer"
@@ -27,11 +28,11 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "dwarf"
-trait_02: "evil"
-trait_03: "hryngar"
-trait_04: "humanoid"
-trait_05: "lawful"
+trait_01: [[dwarf]]
+trait_02: [[evil]]
+trait_03: [[hryngar]]
+trait_04: [[humanoid]]
+trait_05: [[lawful]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Dwarven, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Athletics: +15, Diplomacy: +11, Intimidation: +13, Legal Lore: +12, Society: +10, Warfare Lore: +8"
+    desc: "Athletics: +15, Diplomacy: +11, Intimidation: +13, Society: +10, Legal Lore: +12, Warfare Lore: +8"
 abilityMods: [5, 0, 2, 0, 3, 3]
 speed: 15 feet
 sourcebook: "_Pathfinder #195: Heavy is the Crown_"
@@ -65,7 +66,7 @@ abilities_mid:
     desc: " (aura,emotion,mental) 30 feet. The captain of the guard bolsters lower-level guards under their command, granting them a +1 status bonus to their attack rolls and a +2 status bonus to their Will saves.\n\n[[Bestiary Effects/Effect_ Under Command|Effect: Under Command]]\n\n[[Bestiary Effects/Effect_ Aura of Command|Effect: Aura of Command]]"
 
   - name: "Bravery"
-    desc: "  When the captain of the guard rolls a success on a Will save against a fear effect, they get a critical success instead. In addition, any time they gain the [[Conditions/Frightened 1|Frightened]] condition, reduce its value by 1."
+    desc: "  When the captain of the guard rolls a success on a Will save against a fear effect, they get a critical success instead. In addition, any time they gain the [[Conditions/Frightened|Frightened]] condition, reduce its value by 1."
 
   - name: "[[Bestiary Ability Glossary/Shield Block|Shield Block]]"
     desc: "`pf2:r`  "

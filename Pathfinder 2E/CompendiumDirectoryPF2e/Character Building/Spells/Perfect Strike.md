@@ -25,6 +25,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
 abilities_mid:
   - name: ""
     desc: "**Trigger** You miss a Strike with an unarmed attack.\n* * *\n\nYou call upon insight from your training to recover accuracy. Reroll the missed attack roll and keep the new result."

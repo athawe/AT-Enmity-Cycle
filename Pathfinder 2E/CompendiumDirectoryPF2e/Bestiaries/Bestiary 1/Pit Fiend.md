@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Pit Fiend"
@@ -27,11 +28,11 @@ level: "Creature 20"
 
 alignment: ""
 size: "Large"
-trait_01: "devil"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "lawful"
-trait_05: "unholy"
+trait_01: [[devil]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[lawful]]
+trait_05: [[unholy]]
 modifier: 37
 perception:
   - name: "Perception"
@@ -100,7 +101,7 @@ attacks:
     desc: " (concentrate) **Frequency** once per round.\n* * *\n\n**Effect** If the pit fiend's next action is to cast an 8th-rank or lower innate spell, reduce the number of actions to cast it by 1 (minimum 1 action)."
 
   - name: "Pit Fiend Venom"
-    desc: " (poison) **Saving Throw** DC 43 Fortitude check\n\n**Maximum Duration** 10 rounds\n\n**Stage 1** 6d6 poison damage and [[Conditions/Drained 1|Drained 1]] (1 round)\n\n**Stage 2** 7d6 poison damage and [[Conditions/Drained 1|Drained 2]] (1 round)\n\n**Stage 3** 8d6 poison damage and [[Conditions/Drained 1|Drained 3]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 43 Fortitude check\n\n**Maximum Duration** 10 rounds\n\n**Stage 1** 6d6 poison damage and [[Conditions/Drained|Drained 1]] (1 round)\n\n**Stage 2** 7d6 poison damage and [[Conditions/Drained|Drained 2]] (1 round)\n\n**Stage 3** 8d6 poison damage and [[Conditions/Drained|Drained 3]] (1 round)"
  
 ```
 

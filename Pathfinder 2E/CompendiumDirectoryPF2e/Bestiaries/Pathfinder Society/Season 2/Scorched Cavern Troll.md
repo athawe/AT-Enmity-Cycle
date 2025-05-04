@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/giant
   - pf2e/creature/type/troll
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Scorched Cavern Troll"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-20: Breaking the Storm: Bastion in Embers"
 name: "Scorched Cavern Troll"
 level: "Creature 4"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "earth"
-trait_03: "evil"
-trait_04: "giant"
-trait_05: "troll"
+trait_01: [[chaotic]]
+trait_02: [[earth]]
+trait_03: [[evil]]
+trait_04: [[giant]]
+trait_05: [[troll]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -64,7 +65,7 @@ abilities_mid:
     desc: "`pf2:r`  "
 
   - name: "Sunlight Petrification"
-    desc: "  If exposed to direct sunlight, a cavern troll immediately becomes [[Conditions/Slowed 1|Slowed 1]] and can't use reactions or Trample. The slowed value increases by 1 each time the cavern troll ends its turn in sunlight. If the cavern troll's actions are reduced to 0 in this way, they become [[Conditions/Petrified|Petrified]] until they spends at least 1 minute in darkness. Spells like [[Spells/Sunburst|Sunburst]] that create magical sunlight cannot petrify a cavern troll, but the troll is slowed 1 for 1d4 rounds after being exposed to such an effect."
+    desc: "  If exposed to direct sunlight, a cavern troll immediately becomes [[Conditions/Slowed|Slowed 1]] and can't use reactions or Trample. The slowed value increases by 1 each time the cavern troll ends its turn in sunlight. If the cavern troll's actions are reduced to 0 in this way, they become [[Conditions/Petrified|Petrified]] until they spends at least 1 minute in darkness. Spells like [[Spells/Sunburst|Sunburst]] that create magical sunlight cannot petrify a cavern troll, but the troll is slowed 1 for 1d4 rounds after being exposed to such an effect."
 
 attacks:
   - name: ""

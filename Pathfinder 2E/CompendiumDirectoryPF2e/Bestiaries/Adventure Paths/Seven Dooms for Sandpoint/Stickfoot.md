@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.seven-dooms-for-sandpoint-bestiary.Actor.iOJqWQMDoqBqmmCg" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Stickfoot"
@@ -23,7 +24,7 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8, Athletics: +5 (+9 to Climb), Stealth: +6"
+    desc: "Acrobatics: +8, Athletics: +5, Stealth: +6"
 abilityMods: [2, 3, 1, -4, 2, -2]
 speed: 30 feet,  climb 30 feet
 sourcebook: "_Pathfinder #200: Seven Dooms for Sandpoint_"

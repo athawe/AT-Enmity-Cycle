@@ -60,12 +60,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Harsk (Level 1)
-creatures:
-  - 1: Harsk (Level 1)
-```
-
 
 
 

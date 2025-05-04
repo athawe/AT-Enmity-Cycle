@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/xulgath
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Zashathal Head-Taker"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #154: Siege of the Dinosaurs"
 name: "Zashathal Head-Taker"
 level: "Creature 15"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "xulgath"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[xulgath]]
 modifier: 27
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Draconic, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +22, Athletics: +29, Intimidation: +25 (+27 to Demoralize), Religion: +25, Stealth: +22, Survival: +25"
+    desc: "Acrobatics: +22, Athletics: +29, Intimidation: +25, Religion: +25, Stealth: +22, Survival: +25"
 abilityMods: [6, 1, 5, 0, 4, 2]
 speed: 35 feet
 sourcebook: "_Pathfinder #154: Siege of the Dinosaurs_"
@@ -64,7 +65,7 @@ abilities_mid:
     desc: "  When Zashathal rolls a success on a Fortitude save, it is a critical success instead. Zashathal halves damage he takes from failing a Fortitude save."
 
   - name: "Powerful Stench"
-    desc: " (aura,olfactory) 30 feet. A creature that enters the area must attempt a DC 34 Fortitude check save. On a failure, the creature is [[Conditions/Sickened 1|Sickened 2]], and on a critical failure, the creature is also [[Conditions/Slowed 1|Slowed 1]] for as long as it is sickened. While within the aura, the creature takes a -2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths' stenches for 1 minute."
+    desc: " (aura,olfactory) 30 feet. A creature that enters the area must attempt a DC 34 Fortitude check save. On a failure, the creature is [[Conditions/Sickened|Sickened 2]], and on a critical failure, the creature is also [[Conditions/Slowed|Slowed 1]] for as long as it is sickened. While within the aura, the creature takes a -2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths' stenches for 1 minute."
 
 attacks:
   - name: ""

@@ -38,6 +38,6 @@ abilities_top:
     desc: "1 minute"
 abilities_mid:
   - name: ""
-    desc: "You grip one target with the phantasmal pressure of the deep sea, disorienting and crushing its lungs and joints. The target takes 6d6 bludgeoning damage and other effects, depending on its Will saving throw.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The target takes half damage.\n\n**Failure** The target takes half damage, and feels as though it's being crushed. The target becomes [[Conditions/Grabbed|Grabbed]] and takes 6d6 bludgeoning damage; it can attempt to [[Actions/Escape|Escape]] with an Escape DC equal to your spell DC.\n\n**Critical Failure** As failure, but the target takes double damage.\n* * *\n\n**Heightened (6th)** You can target up to 5 creatures."
+    desc: "You grip one target with the phantasmal pressure of the deep sea, disorienting and crushing its lungs and joints. The target takes 6d6 bludgeoning damage and other effects, depending on its Will saving throw.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The target takes half damage.\n\n**Failure** The target takes full damage, and feels as though it's being crushed. The target also becomes [[Conditions/Grabbed|Grabbed]], but it can attempt to [[Actions/Escape|Escape]] with an Escape DC equal to your spell DC.\n\n**Critical Failure** As failure, but the target takes double damage.\n* * *\n\n**Heightened (6th)** You can target up to 5 creatures."
 sourcebook: "_Pathfinder Rage of Elements_"
 ```

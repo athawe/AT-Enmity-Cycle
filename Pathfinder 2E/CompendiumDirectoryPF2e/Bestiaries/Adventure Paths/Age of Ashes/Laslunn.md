@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/gnoll
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Laslunn"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #147: Tomorrow Must Burn"
 name: "Laslunn"
 level: "Creature 13"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "gnoll"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[gnoll]]
+trait_03: [[humanoid]]
 modifier: 24
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Dwarven, Kholo"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +27, Athletics: +26, Intimidation: +26, Slaver Lore: +20, Society: +20, Stealth: +22, Survival: +22, Thievery: +22"
+    desc: "Acrobatics: +27, Athletics: +26, Intimidation: +26, Society: +20, Stealth: +22, Survival: +22, Thievery: +22, Slaver Lore: +20"
 abilityMods: [4, 5, 3, 1, 3, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder #147: Tomorrow Must Burn_"

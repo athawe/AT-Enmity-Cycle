@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/rakshasa
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Maharaja"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Maharaja"
 level: "Creature 20"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fiend"
-trait_03: "lawful"
-trait_04: "rakshasa"
-trait_05: "unholy"
+trait_01: [[evil]]
+trait_02: [[fiend]]
+trait_03: [[lawful]]
+trait_04: [[rakshasa]]
+trait_05: [[unholy]]
 modifier: 37
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Chthonian, Common, Diabolic, Sakvroth; tongues"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +33, Arcana: +33, Deception: +41, Diplomacy: +38, Intimidation: +38, Lore (any three): +33, Occultism: +35, Religion: +35, Society: +35"
+    desc: "Acrobatics: +33, Arcana: +33, Deception: +41, Diplomacy: +38, Intimidation: +38, Occultism: +35, Religion: +35, Society: +35, Lore (any three): +33"
 abilityMods: [8, 9, 7, 7, 7, 10]
 speed: 40 feet,  fly 30 feet
 sourcebook: "_Pathfinder Bestiary 3_"

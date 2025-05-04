@@ -32,8 +32,10 @@ abilities_top:
     desc: "arcane, primal"
   - name: "Cast"
     desc: "1 minute"
-**Area** 20-foot burst
-**Targets** Up to 5 willing living creatures  - name: "Duration"
+
+  - name: "Area"
+    desc: "20-foot burstUp to 5 willing living creatures"
+  - name: "Duration"
     desc: "10 minutes"
 abilities_mid:
   - name: ""

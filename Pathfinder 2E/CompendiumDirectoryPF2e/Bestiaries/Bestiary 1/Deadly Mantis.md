@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.HeoH8hi5iieKPuJ2" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Deadly Mantis"
@@ -23,7 +24,7 @@ level: "Creature 11"
 
 alignment: ""
 size: "grg"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 20
 perception:
   - name: "Perception"

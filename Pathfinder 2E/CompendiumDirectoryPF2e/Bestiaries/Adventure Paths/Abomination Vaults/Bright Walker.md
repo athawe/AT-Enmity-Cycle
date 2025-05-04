@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/spirit
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Bright Walker"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #165: Eyes of Empty Death"
 name: "Bright Walker"
 level: "Creature 9"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "incorporeal"
-trait_03: "spirit"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[evil]]
+trait_02: [[incorporeal]]
+trait_03: [[spirit]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -79,7 +80,7 @@ attacks:
     desc: "  A bright walker can't fly higher than 1 foot above the ground. If they fly higher than this distance, they fall but don't take any damage from falling."
 
   - name: "Light Flare"
-    desc: "`pf2:2` (divine,fire,light) **Requirement** The bright walker's Light Aura is suppressed\n* * *\n\n**Effect** The bright walker reignites their Light Aura with a burst of brightness that deals 5d6 fire damage (DC 25 Reflex check save) to creatures within a 20-foot burst.\n\nCreatures who are [[Conditions/Dazzled|Dazzled]] or with [[Bestiary Ability Glossary/Light Blindness|Light Blindness]] find this flare particularly painful; such a creature's save result is one degree of success worse than the result it rolled."
+    desc: "`pf2:2` (divine,fire,light) **Requirement** The bright walker's Light Aura is suppressed\n* * *\n\n**Effect** The bright walker reignites their Light Aura with a burst of brightness that deals 5d6 fire damage (DC 25 Reflex check save) to creatures within a @Template[burst|distance:20].\n\nCreatures who are [[Conditions/Dazzled|Dazzled]] or with [[Bestiary Ability Glossary/Light Blindness|Light Blindness]] find this flare particularly painful; such a creature's save result is one degree of success worse than the result it rolled."
 
   - name: "Shadow Jump"
     desc: "`pf2:1` (divine,teleportation) **Requirement** The bright walker's Light Aura is suppressed\n* * *\n\n**Effect** The bright walker teleports to a square it can see within 60 feet that is not in an area of bright light. The bright walker can't use again for 1d4 rounds."

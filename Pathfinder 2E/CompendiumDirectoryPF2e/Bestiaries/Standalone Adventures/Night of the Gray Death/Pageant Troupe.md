@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.night-of-the-gray-death-bestiary.Actor.HK51NfMiYq9H1Pb
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/troop
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Pageant Troupe"
@@ -24,8 +25,8 @@ level: "Creature 14"
 
 alignment: ""
 size: "grg"
-trait_01: "construct"
-trait_02: "troop"
+trait_01: [[construct]]
+trait_02: [[troop]]
 modifier: 24
 perception:
   - name: "Perception"
@@ -70,7 +71,7 @@ attacks:
   - name: ""
 
   - name: "Strike as One"
-    desc: "`pf2:1`  `pf2:1` to `pf2:3`\n\n**Frequency** once per round\n* * *\n\n**Effect** The garrison makes a melee attack against each enemy within 5 feet (DC 30 Reflex check save). The damage depends on the number of actions.\n\n`pf2:1` 2d8 + 2 bludgeoning damage.\n\n`pf2:2` 8d8 + 12 bludgeoning damage.\n\n`pf2:3` 4d8 + 15 bludgeoning damage."
+    desc: "`pf2:1`  `pf2:1` to `pf2:3`\n\n**Frequency** once per round\n* * *\n\n**Effect** The garrison makes a melee attack against each enemy within 5 feet (DC 30 Reflex check save). The damage depends on the number of actions.\n\n`pf2:1` 2d8+2 bludgeoning damage.\n\n`pf2:2` 8d8+12 bludgeoning damage.\n\n`pf2:3` 4d8+15 bludgeoning damage."
 
   - name: "Troop Movement"
     desc: "  Whenever a troop Strides, it first Forms Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then moves up to its Speed. This works just like a Gargantuan creature moving; for instance, if any square enters difficult terrain, the extra movement cost applies to the whole troop."

@@ -17,7 +17,7 @@ license: OGL
 
 **Price** 55 gp; 
 **Bulk** 0; **Size** med
-**Usage** held-in-one-hand
+**Usage** affixed-to-armor-or-a-weapon
 
 A sheen of red crosses the surface of this star-shaped goldstone medallion when the light hits it. The affixed armor or weapon is warm to the touch. The spell attack roll of any spell cast by Activating this item is +7, and the spell DC is 17.
 

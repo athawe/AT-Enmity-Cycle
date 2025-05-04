@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Abyssal Drool"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-99: Blessings of the Forest"
 name: "Abyssal Drool"
 level: "Creature -1"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "mindless"
-trait_04: "ooze"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[mindless]]
+trait_04: [[ooze]]
+trait_05: [[unholy]]
 modifier: 4
 perception:
   - name: "Perception"

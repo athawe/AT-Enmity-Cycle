@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-5-bestiary.Actor.Z9ofpt7xRr9o47Ya"
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "The Upset Warden (3-4)"
@@ -24,8 +25,8 @@ level: "Creature 5"
 
 alignment: ""
 size: "Large"
-trait_01: "construct"
-trait_02: "humanoid"
+trait_01: [[construct]]
+trait_02: [[humanoid]]
 modifier: 13
 perception:
   - name: "Perception"

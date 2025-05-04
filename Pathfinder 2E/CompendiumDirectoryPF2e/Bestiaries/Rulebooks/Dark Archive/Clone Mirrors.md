@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Dark Archive
 aliases: "Compendium.pf2e.pathfinder-dark-archive.Actor.Ldw3d0TYwtMywbM0" 
@@ -22,14 +23,14 @@ name: "Clone Mirrors"
 level: "Hazard 6"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 11
 sourcebook: "_Pathfinder Dark Archive_"
 ac: 21
 armorclass:
   - name: AC
-    desc: "21; __Fort__ +17, __Ref__ +11, __Will__ +0"
+    desc: "21; __Fort__ +17, __Ref__ +11, "
 hp: 54
 health:
   - name: ""

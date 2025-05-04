@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Nashaxian The Angered"
@@ -27,11 +28,11 @@ level: "Creature 5"
 
 alignment: ""
 size: "Medium"
-trait_01: "devil"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "lawful"
-trait_05: "unholy"
+trait_01: [[devil]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[lawful]]
+trait_05: [[unholy]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -59,7 +60,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Infernal Detonations"
-    desc: "`pf2:r`  **Trigger** A creature Nashaxian can see steps on one of the 10-foot-by-10-foot patches of flame in the throne room hallway\n* * *\n\n**Effect** The creature and any other creatures above that patch take 1d6 + 2 fire damage."
+    desc: "`pf2:r`  **Trigger** A creature Nashaxian can see steps on one of the 10-foot-by-10-foot patches of flame in the throne room hallway\n* * *\n\n**Effect** The creature and any other creatures above that patch take 1d6+2 fire damage."
 
 attacks:
   - name: ""
@@ -80,7 +81,7 @@ attacks:
     desc: "_[[Spells/Diabolic Pact|Infernal Pact]]_"
 
   - name: "Avernal Fever"
-    desc: " (disease) **Saving Throw** DC 23 Fortitude check\n* * *\n\n**Stage 1** carrier with no ill effect (1 day)\n\n**Stage 2** [[Conditions/Enfeebled 1|Enfeebled 1]] (1 day)\n\n**Stage 3** [[Conditions/Enfeebled 1|Enfeebled 2]] (1 day)"
+    desc: " (disease) **Saving Throw** DC 23 Fortitude check\n* * *\n\n**Stage 1** carrier with no ill effect (1 day)\n\n**Stage 2** [[Conditions/Enfeebled|Enfeebled 1]] (1 day)\n\n**Stage 3** [[Conditions/Enfeebled|Enfeebled 2]] (1 day)"
 
   - name: "Infernal Wound"
     desc: " (divine) Nashaxian's glaive Strike also deals 1d6 bleed that resists attempts to heal it.\n\nThe flat check to stop the bleeding starts at DC 20 Flat check. The DC is reduced to DC 15 Flat check only if the bleeding creature or an ally successfully assists with the recovery. The DC to [[Actions/Administer First Aid|Administer First Aid]] to a creature with an infernal wound is increased by 5.\n\nA spellcaster or item attempting to use healing magic on a creature suffering from an infernal wound must succeed at a DC 21 counteract check or the magic fails to heal the creature.\n\n[[Bestiary Effects/Effect_ Infernal Wound|Effect: Infernal Wound]]"

@@ -25,7 +25,7 @@ district:
 
 %% Essential information for the PCs, necessary clues, etc. _NOT_ key info about the NPC (that's what background is for). %%
 
-1. CN female elf guide 8 
+1. CN female elf [[Guide]] 8 - leveled up from 5
 2. found around Goblin Squash Stables in Theatre District 
 
 ### Statblock

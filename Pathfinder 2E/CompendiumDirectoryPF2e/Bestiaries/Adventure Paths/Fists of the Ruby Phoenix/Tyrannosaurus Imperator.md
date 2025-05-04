@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.fists-of-the-ruby-phoenix-bestiary.Actor.Zp6lrCF3Jwpdf
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/dinosaur
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Tyrannosaurus Imperator"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #166: Despair on Danger Island"
 name: "Tyrannosaurus Imperator"
 level: "Creature 14"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "animal"
-trait_02: "dinosaur"
+trait_01: [[animal]]
+trait_02: [[dinosaur]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -67,10 +68,10 @@ attacks:
     desc: "`pf2:r`  **Trigger** The tyrannosaurus critically hits a Large or smaller foe with its foot.\n* * *\n\n**Effect** The creature struck by the foot is knocked [[Conditions/Prone|Prone]] and the tyrannosaurus uses its foot to hold the creature in place. As long as the tyrannosaurus doesn't move from its position, the pinned creature is [[Conditions/Grabbed|Grabbed]]. A tyrannosaurus gains a +2 circumstance bonus to attack a creature it has pinned in this manner, but it cannot use swallow whole on the target unless it uses its jaws to Grab the victim first."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Medium, 4d6 + 8 bludgeoning, Rupture 34\n\n* * *\n"
+    desc: "`pf2:1` (attack) Medium, 4d6+8 bludgeoning, Rupture 34\n\n* * *\n"
 
   - name: "Tail Swipe"
-    desc: "`pf2:2`  The tyrannosaurus sweeps its tail in a 15-foot cone, dealing 4d8 + 12 bludgeoning damage to all creatures in the cone. Creatures in the area must attempt a DC 34 Reflex check save.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage.\n\n**Failure** The creature takes full damage and falls [[Conditions/Prone|Prone]].\n\n**Critical Failure** The creature takes double damage, is pushed back 10 feet, and falls prone."
+    desc: "`pf2:2`  The tyrannosaurus sweeps its tail in a @Template[cone|distance:15], dealing 4d8+12 bludgeoning damage to all creatures in the cone. Creatures in the area must attempt a DC 34 Reflex check save.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage.\n\n**Failure** The creature takes full damage and falls [[Conditions/Prone|Prone]].\n\n**Critical Failure** The creature takes double damage, is pushed back 10 feet, and falls prone."
 
   - name: "[[Bestiary Ability Glossary/Trample|Trample]]"
     desc: "`pf2:3`  Huge or smaller, foot, DC 34 Reflex check\n\n* * *\n"

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Aphorite Sharpshooter"
@@ -26,10 +27,10 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "aphorite"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[aphorite]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Utopian"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +10, Athletics: +8, Deception: +10, Diplomacy: +10, Engineering Lore: +9, Intimidation: +10"
+    desc: "Acrobatics: +10, Athletics: +8, Deception: +10, Diplomacy: +10, Intimidation: +10, Engineering Lore: +9"
 abilityMods: [2, 4, 2, 1, 0, 2]
 speed: 20 feet
 sourcebook: "_Pathfinder Bestiary 3_"

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.V6OBYa51VcehPj22"
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Gray Ooze"
@@ -24,8 +25,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "mindless"
-trait_02: "ooze"
+trait_01: [[mindless]]
+trait_02: [[ooze]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +11, Stealth: +10 (+12 in moist environments)"
+    desc: "Athletics: +11, Stealth: +10"
 abilityMods: [5, 2, 4, -5, 0, -5]
 speed: 10 feet,  climb 10 feet
 sourcebook: "_Pathfinder Bestiary 2_"

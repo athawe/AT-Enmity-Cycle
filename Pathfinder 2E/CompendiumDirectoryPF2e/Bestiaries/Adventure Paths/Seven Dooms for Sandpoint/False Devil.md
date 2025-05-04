@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.seven-dooms-for-sandpoint-bestiary.Actor.RRXHzISbHxLnvQ3q" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "False Devil"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #200: Seven Dooms for Sandpoint"
 name: "False Devil"
 level: "Creature 8"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -59,7 +60,7 @@ attacks:
     desc: "`pf2:1` Claw +20 (agile, finesse)\n__Damage__  2d6 + 11 slashing"
 
   - name: "Chupar"
-    desc: "`pf2:1`  **Requirements** The chupacabra has a creature [[Conditions/Grabbed|Grabbed]]\n* * *\n\n**Effect** The chupacabra sucks blood from the grabbed creature. The chupacabra gains the [[Conditions/Quickened|Quickened]] condition for 1 minute and can use the extra action only for Strike and Stride actions. A chupacabra can't use Chupar again while it is quickened in this way.\n\nA creature that has its blood drained by a chupacabra is [[Conditions/Drained 1|Drained 1]] until it receives healing (of any kind or amount)."
+    desc: "`pf2:1`  **Requirements** The chupacabra has a creature [[Conditions/Grabbed|Grabbed]]\n* * *\n\n**Effect** The chupacabra sucks blood from the grabbed creature. The chupacabra gains the [[Conditions/Quickened|Quickened]] condition for 1 minute and can use the extra action only for Strike and Stride actions. A chupacabra can't use Chupar again while it is quickened in this way.\n\nA creature that has its blood drained by a chupacabra is [[Conditions/Drained|Drained 1]] until it receives healing (of any kind or amount)."
 
   - name: "Pounce"
     desc: "`pf2:1`  The chupacabra Strides and makes a Strike at the end of that movement. If the chupacabra began this action [[Conditions/Hidden|Hidden]], it remains hidden until after this ability's Strike."

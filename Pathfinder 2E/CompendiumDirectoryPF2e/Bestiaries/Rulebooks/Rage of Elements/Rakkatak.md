@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.rage-of-elements-bestiary.Actor.m2WdV4XJ3r70mnJX"
 tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/fire
+  - pf2eMonster
   - pf2e/creature/level/5
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 5"
 
 alignment: ""
 size: "Medium"
-trait_01: "elemental"
-trait_02: "fire"
+trait_01: [[elemental]]
+trait_02: [[fire]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -34,7 +35,7 @@ perception:
 languages: "Pyric; can&#x27;t speak any language"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +11"
+    desc: "Acrobatics: +11, Athletics: +15"
 abilityMods: [4, 2, 5, -3, 2, -2]
 speed: 5 feet,  fly 45 feet
 sourcebook: "_Pathfinder Rage of Elements_"
@@ -53,7 +54,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Exploding Guts"
-    desc: "  When the rakkatak is critically hit or critically fails a Fortitude save, one of its organs bursts. Roll 1d4 to determine what effect this has.\n\n**1** Trapped noxious gas rushes out. The rakkatak is pushed 10 feet away from the source of the triggering attack or effect.\n\n**2** Pus showers those nearby. Each creature in a 5-foot emanation is [[Conditions/Sickened 1|Sickened 1]].\n\n**3** The damage is severe. The rakkatak takes 1d6 persistent bleed damage.\n\n**4** Gelatinous rakkatak eggs explode forth and instantly hatch. Each creature in a 5-foot emanation takes 1d6 persistent piercing damage from the ravenous larvae."
+    desc: "  When the rakkatak is critically hit or critically fails a Fortitude save, one of its organs bursts. Roll 1d4 to determine what effect this has.\n\n**1** Trapped noxious gas rushes out. The rakkatak is pushed 10 feet away from the source of the triggering attack or effect.\n\n**2** Pus showers those nearby. Each creature in a @Template[emanation|distance:5] is [[Conditions/Sickened|Sickened 1]].\n\n**3** The damage is severe. The rakkatak takes 1d6 persistent bleed damage.\n\n**4** Gelatinous rakkatak eggs explode forth and instantly hatch. Each creature in a @Template[emanation|distance:5] takes 1d6 persistent piercing damage from the ravenous larvae."
 
 attacks:
   - name: ""

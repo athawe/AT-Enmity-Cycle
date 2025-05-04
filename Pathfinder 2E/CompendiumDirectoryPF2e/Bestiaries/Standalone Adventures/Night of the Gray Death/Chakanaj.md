@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/sahkil
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Chakanaj"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: Night of the Gray Death"
 name: "Chakanaj"
 level: "Creature 14"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "tiny"
-trait_01: "evil"
-trait_02: "fiend"
-trait_03: "sahkil"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[fiend]]
+trait_03: [[sahkil]]
+trait_04: [[unholy]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Chthonian, Diabolic, Empyrean, Requian; telepathy 100 feet"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +28, Deception: +27 (+31 to impersonate clothing), Intimidation: +25, Religion: +25, Stealth: +30, Thievery: +26"
+    desc: "Acrobatics: +28, Deception: +27, Intimidation: +25, Religion: +25, Stealth: +30, Thievery: +26"
 abilityMods: [0, 8, 4, 2, 5, 7]
 speed: 10 feet,  fly 40 feet
 sourcebook: "_Pathfinder Adventure: Night of the Gray Death_"

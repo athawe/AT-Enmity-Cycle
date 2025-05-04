@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.NmkeNdV7SWYG7bYe"
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Vengeant Thorn (1-2)"
@@ -24,8 +25,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "evil"
+trait_01: [[beast]]
+trait_02: [[evil]]
 modifier: 7
 perception:
   - name: "Perception"

@@ -25,7 +25,7 @@ Made from a carefully distilled blend of serpentine hemotoxins, the fast-acting 
 
 * * *
 
-**Activate** `pf2:2` Interact (Injuury)
+**Activate** `pf2:2` Interact (Injury)
 
 **Saving Throw** DC 36 Fortitude check
 

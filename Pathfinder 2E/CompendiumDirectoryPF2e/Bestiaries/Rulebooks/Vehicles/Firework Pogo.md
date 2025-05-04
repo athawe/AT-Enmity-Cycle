@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
 source: Pathfinder Lost Omens: The Grand Bazaar
 aliases: "Compendium.pf2e.vehicles.Actor.MCU4ZiNNAX7GQNJb" 
@@ -19,7 +20,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: The Grand Bazaar"
 name: "Firework Pogo"
 level: "Vehicle 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 
 size: "Medium"
 modifier: 

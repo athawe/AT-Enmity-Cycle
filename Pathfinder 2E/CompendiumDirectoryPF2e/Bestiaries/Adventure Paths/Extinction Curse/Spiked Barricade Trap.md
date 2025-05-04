@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #154: Siege of the Dinosaurs
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.RVPH12vtOWMuJx0L" 
@@ -22,14 +23,14 @@ name: "Spiked Barricade Trap"
 level: "Hazard 13"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 22
 sourcebook: "_Pathfinder #154: Siege of the Dinosaurs_"
 ac: 34
 armorclass:
   - name: AC
-    desc: "34; __Fort__ +26, __Ref__ +18, __Will__ +0"
+    desc: "34; __Fort__ +26, __Ref__ +18, "
 hp: 88
 health:
   - name: ""

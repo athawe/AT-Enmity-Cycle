@@ -6,6 +6,7 @@ tags:
   - magical
   - occult
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #194: Cult of the Cave Worm
 aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.kRg5i9SxnYOoRqBA" 
@@ -23,15 +24,15 @@ name: "Invertebrate Infiltrator Trap"
 level: "Hazard 8"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "occult"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[occult]]
+trait_03: [[trap]]
 modifier: 21
 sourcebook: "_Pathfinder #194: Cult of the Cave Worm_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

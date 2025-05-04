@@ -25,6 +25,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
   - name: "Duration"
     desc: "1 hour"
 abilities_mid:

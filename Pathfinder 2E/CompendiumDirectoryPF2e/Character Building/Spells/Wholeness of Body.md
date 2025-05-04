@@ -29,6 +29,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
 abilities_mid:
   - name: ""
     desc: "You heal yourself in one of the following ways, chosen by you when you cast the spell.\n\n*   You regain 8 Hit Points.\n*   You attempt to cure one poison or disease afflicting you; attempt to counteract the affliction.\n* * *\n\n**Heightened (+1)** If you choose to regain Hit Points, the Hit Points regained increase by 8."

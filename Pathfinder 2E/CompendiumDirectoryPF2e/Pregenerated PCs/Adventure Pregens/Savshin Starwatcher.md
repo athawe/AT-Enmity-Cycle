@@ -66,12 +66,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Savshin Starwatcher
-creatures:
-  - 1: Savshin Starwatcher
-```
-
 
 
 

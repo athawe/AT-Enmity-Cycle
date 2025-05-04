@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.pMKrTXmrzDOc9avN"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Cult Leader"
@@ -24,8 +25,8 @@ level: "Creature 7"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Arcana: +13, Cult Lore (Applies to the Leader's own cult): +19, Deception: +16, Diplomacy: +14, Intimidation: +16, Occultism: +17, Society: +13"
+    desc: "Arcana: +13, Deception: +16, Diplomacy: +14, Intimidation: +16, Occultism: +17, Society: +13, Cult Lore (Applies to the Leader's own cult): +19"
 abilityMods: [0, 4, 1, 4, 3, 5]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

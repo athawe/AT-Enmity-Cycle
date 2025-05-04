@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Warped Brew Morlock"
@@ -25,9 +26,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Athletics: +8 (+11 Climbing), Crafting: +8 (Repair only), Stealth: +9"
+    desc: "Acrobatics: +7, Athletics: +8, Crafting: +8, Stealth: +9"
 abilityMods: [4, 3, 1, -2, 3, 1]
 speed: 30 feet,  climb 20 feet
 sourcebook: "_Pathfinder #164: Hands of the Devil_"

@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.Bkr0soTDhQq1qjWx" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/6
   - remaster
 statblock: inline
@@ -24,7 +25,7 @@ level: "Creature 6"
 
 alignment: ""
 size: "huge"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -32,7 +33,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +17, Stealth: +12 (+15 in water)"
+    desc: "Athletics: +17, Stealth: +12"
 abilityMods: [7, 4, 5, -3, 2, -1]
 speed: 25 feet,  swim 25 feet
 sourcebook: "_Pathfinder Monster Core_"

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/troll
   - pf2e/creature/type/wood
+  - pf2eMonster
   - pf2e/creature/level/10
   - remaster
 statblock: inline
@@ -27,10 +28,10 @@ level: "Creature 10"
 
 alignment: ""
 size: "Large"
-trait_01: "giant"
-trait_02: "humanoid"
-trait_03: "troll"
-trait_04: "wood"
+trait_01: [[giant]]
+trait_02: [[humanoid]]
+trait_03: [[troll]]
+trait_04: [[wood]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -79,7 +80,7 @@ attacks:
     desc: "`pf2:1` Battle Axe +24 (magical, reach 10 feet, sweep)\n__Damage__  2d8 + 13 slashing"
 
   - name: "Primordial Roar"
-    desc: "`pf2:1` (auditory,emotion,fear,mental) The troll warleader unleashes a bestial roar. Each non-troll creature in a 100-foot emanation must attempt a DC 29 Will check save. The creature is then temporarily immune for 10 minutes.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Frightened 1|Frightened 1]].\n\n**Failure** The creature is [[Conditions/Frightened 1|Frightened 2]].\n\n**Critical Failure** The creature is [[Conditions/Frightened 1|Frightened 3]]."
+    desc: "`pf2:1` (auditory,emotion,fear,mental) The troll warleader unleashes a bestial roar. Each non-troll creature in a @Template[emanation|distance:100] must attempt a DC 29 Will check save. The creature is then temporarily immune for 10 minutes.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Frightened|Frightened 1]].\n\n**Failure** The creature is [[Conditions/Frightened|Frightened 2]].\n\n**Critical Failure** The creature is [[Conditions/Frightened|Frightened 3]]."
 
   - name: "Shed Armor"
     desc: "`pf2:1` (manipulate) The warleader cuts their armor loose from their flesh. They immediately heal 60 Hit Points in a surge of regeneration as they grow twisted limbs and malformed faces.\n\nWithout their armor, the warleader's AC drops to 26 but they gain [[Bestiary Ability Glossary/All-Around Vision|All-Around Vision]] from the new faces.\n\nPutting the armor back on takes 10 minutes, and this ability can't be used again until 1 hour has passed."

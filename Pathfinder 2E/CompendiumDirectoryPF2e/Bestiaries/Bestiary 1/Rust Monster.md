@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.mEmWRqTRxLUZQYSh" 
 tags:
   - pf2e/creature/type/aberration
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Rust Monster"
@@ -23,7 +24,7 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
+trait_01: [[aberration]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +7 (+13 to Disarm a metal item)"
+    desc: "Athletics: +7"
 abilityMods: [0, 3, 1, -4, 1, 0]
 speed: 35 feet,  climb 10 feet
 sourcebook: "_Pathfinder Bestiary_"

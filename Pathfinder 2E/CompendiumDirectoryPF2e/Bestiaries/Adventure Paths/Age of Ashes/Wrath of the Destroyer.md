@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #146: Cult of Cinders
 aliases: "Compendium.pf2e.age-of-ashes-bestiary.Actor.VQiBBu6D2srK6Fmj" 
@@ -22,14 +23,14 @@ name: "Wrath of the Destroyer"
 level: "Hazard 10"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 22
 sourcebook: "_Pathfinder #146: Cult of Cinders_"
 ac: 30
 armorclass:
   - name: AC
-    desc: "30; __Fort__ +22, __Ref__ +14, __Will__ +0"
+    desc: "30; __Fort__ +22, __Ref__ +14, "
 hp: 72
 health:
   - name: ""

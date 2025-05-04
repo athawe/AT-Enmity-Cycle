@@ -34,7 +34,7 @@ This large tree branch is alive, despite having been harvested from the sugi tre
 
 **Frequency** once per day
 
-**Effect** You place the _branch of the great sugi_ on the corpse of an evil creature, then cause the branch to suddenly grow into a sugi tree, up to 25 feet tall with a 2-foot-wide trunk. As it grows, it emits a pulse of soothing energy, restoring 3d8 + 8 Hit Points to all creatures in a 10-foot burst. A character can Climb the tree with a successful DC 10 Athletics check check, and its branches effortlessly support the weight of any Medium or smaller creature. The sugi tree reverts to its whip form after 1 hour unless you transform it back before then.
+**Effect** You place the _branch of the great sugi_ on the corpse of an evil creature, then cause the branch to suddenly grow into a sugi tree, up to 25 feet tall with a 2-foot-wide trunk. As it grows, it emits a pulse of soothing energy, restoring 3d8+8 Hit Points to all creatures in a 10-foot burst. A character can Climb the tree with a successful DC 10 Athletics check check, and its branches effortlessly support the weight of any Medium or smaller creature. The sugi tree reverts to its whip form after 1 hour unless you transform it back before then.
 
 * * *
 

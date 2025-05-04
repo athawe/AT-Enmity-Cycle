@@ -125,20 +125,20 @@ In addition to the abilities provided by your class at 1st level, you have the b
 
 Choose a bloodline that gives you your spellcasting talent. This choice determines the type of spells you cast and the spell list you choose them from, additional spells you learn, and additional trained skills. You also gain Focus Points and special focus spells based on your bloodline. The bloodlines presented in this book are as follows.
 
-*   **[[Class Features/Bloodline\_ Aberrant|Aberrant]]** A strange and unknowable influence gives you occult spells.
-*   **[[Class Features/Bloodline\_ Angelic|Angelic]]** Holy grace bestows divine spells upon you.
-*   **[[Class Features/Bloodline\_ Demonic|Demonic]]** A sinful corruption gives you divine spells.
-*   **[[Class Features/Bloodline\_ Diabolic|Diabolic]]** A bond with devils gives you divine spells.
-*   **[[Class Features/Bloodline\_ Draconic|Draconic]]** The blood of dragons grants you arcane spells.
-*   **[[Class Features/Bloodline\_ Elemental|Elemental]]** The power of the elements manifests in you as primal spells.
-*   **[[Class Features/Bloodline\_ Fey|Fey]]** Influence from the fey gives you primal spells.
-*   **[[Class Features/Bloodline\_ Genie|Genie]]** Through lineage, magic, or wishes made real, the blood of a noble genie flows through your veins.
-*   **[[Class Features/Bloodline\_ Hag|Hag]]** The blight of a hag has given you occult spells.
-*   **[[Class Features/Bloodline\_ Imperial|Imperial]]** An ancient power grants you arcane spells.
-*   **[[Class Features/Bloodline\_ Nymph|Nymph]]** One of your ancestors was inspired by a nymph, or perhaps was a nymph themself, and now the beauty of nature lives in you.
-*   **[[Class Features/Bloodline\_ Psychopomp|Psychopomp]]** For good or ill, your ancestors' deeds drew the attention of psychopomps, or you might somehow count one in your family tree. The presence of these shepherds of souls and enemies of undeath has left an indelible mark on you.
-*   **[[Class Features/Bloodline\_ Shadow|Shadow]]** Whether due to a velstrac's manipulations or a planar jaunt gone horribly wrong, your bloodline was infused with a vein of shadow.
-*   **[[Class Features/Bloodline\_ Undead|Undead]]** The touch of death gives you divine spells.
+*   **[[Class Features/Bloodline_ Aberrant|Aberrant]]** A strange and unknowable influence gives you occult spells.
+*   **[[Class Features/Bloodline_ Angelic|Angelic]]** Holy grace bestows divine spells upon you.
+*   **[[Class Features/Bloodline_ Demonic|Demonic]]** A sinful corruption gives you divine spells.
+*   **[[Class Features/Bloodline_ Diabolic|Diabolic]]** A bond with devils gives you divine spells.
+*   **[[Class Features/Bloodline_ Draconic|Draconic]]** The blood of dragons grants you arcane spells.
+*   **[[Class Features/Bloodline_ Elemental|Elemental]]** The power of the elements manifests in you as primal spells.
+*   **[[Class Features/Bloodline_ Fey|Fey]]** Influence from the fey gives you primal spells.
+*   **[[Class Features/Bloodline_ Genie|Genie]]** Through lineage, magic, or wishes made real, the blood of a noble genie flows through your veins.
+*   **[[Class Features/Bloodline_ Hag|Hag]]** The blight of a hag has given you occult spells.
+*   **[[Class Features/Bloodline_ Imperial|Imperial]]** An ancient power grants you arcane spells.
+*   **[[Class Features/Bloodline_ Nymph|Nymph]]** One of your ancestors was inspired by a nymph, or perhaps was a nymph themself, and now the beauty of nature lives in you.
+*   **[[Class Features/Bloodline_ Psychopomp|Psychopomp]]** For good or ill, your ancestors' deeds drew the attention of psychopomps, or you might somehow count one in your family tree. The presence of these shepherds of souls and enemies of undeath has left an indelible mark on you.
+*   **[[Class Features/Bloodline_ Shadow|Shadow]]** Whether due to a velstrac's manipulations or a planar jaunt gone horribly wrong, your bloodline was infused with a vein of shadow.
+*   **[[Class Features/Bloodline_ Undead|Undead]]** The touch of death gives you divine spells.
 
 ## Bloodline Spells
 

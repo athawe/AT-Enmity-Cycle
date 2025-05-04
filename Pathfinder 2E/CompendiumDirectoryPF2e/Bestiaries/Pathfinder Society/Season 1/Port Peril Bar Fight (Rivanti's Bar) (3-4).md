@@ -3,6 +3,7 @@ title: Port Peril Bar Fight (Rivanti's Bar) (3-4)
 obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
+  - pf2eHazard
   - complex
 source: Pathfinder Society Quest #4: Port Peril Pub Crawl
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.KL2L7m5WlL21WcGN" 

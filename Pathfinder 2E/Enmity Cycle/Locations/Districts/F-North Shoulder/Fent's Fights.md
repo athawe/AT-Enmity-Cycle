@@ -5,7 +5,9 @@ business:
   - gladiators
   - training
 district: "[[North Shoulder]]"
-favour:
+favour: 
+aliases:
+  - Bowl of Judgment
 ---
 Townsfolk HOUSING VENUE 
 **District** North Shoulder 

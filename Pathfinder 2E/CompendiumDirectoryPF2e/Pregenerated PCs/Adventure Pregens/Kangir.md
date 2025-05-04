@@ -57,12 +57,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Kangir
-creatures:
-  - 1: Kangir
-```
-
 
 
 

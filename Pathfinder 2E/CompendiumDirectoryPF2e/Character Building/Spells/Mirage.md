@@ -33,8 +33,7 @@ abilities_top:
   - name: "Cast"
     desc: "10 minutes"
   - name: "Range"
-    desc: "500 feet; **Area** 50-foot burst
-"
+    desc: "500 feet; **Area** 50-foot burst"
   - name: "Duration"
     desc: "until your next daily preparations"
 abilities_mid:

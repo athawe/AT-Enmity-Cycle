@@ -68,12 +68,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Kellsti
-creatures:
-  - 1: Kellsti
-```
-
 
 
 

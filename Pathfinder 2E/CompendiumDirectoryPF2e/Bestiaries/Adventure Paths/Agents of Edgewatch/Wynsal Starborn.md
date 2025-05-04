@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Wynsal Starborn"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #160: Assault on Hunting Lodge Seven"
 name: "Wynsal Starborn"
 level: "Creature 17"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[good]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 32
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Dwarven, Elven, Halfling, Mwangi, Osiriani"
 skills:
   - name: "Skills"
-    desc: "Absalom Lore: +29, Athletics: +30, Diplomacy: +33, Intimidation: +33, Society: +29, Stealth: +26, Warfare Lore: +29"
+    desc: "Athletics: +30, Diplomacy: +33, Intimidation: +33, Society: +29, Stealth: +26, Absalom Lore: +29, Warfare Lore: +29"
 abilityMods: [5, 1, 3, 2, 3, 6]
 speed: 25 feet
 sourcebook: "_Pathfinder #160: Assault on Hunting Lodge Seven_"
@@ -78,7 +79,7 @@ attacks:
     desc: "  Wynsal deals 3d8 extra damage to any creature that's within reach of at least two of his allies."
 
   - name: "Hampering Strike"
-    desc: "  A foe that takes damage from Wynsal's melee Strike is [[Conditions/Slowed 1|Slowed 1]] for 1 round. If it's already slowed, the value of the slowed condition increases by 1."
+    desc: "  A foe that takes damage from Wynsal's melee Strike is [[Conditions/Slowed|Slowed 1]] for 1 round. If it's already slowed, the value of the slowed condition increases by 1."
  
 ```
 

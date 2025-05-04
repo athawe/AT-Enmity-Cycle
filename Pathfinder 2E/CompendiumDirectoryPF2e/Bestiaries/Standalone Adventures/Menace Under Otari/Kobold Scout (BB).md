@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.menace-under-otari-bestiary.Actor.rPaHIh0ICnTLnRO6"
 tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kobold
+  - pf2eMonster
   - pf2e/creature/level/1
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "humanoid"
-trait_02: "kobold"
+trait_01: [[humanoid]]
+trait_02: [[kobold]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ attacks:
   - name: "Ranged"
     desc: "`pf2:1` Crossbow +9 (range increment 120 feet, reload 1)\n__Damage__  1d8 piercing"
 
-  - name: "[[Menace Under Otari/Green Kobold Dragon Mage (BB)/Scamper|Scamper]]"
+  - name: "[[Menace Under Otari/Kobold Dragon Mage (Green, BB)/Scamper|Scamper]]"
     desc: "`pf2:1`  If the kobold is adjacent to at least one enemy, the kobold Strides up to 30 feet and gains a +2 circumstance bonus to AC against reactions triggered by this movement. The kobold must end this movement in a space that's not adjacent to any enemy."
 
   - name: "[[Bestiary Ability Glossary/Sneak Attack|Sneak Attack]]"

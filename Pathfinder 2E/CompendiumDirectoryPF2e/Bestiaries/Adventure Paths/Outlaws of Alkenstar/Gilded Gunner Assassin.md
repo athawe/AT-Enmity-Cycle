@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.outlaws-of-alkenstar-bestiary.Actor.2IjwfgmGutHhpg7B"
 tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Gilded Gunner Assassin"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #179: Cradle of Quartz"
 name: "Gilded Gunner Assassin"
 level: "Creature 5"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "humanoid"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -49,7 +50,7 @@ health:
 abilities_top:
   - name: ""
   - name: "Items"
-    desc: "[[Equipment/Dueling Pistol|Dueling Pistol]], [[Equipment/Knuckle Duster|Knuckle Duster]], 2x [[Equipment/Thunderstone (Moderate)|Thunderstone (Moderate)]], [[Equipment/Concealed Holster|Concealed Holster]], 10x [[Equipment/Rounds (Dueling Pistol)|Rounds (Dueling Pistol)]], [[Equipment/Golden Silencer (Standard)|Golden Silencer (Standard)]]"
+    desc: "[[Equipment/Dueling Pistol|Dueling Pistol]], [[Equipment/Knuckle Duster|Knuckle Duster]], 2x [[Equipment/Blasting Stone (Moderate)|Thunderstone (Moderate)]], [[Equipment/Concealed Holster|Concealed Holster]], 10x [[Equipment/Rounds (Dueling Pistol)|Rounds (Dueling Pistol)]], [[Equipment/Golden Silencer (Standard)|Golden Silencer (Standard)]]"
 abilities_mid:
   - name: ""
   - name: "Shot of Opportunity"

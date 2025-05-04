@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/celestial
   - pf2e/creature/type/good
   - pf2e/creature/type/holy
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Silvanshee"
@@ -26,10 +27,10 @@ level: "Creature 1"
 
 alignment: ""
 size: "tiny"
-trait_01: "agathion"
-trait_02: "celestial"
-trait_03: "good"
-trait_04: "holy"
+trait_01: [[agathion]]
+trait_02: [[celestial]]
+trait_03: [[good]]
+trait_04: [[holy]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Diabolic, Draconic, Empyrean; speak with animals"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Arcana: +3, Medicine: +6, Nirvana Lore: +3, Stealth: +7"
+    desc: "Acrobatics: +7, Arcana: +3, Medicine: +6, Stealth: +7, Nirvana Lore: +3"
 abilityMods: [-2, 4, 2, 0, 3, 2]
 speed: 25 feet,  fly 40 feet
 sourcebook: "_Pathfinder Bestiary 3_"

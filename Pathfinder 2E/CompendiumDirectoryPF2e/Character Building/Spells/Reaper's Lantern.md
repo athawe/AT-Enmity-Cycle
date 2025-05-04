@@ -29,6 +29,7 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "divine, occult, primal"
+
   - name: "Defense"
     desc: " fortitude"
   - name: "Duration"

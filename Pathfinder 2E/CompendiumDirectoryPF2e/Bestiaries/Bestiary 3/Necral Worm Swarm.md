@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/swarm
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Necral Worm Swarm"
@@ -25,9 +26,9 @@ level: "Creature 5"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
-trait_02: "swarm"
-trait_03: "undead"
+trait_01: [[animal]]
+trait_02: [[swarm]]
+trait_03: [[undead]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -57,7 +58,7 @@ attacks:
   - name: ""
 
   - name: "Swarming Bites"
-    desc: "`pf2:1`  Each enemy in the swarm's space takes 3d6 void damage (DC 22 Reflex check save).\n\nCreatures that fail this save become [[Conditions/Sickened 1|Sickened 1]] from the swarm's painful bites."
+    desc: "`pf2:1`  Each enemy in the swarm's space takes 3d6 void damage (DC 22 Reflex check save).\n\nCreatures that fail this save become [[Conditions/Sickened|Sickened 1]] from the swarm's painful bites."
  
 ```
 

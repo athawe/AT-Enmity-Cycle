@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/caligni
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Galudu"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #165: Eyes of Empty Death"
 name: "Galudu"
 level: "Creature 11"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "caligni"
-trait_02: "chaotic"
-trait_03: "humanoid"
+trait_01: [[caligni]]
+trait_02: [[chaotic]]
+trait_03: [[humanoid]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -51,11 +52,11 @@ health:
 abilities_top:
   - name: ""
   - name: "Items"
-    desc: "[[Equipment/Dagger|Dagger]], [[Equipment/Wand of Continuation (4th-Rank Spell)|Wand of Continuation (4th-Level Spell)]]"
+    desc: "[[Equipment/Dagger|Dagger]], [[Equipment/Wand of Continuation (4th-Rank Spell)|Wand of Continuation (4th-Rank Spell)]]"
 abilities_mid:
   - name: ""
   - name: "Death Motes"
-    desc: " (force,light) When Galudu dies, her body explodes into brilliant motes of magical energy. All creatures in a 20-foot burst take 12d6 force damage (DC 30 Reflex check save). Galudu's gear is unaffected by the explosion and is left in a pile where she died."
+    desc: " (force,light) When Galudu dies, her body explodes into brilliant motes of magical energy. All creatures in a @Template[burst|distance:20] take 12d6 force damage (DC 30 Reflex check save). Galudu's gear is unaffected by the explosion and is left in a pile where she died."
 
   - name: "Opportune Step"
     desc: "`pf2:r`  **Trigger** A dazzled or blinded creature, or a creature with light blindness, ends its move adjacent to Galudu\n* * *\n\n**Effect** Galudu Steps."

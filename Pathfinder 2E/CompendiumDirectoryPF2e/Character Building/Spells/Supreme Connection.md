@@ -24,6 +24,7 @@ abilities_top:
     desc: "1 day; **Cost** rare perfume worth 250 gp; **Secondary Casters** 2"
   - name: "Primary Check"
     desc: "Occultism (master) or Religion (master); **Secondary Checks** Performance"
+
   - name: "Duration"
     desc: "up to 10 minutes"
 abilities_mid:

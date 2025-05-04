@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/inevitable
   - pf2e/creature/type/lawful
   - pf2e/creature/type/monitor
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Marut"
@@ -26,10 +27,10 @@ level: "Creature 15"
 
 alignment: ""
 size: "Large"
-trait_01: "aeon"
-trait_02: "inevitable"
-trait_03: "lawful"
-trait_04: "monitor"
+trait_01: [[aeon]]
+trait_02: [[inevitable]]
+trait_03: [[lawful]]
+trait_04: [[monitor]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Diabolic, Empyrean, Utopian; truespeech"
 skills:
   - name: "Skills"
-    desc: "Athletics: +31, Axis Lore: +22, Diplomacy: +27, Intimidation: +29, Religion: +26, Survival: +28"
+    desc: "Athletics: +31, Diplomacy: +27, Intimidation: +29, Religion: +26, Survival: +28, Axis Lore: +22"
 abilityMods: [8, 4, 6, 1, 5, 6]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 2_"

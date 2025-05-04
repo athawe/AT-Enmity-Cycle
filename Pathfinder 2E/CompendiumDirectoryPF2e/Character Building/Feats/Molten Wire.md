@@ -3,6 +3,7 @@ obsidianUIMode: preview
 title: "Molten Wire"
 cssclasses: pf2e,pf2e-spell
 tags:
+  - trait/attack
   - trait/composite
   - trait/fire
   - trait/impulse
@@ -17,7 +18,7 @@ license: OGL
 ---
 # Molten Wire `pf2:2`
 ## Feat 6
-### [[composite]][[fire]][[impulse]][[kineticist]][[metal]][[primal]]
+### [[attack]][[composite]][[fire]][[impulse]][[kineticist]][[metal]][[primal]]
 
 **Category** class; 
 

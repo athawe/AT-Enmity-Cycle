@@ -6,6 +6,7 @@ tags:
   - fire
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Kingmaker
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.sNqAajzeDA9BUkfa" 
@@ -23,15 +24,15 @@ name: "Explosion Bear"
 level: "Hazard 20"
 
 
-trait_01: "fire"
-trait_02: "magical"
-trait_03: "trap"
+trait_01: [[fire]]
+trait_02: [[magical]]
+trait_03: [[trap]]
 modifier: 38
 sourcebook: "_Pathfinder Kingmaker_"
 ac: 20
 armorclass:
   - name: AC
-    desc: "20; __Fort__ +8, __Ref__ +14, __Will__ +0"
+    desc: "20; __Fort__ +8, __Ref__ +14, "
 hp: 40
 health:
   - name: ""

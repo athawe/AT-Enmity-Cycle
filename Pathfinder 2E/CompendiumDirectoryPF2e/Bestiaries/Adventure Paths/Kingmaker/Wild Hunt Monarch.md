@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
   - pf2e/creature/type/wild-hunt
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Wild Hunt Monarch"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Wild Hunt Monarch"
 level: "Creature 20"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "fey"
-trait_03: "wild-hunt"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
+trait_03: [[wild-hunt]]
 modifier: 35
 perception:
   - name: "Perception"
@@ -70,7 +71,7 @@ abilities_mid:
     desc: "  The wild hunt monarch automatically achieves a critical success on saving throws against effects created by other allied wild hunt creatures."
 
   - name: "Wild Gaze"
-    desc: " (aura,fear,incapacitation,mental,primal,visual) 30 feet. Those who meet the gaze of a wild hunt monarch come face-to-face with the hunt's fearful power and find it difficult to act in the face of such a legendary legacy. When a creature ends its turn in the aura, it must succeed at a DC 39 Will check save to resist becoming [[Conditions/Slowed 1|Slowed 1]] ([[Conditions/Slowed 1|Slowed 2]] on a critical failure). The wild hunt monarch can deactivate or activate this aura by using a single action, which has the concentrate trait."
+    desc: " (aura,fear,incapacitation,mental,primal,visual) 30 feet. Those who meet the gaze of a wild hunt monarch come face-to-face with the hunt's fearful power and find it difficult to act in the face of such a legendary legacy. When a creature ends its turn in the aura, it must succeed at a DC 39 Will check save to resist becoming [[Conditions/Slowed|Slowed 1]] ([[Conditions/Slowed|Slowed 2]] on a critical failure). The wild hunt monarch can deactivate or activate this aura by using a single action, which has the concentrate trait."
 
 attacks:
   - name: ""
@@ -88,7 +89,7 @@ attacks:
     desc: "_[[Spells/Control Weather|Control Weather]]_, _[[Spells/Primal Call|Primal Call (Creatures with the Wild Hunt Trait Only)]]_"
 
   - name: "Brutal Gore"
-    desc: "  A creature critically hit by a monarch's horns strike is [[Conditions/Stunned 1|Stunned 1]]."
+    desc: "  A creature critically hit by a monarch's horns strike is [[Conditions/Stunned|Stunned 1]]."
 
   - name: "Call Glaive"
     desc: "`pf2:1` (primal,teleportation) The wild hunt monarch wields a magic weapon known as a monarch's glaive. This weapon functions as a _+3 major striking greater thundering wounding glaive_ in the monarch's hands only. The monarch can call their glaive to their hands using this action, transporting it across any distance. If their glaive is destroyed, the monarch can create a new one by using Call Glaive as a three-action activity that gains the manipulate trait."

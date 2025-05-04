@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - magical
+  - pf2eHazard
 
 source: Pathfinder Core Rulebook
 aliases: "Compendium.pf2e.hazards.Actor.8ewUvJlvn6LVjoXJ" 
@@ -21,13 +22,13 @@ name: "Second Chance"
 level: "Hazard 21"
 
 
-trait_01: "magical"
+trait_01: [[magical]]
 modifier: 34
 sourcebook: "_Pathfinder Core Rulebook_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

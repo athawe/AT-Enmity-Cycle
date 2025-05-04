@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #4-14: Shattering Golden Chains
 aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.kZr0bYzlCcMooMuf" 
@@ -22,8 +23,8 @@ name: "Shaitan Tactics (5-6)"
 level: "Hazard 3"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 13
 sourcebook: "_Pathfinder Society Scenario #4-14: Shattering Golden Chains_"
 perception:

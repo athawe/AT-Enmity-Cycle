@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #171: Hurricane&#x27;s Howl
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.cbviU6AtgD4Cp6fd" 
@@ -22,8 +23,8 @@ name: "Spider Summoning Rune"
 level: "Hazard 11"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 24
 sourcebook: "_Pathfinder #171: Hurricane's Howl_"
 perception:

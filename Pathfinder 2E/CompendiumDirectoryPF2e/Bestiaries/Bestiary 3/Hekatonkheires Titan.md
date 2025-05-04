@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/titan
+  - pf2eMonster
   - pf2e/creature/level/24
 statblock: inline
 name: "Hekatonkheires Titan"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Hekatonkheires Titan"
 level: "Creature 24"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "titan"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[titan]]
 modifier: 43
 perception:
   - name: "Perception"

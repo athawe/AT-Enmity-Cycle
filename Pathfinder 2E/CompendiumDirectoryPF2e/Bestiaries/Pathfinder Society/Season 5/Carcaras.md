@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-5-bestiary.Actor.GJXz9twOPUjoCBsY"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/electricity
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Carcaras"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #5-10: The Crocodile&#x27;s Smile"
 name: "Carcaras"
 level: "Creature 2"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "animal"
-trait_02: "electricity"
+trait_01: [[animal]]
+trait_02: [[electricity]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +8, Stealth: +7 (+11 in water)"
+    desc: "Athletics: +8, Stealth: +7"
 abilityMods: [4, 1, 3, -5, 1, -4]
 speed: 20 feet,  swim 25 feet
 sourcebook: "_Pathfinder Society Scenario #5-10: The Crocodile&#x27;s Smile_"

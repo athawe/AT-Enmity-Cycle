@@ -31,8 +31,7 @@ abilities_top:
   - name: "Traditions"
     desc: "divine"
   - name: "Range"
-    desc: "120 feet; **Area** 60-foot burst
-"
+    desc: "120 feet; **Area** 60-foot burst"
   - name: "Defense"
     desc: "basic reflex"
   - name: "Duration"

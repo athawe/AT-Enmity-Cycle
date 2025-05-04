@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.DInkix6cy2NgjpJd"
 tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/shabti
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Shabti Slayer"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #186: Ghost King&#x27;s Rage"
 name: "Shabti Slayer"
 level: "Creature 16"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
-trait_02: "shabti"
+trait_01: [[humanoid]]
+trait_02: [[shabti]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Necril, Osiriani, Requian"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +28, Athletics: +31, Boneyard Lore: +24, Religion: +25, Stealth: +28"
+    desc: "Acrobatics: +28, Athletics: +31, Religion: +25, Stealth: +28, Boneyard Lore: +24"
 abilityMods: [5, 4, 4, 2, 3, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder #186: Ghost King&#x27;s Rage_"

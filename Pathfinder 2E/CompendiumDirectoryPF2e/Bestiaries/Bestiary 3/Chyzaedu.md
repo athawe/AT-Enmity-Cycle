@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Chyzaedu"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Chyzaedu"
 level: "Creature 10"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -72,7 +73,7 @@ attacks:
     desc: "DC 29, attack +21; __5th __  _[[Spells/Sending|Sending]]_; __4th __  _[[Spells/Air Walk|Air Walk]]_, _[[Spells/Translocate|Dimension Door]]_; __3rd __  _[[Spells/Blindness|Blindness]]_, _[[Spells/Chilling Darkness|Chilling Darkness]]_; __2nd __  _[[Spells/Enhance Victuals|Enhance Victuals]]_, _[[Spells/Ghoulish Cravings|Ghoulish Cravings]]_, _[[Spells/Silence|Silence]]_; __1st __  _[[Spells/Command|Command]]_, _[[Spells/Command|Command]]_, _[[Spells/Fear|Fear]]_, _[[Spells/Harm|Harm]]_, _[[Spells/Heal|Heal]]_, _[[Spells/Sanctuary|Sanctuary]]_\n__Cantrips__  __(5th)__ _[[Spells/Daze|Daze]]_, _[[Spells/Divine Lance|Divine Lance]]_, _[[Spells/Message|Message]]_, _[[Spells/Read Aura|Read Aura]]_, _[[Spells/Sigil|Sigil]]_"
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Medium, 3d8 + 7 bludgeoning, Rupture 26\n\n* * *\n"
+    desc: "`pf2:1` (attack) Medium, 3d8+7 bludgeoning, Rupture 26\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

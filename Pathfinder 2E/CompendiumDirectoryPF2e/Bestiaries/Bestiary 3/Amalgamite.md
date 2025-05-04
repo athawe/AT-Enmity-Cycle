@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.xIT2yHlwILLc5hgw"
 tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Amalgamite"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Amalgamite"
 level: "Creature 13"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "evil"
+trait_01: [[aberration]]
+trait_02: [[evil]]
 modifier: 23
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Aklo, Common, Draconic"
 skills:
   - name: "Skills"
-    desc: "Arcana: +27, Athletics: +22, Lore (Any One Subcategory): +27, Occultism: +27"
+    desc: "Arcana: +27, Athletics: +22, Occultism: +27, Lore (Any One Subcategory): +27"
 abilityMods: [5, 6, 4, 8, 6, -1]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -52,7 +53,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Destabilizing Field"
-    desc: " (aura) 40 feet. A creature that begins its turn within the area feels its body begin to stretch and must succeed at a DC 33 Fortitude check save or become destabilized.\n\nA destabilized creature emits a 10-foot destabilizing field aura and becomes [[Conditions/Sickened 1|Sickened 1]]. The destabilization ends when the creature is no longer sickened.\n\nA creature that succeeds at its saving throw against the aura is temporarily immune to all destabilizing fields for 1 minute."
+    desc: " (aura) 40 feet. A creature that begins its turn within the area feels its body begin to stretch and must succeed at a DC 33 Fortitude check save or become destabilized.\n\nA destabilized creature emits a 10-foot destabilizing field aura and becomes [[Conditions/Sickened|Sickened 1]]. The destabilization ends when the creature is no longer sickened.\n\nA creature that succeeds at its saving throw against the aura is temporarily immune to all destabilizing fields for 1 minute."
 
   - name: "Displace"
     desc: "`pf2:r`  **Trigger** The amalgamite is hit by a Strike.\n* * *\n\n**Effect** The amalgamite Repositions itself or Transposes itself with another creature. If the amalgamite successfully changes its location, it and any Transposed creature take half damage from the triggering Strike."

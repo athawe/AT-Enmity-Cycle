@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.2vvPHlLhgDGr8fOF" 
 tags:
   - pf2e/creature/type/shadow
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Shae"
@@ -23,7 +24,7 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "shadow"
+trait_01: [[shadow]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Aklo, Common, Sakvroth, Shae, Sussuran"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +13, Deception: +9, Occultism: +11, Shadow Plane Lore: +11, Stealth: +13"
+    desc: "Acrobatics: +13, Deception: +9, Occultism: +11, Stealth: +13, Shadow Plane Lore: +11"
 abilityMods: [3, 5, 1, 3, 2, 3]
 speed: 25 feet,  fly 35 feet
 sourcebook: "_Pathfinder Bestiary 3_"

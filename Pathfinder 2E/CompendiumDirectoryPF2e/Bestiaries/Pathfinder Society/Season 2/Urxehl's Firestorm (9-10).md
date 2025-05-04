@@ -8,6 +8,7 @@ tags:
   - fire
   - magical
   - unholy
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #2-22: Breaking the Storm: Excising Ruination
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.DyADskqXgDZlRWz3" 
@@ -25,11 +26,11 @@ name: "Urxehl's Firestorm (9-10)"
 level: "Hazard 6"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "evil"
-trait_03: "fire"
-trait_04: "magical"
-trait_05: "unholy"
+trait_01: [[environmental]]
+trait_02: [[evil]]
+trait_03: [[fire]]
+trait_04: [[magical]]
+trait_05: [[unholy]]
 modifier: 18
 sourcebook: "_Pathfinder Society Scenario #2-22: Breaking the Storm: Excising Ruination_"
 perception:

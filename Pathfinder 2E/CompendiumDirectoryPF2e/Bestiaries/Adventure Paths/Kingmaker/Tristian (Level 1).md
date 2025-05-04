@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/nephilim
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Tristian (Level 1)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Tristian (Level 1)"
 level: "Creature 1"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "nephilim"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[nephilim]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Fey, Kelish, Empyrean, Common"
 skills:
   - name: "Skills"
-    desc: "Forest Lore: +0, "
+    desc: ""
 abilityMods: [0, 1, 1, 1, 4, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder Kingmaker_"

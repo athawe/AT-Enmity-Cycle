@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.9bv6UWHz66TRwP4H" 
 tags:
   - pf2e/creature/type/construct
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Spellskein (Consecrate)"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #169: Kindled Magic"
 name: "Spellskein (Consecrate)"
 level: "Creature 0"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "tiny"
-trait_01: "construct"
+trait_01: [[construct]]
 modifier: 2
 perception:
   - name: "Perception"
@@ -71,7 +72,7 @@ attacks:
     desc: "`pf2:1` Sharp Edge +7 (agile, finesse)\n__Damage__  1d6 + 1 slashing"
 
   - name: "Lizard Frill"
-    desc: "`pf2:1` (arcane,fear,mental) **Requirements** The spellskein is folded into its lizard shape\n* * *\n\n**Effect** The spellskein puffs out its cloth frills and shakes them from side to side to look fierce. The first creature hit by its sharp edge Strike before the start of its next turn must succeed on a DC 14 Will check save or become [[Conditions/Frightened 1|Frightened 1]] ([[Conditions/Frightened 1|Frightened 2]] on a critical failure)."
+    desc: "`pf2:1` (arcane,fear,mental) **Requirements** The spellskein is folded into its lizard shape\n* * *\n\n**Effect** The spellskein puffs out its cloth frills and shakes them from side to side to look fierce. The first creature hit by its sharp edge Strike before the start of its next turn must succeed on a DC 14 Will check save or become [[Conditions/Frightened|Frightened 1]] ([[Conditions/Frightened|Frightened 2]] on a critical failure)."
  
 ```
 

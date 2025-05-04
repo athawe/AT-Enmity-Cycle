@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder #199: To Bloom Below the Web
 aliases: "Compendium.pf2e.season-of-ghosts-bestiary.Actor.ujCqaRPlw23baewz" 
@@ -21,7 +22,7 @@ name: "Weakened Floor"
 level: "Hazard 11"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 23
 sourcebook: "_Pathfinder #199: To Bloom Below the Web_"
 perception:

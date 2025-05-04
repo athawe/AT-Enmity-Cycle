@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Feiya (Level 3)
-creatures:
-  - 1: Feiya (Level 3)
-```
-
 
 
 

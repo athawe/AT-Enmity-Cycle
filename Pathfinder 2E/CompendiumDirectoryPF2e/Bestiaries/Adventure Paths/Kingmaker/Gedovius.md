@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/earth
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Gedovius"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Gedovius"
 level: "Creature 16"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "beast"
-trait_02: "earth"
-trait_03: "evil"
+trait_01: [[beast]]
+trait_02: [[earth]]
+trait_03: [[evil]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -67,7 +68,7 @@ attacks:
     desc: "`pf2:1` Claw +32 (agile)\n__Damage__  3d6 + 12 slashing"
 
   - name: "Dread Striker"
-    desc: "  Any creature that has the [[Conditions/Frightened 1|Frightened]] condition is also [[Conditions/Off-Guard|Off-Guard]] against Gedovius's attacks."
+    desc: "  Any creature that has the [[Conditions/Frightened|Frightened]] condition is also [[Conditions/Off-Guard|Off-Guard]] against Gedovius's attacks."
 
   - name: "Intimidating Prowess"
     desc: "  Gedovius ignores the penalty for not sharing a language when he attempts to [[Actions/Demoralize|Demoralize]] a target."

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/dragon
   - pf2e/creature/type/evil
   - pf2e/creature/type/tane
+  - pf2eMonster
   - pf2e/creature/level/23
 statblock: inline
 name: "Jabberwock"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 2"
 name: "Jabberwock"
 level: "Creature 23"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "chaotic"
-trait_02: "dragon"
-trait_03: "evil"
-trait_04: "tane"
+trait_01: [[chaotic]]
+trait_02: [[dragon]]
+trait_03: [[evil]]
+trait_04: [[tane]]
 modifier: 40
 perception:
   - name: "Perception"
@@ -59,13 +60,13 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Claws That Catch"
-    desc: "`pf2:r` (concentrate,manipulate,move) **Trigger** A creature within the jabberwock's reach uses a manipulate action or a move action, leaves a square during a move action, makes a ranged attack, or uses a concentrate action\n* * *\n\n**Effect** The jabberwock makes a claw Strike against the triggering creature. If the Strike hits, the jabberwock disrupts the triggering action."
+    desc: "`pf2:r`  **Trigger** A creature within the jabberwock's reach uses a manipulate action or a move action, leaves a square during a move action, makes a ranged attack, or uses a concentrate action\n* * *\n\n**Effect** The jabberwock makes a claw Strike against the triggering creature. If the Strike hits, the jabberwock disrupts the triggering action."
 
   - name: "[[Bestiary Ability Glossary/Frightful Presence|Frightful Presence]]"
     desc: " (aura,emotion,fear,mental) 100 feet. DC 43 Will check\n\n* * *\n"
 
   - name: "Vorpal Fear"
-    desc: "  A jabberwock damaged by a vorpal weapon becomes [[Conditions/Frightened 1|Frightened 2]] (or [[Conditions/Frightened 1|Frightened 4]] on a critical hit)."
+    desc: "  A jabberwock damaged by a vorpal weapon becomes [[Conditions/Frightened|Frightened 2]] (or [[Conditions/Frightened|Frightened 4]] on a critical hit)."
 
 attacks:
   - name: ""
@@ -95,7 +96,7 @@ attacks:
     desc: "  If the jabberwock makes a jaws attack and rolls a natural 19 on the d20 roll, the attack is a critical hit. This has no effect if the 19 would be a failure."
 
   - name: "Whiffling"
-    desc: "`pf2:r` (aura) **Trigger** The jabberwock Flies or makes a wing Strike\n* * *\n\n**Effect** The jabberwock's wings whiffle, creating severe winds within a 30-foot emanation. These winds move outward from the jabberwock, and they persist until the start of the jabberwock's next turn. During this time, flight of any kind in the emanation requires a successful Acrobatics check to [[Actions/Maneuver in Flight|Maneuver in Flight]], and creatures flying toward the jabberwock are moving through greater difficult terrain. Creatures on the ground in the emanation must succeed at a DC 43 Athletics check check to approach the jabberwock."
+    desc: "`pf2:r` (aura) **Trigger** The jabberwock Flies or makes a wing Strike\n* * *\n\n**Effect** The jabberwock's wings whiffle, creating severe winds within a @Template[emanation|distance:30]. These winds move outward from the jabberwock, and they persist until the start of the jabberwock's next turn. During this time, flight of any kind in the emanation requires a successful Acrobatics check to [[Actions/Maneuver in Flight|Maneuver in Flight]], and creatures flying toward the jabberwock are moving through greater difficult terrain. Creatures on the ground in the emanation must succeed at a DC 43 Athletics check check to approach the jabberwock."
  
 ```
 

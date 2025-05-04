@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pfs-season-5-bestiary.Actor.Zff7C8x4VzB7ZOiZ" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Hermit Rat"
@@ -23,7 +24,7 @@ level: "Creature -1"
 
 alignment: ""
 size: "tiny"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Stealth: +5 (+7 while inside its jar), Survival: +5"
+    desc: "Stealth: +5, Survival: +5"
 abilityMods: [1, 3, 2, -4, 1, -3]
 speed: 30 feet,  climb 10 feet
 sourcebook: "_Pathfinder Society Scenario #5-04: Necessary Introductions_"

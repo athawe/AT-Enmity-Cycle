@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Green Monkey"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #188: They Watched the Stars"
 name: "Green Monkey"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "tiny"
-trait_01: "beast"
-trait_02: "incorporeal"
-trait_03: "spirit"
+trait_01: [[beast]]
+trait_02: [[incorporeal]]
+trait_03: [[spirit]]
 modifier: 12
 perception:
   - name: "Perception"

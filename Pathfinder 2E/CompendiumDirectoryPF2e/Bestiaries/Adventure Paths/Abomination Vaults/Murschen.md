@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/skulk
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Murschen"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #164: Hands of the Devil"
 name: "Murschen"
 level: "Creature 8"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "skulk"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[skulk]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -78,7 +79,7 @@ attacks:
     desc: "`pf2:1`  **Frequency** once per turn\n* * *\n\n**Effect** Murschen makes two unarmed Strikes. If both hit the same creature, combine their damage for the purposes of resistances and weaknesses. Murschen's multiple attack penalty applies normally to these Strikes."
 
   - name: "Red Ruin Stance"
-    desc: "`pf2:1` (stance) **Requirement** Murschen is unarmored\n* * *\n\n**Effect** Murschen takes the stance of the red ruin, designed to tear away chunks of flesh like a ferocious beast. Murschen can make red claw unarmed attacks. These attacks deal 1d10 slashing damage; are in the brawling group; and have the finesse, sweep, and unarmed traits.\n\nWhile in this stance, when Murschen would reduce his [[Conditions/Frightened 1|Frightened]] condition value by 1, he reduces it to 0."
+    desc: "`pf2:1` (stance) **Requirement** Murschen is unarmored\n* * *\n\n**Effect** Murschen takes the stance of the red ruin, designed to tear away chunks of flesh like a ferocious beast. Murschen can make red claw unarmed attacks. These attacks deal 1d10 slashing damage; are in the brawling group; and have the finesse, sweep, and unarmed traits.\n\nWhile in this stance, when Murschen would reduce his [[Conditions/Frightened|Frightened]] condition value by 1, he reduces it to 0."
 
   - name: "[[Bestiary Ability Glossary/Sneak Attack|Sneak Attack]]"
     desc: "  Murschen's Strikes deal an additional 1d6 precision damage to [[Conditions/Off-Guard|Off-Guard]] creatures."

@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.nRsH7unLIRWq0ZHC" 
 tags:
   - pf2e/creature/type/aberration
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Akata"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 2"
 name: "Akata"
 level: "Creature 1"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
+trait_01: [[aberration]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -68,7 +69,7 @@ attacks:
     desc: "`pf2:1` Jaws +9 (agile)\n__Damage__  1d6 + 4 piercing plus void-death"
 
   - name: "Void Death"
-    desc: " (disease) An akata implants its parasitic larval young into any creature it bites, but only Medium or Small humanoids make suitable hosts; all other creatures are immune to this disease\n\n**Saving Throw** DC 17 Fortitude check\n\n**Stage 1** carrier with no ill effect 1 (1 day)\n\n**Stage 2** [[Conditions/Drained 1|Drained 1]] (1 day)\n\n**Stage 3** as stage 2 (1 day)\n\n**Stage 4** drained 2 and [[Conditions/Fatigued|Fatigued]] (1 day)\n\n**Stage 5** as stage 4 (1 day)\n\n**Stage 6** dead and corpse rises as a void zombie in 2d4 hours"
+    desc: " (disease) An akata implants its parasitic larval young into any creature it bites, but only Medium or Small humanoids make suitable hosts; all other creatures are immune to this disease\n\n**Saving Throw** DC 17 Fortitude check\n\n**Stage 1** carrier with no ill effect 1 (1 day)\n\n**Stage 2** [[Conditions/Drained|Drained 1]] (1 day)\n\n**Stage 3** as stage 2 (1 day)\n\n**Stage 4** drained 2 and [[Conditions/Fatigued|Fatigued]] (1 day)\n\n**Stage 5** as stage 4 (1 day)\n\n**Stage 6** dead and corpse rises as a void zombie in 2d4 hours"
  
 ```
 

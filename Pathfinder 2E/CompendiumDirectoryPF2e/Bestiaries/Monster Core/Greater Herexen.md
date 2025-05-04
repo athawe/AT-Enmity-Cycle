@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.ZlAzJNsHYz1ZtMVK"
 tags:
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/8
   - remaster
 statblock: inline
@@ -22,11 +23,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Monster Core"
 name: "Greater Herexen"
 level: "Creature 8"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "undead"
-trait_02: "unholy"
+trait_01: [[undead]]
+trait_02: [[unholy]]
 modifier: 16
 perception:
   - name: "Perception"

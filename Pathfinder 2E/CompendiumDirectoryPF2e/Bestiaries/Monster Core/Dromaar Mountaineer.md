@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/orc
+  - pf2eMonster
   - pf2e/creature/level/2
   - remaster
 statblock: inline
@@ -27,10 +28,10 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "dromaar"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "orc"
+trait_01: [[dromaar]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[orc]]
 modifier: 11
 perception:
   - name: "Perception"

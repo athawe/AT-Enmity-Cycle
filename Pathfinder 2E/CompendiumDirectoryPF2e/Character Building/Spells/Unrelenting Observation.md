@@ -29,8 +29,7 @@ abilities_top:
   - name: "Traditions"
     desc: "arcane, occult"
   - name: "Range"
-    desc: "100 feet; **Area** 20-foot burst
-; **Targets** 1 creature or object tracked and up to 5 other willing creatures"
+    desc: "100 feet; **Area** 20-foot burst; **Targets** 1 creature or object tracked and up to 5 other willing creatures"
   - name: "Duration"
     desc: "varies"
 abilities_mid:

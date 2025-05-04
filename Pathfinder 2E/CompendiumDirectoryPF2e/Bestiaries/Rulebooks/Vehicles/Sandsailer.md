@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
 source: Pathfinder #174: Shadows of the Ancients
 aliases: "Compendium.pf2e.vehicles.Actor.1ldIHIoe1aKHilX2" 
@@ -19,7 +20,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #174: Shadows of the Ancients"
 name: "Sandsailer"
 level: "Vehicle 16"
-rare_03: "Rare"
+rare_03: [[Rare]]
 
 size: "huge"
 modifier: 

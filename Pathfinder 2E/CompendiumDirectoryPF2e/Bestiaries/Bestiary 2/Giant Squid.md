@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.32HHvah2Ji6FjJnM"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/aquatic
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Giant Squid"
@@ -24,8 +25,8 @@ level: "Creature 9"
 
 alignment: ""
 size: "huge"
-trait_01: "animal"
-trait_02: "aquatic"
+trait_01: [[animal]]
+trait_02: [[aquatic]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -64,7 +65,7 @@ attacks:
     desc: "`pf2:1` Arm +21 (agile, reach 10 feet)\n__Damage__  2d8 + 11 bludgeoning plus improved-grab"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  1d10 + 10 bludgeoning damage, DC 25 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  1d10+10 bludgeoning damage, DC 25 Fortitude check\n\n* * *\n"
 
   - name: "Jet"
     desc: "`pf2:2` (move) The giant squid moves up to 200 feet in a straight line through the water without triggering any reactions."

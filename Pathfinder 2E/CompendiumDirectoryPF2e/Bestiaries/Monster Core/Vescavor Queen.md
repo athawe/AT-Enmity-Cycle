@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.mOr6eIUhNuggjCKH"
 tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/9
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 9"
 
 alignment: ""
 size: "Large"
-trait_01: "fiend"
-trait_02: "unholy"
+trait_01: [[fiend]]
+trait_02: [[unholy]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -68,7 +69,7 @@ attacks:
     desc: "`pf2:1` Spit +19 (acid, magical, range increment 30 feet)\n__Damage__  2d8 acid plus rage-pheromones"
 
   - name: "Chaotic Spawning"
-    desc: "`pf2:3`  The vescavor queen strengthens her swarms. All vescavor swarms within 100 feet become Huge and [[Conditions/Quickened|Quickened]] for 1 minute. Vescavor swarms can only use the extra action each round for the Ravenous Bites action."
+    desc: "`pf2:3`  The vescavor queen strengthens her swarms. All vescavor swarms within 100 feet become Huge and [[Conditions/Quickened|Quickened]] for 1 minute. Vescavor swarms can only use the extra action each round for the Ravenous Bites action.\n\n[[Bestiary Effects/Effect_ Chaotic Spawning|Effect: Chaotic Spawning]]"
 
   - name: "Feeding Time"
     desc: "`pf2:1`  The vescavor queen causes any number of vescavor swarms within 100 feet to immediately use their reaction to perform the Ravenous Bites action."

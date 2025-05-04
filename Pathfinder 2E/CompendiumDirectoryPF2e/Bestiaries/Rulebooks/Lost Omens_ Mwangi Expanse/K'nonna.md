@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.lost-omens-mwangi-expanse-bestiary.Actor.XSWDwaLEyshEK
 tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "K&#x27;nonna"
@@ -24,8 +25,8 @@ level: "Creature 8"
 
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "evil"
+trait_01: [[aberration]]
+trait_02: [[evil]]
 modifier: 16
 perception:
   - name: "Perception"

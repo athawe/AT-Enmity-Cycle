@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - water
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #2-14: Lost in Flames
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.XUyHffBEQ7K2bsiP" 
@@ -22,14 +23,14 @@ name: "Flooding Monolith (5-6)"
 level: "Hazard 4"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "water"
+trait_01: [[environmental]]
+trait_02: [[water]]
 modifier: 8
 sourcebook: "_Pathfinder Society Scenario #2-14: Lost in Flames_"
 ac: 18
 armorclass:
   - name: AC
-    desc: "18; __Fort__ +15, __Ref__ +8, __Will__ +0"
+    desc: "18; __Fort__ +15, __Ref__ +8, "
 hp: 50
 health:
   - name: ""

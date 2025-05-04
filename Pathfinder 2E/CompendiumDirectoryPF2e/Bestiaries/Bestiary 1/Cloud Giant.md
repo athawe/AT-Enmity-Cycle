@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/giant
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Cloud Giant"
@@ -25,9 +26,9 @@ level: "Creature 11"
 
 alignment: ""
 size: "huge"
-trait_01: "air"
-trait_02: "giant"
-trait_03: "humanoid"
+trait_01: [[air]]
+trait_02: [[giant]]
+trait_03: [[humanoid]]
 modifier: 22
 perception:
   - name: "Perception"

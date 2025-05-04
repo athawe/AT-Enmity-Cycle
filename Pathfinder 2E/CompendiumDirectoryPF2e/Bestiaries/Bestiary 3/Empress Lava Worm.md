@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.YsgpbtWVT3q0OLWv" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Empress Lava Worm"
@@ -23,7 +24,7 @@ level: "Creature 7"
 
 alignment: ""
 size: "huge"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -65,7 +66,7 @@ attacks:
     desc: "`pf2:1`  The empress lava worm Strides, leaving behind dribbles of lava in every square that it passes through.\n\nA creature that enters or begins its turn in such a square takes 3d6 fire damage (DC 22 Fortitude check save). The lava becomes inert after 1 minute."
 
   - name: "Painful Bite"
-    desc: "  The bite of an empress lava worm causes excruciating pain. The target must succeed at a DC 25 Fortitude check save or become [[Conditions/Sickened 1|Sickened 1]] from the pain ([[Conditions/Sickened 1|Sickened 2]] on a critical failure)."
+    desc: "  The bite of an empress lava worm causes excruciating pain. The target must succeed at a DC 25 Fortitude check save or become [[Conditions/Sickened|Sickened 1]] from the pain ([[Conditions/Sickened|Sickened 2]] on a critical failure)."
  
 ```
 

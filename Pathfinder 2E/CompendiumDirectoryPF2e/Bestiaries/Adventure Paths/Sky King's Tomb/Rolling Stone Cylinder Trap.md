@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #194: Cult of the Cave Worm
 aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.0IzwmjL0OIfDqInF" 
@@ -22,14 +23,14 @@ name: "Rolling Stone Cylinder Trap"
 level: "Hazard 6"
 
 trait_06: "Complex"
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 18
 sourcebook: "_Pathfinder #194: Cult of the Cave Worm_"
 ac: 21
 armorclass:
   - name: AC
-    desc: "21; __Fort__ +18, __Ref__ +11, __Will__ +0"
+    desc: "21; __Fort__ +18, __Ref__ +11, "
 hp: 58
 health:
   - name: ""

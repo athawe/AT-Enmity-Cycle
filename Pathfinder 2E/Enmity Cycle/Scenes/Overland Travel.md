@@ -1,10 +1,22 @@
 For travelling the Desert use the following check and apply it to their speed going into the calculation of hexploration actions: *DC 14 Desert Lore, DC 17 Survival, DC 20 Perception*
 Crit success, normal speed and +2 circ bonus on the next travel check by the party (even on the next day)
-Success normal speed 
-Fail 1/2 speed
-Crit fail, 1/2 speed and guaranteed creature encounter.
 
 
+## Rolling each day of Travel 
+1. Roll `dice: 2d6`  for weather
+2. Roll a `dice: 1d8`  to see if there is a ley line or node. 6+ ley line, 8 multiple traits. If there is, roll a `dice: d12` . 1-2 Arcane, 3-4 Occult, 5-6 Primal, 7-8 Divine, 9 Arcane Node, 10 Occult Node, 11 Primal Node, 12 Divine Node. Roll an extra d8 to determine extra trait if it occurs.
+	- Allow the use of [[Identify Magic]] with Arcana instead of Occultism with a -2 status penalty. (DC 30 for weak or minor ley line, DC 20 for strong one)
+	- A successful check reveals the location of a ley line but not its capabilities.
+	- To determine the effects of a ley line, a character must succeed at a check to Identify Magic based on its tradition, with a DC equal to the **hard DC of the ley line's level.** 
+	- Nodes are always protected by something. (PF1 had witches that drew power from them too!)
+	- Make a note of it to add to GM map.
+3. Roll a **DC 15 flat check** `dice: d20`for a random encounter, crit = 2 encounters, **-2 to DC** when near or at a hex with an oasis or ruin.
+4. Roll for the type of each encounter. `dice: 1d10`1-7 combat, 8-9 social, 10 hazard (rocky area - skill challenge to traverse some canyons and cliffs (20 XP), sandy area - [[Quicksand]])
+	1. encounter distance
+	2. If there is an encounter, `dice: 1d8` - 1-4 it's when they aren't fatigued, 5-6 it is, 7-8 nighttime encounter.
+
+When the party first reaches the middle of a hex, and after every travel check when they are lost, one of them rolls Survival to [[Sense Direction]] (*DC 18*). Failing this makes or keeps them lost.
+Then someone rolls *DC 14 Desert Lore, DC 17 Nature, DC 20 Perception* to ensure the effectiveness of their travel. Failing this means they don't make meaningful progress in traversing the hex, while crit success grants a +2 circ bonus on the next travel check by the party (even on the next day). 
 ## Exploration
 
 ![[Environment]]
@@ -14,6 +26,7 @@ Crit fail, 1/2 speed and guaranteed creature encounter.
 
 ### Town Combat  
 
+- [ ] 3 [[Watch Officer]], 6 [[Warden]], 2 [[Archer Sentry]], 1 [[CompendiumDirectoryPF2e/Bestiaries/Rulebooks/NPC Gallery/Guard|Guard]], 6 [[Captain Of The Guard]] (Units from Aspenthar have the elite template)
 - [ ] 3 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Animated Statue|Animated Statue]] 
 - [ ] 2 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Animated Armor|Animated Armor]]
 - [ ] 4 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Barghest|Barghest]] - hags have 2 working for them?
@@ -38,9 +51,26 @@ Crit fail, 1/2 speed and guaranteed creature encounter.
 
 ### Overland Combat 
 
+1 on a d4 for a minor environmental hazard in the vicinity. [[Quicksand]], etc. 
+`dice: 1d4`
+#### Social encounters 
+1. Shemtej catfolk
+2. Traveling merchants with armed, hired help. 
+3. Dwarven army squads from Duwwor. The military from Duwwor is mostly dwarves under Defender Kharane's command. In total there are around 150 men, with an even split between the two. They operate in platoons of 10, sometimes splitting into squads of 5. 
+4. Orc nomad clans 
+	1. Gru-tuft 
+	2. Khagsnurr
+	3. Melkor
+#### Combat Table
+`dice: 1d100`
+- TODO
+- Reconfigure this so there's a 1/5 chance of a local faction encounter. Not necessarily hostile 
+- Roll for encounter difficulty if the main monster is PL +2 or lower. 
+- Roll for encounter distance 
+9 [[Desert Giant]] 
+
 | Day   | Night  | Monster                                                                                                                                                                            |
 | ----- | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 0     | 0      | 19 Yssendri, [[Empyreal Dragon (Ancient)]]                                                                                                                                         |
 | 1-2   | 1-4    | 4 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Barghest\|Barghest]]                                                                                                           |
 | 3-5   | 6-9    | 5 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Basilisk\|Basilisk]] (scales adapt to the surroundings)                                                                        |
 | 6-7   |        | 4 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Daeodon\|Daeodon]]                                                                                                             |
@@ -58,7 +88,7 @@ Crit fail, 1/2 speed and guaranteed creature encounter.
 | 32-33 |        | 10 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Brontosaurus\|Brontosaurus]]                                                                                                  |
 | 34-35 | 16-20  | 10 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Tyrannosaurus\|Tyrannosaurus]]                                                                                                |
 | 36-37 |        | 7 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Quetzalcoatlus\|Quetzalcoatlus]]                                                                                               |
-| 38    | 21     | ?, 11 Young Diabolic Dragon                                                                                                                                                        |
+| 38    | 21     | [[Water Lords#Herensuge\|Herensuge]], 11 Young Diabolic Dragon                                                                                                                     |
 | 39-40 |        | 8 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Desert Drake\|Desert Drake]]                                                                                                   |
 | 41-42 | 22-25  | 3 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/River Drake\|River Drake]]                                                                                                     |
 | 43-44 |        | 5 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Living Wildfire\|Living Wildfire]]                                                                                             |
@@ -94,15 +124,14 @@ Crit fail, 1/2 speed and guaranteed creature encounter.
 | 94-95 | 90-95  | 7 [[Cult Leader]], 3 [[CompendiumDirectoryPF2e/Bestiaries/Standalone Adventures/The Enmity Cycle/Usij Cultist\|Usij Cultist]]                                                      |
 | 96-98 | 96-98  | 7 [[Gang Leader]], 2 [[CompendiumDirectoryPF2e/Bestiaries/Rulebooks/NPC Gallery/Ruffian\|Ruffian]]                                                                                 |
 | 99    | 97-99  | 8 [[CompendiumDirectoryPF2e/Bestiaries/Rulebooks/NPC Gallery/Assassin\|Assassin]]                                                                                                  |
-
-Optionally include a minor environmental hazard of some sort in the vicinity. [[Quicksand]], etc. 
+| 100   | 100    | 19 Yssendri, [[Empyreal Dragon (Ancient)]]                                                                                                                                         |
 
 ### Dungeon/Ruin Combat 
 
 - Animated Statue or Armor
 - 5 Army Ant Swarm 
 - 5 Basilisk (scales adapt to the surroundings)
-- 6 Smilodon
+- 6 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Smilodon|Smilodon]]
 - 8 [[Chimera]] 
 - 5 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Living Whirlwind|Living Whirlwind]]
 - 5 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Living Landslide|Living Landslide]]
@@ -126,3 +155,5 @@ Optionally include a minor environmental hazard of some sort in the vicinity. [[
 - 6 Vampire Count 
 - 9 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Vampire Mastermind|Vampire Mastermind]]
 - 5 [[Ghul]]
+[[Mudwretch]] 
+^ put numbers instead of bullets 

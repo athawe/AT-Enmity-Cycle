@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/beast
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Ahuizotl"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 2"
 name: "Ahuizotl"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "amphibious"
-trait_02: "beast"
-trait_03: "evil"
+trait_01: [[amphibious]]
+trait_02: [[beast]]
+trait_03: [[evil]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Common"
 skills:
   - name: "Skills"
-    desc: "Athletics: +15, Deception: +15 (+19 when using Voice Imitation), Stealth: +15"
+    desc: "Athletics: +15, Deception: +15, Stealth: +15"
 abilityMods: [5, 3, 5, -1, 3, 3]
 speed: 25 feet,  swim 35 feet
 sourcebook: "_Pathfinder Bestiary 2_"

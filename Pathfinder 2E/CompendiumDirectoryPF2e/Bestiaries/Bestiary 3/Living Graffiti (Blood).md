@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.XfHvnixZO9zVwZxC"
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/construct
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Living Graffiti (Blood)"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Living Graffiti (Blood)"
 level: "Creature 3"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "construct"
+trait_01: [[chaotic]]
+trait_02: [[construct]]
 modifier: 9
 perception:
   - name: "Perception"

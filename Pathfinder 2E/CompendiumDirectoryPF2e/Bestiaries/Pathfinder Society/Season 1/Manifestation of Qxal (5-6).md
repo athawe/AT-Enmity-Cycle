@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Manifestation of Qxal (5-6)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #1-17: The Perennial Crown Part 2, The Thorned Monarch"
 name: "Manifestation of Qxal (5-6)"
 level: "Creature 8"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "huge"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fey"
-trait_04: "plant"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fey]]
+trait_04: [[plant]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Fey; (can&#x27;t speak any langauge)"
 skills:
   - name: "Skills"
-    desc: "Arcana: +18, Athletics: +18, Bhopan Lore: +19, Deception: +21, Intimidation: +19, Nature: +21, Society: +18"
+    desc: "Arcana: +18, Athletics: +18, Deception: +21, Intimidation: +19, Nature: +21, Society: +18, Bhopan Lore: +19"
 abilityMods: [6, 6, 4, 2, 4, 4]
 speed: 30 feet,  fly 30 feet
 sourcebook: "_Pathfinder Society Scenario #1-17: The Perennial Crown Part 2, The Thorned Monarch_"
@@ -56,13 +57,13 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Bloodsoaked Soil (Regeneration 20)"
-    desc: "  Generations of Bhopanese bloodshed have soaked Bhopan's soil, giving the Thorned Monarch a vast reservoir of energy to sustain their manifestation. As long as the manifestation is touching the soil of Bhopan, it has regeneration 20.\n* * *\n\nThis monster regains the listed number of Hit Points each round at the beginning of its turn. Its [[Conditions/Dying 1|Dying]] condition never increases beyond Dying 3 as long as its regeneration is active. However, if it takes damage of a type listed in the regeneration entry, its regeneration deactivates until the end of its next turn. Deactivate the regeneration before applying any damage of a listed type, since that damage might kill the monster by bringing it to Dying 4."
+    desc: "  Generations of Bhopanese bloodshed have soaked Bhopan's soil, giving the Thorned Monarch a vast reservoir of energy to sustain their manifestation. As long as the manifestation is touching the soil of Bhopan, it has regeneration 20.\n* * *\n\nThis monster regains the listed number of Hit Points each round at the beginning of its turn. Its [[Conditions/Dying|Dying]] condition never increases beyond Dying 3 as long as its regeneration is active. However, if it takes damage of a type listed in the regeneration entry, its regeneration deactivates until the end of its next turn. Deactivate the regeneration before applying any damage of a listed type, since that damage might kill the monster by bringing it to Dying 4."
 
   - name: "Blood Siphon"
     desc: "`pf2:r`  **Trigger** A creature within 60 feet takes [[Conditions/Persistent Damage|Persistent Bleed Damage]].\n* * *\n\n**Effect** The shed blood disperses into a fine mist that the manifestation siphons up with its proboscis. The manifestation regains 12 HP."
 
   - name: "Hallucinatory Scale Dust"
-    desc: " (aura,illusion,mental) 30 feet. Fey glamours shed from Qxal's wings like scale dust, causing hallucinations. A creature entering the aura or starting its turn in the area must attempt a DC 23 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune to the scale dust for 24 hours.\n\n**Success** The creature is unaffected.\n\n**Failure** The creature hallucinates that it is beginning to transform into a plant or animal native to their homeland, becoming either [[Conditions/Clumsy 1|Clumsy 1]], [[Conditions/Enfeebled 1|Enfeebled 1]], or [[Conditions/Stupefied 1|Stupefied 1]], at Qxal's choice. The condition lasts for 1 hour. Each time a creature fails this save, Qxal can choose an additional condition.\n\n**Critical Failure** As failure, but the condition value is 2 ([[Conditions/Clumsy 1|Clumsy 2]], [[Conditions/Enfeebled 1|Enfeebled 2]], or [[Conditions/Stupefied 1|Stupefied 2]])."
+    desc: " (aura,illusion,mental) 30 feet. Fey glamours shed from Qxal's wings like scale dust, causing hallucinations. A creature entering the aura or starting its turn in the area must attempt a DC 23 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune to the scale dust for 24 hours.\n\n**Success** The creature is unaffected.\n\n**Failure** The creature hallucinates that it is beginning to transform into a plant or animal native to their homeland, becoming either [[Conditions/Clumsy|Clumsy 1]], [[Conditions/Enfeebled|Enfeebled 1]], or [[Conditions/Stupefied|Stupefied 1]], at Qxal's choice. The condition lasts for 1 hour. Each time a creature fails this save, Qxal can choose an additional condition.\n\n**Critical Failure** As failure, but the condition value is 2 ([[Conditions/Clumsy|Clumsy 2]], [[Conditions/Enfeebled|Enfeebled 2]], or [[Conditions/Stupefied|Stupefied 2]])."
 
 attacks:
   - name: ""

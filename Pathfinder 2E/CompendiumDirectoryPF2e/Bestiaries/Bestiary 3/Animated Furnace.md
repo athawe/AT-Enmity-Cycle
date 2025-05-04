@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.fLyIWlTCW3cUPjvd"
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Animated Furnace"
@@ -24,8 +25,8 @@ level: "Creature 9"
 
 alignment: ""
 size: "huge"
-trait_01: "construct"
-trait_02: "mindless"
+trait_01: [[construct]]
+trait_02: [[mindless]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -61,10 +62,10 @@ attacks:
     desc: "`pf2:1` Door +21 (magical)\n__Damage__  2d12 + 9 bludgeoning plus improved-grab 1d8 fire plus improved-grab"
 
   - name: "Fan the Flames"
-    desc: "`pf2:2`  The animated furnace opens its door and fans its flames in a 30-foot cone that deals 5d6 fire damage (DC 28 Reflex check save)."
+    desc: "`pf2:2`  The animated furnace opens its door and fans its flames in a @Template[cone|distance:30] that deals 5d6 fire damage (DC 28 Reflex check save)."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Large, 2d8 + 9 fire, Rupture 15\n\n* * *\n"
+    desc: "`pf2:1` (attack) Large, 2d8+9 fire, Rupture 15\n\n* * *\n"
  
 ```
 

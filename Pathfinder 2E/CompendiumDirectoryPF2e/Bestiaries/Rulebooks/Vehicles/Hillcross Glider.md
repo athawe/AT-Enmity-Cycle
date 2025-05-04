@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
 source: Pathfinder #177: Burning Tundra
 aliases: "Compendium.pf2e.vehicles.Actor.V6ZuxECTGSyHAm7h" 
@@ -19,7 +20,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #177: Burning Tundra"
 name: "Hillcross Glider"
 level: "Vehicle 4"
-rare_03: "Rare"
+rare_03: [[Rare]]
 
 size: "Large"
 modifier: 

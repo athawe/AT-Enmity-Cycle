@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #1-04: Bandits of Immenwood
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.oGYYCFUoopC8MSYS" 
@@ -22,8 +23,8 @@ name: "Deadfall Trap (1-2)"
 level: "Hazard 1"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 8
 sourcebook: "_Pathfinder Society Scenario #1-04: Bandits of Immenwood_"
 perception:

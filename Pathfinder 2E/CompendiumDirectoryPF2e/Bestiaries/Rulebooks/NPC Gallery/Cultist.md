@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.Ap87yR4WOs0wKHx7"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Cultist"
@@ -24,8 +25,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Cult Lore (applies to cultist's own cult): +8, Deception: +3, Intimidation: +3, Occultism: +3, Society: +4, Stealth: +6"
+    desc: "Deception: +3, Intimidation: +3, Occultism: +3, Society: +4, Stealth: +6, Cult Lore (applies to cultist's own cult): +8"
 abilityMods: [4, 3, 2, 1, -1, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

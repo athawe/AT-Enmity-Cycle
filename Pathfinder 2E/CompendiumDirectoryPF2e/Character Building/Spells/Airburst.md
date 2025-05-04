@@ -25,8 +25,10 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, primal"
-**Area** 5-foot emanation
-**Targets** all creatures and unattended objects  - name: "Defense"
+
+  - name: "Area"
+    desc: "5-foot emanationall creatures and unattended objects"
+  - name: "Defense"
     desc: " fortitude"
 abilities_mid:
   - name: ""

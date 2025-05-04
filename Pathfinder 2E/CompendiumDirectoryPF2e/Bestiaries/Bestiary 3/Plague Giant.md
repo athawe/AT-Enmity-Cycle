@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/giant
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Plague Giant"
@@ -25,9 +26,9 @@ level: "Creature 14"
 
 alignment: ""
 size: "huge"
-trait_01: "evil"
-trait_02: "giant"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[giant]]
+trait_03: [[humanoid]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -76,10 +77,10 @@ attacks:
     desc: "DC 34, attack +26; __6th __  _[[Spells/Toxic Cloud|Cloudkill]]_, _[[Spells/Death Knell|Death Knell (x3)]]_, _[[Spells/Take its Course|Take its Course]]_"
 
   - name: "Atrophic Plague"
-    desc: " (disease,divine) **Saving Throw** DC 34 Fortitude check\n* * *\n\n**Stage 1** [[Conditions/Enfeebled 1|Enfeebled 2]] and [[Conditions/Fatigued|Fatigued]] (1 day)\n\n**Stage 2** [[Conditions/Enfeebled 1|Enfeebled 3]] and fatigued (1 day)\n\n**Stage 3** [[Conditions/Enfeebled 1|Enfeebled 4]] and fatigued (1 day)\n\n**Stage 4** dead"
+    desc: " (disease,divine) **Saving Throw** DC 34 Fortitude check\n* * *\n\n**Stage 1** [[Conditions/Enfeebled|Enfeebled 2]] and [[Conditions/Fatigued|Fatigued]] (1 day)\n\n**Stage 2** [[Conditions/Enfeebled|Enfeebled 3]] and fatigued (1 day)\n\n**Stage 3** [[Conditions/Enfeebled|Enfeebled 4]] and fatigued (1 day)\n\n**Stage 4** dead"
 
   - name: "Hurl Corpse"
-    desc: "`pf2:1`  The plague giant picks up a dead or dying creature within reach and flings it at a foe. The giant makes a rock Strike, using the body instead of a rock.\n\nIf the body is a corpse, on a hit it explodes in a cloud of thick gray vapor, exposing all creatures in a 10-foot burst to atrophic plague.\n\nIf the body is a dying creature, on a hit its dying value increases by 1 (or 2 on a critical hit)."
+    desc: "`pf2:1`  The plague giant picks up a dead or dying creature within reach and flings it at a foe. The giant makes a rock Strike, using the body instead of a rock.\n\nIf the body is a corpse, on a hit it explodes in a cloud of thick gray vapor, exposing all creatures in a @Template[burst|distance:10] to atrophic plague.\n\nIf the body is a dying creature, on a hit its dying value increases by 1 (or 2 on a critical hit)."
 
   - name: "Pustulant Flail"
     desc: "  A plague giant's flail is covered in pus, causing it to deal 3d6 additional poison damage."

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/dinosaur
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Saurian Warmonger"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #156: The Apocalypse Prophet"
 name: "Saurian Warmonger"
 level: "Creature 16"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "huge"
-trait_01: "dinosaur"
-trait_02: "evil"
-trait_03: "humanoid"
+trait_01: [[dinosaur]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
 modifier: 31
 perception:
   - name: "Perception"
@@ -76,7 +77,7 @@ attacks:
     desc: "DC 37, attack +29; __4th __  _[[Spells/Air Walk|Air Walk]]_; __3rd __  _[[Spells/Animal Vision|Animal Vision (At Will) (Dinosaurs Only)]]_\n__Constant__  __(2nd)__ _[[Spells/Speak with Animals|Speak with Animals]]_"
 
   - name: "Boneshaking Roar"
-    desc: "`pf2:2` (incapacitation,sonic) The saurian warmonger bellows, evoking the power of the primordial world.\n\nNon-dinosaur creatures within 30 feet take 10d6 sonic damage (DC 34 Fortitude check save). On a failed save, a creature is also [[Conditions/Slowed 1|Slowed 2]] for 1 round ([[Conditions/Stunned 1|Stunned]] 1d4 on a critical failure).\n\nThe saurian can't use Boneshaking Roar again for 1d4 rounds."
+    desc: "`pf2:2` (incapacitation,sonic) The saurian warmonger bellows, evoking the power of the primordial world.\n\nNon-dinosaur creatures within 30 feet take 10d6 sonic damage (DC 34 Fortitude check save). On a failed save, a creature is also [[Conditions/Slowed|Slowed 2]] for 1 round ([[Conditions/Stunned|Stunned]] 1d4 on a critical failure).\n\nThe saurian can't use Boneshaking Roar again for 1d4 rounds."
 
   - name: "Primordial Balance"
     desc: "  A warmonger wields their _mancatcher_ in one hand."

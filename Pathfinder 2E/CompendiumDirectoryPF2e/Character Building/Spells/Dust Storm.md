@@ -32,8 +32,7 @@ columnWidth: x
 abilities_top:
   - name: ""
   - name: "Range"
-    desc: "120 feet; **Area** 20-foot burst
-"
+    desc: "120 feet; **Area** 20-foot burst"
   - name: "Duration"
     desc: "1 minute"
 abilities_mid:

@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
   - pf2e/creature/type/gremlin
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Haniver"
@@ -27,11 +28,11 @@ level: "Creature -1"
 
 alignment: ""
 size: "tiny"
-trait_01: "amphibious"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "fey"
-trait_05: "gremlin"
+trait_01: [[amphibious]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[fey]]
+trait_05: [[gremlin]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Sakvroth, Thalassic"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +5, Deception: +4, Nature: +3, Stealth: +5, Thievery: +5 (+7 to Steal)"
+    desc: "Acrobatics: +5, Deception: +4, Nature: +3, Stealth: +5, Thievery: +5"
 abilityMods: [1, 3, 2, -1, 1, 2]
 speed: 10 feet,  fly 20 feet,  swim 20 feet
 sourcebook: "_Pathfinder Bestiary 3_"

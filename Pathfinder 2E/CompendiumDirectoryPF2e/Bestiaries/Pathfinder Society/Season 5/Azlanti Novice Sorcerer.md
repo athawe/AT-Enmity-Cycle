@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Azlanti Novice Sorcerer"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #5-03: Heidmarch Heist"
 name: "Azlanti Novice Sorcerer"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Azlanti, Common, Thassilonian"
 skills:
   - name: "Skills"
-    desc: "Arcana: +10, Deception: +12, Gambling Lore: +10, Society: +10, Stealth: +8"
+    desc: "Arcana: +10, Deception: +12, Society: +10, Stealth: +8, Gambling Lore: +10"
 abilityMods: [2, 3, 2, 3, 2, 5]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #5-03: Heidmarch Heist_"

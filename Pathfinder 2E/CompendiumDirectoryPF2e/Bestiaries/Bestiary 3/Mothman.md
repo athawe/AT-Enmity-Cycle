@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.L5cNazEKC5gASp41"
 tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Mothman"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Mothman"
 level: "Creature 7"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "chaotic"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -52,7 +53,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Portentous Gaze"
-    desc: " (aura,emotion,fear,mental,occult,visual) 30 feet. When a creature ends its turn in the aura, it must attempt a DC 25 Will check save. A creature that fails is [[Conditions/Frightened 1|Frightened 1]] (or [[Conditions/Frightened 1|Frightened 2]] on a critical failure)\n\nThe mothman can deactivate or activate this aura with a single action, which has the concentrate trait."
+    desc: " (aura,emotion,fear,mental,occult,visual) 30 feet. When a creature ends its turn in the aura, it must attempt a DC 25 Will check save. A creature that fails is [[Conditions/Frightened|Frightened 1]] (or [[Conditions/Frightened|Frightened 2]] on a critical failure)\n\nThe mothman can deactivate or activate this aura with a single action, which has the concentrate trait."
 
 attacks:
   - name: ""
@@ -67,7 +68,7 @@ attacks:
     desc: "`pf2:3` (primal) **Frequency** once per day\n* * *\n\n**Effect** The mothman casts any spell of 5th level or lower that normally takes 2 or fewer actions to cast, whether they have those spells in their innate spells or not.\n\nThey can use this ability only if doing so steers the flow of fate in its proper course toward a disaster or otherwise significantly memorable event.\n\nWhat the proper flow of fate entails is determined by the GM, but some examples include casting [[Spells/Illusory Scene|Illusory Scene]] to coax someone to a portentous location, casting [[Spells/Sending|Sending]] to deliver an important message to someone the exact moment they need to hear it, or casting [[Spells/Rusting Grasp|Rusting Grasp]] to weaken a structure and cause some necessary calamity."
 
   - name: "Focus Gaze"
-    desc: "`pf2:1` (concentrate,emotion,fear,mental,occult,visual) The mothman fixes their glare at a creature they can see within 30 feet. The target must immediately attempt a Will save against the mothman's portentous gaze.\n\nIf the creature is already frightened when it attempts this save, on a failure it becomes [[Conditions/Stupefied 1|Stupefied 1]] for 24 hours in addition to the frightened effect.\n\nAfter attempting its save, the creature is then temporarily immune for 1 minute."
+    desc: "`pf2:1` (concentrate,emotion,fear,mental,occult,visual) The mothman fixes their glare at a creature they can see within 30 feet. The target must immediately attempt a Will save against the mothman's portentous gaze.\n\nIf the creature is already frightened when it attempts this save, on a failure it becomes [[Conditions/Stupefied|Stupefied 1]] for 24 hours in addition to the frightened effect.\n\nAfter attempting its save, the creature is then temporarily immune for 1 minute."
  
 ```
 

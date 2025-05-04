@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/mutant
   - pf2e/creature/type/serpentfolk
+  - pf2eMonster
   - pf2e/creature/level/6
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
-trait_02: "mutant"
-trait_03: "serpentfolk"
+trait_01: [[humanoid]]
+trait_02: [[mutant]]
+trait_03: [[serpentfolk]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -77,7 +78,7 @@ attacks:
     desc: "`pf2:1` (auditory,emotion,mental) **Requirements** The granitescale's last action was a successful longspear Strike\n* * *\n\n**Effect** The granitescale rattles the base of their spear, attempting an Intimidation check to [[Actions/Demoralize|Demoralize]] all enemies within 30 feet (compare the check result to the targets' Will DCs individually)."
 
   - name: "Serpentfolk Venom"
-    desc: " (poison) **Saving Throw** DC 22 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d4 poison damage and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)\n\n**Stage 2** 2d4 poison damage and enfeebled 1 (1 round)"
+    desc: " (poison) **Saving Throw** DC 22 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d4 poison damage and [[Conditions/Enfeebled|Enfeebled 1]] (1 round)\n\n**Stage 2** 2d4 poison damage and enfeebled 1 (1 round)"
  
 ```
 

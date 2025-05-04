@@ -66,12 +66,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Korakai (Level 1)
-creatures:
-  - 1: Korakai (Level 1)
-```
-
 
 
 

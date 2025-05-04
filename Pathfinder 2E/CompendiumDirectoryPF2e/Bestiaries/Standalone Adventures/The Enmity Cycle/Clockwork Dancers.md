@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Adventure: The Enmity Cycle
 aliases: "Compendium.pf2e.the-enmity-cycle-bestiary.Actor.DG54oET4evjYUUrp" 
@@ -22,8 +23,8 @@ name: "Clockwork Dancers"
 level: "Hazard 7"
 
 trait_06: "Complex"
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 6
 sourcebook: "_Pathfinder Adventure: The Enmity Cycle_"
 ac: 24

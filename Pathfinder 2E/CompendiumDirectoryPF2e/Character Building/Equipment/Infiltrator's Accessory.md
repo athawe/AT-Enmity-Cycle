@@ -7,6 +7,7 @@ tags:
   - trait/agile
   - trait/concealable
   - trait/finesse
+  - trait/illusion
   - trait/magical
   - trait/common
   - category/martial
@@ -15,7 +16,7 @@ license: OGL
 ---
 # Infiltrator's Accessory
 ## Item 5
-### [[agile]][[concealable]][[finesse]][[magical]]
+### [[agile]][[concealable]][[finesse]][[illusion]][[magical]]
 
 |  |  |
 | -- | -- |

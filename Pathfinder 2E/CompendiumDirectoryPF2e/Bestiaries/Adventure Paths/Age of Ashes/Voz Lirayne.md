@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Voz Lirayne"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #145: Hellknight Hill"
 name: "Voz Lirayne"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "aiuvarin"
-trait_02: "elf"
-trait_03: "evil"
-trait_04: "human"
-trait_05: "humanoid"
+trait_01: [[aiuvarin]]
+trait_02: [[elf]]
+trait_03: [[evil]]
+trait_04: [[human]]
+trait_05: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Elven, Goblin, Halfling, Necril, Orcish"
 skills:
   - name: "Skills"
-    desc: "Arcana: +13, Deception: +11, Library Lore: +11, Mercantile Lore: +11, Occultism: +11, Religion: +7, Society: +11, Stealth: +10"
+    desc: "Arcana: +13, Deception: +11, Occultism: +11, Religion: +7, Society: +11, Stealth: +10, Library Lore: +11, Mercantile Lore: +11"
 abilityMods: [1, 3, 3, 4, 0, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder #145: Hellknight Hill_"

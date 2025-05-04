@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.age-of-ashes-bestiary.Actor.xXtGS9uBa9z43X7y" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Graveshell"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #145: Hellknight Hill"
 name: "Graveshell"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 4
 perception:
   - name: "Perception"

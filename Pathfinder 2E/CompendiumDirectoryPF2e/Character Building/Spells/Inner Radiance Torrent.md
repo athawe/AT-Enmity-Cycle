@@ -27,7 +27,9 @@ abilities_top:
     desc: "divine, occult"
   - name: "Cast"
     desc: "2 to 2 rounds"
-**Area** 60-foot line
+
+  - name: "Area"
+    desc: "60-foot line"
   - name: "Defense"
     desc: "basic reflex"
 abilities_mid:

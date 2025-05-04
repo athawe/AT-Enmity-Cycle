@@ -27,6 +27,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
 abilities_mid:
   - name: ""
     desc: "**Trigger** You are about to attempt a saving throw, but you haven't rolled yet.\n* * *\n\nYou're difficult to remove from battle. You gain a +2 status bonus to the triggering save, and if the triggering save is against an incapacitation effect, it treats you as if you were 2 levels higher.\n\n[[Spell Effects/Spell Effect_ Battlefield Persistence|Spell Effect: Battlefield Persistence]]"

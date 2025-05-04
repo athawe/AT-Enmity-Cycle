@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.CjAaXJDY4xpKqQEz" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Megalictis"
@@ -23,7 +24,7 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +9 (+13 to Escape), Athletics: +8, Stealth: +9"
+    desc: "Acrobatics: +9, Athletics: +8, Stealth: +9"
 abilityMods: [3, 4, 3, -4, 1, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -62,7 +63,7 @@ attacks:
     desc: "`pf2:1` Claw +11 (agile, finesse)\n__Damage__  1d10 + 5 slashing"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  1d12 + 2 piercing, DC 20 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  1d12+2 piercing, DC 20 Fortitude check\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

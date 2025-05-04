@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
 
 source: Pathfinder Adventure: Malevolence
 aliases: "Compendium.pf2e.malevolence-bestiary.Actor.ZhxhWosYW3tZfDqL" 
@@ -21,7 +22,7 @@ name: "Xarwin Manor Phantasm"
 level: "Hazard -1"
 
 
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 5
 sourcebook: "_Pathfinder Adventure: Malevolence_"
 ac: 12

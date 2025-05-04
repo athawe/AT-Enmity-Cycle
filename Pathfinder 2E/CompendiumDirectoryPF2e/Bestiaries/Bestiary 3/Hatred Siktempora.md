@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/siktempora
   - pf2e/creature/type/time
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Hatred Siktempora"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Hatred Siktempora"
 level: "Creature 18"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "siktempora"
-trait_03: "time"
+trait_01: [[evil]]
+trait_02: [[siktempora]]
+trait_03: [[time]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo; (can&#x27;t speak any language), telepathy 500 feet"
 skills:
   - name: "Skills"
-    desc: "Athletics: +35, Deception: +32, Dimension of Time Lore: +32, Intimidation: +32, Stealth: +32"
+    desc: "Athletics: +35, Deception: +32, Intimidation: +32, Stealth: +32, Dimension of Time Lore: +32"
 abilityMods: [9, 6, 4, 4, 7, 6]
 speed: 80 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -57,7 +58,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Impending Dread"
-    desc: " (aura,emotion,fear,mental,occult) 150 feet. Creatures within the hatred siktempora's aura don't reduce the value of their [[Conditions/Frightened 1|Frightened]] condition automatically at the end of their turns."
+    desc: " (aura,emotion,fear,mental,occult) 150 feet. Creatures within the hatred siktempora's aura don't reduce the value of their [[Conditions/Frightened|Frightened]] condition automatically at the end of their turns."
 
   - name: "Punish Flight"
     desc: "`pf2:r`  **Trigger** A creature attempts to [[Actions/Escape|Escape]] from the hatred siktempora\n* * *\n\n**Effect** The siktempora makes a loathing garotte Strike against the triggering creature. This Strike doesn't have Improved Grab."

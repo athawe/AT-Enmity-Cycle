@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Bounty #20: Burden in Bloodcove
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.3TvWKI01CMwxex51" 
@@ -21,7 +22,7 @@ name: "Cloud of Reverie"
 level: "Hazard 3"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 10
 sourcebook: "_Pathfinder Bounty #20: Burden in Bloodcove_"
 perception:

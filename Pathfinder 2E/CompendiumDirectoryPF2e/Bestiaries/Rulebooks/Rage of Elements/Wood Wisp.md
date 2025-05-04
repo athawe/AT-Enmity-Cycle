@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/plant
   - pf2e/creature/type/wood
+  - pf2eMonster
   - pf2e/creature/level/0
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 0"
 
 alignment: ""
 size: "tiny"
-trait_01: "elemental"
-trait_02: "plant"
-trait_03: "wood"
+trait_01: [[elemental]]
+trait_02: [[plant]]
+trait_03: [[wood]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -36,7 +37,7 @@ perception:
 languages: "Muan"
 skills:
   - name: "Skills"
-    desc: "Athletics: +7, Plane of Wood Lore: +4, Stealth: +6"
+    desc: "Athletics: +7, Stealth: +6, Plane of Wood Lore: +4"
 abilityMods: [3, 1, 2, 0, 3, 0]
 speed:  climb 40 feet,  fly 20 feet
 sourcebook: "_Pathfinder Rage of Elements_"

@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #3-02: The East Hill Haunting
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.Upa2rtDx5daLyx2z" 
@@ -21,7 +22,7 @@ name: "Eloise's Last Gasp (3-4)"
 level: "Hazard 5"
 
 trait_06: "Complex"
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 13
 sourcebook: "_Pathfinder Society Scenario #3-02: The East Hill Haunting_"
 perception:

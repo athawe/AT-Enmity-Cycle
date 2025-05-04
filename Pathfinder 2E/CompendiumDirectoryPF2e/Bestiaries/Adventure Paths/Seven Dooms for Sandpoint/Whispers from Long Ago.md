@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #200: Seven Dooms for Sandpoint
 aliases: "Compendium.pf2e.seven-dooms-for-sandpoint-bestiary.Actor.nUyRfG2DlTAXFyn1" 
@@ -22,8 +23,8 @@ name: "Whispers from Long Ago"
 level: "Hazard 7"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 17
 sourcebook: "_Pathfinder #200: Seven Dooms for Sandpoint_"
 perception:

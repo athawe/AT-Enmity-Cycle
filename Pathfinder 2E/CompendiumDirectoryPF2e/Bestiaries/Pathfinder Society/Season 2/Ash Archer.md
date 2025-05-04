@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lizardfolk
   - pf2e/creature/type/nephilim
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Ash Archer"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-20: Breaking the Storm: Bastion in Embers"
 name: "Ash Archer"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "lizardfolk"
-trait_05: "nephilim"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[lizardfolk]]
+trait_05: [[nephilim]]
 modifier: 15
 perception:
   - name: "Perception"

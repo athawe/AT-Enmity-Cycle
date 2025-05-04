@@ -12,6 +12,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/oni
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Tino (Oni Form)"
@@ -26,16 +27,16 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #168: King of the Mountain"
 name: "Tino (Oni Form)"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "fiend"
-trait_03: "giant"
-trait_04: "humanoid"
-trait_05: "lawful"
-trait_06: "oni"
-trait_07: "unholy"
+trait_01: [[evil]]
+trait_02: [[fiend]]
+trait_03: [[giant]]
+trait_04: [[humanoid]]
+trait_05: [[lawful]]
+trait_06: [[oni]]
+trait_07: [[unholy]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -43,7 +44,7 @@ perception:
 languages: "Nagaji, Taldane, Tengu, Tien; (can&#x27;t speak any language)"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +35, Athletics: +35, Deception: +24, Diplomacy: +31, Intimidation: +35, Irori Lore: +31, Medicine: +29, Occultism: +29, Religion: +31"
+    desc: "Acrobatics: +35, Athletics: +35, Deception: +24, Diplomacy: +31, Intimidation: +35, Medicine: +29, Occultism: +29, Religion: +31, Irori Lore: +31"
 abilityMods: [9, 6, 6, 5, 5, 4]
 speed: 35 feet
 sourcebook: "_Pathfinder #168: King of the Mountain_"

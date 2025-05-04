@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #151: The Show Must Go On
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.0fe7PVMIq92fkUJK" 
@@ -22,14 +23,14 @@ name: "Dream Pollen Pod"
 level: "Hazard 3"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "trap"
+trait_01: [[environmental]]
+trait_02: [[trap]]
 modifier: 12
 sourcebook: "_Pathfinder #151: The Show Must Go On_"
 ac: 18
 armorclass:
   - name: AC
-    desc: "18; __Fort__ +9, __Ref__ +3, __Will__ +0"
+    desc: "18; __Fort__ +9, __Ref__ +3, "
 hp: 32
 health:
   - name: ""

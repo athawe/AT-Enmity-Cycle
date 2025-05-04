@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.stolen-fate-bestiary.Actor.58rzKemMr1sFBTfv" 
 tags:
   - pf2e/creature/type/construct
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "The Peacock"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #192: Worst of All Possible Worlds"
 name: "The Peacock"
 level: "Creature 17"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Small"
-trait_01: "construct"
+trait_01: [[construct]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -63,7 +64,7 @@ attacks:
     desc: "DC 35, attack +27; __8th __  _[[Spells/Uncontrollable Dance|Uncontrollable Dance]]_; __7th __  _[[Spells/Visions of Danger|Visions of Danger]]_; __5th __  _[[Spells/Translocate|Dimension Door]]_; __4th __  _[[Spells/Confusion|Confusion]]_; __2nd __  _[[Spells/Augury|Augury]]_; __1st __  _[[Spells/Ill Omen|Ill Omen (At Will)]]_\n__Cantrips__  __(9th)__ _[[Spells/Daze|Daze]]_, _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Ghost Sound|Ghost Sound]]_, _[[Spells/Telekinetic Projectile|Telekinetic Projectile]]_"
 
   - name: "Color-Draining Plumage Display"
-    desc: "`pf2:1` (occult) The Peacock opens it plumage in an attempt to drain the color and mobility from others. Creatures within 30 feet of the Peacock must attempt a DC 36 Will check save. On a failure, creatures become [[Conditions/Slowed 1|Slowed 1]] for 1 round ([[Conditions/Slowed 1|Slowed 2]] on a critical failure) as color drains from their bodies and they endure the sensation of being slowly petrified."
+    desc: "`pf2:1` (occult) The Peacock opens it plumage in an attempt to drain the color and mobility from others. Creatures within 30 feet of the Peacock must attempt a DC 36 Will check save. On a failure, creatures become [[Conditions/Slowed|Slowed 1]] for 1 round ([[Conditions/Slowed|Slowed 2]] on a critical failure) as color drains from their bodies and they endure the sensation of being slowly petrified."
 
   - name: "[[Creature Family Ability Glossary/(Harrowkin) Harrowkin Suit|Harrowkin Suit (Keys)]]"
     desc: "  Each harrowkin is connected one specific harrow suit and has the following shared abilities.\n\n[[Creature Family Ability Glossary/(Harrowkin) Defensive Suit|(Harrowkin) Defensive Suit]]\n\n[[Creature Family Ability Glossary/(Harrowkin) Shuffle the Deck|(Harrowkin) Shuffle the Deck]]\n\n[[Creature Family Ability Glossary/(Harrowkin) Read the Cards|(Harrowkin) Read the Cards]]\n* * *\n\n_Note: This ability enables additional automation for the listed abilities._"

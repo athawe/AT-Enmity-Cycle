@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
 source: Pathfinder Guns &amp; Gears
 aliases: "Compendium.pf2e.vehicles.Actor.bUwBenWXjdUIKXkm" 
@@ -19,7 +20,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Guns & Gears"
 name: "Clockwork Borer"
 level: "Vehicle 9"
-rare_03: "Rare"
+rare_03: [[Rare]]
 
 size: "huge"
 modifier: 

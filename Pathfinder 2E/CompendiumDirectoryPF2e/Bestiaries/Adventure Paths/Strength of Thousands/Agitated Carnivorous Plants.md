@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder #170: Spoken on the Song Wind
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.iKhMNWK6FB7ICach" 
@@ -21,13 +22,13 @@ name: "Agitated Carnivorous Plants"
 level: "Hazard 5"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 10
 sourcebook: "_Pathfinder #170: Spoken on the Song Wind_"
 ac: 20
 armorclass:
   - name: AC
-    desc: "20; __Fort__ +17, __Ref__ +9, __Will__ +0"
+    desc: "20; __Fort__ +17, __Ref__ +9, "
 hp: 60
 health:
   - name: ""

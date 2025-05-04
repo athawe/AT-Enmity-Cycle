@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/fey
   - pf2e/creature/type/good
   - pf2e/creature/type/sprite
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Nyktera"
@@ -25,9 +26,9 @@ level: "Creature -1"
 
 alignment: ""
 size: "tiny"
-trait_01: "fey"
-trait_02: "good"
-trait_03: "sprite"
+trait_01: [[fey]]
+trait_02: [[good]]
+trait_03: [[sprite]]
 modifier: 6
 perception:
   - name: "Perception"

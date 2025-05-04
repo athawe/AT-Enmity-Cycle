@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Phistophilus"
@@ -27,11 +28,11 @@ level: "Creature 10"
 
 alignment: ""
 size: "Medium"
-trait_01: "devil"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "lawful"
-trait_05: "unholy"
+trait_01: [[devil]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[lawful]]
+trait_05: [[unholy]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Aklo, Chthonian, Common, Diabolic, Draconic, Empyrean, Sakvroth; telepathy 100 feet, tongues"
 skills:
   - name: "Skills"
-    desc: "Arcana: +19, Deception: +23, Diplomacy: +21, Intimidation: +21, Legal Lore: +25, Religion: +19, Society: +19, Stealth: +18"
+    desc: "Arcana: +19, Deception: +23, Diplomacy: +21, Intimidation: +21, Religion: +19, Society: +19, Stealth: +18, Legal Lore: +25"
 abilityMods: [3, 4, 4, 7, 5, 5]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary_"

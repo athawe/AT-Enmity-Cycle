@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/monitor
   - pf2e/creature/type/protean
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Izfiitar"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #162: Ruins of the Radiant Siege"
 name: "Izfiitar"
 level: "Creature 20"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "monitor"
-trait_03: "protean"
+trait_01: [[chaotic]]
+trait_02: [[monitor]]
+trait_03: [[protean]]
 modifier: 36
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Chthonian, Empyrean, Protean; telepathy 100 feet, tongues"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +38, Arcana: +35, Athletics: +35, Deception: +37, Diplomacy: +37, Maelstrom Lore: +37, Occultism: +36, Religion: +38, Society: +35, Stealth: +38"
+    desc: "Acrobatics: +38, Arcana: +35, Athletics: +35, Deception: +37, Diplomacy: +37, Occultism: +36, Religion: +38, Society: +35, Stealth: +38, Maelstrom Lore: +37"
 abilityMods: [9, 10, 9, 7, 8, 9]
 speed: 40 feet,  fly 50 feet,  swim 40 feet
 sourcebook: "_Pathfinder #162: Ruins of the Radiant Siege_"
@@ -84,7 +85,7 @@ attacks:
     desc: "`pf2:1` (concentrate,divine,polymorph) The izfiitar takes the appearance of any Huge or smaller creature. This doesn't change its Speed or its attack and damage bonuses with its Strikes, but might change the damage type its Strikes deal.\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  2d8 + 17 bludgeoning damage, DC 44 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  2d8+17 bludgeoning damage, DC 44 Fortitude check\n\n* * *\n"
 
   - name: "Greater Warpwave Strike"
     desc: " (divine) Any creature struck and damaged by an izfiitar's jaws or claw Strike must succeed at a DC 42 Fortitude check save or be subject to a particularly powerful [[Rollable Tables/Warpwaves|Warpwave]].\n\nRoll twice and apply both affects, rerolling any duplicates."

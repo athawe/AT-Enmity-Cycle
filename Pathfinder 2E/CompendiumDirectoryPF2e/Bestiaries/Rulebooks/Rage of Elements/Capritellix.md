@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.rage-of-elements-bestiary.Actor.RFxLankyC74BEY03"
 tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/metal
+  - pf2eMonster
   - pf2e/creature/level/17
   - remaster
 statblock: inline
@@ -22,11 +23,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Rage of Elements"
 name: "Capritellix"
 level: "Creature 17"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "elemental"
-trait_02: "metal"
+trait_01: [[elemental]]
+trait_02: [[metal]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -34,7 +35,7 @@ perception:
 languages: "Talican; plus one language for each of their mouths; telepathy 100 feet"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +31, Athletics: +29, Deception: +32, Diplomacy: +32, Intimidation: +32, Performance: +32, Plane of Metal Lore: +30, Society: +30"
+    desc: "Acrobatics: +31, Athletics: +29, Deception: +32, Diplomacy: +32, Intimidation: +32, Performance: +32, Society: +30, Plane of Metal Lore: +30"
 abilityMods: [6, 8, 8, 7, 5, 9]
 speed:  fly 60 feet
 sourcebook: "_Pathfinder Rage of Elements_"

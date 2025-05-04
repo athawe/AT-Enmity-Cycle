@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.tbqcZG0lOoUVhNfn"
 tags:
   - pf2e/creature/type/arcane
   - pf2e/creature/type/dragon
+  - pf2eMonster
   - pf2e/creature/level/9
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 9"
 
 alignment: ""
 size: "Large"
-trait_01: "arcane"
-trait_02: "dragon"
+trait_01: [[arcane]]
+trait_02: [[dragon]]
 modifier: 20
 perception:
   - name: "Perception"
@@ -34,7 +35,7 @@ perception:
 languages: "Common, Draconic"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +19, Arcana: +19, Athletics: +18, Crafting: +19, Deception: +21, Diplomacy: +19, Illusion Lore: +21, Performance: +19, Stealth: +19, Thievery: +19"
+    desc: "Acrobatics: +19, Arcana: +19, Athletics: +18, Crafting: +19, Deception: +21, Diplomacy: +19, Performance: +19, Stealth: +19, Thievery: +19, Illusion Lore: +21"
 abilityMods: [5, 4, 3, 4, 5, 6]
 speed: 40 feet,  climb 20 feet,  fly 120 feet
 sourcebook: "_Pathfinder Monster Core_"
@@ -74,10 +75,10 @@ attacks:
     desc: "DC 27, attack +20; __4th __  _[[Spells/Confusion|Confusion]]_, _[[Spells/Vision of Death|Vision of Death]]_; __3rd __  _[[Spells/Enthrall|Enthrall]]_, _[[Spells/Hypnotize|Hypnotize]]_; __2nd __  _[[Spells/Embed Message|Embed Message]]_, _[[Spells/Revealing Light|Revealing Light]]_, _[[Spells/See the Unseen|See the Unseen]]_; __1st __  _[[Spells/Disguise Magic|Disguise Magic]]_, _[[Spells/Item Facade|Item Facade]]_, _[[Spells/Phantasmal Minion|Phantasmal Minion]]_, _[[Spells/Ventriloquism|Ventriloquism]]_\n__Cantrips__  __(4th)__ _[[Spells/Daze|Daze]]_, _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Light|Light]]_, _[[Spells/Prestidigitation|Prestidigitation]]_, _[[Spells/Read Aura|Read Aura]]_"
 
   - name: "Arcane Innate Spells"
-    desc: "DC 27, attack +19; __5th __  _[[Spells/Illusory Scene|Illusory Scene]]_; __4th __  _[[Spells/Illusory Creature|Illusory Creature (At Will)]]_; __2nd __  _[[Spells/Invisibility|Invisibility]]_\n__Cantrips__  __(5th)__ _[[Spells/Figment|Figment]]_, _[[Spells/Message|Message]]_"
+    desc: "DC 27, attack +19; __5th __  _[[Spells/Illusory Scene|Illusory Scene]]_; __4th __  _[[Spells/Illusory Creature|Illusory Creature]]_, _[[Spells/Illusory Object|Illusory Object (At Will)]]_, _[[Spells/Mirage|Mirage]]_; __2nd __  _[[Spells/Invisibility|Invisibility]]_\n__Cantrips__  __(5th)__ _[[Spells/Figment|Figment]]_, _[[Spells/Message|Message]]_"
 
   - name: "Hallucinatory Breath"
-    desc: "`pf2:2` (arcane,emotion,mental) The dragon breathes a cloud that assaults the senses and deals 7d6 mental damage in a 30-foot cone (DC 27 Will check save). A creature that fails its save is also [[Conditions/Confused|Confused]] for 1 round (1 minute on a critical failure) and is then temporarily immune to being confused by Hallucinatory Breath for 1 hour.\n\nThe dragon can't use Hallucinatory Breath again for 1d4 rounds."
+    desc: "`pf2:2` (arcane,emotion,mental) The dragon breathes a cloud that assaults the senses and deals 7d6 mental damage in a @Template[cone|distance:30] (DC 27 Will check save). A creature that fails its save is also [[Conditions/Confused|Confused]] for 1 round (1 minute on a critical failure) and is then temporarily immune to being confused by Hallucinatory Breath for 1 hour.\n\nThe dragon can't use Hallucinatory Breath again for 1d4 rounds."
 
   - name: "Lunging Bite"
     desc: "`pf2:2`  The dragon lunges their head forward, making a jaws Strike with an extended reach of 20 feet."

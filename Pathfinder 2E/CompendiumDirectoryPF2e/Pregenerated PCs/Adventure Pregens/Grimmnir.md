@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Grimmnir
-creatures:
-  - 1: Grimmnir
-```
-
 
 
 

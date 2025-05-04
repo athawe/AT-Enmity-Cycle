@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/nephilim
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Tiefling Adept"
@@ -27,11 +28,11 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
-trait_05: "nephilim"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
+trait_05: [[nephilim]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Chthonian, Common"
 skills:
   - name: "Skills"
-    desc: "Abyss Lore: +9, Acrobatics: +7, Arcana: +9, Deception: +9, Intimidation: +7, Occultism: +9, Religion: +6, Society: +9, Stealth: +7"
+    desc: "Acrobatics: +7, Arcana: +9, Deception: +9, Intimidation: +7, Occultism: +9, Religion: +6, Society: +9, Stealth: +7, Abyss Lore: +9"
 abilityMods: [0, 2, 0, 4, 1, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary_"

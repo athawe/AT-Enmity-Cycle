@@ -30,13 +30,13 @@ This _+2 greater striking greater frost longspear_ appears to be a single contin
 
 * * *
 
-**Activate—Quench Flames `pf2:2`** (concentrate, manipulate)
+**Activate—Quench Flames** `pf2:2` (concentrate, manipulate)
 
 **Effect** You swing the icicle into the area of an ongoing magical fire, and the spear attempts to counteract the fire with a counteract modifier of +27. If it fails, it can't attempt to counteract the same fire again.
 
 * * *
 
-**Activate—Ice Spike `pf2:2`** (concentrate, manipulate)
+**Activate—Ice Spike** `pf2:2` (concentrate, manipulate)
 
 **Frequency** once per day
 

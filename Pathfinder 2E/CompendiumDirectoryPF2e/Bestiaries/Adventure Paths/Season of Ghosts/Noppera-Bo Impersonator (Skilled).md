@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Noppera-Bo Impersonator (Skilled)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #198: No Breath to Cry"
 name: "Noppera-Bo Impersonator (Skilled)"
 level: "Creature 6"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -57,7 +58,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Sensitive Hearing"
-    desc: "  As long as the noppera-bo is [[Conditions/Deafened|Deafened]], they're [[Conditions/Slowed 1|Slowed 1]]."
+    desc: "  As long as the noppera-bo is [[Conditions/Deafened|Deafened]], they're [[Conditions/Slowed|Slowed 1]]."
 
 attacks:
   - name: ""
@@ -65,7 +66,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` False Weapon +15 ()\n__Damage__  2d8 + 8 mental"
 
-  - name: "Ranged"
+  - name: "Melee"
     desc: "`pf2:1` False Weapon +15 ()\n__Damage__  2d4 + 8 mental"
 
   - name: "False Weapon"

@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #152: Legacy of the Lost God
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.1HYH5BgFGtFxVMpc" 
@@ -22,8 +23,8 @@ name: "Krooth Summoning Rune"
 level: "Hazard 8"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 14
 sourcebook: "_Pathfinder #152: Legacy of the Lost God_"
 perception:

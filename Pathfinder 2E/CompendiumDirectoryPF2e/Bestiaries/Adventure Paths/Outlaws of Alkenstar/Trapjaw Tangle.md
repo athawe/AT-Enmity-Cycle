@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/evil
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Trapjaw Tangle"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #179: Cradle of Quartz"
 name: "Trapjaw Tangle"
 level: "Creature 5"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "construct"
-trait_02: "evil"
-trait_03: "swarm"
+trait_01: [[construct]]
+trait_02: [[evil]]
+trait_03: [[swarm]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +12, Athletics: +6 (+10 to Trip and Tangle), Stealth: +13"
+    desc: "Acrobatics: +12, Athletics: +6, Stealth: +13"
 abilityMods: [-1, 5, 4, -4, 2, -2]
 speed: 25 feet
 sourcebook: "_Pathfinder #179: Cradle of Quartz_"
@@ -60,7 +61,7 @@ attacks:
   - name: ""
 
   - name: "Snapping Jaws"
-    desc: "`pf2:1`  Each enemy in the swarm's space takes 2d10 slashing damage (DC 22 Reflex check). Creatures that fail this save become [[Conditions/Sickened 1|Sickened 1]] from the numerous painful wounds caused by the swarm."
+    desc: "`pf2:1`  Each enemy in the swarm's space takes 2d10 slashing damage (DC 22 Reflex check). Creatures that fail this save become [[Conditions/Sickened|Sickened 1]] from the numerous painful wounds caused by the swarm."
 
   - name: "Trip and Tangle"
     desc: "`pf2:1`  **Requirements** A creature in the trapjaw tangle's space took damage from the swarm during this round\n* * *\n\n**Effect** The trapjaw tangle attempts an Athletics check check with a +10 modifier against the creature's Fortitude DC. On a success, the creature is [[Conditions/Off-Guard|Off-Guard]] until the start of the trapjaw tangle's next turn. On a critical success, the creature also falls [[Conditions/Prone|Prone]]."

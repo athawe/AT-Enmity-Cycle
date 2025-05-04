@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kobold
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Kobold Dragon Spellweaver"
@@ -26,10 +27,10 @@ level: "Creature 4"
 
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "kobold"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[kobold]]
+trait_04: [[lawful]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Draconic"
 skills:
   - name: "Skills"
-    desc: "Arcana: +8, Deception: +10, Diplomacy: +10, Dragon Lore: +12, Intimidation: +10, Stealth: +10"
+    desc: "Arcana: +8, Deception: +10, Diplomacy: +10, Intimidation: +10, Stealth: +10, Dragon Lore: +12"
 abilityMods: [-1, 4, 0, 2, 2, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #1-11: Flames of Rebellion_"

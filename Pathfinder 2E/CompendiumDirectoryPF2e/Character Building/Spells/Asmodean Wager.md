@@ -26,6 +26,7 @@ abilities_top:
     desc: "1 hour; **Cost** parchment, ink, and an item of value from each bettor worth at least 50 gp"
   - name: "Primary Check"
     desc: "Occultism (expert); **Secondary Checks** Society"
+
   - name: "Duration"
     desc: "until the wager&#x27;s completion"
 abilities_mid:

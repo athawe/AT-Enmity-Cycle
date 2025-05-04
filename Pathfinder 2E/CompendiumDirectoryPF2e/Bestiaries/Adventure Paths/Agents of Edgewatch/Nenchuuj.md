@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/sahkil
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "Nenchuuj"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #162: Ruins of the Radiant Siege"
 name: "Nenchuuj"
 level: "Creature 19"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fiend"
-trait_03: "sahkil"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[fiend]]
+trait_03: [[sahkil]]
+trait_04: [[unholy]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Chthonian, Diabolic, Empyrean, Requian; telepathy 100 feet"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +33, Arcana: +39, Deception: +33, Dream Lore: +33, Intimidation: +37, Occultism: +37, Stealth: +33"
+    desc: "Acrobatics: +33, Arcana: +39, Deception: +33, Intimidation: +37, Occultism: +37, Stealth: +33, Dream Lore: +33"
 abilityMods: [5, 8, 6, 10, 6, 8]
 speed: 50 feet
 sourcebook: "_Pathfinder #162: Ruins of the Radiant Siege_"
@@ -77,7 +78,7 @@ attacks:
     desc: "`pf2:1` (divine,teleportation) The sahkil can move itself between the Ethereal Plane and the Material Plane, as [[Spells/Ethereal Jaunt|Ethereal Jaunt]], except that this ability has an unlimited duration and can be Dismissed."
 
   - name: "Tainted Backlash"
-    desc: "  A creature [[Conditions/Frightened 1|Frightened]] by the sahkil's [[Spells/Mask of Terror|Mask of Terror]] is gripped with fear of the ways magic can go wrong.\n\nThe creature is [[Conditions/Stupefied 1|Stupefied 2]] for as long as it is frightened. If the creature Casts a Spell during its turn, it can't reduce its frightened condition at the end of that turn."
+    desc: "  A creature [[Conditions/Frightened|Frightened]] by the sahkil's [[Spells/Mask of Terror|Mask of Terror]] is gripped with fear of the ways magic can go wrong.\n\nThe creature is [[Conditions/Stupefied|Stupefied 2]] for as long as it is frightened. If the creature Casts a Spell during its turn, it can't reduce its frightened condition at the end of that turn."
  
 ```
 

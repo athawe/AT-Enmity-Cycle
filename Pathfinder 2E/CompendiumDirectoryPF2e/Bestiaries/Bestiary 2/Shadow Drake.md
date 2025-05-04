@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/dragon
   - pf2e/creature/type/evil
   - pf2e/creature/type/shadow
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Shadow Drake"
@@ -26,10 +27,10 @@ level: "Creature 2"
 
 alignment: ""
 size: "tiny"
-trait_01: "chaotic"
-trait_02: "dragon"
-trait_03: "evil"
-trait_04: "shadow"
+trait_01: [[chaotic]]
+trait_02: [[dragon]]
+trait_03: [[evil]]
+trait_04: [[shadow]]
 modifier: 6
 perception:
   - name: "Perception"

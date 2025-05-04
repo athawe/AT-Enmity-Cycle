@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/gnome
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/mortic
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Etioling Blightmage"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Etioling Blightmage"
 level: "Creature 10"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "gnome"
-trait_03: "humanoid"
-trait_04: "mortic"
+trait_01: [[chaotic]]
+trait_02: [[gnome]]
+trait_03: [[humanoid]]
+trait_04: [[mortic]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -56,16 +57,16 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Consecration Vulnerability"
-    desc: "  An etioling in a place of worship dedicated to a non-evil deity or on sacred ground, such as an area blessed by [[Spells/Sanctified Ground|Sanctified Ground]], is [[Conditions/Slowed 1|Slowed 1]]."
+    desc: "  An etioling in a place of worship dedicated to a non-evil deity or on sacred ground, such as an area blessed by [[Spells/Anointed Ground|Anointed Ground]], is [[Conditions/Slowed|Slowed 1]]."
 
   - name: "Ectoplasmic Secretions"
-    desc: " (occult) Any creature that hits the etioling with an unarmed attack, tries to [[Conditions/Grabbed|Grapple]] them, or otherwise touches them becomes partially coated in ectoplasm.\n\nThe creature takes 1d6 void damage and must succeed at a DC 27 Reflex check save or become [[Conditions/Enfeebled 1|Enfeebled 2]] until the ectoplasm is removed.\n\nThe ectoplasm can be removed with a total of 3 Interact actions by the creature or creatures adjacent to the creature. These actions don't need to be consecutive or made by the same creature."
+    desc: " (occult) Any creature that hits the etioling with an unarmed attack, tries to [[Conditions/Grabbed|Grapple]] them, or otherwise touches them becomes partially coated in ectoplasm.\n\nThe creature takes 1d6 void damage and must succeed at a DC 27 Reflex check save or become [[Conditions/Enfeebled|Enfeebled 2]] until the ectoplasm is removed.\n\nThe ectoplasm can be removed with a total of 3 Interact actions by the creature or creatures adjacent to the creature. These actions don't need to be consecutive or made by the same creature."
 
   - name: "Ectoplasmic Shield"
     desc: "`pf2:r` (occult) **Trigger** The etioling is the target of a physical ranged attack\n* * *\n\n**Effect** The etioling interposes a wave of ectoplasm between themself and the source of the ranged attack, giving them a +2 circumstance bonus to AC against the triggering attack. If the attack misses, the ectoplasm deflected it. The ectoplasm can't deflect unusually large or heavy ranged projectiles (such as boulders or ballista bolts)."
 
   - name: "Withering Aura"
-    desc: " (aura,occult) 20 feet. The etioling drains nutrients from nearby plant and animal life. Each round a creature begins its turn in this aura, it takes 1d6 void damage and must succeed at a DC 27 Fortitude check save or become [[Conditions/Drained 1|Drained 1]].\n\nAll non-magical plant life in this aura instantly withers, removing any cover and concealment provided by trees and undergrowth."
+    desc: " (aura,occult) 20 feet. The etioling drains nutrients from nearby plant and animal life. Each round a creature begins its turn in this aura, it takes 1d6 void damage and must succeed at a DC 27 Fortitude check save or become [[Conditions/Drained|Drained 1]].\n\nAll non-magical plant life in this aura instantly withers, removing any cover and concealment provided by trees and undergrowth."
 
 attacks:
   - name: ""

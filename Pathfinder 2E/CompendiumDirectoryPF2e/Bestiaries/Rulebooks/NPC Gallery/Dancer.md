@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.lfXQECIiN0zZdf95"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Dancer"
@@ -24,8 +25,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 3
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8, Athletics: +8, Diplomacy: +7, Performance: +13 (+15 when dancing), Stealth: +6, Theatre Lore: +5"
+    desc: "Acrobatics: +8, Athletics: +8, Diplomacy: +7, Performance: +13, Stealth: +6, Theatre Lore: +5"
 abilityMods: [1, 3, 1, 0, 0, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

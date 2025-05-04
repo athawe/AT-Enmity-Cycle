@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #200: Seven Dooms for Sandpoint
 aliases: "Compendium.pf2e.seven-dooms-for-sandpoint-bestiary.Actor.EVoXQv1tfMYQE72Y" 
@@ -22,8 +23,8 @@ name: "Lightlock"
 level: "Hazard 7"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 15
 sourcebook: "_Pathfinder #200: Seven Dooms for Sandpoint_"
 perception:

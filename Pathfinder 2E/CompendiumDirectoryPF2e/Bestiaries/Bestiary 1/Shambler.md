@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.6XlGTt3RveX49YbC" 
 tags:
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Shambler"
@@ -23,7 +24,7 @@ level: "Creature 6"
 
 alignment: ""
 size: "Large"
-trait_01: "plant"
+trait_01: [[plant]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Common, Elven, Fey; (can&#x27;t speak any language)"
 skills:
   - name: "Skills"
-    desc: "Athletics: +16, Stealth: +12 (+18 in forests or swamps)"
+    desc: "Athletics: +16, Stealth: +12"
 abilityMods: [6, 1, 5, -2, 2, -1]
 speed: 20 feet,  swim 20 feet
 sourcebook: "_Pathfinder Bestiary_"

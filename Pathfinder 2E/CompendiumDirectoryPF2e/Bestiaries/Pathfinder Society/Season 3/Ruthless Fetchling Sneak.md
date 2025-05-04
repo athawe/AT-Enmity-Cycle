@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fetchling
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Ruthless Fetchling Sneak"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #3-06: Struck by Shadows"
 name: "Ruthless Fetchling Sneak"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fetchling"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[fetchling]]
+trait_03: [[humanoid]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Necril, Sakvroth, Shadowtongue"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +13, Athletics: +9, Deception: +10, Diplomacy: +8, Intimidation: +10, Occultism: +10, Shadow Plane Lore: +10, Society: +10, Stealth: +13, Survival: +9, Thievery: +13"
+    desc: "Acrobatics: +13, Athletics: +9, Deception: +10, Diplomacy: +8, Intimidation: +10, Occultism: +10, Society: +10, Stealth: +13, Survival: +9, Thievery: +13, Shadow Plane Lore: +10"
 abilityMods: [2, 5, 2, 3, 2, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #3-06: Struck by Shadows_"

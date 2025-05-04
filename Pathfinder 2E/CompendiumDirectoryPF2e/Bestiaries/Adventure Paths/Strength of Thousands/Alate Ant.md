@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.ju9lwJqoqLLPJswc" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Alate Ant"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #174: Shadows of the Ancients"
 name: "Alate Ant"
 level: "Creature 16"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -68,10 +69,10 @@ attacks:
     desc: "  The alate ant deals an additional 3d6 precision damage to any creature within reach of at least two of the ant's allies."
 
   - name: "Pheromone Spray"
-    desc: "`pf2:2` (emotion,mental) The alate ant sprays a cloud of pheromones in a 15-foot cone. Non-ant creatures in the cone must succeed at a DC 37 Will check save or become [[Conditions/Confused|Confused]] for 1d4 rounds (1 minute on a critical failure). It can't use Pheromone Spray again for 1d4 rounds."
+    desc: "`pf2:2` (emotion,mental) The alate ant sprays a cloud of pheromones in a @Template[cone|distance:15]. Non-ant creatures in the cone must succeed at a DC 37 Will check save or become [[Conditions/Confused|Confused]] for 1d4 rounds (1 minute on a critical failure). It can't use Pheromone Spray again for 1d4 rounds."
 
   - name: "Red Ant Venom"
-    desc: " (poison) While a creature is enfeebled from this poison, it is [[Conditions/Confused|Confused]] (this confusion is an emotion, enchantment, and mental effect).\n\n**Saving Throw** DC 37 Fortitude check\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 3d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)\n\n**Stage 2** 4d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 2]] (1 round)\n\n**Stage 3** 6d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 3]] (1 round)"
+    desc: " (poison) While a creature is enfeebled from this poison, it is [[Conditions/Confused|Confused]] (this confusion is an emotion, enchantment, and mental effect).\n\n**Saving Throw** DC 37 Fortitude check\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 3d6 poison damage and [[Conditions/Enfeebled|Enfeebled 1]] (1 round)\n\n**Stage 2** 4d6 poison damage and [[Conditions/Enfeebled|Enfeebled 2]] (1 round)\n\n**Stage 3** 6d6 poison damage and [[Conditions/Enfeebled|Enfeebled 3]] (1 round)"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

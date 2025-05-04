@@ -29,6 +29,7 @@ abilities_top:
     desc: "1 day; **Secondary Casters** 1"
   - name: "Primary Check"
     desc: "Nature (expert); **Secondary Checks** Survival"
+
   - name: "Duration"
     desc: "1 year"
 abilities_mid:

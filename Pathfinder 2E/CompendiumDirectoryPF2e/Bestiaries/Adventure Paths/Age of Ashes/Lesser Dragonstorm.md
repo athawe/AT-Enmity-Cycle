@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - magical
+  - pf2eHazard
   - complex
 source: Pathfinder #150: Broken Promises
 aliases: "Compendium.pf2e.age-of-ashes-bestiary.Actor.EUYisYdY3fcGL8zp" 
@@ -22,8 +23,8 @@ name: "Lesser Dragonstorm"
 level: "Hazard 20"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "magical"
+trait_01: [[environmental]]
+trait_02: [[magical]]
 modifier: 38
 sourcebook: "_Pathfinder #150: Broken Promises_"
 perception:

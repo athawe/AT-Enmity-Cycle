@@ -23,7 +23,7 @@ columnWidth: x
 abilities_top:
   - name: ""
   - name: "Cast"
-    desc: "1 hour; **Cost** rare pigments and inks worth a total value of 20 gp × the target’s level"
+    desc: "1 hour; **Cost** rare pigments and inks worth a total value of 20 gp × the target's level"
   - name: "Primary Check"
     desc: "Fortune-Telling Lore (trained) or Occultism (expert)"
   - name: "Range"

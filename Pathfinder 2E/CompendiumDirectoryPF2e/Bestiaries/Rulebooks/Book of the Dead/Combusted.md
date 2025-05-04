@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fire
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Combusted"
@@ -27,11 +28,11 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fire"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fire]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -61,7 +62,7 @@ abilities_mid:
     desc: " (aura,fire) 5 feet. 2d6 fire, DC 17 Reflex check"
 
   - name: "Water Vulnerability"
-    desc: "  When a combusted is dealt damage by a water effect, the combusted is wracked by pain, becoming [[Conditions/Stunned 1|Stunned 1]]. Water can't douse a combusted's flames."
+    desc: "  When a combusted is dealt damage by a water effect, the combusted is wracked by pain, becoming [[Conditions/Stunned|Stunned 1]]. Water can't douse a combusted's flames."
 
 attacks:
   - name: ""
@@ -73,7 +74,7 @@ attacks:
     desc: "`pf2:1` Fire Mote +11 (range increment 60 feet)\n__Damage__  1d4 + 4 fire 1d6 fire"
 
   - name: "Blazing Howl"
-    desc: "`pf2:1` (fire,occult) The combusted screams in agony, causing creatures in a 15-foot emanation to burst into flame, which deals 4d6 fire damage to each creature in the area (DC 17 Will check). A creature that critically fails its save is [[Conditions/Frightened 1|Frightened 1]]; this frightened condition is an emotion, fear, and mental effect.\n\nThe combusted can't use Blazing Howl for 1d4 rounds."
+    desc: "`pf2:1` (fire,occult) The combusted screams in agony, causing creatures in a @Template[emanation|distance:15] to burst into flame, which deals 4d6 fire damage to each creature in the area (DC 17 Will check). A creature that critically fails its save is [[Conditions/Frightened|Frightened 1]]; this frightened condition is an emotion, fear, and mental effect.\n\nThe combusted can't use Blazing Howl for 1d4 rounds."
  
 ```
 

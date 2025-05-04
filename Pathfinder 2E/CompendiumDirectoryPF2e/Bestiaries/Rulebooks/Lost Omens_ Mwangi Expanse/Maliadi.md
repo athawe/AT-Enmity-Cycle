@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/evil
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Maliadi"
@@ -25,9 +26,9 @@ level: "Creature 17"
 
 alignment: ""
 size: "grg"
-trait_01: "beast"
-trait_02: "evil"
-trait_03: "lawful"
+trait_01: [[beast]]
+trait_02: [[evil]]
+trait_03: [[lawful]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -84,7 +85,7 @@ attacks:
     desc: "`pf2:3`  The maliadi takes on the form of a stretch of river, with the effects of [[Spells/Migration|Migration]], except the maliadi can only affect itself, appears as a section of a flowing river that takes up the same space as the maliadi, and can't leave the ground."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Huge, 3d10 + 17 bludgeoning damage, Rupture 35\n\n* * *\n"
+    desc: "`pf2:1` (attack) Huge, 3d10+17 bludgeoning damage, Rupture 35\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Trample|Trample]]"
     desc: "`pf2:3`  Huge or smaller, foot, DC 38 Reflex check\n\n* * *\n"

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Inizra Arumelo"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #150: Broken Promises"
 name: "Inizra Arumelo"
 level: "Creature 20"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[good]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 36
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Draconic"
 skills:
   - name: "Skills"
-    desc: "Arcana: +32, Athletics: +38, Diplomacy: +38, Hermea Lore: +41, Medicine: +34, Society: +38"
+    desc: "Arcana: +32, Athletics: +38, Diplomacy: +38, Medicine: +34, Society: +38, Hermea Lore: +41"
 abilityMods: [7, 1, 5, 3, 2, 4]
 speed: 30 feet
 sourcebook: "_Pathfinder #150: Broken Promises_"

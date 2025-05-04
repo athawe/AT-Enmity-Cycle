@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
   - pf2e/creature/type/vampire
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Vampire Taviah"
@@ -23,21 +24,21 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #183: Field of Maidens"
 name: "Vampire Taviah"
 level: "Creature 12"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
-trait_04: "vampire"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
+trait_04: [[vampire]]
 modifier: 23
 perception:
   - name: "Perception"
-    desc: "+23; Thoughtsense (Precise), Darkvision"
+    desc: "+23; Thoughtsense (Precise) 100 Feet, Darkvision"
 languages: "Aklo, Common, Jotun, Mwangi, Necril; tongues"
 skills:
   - name: "Skills"
-    desc: "Arcana: +21, Athletics: +23 (+25 to Grapple), Crafting: +21, Deception: +21, Intimidation: +23, Occultism: +21, Religion: +19, Stealth: +21"
+    desc: "Arcana: +21, Athletics: +23, Crafting: +21, Deception: +21, Intimidation: +23, Occultism: +21, Religion: +19, Stealth: +21"
 abilityMods: [7, 5, 4, 3, 3, 5]
 speed: 20 feet,  climb 20 feet
 sourcebook: "_Pathfinder #183: Field of Maidens_"
@@ -59,7 +60,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Magaambya Scar"
-    desc: "  A physical attack on Taviah that scores a critical hit exacerbates the injury in her wounded leg; in addition to the other effects of the critical hit, Taviah is [[Conditions/Stunned 1|Stunned 1]]."
+    desc: "  A physical attack on Taviah that scores a critical hit exacerbates the injury in her wounded leg; in addition to the other effects of the critical hit, Taviah is [[Conditions/Stunned|Stunned 1]]."
 
   - name: "[[Creature Family Ability Glossary/(Vampire, Vetalarana, Basic) Mental Rebirth|Mental Rebirth]]"
     desc: " (curse,incapacitation,mental,occult) Unlike most other undead, a vetalarana isn't destroyed when they reach 0 HP. Instead, their body is destroyed, crumbling to ash, and their mind is immediately transferred into a creature they rendered comatose through Drain Thoughts. This creature must be within 1 mile; if no such creature is in range, the vetalarana is destroyed. The creature becomes controlled by the vetalarana and loses the stupefied and [[Conditions/Unconscious|Unconscious]] conditions. If the creature controlled by a vetalarana in this way is killed, the vetalarana's mind transfers to another creature within 1 mile who they rendered comatose through Drain Thoughts.\n\nTaviah has no comatose creatures to transfer her consciousness to.\n\nAfter 1d6 days of being controlled, the controlled creature dies, and its body transforms into that of the vetalarana who rendered it comatose."
@@ -80,7 +81,7 @@ attacks:
     desc: "`pf2:2` (attack,occult) **Frequency** once per day\n* * *\n\n**Effect** Taviah can cause a cage built of cold-iron fingernails to spring from nothingness around a target at a range of up to 30 feet, attempting an Athletics check to [[Actions/Grapple|Grapple]] against the target's Fortitude DC. If the target has a weakness to cold iron, Taviah gains a +2 circumstance bonus to this check. Unlike a normal Grapple, Taviah doesn't need to be within reach and can move as she pleases, and a successful attempt lasts until the creature escapes (DC 29), causing the cage to crumble into rust. Any creature can attempt to destroy the cage by attacking it; it has an AC of 19, Hardness 10, and 40 Hit Points."
 
   - name: "[[Creature Family Ability Glossary/(Vampire, Vetalarana, Basic) Drain Thoughts|Drain Thoughts]]"
-    desc: "`pf2:1` (mental,occult) **Requirements** A [[Conditions/Grabbed|Grabbed]], [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Restrained|Restrained]], [[Conditions/Unconscious|Unconscious]], or willing creature is within Taviah's reach\n* * *\n\n**Effect** Taviah seizes a creature and consumes its memories. This requires an Athletics check check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is [[Conditions/Stupefied 1|Stupefied 1]] ([[Conditions/Stupefied 1|Stupefied 2]] if Taviah's Athletics check is a critical success), and Taviah regains 18 Hit Points, gaining any excess as temporary Hit Points. Draining Thoughts from a creature that is already stupefied doesn't restore any HP to Taviah but increases the victim's stupefied value by 1. Additionally, Taviah views one of the victim's memories, and can choose to alter, enhance, or erase the memory she views as a 4th-rank [[Spells/Rewrite Memory|Rewrite Memory]] spell. A victim's stupefied condition value decreases by 1 every week.\n\nA victim that becomes [[Conditions/Stupefied 1|Stupefied 5]] in this way is rendered comatose until Taviah is destroyed, becoming permanently unconscious. While unconscious, its stupefied condition doesn't decrease."
+    desc: "`pf2:1` (mental,occult) **Requirements** A [[Conditions/Grabbed|Grabbed]], [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Restrained|Restrained]], [[Conditions/Unconscious|Unconscious]], or willing creature is within Taviah's reach\n* * *\n\n**Effect** Taviah seizes a creature and consumes its memories. This requires an Athletics check check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is [[Conditions/Stupefied|Stupefied 1]] ([[Conditions/Stupefied|Stupefied 2]] if Taviah's Athletics check is a critical success), and Taviah regains 18 Hit Points, gaining any excess as temporary Hit Points. Draining Thoughts from a creature that is already stupefied doesn't restore any HP to Taviah but increases the victim's stupefied value by 1. Additionally, Taviah views one of the victim's memories, and can choose to alter, enhance, or erase the memory she views as a 4th-rank [[Spells/Rewrite Memory|Rewrite Memory]] spell. A victim's stupefied condition value decreases by 1 every week.\n\nA victim that becomes [[Conditions/Stupefied|Stupefied 5]] in this way is rendered comatose until Taviah is destroyed, becoming permanently unconscious. While unconscious, its stupefied condition doesn't decrease."
 
   - name: "[[Creature Family Ability Glossary/(Vampire, Vetalarana, Manipulator) Paralyzing Claws|Paralyzing Claws]]"
     desc: " (incapacitation,occult) Any living creature hit by Taviah's claw Strike must succeed at a DC 29 Fortitude check save or become [[Conditions/Paralyzed|Paralyzed]]. The target can attempt a new save at the end of each of its turns to end the effect, and the DC cumulatively decreases by 1 on each such save."

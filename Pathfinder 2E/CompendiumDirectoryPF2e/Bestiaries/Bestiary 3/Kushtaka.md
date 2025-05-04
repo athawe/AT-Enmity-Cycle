@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/beast
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Kushtaka"
@@ -25,9 +26,9 @@ level: "Creature 4"
 
 alignment: ""
 size: "Small"
-trait_01: "amphibious"
-trait_02: "beast"
-trait_03: "evil"
+trait_01: [[amphibious]]
+trait_02: [[beast]]
+trait_03: [[evil]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Fey"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +11, Athletics: +9, Deception: +11, Stealth: +11 (+13 in Oceans and Forests)"
+    desc: "Acrobatics: +11, Athletics: +9, Deception: +11, Stealth: +11"
 abilityMods: [3, 5, 2, 0, 4, 3]
 speed: 25 feet,  swim 40 feet
 sourcebook: "_Pathfinder Bestiary 3_"

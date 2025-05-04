@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Zorek"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Zorek"
 level: "Creature 12"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Hallit"
 skills:
   - name: "Skills"
-    desc: "Athletics: +24, Gorum Lore: +20, Religion: +25, Survival: +23"
+    desc: "Athletics: +24, Religion: +25, Survival: +23, Gorum Lore: +20"
 abilityMods: [7, 4, 5, 0, 7, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Kingmaker_"

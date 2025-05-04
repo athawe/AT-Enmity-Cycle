@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Gamemastery Guide
 aliases: "Compendium.pf2e.hazards.Actor.LLPsEKLoVmoPleJS" 
@@ -21,13 +22,13 @@ name: "Green Slime"
 level: "Hazard 9"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 20
 sourcebook: "_Pathfinder Gamemastery Guide_"
 ac: 20
 armorclass:
   - name: AC
-    desc: "20; __Fort__ +25, __Ref__ +15, __Will__ +0"
+    desc: "20; __Fort__ +25, __Ref__ +15, "
 hp: 200
 health:
   - name: ""

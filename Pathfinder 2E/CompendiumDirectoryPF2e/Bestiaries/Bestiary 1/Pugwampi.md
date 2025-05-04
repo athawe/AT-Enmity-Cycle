@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
   - pf2e/creature/type/gremlin
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Pugwampi"
@@ -25,9 +26,9 @@ level: "Creature 0"
 
 alignment: ""
 size: "tiny"
-trait_01: "evil"
-trait_02: "fey"
-trait_03: "gremlin"
+trait_01: [[evil]]
+trait_02: [[fey]]
+trait_03: [[gremlin]]
 modifier: 6
 perception:
   - name: "Perception"

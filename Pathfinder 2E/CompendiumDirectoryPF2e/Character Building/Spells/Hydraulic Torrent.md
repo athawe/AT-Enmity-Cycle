@@ -28,7 +28,9 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "primal"
-**Area** 60-foot line
+
+  - name: "Area"
+    desc: "60-foot line"
   - name: "Defense"
     desc: "basic fortitude"
 abilities_mid:

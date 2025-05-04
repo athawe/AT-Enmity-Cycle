@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Gholdako"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Book of the Dead"
 name: "Gholdako"
 level: "Creature 10"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -70,7 +71,7 @@ attacks:
     desc: "`pf2:1` Javelin +19 (thrown 30 ft.)\n__Damage__  3d6 + 10 piercing"
 
   - name: "Blinding Breath"
-    desc: "`pf2:2` (concentrate,divine,void) The gholdako exhales a 60-foot cone of noxious breath that deals 7d8 void damage (DC 29 Reflex check). A creature that fails its save is also [[Conditions/Blinded|Blinded]] until the end of its next turn (or for 1 minute on a critical failure) as a milky film coats its eyes.\n\nThe gholdako can't use Blinding Breath again for 1d4 rounds."
+    desc: "`pf2:2` (concentrate,divine,void) The gholdako exhales a @Template[cone|distance:60] of noxious breath that deals 7d8 void damage (DC 29 Reflex check). A creature that fails its save is also [[Conditions/Blinded|Blinded]] until the end of its next turn (or for 1 minute on a critical failure) as a milky film coats its eyes.\n\nThe gholdako can't use Blinding Breath again for 1d4 rounds."
 
   - name: "Infectious Visions"
     desc: " (divine,mental,poison) The first time each round the gholdako damages a creature with a claw Strike, the creature must attempt a DC 27 Will check save, as its mind is assaulted by horrifying visions. On a failure, the creature is [[Conditions/Confused|Confused]] until the end of its next turn. On a critical success, the creature is immune for 24 hours."

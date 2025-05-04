@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/elemental
   - pf2e/creature/type/incorporeal
+  - pf2eMonster
   - pf2e/creature/level/5
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 5"
 
 alignment: ""
 size: "Small"
-trait_01: "air"
-trait_02: "elemental"
-trait_03: "incorporeal"
+trait_01: [[air]]
+trait_02: [[elemental]]
+trait_03: [[incorporeal]]
 modifier: 12
 perception:
   - name: "Perception"

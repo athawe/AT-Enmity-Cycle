@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Reckless Scientist"
@@ -25,9 +26,9 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +12, Crafting: +17, Deception: +9, Engineering Lore: +15, Medicine: +10, Stealth: +12, Underworld Lore: +13"
+    desc: "Acrobatics: +12, Crafting: +17, Deception: +9, Medicine: +10, Stealth: +12, Engineering Lore: +15, Underworld Lore: +13"
 abilityMods: [1, 4, 5, 5, 2, -1]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

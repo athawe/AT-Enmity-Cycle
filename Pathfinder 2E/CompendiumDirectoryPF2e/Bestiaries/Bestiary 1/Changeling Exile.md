@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Changeling Exile"
@@ -26,10 +27,10 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "changeling"
-trait_02: "chaotic"
-trait_03: "human"
-trait_04: "humanoid"
+trait_01: [[changeling]]
+trait_02: [[chaotic]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
 modifier: 11
 perception:
   - name: "Perception"

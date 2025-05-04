@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Dwandek"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #173: Doorway to the Red Star"
 name: "Dwandek"
 level: "Creature 17"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 31
 perception:
   - name: "Perception"
@@ -47,7 +48,7 @@ hp: 270
 health:
   - name: ""
   - name: HP
-    desc: "270, void healing, rejuvenation; __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious; __Resistances__ cold 20, physical 15 (except bludgeoning)"
+    desc: "270, void healing, rejuvenation; __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious; __Resistances__ cold 20, all damage from arcane spells 5, physical 15 (except magical bludgeoning)"
 abilities_top:
   - name: ""
   - name: "Items"
@@ -64,7 +65,7 @@ abilities_mid:
     desc: "`pf2:r`  **Frequency** once per day\n\n**Trigger** Dwandek attempts a save against an arcane spell but hasn't rolled yet\n* * *\n\n**Effect** Dwandek automatically succeeds at his save against the triggering spell."
 
   - name: "[[Creature Family Ability Glossary/(Lich) Void Shroud|Void Shroud]]"
-    desc: " (aura,death) 30 feet. The lich is surrounded by an aura of death, drawing forth souls to be consumed by the lich's constant hunger.\n\nLiving creatures in the emanation take a -2 status penalty to saves against fear and death effects. In addition, any creature that starts its turn in the area gains the [[Conditions/Doomed 1|Doomed 1]] condition unless it succeeds at a DC 35 Will check save against the lich's spell DC-4.\n\n[[Bestiary Effects/Effect_ Void Shroud|Effect: Void Shroud]]"
+    desc: " (aura,death) 30 feet. The lich is surrounded by an aura of death, drawing forth souls to be consumed by the lich's constant hunger.\n\nLiving creatures in the emanation take a -2 status penalty to saves against fear and death effects. In addition, any creature that starts its turn in the area gains the [[Conditions/Doomed|Doomed 1]] condition unless it succeeds at a DC 35 Will check save against the lich's spell DC-4.\n\n[[Bestiary Effects/Effect_ Void Shroud|Effect: Void Shroud]]"
 
 attacks:
   - name: ""

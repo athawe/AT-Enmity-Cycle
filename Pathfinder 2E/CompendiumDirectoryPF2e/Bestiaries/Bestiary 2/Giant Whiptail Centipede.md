@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.UTnrcGoCIXR95zKi" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Giant Whiptail Centipede"
@@ -23,7 +24,7 @@ level: "Creature 3"
 
 alignment: ""
 size: "huge"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -65,7 +66,7 @@ attacks:
     desc: "`pf2:1`  The giant whiptail centipede Strides or Steps. During this movement, it can pass through spaces as narrow as 5 feet without Squeezing."
 
   - name: "Whiptail Centipede Venom"
-    desc: " (poison) **Saving Throw** DC 19 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d10 poison damage and [[Conditions/Clumsy 1|Clumsy 1]] (1 round)\n\n**Stage 2** 2d10 poison damage and [[Conditions/Clumsy 1|Clumsy 1]] (1 round)\n\n**Stage 3** 2d10 poison damage and [[Conditions/Clumsy 1|Clumsy 2]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 19 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d10 poison damage and [[Conditions/Clumsy|Clumsy 1]] (1 round)\n\n**Stage 2** 2d10 poison damage and [[Conditions/Clumsy|Clumsy 1]] (1 round)\n\n**Stage 3** 2d10 poison damage and [[Conditions/Clumsy|Clumsy 2]] (1 round)"
 
   - name: "[[Bestiary Ability Glossary/Knockdown|Knockdown]]"
     desc: "`pf2:1`  "

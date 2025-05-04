@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
   - complex
 source: Pathfinder #177: Burning Tundra
 aliases: "Compendium.pf2e.quest-for-the-frozen-flame-bestiary.Actor.tKCrebehC0sHvvE2" 
@@ -21,13 +22,13 @@ name: "Spectral Archers"
 level: "Hazard 8"
 
 trait_06: "Complex"
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 28
 sourcebook: "_Pathfinder #177: Burning Tundra_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

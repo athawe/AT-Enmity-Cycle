@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
   - complex
 source: Pathfinder Bounty #12: Somewhere Below
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.mfvNh0UBzR1vXHRW" 
@@ -21,7 +22,7 @@ name: "Hands of Slow Death"
 level: "Hazard 1"
 
 trait_06: "Complex"
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 7
 sourcebook: "_Pathfinder Bounty #12: Somewhere Below_"
 perception:
@@ -43,7 +44,7 @@ attacks:
     desc: "`pf2:r` (occult, summon) **Trigger** A creature comes within 30 feet of the remains\n* * *\n\n**Effect** The haunt summons three [[Bestiary 2/Crawling Hand|Crawling Hands]], which emerge from the pile of dust to attack nearby creatures. The hands roll initiative and remain for 7 rounds, after which the summoning spell ends and the hands disappear. The hands also disappear if someone disables the trap before the duration expires.\n\nThe summoned hands can use 3 actions each round and can use reactions, unlike most summoned creatures."
 
   - name: "Routine"
-    desc: "(1 action) Spectral hands grasp at creatures in the area. Each creature within 30 feet of the dust pile takes 1d4 void damage (DC 17 Will check save; creatures that critically fail this saving throw are [[Conditions/Slowed 1|Slowed 1]] for 1 round)."
+    desc: "(1 action) Spectral hands grasp at creatures in the area. Each creature within 30 feet of the dust pile takes 1d4 void damage (DC 17 Will check save; creatures that critically fail this saving throw are [[Conditions/Slowed|Slowed 1]] for 1 round)."
   - name: "Reset"
     desc: "The haunt deactivates if no creatures remain within 30 feet but resets immediately thereafter unless disabled. If tthe haunt is disabled, it resets after 24 hours."
 ```

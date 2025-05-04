@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/serpentfolk
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Zyss Serpentfolk"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 2"
 name: "Zyss Serpentfolk"
 level: "Creature 2"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "serpentfolk"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[serpentfolk]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -70,7 +71,7 @@ attacks:
     desc: "DC 18, attack +8; __4th __  _[[Spells/Suggestion|Suggestion]]_; __2nd __  _[[Spells/Mirror Image|Mirror Image (At will)]]_; __1st __  _[[Spells/Illusory Disguise|Illusory Disguise (At will)]]_, _[[Spells/Ventriloquism|Ventriloquism (At will)]]_"
 
   - name: "Serpentfolk Venom"
-    desc: " (poison) **Saving Throw** DC 16 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d4 poison damage and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)\n\n**Stage 2** 2d4 poison damage and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 16 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d4 poison damage and [[Conditions/Enfeebled|Enfeebled 1]] (1 round)\n\n**Stage 2** 2d4 poison damage and [[Conditions/Enfeebled|Enfeebled 1]] (1 round)"
  
 ```
 

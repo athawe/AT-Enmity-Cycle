@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.aZBp1m5C9nXRgxHA"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/aquatic
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Trilobite"
@@ -24,8 +25,8 @@ level: "Creature -1"
 
 alignment: ""
 size: "tiny"
-trait_01: "animal"
-trait_02: "aquatic"
+trait_01: [[animal]]
+trait_02: [[aquatic]]
 modifier: 8
 perception:
   - name: "Perception"

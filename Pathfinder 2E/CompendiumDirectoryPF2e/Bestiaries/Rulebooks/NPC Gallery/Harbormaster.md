@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Harbormaster"
@@ -25,9 +26,9 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
-trait_03: "lawful"
+trait_01: [[human]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +9, Athletics: +9, Diplomacy: +5, Fishing Lore: +8, Intimidation: +5, Sailing Lore: +10"
+    desc: "Acrobatics: +9, Athletics: +9, Diplomacy: +5, Intimidation: +5, Fishing Lore: +8, Sailing Lore: +10"
 abilityMods: [4, 2, 2, 2, 1, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

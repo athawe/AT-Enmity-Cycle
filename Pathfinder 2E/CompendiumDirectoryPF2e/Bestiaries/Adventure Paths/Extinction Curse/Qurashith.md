@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Qurashith"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #154: Siege of the Dinosaurs"
 name: "Qurashith"
 level: "Creature 17"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "fiend"
-trait_05: "unholy"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
+trait_05: [[unholy]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -79,10 +80,10 @@ attacks:
     desc: "DC 35, attack +27; __6th __ (1 slots) _[[Spells/Teleport|Teleport (At Will, Self Only)]]_\n__Constant__  __(6th)__ _[[Spells/Truesight|True Seeing]]_"
 
   - name: "Paralytic Saliva"
-    desc: "  A creature that takes damage from a qurashith's jaws or spittle must succeed at a DC 39 Fortitude check save or be [[Conditions/Slowed 1|Slowed 1]] for 1d4 rounds ([[Conditions/Slowed 1|Slowed 2]] on a critical failure). If a creature is already slowed when it fails its save, it becomes [[Conditions/Paralyzed|Paralyzed]] for 1 round."
+    desc: "  A creature that takes damage from a qurashith's jaws or spittle must succeed at a DC 39 Fortitude check save or be [[Conditions/Slowed|Slowed 1]] for 1d4 rounds ([[Conditions/Slowed|Slowed 2]] on a critical failure). If a creature is already slowed when it fails its save, it becomes [[Conditions/Paralyzed|Paralyzed]] for 1 round."
 
   - name: "Psychic Howl"
-    desc: "`pf2:2`  The qurashith unleashes a debilitating psionic scream. Creatures in a 60-foot cone must succeed at a DC 35 Will check save or become [[Conditions/Stupefied 1|Stupefied 2]] ([[Conditions/Stupefied 1|Stupefied 4]] on a critical failure) for 1 minute. A creature that critically succeeds at its Will save is immune to the qurashith's Psychic Howl for 24 hours. The qurashith can't use Psychic Howl again for 1d4 rounds."
+    desc: "`pf2:2`  The qurashith unleashes a debilitating psionic scream. Creatures in a @Template[cone|distance:60] must succeed at a DC 35 Will check save or become [[Conditions/Stupefied|Stupefied 2]] ([[Conditions/Stupefied|Stupefied 4]] on a critical failure) for 1 minute. A creature that critically succeeds at its Will save is immune to the qurashith's Psychic Howl for 24 hours. The qurashith can't use Psychic Howl again for 1d4 rounds."
 
   - name: "[[Bestiary Ability Glossary/Rend|Rend]]"
     desc: "`pf2:1`  **Strike**: Claw\n\n* * *\n"

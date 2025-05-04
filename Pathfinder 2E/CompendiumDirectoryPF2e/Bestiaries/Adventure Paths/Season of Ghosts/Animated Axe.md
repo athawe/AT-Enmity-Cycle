@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.season-of-ghosts-bestiary.Actor.V67VC975O8iC1Yq2"
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Animated Axe"
@@ -24,8 +25,8 @@ level: "Creature 5"
 
 alignment: ""
 size: "tiny"
-trait_01: "construct"
-trait_02: "mindless"
+trait_01: [[construct]]
+trait_02: [[mindless]]
 modifier: 9
 perception:
   - name: "Perception"

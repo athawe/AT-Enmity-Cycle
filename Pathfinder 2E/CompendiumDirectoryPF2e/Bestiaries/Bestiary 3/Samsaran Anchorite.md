@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.Gf3g6wQquSjJhFMC"
 tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/samsaran
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Samsaran Anchorite"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Samsaran Anchorite"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
-trait_02: "samsaran"
+trait_01: [[humanoid]]
+trait_02: [[samsaran]]
 modifier: 9
 perception:
   - name: "Perception"

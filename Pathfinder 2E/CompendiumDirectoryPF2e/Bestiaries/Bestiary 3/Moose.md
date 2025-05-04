@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.XXsOK8ZUoqQATarG" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Moose"
@@ -23,7 +24,7 @@ level: "Creature 3"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +12 (+14 to Swim), Intimidation: +8"
+    desc: "Athletics: +12, Intimidation: +8"
 abilityMods: [5, 3, 4, -4, 0, 1]
 speed: 30 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -65,7 +66,7 @@ attacks:
     desc: "`pf2:1`  The moose bucks and kicks back with both hind hooves, making a Strike with a -2 circumstance penalty to the attack roll. If it hits, it deals an extra 1d8 bludgeoning damage.\n\nThis counts as two attacks when calculating the moose's multiple attack penalty."
 
   - name: "Thundering Charge"
-    desc: "`pf2:2`  The moose Strides twice and then makes an antler Strike. A Medium or smaller creature damaged by this attack must succeed at a DC 18 Fortitude check save or be [[Conditions/Stunned 1|Stunned 1]]."
+    desc: "`pf2:2`  The moose Strides twice and then makes an antler Strike. A Medium or smaller creature damaged by this attack must succeed at a DC 18 Fortitude check save or be [[Conditions/Stunned|Stunned 1]]."
 
   - name: "[[Bestiary Ability Glossary/Trample|Trample]]"
     desc: "`pf2:3`  Medium or smaller, hoof, DC 20 Reflex check\n\n* * *\n"

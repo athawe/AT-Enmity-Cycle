@@ -6,6 +6,7 @@ tags:
   - clockwork
   - haunt
   - mechanical
+  - pf2eHazard
   - complex
 source: Pathfinder Guns &amp; Gears
 aliases: "Compendium.pf2e.hazards.Actor.4jAJh3cTLIgkqtou" 
@@ -23,15 +24,15 @@ name: "Malevolent Mannequins"
 level: "Hazard 14"
 
 trait_06: "Complex"
-trait_01: "clockwork"
-trait_02: "haunt"
-trait_03: "mechanical"
+trait_01: [[clockwork]]
+trait_02: [[haunt]]
+trait_03: [[mechanical]]
 modifier: 27
 sourcebook: "_Pathfinder Guns & Gears_"
 ac: 35
 armorclass:
   - name: AC
-    desc: "35; __Fort__ +26, __Ref__ +28, __Will__ +0"
+    desc: "35; __Fort__ +26, __Ref__ +28, "
 hp: 70
 health:
   - name: ""
@@ -58,7 +59,7 @@ attacks:
     desc: "Clockwork Fist +29 () "
 
   - name: "Routine"
-    desc: "**Routine** (9 actions) Each of the mannequins uses three of the haunt's actions on each turn, and the haunt loses three actions each turn for every disabled or destroyed mannequin. Each mannequin uses its first action to Stride up to 50 feet and its remaining two actions to make clockwork fist Strikes. Each has its own separate multiple attack penalty."
+    desc: "(9 actions) Each of the mannequins uses three of the haunt's actions on each turn, and the haunt loses three actions each turn for every disabled or destroyed mannequin. Each mannequin uses its first action to Stride up to 50 feet and its remaining two actions to make clockwork fist Strikes. Each has its own separate multiple attack penalty."
   - name: "Reset"
     desc: "The haunt deactivates after it has no target creatures and resets, usually over the course of 1 round, as the mannequins move to their original positions. If a mannequin is more than 150 feet from its original position, the haunt takes longer to reset, as the mannequin moves back 150 feet each round."
 ```

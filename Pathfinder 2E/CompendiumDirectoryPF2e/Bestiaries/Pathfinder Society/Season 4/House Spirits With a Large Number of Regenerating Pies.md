@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - magical
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #4-16: Dacilane Academy&#x27;s First Great Prank War
 aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.w0empC43Ni3K4IQN" 
@@ -22,8 +23,8 @@ name: "House Spirits With a Large Number of Regenerating Pies"
 level: "Hazard 3"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "magical"
+trait_01: [[environmental]]
+trait_02: [[magical]]
 modifier: 13
 sourcebook: "_Pathfinder Society Scenario #4-16: Dacilane Academy's First Great Prank War_"
 ac: 22
@@ -34,7 +35,7 @@ hp: 46
 health:
   - name: ""
   - name: "HP"
-    desc: "46, if the house spirits take this much damage, they aren’t killed, but they do flee the school and don’t return"
+    desc: "46, if the house spirits take this much damage, they aren&#x27;t killed, but they do flee the school and don&#x27;t return"
 perception:
   - name: ""
   - name: "Stealth DC 13" 
@@ -59,7 +60,7 @@ attacks:
     desc: "Pie +12 (nonlethal) "
 
   - name: "Routine"
-    desc: "(3 actions) The hazard regenerates any pies that it has thrown at a cost of one action per pie (to a maximum of 3 active pies). Each successful check to disable the hazard deactivates one of the pies, reducing the number of active pies by 1. After regenerating pies on its turn, the hazard throws pies whenever a creature triggers continually sur-piesed. For each pie Strike, roll 1d4. On a 1, the pie pan has nails driven into it by Numblekin and deals an additional 1d10 + 6 piercing damage. The nails make the pie's damage lethal, rather than nonlethal."
+    desc: "(3 actions) The hazard regenerates any pies that it has thrown at a cost of one action per pie (to a maximum of 3 active pies). Each successful check to disable the hazard deactivates one of the pies, reducing the number of active pies by 1. After regenerating pies on its turn, the hazard throws pies whenever a creature triggers continually sur-piesed. For each pie Strike, roll 1d4. On a 1, the pie pan has nails driven into it by Numblekin and deals an additional 1d10+6 piercing damage. The nails make the pie's damage lethal, rather than nonlethal."
 
 ```
 

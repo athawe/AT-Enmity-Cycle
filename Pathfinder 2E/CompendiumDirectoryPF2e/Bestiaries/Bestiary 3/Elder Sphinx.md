@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.oIM21UCyiabwwHfo" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Elder Sphinx"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Elder Sphinx"
 level: "Creature 16"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 31
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Common, Draconic, Sphinx; tongues"
 skills:
   - name: "Skills"
-    desc: "Athletics: +30, Bardic Lore: +32, Deception: +28, Diplomacy: +30, Intimidation: +28, Occultism: +30"
+    desc: "Athletics: +30, Deception: +28, Diplomacy: +30, Intimidation: +28, Occultism: +30, Bardic Lore: +32"
 abilityMods: [8, 5, 6, 8, 9, 6]
 speed: 40 feet,  fly 60 feet
 sourcebook: "_Pathfinder Bestiary 3_"

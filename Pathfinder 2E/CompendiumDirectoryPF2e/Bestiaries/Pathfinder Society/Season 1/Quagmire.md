@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #1-08: Revolution on the Riverside
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.HmyF3aYbHxm8RDWf" 
@@ -21,7 +22,7 @@ name: "Quagmire"
 level: "Hazard 1"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 8
 sourcebook: "_Pathfinder Society Scenario #1-08: Revolution on the Riverside_"
 perception:

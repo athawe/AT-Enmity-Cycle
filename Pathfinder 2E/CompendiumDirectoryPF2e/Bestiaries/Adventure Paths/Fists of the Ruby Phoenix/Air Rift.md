@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - magical
+  - pf2eHazard
   - complex
 source: Pathfinder #167: Ready? Fight!
 aliases: "Compendium.pf2e.fists-of-the-ruby-phoenix-bestiary.Actor.EDeiF3PNtXUeBU6P" 
@@ -22,14 +23,14 @@ name: "Air Rift"
 level: "Hazard 14"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "magical"
+trait_01: [[environmental]]
+trait_02: [[magical]]
 modifier: 22
 sourcebook: "_Pathfinder #167: Ready? Fight!_"
 ac: 35
 armorclass:
   - name: AC
-    desc: "35; __Fort__ +30, __Ref__ +0, __Will__ +0"
+    desc: "35; __Fort__ +30, "
 hp: 220
 health:
   - name: ""
@@ -60,7 +61,7 @@ attacks:
     desc: "`pf2:r` **Trigger** A creature comes within 50 feet of the rift\n* * *\n\n**Effect** The air rift creates a shroud of subjective gravity around the creature for 1 minute. The creature can use a free action, which has the concentrate trait, to choose any direction they wish for gravity to pull them. This allows a creature to Stride along any surface or Fly in a straight line by choosing a direction into midair. For unattended objects and mindless creatures, this is microgravity: they float in place unless pushed off a surface."
 
   - name: "Routine"
-    desc: "(1 action) Winds blow through the area in a random direction, causing creatures and objects within 50 feet of the air rift to float up, down, north, south, east, or west (roll a d6 to determine which direction). Creatures and objects in the area must attempt a DC 37 Fortitude check save. If a creature is pushed into a solid object or another creature by this effect, both take 3d8 + 15 bludgeoning damage on impact.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is pushed 10 feet, but takes only half damage from impact.\n\n**Failure** The creature is pushed 20 feet, falls prone, and takes full damage from impact.\n\n**Critical Failure** The creature is pushed 40 feet, falls prone, and takes double damage from impact."
+    desc: "(1 action) Winds blow through the area in a random direction, causing creatures and objects within 50 feet of the air rift to float up, down, north, south, east, or west (roll a d6 to determine which direction). Creatures and objects in the area must attempt a DC 37 Fortitude check save. If a creature is pushed into a solid object or another creature by this effect, both take 3d8+15 bludgeoning damage on impact.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is pushed 10 feet, but takes only half damage from impact.\n\n**Failure** The creature is pushed 20 feet, falls prone, and takes full damage from impact.\n\n**Critical Failure** The creature is pushed 40 feet, falls prone, and takes double damage from impact."
 
 ```
 

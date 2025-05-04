@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/astral
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Vazgorlu"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #150: Broken Promises"
 name: "Vazgorlu"
 level: "Creature 20"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "astral"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[astral]]
+trait_03: [[evil]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Chthonian, Daemonic, Diabolic, Empyrean, Protean, Requian, Utopian"
 skills:
   - name: "Skills"
-    desc: "Arcana: +38, Deception: +38, Portal Lore: +41, Stealth: +34, Thievery: +32"
+    desc: "Arcana: +38, Deception: +38, Stealth: +34, Thievery: +32, Portal Lore: +41"
 abilityMods: [6, 7, 6, 7, 8, 5]
 speed: 30 feet,  climb 30 feet
 sourcebook: "_Pathfinder #150: Broken Promises_"

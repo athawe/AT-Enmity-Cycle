@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Red Bishop"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #200: Seven Dooms for Sandpoint"
 name: "Red Bishop"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Common, Fey, Sakvroth; (can&#x27;t speak any language), telepathy 100 feet"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +24, Deception: +28, Engineering Lore: +26, Intimidation: +26, Occultism: +26, Religion: +28, Society: +26, Stealth: +28"
+    desc: "Acrobatics: +24, Deception: +28, Intimidation: +26, Occultism: +26, Religion: +28, Society: +26, Stealth: +28, Engineering Lore: +26"
 abilityMods: [5, 8, 5, 4, 8, 6]
 speed: 25 feet,  fly 50 feet
 sourcebook: "_Pathfinder #200: Seven Dooms for Sandpoint_"
@@ -55,7 +56,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Portentous Gaze"
-    desc: " (aura,emotion,fear,mental,occult,visual) 30 feet. When a creature ends its turn in the aura, it must attempt a DC 31 Will check save. A creature that fails is [[Conditions/Frightened 1|Frightened 1]] (or [[Conditions/Frightened 1|Frightened 2]] on a critical failure)\n\nThe mothman can deactivate or activate this aura with a single action, which has the concentrate trait."
+    desc: " (aura,emotion,fear,mental,occult,visual) 30 feet. When a creature ends its turn in the aura, it must attempt a DC 31 Will check save. A creature that fails is [[Conditions/Frightened|Frightened 1]] (or [[Conditions/Frightened|Frightened 2]] on a critical failure)\n\nThe mothman can deactivate or activate this aura with a single action, which has the concentrate trait."
 
   - name: "True Temptation"
     desc: "`pf2:r` (divine,mental) **Frequency** three times a day\n\n**Trigger** A creature within 30 feet of the Red Bishop speaks Pazuzu's name aloud three times with a single breath\n* * *\n\n**Effect** The Red Bishop casts [[Spells/Charm|Charm]] on the creature. A creature with a fly speed takes a –4 circumstance penalty to the saving throw against this _charm_."
@@ -88,10 +89,10 @@ attacks:
     desc: "  The Red Bishop's telepathic words carry an unsettling weight and promise of punishment when spoken to any evil creature capable of flight. Against such creatures, the Red Bishop gains a +3 circumstance bonus to attempts to [[Actions/Make an Impression|Make an Impression]], [[Actions/Request|Request]], [[Actions/Coerce|Coerce]], and [[Actions/Demoralize|Demoralize]], and he increases the DC of any mental effect he uses against such creatures by 3 as well. Even without these bonuses, evil flying creatures tend to treat the Red Bishop with a mix of respect, if not outright fear."
 
   - name: "Extract Fear"
-    desc: "`pf2:2` (divine,mental) The Red Bishop reaches out with one hand toward a [[Conditions/Frightened 1|Frightened 1]] creature he can see that's within 30 feet and makes a clutching motion to pull out the creature's fear and feed upon it. The Red Bishop restores 7d8 + 8 Hit Points to himself, and the target creature loses the frightened condition but must also attempt a DC 34 Will check save as other emotions are drawn out of their mind as well to fade uselessly away, resulting in mental trauma and a strange numbness in the mind itself.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target takes 3d6 mental damage.\n\n**Failure** The target takes 6d6 mental damage and is [[Conditions/Stupefied 1|Stupefied 1]] until the end of its next turn.\n\n**Critical Failure** The target takes 12d6 mental damage and is stupefied 1 until the condition is removed via an effect like restoration."
+    desc: "`pf2:2` (divine,mental) The Red Bishop reaches out with one hand toward a [[Conditions/Frightened|Frightened 1]] creature he can see that's within 30 feet and makes a clutching motion to pull out the creature's fear and feed upon it. The Red Bishop restores 7d8+8 Hit Points to himself, and the target creature loses the frightened condition but must also attempt a DC 34 Will check save as other emotions are drawn out of their mind as well to fade uselessly away, resulting in mental trauma and a strange numbness in the mind itself.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target takes 3d6 mental damage.\n\n**Failure** The target takes 6d6 mental damage and is [[Conditions/Stupefied|Stupefied 1]] until the end of its next turn.\n\n**Critical Failure** The target takes 12d6 mental damage and is stupefied 1 until the condition is removed via an effect like restoration."
 
   - name: "Focus Gaze"
-    desc: "`pf2:1` (concentrate,emotion,fear,mental,occult,visual) The mothman fixes their glare at a creature they can see within 30 feet. The target must immediately attempt a Will save against the mothman's portentous gaze.\n\nIf the creature is already frightened when it attempts this save, on a failure it becomes [[Conditions/Stupefied 1|Stupefied 1]] for 24 hours in addition to the frightened effect.\n\nAfter attempting its save, the creature is then temporarily immune for 1 minute."
+    desc: "`pf2:1` (concentrate,emotion,fear,mental,occult,visual) The mothman fixes their glare at a creature they can see within 30 feet. The target must immediately attempt a Will save against the mothman's portentous gaze.\n\nIf the creature is already frightened when it attempts this save, on a failure it becomes [[Conditions/Stupefied|Stupefied 1]] for 24 hours in addition to the frightened effect.\n\nAfter attempting its save, the creature is then temporarily immune for 1 minute."
  
 ```
 

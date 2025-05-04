@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/21
 statblock: inline
 name: "Grim Reaper"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Grim Reaper"
 level: "Creature 21"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 41
 perception:
   - name: "Perception"
@@ -82,7 +83,7 @@ attacks:
     desc: " (death) A creature critically hit by any of the grim reaper's attacks or that critically fails against any of its spells must succeed at a DC 47 Fortitude check save or die."
 
   - name: "Energy Drain"
-    desc: "  When the grim reaper hits and deals damage with its scythe, it regains 20 Hit Points, and the target must succeed at a DC 43 Fortitude check save or become [[Conditions/Doomed 1|Doomed 1]]. If the target is already doomed, the doomed value increases by 1 (to a maximum of doomed 3)."
+    desc: "  When the grim reaper hits and deals damage with its scythe, it regains 20 Hit Points, and the target must succeed at a DC 43 Fortitude check save or become [[Conditions/Doomed|Doomed 1]]. If the target is already doomed, the doomed value increases by 1 (to a maximum of doomed 3)."
 
   - name: "Final Death"
     desc: "  A creature killed by the grim reaper can't be brought back to life by any means short of divine intervention."

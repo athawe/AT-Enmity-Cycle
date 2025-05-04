@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Ankou"
@@ -25,9 +26,9 @@ level: "Creature 14"
 
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "fey"
-trait_03: "lawful"
+trait_01: [[evil]]
+trait_02: [[fey]]
+trait_03: [[lawful]]
 modifier: 25
 perception:
   - name: "Perception"

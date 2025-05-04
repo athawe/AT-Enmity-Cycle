@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.krbmyD1SuPQb4QfF"
 tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Blood Painter"
@@ -24,8 +25,8 @@ level: "Creature 9"
 
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "evil"
+trait_01: [[aberration]]
+trait_02: [[evil]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Aklo, Common"
 skills:
   - name: "Skills"
-    desc: "Art Lore: +21, Athletics: +20, Crafting: +17 (+21 for paintings), Medicine: +19, Stealth: +17"
+    desc: "Athletics: +20, Crafting: +17, Medicine: +19, Stealth: +17, Art Lore: +21"
 abilityMods: [5, 4, 3, 6, 4, 3]
 speed: 30 feet,  climb 15 feet
 sourcebook: "_Pathfinder Bestiary 3_"

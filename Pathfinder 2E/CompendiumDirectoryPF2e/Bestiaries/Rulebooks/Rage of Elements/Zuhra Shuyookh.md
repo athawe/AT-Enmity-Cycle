@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.rage-of-elements-bestiary.Actor.a2kTygtqIuMCSLIr"
 tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/genie
+  - pf2eMonster
   - pf2e/creature/level/13
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 13"
 
 alignment: ""
 size: "huge"
-trait_01: "elemental"
-trait_02: "genie"
+trait_01: [[elemental]]
+trait_02: [[genie]]
 modifier: 23
 perception:
   - name: "Perception"
@@ -78,7 +79,7 @@ attacks:
     desc: "`pf2:1` (arcane) **Frequency** once per round\n* * *\n\n**Effect** The shuyookh targets any number of creatures affected by their magnetic field, and moves each target 10 feet in a direction the zuhra chooses. Each target can resist being moved if it succeeds at a DC 32 Fortitude check save."
 
   - name: "Magnetic Storm"
-    desc: "`pf2:3` (arcane) **Requirements** The shuyookh's magnetic field is active\n* * *\n\n**Effect** The shuyookh electromagnetically flings razor-sharp metal scraps. Each creature in a 30-foot emanation takes 8d6 slashing + 3d12 electricity damage, with a DC 32 Fortitude check save.\n\nThe shuyookh's magnetic field is deactivated for 1d4 rounds."
+    desc: "`pf2:3` (arcane) **Requirements** The shuyookh's magnetic field is active\n* * *\n\n**Effect** The shuyookh electromagnetically flings razor-sharp metal scraps. Each creature in a @Template[emanation|distance:30] takes 8d6 slashing + 3d12 electricity damage, with a DC 32 Fortitude check save.\n\nThe shuyookh's magnetic field is deactivated for 1d4 rounds."
 
   - name: "Mercurial Wish"
     desc: " (downtime) **Frequency** three times per year\n* * *\n\n**Effect** The shuyookh conducts a [[Spells/Wish|Wish]] ritual for the benefit of a mortal, requiring no cost or secondary casters. The shuyookh's result is a success if they succeed at a DC 5 Flat check or a failure if not. The shuyookh attempts to fulfill the wish in a way that creates an unstable or impermanent benefit."

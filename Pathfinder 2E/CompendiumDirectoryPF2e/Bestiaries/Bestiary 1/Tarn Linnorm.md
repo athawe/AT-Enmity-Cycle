@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/dragon
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Tarn Linnorm"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Tarn Linnorm"
 level: "Creature 20"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "grg"
-trait_01: "acid"
-trait_02: "amphibious"
-trait_03: "chaotic"
-trait_04: "dragon"
-trait_05: "evil"
+trait_01: [[acid]]
+trait_02: [[amphibious]]
+trait_03: [[chaotic]]
+trait_04: [[dragon]]
+trait_05: [[evil]]
 modifier: 35
 perception:
   - name: "Perception"
@@ -79,10 +80,10 @@ attacks:
     desc: "DC 42, attack +34\n__Constant__  __(9th)__ _[[Spells/Unfettered Movement|Freedom of Movement]]_ __(8th)__ _[[Spells/Truesight|True Seeing]]_"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (acid,poison,primal) The tarn linnorm can expel either a 120-foot line or a 60-foot cone of acid dealing 20d6 acid damage to creatures within the area (DC 44 Reflex check save). The acid creates toxic fumes. At the beginning of the linnorm's next turn, those who failed the breath weapon's Reflex save must succeed at a DC 42 Fortitude check save or gain [[Conditions/Sickened 1|Sickened 4]] from the poisonous fumes.\n\nA tarn linnorm can't use Breath Weapon or Overwhelming Breath again for 1d4 rounds."
+    desc: "`pf2:2` (acid,poison,primal) The tarn linnorm can expel either a @Template[line|distance:120] or a @Template[cone|distance:60] of acid dealing 20d6 acid damage to creatures within the area (DC 44 Reflex check save). The acid creates toxic fumes. At the beginning of the linnorm's next turn, those who failed the breath weapon's Reflex save must succeed at a DC 42 Fortitude check save or gain [[Conditions/Sickened|Sickened 4]] from the poisonous fumes.\n\nA tarn linnorm can't use Breath Weapon or Overwhelming Breath again for 1d4 rounds."
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  3d6 + 18 bludgeoning damage, DC 44 Fortitude check save\n\n* * *\n"
+    desc: "`pf2:1`  3d6+18 bludgeoning damage, DC 44 Fortitude check save\n\n* * *\n"
 
   - name: "Double Bite"
     desc: "`pf2:1`  The tarn linnorm Strides and then makes a jaws Strike with each of its heads, each against a different target. These attacks count toward the tarn linnorm's multiple attack penalty, and the multiple attack penalty doesn't increase until after the tarn linnorm makes all of these attacks."
@@ -91,7 +92,7 @@ attacks:
     desc: "`pf2:3`  A tarn linnorm uses its Breath Weapon twice. A creature attempts only one save and can take damage only once.\n\nThe tarn linnorm can't use Breath Weapon or Overwhelming Breath again for 2d4 rounds."
 
   - name: "Tarn Linnorm Venom"
-    desc: " (acid,injury,poison) **Saving Throw** DC 44 Fortitude check\n* * *\n\n**Maximum Duration** 10 rounds\n\n**Stage 1** 7d6 acid damage and [[Conditions/Drained 1|Drained 1]]\n\n**Stage 2** 11d6 acid damage and [[Conditions/Drained 1|Drained 2]]"
+    desc: " (acid,injury,poison) **Saving Throw** DC 44 Fortitude check\n* * *\n\n**Maximum Duration** 10 rounds\n\n**Stage 1** 7d6 acid damage and [[Conditions/Drained|Drained 1]]\n\n**Stage 2** 11d6 acid damage and [[Conditions/Drained|Drained 2]]"
  
 ```
 

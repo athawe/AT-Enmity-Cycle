@@ -31,6 +31,7 @@ abilities_top:
     desc: "arcane, divine, occult, primal"
   - name: "Cast"
     desc: "10 minutes"
+
   - name: "Duration"
     desc: "until your next daily preparations"
 abilities_mid:

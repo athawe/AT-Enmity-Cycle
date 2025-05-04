@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Giant Amoeba"
@@ -25,9 +26,9 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "amphibious"
-trait_02: "mindless"
-trait_03: "ooze"
+trait_01: [[amphibious]]
+trait_02: [[mindless]]
+trait_03: [[ooze]]
 modifier: 4
 perception:
   - name: "Perception"

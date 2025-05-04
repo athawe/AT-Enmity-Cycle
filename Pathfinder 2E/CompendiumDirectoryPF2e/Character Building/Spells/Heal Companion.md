@@ -10,8 +10,9 @@ tags:
   - trait/ranger
   - trait/vitality
   - trait/uncommon
+  - remaster
 aliases: "Compendium.pf2e.spells-srd.Item.KIV2LqzS5KtqOItV" 
-license: OGL
+license: ORC
 statblock: inline
 ---
 ```statblock
@@ -31,6 +32,6 @@ abilities_top:
     desc: "touch or 30 feet; **Targets** your animal companion"
 abilities_mid:
   - name: ""
-    desc: "You heal your animal companion's wounds. You restore 1d10 Hit Points to your animal companion. The number of actions you spend Casting this Spell determines range and other parameters.\n\n`pf2:1` **(somatic)** The spell has a range of touch.\n\n`pf2:2` **(somatic, verbal)** The spell has a range of 30 feet and restores an additional 8 Hit Points to the target.\n* * *\n\n**Heightened (+1)** The amount of healing increases by 1d10, and the additional healing for the 2-action version increases by 8."
-sourcebook: "_Pathfinder Advanced Player's Guide_"
+    desc: "You heal your animal companion's wounds. You restore 1d10 Hit Points to your animal companion. The number of actions you spend Casting this Spell determines range and other parameters.\n\n`pf2:1` **(manipulate)** The spell has a range of touch.\n\n`pf2:2` **(concentrate, manipulate)** The spell has a range of 30 feet and restores an additional 8 Hit Points to the target.\n* * *\n\n**Heightened (+1)** The amount of healing increases by 1d10, and the additional healing for the 2-action version increases by 8."
+sourcebook: "_Pathfinder Player Core_"
 ```

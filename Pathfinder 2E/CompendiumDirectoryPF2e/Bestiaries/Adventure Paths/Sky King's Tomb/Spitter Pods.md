@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - fungus
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #193: Mantle of Gold
 aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.G1FXZqJTG2tqgzHH" 
@@ -22,8 +23,8 @@ name: "Spitter Pods"
 level: "Hazard 2"
 
 trait_06: "Complex"
-trait_01: "fungus"
-trait_02: "trap"
+trait_01: [[fungus]]
+trait_02: [[trap]]
 modifier: 8
 sourcebook: "_Pathfinder #193: Mantle of Gold_"
 ac: 17

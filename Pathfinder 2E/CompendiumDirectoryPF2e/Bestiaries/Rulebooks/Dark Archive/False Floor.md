@@ -6,6 +6,7 @@ tags:
   - illusion
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Dark Archive
 aliases: "Compendium.pf2e.pathfinder-dark-archive.Actor.IyE7jYfltfPSYzNy" 
@@ -23,9 +24,9 @@ name: "False Floor"
 level: "Hazard 3"
 
 
-trait_01: "illusion"
-trait_02: "magical"
-trait_03: "trap"
+trait_01: [[illusion]]
+trait_02: [[magical]]
+trait_03: [[trap]]
 modifier: 13
 sourcebook: "_Pathfinder Dark Archive_"
 perception:

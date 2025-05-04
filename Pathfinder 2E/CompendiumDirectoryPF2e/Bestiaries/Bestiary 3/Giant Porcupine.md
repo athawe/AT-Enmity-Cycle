@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.IijUBFE1vhvgowhD" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Giant Porcupine"
@@ -23,7 +24,7 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +8 (+10 to Climb)"
+    desc: "Athletics: +8"
 abilityMods: [4, 2, 4, -4, 2, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"

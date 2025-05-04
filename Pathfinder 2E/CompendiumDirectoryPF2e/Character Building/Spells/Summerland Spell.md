@@ -25,8 +25,7 @@ abilities_top:
   - name: "Primary Check"
     desc: "Nature (master); **Secondary Checks** Performance, Religion, Society, Mammoth Lord Lore or a similar Lore skill, Survival"
   - name: "Range"
-    desc: "touch; **Area** 5280-foot burst
-"
+    desc: "touch; **Area** 5280-foot burst"
   - name: "Duration"
     desc: "1 year"
 abilities_mid:

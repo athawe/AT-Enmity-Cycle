@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.menace-under-otari-bestiary.Actor.shT19KaQjWRVrHLI"
 tags:
   - pf2e/creature/type/goblin
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "goblin"
-trait_02: "humanoid"
+trait_01: [[goblin]]
+trait_02: [[humanoid]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -34,7 +35,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Fire Lore: +7, Stealth: +7"
+    desc: "Acrobatics: +7, Stealth: +7, Fire Lore: +7"
 abilityMods: [0, 4, 2, 0, -1, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder Beginner Box_"

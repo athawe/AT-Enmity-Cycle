@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Marilith"
@@ -27,11 +28,11 @@ level: "Creature 17"
 
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "demon"
-trait_03: "evil"
-trait_04: "fiend"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[demon]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
+trait_05: [[unholy]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -65,7 +66,7 @@ abilities_mid:
     desc: " (aura,divine) 100 feet. Commanded or allied evil creatures in the aura of lower level than the marilith gain a +1 circumstance bonus to attack rolls, damage rolls, AC, saves, and skill checks.\n\n[[Bestiary Effects/Effect_ Commander's Aura|Effect: Commander's Aura]]"
 
   - name: "Failure Vulnerability"
-    desc: "  A marilith's pride feeds their strength, so the sting of failure wounds them. If the marilith uses a damaging spell or makes a Strike on their turn but doesn't deal any damage that turn, they take 3d6 + 10 mental damage at the end of their turn and their commander's aura deactivates until the end of their next turn."
+    desc: "  A marilith's pride feeds their strength, so the sting of failure wounds them. If the marilith uses a damaging spell or makes a Strike on their turn but doesn't deal any damage that turn, they take 3d6+10 mental damage at the end of their turn and their commander's aura deactivates until the end of their next turn."
 
 attacks:
   - name: ""
@@ -92,7 +93,7 @@ attacks:
     desc: "`pf2:2`  The marilith attacks a single target with all the weapons they wield in their arms, overwhelming the target with multiple attacks and leaving almost nowhere to dodge. The demon makes a longsword Strike. On a successful attack, the marilith deals longsword damage to the target, plus an additional 1d8 slashing damage for every longsword they wield beyond the first (typically 5d8 slashing damage). Even on a failed attack, the marilith deals the damage from one longsword to the target, though they still miss completely on a critical failure. This counts toward the marilith's multiple attack penalty as a number of attacks equal to the number of longswords the pride demon wields.\n\n[[Bestiary Effects/Effect_ Focused Assault|Effect: Focused Assault]]"
 
   - name: "[[Bestiary Ability Glossary/Greater Constrict|Greater Constrict]]"
-    desc: "`pf2:1`  2d12 + 13 bludgeoning damage, DC 39 Fortitude check save\n\n* * *\n"
+    desc: "`pf2:1`  2d12+13 bludgeoning damage, DC 39 Fortitude check save\n\n* * *\n"
 
   - name: "Infuse Weapons"
     desc: " (divine) Any weapon becomes a _+2 [[Equipment/Striking (Greater)|Greater Striking]] weapon_ made of cold iron and silver while a marilith wields it."

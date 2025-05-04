@@ -3,6 +3,7 @@ title: Port Peril Bar Fight (Last Catch) (1-2)
 obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
+  - pf2eHazard
   - complex
 source: Pathfinder Society Quest #4: Port Peril Pub Crawl
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.KFAjzSMh6HAyJMhd" 

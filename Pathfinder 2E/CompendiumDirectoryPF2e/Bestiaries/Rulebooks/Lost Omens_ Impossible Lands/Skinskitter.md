@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Skinskitter"
@@ -26,10 +27,10 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "aberration"
-trait_02: "amphibious"
-trait_03: "chaotic"
-trait_04: "mindless"
+trait_01: [[aberration]]
+trait_02: [[amphibious]]
+trait_03: [[chaotic]]
+trait_04: [[mindless]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Athletics: +5, Stealth: +7 (+9 in blood or water)"
+    desc: "Acrobatics: +7, Athletics: +5, Stealth: +7"
 abilityMods: [2, 4, 1, -5, 0, -5]
 speed: 20 feet,  swim 20 feet
 sourcebook: "_Pathfinder Lost Omens: Impossible Lands_"
@@ -68,7 +69,7 @@ attacks:
     desc: "`pf2:1` Nail +9 (finesse)\n__Damage__  1d8 + 1 piercing plus grab"
 
   - name: "Share the Skin"
-    desc: "`pf2:1`  **Requirements** A [[Conditions/Grabbed|Grabbed]], [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Restrained|Restrained]], [[Conditions/Unconscious|Unconscious]], or willing creature is within the skinskitter's reach\n* * *\n\n**Effect** The skinskitter scrapes and shears away large sheets of the victim's skin. This requires an Athletics check check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The massive pain causes the victim to become [[Conditions/Clumsy 1|Clumsy 1]] for 1 minute, and the skinskitter drapes itself in the flapping skin, granting it 10 temporary Hit Points for 1 minute."
+    desc: "`pf2:1`  **Requirements** A [[Conditions/Grabbed|Grabbed]], [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Restrained|Restrained]], [[Conditions/Unconscious|Unconscious]], or willing creature is within the skinskitter's reach\n* * *\n\n**Effect** The skinskitter scrapes and shears away large sheets of the victim's skin. This requires an Athletics check check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The massive pain causes the victim to become [[Conditions/Clumsy|Clumsy 1]] for 1 minute, and the skinskitter drapes itself in the flapping skin, granting it 10 temporary Hit Points for 1 minute."
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

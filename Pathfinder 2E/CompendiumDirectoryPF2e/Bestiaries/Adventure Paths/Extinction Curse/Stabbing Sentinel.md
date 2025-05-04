@@ -6,6 +6,7 @@ tags:
   - magical
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #155: Lord of the Black Sands
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.J3mRwgqkOlOi44Xv" 
@@ -23,15 +24,15 @@ name: "Stabbing Sentinel"
 level: "Hazard 18"
 
 
-trait_01: "magical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 35
 sourcebook: "_Pathfinder #155: Lord of the Black Sands_"
 ac: 41
 armorclass:
   - name: AC
-    desc: "41; __Fort__ +36, __Ref__ +27, __Will__ +0"
+    desc: "41; __Fort__ +36, __Ref__ +27, "
 hp: 120
 health:
   - name: ""

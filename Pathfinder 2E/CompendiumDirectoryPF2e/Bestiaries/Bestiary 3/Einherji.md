@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aesir
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/monitor
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Einherji"
@@ -25,9 +26,9 @@ level: "Creature 10"
 
 alignment: ""
 size: "Medium"
-trait_01: "aesir"
-trait_02: "chaotic"
-trait_03: "monitor"
+trait_01: [[aesir]]
+trait_02: [[chaotic]]
+trait_03: [[monitor]]
 modifier: 17
 perception:
   - name: "Perception"

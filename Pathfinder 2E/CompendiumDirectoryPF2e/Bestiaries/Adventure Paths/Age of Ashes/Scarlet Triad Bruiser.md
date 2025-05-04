@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Scarlet Triad Bruiser"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #147: Tomorrow Must Burn"
 name: "Scarlet Triad Bruiser"
 level: "Creature 10"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +19, Athletics: +21, Intimidation: +18, Sailing Lore: +18, Stealth: +19"
+    desc: "Acrobatics: +19, Athletics: +21, Intimidation: +18, Stealth: +19, Sailing Lore: +18"
 abilityMods: [5, 3, 5, 0, 5, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder #147: Tomorrow Must Burn_"

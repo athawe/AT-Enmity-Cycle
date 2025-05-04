@@ -29,12 +29,11 @@ abilities_top:
   - name: "Traditions"
     desc: "arcane, divine, primal"
   - name: "Range"
-    desc: "120 feet; **Area** 30-foot burst
-"
+    desc: "120 feet; **Area** 30-foot burst"
   - name: "Duration"
     desc: "1 minute"
 abilities_mid:
   - name: ""
-    desc: "You purify the air in the area, making it clean and breathable. This removes inhaled poisons, pollution, and similar contaminants from the air but doesn't prevent future contamination. This effect is immediate; for the remaining duration, the spell prevents any further contamination from altering air in the area, including keeping toxic air bordering the area from coming inside. This spell doesn't create air so casting it underwater wouldn't create breathable air, nor would it affect any toxins within air suspended in the water.\n* * *\n\n**Heightened (3rd)** The area increases to 60 feet.\n\n**Heightened (4th)** The area increases to 120 feet.\n\n**Heightened (6th)** The area increases to 500 feet.\n\n**Heightened (9th)** The area increases to 1 mile."
+    desc: "You purify the air in the area, making it clean and breathable. The spell immediately removes inhaled poisons, pollution, and similar contaminants from the air. For the remaining duration, the spell prevents any further contamination from altering air in the area, including keeping toxic air bordering the area from coming inside. (This doesn't prevent contaminants from coming in after the spell ends.) This spell doesn't create air, so casting it underwater wouldn't create breathable air, nor would it affect any toxins within air suspended in the water\n* * *\n\n**Heightened (3rd)** The area increases to 60 feet.\n\n**Heightened (4th)** The area increases to 120 feet.\n\n**Heightened (6th)** The area increases to 500 feet.\n\n**Heightened (9th)** The area increases to 1 mile."
 sourcebook: "_Pathfinder Rage of Elements_"
 ```

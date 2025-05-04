@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.8WFGygPv7UHh7zdJ"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Apothecary"
@@ -24,8 +25,8 @@ level: "Creature -1"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Crafting: +5 (+8 for alchemy and medication), Medicine: +10, Nature: +8"
+    desc: "Crafting: +5, Medicine: +10, Nature: +8"
 abilityMods: [0, 1, 1, 3, 3, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.xW5IhEbAhQneniT2"
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/electricity
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Storm Bear (1-2)"
@@ -24,8 +25,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "beast"
-trait_02: "electricity"
+trait_01: [[beast]]
+trait_02: [[electricity]]
 modifier: 7
 perception:
   - name: "Perception"

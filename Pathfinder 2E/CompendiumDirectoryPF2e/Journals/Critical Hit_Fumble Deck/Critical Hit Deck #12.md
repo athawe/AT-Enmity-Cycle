@@ -8,7 +8,7 @@ tags:
 ---
 # Crushed Toe
 
-> Normal damage. The target is [[Conditions/Clumsy 1|Clumsy 2]] and takes a [[Other Effects/Effect\_ -10-foot status penalty to your land Speed|-10-foot status penalty to your land Speed]]. Both effects last until healed.
+> Normal damage. The target is [[Conditions/Clumsy 1|Clumsy 2]] and takes a [[Other Effects/Effect_ -10-foot status penalty to your land Speed|-10-foot status penalty to your land Speed]]. Both effects last until healed.
 
 `Bludgeoning`
 

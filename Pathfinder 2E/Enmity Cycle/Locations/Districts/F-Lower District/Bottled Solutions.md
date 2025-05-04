@@ -16,3 +16,5 @@ A cluttered shop whose alchemical supplies are plentiful and varied but tend to 
 	In addition to the money a PC earns from this job, as long as the PC achieved a success at Earning Income, the flat check for failures that applies to wares sold by Nisk is removed for the following 7 days. 
 	Finally, after 3 weeks of downtime helping him out, his inventory expands and level goes up to compete with Pillbug's Pantry.
 - He wants the organs from a [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Krooth|Krooth]]. They're worth up to 80 gp if properly harvested and preserved.
+
+His storage room has been periodically broken into by a sentient flesh golem. This leads into [[TRAILseeker2 016 The Guardian Murderer.pdf]]. 5th level adventure. 

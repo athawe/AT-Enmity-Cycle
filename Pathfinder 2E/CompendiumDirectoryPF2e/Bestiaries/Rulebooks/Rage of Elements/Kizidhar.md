@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/genie
   - pf2e/creature/type/plant
   - pf2e/creature/type/wood
+  - pf2eMonster
   - pf2e/creature/level/6
   - remaster
 statblock: inline
@@ -24,13 +25,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Rage of Elements"
 name: "Kizidhar"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "elemental"
-trait_02: "genie"
-trait_03: "plant"
-trait_04: "wood"
+trait_01: [[elemental]]
+trait_02: [[genie]]
+trait_03: [[plant]]
+trait_04: [[wood]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -38,7 +39,7 @@ perception:
 languages: "Common, Muan; speak with plants, truespeech"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +11, Arcana: +11, Athletics: +15, Crafting: +15, Deception: +13, Intimidation: +15, Nature: +16, Stealth: +13 (+15 in forests)"
+    desc: "Acrobatics: +11, Arcana: +11, Athletics: +15, Crafting: +15, Deception: +13, Intimidation: +15, Nature: +16, Stealth: +13"
 abilityMods: [4, 3, 5, 3, 4, 3]
 speed: 25 feet,  climb 15 feet
 sourcebook: "_Pathfinder Rage of Elements_"
@@ -76,7 +77,7 @@ attacks:
     desc: "`pf2:1`  The kizidhar creates a wooden item out of their body that appears in their hand and remains attached. The item can be a one-handed simple weapon, shield, or object of light Bulk. A kizidhar can instead use this ability to transform an item it's already holding or to remove an object to free its hand. Any item created with Sculpt Wood crumbles to splinters if removed from the kizidhar's possession."
 
   - name: "Take Root"
-    desc: "`pf2:1` (arcane,plant,wood) The genie thrusts their weapon into the ground. Plants sprout and grow out of the ground in a 20-foot burst centered on one corner of the kizidhar's square. All squares on the ground in that area are difficult terrain until the kizidhar uses this ability again."
+    desc: "`pf2:1` (arcane,plant,wood) The genie thrusts their weapon into the ground. Plants sprout and grow out of the ground in a @Template[burst|distance:20] centered on one corner of the kizidhar's square. All squares on the ground in that area are difficult terrain until the kizidhar uses this ability again."
  
 ```
 

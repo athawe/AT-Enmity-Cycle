@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/phantom
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Phantom Knight"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Phantom Knight"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "ethereal"
-trait_02: "incorporeal"
-trait_03: "lawful"
-trait_04: "phantom"
-trait_05: "spirit"
+trait_01: [[ethereal]]
+trait_02: [[incorporeal]]
+trait_03: [[lawful]]
+trait_04: [[phantom]]
+trait_05: [[spirit]]
 modifier: 13
 perception:
   - name: "Perception"

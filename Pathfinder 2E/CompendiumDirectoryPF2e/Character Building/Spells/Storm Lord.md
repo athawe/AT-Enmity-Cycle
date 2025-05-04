@@ -32,7 +32,9 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
-**Area** 100-foot emanation
+
+  - name: "Area"
+    desc: "100-foot emanation"
   - name: "Defense"
     desc: "basic reflex"
   - name: "Duration"

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/azarketi
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/0
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 0"
 
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "azarketi"
-trait_03: "humanoid"
+trait_01: [[amphibious]]
+trait_02: [[azarketi]]
+trait_03: [[humanoid]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -36,7 +37,7 @@ perception:
 languages: "Common, Alghollthu"
 skills:
   - name: "Skills"
-    desc: "Athletics: +4 (+6 to Swim), Diplomacy: +3, Nature: +3, Stealth: +5 (+7 underwater), Survival: +5, Underwater Lore: +4"
+    desc: "Athletics: +4, Diplomacy: +3, Nature: +3, Stealth: +5, Survival: +5, Underwater Lore: +4"
 abilityMods: [2, 3, 2, 0, 1, 1]
 speed: 25 feet,  swim 25 feet
 sourcebook: "_Pathfinder Monster Core_"
@@ -64,7 +65,7 @@ abilities_mid:
 attacks:
   - name: ""
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Dagger +7 (agile, finesse, thrown 10 ft., versatile s)\n__Damage__  1d4 + 2 piercing"
 
   - name: "Ranged"

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/titan
+  - pf2eMonster
   - pf2e/creature/level/22
 statblock: inline
 name: "Thanatotic Titan"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Thanatotic Titan"
 level: "Creature 22"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "titan"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[titan]]
 modifier: 36
 perception:
   - name: "Perception"
@@ -81,10 +82,10 @@ attacks:
     desc: "_[[Spells/Planar Servitor|Planar Ally]]_, _[[Spells/Resurrect|Resurrect]]_"
 
   - name: "Godslayer"
-    desc: " (divine) **Trigger** The titan damages a creature capable of using divine spells or abilities\n* * *\n\n**Effect** The creature must attempt a DC 45 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature can't use divine spells or abilities for 1 round and is [[Conditions/Frightened 1|Frightened 2]]. Only powerful non-divine magic, such as [[Spells/Wish|Wish]], can undo this effect.\n\n**Failure** As success, but the duration is 1 minute.\n\n**Critical Failure** As success, but the duration is unlimited."
+    desc: " (divine) **Trigger** The titan damages a creature capable of using divine spells or abilities\n* * *\n\n**Effect** The creature must attempt a DC 45 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature can't use divine spells or abilities for 1 round and is [[Conditions/Frightened|Frightened 2]]. Only powerful non-divine magic, such as [[Spells/Wish|Wish]], can undo this effect.\n\n**Failure** As success, but the duration is 1 minute.\n\n**Critical Failure** As success, but the duration is unlimited."
 
   - name: "[[Bestiary Ability Glossary/Throw Rock|Throw Rock]]"
-    desc: "`pf2:1`  If a titan's rock Strike isn't a critical failure, the rock explodes, dealing 10d6 damage of a damage type of the titan's choice to all creatures in a 20-foot burst (DC 45 Reflex check save).\n\n* * *\n"
+    desc: "`pf2:1`  If a titan's rock Strike isn't a critical failure, the rock explodes, dealing 10d6 damage of a damage type of the titan's choice to all creatures in a @Template[burst|distance:20] (DC 45 Reflex check save).\n\n* * *\n"
 
   - name: "Titanic Charge"
     desc: "`pf2:2`  The titan Strides twice and makes a melee Strike. If the Strike hits, the titan can cast [[Spells/Earthquake|Earthquake]] centered on the target as a free action."

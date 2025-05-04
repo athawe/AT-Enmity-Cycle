@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/duergar
   - pf2e/creature/type/dwarf
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "duergar"
-trait_02: "dwarf"
-trait_03: "humanoid"
+trait_01: [[duergar]]
+trait_02: [[dwarf]]
+trait_03: [[humanoid]]
 modifier: 8
 perception:
   - name: "Perception"

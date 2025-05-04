@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Horde Lich"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Book of the Dead"
 name: "Horde Lich"
 level: "Creature 15"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Chthonian, Common, Diabolic, Draconic, Dwarven, Jotun, Necril, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +27, Arcana: +31, Crafting: +29 (can craft magical items), Intimidation: +27, Religion: +25, Stealth: +27, Thievery: +27"
+    desc: "Acrobatics: +27, Arcana: +31, Crafting: +29, Intimidation: +27, Religion: +25, Stealth: +27, Thievery: +27"
 abilityMods: [2, 6, 0, 8, 4, 6]
 speed: 25 feet
 sourcebook: "_Pathfinder Book of the Dead_"
@@ -47,7 +48,7 @@ hp: 250
 health:
   - name: ""
   - name: HP
-    desc: "250, void healing, rejuvenation; __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious; __Resistances__ cold 10, physical 10 (except bludgeoning)"
+    desc: "250, void healing, rejuvenation; __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious; __Resistances__ cold 10, physical 10 (except magical bludgeoning)"
 abilities_top:
   - name: ""
   - name: "Items"

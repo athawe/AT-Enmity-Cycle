@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Kingmaker
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.myNEeBzXVmWbHk2X" 
@@ -21,13 +22,13 @@ name: "Azure Lilies"
 level: "Hazard 12"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 20
 sourcebook: "_Pathfinder Kingmaker_"
 ac: 30
 armorclass:
   - name: AC
-    desc: "30; __Fort__ +27, __Ref__ +25, __Will__ +0"
+    desc: "30; __Fort__ +27, __Ref__ +25, "
 hp: 120
 health:
   - name: ""

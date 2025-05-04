@@ -27,6 +27,7 @@ abilities_top:
     desc: "1 day; **Cost** rare incense worth a total value of 150 gp; **Secondary Casters** 1"
   - name: "Primary Check"
     desc: "Nature (master), Occultism (master) or Religion (master); **Secondary Checks** Nature, Occultism or Religion (whichever is used for the primary check)"
+
   - name: "Duration"
     desc: "up to 10 minutes"
 abilities_mid:

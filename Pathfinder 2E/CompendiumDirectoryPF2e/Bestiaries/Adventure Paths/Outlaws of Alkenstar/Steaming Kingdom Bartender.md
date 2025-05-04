@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Steaming Kingdom Bartender"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #179: Cradle of Quartz"
 name: "Steaming Kingdom Bartender"
 level: "Creature 2"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "dwarf"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[dwarf]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Alcohol Lore: +11, Athletics: +9, Deception: +6, Diplomacy: +6, Performance: +8, Society: +6, Thievery: +5"
+    desc: "Athletics: +9, Deception: +6, Diplomacy: +6, Performance: +8, Society: +6, Thievery: +5, Alcohol Lore: +11"
 abilityMods: [3, 0, 2, 0, 1, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder #179: Cradle of Quartz_"

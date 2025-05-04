@@ -54,12 +54,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Twinsprout
-creatures:
-  - 1: Twinsprout
-```
-
 
 
 

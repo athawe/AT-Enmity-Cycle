@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/fey
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Sluagh Reaper"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Book of the Dead"
 name: "Sluagh Reaper"
 level: "Creature 10"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fey"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[fey]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -59,7 +60,7 @@ abilities_mid:
     desc: " (aura,emotion,fear,mental) 30 feet. DC 26 Will check\n\n* * *\n"
 
   - name: "Soulscent (Imprecise) 100 feet"
-    desc: " (occult) The sluagh is aware of all [[Conditions/Doomed 1|Doomed]] creatures, [[Conditions/Dying 1|Dying]] creatures, and creatures that died within the last hour within the listed range."
+    desc: " (occult) The sluagh is aware of all [[Conditions/Doomed|Doomed]] creatures, [[Conditions/Dying|Dying]] creatures, and creatures that died within the last hour within the listed range."
 
 attacks:
   - name: ""
@@ -68,7 +69,7 @@ attacks:
     desc: "`pf2:1` Claw +23 (agile, magical)\n__Damage__  3d6 + 9 slashing"
 
   - name: "Primal Innate Spells"
-    desc: "DC 26, attack +16"
+    desc: "DC 26, attack +16; __2nd __ (1 slots) _[[Spells/Invisibility|Invisibility]]_\n__Cantrips__  __(5th)__ _[[Spells/Ghost Sound|Ghost Sound]]_"
 
   - name: "Ghostly Swoop"
     desc: "`pf2:1`  The sluagh reaper becomes incorporeal until the start of their next turn, and Flies up to their fly Speed. While incorporeal, they are immune to precision damage, and have resistance 10 to all damage (except force, ghost touch, or vitality); this resistance is doubled against non-magical damage.\n\nAfter using Ghostly Swoop, the sluagh reaper can't use it again for 1d4 rounds."

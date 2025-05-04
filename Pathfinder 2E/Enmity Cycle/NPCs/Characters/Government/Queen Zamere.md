@@ -30,7 +30,8 @@ district:
 
 ### Statblock
 
-<% tp.file.cursor(5) %>
+[[CompendiumDirectoryPF2e/Character Building/Spells/Instant Armor|Instant Armor]] 
+
 
 ### Activity Log 
 

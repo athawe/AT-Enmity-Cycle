@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Cornugon"
@@ -27,11 +28,11 @@ level: "Creature 16"
 
 alignment: ""
 size: "Large"
-trait_01: "devil"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "lawful"
-trait_05: "unholy"
+trait_01: [[devil]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[lawful]]
+trait_05: [[unholy]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -95,7 +96,7 @@ attacks:
     desc: " (divine) A cornugon's tail Strike deals 4d6 bleed.\n\nThe DC of the flat check to stop the bleeding starts at DC 20 Flat check and is reduced to DC 15 Flat check only if someone successfully assists. The DC to [[Actions/Administer First Aid|Administer First Aid]] to a creature with an infernal wound increases by 10.\n\nA spellcaster or item using healing magic on an infernally wounded creature must succeed at a DC 34 counteract check or the magic fails to heal the creature.\n\n[[Bestiary Effects/Effect_ Infernal Wound|Effect: Infernal Wound]]"
 
   - name: "Stunning Chain"
-    desc: " (incapacitation) If the cornugon critically hits with its spiked chain Strike, the target must succeed at a DC 34 Fortitude check save or be [[Conditions/Stunned 1|Stunned]] for 1 round (1d4 rounds on a critical failure)."
+    desc: " (incapacitation) If the cornugon critically hits with its spiked chain Strike, the target must succeed at a DC 34 Fortitude check save or be [[Conditions/Stunned|Stunned]] for 1 round (1d4 rounds on a critical failure)."
  
 ```
 

@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.lost-omens-mwangi-expanse-bestiary.Actor.rMby02NQRHNrDcTj" 
 tags:
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Kaava Stalker"
@@ -23,7 +24,7 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "humanoid"
+trait_01: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Kaava, Mwangi"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Athletics: +6, Intimidation: +5, Stealth: +9 (+11 in forests or jungles), Survival: +7"
+    desc: "Acrobatics: +7, Athletics: +6, Intimidation: +5, Stealth: +9, Survival: +7"
 abilityMods: [3, 4, 0, 0, 2, 0]
 speed: 30 feet
 sourcebook: "_Pathfinder Lost Omens: The Mwangi Expanse_"

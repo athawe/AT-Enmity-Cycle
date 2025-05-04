@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.t8XwrLnvMnz3Z1al"
 tags:
   - pf2e/creature/type/monitor
   - pf2e/creature/type/psychopomp
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Catrina"
@@ -24,8 +25,8 @@ level: "Creature 5"
 
 alignment: ""
 size: "Medium"
-trait_01: "monitor"
-trait_02: "psychopomp"
+trait_01: [[monitor]]
+trait_02: [[psychopomp]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Chthonian, Diabolic, Empyrean, Requian; telepathy 120 feet, tongues"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +14, Boneyard Lore: +11, Diplomacy: +14, Intimidation: +14, Medicine: +12, Occultism: +11, Religion: +12"
+    desc: "Acrobatics: +14, Diplomacy: +14, Intimidation: +14, Medicine: +12, Occultism: +11, Religion: +12, Boneyard Lore: +11"
 abilityMods: [0, 5, 4, 2, 4, 5]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 2_"
@@ -67,7 +68,7 @@ attacks:
     desc: "`pf2:1` (divine,incapacitation,mental) The catrina telepathically compels a creature within 30 feet to approach and allow the catrina to kiss them, in preparation for using Kiss of Death. The target must attempt a DC 22 Will check save.\n\n**Success** The creature is unaffected and is temporarily immune to Compel Condemned for 24 hours.\n\n**Failure** The creature must spend each of its actions to move closer to the catrina as quickly as possible, while avoiding obvious dangers. If the compelled creature is adjacent to the catrina, it stays still and doesn't act. If the creature takes any damage, the effect ends and the creature is temporarily immune to Compel Condemned for 24 hours. This effect lasts for 1 round, but if the catrina uses this ability again on subsequent rounds, it extend the duration by 1 round for all affected creatures.\n\n**Critical Failure** As failure, but damage does not end the effect."
 
   - name: "Kiss of Death"
-    desc: "`pf2:2` (death,divine,manipulate) The catrina gives a long, passionate kiss to an [[Conditions/Unconscious|Unconscious]] or willing creature, dealing 3d6 void damage.\n\nAny creature damaged by the same catrina's Kiss of Death for 3 consecutive rounds becomes unconscious and is [[Conditions/Dying 1|Dying 1]]."
+    desc: "`pf2:2` (death,divine,manipulate) The catrina gives a long, passionate kiss to an [[Conditions/Unconscious|Unconscious]] or willing creature, dealing 3d6 void damage.\n\nAny creature damaged by the same catrina's Kiss of Death for 3 consecutive rounds becomes unconscious and is [[Conditions/Dying|Dying 1]]."
 
   - name: "Spirit Touch"
     desc: " (incorporeal) A catrina's Strikes affect incorporeal creatures with the effects of a _[[Equipment/Ghost Touch|Ghost Touch]]_ property rune and deal 1d6 void damage to living creatures and 1d6 vitality damage to undead."

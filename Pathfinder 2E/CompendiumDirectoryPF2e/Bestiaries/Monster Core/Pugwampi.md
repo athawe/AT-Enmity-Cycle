@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.aeOzCBpwnUVcpqxI"
 tags:
   - pf2e/creature/type/fey
   - pf2e/creature/type/gremlin
+  - pf2eMonster
   - pf2e/creature/level/0
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 0"
 
 alignment: ""
 size: "tiny"
-trait_01: "fey"
-trait_02: "gremlin"
+trait_01: [[fey]]
+trait_02: [[gremlin]]
 modifier: 6
 perception:
   - name: "Perception"

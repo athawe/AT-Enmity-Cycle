@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Scythe Tree"
@@ -25,9 +26,9 @@ level: "Creature 6"
 
 alignment: ""
 size: "huge"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "plant"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[plant]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Arboreal, Fey"
 skills:
   - name: "Skills"
-    desc: "Athletics: +15, Stealth: +12 (+14 in forests)"
+    desc: "Athletics: +15, Stealth: +12"
 abilityMods: [7, 2, 4, 0, 2, 0]
 speed: 15 feet
 sourcebook: "_Pathfinder Bestiary 2_"

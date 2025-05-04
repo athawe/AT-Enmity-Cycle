@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - fungus
+  - pf2eHazard
 
 source: Pathfinder Gamemastery Guide
 aliases: "Compendium.pf2e.hazards.Actor.vTdWEBzJzltMM6r4" 
@@ -22,14 +23,14 @@ name: "Shrieker"
 level: "Hazard -1"
 
 
-trait_01: "environmental"
-trait_02: "fungus"
+trait_01: [[environmental]]
+trait_02: [[fungus]]
 modifier: 2
 sourcebook: "_Pathfinder Gamemastery Guide_"
 ac: 12
 armorclass:
   - name: AC
-    desc: "12; __Fort__ +8, __Ref__ +2, __Will__ +0"
+    desc: "12; __Fort__ +8, __Ref__ +2, "
 hp: 9
 health:
   - name: ""

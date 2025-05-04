@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.b6qiHvyx6ymROTBL"
 tags:
   - pf2e/creature/type/gnome
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Deep Gnome Warrior"
@@ -24,8 +25,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "gnome"
-trait_02: "humanoid"
+trait_01: [[gnome]]
+trait_02: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"

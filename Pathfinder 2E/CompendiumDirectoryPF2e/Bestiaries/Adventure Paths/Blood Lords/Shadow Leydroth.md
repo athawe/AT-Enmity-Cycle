@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Shadow Leydroth"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #186: Ghost King&#x27;s Rage"
 name: "Shadow Leydroth"
 level: "Creature 17"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "evil"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[beast]]
+trait_02: [[evil]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -83,7 +84,7 @@ attacks:
     desc: "DC 38, attack +28; __2nd __  _[[Spells/Darkness|Darkness]]_"
 
   - name: "Dispelling Roar"
-    desc: "`pf2:2` (auditory,emotion,fear,mental,primal) The leydroth unleashes a bestial roar that reverberates within a 30-foot emanation. It rolls an Intimidation check and compares the result to the Will DC of each creature in the area, with the effects of [[Actions/Demoralize|Demoralize]].\n\nIt also uses this result to attempt to counteract each spell or magical effect in the area, plus one item or effect on each creature in the area, with the effects of [[Spells/Dispel Magic|Dispel Magic]].\n\nThe leydroth can't use Dispelling Roar again for 1d4 rounds."
+    desc: "`pf2:2` (auditory,emotion,fear,mental,primal) The leydroth unleashes a bestial roar that reverberates within a @Template[emanation|distance:30]. It rolls an Intimidation check and compares the result to the Will DC of each creature in the area, with the effects of [[Actions/Demoralize|Demoralize]].\n\nIt also uses this result to attempt to counteract each spell or magical effect in the area, plus one item or effect on each creature in the area, with the effects of [[Spells/Dispel Magic|Dispel Magic]].\n\nThe leydroth can't use Dispelling Roar again for 1d4 rounds."
 
   - name: "Dispelling Strike"
     desc: " (primal) **Frequency** once per round\n\n**Trigger** The leydroth hits a creature, object, or spell effect with a Strike\n* * *\n\n**Effect** The leydroth casts its innate [[Spells/Dispel Magic|Dispel Magic]], targeting one effect on the creature struck."

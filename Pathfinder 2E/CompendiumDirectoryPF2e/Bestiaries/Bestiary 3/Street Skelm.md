@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/skelm
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Street Skelm"
@@ -26,10 +27,10 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "lawful"
-trait_04: "skelm"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
+trait_04: [[skelm]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -78,7 +79,7 @@ attacks:
     desc: "`pf2:1` (concentrate,occult,polymorph) The street skelm can take on the appearance of any Medium male humanoid. This doesn't change his Speed or his attack and damage bonuses with his Strikes but might change the damage type his Strikes deal.\n\n* * *\n"
 
   - name: "Frightening Rant"
-    desc: "`pf2:1` (auditory,concentrate,emotion,fear,linguistic,mental,occult) The skelm rants angrily, filling nearby creatures with shame, fear, and anger. Each creature within 30 feet must succeed at a DC 20 Will check save or become [[Conditions/Frightened 1|Frightened 1]] ([[Conditions/Frightened 1|Frightened 2]] on a critical failure).\n\nWhile frightened by this rant, creatures take a -2 status penalty to Strength-based damage rolls against the skelm, but gain a +2 status bonus to those rolls against other creatures."
+    desc: "`pf2:1` (auditory,concentrate,emotion,fear,linguistic,mental,occult) The skelm rants angrily, filling nearby creatures with shame, fear, and anger. Each creature within 30 feet must succeed at a DC 20 Will check save or become [[Conditions/Frightened|Frightened 1]] ([[Conditions/Frightened|Frightened 2]] on a critical failure).\n\nWhile frightened by this rant, creatures take a -2 status penalty to Strength-based damage rolls against the skelm, but gain a +2 status bonus to those rolls against other creatures."
 
   - name: "Punishing Strike"
     desc: "`pf2:1`  The skelm unleashes his constant rage in a reckless attack that makes him [[Conditions/Off-Guard|Off-Guard]] until the start of his next turn.\n\nHe Strikes; if he hits, he increases the number of damage dice by one and adds [[Bestiary Ability Glossary/Push|Push]] to the effect. This counts as two attacks for his multiple attack penalty."

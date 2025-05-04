@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.H7PDLOIbDG9zt4H1" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Yzobu"
@@ -23,7 +24,7 @@ level: "Creature 1"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -50,7 +51,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Pungent Aura"
-    desc: " (aura,olfactory) 10 feet. Creatures other than yzobus or hobgoblins that enter or start their turn in the yzobu's aura must succeed at a DC 14 Fortitude check save or become [[Conditions/Sickened 1|Sickened 1]], or [[Conditions/Sickened 1|Sickened 2]] on a critical failure. A creature that succeeds at its save is temporarily immune for 1 minute."
+    desc: " (aura,olfactory) 10 feet. Creatures other than yzobus or hobgoblins that enter or start their turn in the yzobu's aura must succeed at a DC 14 Fortitude check save or become [[Conditions/Sickened|Sickened 1]], or [[Conditions/Sickened|Sickened 2]] on a critical failure. A creature that succeeds at its save is temporarily immune for 1 minute."
 
 attacks:
   - name: ""

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/light
   - pf2e/creature/type/nymph
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Hesperid"
@@ -26,10 +27,10 @@ level: "Creature 9"
 
 alignment: ""
 size: "Medium"
-trait_01: "fey"
-trait_02: "lawful"
-trait_03: "light"
-trait_04: "nymph"
+trait_01: [[fey]]
+trait_02: [[lawful]]
+trait_03: [[light]]
+trait_04: [[nymph]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -56,7 +57,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Sunset Dependent"
-    desc: "  A hesperid is mystically bonded to a single remote location with a good view of the sunset-usually an island, coastal cliff, or valley. If they aren't at that location and able to see the sky at sunset on any given day, they become [[Conditions/Drained 1|Drained 1]], increasing the value by 1 for each missed sunset and reducing by 1 only when they see the sunset.\n\nA hesperid can perform a 24-hour ritual to bond to a new location."
+    desc: "  A hesperid is mystically bonded to a single remote location with a good view of the sunset-usually an island, coastal cliff, or valley. If they aren't at that location and able to see the sky at sunset on any given day, they become [[Conditions/Drained|Drained 1]], increasing the value by 1 for each missed sunset and reducing by 1 only when they see the sunset.\n\nA hesperid can perform a 24-hour ritual to bond to a new location."
 
 attacks:
   - name: ""

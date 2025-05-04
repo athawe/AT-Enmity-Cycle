@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Drustan"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #190: The Choosing"
 name: "Drustan"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Diabolic, Varisian"
 skills:
   - name: "Skills"
-    desc: "Athletics: +27 (+29 to Force Open, Grapple, Shove, or Trip), Deception: +25, Intimidation: +27, Performance: +25, Religion: +23, Society: +23"
+    desc: "Athletics: +27, Deception: +25, Intimidation: +27, Performance: +25, Religion: +23, Society: +23"
 abilityMods: [5, 1, 3, 1, 3, 5]
 speed: 20 feet
 sourcebook: "_Pathfinder #190: The Choosing_"
@@ -66,7 +67,7 @@ attacks:
     desc: "`pf2:1` Bastard Sword +29 (magical, two-hand d12)\n__Damage__  3d8 + 11 slashing 1d6 bleed"
 
   - name: "Divine Focus Spells"
-    desc: "2 Focus Points, DC 31, attack +23; __7th __  _[[Spells/Litany of Depravity|Litany of Depravity]]_, _[[Spells/Touch of Corruption|Touch of Corruption]]_"
+    desc: "2 Focus Points, DC 31, attack +23; __7th __  _[[Compendium.pf2e.spells-srd.Item.tYP8unoR0a5Dq9EA|Litany of Depravity]]_, _[[Spells/Touch of the Void|Touch of Corruption]]_"
 
   - name: "Divine Ally"
     desc: "  Drustan's divine ally is his bastard sword. He gains its critical specialization effect, and the weapon gains the _[[Equipment/Flaming|Flaming]]_ property rune."

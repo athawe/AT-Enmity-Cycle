@@ -33,8 +33,7 @@ abilities_top:
   - name: "Traditions"
     desc: "primal"
   - name: "Range"
-    desc: "120 feet; **Area** 80-foot burst
-; **Targets** all squares on the ground that contain plants in an 80-foot burst"
+    desc: "120 feet; **Area** 80-foot burst; **Targets** all squares on the ground that contain plants in an 80-foot burst"
   - name: "Duration"
     desc: "1 minute"
 abilities_mid:

@@ -28,7 +28,9 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, primal"
-**Area** 60-foot line
+
+  - name: "Area"
+    desc: "60-foot line"
   - name: "Duration"
     desc: "1 minute"
 abilities_mid:

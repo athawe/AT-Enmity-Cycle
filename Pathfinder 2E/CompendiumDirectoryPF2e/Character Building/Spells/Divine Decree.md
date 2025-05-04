@@ -31,8 +31,7 @@ abilities_top:
   - name: "Traditions"
     desc: "divine"
   - name: "Range"
-    desc: "40 feet; **Area** 40-foot emanation
-"
+    desc: "40 feet; **Area** 40-foot emanation"
   - name: "Defense"
     desc: " fortitude"
   - name: "Duration"

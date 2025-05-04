@@ -14,7 +14,7 @@ tags:
 
 # Shot your Foot
 
-> Until healed, you are [[Conditions/Clumsy 1|Clumsy 2]] and take a [[Other Effects/Effect\_ -5-foot circumstance penalty to your land Speed|-5-foot circumstance penalty to your land speed]].
+> Until healed, you are [[Conditions/Clumsy 1|Clumsy 2]] and take a [[Other Effects/Effect_ -5-foot circumstance penalty to your land Speed|-5-foot circumstance penalty to your land speed]].
 
 `Ranged`
 

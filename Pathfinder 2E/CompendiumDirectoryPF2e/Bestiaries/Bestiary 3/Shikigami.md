@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/kami
   - pf2e/creature/type/lawful
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Shikigami"
@@ -25,9 +26,9 @@ level: "Creature 1"
 
 alignment: ""
 size: "tiny"
-trait_01: "kami"
-trait_02: "lawful"
-trait_03: "spirit"
+trait_01: [[kami]]
+trait_02: [[lawful]]
+trait_03: [[spirit]]
 modifier: 10
 perception:
   - name: "Perception"

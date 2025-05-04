@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Adventure: The Slithering
 aliases: "Compendium.pf2e.the-slithering-bestiary.Actor.HFKh5iq1UV06HP4F" 
@@ -22,14 +23,14 @@ name: "Angazhan's Rake Trap"
 level: "Hazard 7"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 17
 sourcebook: "_Pathfinder Adventure: The Slithering_"
 ac: 25
 armorclass:
   - name: AC
-    desc: "25; __Fort__ +18, __Ref__ +10, __Will__ +0"
+    desc: "25; __Fort__ +18, __Ref__ +10, "
 hp: 60
 health:
   - name: ""

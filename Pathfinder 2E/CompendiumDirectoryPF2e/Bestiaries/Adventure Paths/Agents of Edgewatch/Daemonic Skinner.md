@@ -12,6 +12,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Daemonic Skinner"
@@ -26,16 +27,16 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #162: Ruins of the Radiant Siege"
 name: "Daemonic Skinner"
 level: "Creature 20"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "daemon"
-trait_03: "evil"
-trait_04: "fiend"
-trait_05: "human"
-trait_06: "humanoid"
-trait_07: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[daemon]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
+trait_05: [[human]]
+trait_06: [[humanoid]]
+trait_07: [[unholy]]
 modifier: 36
 perception:
   - name: "Perception"
@@ -69,7 +70,7 @@ abilities_mid:
     desc: " (aura,divine) 20 feet. Chains of blood bind a bleeding creature to the Daemonic Skinner.\n\nCreatures in range that are taking [[Conditions/Persistent Damage|Persistent Bleed Damage]] can't move out of the aura.\n\nThe Skinner can have only one aura active at a time.\n\nShe can switch her active aura as an Interact action."
 
   - name: "Spell Choke"
-    desc: "`pf2:r`  **Trigger** A creature taking [[Conditions/Persistent Damage|Persistent Bleed Damage]] within 30 feet of the Daemonic Skinner Casts a Spell with a verbal component or speaks\n* * *\n\n**Effect** The Skinner wills the triggering creature's blood to gush from their mouth and constrict their throat. The target's spell is disrupted.\n\nThe target must succeed at a DC 47 Fortitude check save or become [[Conditions/Sickened 1|Sickened 2]]."
+    desc: "`pf2:r`  **Trigger** A creature taking [[Conditions/Persistent Damage|Persistent Bleed Damage]] within 30 feet of the Daemonic Skinner Casts a Spell with a verbal component or speaks\n* * *\n\n**Effect** The Skinner wills the triggering creature's blood to gush from their mouth and constrict their throat. The target's spell is disrupted.\n\nThe target must succeed at a DC 47 Fortitude check save or become [[Conditions/Sickened|Sickened 2]]."
 
   - name: "Transfusion Aura"
     desc: " (aura,divine,healing) 30 feet. Any time a creature in the aura takes [[Conditions/Persistent Damage|Persistent Bleed Damage]], the Daemonic Skinner regains the same number of Hit Points as the damage dealt.\n\nThe Skinner can have only one aura active at a time.\n\nShe can switch her active aura as an Interact action."

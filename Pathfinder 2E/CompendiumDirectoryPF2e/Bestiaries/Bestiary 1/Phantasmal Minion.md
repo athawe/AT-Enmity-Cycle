@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.j7NNPfZwD19BwSEZ"
 tags:
   - pf2e/creature/type/force
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/-1
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature -1"
 
 alignment: ""
 size: "Medium"
-trait_01: "force"
-trait_02: "mindless"
+trait_01: [[force]]
+trait_02: [[mindless]]
 modifier: 0
 perception:
   - name: "Perception"

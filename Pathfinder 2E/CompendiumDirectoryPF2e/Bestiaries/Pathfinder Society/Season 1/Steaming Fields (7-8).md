@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #1-24: Lightning Strikes, Stars Fall
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.v4XGvSCIj9dVS5Z9" 
@@ -21,13 +22,13 @@ name: "Steaming Fields (7-8)"
 level: "Hazard 9"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 17
 sourcebook: "_Pathfinder Society Scenario #1-24: Lightning Strikes, Stars Fall_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

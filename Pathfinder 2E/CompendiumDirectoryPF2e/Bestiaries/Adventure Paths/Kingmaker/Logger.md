@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.UAlHSl6Cpujld1dx"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Logger"
@@ -24,8 +25,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +5, Athletics: +7, Lumber Lore: +6, Nature: +4, Survival: +6"
+    desc: "Acrobatics: +5, Athletics: +7, Nature: +4, Survival: +6, Lumber Lore: +6"
 abilityMods: [3, 1, 2, 0, 2, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Kingmaker_"
@@ -61,7 +62,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Battle Axe +7 (sweep)\n__Damage__  1d8 + 3 slashing"
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Hatchet +7 (agile, sweep, thrown 10 ft.)\n__Damage__  1d6 + 3 slashing"
 
   - name: "Ranged"

@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/ghoul
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Barnacle Barnaby"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #5-05: The Island of the Vibrant Dead"
 name: "Barnacle Barnaby"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "ghoul"
-trait_05: "undead"
-trait_06: "unholy"
+trait_01: [[amphibious]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[ghoul]]
+trait_05: [[undead]]
+trait_06: [[unholy]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -41,7 +42,7 @@ perception:
 languages: "Common, Necril, Thalassic"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +10, Athletics: +10 (+12 to Swim), Deception: +11, Sailing Lore: +9, Stealth: +10, Survival: +9"
+    desc: "Acrobatics: +10, Athletics: +10, Deception: +11, Stealth: +10, Survival: +9, Sailing Lore: +9"
 abilityMods: [3, 4, 3, 3, 1, 4]
 speed: 25 feet,  swim 30 feet
 sourcebook: "_Pathfinder Society Scenario #5-05: The Island of the Vibrant Dead_"

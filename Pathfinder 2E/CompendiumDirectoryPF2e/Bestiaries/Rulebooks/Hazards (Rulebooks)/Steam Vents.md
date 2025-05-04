@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Guns &amp; Gears
 aliases: "Compendium.pf2e.hazards.Actor.OSPYSuckHhHl4Cr9" 
@@ -22,14 +23,14 @@ name: "Steam Vents"
 level: "Hazard 4"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 22
 sourcebook: "_Pathfinder Guns & Gears_"
 ac: 20
 armorclass:
   - name: AC
-    desc: "20; __Fort__ +12, __Ref__ +12, __Will__ +0"
+    desc: "20; __Fort__ +12, __Ref__ +12, "
 hp: 48
 health:
   - name: ""

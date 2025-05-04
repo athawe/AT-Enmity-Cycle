@@ -28,7 +28,9 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, occult"
-**Area** 30-foot emanation
+
+  - name: "Area"
+    desc: "30-foot emanation"
   - name: "Duration"
     desc: "1 hour"
 abilities_mid:

@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #169: Kindled Magic
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.PHpFRuT0JuxL8xbj" 
@@ -22,14 +23,14 @@ name: "Centipede Carcasses Trap"
 level: "Hazard 5"
 
 trait_06: "Complex"
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 11
 sourcebook: "_Pathfinder #169: Kindled Magic_"
 ac: 22
 armorclass:
   - name: AC
-    desc: "22; __Fort__ +15, __Ref__ +9, __Will__ +0"
+    desc: "22; __Fort__ +15, __Ref__ +9, "
 hp: 20
 health:
   - name: ""

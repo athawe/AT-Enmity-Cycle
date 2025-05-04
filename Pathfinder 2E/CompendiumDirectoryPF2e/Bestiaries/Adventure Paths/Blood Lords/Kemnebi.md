@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
   - pf2e/creature/type/vampire
+  - pf2eMonster
   - pf2e/creature/level/21
 statblock: inline
 name: "Kemnebi"
@@ -24,22 +25,22 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #186: Ghost King&#x27;s Rage"
 name: "Kemnebi"
 level: "Creature 21"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "lawful"
-trait_03: "undead"
-trait_04: "unholy"
-trait_05: "vampire"
+trait_01: [[evil]]
+trait_02: [[lawful]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
+trait_05: [[vampire]]
 modifier: 39
 perception:
   - name: "Perception"
-    desc: "+39; Darkvision, Thoughtsense (Imprecise) 100 Feet"
+    desc: "+39; Darkvision, Thoughtsense (Precise) 100 Feet"
 languages: "Ancient-osiriani, Common, Kelish, Necril, Osiriani, Vudrani; tongues"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +35, Arcana: +43, Athletics: +33, Crafting: +41, Deception: +36, Diplomacy: +36, Intimidation: +36, Mechitar Lore: +41, Nature: +41, Occultism: +41, Performance: +37, Religion: +43, Shadow Plane Lore: +41, Society: +41, Stealth: +35"
+    desc: "Acrobatics: +35, Arcana: +43, Athletics: +33, Crafting: +41, Deception: +36, Diplomacy: +36, Intimidation: +36, Nature: +41, Occultism: +41, Performance: +37, Religion: +43, Society: +41, Stealth: +35, Mechitar Lore: +41, Shadow Plane Lore: +41"
 abilityMods: [6, 8, 7, 10, 10, 8]
 speed: 40 feet,  climb 40 feet
 sourcebook: "_Pathfinder #186: Ghost King&#x27;s Rage_"
@@ -55,7 +56,7 @@ health:
 abilities_top:
   - name: ""
   - name: "Items"
-    desc: "[[Equipment/Ring of Spell Turning|Ring of Spell Turning]], [[Equipment/Wand of Widening (9th-Rank Spell)|Wand of Widening (9th-Level Spell)]], [[Equipment/Religious Symbol (Wooden)|Religious Symbol of Urgathoa]]"
+    desc: "[[Equipment/Ring of Spell Turning|Ring of Spell Turning]], [[Equipment/Wand of Widening (9th-Rank Spell)|Wand of Widening (9th-Rank Spell)]], [[Equipment/Religious Symbol (Wooden)|Religious Symbol of Urgathoa]]"
   - name: "[[Bestiary Ability Glossary/Thoughtsense|Thoughtsense (Precise) 100 feet]]"
     desc: " (mental,occult) Kemnebi senses all non-mindless creatures within 100 feet as a precise sense."
 
@@ -77,16 +78,16 @@ attacks:
     desc: "`pf2:1` Claw +39 (agile, finesse, magical)\n__Damage__  4d10 + 16 slashing plus improved-grab,vampire-vetalarana-manipulator-paralyzing-claws"
 
   - name: "Arcane Prepared Spells"
-    desc: "DC 48, attack +40; __9th __  _[[Spells/Unspeakable Shadow|Unspeakable Shadow]]_; __7th __  _[[Spells/Interplanar Teleport|Plane Shift]]_, _[[Spells/Shadow Raid|Shadow Raid]]_; __6th __  _[[Spells/Bound in Death|Bound in Death]]_, _[[Spells/Phantasmal Calamity|Phantasmal Calamity]]_, _[[Spells/Suffocate|Suffocate]]_, _[[Spells/Teleport|Teleport]]_; __5th __  _[[Spells/Shadow Siphon|Shadow Siphon]]_, _[[Spells/Umbral Journey|Shadow Walk]]_; __4th __  _[[Spells/Enervation|Enervation]]_, _[[Spells/Fly|Fly]]_, _[[Spells/Telepathy|Telepathy]]_; __3rd __  _[[Spells/Haste|Haste]]_, _[[Spells/Paralyze|Paralyze]]_, _[[Spells/Vampiric Feast|Vampiric Touch]]_; __2nd __  _[[Spells/Blur|Blur]]_, _[[Spells/Deafness|Deafness]]_, _[[Spells/Invisibility|Invisibility]]_; __1st __  _[[Spells/Summon Undead|Animate Dead]]_, _[[Spells/Flense|Flense]]_, _[[Spells/Grim Tendrils|Grim Tendrils]]_, _[[Spells/Disguise Magic|Magic Aura]]_, _[[Spells/Force Barrage|Magic Missile]]_, _[[Spells/Ventriloquism|Ventriloquism]]_\n__Cantrips__  __(1st)__ _[[Spells/Ancient Dust|Ancient Dust]]_, _[[Spells/Void Warp|Chill Touch]]_, _[[Spells/Ghost Sound|Ghost Sound]]_, _[[Spells/Produce Flame|Produce Flame]]_, _[[Spells/Read Aura|Read Aura]]_"
+    desc: "DC 48, attack +40; __9th __  _[[Spells/Unspeakable Shadow|Unspeakable Shadow]]_; __7th __  _[[Spells/Interplanar Teleport|Plane Shift]]_, _[[Spells/Shadow Raid|Shadow Raid]]_; __6th __  _[[Spells/Bound in Death|Bound in Death]]_, _[[Spells/Phantasmal Calamity|Phantasmal Calamity]]_, _[[Spells/Suffocate|Suffocate]]_, _[[Spells/Teleport|Teleport]]_; __5th __  _[[Spells/Shadow Siphon|Shadow Siphon]]_, _[[Spells/Umbral Journey|Shadow Walk]]_; __4th __  _[[Spells/Enervation|Enervation]]_, _[[Spells/Fly|Fly]]_, _[[Spells/Telepathy|Telepathy]]_; __3rd __  _[[Spells/Haste|Haste]]_, _[[Spells/Paralyze|Paralyze]]_, _[[Spells/Vampiric Feast|Vampiric Touch]]_; __2nd __  _[[Spells/Blur|Blur]]_, _[[Spells/Deafness|Deafness]]_, _[[Spells/Invisibility|Invisibility]]_; __1st __  _[[Spells/Summon Undead|Animate Dead]]_, _[[Spells/Flense|Flense]]_, _[[Spells/Grim Tendrils|Grim Tendrils]]_, _[[Spells/Disguise Magic|Magic Aura]]_, _[[Spells/Force Barrage|Magic Missile]]_, _[[Spells/Ventriloquism|Ventriloquism]]_\n__Cantrips__  __(10th)__ _[[Spells/Ancient Dust|Ancient Dust]]_, _[[Spells/Void Warp|Chill Touch]]_, _[[Spells/Ghost Sound|Ghost Sound]]_, _[[Spells/Produce Flame|Produce Flame]]_, _[[Spells/Read Aura|Read Aura]]_"
 
   - name: "Occult Innate Spells"
     desc: "DC 48, attack +40\n__Constant__  __(5th)__ _[[Spells/Truespeech|Tongues]]_"
 
   - name: "Divine Prepared Spells"
-    desc: "DC 48, attack +40; __7th __  _[[Spells/Eclipse Burst|Eclipse Burst]]_, _[[Spells/Execute|Finger of Death]]_; __6th __  _[[Spells/Blade Barrier|Blade Barrier]]_, _[[Spells/Spirit Blast|Spirit Blast]]_; __5th __  _[[Spells/Blink Charge|Blink Charge]]_, _[[Spells/Wave of Despair|Crushing Despair]]_, _[[Spells/Shadow Blast|Shadow Blast]]_, _[[Spells/Spiritual Torrent|Spiritual Torrent]]_; __4th __  _[[Spells/Dirge of Remembrance|Dirge of Remembrance]]_, _[[Spells/Spell Immunity|Spell Immunity]]_, _[[Spells/Steal Voice|Steal Voice]]_; __3rd __  _[[Spells/Bind Undead|Bind Undead]]_, _[[Spells/Chilling Darkness|Chilling Darkness]]_, _[[Spells/Crisis of Faith|Crisis of Faith]]_, _[[Spells/Dream Message|Dream Message]]_, _[[Spells/Heroism|Heroism]]_; __2nd __  _[[Spells/Blood Vendetta|Blood Vendetta]]_, _[[Spells/Darkness|Darkness]]_, _[[Spells/False Vitality|False Life]]_, _[[Spells/See the Unseen|See Invisibility]]_, _[[Spells/Status|Status]]_; __1st __  _[[Spells/Alarm|Alarm]]_, _[[Spells/Goblin Pox|Goblin Pox]]_, _[[Spells/Harm|Harm]]_, _[[Spells/Enfeeble|Ray of Enfeeblement]]_\n__Cantrips__  __(1st)__ _[[Spells/Daze|Daze]]_, _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Divine Lance|Divine Lance]]_, _[[Spells/Stabilize|Stabilize]]_, _[[Spells/Torturous Trauma|Torturous Trauma]]_"
+    desc: "DC 48, attack +40; __7th __  _[[Spells/Eclipse Burst|Eclipse Burst]]_, _[[Spells/Execute|Finger of Death]]_; __6th __  _[[Spells/Blade Barrier|Blade Barrier]]_, _[[Spells/Spirit Blast|Spirit Blast]]_; __5th __  _[[Spells/Blink Charge|Blink Charge]]_, _[[Spells/Wave of Despair|Crushing Despair]]_, _[[Spells/Shadow Blast|Shadow Blast]]_, _[[Spells/Spiritual Torrent|Spiritual Torrent]]_; __4th __  _[[Spells/Dirge of Remembrance|Dirge of Remembrance]]_, _[[Spells/Spell Immunity|Spell Immunity]]_, _[[Spells/Steal Voice|Steal Voice]]_; __3rd __  _[[Spells/Bind Undead|Bind Undead]]_, _[[Spells/Chilling Darkness|Chilling Darkness]]_, _[[Spells/Crisis of Faith|Crisis of Faith]]_, _[[Spells/Dream Message|Dream Message]]_, _[[Spells/Heroism|Heroism]]_; __2nd __  _[[Spells/Blood Vendetta|Blood Vendetta]]_, _[[Spells/Darkness|Darkness]]_, _[[Spells/False Vitality|False Life]]_, _[[Spells/See the Unseen|See Invisibility]]_, _[[Spells/Status|Status]]_; __1st __  _[[Spells/Alarm|Alarm]]_, _[[Spells/Goblin Pox|Goblin Pox]]_, _[[Spells/Harm|Harm]]_, _[[Spells/Enfeeble|Ray of Enfeeblement]]_\n__Cantrips__  __(10th)__ _[[Spells/Daze|Daze]]_, _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Divine Lance|Divine Lance]]_, _[[Spells/Stabilize|Stabilize]]_, _[[Spells/Torturous Trauma|Torturous Trauma]]_"
 
   - name: "Focus Spells"
-    desc: "3 Focus Points, DC 48, attack +40; __4th __  _[[Spells/Enduring Might|Enduring Might]]_, _[[Spells/Life Siphon|Life Siphon]]_; __1st __  _[[Spells/Athletic Rush|Athletic Rush]]_, _[[Spells/Call of the Grave|Call of the Grave]]_"
+    desc: "3 Focus Points, DC 48, attack +40; __10th __  _[[Spells/Athletic Rush|Athletic Rush]]_, _[[Spells/Call of the Grave|Call of the Grave]]_, _[[Spells/Enduring Might|Enduring Might]]_, _[[Spells/Life Siphon|Life Siphon]]_"
 
   - name: "Rituals"
     desc: "_[[Spells/Create Undead|Create Undead (Doesn't Require Secondary Casters)]]_"
@@ -101,7 +102,7 @@ attacks:
     desc: "`pf2:r`  **Requirements** Kemnebi is aware of the attack, isn't [[Conditions/Off-Guard|Off-Guard]], and has a hand free\n\n**Trigger** Kemnebi is the target of a physical ranged attack or ranged spell attack\n* * *\n\n**Effect** Kemnebi gains a +4 circumstance bonus to AC against the triggering attack. If the attack misses, Kemnebi has deflected it. He can't use this reaction to deflect unusually massive ranged projectiles (such as boulders or ballista bolts)."
 
   - name: "[[Creature Family Ability Glossary/(Vampire, Vetalarana, Manipulator) Drain Thoughts|Drain Thoughts]]"
-    desc: "`pf2:1` (occult) **Requirements** A [[Conditions/Grabbed|Grabbed]], [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Restrained|Restrained]], [[Conditions/Unconscious|Unconscious]], or willing creature is within Kemnebi's reach\n* * *\n\n**Effect** Kemnebi seizes a creature and consumes its memories. This requires an Athletics check check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is [[Conditions/Stupefied 1|Stupefied 2]] and Kemnebi regains 35 HP, gaining any excess HP as temporary Hit Points. Draining Thoughts from a creature that's already stupefied doesn't restore any HP to Kemnebi but increases the victim's stupefied value by 2. Additionally, Kemnebi views one of the victim's memories and can choose to alter, enhance, or erase the memory he views as 4th- level [[Spells/Rewrite Memory|Rewrite Memory]].\n\nA victim's stupefied condition value decreases by 1 every week.\n\nA victim who becomes [[Conditions/Stupefied 1|Stupefied 5]] in this way is rendered comatose, becoming permanently unconscious. As long as Kemnebi lives, a comatose victim can't regain consciousness, and its stupefied condition doesn't decrease."
+    desc: "`pf2:1` (occult) **Requirements** A [[Conditions/Grabbed|Grabbed]], [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Restrained|Restrained]], [[Conditions/Unconscious|Unconscious]], or willing creature is within Kemnebi's reach\n* * *\n\n**Effect** Kemnebi seizes a creature and consumes its memories. This requires an Athletics check check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is [[Conditions/Stupefied|Stupefied 2]] and Kemnebi regains 35 HP, gaining any excess HP as temporary Hit Points. Draining Thoughts from a creature that's already stupefied doesn't restore any HP to Kemnebi but increases the victim's stupefied value by 2. Additionally, Kemnebi views one of the victim's memories and can choose to alter, enhance, or erase the memory he views as 4th- level [[Spells/Rewrite Memory|Rewrite Memory]].\n\nA victim's stupefied condition value decreases by 1 every week.\n\nA victim who becomes [[Conditions/Stupefied|Stupefied 5]] in this way is rendered comatose, becoming permanently unconscious. As long as Kemnebi lives, a comatose victim can't regain consciousness, and its stupefied condition doesn't decrease."
 
   - name: "Flurry of Blows"
     desc: "`pf2:1`  **Frequency** once per round\n* * *\n\n**Effect** Kemnebi makes two claw Strikes. If both hit the same creature, combine their damage for the purposes of resistances and weaknesses. Kemnebi applies his multiple attack penalty to the Strikes normally."

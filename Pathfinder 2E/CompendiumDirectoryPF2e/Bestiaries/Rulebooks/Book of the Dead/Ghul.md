@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/ghul
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Ghul"
@@ -28,12 +29,12 @@ level: "Creature 5"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "genie"
-trait_04: "ghul"
-trait_05: "undead"
-trait_06: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[genie]]
+trait_04: [[ghul]]
+trait_05: [[undead]]
+trait_06: [[unholy]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -72,10 +73,10 @@ attacks:
     desc: "`pf2:1` (concentrate,polymorph,primal) The ghul takes on the appearance of a Small or Medium [[Bestiary 1/Hyena|Hyena]]. This doesn't change its Speed or Strikes. Effects or abilities that detect the presence of undead don't reveal the ghul as an undead while in this form.\n\n* * *\n"
 
   - name: "Devour Flesh"
-    desc: "`pf2:2` (manipulate) **Requirements** The ghul has a creature [[Conditions/Grabbed|Grabbed]] or [[Conditions/Restrained|Restrained]]\n* * *\n\n**Effect** The ghul attempts to eat a portion of the grabbed creature's flesh. It makes a jaws Strike against the grabbed creature. On a success, the ghul successfully devours some of the flesh and regains 3d6 Hit Points. The grabbed creature becomes [[Conditions/Drained 1|Drained 1]] (or [[Conditions/Drained 1|Drained 2]] if the jaws Strike was a critical success). The violent consumption requires the ghul to release the creature as it feasts. A ghul can regain Hit Points from consuming the flesh of a given creature only once per hour; it must consume the flesh of a different creature to gain additional Hit Points during this time."
+    desc: "`pf2:2` (manipulate) **Requirements** The ghul has a creature [[Conditions/Grabbed|Grabbed]] or [[Conditions/Restrained|Restrained]]\n* * *\n\n**Effect** The ghul attempts to eat a portion of the grabbed creature's flesh. It makes a jaws Strike against the grabbed creature. On a success, the ghul successfully devours some of the flesh and regains 3d6 Hit Points. The grabbed creature becomes [[Conditions/Drained|Drained 1]] (or [[Conditions/Drained|Drained 2]] if the jaws Strike was a critical success). The violent consumption requires the ghul to release the creature as it feasts. A ghul can regain Hit Points from consuming the flesh of a given creature only once per hour; it must consume the flesh of a different creature to gain additional Hit Points during this time."
 
   - name: "Luring Laugh"
-    desc: "`pf2:2` (incapacitation,mental,primal) **Requirements** The ghul is in its hyena shape\n* * *\n\n**Effect** The ghul lets out an alluring chitter. Each creature in a 60-foot emanation must succeed at a DC 19 Will check save or become [[Conditions/Fascinated|Fascinated]], [[Conditions/Off-Guard|Off-Guard]], and compelled to move toward the ghul on the creature's turn. The effect lasts until the end of the ghul's next turn, but the ghul can [[Actions/Sustain|Sustain a Spell]] on Luring Laugh. If the ghul attacks, the fascinated condition ends for only the creature that's attacked. On a successful save, a creature is temporarily immune to Luring Laugh for 24 hours."
+    desc: "`pf2:2` (incapacitation,mental,primal) **Requirements** The ghul is in its hyena shape\n* * *\n\n**Effect** The ghul lets out an alluring chitter. Each creature in a @Template[emanation|distance:60] must succeed at a DC 19 Will check save or become [[Conditions/Fascinated|Fascinated]], [[Conditions/Off-Guard|Off-Guard]], and compelled to move toward the ghul on the creature's turn. The effect lasts until the end of the ghul's next turn, but the ghul can [[Actions/Sustain|Sustain a Spell]] on Luring Laugh. If the ghul attacks, the fascinated condition ends for only the creature that's attacked. On a successful save, a creature is temporarily immune to Luring Laugh for 24 hours."
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

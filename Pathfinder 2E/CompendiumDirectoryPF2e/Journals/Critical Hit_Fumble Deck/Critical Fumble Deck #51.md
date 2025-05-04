@@ -8,7 +8,7 @@ tags:
 ---
 # Fog of War
 
-> You are [[Other Effects/Effect\_ Dazzled until end of your next turn|Effect: Dazzled until end of your next turn]].
+> You are [[Other Effects/Effect_ Dazzled until end of your next turn|Effect: Dazzled until end of your next turn]].
 
 `Melee`
 

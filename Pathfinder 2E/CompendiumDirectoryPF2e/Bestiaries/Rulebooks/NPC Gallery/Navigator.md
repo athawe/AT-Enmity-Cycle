@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.8coHofIpLa5ZnjAF"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Navigator"
@@ -24,8 +25,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +6, Nature: +11, Sailing Lore: +14, Society: +8, Survival: +9"
+    desc: "Acrobatics: +6, Nature: +11, Society: +8, Survival: +9, Sailing Lore: +14"
 abilityMods: [0, 2, 1, 4, 3, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

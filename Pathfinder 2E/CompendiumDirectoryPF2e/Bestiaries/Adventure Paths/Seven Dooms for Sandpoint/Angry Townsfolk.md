@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/troop
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Angry Townsfolk"
@@ -26,10 +27,10 @@ level: "Creature 5"
 
 alignment: ""
 size: "grg"
-trait_01: "human"
-trait_02: "humanoid"
-trait_03: "lawful"
-trait_04: "troop"
+trait_01: [[human]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
+trait_04: [[troop]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -68,7 +69,7 @@ attacks:
   - name: ""
 
   - name: "Pitchforks and Torches"
-    desc: "`pf2:1`  `pf2:1` to `pf2:3`\n\n**Frequency** once per round.\n* * *\n\n**Effect** The angry townsfolk engage in a coordinated melee attack against each enemy within 10 feet, with a DC 19 Reflex check save. The damage depends on the number of actions.\n\n`pf2:1` 1d10 piercing damage or 1d10 fire damage\n\n`pf2:2` 1d10 + 7 piercing damage or 1d10 + 7 fire damage\n\n`pf2:3` 1d10 + 10 piercing damage or 1d10 + 10 fire damage"
+    desc: "`pf2:1`  `pf2:1` to `pf2:3`\n\n**Frequency** once per round.\n* * *\n\n**Effect** The angry townsfolk engage in a coordinated melee attack against each enemy within 10 feet, with a DC 19 Reflex check save. The damage depends on the number of actions.\n\n`pf2:1` 1d10 piercing damage or 1d10 fire damage\n\n`pf2:2` 1d10+7 piercing damage or 1d10+7 fire damage\n\n`pf2:3` 1d10+10 piercing damage or 1d10+10 fire damage"
 
   - name: "Troop Movement"
     desc: "  Whenever the city guards Stride, they first [[Bestiary Ability Glossary/Form Up|Form Up]] as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then move up to their Speed.\n\nThis works just like a Gargantuan creature moving; for instance, if any square of the guards enters difficult terrain, the extra movement cost applies to all the guards."

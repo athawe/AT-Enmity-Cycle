@@ -29,7 +29,9 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
-**Area** 30-foot emanation
+
+  - name: "Area"
+    desc: "30-foot emanation"
   - name: "Defense"
     desc: "basic will"
 abilities_mid:

@@ -14,6 +14,7 @@ tags:
   - pf2e/creature/type/fire
   - pf2e/creature/type/poison
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/24
 statblock: inline
 name: "Manifestation Of Dahak"
@@ -28,18 +29,18 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #150: Broken Promises"
 name: "Manifestation Of Dahak"
 level: "Creature 24"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "grg"
-trait_01: "acid"
-trait_02: "chaotic"
-trait_03: "cold"
-trait_04: "dragon"
-trait_05: "electricity"
-trait_06: "evil"
-trait_07: "fire"
-trait_08: "poison"
-trait_09: "unholy"
+trait_01: [[acid]]
+trait_02: [[chaotic]]
+trait_03: [[cold]]
+trait_04: [[dragon]]
+trait_05: [[electricity]]
+trait_06: [[evil]]
+trait_07: [[fire]]
+trait_08: [[poison]]
+trait_09: [[unholy]]
 modifier: 46
 perception:
   - name: "Perception"
@@ -47,7 +48,7 @@ perception:
 languages: "Chthonian, Common, Diabolic, Draconic, Elven, Empyrean, Fey, Jotun, Orcish; telepathy 200 feet"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +38, Arcana: +45, Athletics: +45, Deception: +45, Diplomacy: +48, Dragon Lore: +48, Intimidation: +48, Occultism: +40, Religion: +40, Society: +38"
+    desc: "Acrobatics: +38, Arcana: +45, Athletics: +45, Deception: +45, Diplomacy: +48, Intimidation: +48, Occultism: +40, Religion: +40, Society: +38, Dragon Lore: +48"
 abilityMods: [12, 8, 10, 8, 8, 9]
 speed: 60 feet,  fly 200 feet
 sourcebook: "_Pathfinder #150: Broken Promises_"
@@ -99,7 +100,7 @@ attacks:
     desc: "`pf2:1` Wing +43 (agile, magical, reach 20 feet)\n__Damage__  8d8 + 8 slashing"
 
   - name: "Prepared Divine Spells"
-    desc: "DC 48, attack +44; __10th __  _[[Spells/Miracle|Miracle]]_; __9th __  _[[Spells/Massacre|Massacre]]_, _[[Spells/Telepathic Demand|Telepathic Demand]]_; __7th __  _[[Spells/Eclipse Burst|Eclipse Burst]]_, _[[Spells/Execute|Finger of Death]]_; __6th __  _[[Spells/Blade Barrier|Blade Barrier]]_, _[[Spells/Spirit Blast|Spirit Blast]]_; __5th __  _[[Spells/Abyssal Plague|Abyssal Plague]]_, _[[Spells/Drop Dead|Drop Dead]]_; __4th __  _[[Spells/Divine Wrath|Divine Wrath]]_; __3rd __  _[[Spells/Blindness|Blindness]]_, _[[Spells/Chilling Darkness|Chilling Darkness]]_, _[[Spells/Vampiric Feast|Vampiric Touch]]_; __2nd __  _[[Spells/Dispel Magic|Dispel Magic]]_, _[[Spells/See the Unseen|See Invisibility]]_; __1st __  _[[Spells/Command|Command]]_, _[[Spells/Harm|Harm]]_, _[[Spells/Heal|Heal]]_, _[[Spells/Enfeeble|Ray of Enfeeblement]]_\n__Cantrips__  __(1st)__ _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Divine Lance|Divine Lance]]_, _[[Spells/Guidance|Guidance]]_, _[[Spells/Read Aura|Read Aura]]_, _[[Spells/Shield|Shield]]_"
+    desc: "DC 48, attack +44; __10th __  _[[Spells/Miracle|Miracle]]_; __9th __  _[[Spells/Massacre|Massacre]]_, _[[Spells/Telepathic Demand|Telepathic Demand]]_; __7th __  _[[Spells/Eclipse Burst|Eclipse Burst]]_, _[[Spells/Execute|Finger of Death]]_; __6th __  _[[Spells/Blade Barrier|Blade Barrier]]_, _[[Spells/Spirit Blast|Spirit Blast]]_; __5th __  _[[Spells/Abyssal Plague|Abyssal Plague]]_, _[[Spells/Drop Dead|Drop Dead]]_; __4th __  _[[Spells/Divine Wrath|Divine Wrath]]_; __3rd __  _[[Spells/Blindness|Blindness]]_, _[[Spells/Chilling Darkness|Chilling Darkness]]_, _[[Spells/Vampiric Feast|Vampiric Touch]]_; __2nd __  _[[Spells/Dispel Magic|Dispel Magic]]_, _[[Spells/See the Unseen|See Invisibility]]_; __1st __  _[[Spells/Command|Command]]_, _[[Spells/Harm|Harm]]_, _[[Spells/Heal|Heal]]_, _[[Spells/Enfeeble|Ray of Enfeeblement]]_\n__Cantrips__  __(10th)__ _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Divine Lance|Divine Lance]]_, _[[Spells/Guidance|Guidance]]_, _[[Spells/Read Aura|Read Aura]]_, _[[Spells/Shield|Shield]]_"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
     desc: "`pf2:1`  2d10+10 bludgeoning damage plus 2d6 fire damage, DC 48 Fortitude check\n\n* * *\n"
@@ -111,10 +112,10 @@ attacks:
     desc: "  The dragon recharges its Breath Weapon whenever it scores a critical hit with a Strike."
 
   - name: "Dragonstorm Breath"
-    desc: "`pf2:2` (divine) The manifestation of Dahak breathes a blast of dragonstorm energy that deals 5d6 acid, 5d6 cold, 5d6 electricity, 5d6 fire, and 5d6 poison damage in a 60-foot cone (DC 48 Reflex check save). It can't use Dragonstorm Breath again for 1d4 rounds."
+    desc: "`pf2:2` (divine) The manifestation of Dahak breathes a blast of dragonstorm energy that deals 5d6 acid, 5d6 cold, 5d6 electricity, 5d6 fire, and 5d6 poison damage in a @Template[cone|distance:60] (DC 48 Reflex check save). It can't use Dragonstorm Breath again for 1d4 rounds."
 
   - name: "Focused Breath Weapon"
-    desc: "`pf2:1` (divine) The manifestation breathes a blast of energy that deals 12d12 damage in a 90-foot line (DC 44 Reflex check save). The type of damage this Breath Weapon deals can be acid, cold, electricity, fire, or poison, as chosen by the manifestation when it attacks. The manifestation can't use its focused Breath Weapon again for 2 rounds, and the next time it uses its Breath Weapon, it must deal a different type of damage than the previous usage."
+    desc: "`pf2:1` (divine) The manifestation breathes a blast of energy that deals 12d12 damage in a @Template[line|distance:90] (DC 44 Reflex check save). The type of damage this Breath Weapon deals can be acid, cold, electricity, fire, or poison, as chosen by the manifestation when it attacks. The manifestation can't use its focused Breath Weapon again for 2 rounds, and the next time it uses its Breath Weapon, it must deal a different type of damage than the previous usage."
  
 ```
 

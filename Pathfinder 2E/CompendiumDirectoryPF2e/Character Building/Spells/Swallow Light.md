@@ -32,8 +32,7 @@ abilities_top:
   - name: "Traditions"
     desc: "arcane, divine, occult"
   - name: "Range"
-    desc: "30 feet; **Area** 15-foot cone
-; **Targets** 1 magical light effect"
+    desc: "30 feet; **Area** 15-foot cone; **Targets** 1 magical light effect"
   - name: "Defense"
     desc: "basic reflex"
   - name: "Duration"

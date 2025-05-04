@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Jaggaki"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #147: Tomorrow Must Burn"
 name: "Jaggaki"
 level: "Creature 13"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Jotun, Necril"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +19, Arcana: +27, Athletics: +25, Intimidation: +23, Stealth: +21 (+25 in Rocky Terrain)"
+    desc: "Acrobatics: +19, Arcana: +27, Athletics: +25, Intimidation: +23, Stealth: +21"
 abilityMods: [6, 2, 4, 5, 3, 4]
 speed: 35 feet
 sourcebook: "_Pathfinder #147: Tomorrow Must Burn_"
@@ -47,7 +48,7 @@ hp: 200
 health:
   - name: ""
   - name: HP
-    desc: "200, void healing, rejuvenation; __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious; __Resistances__ cold 20, physical 15 (except bludgeoning)"
+    desc: "200, void healing, rejuvenation; __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious; __Resistances__ cold 20, physical 15 (except magical bludgeoning)"
 abilities_top:
   - name: ""
   - name: "Items"

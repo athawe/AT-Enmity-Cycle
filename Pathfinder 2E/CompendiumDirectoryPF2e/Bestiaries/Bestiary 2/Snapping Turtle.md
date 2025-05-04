@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.UcUlBj3brC80A8gq" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Snapping Turtle"
@@ -23,7 +24,7 @@ level: "Creature -1"
 
 alignment: ""
 size: "tiny"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 3
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +5, Stealth: +3 (+5 in Water)"
+    desc: "Athletics: +5, Stealth: +3"
 abilityMods: [1, -1, 4, -4, 1, -2]
 speed: 10 feet,  swim 20 feet
 sourcebook: "_Pathfinder Bestiary 2_"

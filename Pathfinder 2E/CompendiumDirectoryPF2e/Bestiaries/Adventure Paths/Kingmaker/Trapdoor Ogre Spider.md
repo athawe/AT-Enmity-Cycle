@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.1ZKOTqqzeorIv7BB" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Trapdoor Ogre Spider"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Trapdoor Ogre Spider"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "huge"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ attacks:
     desc: "  A trapdoor ogre spider can fit through tight spaces as if it were a Large creature. While [[Actions/Squeeze|Squeezing]], it can move at its full speed."
 
   - name: "Ogre Spider Venom"
-    desc: " (poison) **Saving Throw** DC 22 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage (1 round)\n\n**Stage 2** 1d6 poison damage, [[Conditions/Clumsy 1|Clumsy 1]], and [[Conditions/Off-Guard|Off-Guard]] (1 round)\n\n**Stage 3** 2d6 poison damage, clumsy 1, and off-guard (1 round)\n\n**Stage 4** 2d6 poison and [[Conditions/Paralyzed|Paralyzed]] (1 round)."
+    desc: " (poison) **Saving Throw** DC 22 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage (1 round)\n\n**Stage 2** 1d6 poison damage, [[Conditions/Clumsy|Clumsy 1]], and [[Conditions/Off-Guard|Off-Guard]] (1 round)\n\n**Stage 3** 2d6 poison damage, clumsy 1, and off-guard (1 round)\n\n**Stage 4** 2d6 poison and [[Conditions/Paralyzed|Paralyzed]] (1 round)."
  
 ```
 

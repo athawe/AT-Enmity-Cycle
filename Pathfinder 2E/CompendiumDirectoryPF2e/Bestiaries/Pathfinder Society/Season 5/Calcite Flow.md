@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #5-13: Thick as Thieves
 aliases: "Compendium.pf2e.pfs-season-5-bestiary.Actor.EXCvJfoQBmlKGWeR" 
@@ -21,7 +22,7 @@ name: "Calcite Flow"
 level: "Hazard 7"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 11
 sourcebook: "_Pathfinder Society Scenario #5-13: Thick as Thieves_"
 perception:

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/earth
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Duende"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Duende"
 level: "Creature 2"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "earth"
-trait_03: "fey"
+trait_01: [[chaotic]]
+trait_02: [[earth]]
+trait_03: [[fey]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Fey, Gnomish, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Farming Lore: +7, Intimidation: +8, Labor Lore: +7, Society: +7, Survival: +9"
+    desc: "Intimidation: +8, Society: +7, Survival: +9, Farming Lore: +7, Labor Lore: +7"
 abilityMods: [1, 3, 2, 1, 3, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"

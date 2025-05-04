@@ -27,8 +27,7 @@ abilities_top:
   - name: "Traditions"
     desc: "primal"
   - name: "Range"
-    desc: "30 feet; **Area** 5-foot burst
-"
+    desc: "30 feet; **Area** 5-foot burst"
   - name: "Duration"
     desc: "1 minute"
 abilities_mid:

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/lawful
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "King of Biting Ants"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #173: Doorway to the Red Star"
 name: "King of Biting Ants"
 level: "Creature 19"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "evil"
-trait_03: "lawful"
-trait_04: "swarm"
+trait_01: [[aberration]]
+trait_02: [[evil]]
+trait_03: [[lawful]]
+trait_04: [[swarm]]
 modifier: 32
 perception:
   - name: "Perception"
@@ -53,7 +54,7 @@ health:
 abilities_top:
   - name: ""
   - name: "Items"
-    desc: "[[Equipment/Wand of Shardstorm (7th-Rank Spell)|Wand of Manifold Missiles (7th-Level Spell)]]"
+    desc: "[[Equipment/Wand of Shardstorm (7th-Rank Spell)|Wand of Manifold Missiles (7th-Rank Spell)]]"
 abilities_mid:
   - name: ""
   - name: "Counterspell"
@@ -78,7 +79,7 @@ attacks:
     desc: "`pf2:1` (concentrate) The King of Biting Ants collapses into a shapeless swarm of ants. He drops all held, worn, and carried items.\n\nWhile discorporated, The King of Biting Ants can't use attack actions and can't cast spells, but he can move through areas small enough for his individual ants to fit without having to Squeeze. He can use the same action to coalesce back into his normal form."
 
   - name: "Swarming Bites"
-    desc: "  While a creature is taking persistent piercing damage from the King of Biting Ants's tendril Strike or Squirming Embrace, or while within a [[Spells/Visions of Danger|Visions of Danger]] area that it has not disbelieved, it is also [[Conditions/Clumsy 1|Clumsy 1]].\n\nIf the creature attempts a concentrate or manipulate action while affected, it must succeed at a DC 5 Flat check or the action is lost; roll the check after spending the action, but before any effects are applied."
+    desc: "  While a creature is taking persistent piercing damage from the King of Biting Ants's tendril Strike or Squirming Embrace, or while within a [[Spells/Visions of Danger|Visions of Danger]] area that it has not disbelieved, it is also [[Conditions/Clumsy|Clumsy 1]].\n\nIf the creature attempts a concentrate or manipulate action while affected, it must succeed at a DC 5 Flat check or the action is lost; roll the check after spending the action, but before any effects are applied."
  
 ```
 

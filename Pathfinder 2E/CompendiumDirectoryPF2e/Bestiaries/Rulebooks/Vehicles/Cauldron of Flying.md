@@ -5,6 +5,7 @@ noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
   - magical
+  - pf2eVehicle
 
 source: Pathfinder #182: Graveclaw
 aliases: "Compendium.pf2e.vehicles.Actor.WXwFZ3DrLe2PchNf" 
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #182: Graveclaw"
 name: "Cauldron of Flying"
 level: "Vehicle 6"
-rare_03: "Rare"
+rare_03: [[Rare]]
 
 size: "Medium"
-trait_01: "magical"
+trait_01: [[magical]]
 modifier: 
 perception:
   - name: ""

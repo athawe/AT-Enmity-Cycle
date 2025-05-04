@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.loYbh3SealeYmxai" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/6
   - remaster
 statblock: inline
@@ -24,7 +25,7 @@ level: "Creature 6"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -66,10 +67,10 @@ attacks:
     desc: "`pf2:1` Foot +16 ()\n__Damage__  2d8 + 6 bludgeoning"
 
   - name: "Rhinoceros Charge"
-    desc: "`pf2:2`  The woolly rhinoceros Strides twice, then makes a horn Strike. As long as the woolly rhinoceros moved at least 20 feet, the Strike's damage increases to 3d12 + 6 piercing damage. A Medium or smaller creature struck by this attack must succeed at a DC 24 Reflex check save or be automatically [[Actions/Shove|Shoved]] back 5 feet and knocked [[Conditions/Prone|Prone]] by the force of the blow."
+    desc: "`pf2:2`  The woolly rhinoceros Strides twice, then makes a horn Strike. As long as the woolly rhinoceros moved at least 20 feet, the Strike's damage increases to 3d12+6 piercing damage. A Medium or smaller creature struck by this attack must succeed at a DC 24 Reflex check save or be automatically [[Actions/Shove|Shoved]] back 5 feet and knocked [[Conditions/Prone|Prone]] by the force of the blow."
 
   - name: "[[Bestiary Ability Glossary/Trample|Trample]]"
-    desc: "`pf2:3`  Medium or smaller, DC 21 Reflex check\n\n* * *\n"
+    desc: "`pf2:3`  Medium or smaller, foot, DC 21 Reflex check\n\n* * *\n"
  
 ```
 

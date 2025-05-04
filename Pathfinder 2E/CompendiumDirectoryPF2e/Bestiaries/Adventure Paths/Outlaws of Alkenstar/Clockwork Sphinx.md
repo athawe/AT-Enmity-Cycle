@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/clockwork
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Clockwork Sphinx"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #179: Cradle of Quartz"
 name: "Clockwork Sphinx"
 level: "Creature 8"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "clockwork"
-trait_02: "construct"
-trait_03: "mindless"
+trait_01: [[clockwork]]
+trait_02: [[construct]]
+trait_03: [[mindless]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -57,7 +58,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Self-Destruct"
-    desc: " (arcane,aura) When a clockwork sphinx is reduced to 0 Hit Points, it collapses and emits a steady ticking sound. At the beginning of what would've been its next turn, the sphinx explodes into a 20-foot emanation of shrapnel, dealing 6d10 piercing damage (DC 26 Reflex check). An adjacent creature can cancel the self-destruct sequence by succeeding at a DC 26 Thievery check check to [[Actions/Disable a Device|Disable a Device]] at any point before the sphinx explodes, but on a critical failure, it explodes immediately."
+    desc: " (arcane,aura) When a clockwork sphinx is reduced to 0 Hit Points, it collapses and emits a steady ticking sound. At the beginning of what would've been its next turn, the sphinx explodes into a @Template[emanation|distance:20] of shrapnel, dealing 6d10 piercing damage (DC 26 Reflex check). An adjacent creature can cancel the self-destruct sequence by succeeding at a DC 26 Thievery check check to [[Actions/Disable a Device|Disable a Device]] at any point before the sphinx explodes, but on a critical failure, it explodes immediately."
 
 attacks:
   - name: ""

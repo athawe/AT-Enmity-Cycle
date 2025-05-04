@@ -66,12 +66,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Zindarel
-creatures:
-  - 1: Zindarel
-```
-
 
 
 

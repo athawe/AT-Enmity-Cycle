@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aeon
   - pf2e/creature/type/lawful
   - pf2e/creature/type/monitor
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Pleroma"
@@ -25,9 +26,9 @@ level: "Creature 20"
 
 alignment: ""
 size: "Large"
-trait_01: "aeon"
-trait_02: "lawful"
-trait_03: "monitor"
+trait_01: [[aeon]]
+trait_02: [[lawful]]
+trait_03: [[monitor]]
 modifier: 37
 perception:
   - name: "Perception"

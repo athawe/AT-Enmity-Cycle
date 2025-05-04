@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Unshadowed Okoro"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #174: Shadows of the Ancients"
 name: "Unshadowed Okoro"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Draconic, Elven, Petran"
 skills:
   - name: "Skills"
-    desc: "Academia Lore: +33, Athletics: +31, Deception: +35, Diplomacy: +35, Games Lore: +31, Occultism: +35, Performance: +31, Stealth: +29"
+    desc: "Athletics: +31, Deception: +35, Diplomacy: +35, Occultism: +35, Performance: +31, Stealth: +29, Academia Lore: +33, Games Lore: +31"
 abilityMods: [2, 3, 3, 4, 3, 5]
 speed: 25 feet
 sourcebook: "_Pathfinder #174: Shadows of the Ancients_"
@@ -57,7 +58,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Shadow's Displeasure"
-    desc: "  When Okoro has fewer than 150 Hit Points, his shadow pulls at his essence to show the _Vesicant Egg's_ displeasure. He looks pained and confused, and he becomes [[Conditions/Clumsy 1|Clumsy 1]] and [[Conditions/Stupefied 1|Stupefied 1]] until healed to 150 Hit Points or more. These conditions increase to 2 when below 100 Hit Points. When below 50 Hit Points, he falls [[Conditions/Unconscious|Unconscious]]."
+    desc: "  When Okoro has fewer than 150 Hit Points, his shadow pulls at his essence to show the _Vesicant Egg's_ displeasure. He looks pained and confused, and he becomes [[Conditions/Clumsy|Clumsy 1]] and [[Conditions/Stupefied|Stupefied 1]] until healed to 150 Hit Points or more. These conditions increase to 2 when below 100 Hit Points. When below 50 Hit Points, he falls [[Conditions/Unconscious|Unconscious]]."
 
   - name: "Vesicated Shadow"
     desc: "  Okoro's shadow has become corrupted via the power of the _Vesicant Egg_. His shredded shadow grants him some control over acid and shadows. He gains a +4 status bonus to resist acid and shadow effects."

@@ -32,7 +32,11 @@ abilities_top:
     desc: "2 days; **Cost** candles, specialty salts, and rare herbs worth 80 gp total;; **Secondary Casters** 1"
   - name: "Primary Check"
     desc: "Arcana or Occultism (expert); **Secondary Checks** Deception"
-**Targets** 1 square mile  - name: "Duration"
+
+  - name: "Targets"
+
+    desc: "1 square mile"
+  - name: "Duration"
     desc: "1 year"
 abilities_mid:
   - name: ""

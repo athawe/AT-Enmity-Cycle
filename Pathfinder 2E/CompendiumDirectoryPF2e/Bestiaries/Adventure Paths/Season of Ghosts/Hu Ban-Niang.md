@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Hu Ban-Niang"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #196: The Summer That Never Was"
 name: "Hu Ban-Niang"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
-trait_03: "lawful"
+trait_01: [[human]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -64,7 +65,7 @@ abilities_mid:
     desc: "  If Granny Hu succeeds at a save against a fear effect, she gets a critical success instead."
 
   - name: "Want to Try Me?"
-    desc: "`pf2:r` (auditory,emotion,fear,mental) **Trigger** A creature within 30 feet attempts to [[Actions/Coerce|Coerce]] or [[Actions/Demoralize|Demoralize]] a creature\n* * *\n\n**Effect** Granny Hu threatens to expose a secret of the triggering creature. She attempts an Intimidation check check against the triggering creature's Will DC. Her reputation means she can threaten a PC even if she doesn't actually know a secret, but if she does know an especially dangerous or shameful one, she gains a +2 circumstance bonus to her Intimidation check.\n* * *\n\n**Critical Success** The creature is [[Conditions/Frightened 1|Frightened 2]], and the result of their Coerce or Demoralize attempt is reduced by one degree of success.\n\n**Success** As success, but [[Conditions/Frightened 1|Frightened 1]].\n\n**Failure** The creature is unaffected.\n\n**Critical Failure** The creature is unaffected, gains a +1 circumstance bonus to their Coerce or Demoralize attempt, and is immune to Want to Try Me? for 24 hours."
+    desc: "`pf2:r` (auditory,emotion,fear,mental) **Trigger** A creature within 30 feet attempts to [[Actions/Coerce|Coerce]] or [[Actions/Demoralize|Demoralize]] a creature\n* * *\n\n**Effect** Granny Hu threatens to expose a secret of the triggering creature. She attempts an Intimidation check check against the triggering creature's Will DC. Her reputation means she can threaten a PC even if she doesn't actually know a secret, but if she does know an especially dangerous or shameful one, she gains a +2 circumstance bonus to her Intimidation check.\n* * *\n\n**Critical Success** The creature is [[Conditions/Frightened|Frightened 2]], and the result of their Coerce or Demoralize attempt is reduced by one degree of success.\n\n**Success** As success, but [[Conditions/Frightened|Frightened 1]].\n\n**Failure** The creature is unaffected.\n\n**Critical Failure** The creature is unaffected, gains a +1 circumstance bonus to their Coerce or Demoralize attempt, and is immune to Want to Try Me? for 24 hours."
 
 attacks:
   - name: ""

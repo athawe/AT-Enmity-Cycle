@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Palace Guard (PFS 1-17)"
@@ -26,10 +27,10 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "fey"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[fey]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 14
 perception:
   - name: "Perception"

@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Adventure: The Slithering
 aliases: "Compendium.pf2e.the-slithering-bestiary.Actor.IUAbDA2cbIB4ONlD" 
@@ -22,8 +23,8 @@ name: "Stalker Summoning Rune"
 level: "Hazard 7"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 15
 sourcebook: "_Pathfinder Adventure: The Slithering_"
 perception:

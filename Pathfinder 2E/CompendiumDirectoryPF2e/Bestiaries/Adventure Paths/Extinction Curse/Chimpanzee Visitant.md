@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Chimpanzee Visitant"
@@ -26,10 +27,10 @@ level: "Creature 3"
 
 alignment: ""
 size: "Small"
-trait_01: "animal"
-trait_02: "evil"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[animal]]
+trait_02: [[evil]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -74,7 +75,7 @@ attacks:
     desc: "  The visitant gains a +2 circumstance bonus to damage rolls against a creature it has [[Conditions/Grabbed|Grabbed]]."
 
   - name: "Rabies"
-    desc: " (disease) Visitants can be carriers of diseases, even if they are immune to their effects.\n\n**Saving Throw** DC 16 Fortitude check.\n\n**Stage 1** [[Conditions/Sickened 1|Sickened 1]] (1 day)\n\n**Stage 2** [[Conditions/Sickened 1|Sickened 2]] (1 day)\n\n**Stage 3** [[Spells/Confusion|Confusion]] (1 day)\n\n**Stage 4** dead"
+    desc: " (disease) Visitants can be carriers of diseases, even if they are immune to their effects.\n\n**Saving Throw** DC 16 Fortitude check.\n\n**Stage 1** [[Conditions/Sickened|Sickened 1]] (1 day)\n\n**Stage 2** [[Conditions/Sickened|Sickened 2]] (1 day)\n\n**Stage 3** [[Spells/Confusion|Confusion]] (1 day)\n\n**Stage 4** dead"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

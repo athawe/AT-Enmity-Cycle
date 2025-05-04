@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Barrister"
@@ -25,9 +26,9 @@ level: "Creature -1"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
-trait_03: "lawful"
+trait_01: [[human]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Deception: +10, Diplomacy: +12, Legal Lore: +13, Performance: +10, Society: +9"
+    desc: "Deception: +10, Diplomacy: +12, Performance: +10, Society: +9, Legal Lore: +13"
 abilityMods: [0, 1, 1, 3, 2, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

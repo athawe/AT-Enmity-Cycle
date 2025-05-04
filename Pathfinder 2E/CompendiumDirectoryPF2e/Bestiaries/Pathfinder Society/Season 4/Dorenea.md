@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
   - pf2e/creature/type/zombie
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Dorenea"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bounty #21: Against the Unliving"
 name: "Dorenea"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
-trait_04: "zombie"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
+trait_04: [[zombie]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ abilities_top:
   - name: "Items"
     desc: "6x [[Equipment/Dagger|Dagger]], [[Equipment/Shortsword|Shortsword]], [[Equipment/Leather Armor|Leather Armor]]"
   - name: "Slow"
-    desc: "  Dorenea is permanently [[Conditions/Slowed 1|Slowed 1]] and can't use reactions."
+    desc: "  Dorenea is permanently [[Conditions/Slowed|Slowed 1]] and can't use reactions."
 
 abilities_mid:
   - name: ""

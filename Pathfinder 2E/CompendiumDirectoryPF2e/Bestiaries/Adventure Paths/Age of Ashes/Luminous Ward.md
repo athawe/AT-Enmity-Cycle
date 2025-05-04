@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - magical
+  - pf2eHazard
 
 source: Pathfinder #149: Against the Scarlet Triad
 aliases: "Compendium.pf2e.age-of-ashes-bestiary.Actor.lDgabn0WtDKbLtfc" 
@@ -21,7 +22,7 @@ name: "Luminous Ward"
 level: "Hazard 18"
 
 
-trait_01: "magical"
+trait_01: [[magical]]
 modifier: 30
 sourcebook: "_Pathfinder #149: Against the Scarlet Triad_"
 perception:

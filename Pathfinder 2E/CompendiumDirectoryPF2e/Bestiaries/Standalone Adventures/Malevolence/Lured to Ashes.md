@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
   - complex
 source: Pathfinder Adventure: Malevolence
 aliases: "Compendium.pf2e.malevolence-bestiary.Actor.fQClrtmAe3AER0w2" 
@@ -21,7 +22,7 @@ name: "Lured to Ashes"
 level: "Hazard 5"
 
 trait_06: "Complex"
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 13
 sourcebook: "_Pathfinder Adventure: Malevolence_"
 ac: 22

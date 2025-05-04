@@ -22,7 +22,7 @@ Light always seems to be refracting through this simple prism, creating a hazy m
 
 * * *
 
-**Activate - Jann's Light `pf2:2`** (concentrate)
+**Activate - Jann's Light** `pf2:2` (concentrate)
 
 **Frequency** once per day
 

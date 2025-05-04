@@ -21,7 +21,7 @@ license: OGL
 | **Category** martial ranged weapon | **Group** firearm |
 | **Price** 10 gp |  |
 | **Bulk** 2 | **Size** med |
-|**Range** 40 ft.| **Reload** 1|
+|**Range** 50 ft.| **Reload** 1|
 | **Damage** 1d6 piercing  | **Usage** held-in-two-hands |
 
 

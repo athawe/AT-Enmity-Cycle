@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Sleepless Sun Veteran"
@@ -26,10 +27,10 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[good]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Athletics: +16, Deception: +11, Diplomacy: +13, Intimidation: +13, Law Lore: +10, Society: +12"
+    desc: "Athletics: +16, Deception: +11, Diplomacy: +13, Intimidation: +13, Society: +12, Law Lore: +10"
 abilityMods: [4, 2, 4, 0, 2, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder #160: Assault on Hunting Lodge Seven_"

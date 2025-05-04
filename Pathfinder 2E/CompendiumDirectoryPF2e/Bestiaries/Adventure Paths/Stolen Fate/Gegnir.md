@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/giant
   - pf2e/creature/type/mutant
   - pf2e/creature/type/troll
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Gegnir"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #192: Worst of All Possible Worlds"
 name: "Gegnir"
 level: "Creature 20"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "huge"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "giant"
-trait_04: "mutant"
-trait_05: "troll"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[giant]]
+trait_04: [[mutant]]
+trait_05: [[troll]]
 modifier: 35
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Jotun; tongues"
 skills:
   - name: "Skills"
-    desc: "Athletics: +29, Intimidation: +27"
+    desc: "Athletics: +38, Intimidation: +37, Occultism: +35, Fortune-Telling Lore: +35"
 abilityMods: [10, 4, 10, 2, 7, 4]
 speed: 30 feet,  climb 40 feet
 sourcebook: "_Pathfinder #192: Worst of All Possible Worlds_"
@@ -85,7 +86,7 @@ attacks:
     desc: "DC 39, attack +31; __9th __  _[[Spells/Foresight|Foresight]]_, _[[Spells/Truesight|True Seeing]]_; __8th __  _[[Spells/Confusion|Confusion]]_, _[[Spells/Mind Reading|Mind Reading]]_, _[[Spells/Sure Strike|True Strike (x3)]]_; __2nd __  _[[Spells/Augury|Augury (At Will)]]_\n__Cantrips__  __(10th)__ _[[Spells/Daze|Daze]]_, _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Guidance|Guidance]]_, _[[Spells/Read Aura|Read Aura]]_\n__Constant__  __(9th)__ _[[Spells/Truespeech|Tongues]]_"
 
   - name: "Cacophonous Roar"
-    desc: "`pf2:2` (auditory,emotion,incapacitation,mental,primal) Gegnir emits a cacophonous roar from all his heads with a mystical power that distorts the listener's mind. Each non-troll creature within 100 feet must attempt a DC 42 Will check save. Gegnir can't use Cacophonous Roar for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune to Cacophonous Roar for 24 hours.\n\n**Success** The creature is [[Conditions/Stupefied 1|Stupefied 1]] for 1 round.\n\n**Failure** The creature is [[Conditions/Confused|Confused]] for 1 round.\n\n**Critical Failure** The creature is confused for 1d4 rounds."
+    desc: "`pf2:2` (auditory,emotion,incapacitation,mental,primal) Gegnir emits a cacophonous roar from all his heads with a mystical power that distorts the listener's mind. Each non-troll creature within 100 feet must attempt a DC 42 Will check save. Gegnir can't use Cacophonous Roar for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune to Cacophonous Roar for 24 hours.\n\n**Success** The creature is [[Conditions/Stupefied|Stupefied 1]] for 1 round.\n\n**Failure** The creature is [[Conditions/Confused|Confused]] for 1 round.\n\n**Critical Failure** The creature is confused for 1d4 rounds."
 
   - name: "Fast Swallow"
     desc: "`pf2:r`  **Trigger** Gegnir Grabs a creature with his jaws\n* * *\n\n**Effect** Gegnir uses Swallow Whole."
@@ -103,7 +104,7 @@ attacks:
     desc: "`pf2:1`  Claw\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Medium, 4d12 + 10 bludgeoning damage, Rupture 40\n\n* * *\n"
+    desc: "`pf2:1` (attack) Medium, 4d12+10 bludgeoning damage, Rupture 40\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Throw Rock|Throw Rock]]"
     desc: "`pf2:1`  "

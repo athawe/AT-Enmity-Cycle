@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
 source: Pathfinder Bestiary 3
 aliases: "Compendium.pf2e.vehicles.Actor.t57KE8cj9MdG6Y5H" 
@@ -19,7 +20,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Bone Ship"
 level: "Vehicle 18"
-rare_03: "Rare"
+rare_03: [[Rare]]
 
 size: "Gargantuan"
 modifier: 

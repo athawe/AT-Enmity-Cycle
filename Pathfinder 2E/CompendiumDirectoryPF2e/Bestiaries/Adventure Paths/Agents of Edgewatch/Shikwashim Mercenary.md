@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lizardfolk
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Shikwashim Mercenary"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #159: All or Nothing"
 name: "Shikwashim Mercenary"
 level: "Creature 9"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "lizardfolk"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[lizardfolk]]
 modifier: 18
 perception:
   - name: "Perception"

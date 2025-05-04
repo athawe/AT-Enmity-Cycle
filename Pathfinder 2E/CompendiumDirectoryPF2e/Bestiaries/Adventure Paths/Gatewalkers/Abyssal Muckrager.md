@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/evil
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Abyssal Muckrager"
@@ -27,11 +28,11 @@ level: "Creature 4"
 
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "earth"
-trait_03: "elemental"
-trait_04: "evil"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[earth]]
+trait_03: [[elemental]]
+trait_04: [[evil]]
+trait_05: [[unholy]]
 modifier: 10
 perception:
   - name: "Perception"

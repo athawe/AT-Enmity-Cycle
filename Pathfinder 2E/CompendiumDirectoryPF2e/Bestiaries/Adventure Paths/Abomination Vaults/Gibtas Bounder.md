@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.abomination-vaults-bestiary.Actor.BJYrYqkV7PkXgSfk"
 tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Gibtas Bounder"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #164: Hands of the Devil"
 name: "Gibtas Bounder"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "aberration"
-trait_02: "chaotic"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Aklo; (can&#x27;t speak any language)"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +11, Athletics: +12 (+16 to High Jump or Long Jump), Intimidation: +11, Survival: +11"
+    desc: "Acrobatics: +11, Athletics: +12, Intimidation: +11, Survival: +11"
 abilityMods: [5, 4, 2, -3, 2, 2]
 speed: 30 feet
 sourcebook: "_Pathfinder #164: Hands of the Devil_"

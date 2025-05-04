@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.outlaws-of-alkenstar-bestiary.Actor.5GgDdZKPHB0uJYEu"
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Broken Centurion"
@@ -24,8 +25,8 @@ level: "Creature 9"
 
 alignment: ""
 size: "Medium"
-trait_01: "construct"
-trait_02: "mindless"
+trait_01: [[construct]]
+trait_02: [[mindless]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +23, Athletics: +23"
+    desc: "Acrobatics: +21, Athletics: +21"
 abilityMods: [6, 6, 5, -5, 2, -5]
 speed: 40 feet
 sourcebook: "_Pathfinder #180: The Smoking Gun_"
@@ -67,7 +68,7 @@ attacks:
     desc: "`pf2:1` Cannon +23 (concussive, fatal d8, range increment 60 feet)\n__Damage__  3d6 + 4 piercing"
 
   - name: "Hurl Blade"
-    desc: "`pf2:2`  The spiral centurion hurls one of its blades with an angled spin to ensure a swooping flight path. The blade deals 6d6 slashing damage to each creature in a 40-foot line (DC 30 Reflex check save).\n\nAt the start of the spiral centurion's next turn, the blade swoops around and returns along the same flight path, again dealing 6d6 slashing damage (DC 30 Reflex check save) to each creature along the same line."
+    desc: "`pf2:2`  The spiral centurion hurls one of its blades with an angled spin to ensure a swooping flight path. The blade deals 6d6 slashing damage to each creature in a @Template[line|distance:40] (DC 30 Reflex check save).\n\nAt the start of the spiral centurion's next turn, the blade swoops around and returns along the same flight path, again dealing 6d6 slashing damage (DC 30 Reflex check save) to each creature along the same line."
 
   - name: "Reload Guns"
     desc: "`pf2:1`  The spiral centurion loads ammo into its many guns."

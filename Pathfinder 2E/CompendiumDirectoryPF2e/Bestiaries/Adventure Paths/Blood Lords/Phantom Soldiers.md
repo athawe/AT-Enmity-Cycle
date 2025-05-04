@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
 
 source: Pathfinder #186: Ghost King&#x27;s Rage
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.IDfaWPdUjUmjiDvj" 
@@ -21,7 +22,7 @@ name: "Phantom Soldiers"
 level: "Hazard 18"
 
 
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 35
 sourcebook: "_Pathfinder #186: Ghost King's Rage_"
 perception:

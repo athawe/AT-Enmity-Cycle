@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/lawful
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Swordkeeper"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Swordkeeper"
 level: "Creature 10"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "construct"
-trait_02: "lawful"
-trait_03: "mindless"
+trait_01: [[construct]]
+trait_02: [[lawful]]
+trait_03: [[mindless]]
 modifier: 20
 perception:
   - name: "Perception"
@@ -53,7 +54,7 @@ abilities_top:
   - name: "Items"
     desc: "[[Equipment/Longsword|+1 Striking Vitalizing Longsword]]"
   - name: "Central Weapon"
-    desc: "  A swordkeeper's torso houses a single weapon of a level no higher than the swordkeeper. While the swordkeeper is operational, the chamber requires four successful DC 32 Thievery check checks to [[Actions/Disable a Device|Disable a Device]] to open; on a critical failure, the backlash deals 6d6 force damage (DC 30 Reflex check save) to the creature attempting the check.\n\nIf the swordkeeper is [[Conditions/Immobilized|Immobilized]], [[Conditions/Grabbed|Grabbed]], [[Conditions/Prone|Prone]], or [[Conditions/Stunned 1|Stunned]], both DCs are reduced by 2.\n\nIf the weapon is removed, the swordkeeper's echoblades vanish."
+    desc: "  A swordkeeper's torso houses a single weapon of a level no higher than the swordkeeper. While the swordkeeper is operational, the chamber requires four successful DC 32 Thievery check checks to [[Actions/Disable a Device|Disable a Device]] to open; on a critical failure, the backlash deals 6d6 force damage (DC 30 Reflex check save) to the creature attempting the check.\n\nIf the swordkeeper is [[Conditions/Immobilized|Immobilized]], [[Conditions/Grabbed|Grabbed]], [[Conditions/Prone|Prone]], or [[Conditions/Stunned|Stunned]], both DCs are reduced by 2.\n\nIf the weapon is removed, the swordkeeper's echoblades vanish."
 
 abilities_mid:
   - name: ""
@@ -73,7 +74,7 @@ attacks:
     desc: "`pf2:1` Echoblade +23 (agile, magical, thrown 30 ft.)\n__Damage__  2d8 + 13 slashing 1d8 force"
 
   - name: "Colossal Echo"
-    desc: "`pf2:2` (force) **Requirements** The swordkeeper has a central weapon\n* * *\n\n**Effect** The swordkeeper projects a massive echoblade held in all four hands, dealing 9d8 force damage to all creatures in a 30-foot line (DC 30 Reflex check save).\n\nIt can't use Colossal Echo again for 1d4 rounds."
+    desc: "`pf2:2` (force) **Requirements** The swordkeeper has a central weapon\n* * *\n\n**Effect** The swordkeeper projects a massive echoblade held in all four hands, dealing 9d8 force damage to all creatures in a @Template[line|distance:30] (DC 30 Reflex check save).\n\nIt can't use Colossal Echo again for 1d4 rounds."
 
   - name: "Echoblade Flurry"
     desc: "`pf2:1`  **Frequency** once per round\n* * *\n\n**Effect** The swordkeeper makes two melee Echoblade Strikes. If both Strikes hit the same creature, combine their damage for the purpose of resistances and weakness. Apply the swordkeeper's multiple attack penalty normally."

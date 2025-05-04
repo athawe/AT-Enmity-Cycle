@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #200: Seven Dooms for Sandpoint
 aliases: "Compendium.pf2e.seven-dooms-for-sandpoint-bestiary.Actor.CPDU21UvJNe032TJ" 
@@ -22,14 +23,14 @@ name: "Skulls of Fear and Flame"
 level: "Hazard 7"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 17
 sourcebook: "_Pathfinder #200: Seven Dooms for Sandpoint_"
 ac: 25
 armorclass:
   - name: AC
-    desc: "25; __Fort__ +18, __Ref__ +12, __Will__ +0"
+    desc: "25; __Fort__ +18, __Ref__ +12, "
 hp: 10
 health:
   - name: ""
@@ -51,7 +52,7 @@ attacks:
   - name: ""
 
   - name: "Fearful Cry"
-    desc: "`pf2:r` (arcane, emotion, fear) **Trigger** A creature walks into view of the skulls and is spotted by them\n* * *\n\n**Effect** The candles atop all six skulls flare to light and the skulls shriek out fearsome, mind-numbing howls. All creatures in area **F6**, the stairs, or the eastern trough must attempt a DC 25 Will check save. The trap then rolls initiative.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Frightened 1|Frightened 1]].\n\n**Failure** The creature is [[Conditions/Frightened 1|Frightened 2]] and [[Conditions/Fleeing|Fleeing]] as long as they remain frightened.\n\n**Critical Failure** As failure, but once the creature is no longer frightened, the previous minute of memories are erased—likely removing knowledge of the secret door at the top of the stairs in area **E7a**. All that remains are strange lingering fears about returning to the area."
+    desc: "`pf2:r` (arcane, emotion, fear) **Trigger** A creature walks into view of the skulls and is spotted by them\n* * *\n\n**Effect** The candles atop all six skulls flare to light and the skulls shriek out fearsome, mind-numbing howls. All creatures in area **F6**, the stairs, or the eastern trough must attempt a DC 25 Will check save. The trap then rolls initiative.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Frightened|Frightened 1]].\n\n**Failure** The creature is [[Conditions/Frightened|Frightened 2]] and [[Conditions/Fleeing|Fleeing]] as long as they remain frightened.\n\n**Critical Failure** As failure, but once the creature is no longer frightened, the previous minute of memories are erased—likely removing knowledge of the secret door at the top of the stairs in area **E7a**. All that remains are strange lingering fears about returning to the area."
   - name: "Melee"
     desc: "Fire Beam +18 (fire, range 25 feet) "
 

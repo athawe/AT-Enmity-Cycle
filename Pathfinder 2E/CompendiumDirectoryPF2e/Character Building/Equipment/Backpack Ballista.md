@@ -15,7 +15,7 @@ license: OGL
 
 |  |  |
 | -- | -- |
-| **Category** martial ranged weapon | **Group** bow |
+| **Category** martial ranged weapon | **Group** crossbow |
 | **Price** 18 gp |  |
 | **Bulk** 2 | **Size** med |
 |**Range** 180 ft.| **Reload** 10|

@@ -28,8 +28,7 @@ columnWidth: x
 abilities_top:
   - name: ""
   - name: "Range"
-    desc: "60 feet; **Area** 5-foot burst
-; **Targets** 2 non-overlapping 5-foot bursts"
+    desc: "60 feet; **Area** 5-foot burst; **Targets** 2 non-overlapping 5-foot bursts"
   - name: "Defense"
     desc: "basic fortitude"
 abilities_mid:

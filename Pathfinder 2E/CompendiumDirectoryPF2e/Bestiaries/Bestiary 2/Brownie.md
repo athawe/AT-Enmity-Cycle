@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.SFpMOxBwiS529dJk" 
 tags:
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Brownie"
@@ -23,7 +24,7 @@ level: "Creature 1"
 
 alignment: ""
 size: "tiny"
-trait_01: "fey"
+trait_01: [[fey]]
 modifier: 7
 perception:
   - name: "Perception"

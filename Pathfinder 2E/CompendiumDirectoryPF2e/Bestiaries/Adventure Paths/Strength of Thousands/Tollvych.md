@@ -12,6 +12,7 @@ tags:
   - pf2e/creature/type/spirit
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Tollvych"
@@ -26,16 +27,16 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #173: Doorway to the Red Star"
 name: "Tollvych"
 level: "Creature 15"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "ghost"
-trait_03: "incorporeal"
-trait_04: "lawful"
-trait_05: "spirit"
-trait_06: "undead"
-trait_07: "unholy"
+trait_01: [[evil]]
+trait_02: [[ghost]]
+trait_03: [[incorporeal]]
+trait_04: [[lawful]]
+trait_05: [[spirit]]
+trait_06: [[undead]]
+trait_07: [[unholy]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -43,7 +44,7 @@ perception:
 languages: "Common, Diabolic, Taldane"
 skills:
   - name: "Skills"
-    desc: "Academia Lore: +27, Arcana: +29, Intimidation: +27, Stealth: +29"
+    desc: "Arcana: +29, Intimidation: +27, Stealth: +29, Academia Lore: +27"
 abilityMods: [-5, 4, 0, 6, 5, 6]
 speed:  fly 25 feet
 sourcebook: "_Pathfinder #173: Doorway to the Red Star_"
@@ -77,7 +78,7 @@ attacks:
     desc: "`pf2:2` (divine,sonic) Tollvych cries out in pain as his body twists and grinds into horrific, distorted shapes. All creatures within a 30-foot emanation take 16d6 bludgeoning damage (DC 36 Reflex check save) as the sound of the Bone-Shattering Cry shakes and shatters their own bones.\n\nTollvych can't use Bone-Shattering Cry for 1d4 rounds."
 
   - name: "[[Creature Family Ability Glossary/(Ghost) Frightful Moan|Frightful Moan]]"
-    desc: "`pf2:2` (auditory,divine,emotion,fear,mental) Tollvych laments his fate, forcing each living creature within 30 feet to attempt a DC 36 Will check save.\n\nOn a failure, a creature becomes [[Conditions/Frightened 1|Frightened 2]] (or [[Conditions/Frightened 1|Frightened 3]] on a critical failure). On a success, a creature is temporarily immune to this Tollvych's frightful moan for 1 minute."
+    desc: "`pf2:2` (auditory,divine,emotion,fear,mental) Tollvych laments his fate, forcing each living creature within 30 feet to attempt a DC 36 Will check save.\n\nOn a failure, a creature becomes [[Conditions/Frightened|Frightened 2]] (or [[Conditions/Frightened|Frightened 3]] on a critical failure). On a success, a creature is temporarily immune to this Tollvych's frightful moan for 1 minute."
  
 ```
 

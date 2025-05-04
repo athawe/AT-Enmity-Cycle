@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/dwarf
   - pf2e/creature/type/good
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Krohan (Possessed)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #193: Mantle of Gold"
 name: "Krohan (Possessed)"
 level: "Creature 4"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "dwarf"
-trait_02: "good"
-trait_03: "humanoid"
+trait_01: [[dwarf]]
+trait_02: [[good]]
+trait_03: [[humanoid]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Dwarven, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Athletics: +9, Dwarf Lore: +8, Medicine: +8, Occultism: +8, Society: +6, Stealth: +5"
+    desc: "Athletics: +9, Medicine: +8, Occultism: +8, Society: +6, Stealth: +5, Dwarf Lore: +8"
 abilityMods: [2, 0, 2, 1, 3, 1]
 speed: 20 feet
 sourcebook: "_Pathfinder #193: Mantle of Gold_"
@@ -53,7 +54,7 @@ abilities_top:
   - name: "Items"
     desc: "[[Equipment/Pick|Pick]], [[Equipment/Composite Shortbow|Composite Shortbow]], [[Equipment/Buckler|Buckler]], [[Equipment/Leather Armor|Leather Armor]], [[Equipment/Rope|Rope]], [[Equipment/Waterskin|Waterskin]], [[Equipment/Flint and Steel|Flint and Steel]], 5x [[Equipment/Torch|Torch]], [[Equipment/Bedroll|Bedroll]], [[Equipment/Soap|Soap]], 20x [[Equipment/Arrows|Arrows]], 10x [[Equipment/Chalk|Chalk]], 2x [[Equipment/Rations|Rations]], [[Equipment/Healing Potion (Lesser)|Healing Potion (Lesser)]], [[Equipment/Antidote (Lesser)|Antidote (Lesser)]], [[Equipment/Backpack|Backpack]]"
   - name: "Possessed"
-    desc: "  A hostile spirit controls Krohan, which gives him the void healing ability and otherwise has the same effect as the [[Spells/Possession|Possession]] spell. Krohan attempts a DC 20 Flat check at the end of his turn; this is reduced to DC 15 Flat check if the corrupted blade spirit is destroyed. If he succeeds, the possession effect is suppressed and he is [[Conditions/Slowed 1|Slowed 1]] until the end of his next turn, allowing him to act normally. If he critically succeeds, the possession effect ends."
+    desc: "  A hostile spirit controls Krohan, which gives him the void healing ability and otherwise has the same effect as the [[Spells/Possession|Possession]] spell. Krohan attempts a DC 20 Flat check at the end of his turn; this is reduced to DC 15 Flat check if the corrupted blade spirit is destroyed. If he succeeds, the possession effect is suppressed and he is [[Conditions/Slowed|Slowed 1]] until the end of his next turn, allowing him to act normally. If he critically succeeds, the possession effect ends."
 
 abilities_mid:
   - name: ""

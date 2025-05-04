@@ -6,6 +6,7 @@ tags:
   - divine
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #186: Ghost King&#x27;s Rage
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.lycxuueclDmiIAOF" 
@@ -23,9 +24,9 @@ name: "Unstable Fiendflame Cage"
 level: "Hazard 20"
 
 trait_06: "Complex"
-trait_01: "divine"
-trait_02: "magical"
-trait_03: "trap"
+trait_01: [[divine]]
+trait_02: [[magical]]
+trait_03: [[trap]]
 modifier: 48
 sourcebook: "_Pathfinder #186: Ghost King's Rage_"
 perception:

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Rhino Warriors"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #177: Burning Tundra"
 name: "Rhino Warriors"
 level: "Creature 4"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -54,7 +55,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Counter-Charge"
-    desc: "`pf2:r`  **Trigger** A creature Strides within reach of the warrior and critically fails to Strike the warrior with a melee weapon\n* * *\n\n**Effect** The rhino warrior knocks the creature to the ground, and the triggering creature falls [[Conditions/Prone|Prone]] and takes 2d6 + 5 bludgeoning damage. The rhino warrior is [[Conditions/Off-Guard|Off-Guard]] until the end of their next turn."
+    desc: "`pf2:r`  **Trigger** A creature Strides within reach of the warrior and critically fails to Strike the warrior with a melee weapon\n* * *\n\n**Effect** The rhino warrior knocks the creature to the ground, and the triggering creature falls [[Conditions/Prone|Prone]] and takes 2d6+5 bludgeoning damage. The rhino warrior is [[Conditions/Off-Guard|Off-Guard]] until the end of their next turn."
 
   - name: "Str"
     desc: "  +5, **Dex**+2, **Con**+3, **Int**-1, **Wis**+1, **Cha**+0"

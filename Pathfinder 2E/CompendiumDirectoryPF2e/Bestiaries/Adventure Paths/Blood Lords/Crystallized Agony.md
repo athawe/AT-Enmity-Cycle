@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder #184: The Ghouls Hunger
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.2cSy2hsHLS0mYLXs" 
@@ -21,13 +22,13 @@ name: "Crystallized Agony"
 level: "Hazard 11"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 0
 sourcebook: "_Pathfinder #184: The Ghouls Hunger_"
 ac: 31
 armorclass:
   - name: AC
-    desc: "31; __Fort__ +18, __Ref__ +24, __Will__ +0"
+    desc: "31; __Fort__ +18, __Ref__ +24, "
 hp: 80
 health:
   - name: ""

@@ -30,7 +30,9 @@ abilities_top:
     desc: "1 day; **Cost** rare oils, salts, and herbs worth a total value of 15 gp; **Secondary Casters** 2"
   - name: "Primary Check"
     desc: "Arcana or Occultism (expert); **Secondary Checks** Arcana or Occultism (whichever isn&#x27;t used for the primary check), Diplomacy"
-**Area** 100-foot square
+
+  - name: "Area"
+    desc: "100-foot square"
   - name: "Duration"
     desc: "1 year"
 abilities_mid:

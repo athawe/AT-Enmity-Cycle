@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
   - pf2e/creature/type/good
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Domovoi"
@@ -25,9 +26,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "tiny"
-trait_01: "chaotic"
-trait_02: "fey"
-trait_03: "good"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
+trait_03: [[good]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Fey"
 skills:
   - name: "Skills"
-    desc: "Crafting: +9, Household Lore: +11, Stealth: +7 (+9 within their bound home)"
+    desc: "Crafting: +9, Stealth: +7, Household Lore: +11"
 abilityMods: [1, 3, 1, 3, 5, 1]
 speed: 20 feet
 sourcebook: "_Pathfinder Bestiary 3_"

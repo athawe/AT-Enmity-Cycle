@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Adventure: Shadows at Sundown
 aliases: "Compendium.pf2e.shadows-at-sundown-bestiary.Actor.z03ztiH8vBDRQTuw" 
@@ -22,14 +23,14 @@ name: "Paradox Engine"
 level: "Hazard 14"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 0
 sourcebook: "_Pathfinder Adventure: Shadows at Sundown_"
 ac: 36
 armorclass:
   - name: AC
-    desc: "36; __Fort__ +28, __Ref__ +22, __Will__ +0"
+    desc: "36; __Fort__ +28, __Ref__ +22, "
 hp: 90
 health:
   - name: ""

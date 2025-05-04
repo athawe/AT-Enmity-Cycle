@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Teaching Assistant"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #182: Graveclaw"
 name: "Teaching Assistant"
 level: "Creature 5"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -69,7 +70,7 @@ attacks:
     desc: "DC 22, attack +14; __3rd __  _[[Spells/Vampiric Feast|Vampiric Touch]]_; __2nd __  _[[Spells/Death Knell|Death Knell]]_, _[[Spells/False Vitality|False Life]]_; __1st __  _[[Spells/Summon Undead|Animate Dead]]_, _[[Spells/Grim Tendrils|Grim Tendrils]]_, _[[Spells/Enfeeble|Ray of Enfeeblement]]_, _[[Spells/Spirit Link|Spirit Link]]_\n__Cantrips__  __(3rd)__ _[[Spells/Void Warp|Chill Touch]]_, _[[Spells/Telekinetic Hand|Mage Hand]]_, _[[Spells/Shield|Shield]]_, _[[Spells/Sigil|Sigil]]_"
 
   - name: "Necromantic Revitalization"
-    desc: "`pf2:3` (concentrate,void) **Frequency** once per day\n* * *\n\n**Effect** The teaching assistant disperses void energy in a 30-foot emanation. Living creatures in the area take 3d8 void damage (DC 22 Fortitude check); willing undead creatures in the area regain an equal amount of Hit Points."
+    desc: "`pf2:3` (concentrate,void) **Frequency** once per day\n* * *\n\n**Effect** The teaching assistant disperses void energy in a @Template[emanation|distance:30]. Living creatures in the area take 3d8 void damage (DC 22 Fortitude check); willing undead creatures in the area regain an equal amount of Hit Points."
  
 ```
 

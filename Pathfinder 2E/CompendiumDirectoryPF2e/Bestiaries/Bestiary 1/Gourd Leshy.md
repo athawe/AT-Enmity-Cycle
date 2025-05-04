@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.UYHtIbN0JVaIYcgs"
 tags:
   - pf2e/creature/type/leshy
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Gourd Leshy"
@@ -24,8 +25,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "leshy"
-trait_02: "plant"
+trait_01: [[leshy]]
+trait_02: [[plant]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Verdant Burst"
-    desc: " (healing) When a gourd leshy dies, a burst of primal energy explodes from its body, restoring 1d8 Hit Points to each plant creature in a 30-foot emanation. This area is filled with gourds, becoming difficult terrain. If the terrain is not a viable environment for these gourds, they wither after 24 hours."
+    desc: " (healing) When a gourd leshy dies, a burst of primal energy explodes from its body, restoring 1d8 Hit Points to each plant creature in a @Template[emanation|distance:30]. This area is filled with gourds, becoming difficult terrain. If the terrain is not a viable environment for these gourds, they wither after 24 hours."
 
 attacks:
   - name: ""

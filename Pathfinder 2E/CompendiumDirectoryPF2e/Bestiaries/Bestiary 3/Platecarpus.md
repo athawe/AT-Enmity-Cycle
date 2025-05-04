@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.SuI5sxy5cuc0lnsh" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Platecarpus"
@@ -23,7 +24,7 @@ level: "Creature 3"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -65,7 +66,7 @@ attacks:
     desc: "`pf2:1`  The platecarpus Swims up to its Speed, making one jaws Strike at any point along the way. The Strike deals half damage."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Medium, 1d6 + 2 bludgeoning, Rupture 10\n\n* * *\n"
+    desc: "`pf2:1` (attack) Medium, 1d6+2 bludgeoning, Rupture 10\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

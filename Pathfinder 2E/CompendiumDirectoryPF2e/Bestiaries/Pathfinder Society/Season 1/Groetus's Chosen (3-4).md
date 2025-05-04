@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Groetus&#x27;s Chosen (3-4)"
@@ -26,10 +27,10 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Deception: +3, Groetus Lore: +8, Intimidation: +3, Occultism: +3, Society: +4, Stealth: +6"
+    desc: "Deception: +3, Intimidation: +3, Occultism: +3, Society: +4, Stealth: +6, Groetus Lore: +8"
 abilityMods: [4, 3, 2, 1, -1, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #1-22: Doom of Cassomir_"

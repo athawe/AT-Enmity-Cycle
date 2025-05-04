@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.M8ONVV7yl4uu0zcz"
 tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Ixusoth"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #161: Belly of the Black Whale"
 name: "Ixusoth"
 level: "Creature 15"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "evil"
+trait_01: [[aberration]]
+trait_02: [[evil]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Aklo, Common; telepathy 100 feet"
 skills:
   - name: "Skills"
-    desc: "Arcana: +30, Bardic Lore: +28, Crafting: +30, Deception: +27, Medicine: +25, Nature: +25, Occultism: +30, Religion: +27, Society: +28, Thievery: +25"
+    desc: "Arcana: +30, Crafting: +30, Deception: +27, Medicine: +25, Nature: +25, Occultism: +30, Religion: +27, Society: +28, Thievery: +25, Bardic Lore: +28"
 abilityMods: [4, 6, 4, 9, 6, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder #161: Belly of the Black Whale_"

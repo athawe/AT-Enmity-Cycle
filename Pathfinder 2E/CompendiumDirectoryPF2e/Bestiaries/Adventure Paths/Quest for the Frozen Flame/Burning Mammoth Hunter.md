@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Burning Mammoth Hunter"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #175: Broken Tusk Moon"
 name: "Burning Mammoth Hunter"
 level: "Creature 0"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -64,10 +65,10 @@ attacks:
     desc: "`pf2:1` Spear +8 ()\n__Damage__  1d6 + 2 piercing"
 
   - name: "Ranged"
-    desc: "`pf2:1` Sling +7 (propulsive, range increment 50 feet, reload 1)\n__Damage__  1d6 + 1 bludgeoning"
+    desc: "`pf2:1` Spear +7 (thrown 20 ft.)\n__Damage__  1d6 + 2 piercing"
 
   - name: "Ranged"
-    desc: "`pf2:1` Spear +7 (thrown 20 ft.)\n__Damage__  1d6 + 2 piercing"
+    desc: "`pf2:1` Sling +7 (propulsive, range increment 50 feet, reload 1)\n__Damage__  1d6 + 1 bludgeoning"
 
   - name: "Muscle Slicer"
     desc: "  A target critically hit by a hunter's Strike is [[Conditions/Off-Guard|Off-Guard]] until the end of its next turn."

@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - mechanical
+  - pf2eHazard
 
 source: Pathfinder Adventure: A Few Flowers More
 aliases: "Compendium.pf2e.one-shot-bestiary.Actor.dMcQ1v7uuNpH4cMy" 
@@ -21,13 +22,13 @@ name: "Hidden Spiked Pit"
 level: "Hazard 2"
 
 
-trait_01: "mechanical"
+trait_01: [[mechanical]]
 modifier: 11
 sourcebook: "_Pathfinder Adventure: A Few Flowers More_"
 ac: 15
 armorclass:
   - name: AC
-    desc: "15; __Fort__ +5, __Ref__ +5, __Will__ +0"
+    desc: "15; __Fort__ +5, __Ref__ +5, "
 hp: 30
 health:
   - name: ""

@@ -3,6 +3,7 @@ title: Living Paints
 obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
+  - pf2eHazard
 
 source: Pathfinder #162: Ruins of the Radiant Siege
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.7Q35HATCilOb1xXX" 
@@ -25,7 +26,7 @@ sourcebook: "_Pathfinder #162: Ruins of the Radiant Siege_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 10
 health:
   - name: ""

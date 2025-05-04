@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - magical
+  - pf2eHazard
 
 source: Pathfinder #188: They Watched the Stars
 aliases: "Compendium.pf2e.gatewalkers-bestiary.Actor.2i3x4XFKf8G2vN0N" 
@@ -22,8 +23,8 @@ name: "Shroud of Silence"
 level: "Hazard 4"
 
 
-trait_01: "environmental"
-trait_02: "magical"
+trait_01: [[environmental]]
+trait_02: [[magical]]
 modifier: 15
 sourcebook: "_Pathfinder #188: They Watched the Stars_"
 perception:

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Harpy"
@@ -25,9 +26,9 @@ level: "Creature 5"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +13, Deception: +13, Intimidation: +11, Performance: +14 (+16 singing)"
+    desc: "Acrobatics: +13, Deception: +13, Intimidation: +11, Performance: +14"
 abilityMods: [1, 4, 0, -1, 1, 4]
 speed: 20 feet,  fly 60 feet
 sourcebook: "_Pathfinder Bestiary_"

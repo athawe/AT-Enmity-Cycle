@@ -4,6 +4,7 @@ type:
 faction: Whispering Way
 ---
 
+**Jonah has Indrajit and Zridi manipulate The Lingering Note and the Other Hand respectively.**
 Jonah is the final boss, Zridi and Indrajit work for him. 
 They could use the [Tattoo Whispers](https://2e.aonprd.com/Rituals.aspx?ID=51) ritual to communicate at times.
 ## [[Jonah]] - Wizard

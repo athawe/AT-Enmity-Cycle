@@ -25,7 +25,7 @@ license: OGL
 
 * * *
 
-Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with a 1d20 + 6 counteract modifier to remove the [[Conditions/Confused|Confused]] or [[Conditions/Stupefied 1|Stupefied]] condition from a single source, using the source of that condition to determine the counteract rank and DC.
+Focus briefly calms your neurons, helping ease mental effects. When you drink this elixir, the elixir attempts a counteract check with a 1d20+6 counteract modifier to remove the [[Conditions/Confused|Confused]] or [[Conditions/Stupefied 1|Stupefied]] condition from a single source, using the source of that condition to determine the counteract rank and DC.
 
 *Source: Pathfinder Advanced Player's Guide*
 *OGL*

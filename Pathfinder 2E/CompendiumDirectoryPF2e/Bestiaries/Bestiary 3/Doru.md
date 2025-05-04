@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Doru"
@@ -27,11 +28,11 @@ level: "Creature 1"
 
 alignment: ""
 size: "tiny"
-trait_01: "div"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "lawful"
-trait_05: "unholy"
+trait_01: [[div]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[lawful]]
+trait_05: [[unholy]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Daemonic; telepathy (touch)"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Arcana: +8, Deception: +6, Lore (Any One): +10, Religion: +5, Stealth: +7"
+    desc: "Acrobatics: +7, Arcana: +8, Deception: +6, Religion: +5, Stealth: +7, Lore (Any One): +10"
 abilityMods: [0, 4, 1, 3, 2, 3]
 speed: 15 feet,  fly 30 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -70,7 +71,7 @@ attacks:
     desc: "DC 17, attack +9; __4th __  _[[Spells/Read Omens|Read Omens]]_; __2nd __  _[[Spells/Invisibility|Invisibility (At Will) (Self Only)]]_; __1st __  _[[Spells/Charm|Charm]]_, _[[Spells/Illusory Object|Illusory Object]]_\n__Cantrips__  __(1st)__ _[[Spells/Detect Magic|Detect Magic]]_"
 
   - name: "Doru Venom"
-    desc: " (poison) **Saving Throw** DC 16 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage (1 round)\n\n**Stage 2** 1d6 poison damage and [[Conditions/Stupefied 1|Stupefied 1]] (1 round)\n\n**Stage 3** 1d6 poison damage and [[Conditions/Stupefied 1|Stupefied 2]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 16 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage (1 round)\n\n**Stage 2** 1d6 poison damage and [[Conditions/Stupefied|Stupefied 1]] (1 round)\n\n**Stage 3** 1d6 poison damage and [[Conditions/Stupefied|Stupefied 2]] (1 round)"
  
 ```
 

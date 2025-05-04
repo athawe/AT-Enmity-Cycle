@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #156: The Apocalypse Prophet
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.25BUnECSaTWkHqZQ" 
@@ -22,8 +23,8 @@ name: "Convergence Lattice"
 level: "Hazard 20"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 34
 sourcebook: "_Pathfinder #156: The Apocalypse Prophet_"
 ac: 45

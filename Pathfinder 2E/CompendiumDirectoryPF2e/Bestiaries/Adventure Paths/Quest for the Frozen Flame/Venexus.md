@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/cold
   - pf2e/creature/type/dragon
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Venexus"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #176: Lost Mammoth Valley"
 name: "Venexus"
 level: "Creature 9"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "cold"
-trait_03: "dragon"
-trait_04: "evil"
+trait_01: [[chaotic]]
+trait_02: [[cold]]
+trait_03: [[dragon]]
+trait_04: [[evil]]
 modifier: 20
 perception:
   - name: "Perception"
@@ -57,7 +58,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Freezing Blood"
-    desc: "`pf2:r` (arcane,cold) **Trigger** An adjacent creature deals piercing or slashing damage to Venexus\n* * *\n\n**Effect** Venexus's blood splatters onto the triggering creature, dealing 2d6 cold damage. A creature that takes cold damage in this way is [[Conditions/Slowed 1|Slowed 1]] for 1 round."
+    desc: "`pf2:r` (arcane,cold) **Trigger** An adjacent creature deals piercing or slashing damage to Venexus\n* * *\n\n**Effect** Venexus's blood splatters onto the triggering creature, dealing 2d6 cold damage. A creature that takes cold damage in this way is [[Conditions/Slowed|Slowed 1]] for 1 round."
 
   - name: "[[Bestiary Ability Glossary/Frightful Presence|Frightful Presence]]"
     desc: " (aura,emotion,fear,mental) 90 feet. DC 25 Will check\n\n* * *\n"
@@ -87,7 +88,7 @@ attacks:
     desc: "DC 25, attack +17; __7th __  _[[Spells/Sunburst|Sunburst]]_\n__Cantrips__  __(5th)__ _[[Spells/Produce Flame|Produce Flame]]_"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (arcane,cold) Venexus breathes a cloud of frost that deals 10d6 cold damage in a 40-foot cone (DC 28 Reflex check). She can't use Breath Weapon again for 1d4 rounds."
+    desc: "`pf2:2` (arcane,cold) Venexus breathes a cloud of frost that deals 10d6 cold damage in a @Template[cone|distance:40] (DC 28 Reflex check). She can't use Breath Weapon again for 1d4 rounds."
 
   - name: "Draconic Frenzy"
     desc: "`pf2:2`  Venexus makes two claw Strikes and one tail Strike in any order."

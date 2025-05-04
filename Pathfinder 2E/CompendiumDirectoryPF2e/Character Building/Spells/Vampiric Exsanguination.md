@@ -30,7 +30,9 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, divine, occult"
-**Area** 30-foot cone
+
+  - name: "Area"
+    desc: "30-foot cone"
   - name: "Defense"
     desc: "basic fortitude"
 abilities_mid:

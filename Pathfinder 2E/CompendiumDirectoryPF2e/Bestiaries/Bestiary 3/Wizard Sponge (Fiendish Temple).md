@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/swarm
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Wizard Sponge (Fiendish Temple)"
@@ -26,10 +27,10 @@ level: "Creature 5"
 
 alignment: ""
 size: "Large"
-trait_01: "fungus"
-trait_02: "mindless"
-trait_03: "swarm"
-trait_04: "unholy"
+trait_01: [[fungus]]
+trait_02: [[mindless]]
+trait_03: [[swarm]]
+trait_04: [[unholy]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +12, Stealth: +13 (+15 amid decaying plant matter or fungus)"
+    desc: "Athletics: +12, Stealth: +13"
 abilityMods: [3, 4, 5, -5, 1, -3]
 speed: 20 feet,  climb 20 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -65,7 +66,7 @@ attacks:
     desc: "  Wizard sponges can climb on ceilings and other inverted surfaces."
 
   - name: "Swarming Slither"
-    desc: "`pf2:1` (unholy) The wizard sponge slithers over each creature in its space, dealing 2d10 acid damage and 1d6 spirit damage (DC 20 Reflex check save). A creature that critically fails is [[Conditions/Sickened 1|Sickened 1]]."
+    desc: "`pf2:1` (unholy) The wizard sponge slithers over each creature in its space, dealing 2d10 acid damage and 1d6 spirit damage (DC 20 Reflex check save). A creature that critically fails is [[Conditions/Sickened|Sickened 1]]."
 
   - name: "Weak Acid"
     desc: "  Wizard sponge acid damages only organic material—not metal, stone, or other inorganic substances."

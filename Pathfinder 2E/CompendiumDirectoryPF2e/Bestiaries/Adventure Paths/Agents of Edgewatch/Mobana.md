@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/nephilim
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Mobana"
@@ -27,11 +28,11 @@ level: "Creature 9"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "halfling"
-trait_03: "humanoid"
-trait_04: "lawful"
-trait_05: "nephilim"
+trait_01: [[evil]]
+trait_02: [[halfling]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
+trait_05: [[nephilim]]
 modifier: 18
 perception:
   - name: "Perception"

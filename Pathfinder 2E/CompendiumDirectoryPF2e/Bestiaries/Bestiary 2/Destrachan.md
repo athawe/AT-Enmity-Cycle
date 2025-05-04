@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Destrachan"
@@ -25,9 +26,9 @@ level: "Creature 8"
 
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 20
 perception:
   - name: "Perception"
@@ -66,10 +67,10 @@ attacks:
     desc: "`pf2:1` Claw +20 (agile)\n__Damage__  2d8 + 10 slashing"
 
   - name: "Destructive Harmonics"
-    desc: "`pf2:2` (auditory,occult,sonic) The destrachan emits a harsh sonic cry that deals 9d6 sonic damage (DC 26 Reflex check save) in either a 60-foot cone or a 30-foot burst.\n\nIt can't use Destructive Harmonics again for 1d4 rounds."
+    desc: "`pf2:2` (auditory,occult,sonic) The destrachan emits a harsh sonic cry that deals 9d6 sonic damage (DC 26 Reflex check save) in either a @Template[cone|distance:60] or a @Template[burst|distance:30].\n\nIt can't use Destructive Harmonics again for 1d4 rounds."
 
   - name: "Painful Harmonics"
-    desc: "`pf2:2` (auditory,incapacitation,occult) The destrachan emits a sonic cry in either a 60-foot cone or a 30-foot burst. This discordant ululation resonates along the nerves and bones of living creatures in the area, manifesting as waves of incapacitating pain washing over the victims. Each living creature in the area must attempt a DC 26 Fortitude check save.\n\nThe destrachan can't use Painful Harmonics again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Sickened 1|Sickened 1]] for 1 round.\n\n**Failure** The creature is [[Conditions/Deafened|Deafened]] for 3 rounds and [[Conditions/Stunned 1|Stunned 2]].\n\n**Critical Failure** The creature is deafened for 1 minute and [[Conditions/Stunned 1|Stunned 3]]."
+    desc: "`pf2:2` (auditory,incapacitation,occult) The destrachan emits a sonic cry in either a @Template[cone|distance:60] or a @Template[burst|distance:30]. This discordant ululation resonates along the nerves and bones of living creatures in the area, manifesting as waves of incapacitating pain washing over the victims. Each living creature in the area must attempt a DC 26 Fortitude check save.\n\nThe destrachan can't use Painful Harmonics again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Sickened|Sickened 1]] for 1 round.\n\n**Failure** The creature is [[Conditions/Deafened|Deafened]] for 3 rounds and [[Conditions/Stunned|Stunned 2]].\n\n**Critical Failure** The creature is deafened for 1 minute and [[Conditions/Stunned|Stunned 3]]."
 
   - name: "Shattering Harmonics"
     desc: "`pf2:2` (occult,sonic) The destrachan focuses its harmonics against a single item within 60 feet that is made of crystal, metal, stone, or wood. The target object takes 7d8 sonic damage. If the item is attended, its bearer can attempt a DC 26 Reflex check save for the item.\n\nThe destrachan can't use Shattering Harmonics again for 1d4 rounds."

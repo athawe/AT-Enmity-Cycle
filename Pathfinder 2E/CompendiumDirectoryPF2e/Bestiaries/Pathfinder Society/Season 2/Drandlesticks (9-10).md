@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - mechanical
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #2-22: Breaking the Storm: Excising Ruination
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.urrUBt8FFtuw3LNv" 
@@ -22,8 +23,8 @@ name: "Drandlesticks (9-10)"
 level: "Hazard 9"
 
 
-trait_01: "magical"
-trait_02: "mechanical"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
 modifier: 23
 sourcebook: "_Pathfinder Society Scenario #2-22: Breaking the Storm: Excising Ruination_"
 perception:

@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/hag
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Iogaka"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #197: Let the Leaves Fall"
 name: "Iogaka"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "air"
-trait_02: "chaotic"
-trait_03: "electricity"
-trait_04: "evil"
-trait_05: "hag"
-trait_06: "humanoid"
+trait_01: [[air]]
+trait_02: [[chaotic]]
+trait_03: [[electricity]]
+trait_04: [[evil]]
+trait_05: [[hag]]
+trait_06: [[humanoid]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -69,7 +70,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Sickened by Incense"
-    desc: "  If Iogaka begins her turn adjacent to lit incense, she becomes [[Conditions/Sickened 1|Sickened 1]] and must attempt a DC 27 Fortitude check save; on a failure, she instead becomes [[Conditions/Sickened 1|Sickened 3]] by the incense. If she ends her turn adjacent to lit incense, she becomes [[Conditions/Slowed 1|Slowed 1]] until the end of her next turn by the nausea it causes her."
+    desc: "  If Iogaka begins her turn adjacent to lit incense, she becomes [[Conditions/Sickened|Sickened 1]] and must attempt a DC 27 Fortitude check save; on a failure, she instead becomes [[Conditions/Sickened|Sickened 3]] by the incense. If she ends her turn adjacent to lit incense, she becomes [[Conditions/Slowed|Slowed 1]] until the end of her next turn by the nausea it causes her."
 
 attacks:
   - name: ""

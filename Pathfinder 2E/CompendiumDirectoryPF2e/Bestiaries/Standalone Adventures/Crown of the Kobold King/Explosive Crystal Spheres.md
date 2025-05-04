@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Adventure: Crown of the Kobold King
 aliases: "Compendium.pf2e.crown-of-the-kobold-king-bestiary.Actor.A3WeZVWuDHp7aUSB" 
@@ -22,14 +23,14 @@ name: "Explosive Crystal Spheres"
 level: "Hazard 6"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 5
 sourcebook: "_Pathfinder Adventure: Crown of the Kobold King_"
 ac: 24
 armorclass:
   - name: AC
-    desc: "24; __Fort__ +11, __Ref__ +17, __Will__ +0"
+    desc: "24; __Fort__ +11, __Ref__ +17, "
 hp: 54
 health:
   - name: ""

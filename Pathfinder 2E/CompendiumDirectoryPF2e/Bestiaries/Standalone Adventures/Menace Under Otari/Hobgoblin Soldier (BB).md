@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.menace-under-otari-bestiary.Actor.M8oJOKJ4AgrLZcJQ"
 tags:
   - pf2e/creature/type/hobgoblin
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "hobgoblin"
-trait_02: "humanoid"
+trait_01: [[hobgoblin]]
+trait_02: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"

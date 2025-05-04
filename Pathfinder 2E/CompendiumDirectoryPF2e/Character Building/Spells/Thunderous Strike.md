@@ -27,11 +27,13 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
-**Area** 15-foot cone
+
+  - name: "Area"
+    desc: "15-foot cone"
   - name: "Defense"
     desc: "basic fortitude"
 abilities_mid:
   - name: ""
-    desc: "You swing your massive weapon, creating a wave of sonic vibrations that topples creatures. Make a melee Strike with your two-handed weapon. Each creature in a 15-foot cone from you must attempt a basic Fortitude save against your spell DC or take 2 sonic damage. On a critical failure, the creature is knocked [[Conditions/Prone|Prone]]. The target of your Strike must be within the cone or the effect fails.\n* * *\n\n**Heightened (+1)** The damage increases by 1.\n\n_Note: Conflux spells refresh Spellstrike._"
+    desc: "You swing your massive weapon, creating a wave of sonic vibrations that topples creatures. Make a melee Strike with your two-handed weapon. Each creature in a 15-foot cone from you must attempt a basic Fortitude save against your spell DC or take 2 sonic damage. On a critical failure, the creature is knocked [[Conditions/Prone|Prone]]. The target of your Strike must be within the cone or the effect fails.\n* * *\n\n**Heightened (+1)** The damage increases by 1."
 sourcebook: "_Pathfinder Secrets of Magic_"
 ```

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/xulgath
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Xulgath Spinesnapper"
@@ -26,10 +27,10 @@ level: "Creature 5"
 
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "xulgath"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[xulgath]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -57,7 +58,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Stench"
-    desc: " (aura,olfactory) 30 feet. A creature entering the aura must attempt a DC 21 Fortitude check save. On a failure, the creature is [[Conditions/Sickened 1|Sickened 1]], and on a critical failure, the creature also takes a -5-foot status penalty to its Speeds for 1 round. While within the aura, the creature takes a -2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths' stench for 1 minute.\n\n[[Bestiary Effects/Effect_ Xulgath Stench|Effect: Xulgath Stench]]"
+    desc: " (aura,olfactory) 30 feet. A creature entering the aura must attempt a DC 21 Fortitude check save. On a failure, the creature is [[Conditions/Sickened|Sickened 1]], and on a critical failure, the creature also takes a -5-foot status penalty to its Speeds for 1 round. While within the aura, the creature takes a -2 circumstance penalty to saves to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all xulgaths' stench for 1 minute.\n\n[[Bestiary Effects/Effect_ Xulgath Stench|Effect: Xulgath Stench]]"
 
 attacks:
   - name: ""
@@ -75,7 +76,7 @@ attacks:
     desc: "`pf2:2`  The spinesnapper makes a claw or weapon Strike. If it hits, in addition to dealing damage, the creature must attempt a DC 22 Fortitude check saving throw, with the following effects.\n* * *\n\n**Critical Success** The creature is unaffected and the spinesnapper is [[Conditions/Off-Guard|Off-Guard]] until the start of its next turn.\n\n**Success** The creature is unaffected.\n\n**Failure** The creature is pushed 10 feet.\n\n**Critical Failure** The target is pushed 10 feet and knocked [[Conditions/Prone|Prone]]."
 
   - name: "Choke Slam"
-    desc: "`pf2:1`  **Frequency** once per round\n\n**Requirements** The spinesnapper has a creature [[Conditions/Grabbed|Grabbed]] or [[Conditions/Restrained|Restrained]]\n* * *\n\n**Effect** The spinesnapper slams the creature against a nearby surface. The target and the surface struck each take 4d6 bludgeoning damage, and the target must succeed at a DC 22 Fortitude check save or become [[Conditions/Slowed 1|Slowed 1]] for 1 round, or [[Conditions/Stunned 1|Stunned]] for 1 round on a critical failure."
+    desc: "`pf2:1`  **Frequency** once per round\n\n**Requirements** The spinesnapper has a creature [[Conditions/Grabbed|Grabbed]] or [[Conditions/Restrained|Restrained]]\n* * *\n\n**Effect** The spinesnapper slams the creature against a nearby surface. The target and the surface struck each take 4d6 bludgeoning damage, and the target must succeed at a DC 22 Fortitude check save or become [[Conditions/Slowed|Slowed 1]] for 1 round, or [[Conditions/Stunned|Stunned]] for 1 round on a critical failure."
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

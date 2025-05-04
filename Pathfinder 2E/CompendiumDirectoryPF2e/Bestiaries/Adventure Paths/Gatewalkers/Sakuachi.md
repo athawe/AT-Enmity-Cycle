@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Sakuachi"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #188: They Watched the Stars"
 name: "Sakuachi"
 level: "Creature 4"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[good]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Elven, Empyrean, Erutaki"
 skills:
   - name: "Skills"
-    desc: "Astronomy Lore: +15, Fortune-Telling Lore: +15, Medicine: +10, Nature: +12, Occultism: +15, Religion: +12, Survival: +10"
+    desc: "Medicine: +10, Nature: +12, Occultism: +15, Religion: +12, Survival: +10, Astronomy Lore: +15, Fortune-Telling Lore: +15"
 abilityMods: [0, 1, 2, 1, 3, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder #188: They Watched the Stars_"

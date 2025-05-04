@@ -6,6 +6,7 @@ tags:
   - magical
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #155: Lord of the Black Sands
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.MLYkh9pZpjBI1wpN" 
@@ -23,15 +24,15 @@ name: "Imperious Darkside Mirror"
 level: "Hazard 19"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 32
 sourcebook: "_Pathfinder #155: Lord of the Black Sands_"
 ac: 41
 armorclass:
   - name: AC
-    desc: "41; __Fort__ +32, __Ref__ +27, __Will__ +0"
+    desc: "41; __Fort__ +32, __Ref__ +27, "
 hp: 4
 health:
   - name: ""

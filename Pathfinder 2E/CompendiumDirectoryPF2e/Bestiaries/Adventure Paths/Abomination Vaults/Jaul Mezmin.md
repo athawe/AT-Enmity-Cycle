@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/werecreature
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Jaul Mezmin"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #163: Ruins of Gauntlight"
 name: "Jaul Mezmin"
 level: "Creature 6"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "beast"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
-trait_05: "werecreature"
+trait_01: [[beast]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
+trait_05: [[werecreature]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -80,7 +81,7 @@ attacks:
     desc: "1 Focus Point, DC 24, attack +16; __3rd __  _[[Spells/Heal Animal|Heal Animal]]_"
 
   - name: "[[Creature Family Ability Glossary/(Werecreature) Change Shape|Change Shape]]"
-    desc: "`pf2:1` (concentrate,polymorph,primal) *   **Human**\n    *   **Melee** fist +16/+12/+8 (agile, nonlethal), **Damage** 1d6 + 7 bludgeoning damage\n*   **Wolf**\n    *   **Speed** 40 feet\n    *   **Melee** jaws+16/+11/+6, **Damage** 2d8 + 7 piercing damage plus [[Bestiary Ability Glossary/Knockdown|Knockdown]]\n* * *\n\nThe werecreature changes into its humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true werecreature's natural form is its hybrid shape.\n\nIn humanoid shape, the werecreature uses its original humanoid size, loses its jaws and claws Strikes, and gains a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by its claw.\n\nIn animal shape, its Speed and size change to that of the animal, it gains any special Strike effects of the animal that it didn't already have (such as Grab), and it loses its weapon Strikes.\n\n* * *\n"
+    desc: "`pf2:1` (concentrate,polymorph,primal) *   **Human**\n    *   **Melee** fist +16/+12/+8 (agile, nonlethal), **Damage** 1d6+7 bludgeoning damage\n*   **Wolf**\n    *   **Speed** 40 feet\n    *   **Melee** jaws+16/+11/+6, **Damage** 2d8+7 piercing damage plus [[Bestiary Ability Glossary/Knockdown|Knockdown]]\n* * *\n\nThe werecreature changes into its humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true werecreature's natural form is its hybrid shape.\n\nIn humanoid shape, the werecreature uses its original humanoid size, loses its jaws and claws Strikes, and gains a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by its claw.\n\nIn animal shape, its Speed and size change to that of the animal, it gains any special Strike effects of the animal that it didn't already have (such as Grab), and it loses its weapon Strikes.\n\n* * *\n"
 
   - name: "[[Creature Family Ability Glossary/(Werecreature) Curse of the Werecreature|Curse of the Werewolf]]"
     desc: " (curse,primal) This curse affects only humanoids.\n\n**Saving Throw** DC 23 Fortitude check\n* * *\n\nOn each full moon, the cursed creature must succeed at another Fortitude save or turn into a werewolf until dawn.\n\nThe creature is under the GM's control and goes on a rampage for half the night before falling unconscious at dawn."

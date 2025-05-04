@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/clockwork
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Clockwork Mage"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Clockwork Mage"
 level: "Creature 9"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "clockwork"
-trait_02: "construct"
-trait_03: "mindless"
+trait_01: [[clockwork]]
+trait_02: [[construct]]
+trait_03: [[mindless]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -67,7 +68,7 @@ attacks:
     desc: "`pf2:1` Fist +19 (agile, finesse)\n__Damage__  2d10 + 6 bludgeoning"
 
   - name: "Arcane Innate Spells"
-    desc: "DC 28, attack +20; __5th __  _[[Spells/Black Tentacles|Black Tentacles]]_, _[[Spells/Cone of Cold|Cone of Cold]]_; __4th __  _[[Spells/Flicker|Blink]]_, _[[Spells/Fly|Fly]]_, _[[Spells/Wall of Fire|Wall of Fire]]_; __3rd __  _[[Spells/Haste|Haste]]_, _[[Spells/Invisibility|Invisibility]]_, _[[Spells/Stinking Cloud|Stinking Cloud]]_; __2nd __  _[[Spells/Revealing Light|Glitterdust]]_, _[[Spells/Mist|Obscuring Mist]]_, _[[Spells/Web|Web]]_; __1st __  _[[Spells/Gentle Landing|Feather Fall]]_, _[[Spells/Floating Disk|Floating Disk]]_, _[[Spells/Grease|Grease]]_\n__Cantrips__  __(5th)__ _[[Spells/Daze|Daze]]_, _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Ray of Frost|Ray of Frost]]_, _[[Spells/Shield|Shield]]_, _[[Spells/Tangle Vine|Tanglefoot]]_"
+    desc: "DC 28, attack +20; __5th __  _[[Spells/Black Tentacles|Black Tentacles]]_, _[[Spells/Cone of Cold|Cone of Cold]]_; __4th __  _[[Spells/Flicker|Blink]]_, _[[Spells/Fly|Fly]]_, _[[Spells/Wall of Fire|Wall of Fire]]_; __3rd __  _[[Spells/Haste|Haste]]_, _[[Spells/Invisibility|Invisibility]]_, _[[Spells/Stinking Cloud|Stinking Cloud]]_; __2nd __  _[[Spells/Revealing Light|Glitterdust]]_, _[[Spells/Mist|Obscuring Mist]]_, _[[Spells/Web|Web]]_; __1st __  _[[Spells/Gentle Landing|Feather Fall]]_, _[[Spells/Carryall|Floating Disk]]_, _[[Spells/Grease|Grease]]_\n__Cantrips__  __(5th)__ _[[Spells/Daze|Daze]]_, _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Ray of Frost|Ray of Frost]]_, _[[Spells/Shield|Shield]]_, _[[Spells/Tangle Vine|Tanglefoot]]_"
 
   - name: "Energize Clockwork Wand"
     desc: "`pf2:1` (concentrate) **Frequency** once per 10 minutes.\n* * *\n\n**Effect** The clockwork mage regains a spell it has already cast that day. It must spend 1 hour of its operational time, or 2 hours if the spell is 3rd rank or higher."

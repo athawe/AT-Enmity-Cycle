@@ -25,8 +25,9 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
 abilities_mid:
   - name: ""
-    desc: "As you attack a foe, warding magic transforms your momentum into action and lifts your shield. Make a melee Strike. You can then either [[Actions/Raise a Shield|Raise a Shield]] if you're wielding one or cast [[Spells/Shield|Shield]] if you have the spell.\n\n_Note: Conflux spells refresh Spellstrike._"
+    desc: "As you attack a foe, warding magic transforms your momentum into action and lifts your shield. Make a melee Strike. You can then either [[Actions/Raise a Shield|Raise a Shield]] if you're wielding one or cast [[Spells/Shield|Shield]] if you have the spell."
 sourcebook: "_Pathfinder Secrets of Magic_"
 ```

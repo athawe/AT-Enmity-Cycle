@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/plant
   - pf2e/creature/type/wood
+  - pf2eMonster
   - pf2e/creature/level/9
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 9"
 
 alignment: ""
 size: "huge"
-trait_01: "elemental"
-trait_02: "plant"
-trait_03: "wood"
+trait_01: [[elemental]]
+trait_02: [[plant]]
+trait_03: [[wood]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -67,7 +68,7 @@ attacks:
     desc: "  A painted stag gains a +5 circumstance bonus to damage rolls against creatures it has grabbed."
 
   - name: "Painted Dance"
-    desc: "`pf2:1` (auditory,mental,plant,primal,visual) The stag shakes the wooden plating along its body in a cacophonous clatter that sets its painted patterns dancing. All creatures within 60 feet of the painted stag who can see or hear it must attempt a DC 28 Will check save; a creature [[Conditions/Grabbed|Grabbed]] by the stag takes a –4 circumstance penalty to its save. Regardless of the result of its save, each creature is temporarily immune for 1 hour.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Fascinated|Fascinated]] by the painted stag for 1 round.\n\n**Failure** The creature is [[Conditions/Stunned 1|Stunned 2]] and fascinated by the painted stag for as long as it's stunned.\n\n**Critical Failure** As failure, except [[Conditions/Stunned 1|Stunned 4]]."
+    desc: "`pf2:1` (auditory,mental,plant,primal,visual) The stag shakes the wooden plating along its body in a cacophonous clatter that sets its painted patterns dancing. All creatures within 60 feet of the painted stag who can see or hear it must attempt a DC 28 Will check save; a creature [[Conditions/Grabbed|Grabbed]] by the stag takes a –4 circumstance penalty to its save. Regardless of the result of its save, each creature is temporarily immune for 1 hour.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Fascinated|Fascinated]] by the painted stag for 1 round.\n\n**Failure** The creature is [[Conditions/Stunned|Stunned 2]] and fascinated by the painted stag for as long as it's stunned.\n\n**Critical Failure** As failure, except [[Conditions/Stunned|Stunned 4]]."
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

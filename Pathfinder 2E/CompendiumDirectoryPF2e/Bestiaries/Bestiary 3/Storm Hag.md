@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/hag
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Storm Hag"
@@ -28,12 +29,12 @@ level: "Creature 5"
 
 alignment: ""
 size: "Medium"
-trait_01: "air"
-trait_02: "chaotic"
-trait_03: "electricity"
-trait_04: "evil"
-trait_05: "hag"
-trait_06: "humanoid"
+trait_01: [[air]]
+trait_02: [[chaotic]]
+trait_03: [[electricity]]
+trait_04: [[evil]]
+trait_05: [[hag]]
+trait_06: [[humanoid]]
 modifier: 12
 perception:
   - name: "Perception"

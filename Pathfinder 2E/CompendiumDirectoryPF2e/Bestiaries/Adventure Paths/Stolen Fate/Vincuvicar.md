@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
   - pf2e/creature/type/velstrac
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Vincuvicar"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #191: The Destiny War"
 name: "Vincuvicar"
 level: "Creature 18"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fiend"
-trait_03: "lawful"
-trait_04: "unholy"
-trait_05: "velstrac"
+trait_01: [[evil]]
+trait_02: [[fiend]]
+trait_03: [[lawful]]
+trait_04: [[unholy]]
+trait_05: [[velstrac]]
 modifier: 32
 perception:
   - name: "Perception"
@@ -57,12 +58,12 @@ abilities_top:
   - name: "Items"
     desc: "[[Equipment/War Flail|+2 Greater Striking War Flail]], [[Equipment/Full Plate|+2 Greater Resilient Full Plate]], 6x [[Equipment/Manacles (Average)|Manacles (Average)]]"
   - name: "Painsight"
-    desc: "  A velstrac automatically knows whether a creature it sees has any of the [[Conditions/Doomed 1|Doomed]], [[Conditions/Dying 1|Dying]], and [[Conditions/Wounded 1|Wounded]] conditions, as well as the value of those conditions."
+    desc: "  A velstrac automatically knows whether a creature it sees has any of the [[Conditions/Doomed|Doomed]], [[Conditions/Dying|Dying]], and [[Conditions/Wounded|Wounded]] conditions, as well as the value of those conditions."
 
 abilities_mid:
   - name: ""
   - name: "Alone and Forgotten"
-    desc: " (aura,divine,fear,mental) 30 feet. When a creature ends its turn in the aura, it feels imprisoned and must succeed at a DC 37 Will check save or become [[Conditions/Enfeebled 1|Enfeebled 1]] and [[Conditions/Slowed 1|Slowed 1]] for 1 round."
+    desc: " (aura,divine,fear,mental) 30 feet. When a creature ends its turn in the aura, it feels imprisoned and must succeed at a DC 37 Will check save or become [[Conditions/Enfeebled|Enfeebled 1]] and [[Conditions/Slowed|Slowed 1]] for 1 round."
 
   - name: "[[Bestiary Ability Glossary/Attack of Opportunity|Attack of Opportunity]]"
     desc: "`pf2:r`  "
@@ -83,7 +84,7 @@ attacks:
     desc: "_[[Spells/Imprisonment|Imprisonment]]_"
 
   - name: "Focus Gaze"
-    desc: "`pf2:1` (concentrate,divine,fear,mental,visual) The vincuvicar stares at a creature they can see within 30 feet. The creature must attempt a Will save against the alone and forgotten aura. If the creature was already enfeebled and slowed, on a failed save, its hopelessness causes it to be [[Conditions/Enfeebled 1|Enfeebled 2]] and unable to take the [[Actions/Escape|Escape]] action as long as they remain enfeebled. After attempting this save, the creature is then temporarily immune until the start of the vincuvicar's next turn."
+    desc: "`pf2:1` (concentrate,divine,fear,mental,visual) The vincuvicar stares at a creature they can see within 30 feet. The creature must attempt a Will save against the alone and forgotten aura. If the creature was already enfeebled and slowed, on a failed save, its hopelessness causes it to be [[Conditions/Enfeebled|Enfeebled 2]] and unable to take the [[Actions/Escape|Escape]] action as long as they remain enfeebled. After attempting this save, the creature is then temporarily immune until the start of the vincuvicar's next turn."
 
   - name: "Institutionalized"
     desc: "  A vincuvicar forms a bond with an institution that holds prisoners. This takes 1 day and ends any previous bond the vincuvicar had. While within the area of the prison, the vincuvicar gains a +2 status bonus to skill checks and Perception checks."

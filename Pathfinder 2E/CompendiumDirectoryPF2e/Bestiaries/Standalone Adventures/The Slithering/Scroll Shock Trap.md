@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Adventure: The Slithering
 aliases: "Compendium.pf2e.the-slithering-bestiary.Actor.ILF7Azqi2TM6ktl9" 
@@ -22,14 +23,14 @@ name: "Scroll Shock Trap"
 level: "Hazard 9"
 
 trait_06: "Complex"
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 17
 sourcebook: "_Pathfinder Adventure: The Slithering_"
 ac: 28
 armorclass:
   - name: AC
-    desc: "28; __Fort__ +21, __Ref__ +15, __Will__ +0"
+    desc: "28; __Fort__ +21, __Ref__ +15, "
 hp: 64
 health:
   - name: ""

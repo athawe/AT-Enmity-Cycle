@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/elf
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Pathfinder Field Agent"
@@ -25,9 +26,9 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "elf"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[elf]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Elven"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +12, Arcana: +8, Athletics: +6, Deception: +6, Diplomacy: +6, Pathfinder Society Lore: +11, Stealth: +12, Survival: +8, Thievery: +10"
+    desc: "Acrobatics: +12, Arcana: +8, Athletics: +6, Deception: +6, Diplomacy: +6, Stealth: +12, Survival: +8, Thievery: +10, Pathfinder Society Lore: +11"
 abilityMods: [0, 4, 3, 2, 2, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Lost Omens: Character Guide_"

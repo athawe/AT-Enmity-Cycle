@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/mortic
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Iloise (7-8)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #1-25: Grim Symphony"
 name: "Iloise (7-8)"
 level: "Creature 7"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "dwarf"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "mortic"
+trait_01: [[dwarf]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[mortic]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Necril"
 skills:
   - name: "Skills"
-    desc: "Arcana: +15, Crafting: +17, Performance: +0, Performance: +15, Religion: +15"
+    desc: "Arcana: +15, Crafting: +17, Performance: +0, Religion: +15"
 abilityMods: [4, 4, 0, 6, 2, 2]
 speed: 20 feet
 sourcebook: "_Pathfinder Society Scenario #1-25: Grim Symphony_"
@@ -63,7 +64,7 @@ abilities_mid:
     desc: "  [[Equipment/Bottled Lightning (Moderate)|Bottled Lightning (Moderate)]]"
 
   - name: "Consecration Vulnerability"
-    desc: "  In a place of worship dedicated to a non-evil deity or on sacred ground, such as an area blessed by sanctified ground, Iloise is [[Conditions/Slowed 1|Slowed 1]]."
+    desc: "  In a place of worship dedicated to a non-evil deity or on sacred ground, such as an area blessed by sanctified ground, Iloise is [[Conditions/Slowed|Slowed 1]]."
 
   - name: "Shock Field"
     desc: "`pf2:r` (electricity,force) **Trigger** A creature hits Iloise with a melee Strike\n* * *\n\n**Effect** A surge of energy lashes out at the attacker and propels Iloise away from danger. The triggering creature takes 4d6 electricity damage (DC 22 Reflex check save). If a reach weapon was used to make the attack, the result of the Reflex save is one degree of success better. Iloise then Steps 10 feet away from the attacker"

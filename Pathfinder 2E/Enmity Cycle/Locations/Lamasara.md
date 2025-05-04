@@ -1,11 +1,10 @@
 ---
-aliases: 
-tags: 
-Pronounced: 
+aliases:
+  - Jewel of the Desert
 type:
   - city
 region: Thuvia
-defenses: 
+defenses: 150 men, a blend of local soldiers and those from Aspenthar
 rulers:
   - monarchy
   - Queen Zamere
@@ -56,29 +55,37 @@ alignment: Chaotic Good
 > **Exports** | `=this.exports` |
 
 ### Interior Maps
-![[Official Lamasara map.jpg|400]]
+![[Official Lamasara map 2.jpg|400]]
 ## Notable Locations
+12 hexes x 1000 pop 
 ### Districts
-#### Port District
+#### [[Port District]]
+1 hex - mid-tier commercial
 - The docks in the southern part of the riverside district of Lamasara are notorious for their pleasure barges. Most of these are simply floating versions of other businesses found in many places, such as gambling houses and taverns, made popular by the novelty of being on the water instead of land. Few of these establishments actually leave the docks and instead pay a fee to remain moored. Some businesses, however, incorporate illicit activities and make use of the ability to untie from the dock and travel downstream. They often return a few weeks later with new names and fresh coats of paint, disguises that rarely fool anyone. But as long as they pay the fees charged by the city, no one takes much notice.
 - tourists, shipping, and construction to the north, pleasure, black market, music, and shady business to the south.
 - Alkaline salts weathered the wood of the dock and made it crack and splinter.
 - fishing dories and slender single-masted pleasure craft are seen here
-#### North Shoulder 
+#### [[North Shoulder]] 
+2 hexes - middle class residential, middle class recreational
 - Rugby played 
-#### Grand Market 
+#### [[Grand Market]]
+2 hexes - middle class commercial, lower class commercial
 - a late lunch in the market, buying several slabs of fried goat meat from a man whose stand was no more than a hanging rack of skinned goats and a semicircular iron basin hung precariously over a fire, into which he dropped fresh cuts of flesh and swirled them in palm oil with a bent skewer. These he deftly speared and deposited in folded palm leaves containing mashed garlic and salt. 
 - White marble statues of Abadar stood fifteen feet tall at each corner of the space, looking over the assembly with calm benevolence and loaded crossbows, their banker’s scales hanging prominently at their belts. Within, tents and stalls not so different from the crowded marketplace of Lamasara clustered in an elaborate matrix—one no doubt designed to ensure shoppers passed by the greatest number of merchants before exiting, regardless of entry point or trajectory.
 - Grand Market has some well known tourist trap spots, where someone tries to bring anyone new into overpriced restaurants or curio shops. They can be useful to ask about movements of people and groups.
-#### Little Arm 
-- 
-#### Theatre District 
+#### [[Little Arm]] 
+1 hex - middle class commercial/academic
+- Pathfinder Society is here
+#### [[Theatre District]] 
+3 hexes - religious, middle class commercial, middle class residential 
 - Past the town square, the swirl and noise of the bazaar gave way to more permanent structures. Here were the nicer shops, the ones whose owners could afford to choose their positions and let business come to them, as well as the theaters and music halls for which Lamasara was famous. Even at this early hour, open doors let the sounds of rehearsals and matinee performances drift out into the street, both advertisement and enticement.
 - Some of the venues were smaller than a simple dwelling, just mud boxes with four walls and men to accept the coppers that purchased admission. Some didn’t even have that much, but were rather canvas-walled tents, or woven stockades through which passersby could discern the faint shapes of sinuous forms dancing to tambours and castanets—a calculated preview that was even more effective for what it gave away free. The shows the barkers espoused ran the gamut from traditional mummers’ pageants and dancing troupes to erotic shadow plays and unnatural couplings that would make a Calistrian blanch. These delights were proclaimed loud and long for the benefit of anyone who cared to listen, and Salim saw many young boys leaning near the entrances to the more exotic venues, possessing neither the funds nor the age to get them inside but being educated all the same.
 - As Salim continued along his course, the buildings got steadily larger and grander, becoming proper multistory theaters and performance halls. Though some still advertised illicit fare—as with much of the world, sex often prevailed where talent was scarce—these were as opulent as the strait-laced establishments, becoming true cabarets and brothels rather than back-room rutting halls. The young starlets who hung out of windows displaying their wares were as brown as sun-baked earth, dark hair loose or braided, and eyes dusted with kohl or aquamarine. Most were beautiful, in the smooth-skinned Thuvian fashion, and many danced to better highlight their natural blessings. Some sang in threes and fours, their gentle voices blending into a siren song that flowed out into the streets like cool water. Among traders along the Path of Salt, it was said that if a Lamasaran girl’s body couldn’t satisfy you, her voice would.
-#### Riverside Estates 
+#### [[Riverside Estates]] 
+1 hex - upper class residential/recreational
 - Beach volleyball and kayaking occur here. It's the area inhabited by the most affluent in Lamasara. The most wealthy of donors are here. (Including Zridi)
-#### Lower District 
+#### [[Lower District]] 
+2 hexes - lower class residential, lower class commercial 
 - Includes outskirts of town. 
 - Soccer, golf, camel racing, sandboarding all happen on the outskirts 
 ### Core Structures
@@ -124,12 +131,14 @@ alignment: Chaotic Good
 - 
 ## DM Notes
 - Lamasara is called the *jewel of the desert*. 
+- Being a city in a dangerous land, it's regular for *most adults* to be *armed* and trained with simple weapons. Daggers, clubs, slings, staves, etc
 - *Artistically Inclined* - The incredible art scene in Lamasara means there are more opportunities for those interested in creative work. Earn Income tasks up to level 15 are available for any Craft related to the arts, as well as Performance.
 - Lamasara is known across Thuvia as a center of arts, entertainment, and pleasure, as well as place of diplomacy and negotiation.
+- The military in town is an assortment of soldiers from Aspenthar and local ones who operate under Queen Zamere's command. In total there are around 150 men, with an even split between the two. They operate in squads of 5, sometimes splitting into teams if need be. 
 - While Lamasara is known as a center of art and diplomacy, there have been efforts to open technical academies in the city, drawing on the study of ancient Jistkan techniques found in the deserts. The most recent and likely to succeed is being pursued and funded by **Lord Yamthar**, a power player in Absalom and Queen Zamere’s cousin.
 - Shelyn (pray for divine inspiration or guidance), Desna (the luck she can grant and the protection over nighttime performances she provides) and Sarenrae are all popular here. 
 - [[Queen Zamere]]'s Lord of Law ([[Horgron Hardass]]) commissions the Bank of Abadar to run the sheriff's office and law enforcement in town. Because of limited resources, they pay a regular fee to Prince Zinlo in [[Aspenthar]] for a few squads of his soldiers to aid them in and around Lamasara. The Queen keeps a small retinue of Lamasarans around her. 
-- The soldiers from Aspenthar have uniforms of orange, blue, and black. Lamasaran soldiers have uniforms of red, orange and white.
+- The soldiers from Aspenthar have uniforms of *orange, blue, and black*. Lamasaran soldiers have uniforms of *red, orange and white*.
 - the dry, baking heat that comes only from the desert. Not even the spray from the river could completely eliminate the fine, particulate grit that permeated the air.
 - Thuvian saying - "Man is made for the desert, for what is man but dust and water?" 
 - The city was as bright as any garden. The city opened itself in a barrage of color and sound. Awnings dyed every hue of the rainbow shaded market stalls in which hawkers pressed their wares on passersby at the top of their lungs. Irritable camels stomped and spat, and urchins ran riot through the streets, thieving what they could from greengrocers and wine merchants. And everywhere—everywhere—there was music. Sitars and tambourines and low horns, and a thousand others besides, blending in with the crowd until it was impossible to tell the rumble of the drummers from the breathing of the city itself.
@@ -142,6 +151,14 @@ alignment: Chaotic Good
 ![[Lamasara's Factions]]
 ## Living in Lamasara
 Homeless PCs can always attempt to *Subsist* in the alleys (with a *DC 13 Society check*), by hiding in a hazardous location (with a *DC 15 Stealth check*), or in the immediate hinterlands (with a *DC 17 Survival check*). 
+Usually the call to summon guards is "Fauda! Fauda!"
+### Law, Order & Punishment 
+- Most trials are held before a [[Judge]] and [[Warden|Sergeant-At-Arms]].
+- Reimbursing the victim of theft with extra payment.
+- Being locked in the stocks and/or forced to walk around town, with your crime being announced on a placard, while being whipped and mocked 
+- Public magical branding. Usual locations are on the face, shoulder or hand depending on severity. 
+- Beheadings and exile are considered the highest forms of punishment. Enslaving someone gets the death penalty.
+
 ### Earning Income 
 - While it’s expected that the PCs’ primary source of income is adventuring, there’s plenty of opportunity to augment wallets and coffers during downtime via Earning Income. Any PC can attempt to Earn Income in Lamasara with a *Crafting, Lore, or Performance check*, but the maximum task level that can normally be attempted in town is equal to that of Lamasara’s level: *4*. Earn Income tasks up to *level 15* are available for any Craft related to the arts, as well as *Performance*.
 - A shady PC can attempt to Earn Income through petty crime such as pickpocketing, running con games, or even minor burglaries, but without support, a freelance criminal in Lamasara runs a greater risk of punishment. As with other methods of earning income, unsupported Thievery in town is limited to a maximum task level of 4. 

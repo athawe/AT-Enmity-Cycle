@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/astral
   - pf2e/creature/type/holy
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Crownbound Constellation"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #189: Dreamers of the Nameless Spires"
 name: "Crownbound Constellation"
 level: "Creature 8"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "huge"
-trait_01: "astral"
-trait_02: "holy"
-trait_03: "lawful"
+trait_01: [[astral]]
+trait_02: [[holy]]
+trait_03: [[lawful]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +16, Athletics: +21, Lamashtu Lore: +14, Star Lore: +16, Stealth: +16"
+    desc: "Acrobatics: +16, Athletics: +21, Stealth: +16, Lamashtu Lore: +14, Star Lore: +16"
 abilityMods: [7, 4, 6, 4, 3, 3]
 speed: 40 feet
 sourcebook: "_Pathfinder #189: Dreamers of the Nameless Spires_"

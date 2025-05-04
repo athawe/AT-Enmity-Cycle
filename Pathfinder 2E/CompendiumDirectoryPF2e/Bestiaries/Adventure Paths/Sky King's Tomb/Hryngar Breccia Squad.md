@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/troop
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Hryngar Breccia Squad"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #195: Heavy is the Crown"
 name: "Hryngar Breccia Squad"
 level: "Creature 9"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "grg"
-trait_01: "dwarf"
-trait_02: "evil"
-trait_03: "hryngar"
-trait_04: "humanoid"
-trait_05: "lawful"
-trait_06: "troop"
+trait_01: [[dwarf]]
+trait_02: [[evil]]
+trait_03: [[hryngar]]
+trait_04: [[humanoid]]
+trait_05: [[lawful]]
+trait_06: [[troop]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -73,10 +74,10 @@ attacks:
   - name: ""
 
   - name: "Bolt Barrage"
-    desc: "`pf2:2`  The hryngar breccia squad draws or reloads its crossbows, then launches a ranged attack in the form of a volley. This volley is a 10-foot burst within 120 feet that deals 4d8 piercing damage (DC 28 Reflex check save). When the hryngar breccia squad is reduced to 8 or fewer squares, this area decreases to a 5-foot burst."
+    desc: "`pf2:2`  The hryngar breccia squad draws or reloads its crossbows, then launches a ranged attack in the form of a volley. This volley is a @Template[burst|distance:10] within 120 feet that deals 4d8 piercing damage (DC 28 Reflex check save). When the hryngar breccia squad is reduced to 8 or fewer squares, this area decreases to a @Template[burst|distance:5]."
 
   - name: "General Melee"
-    desc: "`pf2:1`  **Frequency** once per round\n* * *\n\n**Effect** The hryngar breccia squad engages in a coordinated attack with its melee weapons against each enemy within 5 feet (DC 28 Reflex check save). The damage depends on the number of actions.\n\n`pf2:1` 1d8 + 6 bludgeoning damage\n\n`pf2:2` 2d8 + 10 bludgeoning damage\n\n`pf2:3` 3d8 + 14 bludgeoning damage"
+    desc: "`pf2:1`  **Frequency** once per round\n* * *\n\n**Effect** The hryngar breccia squad engages in a coordinated attack with its melee weapons against each enemy within 5 feet (DC 28 Reflex check save). The damage depends on the number of actions.\n\n`pf2:1` 1d8+6 bludgeoning damage\n\n`pf2:2` 2d8+10 bludgeoning damage\n\n`pf2:3` 3d8+14 bludgeoning damage"
 
   - name: "Raise Shields"
     desc: "`pf2:1`  The hryngar breccia squad raises steel shields, with the effects of Raise a Shield.\n* * *\n\n[[Equipment Effects/Effect_ Raise a Shield|Effect: Raise a Shield]]"

@@ -6,6 +6,7 @@ tags:
   - magical
   - mechanical
   - trap
+  - pf2eHazard
 
   - remaster
 source: Pathfinder GM Core
@@ -24,15 +25,15 @@ name: "Hammer Of Forbiddance"
 level: "Hazard 11"
 
 
-trait_01: "magical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 20
 sourcebook: "_Pathfinder GM Core_"
 ac: 32
 armorclass:
   - name: AC
-    desc: "32; __Fort__ +24, __Ref__ +15, __Will__ +0"
+    desc: "32; __Fort__ +24, __Ref__ +15, "
 hp: 88
 health:
   - name: ""

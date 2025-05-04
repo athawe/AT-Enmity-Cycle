@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #187: The Seventh Arch
 aliases: "Compendium.pf2e.gatewalkers-bestiary.Actor.TWu5SOTZzsv97Q1O" 
@@ -22,14 +23,14 @@ name: "Falling Bridge"
 level: "Hazard 3"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 13
 sourcebook: "_Pathfinder #187: The Seventh Arch_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +1, __Ref__ +1, __Will__ +0"
+    desc: "10; __Fort__ +1, __Ref__ +1, "
 hp: 6
 health:
   - name: ""

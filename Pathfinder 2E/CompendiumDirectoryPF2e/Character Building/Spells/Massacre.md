@@ -30,7 +30,9 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, divine, primal"
-**Area** 60-foot line
+
+  - name: "Area"
+    desc: "60-foot line"
   - name: "Defense"
     desc: " fortitude"
 abilities_mid:

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/archon
   - pf2e/creature/type/celestial
   - pf2e/creature/type/holy
+  - pf2eMonster
   - pf2e/creature/level/1
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "archon"
-trait_02: "celestial"
-trait_03: "holy"
+trait_01: [[archon]]
+trait_02: [[celestial]]
+trait_03: [[holy]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -67,10 +68,10 @@ attacks:
     desc: "DC 17, attack +9; __4th __  _[[Spells/Read Omens|Read Omens]]_; __1st __  _[[Spells/Heal|Heal]]_\n__Cantrips__  __(1st)__ _[[Spells/Light|Light]]_"
 
   - name: "Behold!"
-    desc: "`pf2:2` (concentrate,illusion,incapacitation,visual) **Frequency** once per hour;\n* * *\n\n**Effect** The zoaem's rings and wings move in a complex pattern, mesmerizing creatures in the zoaem's choice of a 10-foot emanation or a 5-foot burst within 60 feet. Each creature must succeed at a DC 17 Will check save or be [[Conditions/Fascinated|Fascinated]] with the zoaem for 1 minute and [[Conditions/Stunned 1|Stunned 1]] (or stunned for 1 round on a critical failure)."
+    desc: "`pf2:2` (concentrate,illusion,incapacitation,visual) **Frequency** once per hour;\n* * *\n\n**Effect** The zoaem's rings and wings move in a complex pattern, mesmerizing creatures in the zoaem's choice of a @Template[emanation|distance:10] or a @Template[burst|distance:5] within 60 feet. Each creature must succeed at a DC 17 Will check save or be [[Conditions/Fascinated|Fascinated]] with the zoaem for 1 minute and [[Conditions/Stunned|Stunned 1]] (or stunned for 1 round on a critical failure)."
 
   - name: "Light of Truth"
-    desc: "`pf2:1` (concentrate,divine,light) The zoaem shines an intense light of truth, as [[Spells/Revealing Light|Revealing Light]] (DC 17 Reflex check save) but in a 60-foot line. Against creatures affected by this light, the zoaem and their allies gain a +1 status bonus to damage rolls and Recall Knowledge checks. The zoaem can't use Light of Truth again for 1d4 rounds.\n* * *\n\n[[Bestiary Effects/Effect_ Light of Truth|Effect: Light of Truth]]"
+    desc: "`pf2:1` (concentrate,divine,light) The zoaem shines an intense light of truth, as [[Spells/Revealing Light|Revealing Light]] (DC 17 Reflex check save) but in a @Template[line|distance:60]. Against creatures affected by this light, the zoaem and their allies gain a +1 status bonus to damage rolls and Recall Knowledge checks. The zoaem can't use Light of Truth again for 1d4 rounds.\n* * *\n\n[[Bestiary Effects/Effect_ Light of Truth|Effect: Light of Truth]]"
  
 ```
 

@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #173: Doorway to the Red Star
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.YXG0gpzDvHVVsJsO" 
@@ -22,14 +23,14 @@ name: "Auto-Turret"
 level: "Hazard 15"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 33
 sourcebook: "_Pathfinder #173: Doorway to the Red Star_"
 ac: 37
 armorclass:
   - name: AC
-    desc: "37; __Fort__ +29, __Ref__ +27, __Will__ +0"
+    desc: "37; __Fort__ +29, __Ref__ +27, "
 hp: 100
 health:
   - name: ""

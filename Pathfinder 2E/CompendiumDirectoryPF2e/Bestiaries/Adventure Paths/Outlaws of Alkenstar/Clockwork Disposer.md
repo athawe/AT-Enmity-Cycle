@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/clockwork
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Clockwork Disposer"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #179: Cradle of Quartz"
 name: "Clockwork Disposer"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "clockwork"
-trait_02: "construct"
-trait_03: "mindless"
+trait_01: [[clockwork]]
+trait_02: [[construct]]
+trait_03: [[mindless]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -66,7 +67,7 @@ attacks:
     desc: "`pf2:1` Spike +15 (agile, finesse)\n__Damage__  2d8 + 4 piercing"
 
   - name: "Furnace Belch"
-    desc: "`pf2:2` (fire) The clockwork disposer coughs up a cloud of hot ash and embers that deals 6d6 fire damage in a 15-foot cone (DC 22 Reflex check). The clockwork disposer can't use Furnace Belch again for 1d4 rounds."
+    desc: "`pf2:2` (fire) The clockwork disposer coughs up a cloud of hot ash and embers that deals 6d6 fire damage in a @Template[cone|distance:15] (DC 22 Reflex check). The clockwork disposer can't use Furnace Belch again for 1d4 rounds."
  
 ```
 

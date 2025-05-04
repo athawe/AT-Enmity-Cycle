@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.prNJZOU8tdRIZITT"
 tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Doprillu"
@@ -24,8 +25,8 @@ level: "Creature 14"
 
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "evil"
+trait_01: [[aberration]]
+trait_02: [[evil]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ abilities_mid:
     desc: "`pf2:r`  **Trigger** The doprillu is the target of a physical ranged attack\n\n**Requirements** The doprillu is aware of the attack, isn't [[Conditions/Off-Guard|Off-Guard]] against it, and has a hand free\n* * *\n\n**Effect** The doprillu gains a +4 circumstance bonus to its AC against the triggering attack."
 
   - name: "Mask of Power"
-    desc: "  A doprillu's unique wooden mask is the source of its power.\n\nA doprillu deprived of its mask loses its regeneration and its immunity to Enfeebled and [[Conditions/Slowed 1|Slowed]], and it immediately becomes [[Conditions/Enfeebled 1|Enfeebled 1]]. The Enfeebled value increases by 1 at the start of each of the doprillu's turns, to a maximum of Enfeebled 4. If the mask is put back on, the doprillu immediately regains its abilities and loses the Enfeebled condition.\n\nA creature can pull off the mask with a successful Athletics check to [[Actions/Force Open|Force Open]]."
+    desc: "  A doprillu's unique wooden mask is the source of its power.\n\nA doprillu deprived of its mask loses its regeneration and its immunity to Enfeebled and [[Conditions/Slowed|Slowed]], and it immediately becomes [[Conditions/Enfeebled|Enfeebled 1]]. The Enfeebled value increases by 1 at the start of each of the doprillu's turns, to a maximum of Enfeebled 4. If the mask is put back on, the doprillu immediately regains its abilities and loses the Enfeebled condition.\n\nA creature can pull off the mask with a successful Athletics check to [[Actions/Force Open|Force Open]]."
 
   - name: "Volcanic Veins"
     desc: " (fire) Fiery magma runs through the doprillu's veins. A creature that starts its turn [[Conditions/Grabbed|Grabbed]] by the doprillu takes 7d6 fire damage."

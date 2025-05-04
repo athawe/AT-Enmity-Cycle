@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-5-bestiary.Actor.TfhlACV07vdjfTCl"
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Topiary Beast"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #5-12: Mischief in the Maze"
 name: "Topiary Beast"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "construct"
-trait_02: "plant"
+trait_01: [[construct]]
+trait_02: [[plant]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +7, Intimidation: +7, Stealth: +6 (+8 in forests)"
+    desc: "Athletics: +7, Intimidation: +7, Stealth: +6"
 abilityMods: [3, 3, 4, -4, 0, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #5-12: Mischief in the Maze_"
@@ -45,7 +46,7 @@ hp: 20
 health:
   - name: ""
   - name: HP
-    desc: "20; __Immunities__  bleed,  death effects,  disease,  doomed,  drained,  fatigued,  healing,  nonlethal attacks,  paralyzed,  poison,  sickened,  spirit,  unconscious,  vitality,  void"
+    desc: "20; __Immunities__  bleed,  death effects,  disease,  doomed,  drained,  fatigued,  healing,  nonlethal attacks,  paralyzed,  poison,  sickened,  spirit,  unconscious,  vitality,  void; __Weaknesses__ fire 2; __Resistances__ piercing 3"
 abilities_top:
   - name: ""
 

@@ -33,6 +33,7 @@ abilities_top:
     desc: "occult"
   - name: "Cast"
     desc: "1 minute"
+
   - name: "Duration"
     desc: "1 hour"
 abilities_mid:

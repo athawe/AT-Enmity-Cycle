@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
   - remaster
 source: Pathfinder GM Core
@@ -23,14 +24,14 @@ name: "Scythe Blades"
 level: "Hazard 4"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 13
 sourcebook: "_Pathfinder GM Core_"
 ac: 21
 armorclass:
   - name: AC
-    desc: "21; __Fort__ +12, __Ref__ +8, __Will__ +0"
+    desc: "21; __Fort__ +12, __Ref__ +8, "
 hp: 44
 health:
   - name: ""

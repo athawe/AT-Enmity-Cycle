@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/monitor
   - pf2e/creature/type/protean
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Overdrive Imentesh"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #162: Ruins of the Radiant Siege"
 name: "Overdrive Imentesh"
 level: "Creature 17"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "monitor"
-trait_03: "protean"
+trait_01: [[chaotic]]
+trait_02: [[monitor]]
+trait_03: [[protean]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -78,7 +79,7 @@ attacks:
     desc: "`pf2:1` (concentrate,divine,polymorph) The imentesh takes the appearance of any Large or smaller creature. This doesn't change its Speed or its attack and damage bonuses with its Strikes, but it might change the damage type its Strikes deal.\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  2d10 + 16 bludgeoning damage, DC 38 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  2d10+16 bludgeoning damage, DC 38 Fortitude check\n\n* * *\n"
 
   - name: "Inflict Warpwave"
     desc: "`pf2:1` (divine) An imentesh inflicts a [[Rollable Tables/Warpwaves|Warpwave]] on a creature within 100 feet (DC 38 Fortitude check to resist)."

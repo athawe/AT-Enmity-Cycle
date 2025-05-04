@@ -34,7 +34,9 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
-**Area** 60-foot emanation
+
+  - name: "Area"
+    desc: "60-foot emanation"
 abilities_mid:
   - name: ""
     desc: "**Trigger** You or an ally within 60 feet rolls a saving throw against an auditory or visual effect.\n* * *\n\nYour performance protects you and your allies. Roll a Performance check check for a type you know—it must be an auditory performance if the trigger was auditory or a visual one for a visual trigger, and this action gains the traits for the type of performance. You and allies in the area can use the better result between your Performance check and the saving throw."

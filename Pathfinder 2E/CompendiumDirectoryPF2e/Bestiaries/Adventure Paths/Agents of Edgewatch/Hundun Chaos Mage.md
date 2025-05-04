@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Hundun Chaos Mage"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #162: Ruins of the Radiant Siege"
 name: "Hundun Chaos Mage"
 level: "Creature 18"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -57,7 +58,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Entropic Feedback"
-    desc: "`pf2:r`  **Trigger** A creature attempts to target the hundun with a mental effect\n* * *\n\n**Effect** The triggering creature is subject to the utter chaos of the hundun's mind and must attempt a DC 40 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes 10d6 mental damage.\n\n**Failure** The creature takes 10d6 mental damage, is [[Conditions/Drained 1|Drained 1]], and is [[Conditions/Stupefied 1|Stupefied 1]] for 1 minute.\n\n**Critical Failure** As failure, but the creature is [[Conditions/Drained 1|Drained 2]] and [[Conditions/Stupefied 1|Stupefied 2]]."
+    desc: "`pf2:r`  **Trigger** A creature attempts to target the hundun with a mental effect\n* * *\n\n**Effect** The triggering creature is subject to the utter chaos of the hundun's mind and must attempt a DC 40 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes 10d6 mental damage.\n\n**Failure** The creature takes 10d6 mental damage, is [[Conditions/Drained|Drained 1]], and is [[Conditions/Stupefied|Stupefied 1]] for 1 minute.\n\n**Critical Failure** As failure, but the creature is [[Conditions/Drained|Drained 2]] and [[Conditions/Stupefied|Stupefied 2]]."
 
 attacks:
   - name: ""

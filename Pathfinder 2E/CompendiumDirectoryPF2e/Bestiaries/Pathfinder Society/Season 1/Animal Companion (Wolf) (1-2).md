@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.czYt4Yp6ZeGnzyV6"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/minion
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Animal Companion (Wolf) (1-2)"
@@ -24,8 +25,8 @@ level: "Creature 0"
 
 alignment: ""
 size: "Small"
-trait_01: "animal"
-trait_02: "minion"
+trait_01: [[animal]]
+trait_02: [[minion]]
 modifier: 4
 perception:
   - name: "Perception"

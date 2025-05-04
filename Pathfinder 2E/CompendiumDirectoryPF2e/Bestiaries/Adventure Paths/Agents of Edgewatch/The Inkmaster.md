@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "The Inkmaster"
@@ -27,11 +28,11 @@ level: "Creature 16"
 
 alignment: ""
 size: "grg"
-trait_01: "chaotic"
-trait_02: "demon"
-trait_03: "evil"
-trait_04: "fiend"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[demon]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
+trait_05: [[unholy]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -98,10 +99,10 @@ attacks:
     desc: "_[[Spells/Demonic Pact|Abyssal Pact]]_"
 
   - name: "Enfeebling Bite"
-    desc: " (divine) If the shemhazian's jaws Strike damages a creature, the target is [[Conditions/Enfeebled 1|Enfeebled 3]]. The target can attempt a DC 37 Fortitude check save to reduce this to [[Conditions/Enfeebled 1|Enfeebled 1]] (or be unaffected on a critical success)."
+    desc: " (divine) If the shemhazian's jaws Strike damages a creature, the target is [[Conditions/Enfeebled|Enfeebled 3]]. The target can attempt a DC 37 Fortitude check save to reduce this to [[Conditions/Enfeebled|Enfeebled 1]] (or be unaffected on a critical success)."
 
   - name: "Focused Gaze"
-    desc: "`pf2:1` (concentrate,divine,incapacitation,visual) The shemhazian focuses their gaze on a non-evil creature they can see within 30 feet. If that creature isn't already slowed by the shemhazian's paralyzing gaze, it must attempt a save against the shemhazian's paralyzing gaze. If that creature is [[Conditions/Slowed 1|Slowed]], it must succeed at a DC 35 Fortitude check save or be [[Conditions/Paralyzed|Paralyzed]] for 1 round. A shemhazian can't use this ability against the same creature more than once per round."
+    desc: "`pf2:1` (concentrate,divine,incapacitation,visual) The shemhazian focuses their gaze on a non-evil creature they can see within 30 feet. If that creature isn't already slowed by the shemhazian's paralyzing gaze, it must attempt a save against the shemhazian's paralyzing gaze. If that creature is [[Conditions/Slowed|Slowed]], it must succeed at a DC 35 Fortitude check save or be [[Conditions/Paralyzed|Paralyzed]] for 1 round. A shemhazian can't use this ability against the same creature more than once per round."
 
   - name: "Rend"
     desc: "`pf2:1`  Claw\n* * *\n\nA Rend entry lists a Strike the monster has.\n\n**Requirements** The monster hit the same enemy with two consecutive Strikes of the listed type in the same round.\n* * *\n\n**Effect** The monster automatically deals that Strike's damage again to the enemy."

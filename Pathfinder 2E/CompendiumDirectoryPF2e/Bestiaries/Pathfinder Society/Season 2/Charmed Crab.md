@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.zLeePJplf25baqJa"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/aquatic
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Charmed Crab"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bounty #9: Fishing in Anthusis"
 name: "Charmed Crab"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "animal"
-trait_02: "aquatic"
+trait_01: [[animal]]
+trait_02: [[aquatic]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -64,7 +65,7 @@ attacks:
     desc: "`pf2:1` Claw +10 ()\n__Damage__  1d6 + 3 slashing plus grab"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  1d4 + 3 bludgeoning damage, DC 17 Fortitude check save\n\n* * *\n"
+    desc: "`pf2:1`  1d4+3 bludgeoning damage, DC 17 Fortitude check save\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

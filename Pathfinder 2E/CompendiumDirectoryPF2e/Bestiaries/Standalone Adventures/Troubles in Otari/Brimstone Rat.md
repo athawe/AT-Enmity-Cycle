@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.troubles-in-otari-bestiary.Actor.3Pa5JoY9PYdV5x1e" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Brimstone Rat"
@@ -23,7 +24,7 @@ level: "Creature -1"
 
 alignment: ""
 size: "Small"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +5, Athletics: +2 (+4 to Climb or Swim), Stealth: +5"
+    desc: "Acrobatics: +5, Athletics: +2, Stealth: +5"
 abilityMods: [1, 3, 2, -4, 1, -3]
 speed: 30 feet,  climb 10 feet
 sourcebook: "_Pathfinder Adventure: Troubles in Otari_"

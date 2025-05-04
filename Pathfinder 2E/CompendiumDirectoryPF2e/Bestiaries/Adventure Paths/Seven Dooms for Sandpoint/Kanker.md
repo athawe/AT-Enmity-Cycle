@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/ghoul
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Kanker"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #200: Seven Dooms for Sandpoint"
 name: "Kanker"
 level: "Creature 12"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "ghoul"
-trait_04: "undead"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[ghoul]]
+trait_04: [[undead]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -53,9 +54,9 @@ health:
 abilities_top:
   - name: ""
   - name: "Items"
-    desc: "8x [[Equipment/Acid Flask (Greater)|Acid Flask (Greater)]], 8x [[Equipment/Alchemist's Fire (Greater)|Alchemist's Fire (Greater)]], 8x [[Equipment/Thunderstone (Greater)|Thunderstone (Greater)]], [[Equipment/Flail|+2 Striking Nightmare Flail]], [[Equipment/Studded Leather Armor|+1 Resilient Studded Leather Armor]], [[Equipment/Alchemist's Toolkit|Alchemist's Toolkit]], [[Equipment/Formula Book (Blank)|Formula Book]], [[Equipment/Blightburn Resin|Blightburn Resin]], 2x [[Equipment/Cheetah's Elixir (Greater)|Cheetah's Elixir (Greater)]], 5x [[Equipment/Midnight Milk (Refined)|Midnight Milk (Refined)]], [[Equipment/Mistform Elixir (Greater)|Mistform Elixir (Greater)]], 5x [[Equipment/Shadow Essence|Shadow Essence]], Pouch of Black Onyx, Incense and Offerings for Planar Ally"
+    desc: "8x [[Equipment/Acid Flask (Greater)|Acid Flask (Greater)]], 8x [[Equipment/Alchemist's Fire (Greater)|Alchemist's Fire (Greater)]], 8x [[Equipment/Blasting Stone (Greater)|Thunderstone (Greater)]], [[Equipment/Flail|+2 Striking Nightmare Flail]], [[Equipment/Studded Leather Armor|+1 Resilient Studded Leather Armor]], [[Equipment/Alchemist's Toolkit|Alchemist's Toolkit]], [[Equipment/Formula Book (Blank)|Formula Book]], [[Equipment/Blightburn Resin|Blightburn Resin]], 2x [[Equipment/Cheetah's Elixir (Greater)|Cheetah's Elixir (Greater)]], 5x [[Equipment/Midnight Milk (Refined)|Midnight Milk (Refined)]], [[Equipment/Mistform Elixir (Greater)|Mistform Elixir (Greater)]], 5x [[Equipment/Nethershade|Shadow Essence]], Pouch of Black Onyx, Incense and Offerings for Planar Ally"
   - name: "Infused Items"
-    desc: "  Kanker carries the following infused items, which last for 24 hours or until the next time he makes his daily preparations: [[Equipment/Acid Flask (Greater)|Acid Flask (Greater)]] (8), [[Equipment/Alchemist's Fire (Greater)|Alchemist's Fire (Greater)]] (8), [[Equipment/Blightburn Resin|Blightburn Resin]], [[Equipment/Cheetah's Elixir (Greater)|Cheetah's Elixir (Greater)]] (2), [[Equipment/Midnight Milk (Refined)|Midnight Milk (Refined)]] (5), [[Equipment/Mistform Elixir (Greater)|Mistform Elixir (Greater)]], [[Equipment/Shadow Essence|Shadow Essence]] (5), [[Equipment/Thunderstone (Greater)|Thunderstone (Greater)]] (8)"
+    desc: "  Kanker carries the following infused items, which last for 24 hours or until the next time he makes his daily preparations: [[Equipment/Acid Flask (Greater)|Acid Flask (Greater)]] (8), [[Equipment/Alchemist's Fire (Greater)|Alchemist's Fire (Greater)]] (8), [[Equipment/Blightburn Resin|Blightburn Resin]], [[Equipment/Cheetah's Elixir (Greater)|Cheetah's Elixir (Greater)]] (2), [[Equipment/Midnight Milk (Refined)|Midnight Milk (Refined)]] (5), [[Equipment/Mistform Elixir (Greater)|Mistform Elixir (Greater)]], [[Equipment/Nethershade|Shadow Essence]] (5), [[Equipment/Blasting Stone (Greater)|Thunderstone (Greater)]] (8)"
 
 abilities_mid:
   - name: ""
@@ -63,7 +64,7 @@ abilities_mid:
     desc: "  When Kanker rolls a success on a Reflex save, he gets a critical success instead."
 
   - name: "[[Creature Family Ability Glossary/(Ghast) Stench|Stench]]"
-    desc: " (aura,olfactory) 10 feet. A creature entering the aura or starting its turn in the aura must succeed at a DC 29 Fortitude check save or become [[Conditions/Sickened 1|Sickened 1]] (plus [[Conditions/Slowed 1|Slowed 1]] as long as it's sickened on a critical failure).\n\nWhile within the aura, the creature takes a -2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune for 1 minute.\n\n[[Bestiary Effects/Effect_ Stench|Effect: Stench]]"
+    desc: " (aura,olfactory) 10 feet. A creature entering the aura or starting its turn in the aura must succeed at a DC 29 Fortitude check save or become [[Conditions/Sickened|Sickened 1]] (plus [[Conditions/Slowed|Slowed 1]] as long as it's sickened on a critical failure).\n\nWhile within the aura, the creature takes a -2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune for 1 minute.\n\n[[Bestiary Effects/Effect_ Stench|Effect: Stench]]"
 
 attacks:
   - name: ""

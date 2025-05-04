@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.rage-of-elements-bestiary.Actor.3ItvROg0JbYKUGRu"
 tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/fire
+  - pf2eMonster
   - pf2e/creature/level/13
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 13"
 
 alignment: ""
 size: "huge"
-trait_01: "elemental"
-trait_02: "fire"
+trait_01: [[elemental]]
+trait_02: [[fire]]
 modifier: 24
 perception:
   - name: "Perception"
@@ -34,7 +35,7 @@ perception:
 languages: "Common, Pyric"
 skills:
   - name: "Skills"
-    desc: "Athletics: +28, Cooking Lore: +24, Intimidation: +21, Survival: +24"
+    desc: "Athletics: +28, Intimidation: +21, Survival: +24, Cooking Lore: +24"
 abilityMods: [8, 4, 8, 3, 5, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Rage of Elements_"

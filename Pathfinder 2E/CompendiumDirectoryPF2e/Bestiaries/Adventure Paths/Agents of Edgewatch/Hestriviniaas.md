@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.LAamprMlzk7k5auj" 
 tags:
   - pf2e/creature/type/chaotic
+  - pf2eMonster
   - pf2e/creature/level/22
 statblock: inline
 name: "Hestriviniaas"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #162: Ruins of the Radiant Siege"
 name: "Hestriviniaas"
 level: "Creature 22"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "huge"
-trait_01: "chaotic"
+trait_01: [[chaotic]]
 modifier: 40
 perception:
   - name: "Perception"
@@ -59,7 +60,7 @@ abilities_mid:
     desc: " (divine) Hestriviniaas' vital organs shift and change shape and position constantly. Immediately after the Hestriviniaas takes acid, electricity, or sonic damage, it gains the listed amount of resistance to that damage type.\n\nThis lasts for 1 hour or until the next time the protean takes damage of one of the other types (in which case its resistance changes to match that type), whichever comes first. The keketar is immune to polymorph effects unless it is a willing target.\n\nIf [[Conditions/Blinded|Blinded]] or [[Conditions/Deafened|Deafened]], the keketar automatically recovers at the end of its next turn as new sensory organs grow to replace the compromised ones."
 
   - name: "Spatial Riptide"
-    desc: " (aura,divine) 30 feet. A creature using a teleportation ability within the aura or arriving in it via teleportation must succeed at a DC 45 Fortitude check save or wink out of existence for 1d4 rounds before completing the teleport. The creature can't act, sense anything, or be targeted. On a successful save, the creature completes the teleport normally but is [[Conditions/Stunned 1|Stunned 1]].\n\nKeketars are immune to this effect."
+    desc: " (aura,divine) 30 feet. A creature using a teleportation ability within the aura or arriving in it via teleportation must succeed at a DC 45 Fortitude check save or wink out of existence for 1d4 rounds before completing the teleport. The creature can't act, sense anything, or be targeted. On a successful save, the creature completes the teleport normally but is [[Conditions/Stunned|Stunned 1]].\n\nKeketars are immune to this effect."
 
 attacks:
   - name: ""
@@ -80,7 +81,7 @@ attacks:
     desc: "`pf2:1` (concentrate,divine,polymorph) Hestriviniaas can take the appearance of any Gargantuan or smaller creature. This doesn't change its Speed or its attack and damage bonuses with its Strikes, but might change the damage type its Strikes deal.\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  2d12 + 21 bludgeoning damage, DC 44 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  2d12+21 bludgeoning damage, DC 44 Fortitude check\n\n* * *\n"
 
   - name: "Reshape Reality"
     desc: " (concentrate,divine) When Hestriviniaas casts [[Spells/Mirage|Mirage]], it infuses the illusion with quasi-real substance. Creatures that do not disbelieve the illusion treat structures and terrain created through the spell as though they were real, ascending illusory stairs, becoming trapped by illusory quicksand, and so on."

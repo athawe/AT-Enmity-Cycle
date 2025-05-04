@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/munavri
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Munavri Spellblade"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Munavri Spellblade"
 level: "Creature 2"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "humanoid"
-trait_03: "munavri"
+trait_01: [[good]]
+trait_02: [[humanoid]]
+trait_03: [[munavri]]
 modifier: 7
 perception:
   - name: "Perception"

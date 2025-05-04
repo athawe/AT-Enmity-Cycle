@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Scathka"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #159: All or Nothing"
 name: "Scathka"
 level: "Creature 12"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "elf"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
+trait_01: [[elf]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
 modifier: 23
 perception:
   - name: "Perception"
@@ -53,7 +54,7 @@ health:
 abilities_top:
   - name: ""
   - name: "Items"
-    desc: "[[Equipment/Dagger|+1 Striking Dagger]], [[Equipment/Leather Armor|+1 Leather Armor]], [[Equipment/Spellbook (Blank)|Spellbook]], [[Equipment/Wand of Shardstorm (3rd-Rank Spell)|Wand of Manifold Missiles (3rd-Level Spell)]]"
+    desc: "[[Equipment/Dagger|+1 Striking Dagger]], [[Equipment/Leather Armor|+1 Leather Armor]], [[Equipment/Spellbook (Blank)|Spellbook]], [[Equipment/Wand of Shardstorm (3rd-Rank Spell)|Wand of Manifold Missiles (3rd-Rank Spell)]]"
 abilities_mid:
   - name: ""
 attacks:
@@ -72,7 +73,7 @@ attacks:
     desc: "  **Frequency** once per day\n\n**Requirements** Scathka hasn't acted yet on their turn\n* * *\n\n**Effect** On their turn, Scathka casts one spell they've prepared and already cast this day without spending a spell slot. Scathka must still Cast the Spell and meet the spell's other requirements."
 
   - name: "Throw Shadow Blade"
-    desc: "`pf2:2` (cold,manipulate,occult) **Requirement** Scathka is wielding a dagger\n* * *\n\n**Effect** Scathka draws a shadowy glyph on the dagger's blade and flings it at a nearby foe. Scathka makes a ranged Strike with the dagger with the range increment to 30 feet.\n\nIf the Strike hits, it deals 8d6 cold damage (double damage on a critical success) and the target must succeed at a DC 32 Fortitude check save or be [[Conditions/Slowed 1|Slowed 1]] until the end of its next turn (or 1d4 rounds on a critical failure).\n\nThe dagger loses its shadowy magic as soon as the attack is resolved."
+    desc: "`pf2:2` (cold,manipulate,occult) **Requirement** Scathka is wielding a dagger\n* * *\n\n**Effect** Scathka draws a shadowy glyph on the dagger's blade and flings it at a nearby foe. Scathka makes a ranged Strike with the dagger with the range increment to 30 feet.\n\nIf the Strike hits, it deals 8d6 cold damage (double damage on a critical success) and the target must succeed at a DC 32 Fortitude check save or be [[Conditions/Slowed|Slowed 1]] until the end of its next turn (or 1d4 rounds on a critical failure).\n\nThe dagger loses its shadowy magic as soon as the attack is resolved."
  
 ```
 

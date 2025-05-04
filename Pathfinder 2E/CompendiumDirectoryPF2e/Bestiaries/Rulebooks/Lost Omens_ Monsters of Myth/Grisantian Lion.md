@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/primal
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Grisantian Lion"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Monsters of Myth"
 name: "Grisantian Lion"
 level: "Creature 12"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "beast"
-trait_02: "chaotic"
-trait_03: "primal"
+trait_01: [[beast]]
+trait_02: [[chaotic]]
+trait_03: [[primal]]
 modifier: 25
 perception:
   - name: "Perception"

@@ -24,6 +24,7 @@ abilities_top:
     desc: "1 hour; **Cost** rare oils, cold iron bells worth at least 5 gp; **Secondary Casters** 1"
   - name: "Primary Check"
     desc: "Nature (trained); **Secondary Checks** Crafting, Intimidation, Occultism, Performance"
+
   - name: "Duration"
     desc: "1 week"
 abilities_mid:

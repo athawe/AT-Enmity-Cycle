@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Noppera-bo Grunt"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #196: The Summer That Never Was"
 name: "Noppera-bo Grunt"
 level: "Creature 0"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -58,7 +59,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Sensitive Hearing"
-    desc: "  As long as a noppera-bo is [[Conditions/Deafened|Deafened]], they are [[Conditions/Slowed 1|Slowed 1]]."
+    desc: "  As long as a noppera-bo is [[Conditions/Deafened|Deafened]], they are [[Conditions/Slowed|Slowed 1]]."
 
 attacks:
   - name: ""

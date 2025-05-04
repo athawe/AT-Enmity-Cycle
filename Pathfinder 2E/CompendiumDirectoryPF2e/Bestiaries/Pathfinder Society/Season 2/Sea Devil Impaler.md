@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/sea-devil
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Sea Devil Impaler"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-06: The Crashing Wave"
 name: "Sea Devil Impaler"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "lawful"
-trait_05: "sea-devil"
+trait_01: [[amphibious]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
+trait_05: [[sea-devil]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Thalassic; shark commune 150 feet"
 skills:
   - name: "Skills"
-    desc: "Athletics: +12 (+15 to swim), Intimidation: +9, Survival: +9"
+    desc: "Athletics: +12, Intimidation: +9, Survival: +9"
 abilityMods: [4, 1, 3, 0, 1, 0]
 speed: 25 feet,  swim 35 feet
 sourcebook: "_Pathfinder Society Scenario #2-06: The Crashing Wave_"

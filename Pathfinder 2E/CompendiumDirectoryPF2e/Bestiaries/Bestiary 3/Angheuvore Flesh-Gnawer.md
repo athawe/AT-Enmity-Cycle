@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/mortic
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Angheuvore Flesh-Gnawer"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Angheuvore Flesh-Gnawer"
 level: "Creature 2"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "elf"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "mortic"
+trait_01: [[elf]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[mortic]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -55,12 +56,12 @@ abilities_top:
   - name: "Items"
     desc: "[[Equipment/Composite Shortbow|Composite Shortbow]], [[Equipment/Elven Curve Blade|Elven Curve Blade]], 20x [[Equipment/Arrows|Arrows]]"
   - name: "Carrion Scent (Imprecise) 30 feet"
-    desc: "  An angheuvore can smell creatures that have the [[Conditions/Doomed 1|Doomed]], [[Conditions/Dying 1|Dying]], or [[Conditions/Wounded 1|Wounded]] condition as an imprecise sense."
+    desc: "  An angheuvore can smell creatures that have the [[Conditions/Doomed|Doomed]], [[Conditions/Dying|Dying]], or [[Conditions/Wounded|Wounded]] condition as an imprecise sense."
 
 abilities_mid:
   - name: ""
   - name: "Consecration Vulnerability"
-    desc: "  An angheuvore in a place of worship dedicated to a non-evil deity or on sacred ground, such as an area blessed by [[Spells/Sanctified Ground|Sanctified Ground]], is [[Conditions/Slowed 1|Slowed 1]]."
+    desc: "  An angheuvore in a place of worship dedicated to a non-evil deity or on sacred ground, such as an area blessed by [[Spells/Anointed Ground|Anointed Ground]], is [[Conditions/Slowed|Slowed 1]]."
 
   - name: "Death Gasp"
     desc: "`pf2:1` (divine) The angheuvore draws in a deep breath and holds it, temporarily suspending their biological processes and becoming undead.\n\nThe angheuvore gains the undead trait and becomes immune to bleed, death effects, disease, [[Conditions/Paralyzed|Paralyzed]], poison, and sleep. Any such effects the angheuvore is currently suffering from are suspended, but take effect again once they take a breath.\n\nDeath Gasp lasts as long as the angheuvore holds their breath (up to 8 rounds).\n\n[[Bestiary Effects/Effect_ Death Gasp|Effect: Death Gasp]]"

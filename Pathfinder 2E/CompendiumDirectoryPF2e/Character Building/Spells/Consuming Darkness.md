@@ -29,8 +29,10 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
-**Area** 10-foot emanation
-**Targets** enemies in the area  - name: "Defense"
+
+  - name: "Area"
+    desc: "10-foot emanationenemies in the area"
+  - name: "Defense"
     desc: " reflex"
   - name: "Duration"
     desc: "1 minute"

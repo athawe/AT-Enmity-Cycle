@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #4-14: Shattering Golden Chains
 aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.G0ur3TDztA2Vj8vv" 
@@ -22,14 +23,14 @@ name: "Malevolent Reflections"
 level: "Hazard 5"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 17
 sourcebook: "_Pathfinder Society Scenario #4-14: Shattering Golden Chains_"
 ac: 22
 armorclass:
   - name: AC
-    desc: "22; __Fort__ +14, __Ref__ +11, __Will__ +0"
+    desc: "22; __Fort__ +14, __Ref__ +11, "
 hp: 50
 health:
   - name: ""

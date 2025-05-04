@@ -34,6 +34,6 @@ abilities_top:
     desc: " fortitude"
 abilities_mid:
   - name: ""
-    desc: "You magically duplicate a spider's venomous sting. You deal 1d4 piercing damage to the touched creature and afflict it with spider venom. The target must attempt a Fortitude save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target takes 1d4 poison damage.\n\n**Failure** The target is afflicted with spider venom at stage 1.\n\n**Critical Failure** The target is afflicted with spider venom at stage 2.\n* * *\n\n**Spider Venom** (poison)\n\n**Level 1**\n\n**Maximum Duration** 4 rounds.\n\n**Stage 1** 1d4 poison damage and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)\n\n**Stage 2** 1d4 poison damage and [[Conditions/Enfeebled 1|Enfeebled 2]] (1 round)."
+    desc: "You magically duplicate a spider's venomous sting. You deal 1d4 piercing damage to the touched creature and afflict it with spider venom. The target must attempt a Fortitude save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target takes 1d4 poison damage.\n\n**Failure** The target is afflicted with spider venom at stage 1.\n\n**Critical Failure** The target is afflicted with spider venom at stage 2.\n* * *\n\n**Spider Venom** (poison)\n\n**Level** 1\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 1d4 poison damage and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)\n\n**Stage 2** 1d4 poison damage and [[Conditions/Enfeebled 1|Enfeebled 2]] (1 round)"
 sourcebook: "_Pathfinder Player Core_"
 ```

@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Kingmaker
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.AXmQ8rUKsJFZUKb6" 
@@ -21,13 +22,13 @@ name: "Collapsing Bridge"
 level: "Hazard 6"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 25
 sourcebook: "_Pathfinder Kingmaker_"
 ac: 21
 armorclass:
   - name: AC
-    desc: "21; __Fort__ +9, __Ref__ +9, __Will__ +0"
+    desc: "21; __Fort__ +9, __Ref__ +9, "
 hp: 10
 health:
   - name: ""

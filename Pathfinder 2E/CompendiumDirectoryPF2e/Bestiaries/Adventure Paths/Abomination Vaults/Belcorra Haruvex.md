@@ -12,6 +12,7 @@ tags:
   - pf2e/creature/type/spirit
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Belcorra Haruvex"
@@ -26,16 +27,16 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #165: Eyes of Empty Death"
 name: "Belcorra Haruvex"
 level: "Creature 12"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "ghost"
-trait_04: "incorporeal"
-trait_05: "spirit"
-trait_06: "undead"
-trait_07: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[ghost]]
+trait_04: [[incorporeal]]
+trait_05: [[spirit]]
+trait_06: [[undead]]
+trait_07: [[unholy]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -89,7 +90,7 @@ attacks:
     desc: "  Each time Belcorra casts a sorcerer bloodline spell or an aberrant bloodline granted spell, she can grant herself or a target of the spell a +2 status bonus to Will saving throws for 1 round.\n\n[[Bestiary Effects/Effect_ Blood Magic|Effect: Blood Magic]]"
 
   - name: "Corrupting Gaze"
-    desc: "`pf2:2`  Belcorra stares at a creature she can see within 30 feet. The target takes 9d6 mental damage (DC 33 Will check save).\n\nA creature that fails its save is also [[Conditions/Stupefied 1|Stupefied 1]] for 1 minute."
+    desc: "`pf2:2`  Belcorra stares at a creature she can see within 30 feet. The target takes 9d6 mental damage (DC 33 Will check save).\n\nA creature that fails its save is also [[Conditions/Stupefied|Stupefied 1]] for 1 minute."
 
   - name: "Haunted Lighthouse"
     desc: "`pf2:1`  **Frequency** once every 10 minutes\n* * *\n\n**Effect** Belcorra extends her presence throughout the lowest three levels of Gauntlight until the end of her next turn. She can see with the benefits of [[Bestiary Ability Glossary/All-Around Vision|All-Around Vision]] and can make ghostly hand attacks or use special abilities originating from any surface in this area."

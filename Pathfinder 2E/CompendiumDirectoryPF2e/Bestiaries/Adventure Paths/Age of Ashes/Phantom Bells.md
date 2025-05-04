@@ -6,6 +6,7 @@ tags:
   - auditory
   - haunt
   - sonic
+  - pf2eHazard
   - complex
 source: Pathfinder #147: Tomorrow Must Burn
 aliases: "Compendium.pf2e.age-of-ashes-bestiary.Actor.IdpkEJycZgrkvdSn" 
@@ -23,9 +24,9 @@ name: "Phantom Bells"
 level: "Hazard 6"
 
 trait_06: "Complex"
-trait_01: "auditory"
-trait_02: "haunt"
-trait_03: "sonic"
+trait_01: [[auditory]]
+trait_02: [[haunt]]
+trait_03: [[sonic]]
 modifier: 10
 sourcebook: "_Pathfinder #147: Tomorrow Must Burn_"
 perception:

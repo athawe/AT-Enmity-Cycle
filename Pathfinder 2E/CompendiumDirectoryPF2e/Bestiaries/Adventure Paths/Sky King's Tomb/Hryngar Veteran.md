@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/hryngar
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Hryngar Veteran"
@@ -27,11 +28,11 @@ level: "Creature 8"
 
 alignment: ""
 size: "Medium"
-trait_01: "dwarf"
-trait_02: "evil"
-trait_03: "hryngar"
-trait_04: "humanoid"
-trait_05: "lawful"
+trait_01: [[dwarf]]
+trait_02: [[evil]]
+trait_03: [[hryngar]]
+trait_04: [[humanoid]]
+trait_05: [[lawful]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Dwarven, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +13, Athletics: +13, Deception: +15, Intimidation: +17, Society: +11, Stealth: +13, Thievery: +15, Underworld Lore: +15"
+    desc: "Acrobatics: +15, Athletics: +15, Deception: +17, Intimidation: +19, Society: +13, Stealth: +15, Thievery: +17, Underworld Lore: +17"
 abilityMods: [4, 4, 2, 2, -1, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder #195: Heavy is the Crown_"

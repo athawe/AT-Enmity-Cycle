@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.8OzYnoDXrQcSL0GD"
 tags:
   - pf2e/creature/type/elf
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Ambush Spy"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-99: Blessings of the Forest"
 name: "Ambush Spy"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "elf"
-trait_02: "humanoid"
+trait_01: [[elf]]
+trait_02: [[humanoid]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Elven"
 skills:
   - name: "Skills"
-    desc: "Deception: +15, Diplomacy: +13, Intimidation: +15, Local Court Lore: +16, Society: +12, Stealth: +14, Thievery: +12"
+    desc: "Deception: +15, Diplomacy: +13, Intimidation: +15, Society: +12, Stealth: +14, Thievery: +12, Local Court Lore: +16"
 abilityMods: [0, 4, 1, 2, 4, 4]
 speed: 30 feet
 sourcebook: "_Pathfinder Society Scenario #4-99: Blessings of the Forest_"
@@ -61,7 +62,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Rapier +16 (deadly d8, disarm, finesse, magical)\n__Damage__  1d6 + 7 piercing"
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Dagger +14 (agile, thrown 10 ft., versatile s)\n__Damage__  1d4 + 6 piercing"
 
   - name: "Hidden Blade"

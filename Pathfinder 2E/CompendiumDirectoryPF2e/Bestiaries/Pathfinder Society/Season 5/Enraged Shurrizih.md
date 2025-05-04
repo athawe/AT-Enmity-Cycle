@@ -14,6 +14,7 @@ tags:
   - pf2e/creature/type/metal
   - pf2e/creature/type/water
   - pf2e/creature/type/wood
+  - pf2eMonster
   - pf2e/creature/level/9
   - remaster
 statblock: inline
@@ -29,18 +30,18 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #5-13: Thick as Thieves"
 name: "Enraged Shurrizih"
 level: "Creature 9"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "air"
-trait_02: "chaotic"
-trait_03: "earth"
-trait_04: "elemental"
-trait_05: "fire"
-trait_06: "genie"
-trait_07: "metal"
-trait_08: "water"
-trait_09: "wood"
+trait_01: [[air]]
+trait_02: [[chaotic]]
+trait_03: [[earth]]
+trait_04: [[elemental]]
+trait_05: [[fire]]
+trait_06: [[genie]]
+trait_07: [[metal]]
+trait_08: [[water]]
+trait_09: [[wood]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -68,7 +69,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Commanding Presence"
-    desc: " (aura,emotion,fear,mental) 20 feet.\n\nA creature that enters the aura must succeed at a DC 19 Will check save or be [[Conditions/Frightened 1|Frightened 2]] ([[Conditions/Frightened 1|Frightened 3]] on a critical failure), and is then temporarily immune for 1 minute. A genie (with the exception of another jann) takes a –4 circumstance penalty to their save."
+    desc: " (aura,emotion,fear,mental) 20 feet.\n\nA creature that enters the aura must succeed at a DC 19 Will check save or be [[Conditions/Frightened|Frightened 2]] ([[Conditions/Frightened|Frightened 3]] on a critical failure), and is then temporarily immune for 1 minute. A genie (with the exception of another jann) takes a –4 circumstance penalty to their save."
 
   - name: "Elemental Resistance"
     desc: "  The jann shuyookh's elemental resistance applies to cold, electricity, and fire damage, as well as all damage from elemental sources (including environmental damage from the elemental planes and damage from anything with the air, earth, fire, metal, water, or wood trait)."

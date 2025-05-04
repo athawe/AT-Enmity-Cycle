@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #2-22: Breaking the Storm: Excising Ruination
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.XoE0tsQ4twaoNtBu" 
@@ -21,7 +22,7 @@ name: "Collapsing Ramp (9-10)"
 level: "Hazard 8"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 18
 sourcebook: "_Pathfinder Society Scenario #2-22: Breaking the Storm: Excising Ruination_"
 perception:

@@ -20,7 +20,7 @@ license: OGL
 **Bulk** 0; **Size** med
 **Usage** worn
 
-A _polished pebble aeon stone_ imbues you with the strength of the earth, granting a +1 item bonus to Fortitude saves and DCs against attempts to grapple or swallow you.
+A _polished pebble aeon stone_ imbues you with the strength of the earth, granting a +1 item bonus to saves and DCs against attempts to grapple or swallow you.
 
 The stone's resonant power allows you to cast [[Spells/Grease|Grease]] as a primal innate spell once per day. You can target only surfaces, not objects, with this spell.
 

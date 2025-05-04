@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Animated Silverware Swarm"
@@ -25,9 +26,9 @@ level: "Creature 1"
 
 alignment: ""
 size: "Large"
-trait_01: "construct"
-trait_02: "mindless"
-trait_03: "swarm"
+trait_01: [[construct]]
+trait_02: [[mindless]]
+trait_03: [[swarm]]
 modifier: 5
 perception:
   - name: "Perception"

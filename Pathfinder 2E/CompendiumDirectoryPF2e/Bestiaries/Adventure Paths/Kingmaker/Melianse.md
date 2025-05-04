@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.RTd4FwqGq8gBjdAO"
 tags:
   - pf2e/creature/type/aquatic
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Melianse"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Melianse"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "aquatic"
-trait_02: "fey"
+trait_01: [[aquatic]]
+trait_02: [[fey]]
 modifier: 11
 perception:
   - name: "Perception"

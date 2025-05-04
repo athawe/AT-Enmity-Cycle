@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/skeleton
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Leaded Skeleton"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-17: Lost Maid of Anactoria"
 name: "Leaded Skeleton"
 level: "Creature 3"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "mindless"
-trait_03: "skeleton"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[evil]]
+trait_02: [[mindless]]
+trait_03: [[skeleton]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -70,7 +71,7 @@ attacks:
     desc: "`pf2:1` Leaded Claw +10 (agile)\n__Damage__  1d10 + 3 bludgeoning plus rapid-lead-poison"
 
   - name: "Rapid Lead Poison"
-    desc: " (poison) High amounts of lead can cause headache, difficulty concentrating, and joint pain. Necromantic magic has augmented the lead that infuses this skeleton, causing it to take effect far more quickly than is typical for lead poisoning.\n\n**Saving Throw** DC 18 Fortitude check\n* * *\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** [[Conditions/Stupefied 1|Stupefied 1]] (1 round)\n\n**Stage 2** 1d6 poison damage, stupefied 1, and [[Conditions/Clumsy 1|Clumsy 1]] (1 round)\n\n**Stage 3** 2d6 poison damage, [[Conditions/Stupefied 1|Stupefied 2]], and [[Conditions/Clumsy 1|Clumsy 2]] (2 rounds)"
+    desc: " (poison) High amounts of lead can cause headache, difficulty concentrating, and joint pain. Necromantic magic has augmented the lead that infuses this skeleton, causing it to take effect far more quickly than is typical for lead poisoning.\n\n**Saving Throw** DC 18 Fortitude check\n* * *\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** [[Conditions/Stupefied|Stupefied 1]] (1 round)\n\n**Stage 2** 1d6 poison damage, stupefied 1, and [[Conditions/Clumsy|Clumsy 1]] (1 round)\n\n**Stage 3** 2d6 poison damage, [[Conditions/Stupefied|Stupefied 2]], and [[Conditions/Clumsy|Clumsy 2]] (2 rounds)"
  
 ```
 

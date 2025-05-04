@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - fire
+  - pf2eHazard
   - complex
 source: Pathfinder #145: Hellknight Hill
 aliases: "Compendium.pf2e.age-of-ashes-bestiary.Actor.u9QIJIpkSgW5VRIG" 
@@ -22,8 +23,8 @@ name: "Town Hall Fire"
 level: "Hazard 1"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "fire"
+trait_01: [[environmental]]
+trait_02: [[fire]]
 modifier: -10
 sourcebook: "_Pathfinder #145: Hellknight Hill_"
 perception:

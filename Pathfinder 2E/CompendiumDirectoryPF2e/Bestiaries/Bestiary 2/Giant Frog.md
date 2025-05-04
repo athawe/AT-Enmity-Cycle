@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.EWoJAp5LJeL1Qfye" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Giant Frog"
@@ -23,7 +24,7 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +5, Athletics: +6 (+10 to High Jump or Long Jump), Stealth: +7"
+    desc: "Acrobatics: +5, Athletics: +6, Stealth: +7"
 abilityMods: [3, 2, 3, -4, 2, -1]
 speed: 25 feet,  swim 25 feet
 sourcebook: "_Pathfinder Bestiary 2_"

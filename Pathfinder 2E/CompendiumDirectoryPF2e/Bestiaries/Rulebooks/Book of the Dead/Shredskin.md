@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Shredskin"
@@ -25,9 +26,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -66,7 +67,7 @@ attacks:
     desc: "  When a shredskin successfully [[Actions/Squeeze|Squeezes]], it moves through the tight space at full speed. Narrow confines are not difficult terrain for a shredskin."
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  1d6 + 2 bludgeoning, DC 16 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  1d6+2 bludgeoning, DC 16 Fortitude check\n\n* * *\n"
 
   - name: "Control Body"
     desc: "`pf2:1`  **Requirements** The shredskin is in the same space as a Medium or Small humanoid-shaped corpse\n* * *\n\n**Effect** The shredskin wraps itself around the corpse as a new skin and takes control of the host body. While controlling a host, the shredskin uses the host's Speed but its own attacks, and it loses its Grab and Enshroud abilities. Attacks that target the shredskin while it controls a body deal half of the damage to the shredskin and half of the damage to the host body. Attacks that target an area deal damage to both the shredskin and host body normally. The shredskin can release the host body as a free action at the start of its turn. If the host is destroyed, the shredskin automatically releases the body and is [[Conditions/Off-Guard|Off-Guard]] for 1 round. A Medium corpse typically has 15 Hit Points, while a Small corpse typically has 10 Hit Points. Creatures can notice that a corpse is controlled by a shredskin by succeeding at a Perception check against the shredskin's Deception DC (typically 18)."

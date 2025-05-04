@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/mutant
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Necrohulk Smasher"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #185: A Taste of Ashes"
 name: "Necrohulk Smasher"
 level: "Creature 15"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "mutant"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[mutant]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -77,7 +78,7 @@ attacks:
     desc: "`pf2:1`  "
 
   - name: "Smashing Blow"
-    desc: "`pf2:2`  The necrohulk smasher makes a fist Strike. If it hits, the necrohulk smashes the target into the floor or nearby wall. The target takes an additional 6d10 bludgeoning damage, depending on its DC 33 Fortitude check save.\n* * *\n\n**Critical Success** The target takes half of the additional damage.\n\n**Success** The target takes half the additional damage and is [[Conditions/Stunned 1|Stunned 1]].\n\n**Failure** The target takes full additional damage, is [[Conditions/Stunned 1|Stunned 3]], and knocked [[Conditions/Prone|Prone]].\n\n**Critical Failure** The target takes double the additional damage, is stunned 3, and knocked prone."
+    desc: "`pf2:2`  The necrohulk smasher makes a fist Strike. If it hits, the necrohulk smashes the target into the floor or nearby wall. The target takes an additional 6d10 bludgeoning damage, depending on its DC 33 Fortitude check save.\n* * *\n\n**Critical Success** The target takes half of the additional damage.\n\n**Success** The target takes half the additional damage and is [[Conditions/Stunned|Stunned 1]].\n\n**Failure** The target takes full additional damage, is [[Conditions/Stunned|Stunned 3]], and knocked [[Conditions/Prone|Prone]].\n\n**Critical Failure** The target takes double the additional damage, is stunned 3, and knocked prone."
 
   - name: "[[Bestiary Ability Glossary/Throw Rock|Throw Rock]]"
     desc: "`pf2:1`  "

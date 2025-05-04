@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/grioth
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Grioth Scout"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Grioth Scout"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "grioth"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[grioth]]
+trait_04: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -75,7 +76,7 @@ attacks:
     desc: "DC 16, attack +8; __1st __  _[[Spells/Phantom Pain|Phantom Pain]]_\n__Cantrips__  __(1st)__ _[[Spells/Daze|Daze]]_, _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Telekinetic Hand|Mage Hand]]_, _[[Spells/Telekinetic Projectile|Telekinetic Projectile]]_"
 
   - name: "Grioth Venom"
-    desc: " (emotion,fear,mental,poison) **Saving Throw** DC 17 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** [[Conditions/Frightened 1|Frightened 1]] (1 round)\n\n**Stage 2** [[Conditions/Frightened 1|Frightened 2]] (1 round)\n\n**Stage 3** [[Conditions/Frightened 1|Frightened 3]] (1 round)"
+    desc: " (emotion,fear,mental,poison) **Saving Throw** DC 17 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** [[Conditions/Frightened|Frightened 1]] (1 round)\n\n**Stage 2** [[Conditions/Frightened|Frightened 2]] (1 round)\n\n**Stage 3** [[Conditions/Frightened|Frightened 3]] (1 round)"
 
   - name: "Shock Mind"
     desc: "`pf2:2` (mental,occult) The grioth scout makes a Strike with a voidglass weapon.\n\nIf the Strike hits, it deals an additional 1d6 mental damage, and the target must succeed at a DC 17 Will check save (this has the incapacitation trait) or become [[Conditions/Confused|Confused]] for 1 round."

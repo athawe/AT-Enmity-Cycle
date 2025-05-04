@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/monitor
   - pf2e/creature/type/protean
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Naunet"
@@ -25,9 +26,9 @@ level: "Creature 7"
 
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "monitor"
-trait_03: "protean"
+trait_01: [[chaotic]]
+trait_02: [[monitor]]
+trait_03: [[protean]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -81,10 +82,10 @@ attacks:
     desc: "`pf2:1` (concentrate,divine,polymorph) The naunet can take the appearance of any Small, Medium, or Large animal, beast, or humanoid. This doesn't change its Speed or its attack and damage bonuses with its Strikes but might change the damage type its Strikes deal.\n\n* * *\n"
 
   - name: "Confounding Slam"
-    desc: " (divine,emotion,mental) A creature hit by the naunet's tentacle Strike is [[Conditions/Stupefied 1|Stupefied 2]] for 1d4 rounds (DC 24 Will check negates). If the creature was already stupefied in this way, the duration extends by 1 round instead. A chaotic creature is only [[Conditions/Stupefied 1|Stupefied 1]] instead."
+    desc: " (divine,emotion,mental) A creature hit by the naunet's tentacle Strike is [[Conditions/Stupefied|Stupefied 2]] for 1d4 rounds (DC 24 Will check negates). If the creature was already stupefied in this way, the duration extends by 1 round instead. A chaotic creature is only [[Conditions/Stupefied|Stupefied 1]] instead."
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  1d8 + 8 bludgeoning damage, DC 26 Fortitude check save\n\n* * *\n"
+    desc: "`pf2:1`  1d8+8 bludgeoning damage, DC 26 Fortitude check save\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

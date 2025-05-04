@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/caligni
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Caligni Stalker"
@@ -25,9 +26,9 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "caligni"
-trait_02: "chaotic"
-trait_03: "humanoid"
+trait_01: [[caligni]]
+trait_02: [[chaotic]]
+trait_03: [[humanoid]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Death Flame"
-    desc: " (light) When the stalker dies, their body combusts in a flash of white-hot flame. All creatures in a 20-foot emanation take 5d6 fire damage (DC 21 Reflex check save).\n\nThe stalker's gear and treasure are unaffected by the flames and are left in a pile where they died."
+    desc: " (light) When the stalker dies, their body combusts in a flash of white-hot flame. All creatures in a @Template[emanation|distance:20] take 5d6 fire damage (DC 21 Reflex check save).\n\nThe stalker's gear and treasure are unaffected by the flames and are left in a pile where they died."
 
 attacks:
   - name: ""

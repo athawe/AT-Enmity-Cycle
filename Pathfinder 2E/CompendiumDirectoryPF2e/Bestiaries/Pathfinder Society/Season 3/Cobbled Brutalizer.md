@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.HIPqiHMAfN2mmAlg"
 tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/earth
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Cobbled Brutalizer"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #3-16: Escape from Oppara"
 name: "Cobbled Brutalizer"
 level: "Creature 6"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "aberration"
-trait_02: "earth"
+trait_01: [[aberration]]
+trait_02: [[earth]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -67,7 +68,7 @@ attacks:
     desc: "`pf2:1` Fist +16 (reach 15 feet)\n__Damage__  2d8 + 10 bludgeoning plus grab"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  1d8 + 10 bludgeoning, DC 23 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  1d8+10 bludgeoning, DC 23 Fortitude check\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

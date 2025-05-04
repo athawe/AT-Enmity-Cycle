@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/werecreature
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Weretiger"
@@ -27,11 +28,11 @@ level: "Creature 4"
 
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
-trait_05: "werecreature"
+trait_01: [[beast]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
+trait_05: [[werecreature]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -73,7 +74,7 @@ attacks:
     desc: "`pf2:1` Claw +14 (agile)\n__Damage__  2d4 + 7 slashing"
 
   - name: "[[Bestiary Ability Glossary/Change Shape|Change Shape]]"
-    desc: "`pf2:1` (concentrate,polymorph,primal) The werecreature changes into their humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true werecreature's natural form is their hybrid shape. In humanoid shape, the werecreature uses their original humanoid size, loses their jaws and claw Strikes, and gains a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by their claw. In animal shape, their Speed and size change to that of the animal, they gain any special Strike effects of the animal that they didn't already have (such as [[Bestiary Ability Glossary/Grab|Grab]]), and they lose their weapon Strikes.\n\nn\n\nHuman with fist +14 for 1d4 + 7 bludgeoning damage, or [[Bestiary 1/Tiger|Tiger]] with Speed 30 feet and Wrestle.\n\n* * *\n"
+    desc: "`pf2:1` (concentrate,polymorph,primal) The werecreature changes into their humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true werecreature's natural form is their hybrid shape. In humanoid shape, the werecreature uses their original humanoid size, loses their jaws and claw Strikes, and gains a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by their claw. In animal shape, their Speed and size change to that of the animal, they gain any special Strike effects of the animal that they didn't already have (such as [[Bestiary Ability Glossary/Grab|Grab]]), and they lose their weapon Strikes.\n\nHuman with fist +14 for 1d4+7 bludgeoning damage, or [[Bestiary 1/Tiger|Tiger]] with Speed 30 feet and Wrestle.\n\n* * *\n"
 
   - name: "Curse of the Weretiger"
     desc: " (curse,primal) This curse affects only humanoids\n\n**Saving Throw** DC 18 Fortitude check.\n\nOn each full moon, the cursed creature must succeed at another Fortitude save or turn into the same kind of werecreature until dawn. The creature is under the GM's control and goes on a rampage for half the night before falling unconscious until dawn."

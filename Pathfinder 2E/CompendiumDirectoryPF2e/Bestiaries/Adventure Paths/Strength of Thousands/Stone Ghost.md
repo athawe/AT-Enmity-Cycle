@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/oread
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Stone Ghost"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #169: Kindled Magic"
 name: "Stone Ghost"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "oread"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[oread]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Kholo, Petran"
 skills:
   - name: "Skills"
-    desc: "Arcana: +12, Athletics: +12, Intimidation: +12, Magaambya Lore: +12, Nature: +13, Stealth: +11"
+    desc: "Arcana: +12, Athletics: +12, Intimidation: +12, Nature: +13, Stealth: +11, Magaambya Lore: +12"
 abilityMods: [3, 0, 4, 3, 4, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder #169: Kindled Magic_"
@@ -55,7 +56,7 @@ abilities_top:
   - name: "Items"
     desc: "[[Equipment/Morningstar|+1 Morningstar]], [[Equipment/Sling|Sling]], [[Equipment/Leather Armor|Leather Armor]], 10x [[Equipment/Sling Bullets|Sling Bullets]]"
   - name: "Stone Spirit"
-    desc: "  Stone Ghost can pass through objects made of stone or soil, including walls. When inside an object, Stone Ghost can't perceive, attack, or interact with anything outside the object, and if he starts his turn inside an object, he is [[Conditions/Slowed 1|Slowed 1]]."
+    desc: "  Stone Ghost can pass through objects made of stone or soil, including walls. When inside an object, Stone Ghost can't perceive, attack, or interact with anything outside the object, and if he starts his turn inside an object, he is [[Conditions/Slowed|Slowed 1]]."
 
 abilities_mid:
   - name: ""

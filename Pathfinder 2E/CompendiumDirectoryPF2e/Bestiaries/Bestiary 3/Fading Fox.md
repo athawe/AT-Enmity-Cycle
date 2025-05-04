@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.GD8yAL8R8oft23Ml" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Fading Fox"
@@ -23,7 +24,7 @@ level: "Creature 2"
 
 alignment: ""
 size: "tiny"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8 (+10 to Escape), Athletics: +5 (+7 to High Jump or Long Jump), Stealth: +10, Survival: +9"
+    desc: "Acrobatics: +8, Athletics: +5, Stealth: +10, Survival: +9"
 abilityMods: [-1, 4, 1, -4, 3, 0]
 speed: 35 feet
 sourcebook: "_Pathfinder Bestiary 3_"

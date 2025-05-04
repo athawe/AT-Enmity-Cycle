@@ -28,6 +28,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
 abilities_mid:
   - name: ""
     desc: "With a quick burst of laughter, you prolong a magical effect you created. You Sustain a spell."

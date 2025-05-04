@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/cold
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Pakano (Level 12)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #177: Burning Tundra"
 name: "Pakano (Level 12)"
 level: "Creature 12"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "huge"
-trait_01: "animal"
-trait_02: "chaotic"
-trait_03: "cold"
-trait_04: "evil"
+trait_01: [[animal]]
+trait_02: [[chaotic]]
+trait_03: [[cold]]
+trait_04: [[evil]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +25, Intimidation: +25, Mammoth Lord Lore: +19, Stealth: +20 (+24 in ice and snow)"
+    desc: "Athletics: +25, Intimidation: +25, Stealth: +20, Mammoth Lord Lore: +19"
 abilityMods: [7, 4, 6, 1, 3, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder #177: Burning Tundra_"
@@ -56,7 +57,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Death Throes"
-    desc: " (cold,primal) When a frost worm dies, it explodes in a 100-foot burst of searing cold blood. All creatures and objects in range take 10d8 cold damage (DC 29 Reflex check save)."
+    desc: " (cold,primal) When a frost worm dies, it explodes in a @Template[burst|distance:100] of searing cold blood. All creatures and objects in range take 10d8 cold damage (DC 29 Reflex check save)."
 
   - name: "Human Cunning"
     desc: "  Pakano's allies are unaffected by his worm chill aura and Worm Trill, and his Freezing Blood affects random enemies instead of random creatures. His Death Throes, however, still affect all creatures and objects in a 100-foot burst."
@@ -74,7 +75,7 @@ attacks:
     desc: "`pf2:1` Jaws +25 ()\n__Damage__  3d8 + 10 piercing 2d6 cold"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (cold,primal) The frost worm exhales a blast of frost, dealing 13d6 cold damage to creatures in a 50-foot cone (DC 32 Reflex check save).\n\nIt can't use Breath Weapon again for 1d4 rounds."
+    desc: "`pf2:2` (cold,primal) The frost worm exhales a blast of frost, dealing 13d6 cold damage to creatures in a @Template[cone|distance:50] (DC 32 Reflex check save).\n\nIt can't use Breath Weapon again for 1d4 rounds."
 
   - name: "Freezing Blood"
     desc: "`pf2:r` (cold) **Trigger** The frost worm takes piercing or slashing damage\n* * *\n\n**Effect** The frost worm's freezing blood sprays out on a random creature within 10 feet of the frost worm. That creature takes 7d6 cold damage (DC 29 Reflex check save)."

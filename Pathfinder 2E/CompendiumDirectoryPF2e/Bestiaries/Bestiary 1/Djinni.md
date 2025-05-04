@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/genie
   - pf2e/creature/type/good
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Djinni"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Djinni"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "air"
-trait_02: "chaotic"
-trait_03: "elemental"
-trait_04: "genie"
-trait_05: "good"
+trait_01: [[air]]
+trait_02: [[chaotic]]
+trait_03: [[elemental]]
+trait_04: [[genie]]
+trait_05: [[good]]
 modifier: 13
 perception:
   - name: "Perception"

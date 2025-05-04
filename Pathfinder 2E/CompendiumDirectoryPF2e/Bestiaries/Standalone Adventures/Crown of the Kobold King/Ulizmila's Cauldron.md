@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.crown-of-the-kobold-king-bestiary.Actor.WukFzZnikG2vg5
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Ulizmila&#x27;s Cauldron"
@@ -24,8 +25,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "construct"
-trait_02: "mindless"
+trait_01: [[construct]]
+trait_02: [[mindless]]
 modifier: 4
 perception:
   - name: "Perception"

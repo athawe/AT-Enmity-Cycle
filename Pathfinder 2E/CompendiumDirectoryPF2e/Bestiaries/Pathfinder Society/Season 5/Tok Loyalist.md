@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kobold
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Tok Loyalist"
@@ -26,10 +27,10 @@ level: "Creature -1"
 
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "kobold"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[kobold]]
+trait_04: [[lawful]]
 modifier: 3
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Draconic"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +5, Crafting: +2 (+3 traps), Stealth: +5"
+    desc: "Acrobatics: +5, Crafting: +2, Stealth: +5"
 abilityMods: [1, 3, 0, 0, 1, -1]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #5-07: Sewer Dragon Crisis_"

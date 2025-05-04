@@ -1,5 +1,5 @@
 ---
-faction: 
+faction: "[[The Other Hand]]"
 favour: 
 occupation: 
 location: 
@@ -8,6 +8,7 @@ district:
 ### Appearance
 
 %% Pithy 1-2 sentences. Never more than 3. %%
+Walks around as a well dressed elf.
 
 ### Roleplaying
 

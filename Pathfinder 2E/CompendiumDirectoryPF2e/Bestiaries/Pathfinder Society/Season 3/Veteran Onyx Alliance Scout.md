@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/fetchling
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/shadow
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Veteran Onyx Alliance Scout"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Intro: Year of Shattered Sanctuaries"
 name: "Veteran Onyx Alliance Scout"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fetchling"
-trait_03: "humanoid"
-trait_04: "shadow"
+trait_01: [[evil]]
+trait_02: [[fetchling]]
+trait_03: [[humanoid]]
+trait_04: [[shadow]]
 modifier: 7
 perception:
   - name: "Perception"

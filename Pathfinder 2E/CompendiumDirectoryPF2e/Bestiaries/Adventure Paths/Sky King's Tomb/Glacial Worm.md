@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.rlIjgTlvztbgQwXw"
 tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Glacial Worm"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #194: Cult of the Cave Worm"
 name: "Glacial Worm"
 level: "Creature 16"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "grg"
-trait_01: "amphibious"
-trait_02: "animal"
+trait_01: [[amphibious]]
+trait_02: [[animal]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -45,7 +46,7 @@ hp: 370
 health:
   - name: ""
   - name: HP
-    desc: "370, cold healing; __Immunities__  cold; __Weaknesses__ fire 15"
+    desc: "370, cold healing; __Immunities__  cold,  immobilized; __Weaknesses__ fire 15"
 abilities_top:
   - name: ""
 
@@ -55,7 +56,7 @@ abilities_mid:
     desc: "  When a glacial worm is in extreme cold or surrounded by ice, it gains fast healing 10. When struck by a magical cold effect, a glacial worm regains Hit Points equal to half the cold damage the effect would otherwise deal."
 
   - name: "Inexorable"
-    desc: "  The glacial worm recovers from the [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Slowed 1|Slowed]], and [[Conditions/Stunned 1|Stunned]] conditions at the end of its turn. It's also immune to penalties to its Speeds and the [[Conditions/Immobilized|Immobilized]] condition, and it ignores difficult terrain and greater difficult terrain."
+    desc: "  The glacial worm recovers from the [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Slowed|Slowed]], and [[Conditions/Stunned|Stunned]] conditions at the end of its turn. It's also immune to penalties to its Speeds and the [[Conditions/Immobilized|Immobilized]] condition, and it ignores difficult terrain and greater difficult terrain."
 
   - name: "Leech Heat"
     desc: " (aura,cold) 30 feet. A glacial worm's intense cold absorbs heat. Creatures that start their turn within the area take 3d6 cold damage (DC 34 Fortitude check save)."
@@ -76,7 +77,7 @@ attacks:
     desc: "`pf2:r`  **Trigger** The worm Grabs a creature\n* * *\n\n**Effect** The worm uses Swallow Whole."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Huge, 3d8 + 12 bludgeoning + 2d6 cold, Rupture 28\n\n* * *\n"
+    desc: "`pf2:1` (attack) Huge, 3d8+12 bludgeoning + 2d6 cold, Rupture 28\n\n* * *\n"
 
   - name: "Thrash"
     desc: "`pf2:2`  The worm makes a Strike once against each creature in its reach. It can Strike up to once with its jaws and any number of times with its body. Each attack counts toward the worm's multiple attack penalty, but the multiple attack penalty doesn't increase until after it makes all the attacks."

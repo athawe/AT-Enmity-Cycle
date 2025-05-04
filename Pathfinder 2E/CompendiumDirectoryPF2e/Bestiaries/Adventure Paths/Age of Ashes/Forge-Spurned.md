@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/fire
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Forge-Spurned"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #148: Fires of the Haunted City"
 name: "Forge-Spurned"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fire"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[fire]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -72,7 +73,7 @@ attacks:
     desc: "`pf2:1` Warhammer +14 (shove)\n__Damage__  1d8 + 7 bludgeoning"
 
   - name: "Forge Breath"
-    desc: "`pf2:2` (divine,fire) The forge-spurned breathes a cloud of stinging soot, ash, and glowing embers. This can affect either a 30-foot cone or a 20-foot burst centered on the forge-spurned and persists for 1d4 rounds.\n\nEach creature that moves into or starts their turn in the area takes 6d6 fire damage, with a DC 21 Reflex check save. A creature that fails its save is also [[Conditions/Blinded|Blinded]] for 1 minute.\n\nCreatures within the cloud are [[Conditions/Concealed|Concealed]], though not from the forge-spurned.\n\nThe forge-spurned can't use Forge Breath again until it has used Inflate Bellows."
+    desc: "`pf2:2` (divine,fire) The forge-spurned breathes a cloud of stinging soot, ash, and glowing embers. This can affect either a @Template[cone|distance:30] or a @Template[burst|distance:20] centered on the forge-spurned and persists for 1d4 rounds.\n\nEach creature that moves into or starts their turn in the area takes 6d6 fire damage, with a DC 21 Reflex check save. A creature that fails its save is also [[Conditions/Blinded|Blinded]] for 1 minute.\n\nCreatures within the cloud are [[Conditions/Concealed|Concealed]], though not from the forge-spurned.\n\nThe forge-spurned can't use Forge Breath again until it has used Inflate Bellows."
 
   - name: "Inflate Bellows"
     desc: "`pf2:2`  **Requirements** The forge-spurned has used Forge Breath.\n* * *\n\n**Effect** The forge-spurned re-inflates its flaccid lungs, enabling it to use Forge Breath again."

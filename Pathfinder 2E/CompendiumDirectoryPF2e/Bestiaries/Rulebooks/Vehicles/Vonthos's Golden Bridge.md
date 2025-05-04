@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
 source: Pathfinder Guns &amp; Gears
 aliases: "Compendium.pf2e.vehicles.Actor.bMgQftCEiSqa1pTk" 
@@ -19,7 +20,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Guns & Gears"
 name: "Vonthos's Golden Bridge"
 level: "Vehicle 17"
-rare_03: "Unique"
+rare_03: [[Unique]]
 
 size: "Large"
 modifier: 
@@ -55,7 +56,7 @@ attacks:
     desc: "11d10 (DC 36)"
 
   - name: "Captivating Wealth"
-    desc: " (aura, magical, mental, visual) 40 feet. The gold, gems, and other embellishments that adorn this flying sphere emit a sparkling resplendence capable of enthralling creatures. Each creature that begins its turn within the aura must attempt a DC 36 Will check; on a failure, the creature is [[Conditions/Fascinated|Fascinated]] and [[Conditions/Stupefied 1|Stupefied 2]] for as long as it remains within the aura. A creature that succeeds is temporarily immune for 1 hour. Each time Prismatic Defense is activated, the area of Captivating Wealth is reduced by 10 feet for 1 hour, to a minimum of 0 feet."
+    desc: " (aura, magical, mental, visual) 40 feet. The gold, gems, and other embellishments that adorn this flying sphere emit a sparkling resplendence capable of enthralling creatures. Each creature that begins its turn within the aura must attempt a DC 36 Will check; on a failure, the creature is [[Conditions/Fascinated|Fascinated]] and [[Conditions/Stupefied|Stupefied 2]] for as long as it remains within the aura. A creature that succeeds is temporarily immune for 1 hour. Each time Prismatic Defense is activated, the area of Captivating Wealth is reduced by 10 feet for 1 hour, to a minimum of 0 feet."
 
   - name: "Protective Barrier"
     desc: " While the swirling rings of the vehicle don't fully cover the pilot, they offer incredible protection, magically maintaining the temperature within and ablating physical attacks. The pilot is protected from severe cold, severe heat, extreme cold, and extreme heat. The pilot also gains resistance 10 to all physical damage (except adamantine).\n\n[[Equipment Effects/Effect_ Protective Barrier|Effect: Protective Barrier]]"

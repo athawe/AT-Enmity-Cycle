@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #1-01: The Absalom Initiation
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.hpz50kmKMKVQWxW9" 
@@ -21,7 +22,7 @@ name: "Scrabbling Hands"
 level: "Hazard 2"
 
 
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 10
 sourcebook: "_Pathfinder Society Scenario #1-01: The Absalom Initiation_"
 perception:

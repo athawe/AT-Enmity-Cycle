@@ -6,6 +6,7 @@ tags:
   - magical
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Core Rulebook
 aliases: "Compendium.pf2e.hazards.Actor.4jJxLlimyQaIVXlt" 
@@ -23,15 +24,15 @@ name: "Darkside Mirror"
 level: "Hazard 14"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 24
 sourcebook: "_Pathfinder Core Rulebook_"
 ac: 34
 armorclass:
   - name: AC
-    desc: "34; __Fort__ +25, __Ref__ +20, __Will__ +0"
+    desc: "34; __Fort__ +25, __Ref__ +20, "
 hp: 4
 health:
   - name: ""

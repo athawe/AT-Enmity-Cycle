@@ -26,7 +26,9 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, divine, occult"
-**Area** 10-foot burst
+
+  - name: "Area"
+    desc: "10-foot burst"
   - name: "Duration"
     desc: "10 minutes"
 abilities_mid:

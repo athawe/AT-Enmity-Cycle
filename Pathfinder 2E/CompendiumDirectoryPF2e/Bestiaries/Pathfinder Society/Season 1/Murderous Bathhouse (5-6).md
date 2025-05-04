@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #1-13: Devil at the Crossroads
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.aGLtnb99MyPf3gp4" 
@@ -21,7 +22,7 @@ name: "Murderous Bathhouse (5-6)"
 level: "Hazard 6"
 
 trait_06: "Complex"
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 15
 sourcebook: "_Pathfinder Society Scenario #1-13: Devil at the Crossroads_"
 perception:

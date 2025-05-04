@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.abomination-vaults-bestiary.Actor.55SmPtsUXsridUjJ"
 tags:
   - pf2e/creature/type/fungus
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Dragon&#x27;s Blood Puffball"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #165: Eyes of Empty Death"
 name: "Dragon's Blood Puffball"
 level: "Creature 8"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "fungus"
-trait_02: "mindless"
+trait_01: [[fungus]]
+trait_02: [[mindless]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Spore Explosion"
-    desc: "  When the dragon's blood puffball dies, it explodes, dealing 7d8 poison damage to each creature in a 20-foot emanation (DC 26 Fortitude check save)."
+    desc: "  When the dragon's blood puffball dies, it explodes, dealing 7d8 poison damage to each creature in a @Template[emanation|distance:20] (DC 26 Fortitude check save)."
 
 attacks:
   - name: ""

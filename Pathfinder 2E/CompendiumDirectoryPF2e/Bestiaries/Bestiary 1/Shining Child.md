@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/astral
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Shining Child"
@@ -25,9 +26,9 @@ level: "Creature 12"
 
 alignment: ""
 size: "Medium"
-trait_01: "astral"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[astral]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 23
 perception:
   - name: "Perception"

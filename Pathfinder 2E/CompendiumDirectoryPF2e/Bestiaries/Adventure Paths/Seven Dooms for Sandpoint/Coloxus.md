@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/demon
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Coloxus"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #200: Seven Dooms for Sandpoint"
 name: "Coloxus"
 level: "Creature 12"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "demon"
-trait_03: "evil"
-trait_04: "fiend"
+trait_01: [[chaotic]]
+trait_02: [[demon]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -71,10 +72,10 @@ attacks:
     desc: "DC 32, attack +24; __6th __  _[[Spells/Shadow Blast|Shadow Blast]]_, _[[Spells/Summon Animal|Summon Animal (Giant Arthropods Only)]]_; __5th __  _[[Spells/Abyssal Plague|Abyssal Plague]]_, _[[Spells/Translocate|Translocate]]_; __4th __  _[[Spells/Confusion|Confusion]]_, _[[Spells/Invisibility|Invisibility]]_, _[[Spells/Suggestion|Suggestion]]_\n__Cantrips__  __(6th)__ _[[Spells/Message|Message]]_, _[[Spells/Prestidigitation|Prestidigitation]]_, _[[Spells/Telekinetic Projectile|Telekinetic Projectile]]_\n__Constant__  __(6th)__ _[[Spells/Truespeech|Truespeech]]_"
 
   - name: "Droning Wings"
-    desc: "`pf2:2` (divine,mental,visual) **Frequency** once per day\n* * *\n\n**Effect** The coloxus flutters its shimmering, gauzy wings and creates a mesmerizing display of color along with a sound-dampening buzzing drone. If the coloxus is [[Conditions/Invisible|Invisible]], that effect ends and it becomes visible. All creatures within a 30-foot emanation must succeed at a DC 29 Will check save or become [[Conditions/Slowed 1|Slowed 1]] ([[Conditions/Slowed 1|Slowed 2]] on a critical failure) until the start of the coloxus's next turn. As long as Droning Wings continues, the coloxus gains immunity to sonic damage. The coloxus can Sustain Droning Wings for up to 1 minute."
+    desc: "`pf2:2` (divine,mental,visual) **Frequency** once per day\n* * *\n\n**Effect** The coloxus flutters its shimmering, gauzy wings and creates a mesmerizing display of color along with a sound-dampening buzzing drone. If the coloxus is [[Conditions/Invisible|Invisible]], that effect ends and it becomes visible. All creatures within a @Template[emanation|distance:30] must succeed at a DC 29 Will check save or become [[Conditions/Slowed|Slowed 1]] ([[Conditions/Slowed|Slowed 2]] on a critical failure) until the start of the coloxus's next turn. As long as Droning Wings continues, the coloxus gains immunity to sonic damage. The coloxus can Sustain Droning Wings for up to 1 minute."
 
   - name: "Siphon"
-    desc: "  When a coloxus damages a creature with its jaws Strike, it siphons away the target's physical vitality and drinks from their sense of self-worth and confidence. The coloxus gains 10 temporary Hit Points, and the creature must succeed at a DC 32 Will check save or become [[Conditions/Stupefied 1|Stupefied 1]]. Further damage dealt by the coloxus increases the stupefied condition by 1 on a failed save to a maximum of [[Conditions/Stupefied 1|Stupefied 4]]."
+    desc: "  When a coloxus damages a creature with its jaws Strike, it siphons away the target's physical vitality and drinks from their sense of self-worth and confidence. The coloxus gains 10 temporary Hit Points, and the creature must succeed at a DC 32 Will check save or become [[Conditions/Stupefied|Stupefied 1]]. Further damage dealt by the coloxus increases the stupefied condition by 1 on a failed save to a maximum of [[Conditions/Stupefied|Stupefied 4]]."
 
   - name: "[[Bestiary Ability Glossary/Sneak Attack|Sneak Attack]]"
     desc: "  The creature's Strikes deal an additional 2d6 precision damage to [[Conditions/Off-Guard|Off-Guard]] creatures."

@@ -60,12 +60,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Popcorn
-creatures:
-  - 1: Popcorn
-```
-
 
 
 

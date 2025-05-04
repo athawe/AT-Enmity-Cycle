@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.gGdIV6uUHzX23vz6"
 tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lizardfolk
+  - pf2eMonster
   - pf2e/creature/level/2
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
-trait_02: "lizardfolk"
+trait_01: [[humanoid]]
+trait_02: [[lizardfolk]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -34,7 +35,7 @@ perception:
 languages: "Draconic, Iruxi, Common"
 skills:
   - name: "Skills"
-    desc: "Diplomacy: +4, Iruxi Lore: +6, Nature: +8, Stealth: +6, Survival: +8"
+    desc: "Diplomacy: +4, Nature: +8, Stealth: +6, Survival: +8, Iruxi Lore: +6"
 abilityMods: [2, 2, 1, 0, 4, 0]
 speed: 25 feet,  swim 20 feet
 sourcebook: "_Pathfinder Monster Core_"
@@ -66,7 +67,7 @@ attacks:
     desc: "`pf2:1` Tail +8 (agile, finesse)\n__Damage__  1d4 + 2 bludgeoning"
 
   - name: "Primal Prepared Spells"
-    desc: "DC 18, attack +10; __1st __  _[[Spells/Charm|Charm]]_, _[[Spells/Heal|Heal]]_, _[[Spells/Pest Form|Pest Form]]_, _[[Spells/Runic Body|Runic Body]]_, _[[Spells/Summon Animal|Summon Animal]]_\n__Cantrips__  __(1st)__ _[[Spells/Guidance|Guidance]]_, _[[Spells/Ignition|Ignition]]_, _[[Spells/Know the Way|Know the Way]]_, _[[Spells/Stabilize|Stabilize]]_"
+    desc: "DC 18, attack +10; __1st __  _[[Spells/Charm|Charm]]_, _[[Spells/Heal|Heal]]_, _[[Spells/Pest Form|Pest Form]]_, _[[Spells/Runic Body|Runic Body]]_, _[[Spells/Summon Animal|Summon Animal]]_\n__Cantrips__  __(1st)__ _[[Spells/Guidance|Guidance]]_, _[[Spells/Ignition|Ignition]]_, _[[Spells/Know the Way|Know the Way]]_, _[[Spells/Light|Light]]_, _[[Spells/Stabilize|Stabilize]]_"
 
   - name: "Deep Breath"
     desc: "  A lizardfolk stargazer can hold their breath for 20 minutes."

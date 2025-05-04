@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/nymph
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Dryad"
@@ -27,11 +28,11 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "fey"
-trait_03: "good"
-trait_04: "nymph"
-trait_05: "plant"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
+trait_03: [[good]]
+trait_04: [[nymph]]
+trait_05: [[plant]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Elven, Fey; speak with plants"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +9, Athletics: +5, Crafting: +7 (+9 woodworking), Diplomacy: +9, Nature: +13, Stealth: +9, Survival: +12"
+    desc: "Acrobatics: +9, Athletics: +5, Crafting: +7, Diplomacy: +9, Nature: +13, Stealth: +9, Survival: +12"
 abilityMods: [0, 4, 1, 2, 3, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary_"
@@ -61,7 +62,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Tree Dependent"
-    desc: "  A dryad is mystically bonded to a single great tree and must remain within 300 feet of it. If she moves beyond that range, she becomes [[Conditions/Sickened 1|Sickened 1]] and is unable to recover. She must attempt a DC 18 Fortitude check save every hour or increase the sickened value by 1 (to a maximum of sickened 4). After 24 hours, she becomes [[Conditions/Drained 1|Drained 1]], with this value increasing by 1 every additional 24 hours. A dryad can perform a 24-hour ritual to bond herself to a new tree."
+    desc: "  A dryad is mystically bonded to a single great tree and must remain within 300 feet of it. If she moves beyond that range, she becomes [[Conditions/Sickened|Sickened 1]] and is unable to recover. She must attempt a DC 18 Fortitude check save every hour or increase the sickened value by 1 (to a maximum of sickened 4). After 24 hours, she becomes [[Conditions/Drained|Drained 1]], with this value increasing by 1 every additional 24 hours. A dryad can perform a 24-hour ritual to bond herself to a new tree."
 
 attacks:
   - name: ""

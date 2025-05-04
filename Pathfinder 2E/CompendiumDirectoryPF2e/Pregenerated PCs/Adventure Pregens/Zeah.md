@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Zeah
-creatures:
-  - 1: Zeah
-```
-
 
 
 

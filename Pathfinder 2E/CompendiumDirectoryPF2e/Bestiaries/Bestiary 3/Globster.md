@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.i3Ui3hHIBZnHl0Le"
 tags:
   - pf2e/creature/type/aquatic
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Globster"
@@ -24,8 +25,8 @@ level: "Creature 5"
 
 alignment: ""
 size: "Large"
-trait_01: "aquatic"
-trait_02: "ooze"
+trait_01: [[aquatic]]
+trait_02: [[ooze]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -52,7 +53,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Stench"
-    desc: " (aura,olfactory) 30 feet. A creature entering the aura or starting its turn in the area must succeed at a DC 19 Fortitude check save or become [[Conditions/Sickened 1|Sickened 1]] (plus [[Conditions/Slowed 1|Slowed 1]] for as long as it's sickened on a critical failure).\n\nWhile within the aura, affected creatures take a -2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all globsters' stenches for 1 minute.\n\n[[Bestiary Effects/Effect_ Stench|Effect: Stench]]"
+    desc: " (aura,olfactory) 30 feet. A creature entering the aura or starting its turn in the area must succeed at a DC 19 Fortitude check save or become [[Conditions/Sickened|Sickened 1]] (plus [[Conditions/Slowed|Slowed 1]] for as long as it's sickened on a critical failure).\n\nWhile within the aura, affected creatures take a -2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune to all globsters' stenches for 1 minute.\n\n[[Bestiary Effects/Effect_ Stench|Effect: Stench]]"
 
 attacks:
   - name: ""
@@ -61,10 +62,10 @@ attacks:
     desc: "`pf2:1` Tendril +15 ()\n__Damage__  2d8 + 6 bludgeoning plus grab,nauseating-slap"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  1d8 + 6 bludgeoning, DC 22 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  1d8+6 bludgeoning, DC 22 Fortitude check\n\n* * *\n"
 
   - name: "Nauseating Slap"
-    desc: " (poison) A living creature struck by a globster's tendril must attempt a DC 19 Fortitude check save. On a failure, the creature becomes [[Conditions/Sickened 1|Sickened 1]]. If the creature is already sickened, the condition value increases by 1, to a maximum of sickened 4.\n\nOnce a creature succeeds at its saving throw, it is temporarily immune for 24 hours."
+    desc: " (poison) A living creature struck by a globster's tendril must attempt a DC 19 Fortitude check save. On a failure, the creature becomes [[Conditions/Sickened|Sickened 1]]. If the creature is already sickened, the condition value increases by 1, to a maximum of sickened 4.\n\nOnce a creature succeeds at its saving throw, it is temporarily immune for 24 hours."
 
   - name: "Saturated"
     desc: "  A globster can survive for 1 hour out of the water, after which it risks drowning and suffocation."

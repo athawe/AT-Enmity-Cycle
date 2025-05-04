@@ -35,7 +35,7 @@ Typically used to fake one's death, this poison swiftly causes the imbiber to lo
 
 **Stage 1** [[Conditions/Clumsy 1|Clumsy 2]] (1 round)
 
-**Stage 2** unconscious (1 hour)
+**Stage 2** [[Conditions/Unconscious|Unconscious]] (1 hour)
 
 **Stage 3** unconscious (1 day)
 

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/herald
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "The Stabbing Beast"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #160: Assault on Hunting Lodge Seven"
 name: "The Stabbing Beast"
 level: "Creature 15"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "huge"
-trait_01: "evil"
-trait_02: "fiend"
-trait_03: "herald"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[fiend]]
+trait_03: [[herald]]
+trait_04: [[unholy]]
 modifier: 27
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Chthonian, Common, Diabolic, Empyrean, Protean; telepathy 100 feet"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +27, Athletics: +25, Crafting: +24, Deception: +26, Intimidation: +26, Norgorber Lore: +28, Religion: +24, Society: +26, Stealth: +29"
+    desc: "Acrobatics: +27, Athletics: +25, Crafting: +24, Deception: +26, Intimidation: +26, Religion: +24, Society: +26, Stealth: +29, Norgorber Lore: +28"
 abilityMods: [6, 8, 4, 3, 4, 3]
 speed: 40 feet
 sourcebook: "_Pathfinder #160: Assault on Hunting Lodge Seven_"
@@ -89,7 +90,7 @@ attacks:
     desc: "`pf2:1` (concentrate,divine) **Requirements** The Stabbing Beast is using Change Shape\n* * *\n\n**Effect** The Stabbing Beast summons one or two _+2 greater striking keen shortswords_ into their hands. These weapons disappear if they leave the Stabbing Beast's grasp or if the Stabbing Beast ends Change Shape."
 
   - name: "Stabbing Beast Venom"
-    desc: " (poison) While a creature is enfeebled from this poison, it is [[Conditions/Doomed 1|Doomed 1]]\n\n**Saving Throw** DC 36 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 3d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 2]] (1 round)\n\n**Stage 2** 4d6 poison damage and enfeebled 2 (1 round)\n\n**Stage 3** 6d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 3]] (1 round)"
+    desc: " (poison) While a creature is enfeebled from this poison, it is [[Conditions/Doomed|Doomed 1]]\n\n**Saving Throw** DC 36 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 3d6 poison damage and [[Conditions/Enfeebled|Enfeebled 2]] (1 round)\n\n**Stage 2** 4d6 poison damage and enfeebled 2 (1 round)\n\n**Stage 3** 6d6 poison damage and [[Conditions/Enfeebled|Enfeebled 3]] (1 round)"
  
 ```
 

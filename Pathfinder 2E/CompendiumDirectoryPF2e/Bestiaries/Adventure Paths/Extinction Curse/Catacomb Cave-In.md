@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - trap
+  - pf2eHazard
 
 source: Pathfinder #151: The Show Must Go On
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.vBUYl8mREwhO2Vst" 
@@ -22,14 +23,14 @@ name: "Catacomb Cave-In"
 level: "Hazard 4"
 
 
-trait_01: "environmental"
-trait_02: "trap"
+trait_01: [[environmental]]
+trait_02: [[trap]]
 modifier: 13
 sourcebook: "_Pathfinder #151: The Show Must Go On_"
 ac: 21
 armorclass:
   - name: AC
-    desc: "21; __Fort__ +12, __Ref__ +8, __Will__ +0"
+    desc: "21; __Fort__ +12, __Ref__ +8, "
 hp: 44
 health:
   - name: ""

@@ -20,7 +20,7 @@ license: ORC
 **Bulk** L; **Size** med
 **Usage** held-in-two-hands
 
-Activate `pf2:1` (manipulate)
+**Activate** `pf2:1` (manipulate)
 
 * * *
 

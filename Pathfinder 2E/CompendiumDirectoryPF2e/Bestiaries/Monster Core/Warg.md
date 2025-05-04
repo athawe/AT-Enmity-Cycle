@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.x7Aa4Tvr9eBaHryF" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/2
   - remaster
 statblock: inline
@@ -24,7 +25,7 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -63,7 +64,7 @@ attacks:
     desc: "  The warg's Strikes deals an extra 1d4 damage to any creature within reach of at least two of the warg's allies."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Small, 1d6 + 2 bludgeoning, Rupture 9\n\n* * *\n"
+    desc: "`pf2:1` (attack) Small, 1d6+2 bludgeoning, Rupture 9\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

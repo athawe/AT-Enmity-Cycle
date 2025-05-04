@@ -27,6 +27,7 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "occult"
+
   - name: "Duration"
     desc: "1 minute"
 abilities_mid:

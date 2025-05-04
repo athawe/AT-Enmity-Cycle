@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/dragon
   - pf2e/creature/type/elemental
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Ixamè"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #171: Hurricane&#x27;s Howl"
 name: "Ixamè"
 level: "Creature 10"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "air"
-trait_02: "dragon"
-trait_03: "elemental"
-trait_04: "undead"
+trait_01: [[air]]
+trait_02: [[dragon]]
+trait_03: [[elemental]]
+trait_04: [[undead]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -83,7 +84,7 @@ attacks:
     desc: "DC 29, attack +21; __2nd __ (1 slots) _[[Spells/Mist|Obscuring Mist]]_; __1st __ (1 slots) _[[Spells/Gust of Wind|Gust of Wind (At Will)]]_"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (poison,primal) Ixamè breathes a cloud of poison like that emitted from Terwa Lake that deals 11d6 poison damage in a 40-foot cone (DC 29 Reflex check save).\n\nShe can't use Breath Weapon again for 1d4 rounds."
+    desc: "`pf2:2` (poison,primal) Ixamè breathes a cloud of poison like that emitted from Terwa Lake that deals 11d6 poison damage in a @Template[cone|distance:40] (DC 29 Reflex check save).\n\nShe can't use Breath Weapon again for 1d4 rounds."
 
   - name: "Cloud Walk"
     desc: "  Ixamè can tread on clouds or fog as though on solid ground."

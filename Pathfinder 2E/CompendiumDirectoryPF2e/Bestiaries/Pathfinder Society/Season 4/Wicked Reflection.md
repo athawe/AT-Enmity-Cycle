@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #4-14: Shattering Golden Chains
 aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.BFTZmBmib06cgtXD" 
@@ -22,14 +23,14 @@ name: "Wicked Reflection"
 level: "Hazard 1"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 11
 sourcebook: "_Pathfinder Society Scenario #4-14: Shattering Golden Chains_"
 ac: 16
 armorclass:
   - name: AC
-    desc: "16; __Fort__ +8, __Ref__ +5, __Will__ +0"
+    desc: "16; __Fort__ +8, __Ref__ +5, "
 hp: 23
 health:
   - name: ""

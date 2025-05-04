@@ -28,10 +28,11 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, divine, occult"
+
   - name: "Duration"
     desc: "1 hour"
 abilities_mid:
   - name: ""
-    desc: "You materialize a [[Equipment/Musical Instrument (Handheld)|Musical Instrument (Handheld)]] in your grasp. The instrument is typical for its type, but it plays only for you. It vanishes when the spell ends. If you cast _summon instrument_ again, any instrument you previously summoned disappears.\n* * *\n\n**Heightened (5th)** The instrument is instead a [[Equipment/Musical Instrument (Virtuoso handheld)|Musical Instrument (Virtuoso handheld)]]"
+    desc: "You materialize a [[Equipment/Musical Instrument (Handheld)|Musical Instrument (Handheld)]] in your grasp. The instrument is typical for its type, but it plays only for you. It vanishes when the spell ends. If you cast _summon instrument_ again, any instrument you previously summoned disappears.\n* * *\n\n**Heightened (5th)** The instrument is instead a [[Equipment/Musical Instrument (Virtuoso handheld)|Musical Instrument (Virtuoso handheld)]]."
 sourcebook: "_Pathfinder Player Core_"
 ```

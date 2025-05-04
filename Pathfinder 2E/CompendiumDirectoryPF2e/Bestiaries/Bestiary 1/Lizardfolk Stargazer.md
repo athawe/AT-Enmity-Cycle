@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.yzyaD2yGDrxmYh7P"
 tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lizardfolk
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Lizardfolk Stargazer"
@@ -24,8 +25,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
-trait_02: "lizardfolk"
+trait_01: [[humanoid]]
+trait_02: [[lizardfolk]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Draconic, Iruxi"
 skills:
   - name: "Skills"
-    desc: "Diplomacy: +4, Iruxi Lore: +6, Nature: +8, Stealth: +6, Survival: +8"
+    desc: "Diplomacy: +4, Nature: +8, Stealth: +6, Survival: +8, Iruxi Lore: +6"
 abilityMods: [2, 2, 1, 0, 4, 0]
 speed: 25 feet,  swim 20 feet
 sourcebook: "_Pathfinder Bestiary_"

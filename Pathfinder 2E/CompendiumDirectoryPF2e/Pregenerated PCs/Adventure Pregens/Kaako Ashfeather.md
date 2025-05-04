@@ -60,12 +60,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Kaako Ashfeather
-creatures:
-  - 1: Kaako Ashfeather
-```
-
 
 
 

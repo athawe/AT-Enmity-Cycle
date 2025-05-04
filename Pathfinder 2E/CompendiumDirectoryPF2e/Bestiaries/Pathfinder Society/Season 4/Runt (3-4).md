@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.qkqL6iX7WRmOfNk7"
 tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/minion
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Runt (3-4)"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-13: Within the Prairies"
 name: "Runt (3-4)"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "tiny"
-trait_01: "evil"
-trait_02: "minion"
+trait_01: [[evil]]
+trait_02: [[minion]]
 modifier: 7
 perception:
   - name: "Perception"

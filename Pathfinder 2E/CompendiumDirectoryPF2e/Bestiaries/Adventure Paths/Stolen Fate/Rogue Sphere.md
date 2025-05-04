@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - magical
+  - pf2eHazard
   - complex
 source: Pathfinder #191: The Destiny War
 aliases: "Compendium.pf2e.stolen-fate-bestiary.Actor.IxLbsbIVhclXMf9M" 
@@ -22,14 +23,14 @@ name: "Rogue Sphere"
 level: "Hazard 15"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "magical"
+trait_01: [[environmental]]
+trait_02: [[magical]]
 modifier: 40
 sourcebook: "_Pathfinder #191: The Destiny War_"
 ac: 34
 armorclass:
   - name: AC
-    desc: "34; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "34; "
 hp: 96
 health:
   - name: ""

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Bone Ship"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Bone Ship"
 level: "Creature 18"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 32
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Blood Wake"
-    desc: " (aura,divine,fear,mental) 30 feet. The churning water around the bone ship tinges red with seeping blood. A living creature that enters water in the aura sees visions of itself drowning in the blood and must attempt a DC 37 Will check save. After attempting this saving throw, the creature is temporarily immune for 1 hour.\n\nOn a failure, the creature becomes [[Conditions/Frightened 1|Frightened 2]] ([[Conditions/Frightened 1|Frightened 4]] on a critical failure) and [[Conditions/Stunned 1|Stunned 1]], and it takes a -4 status penalty to Athletics checks to Swim.\n\n[[Bestiary Effects/Effect_ Blood Wake|Effect: Blood Wake]]"
+    desc: " (aura,divine,fear,mental) 30 feet. The churning water around the bone ship tinges red with seeping blood. A living creature that enters water in the aura sees visions of itself drowning in the blood and must attempt a DC 37 Will check save. After attempting this saving throw, the creature is temporarily immune for 1 hour.\n\nOn a failure, the creature becomes [[Conditions/Frightened|Frightened 2]] ([[Conditions/Frightened|Frightened 4]] on a critical failure) and [[Conditions/Stunned|Stunned 1]], and it takes a -4 status penalty to Athletics checks to Swim.\n\n[[Bestiary Effects/Effect_ Blood Wake|Effect: Blood Wake]]"
 
 attacks:
   - name: ""
@@ -83,7 +84,7 @@ attacks:
     desc: "`pf2:1`  The bone ship makes a special bone cannon Strike, firing a chain made of bones. A creature hit by this Strike is [[Conditions/Grabbed|Grabbed]] by the chain ([[Actions/Escape|Escape]] DC 41).\n\nThe bone ship can use Interact actions to reel in a grabbed creature 50 feet per action spent, and when the ship moves, it pulls the grabbed creature along with it."
 
   - name: "Crew's Call"
-    desc: "`pf2:2` (divine) The crew let out an anguished cry in unison. This is a [[Spells/Wails of the Damned|Wails of the Damned]] spell with 100-foot emanation (DC 39 Fortitude check). In addition, any creature within 5 feet of the ship is [[Conditions/Grabbed|Grabbed]] by the crew.\n\nThe ship can't use Crew's Call again for 1d4+1 rounds."
+    desc: "`pf2:2` (divine) The crew let out an anguished cry in unison. This is a [[Spells/Wails of the Damned|Wails of the Damned]] spell with @Template[emanation|distance:100] (DC 39 Fortitude check). In addition, any creature within 5 feet of the ship is [[Conditions/Grabbed|Grabbed]] by the crew.\n\nThe ship can't use Crew's Call again for 1d4+1 rounds."
 
   - name: "[[Bestiary Ability Glossary/Trample|Keelhaul]]"
     desc: "`pf2:3`  As Trample (Huge or smaller, hull, DC 43 Reflex check), but the bone ship Swims up to double its swim Speed instead of Striding, and each creature that fails its save is also dragged under the ship.\n\nThe GM places each creature dragged along in an underwater space adjacent to the bone ship at the end of the ship's movement.\n\n* * *\n"

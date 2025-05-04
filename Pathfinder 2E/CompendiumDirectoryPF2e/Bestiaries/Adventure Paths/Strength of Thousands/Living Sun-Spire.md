@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.ijo4aRSFVd7Bmzr2"
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Living Sun-Spire"
@@ -24,8 +25,8 @@ level: "Creature 13"
 
 alignment: ""
 size: "grg"
-trait_01: "construct"
-trait_02: "mindless"
+trait_01: [[construct]]
+trait_02: [[mindless]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -73,7 +74,7 @@ attacks:
     desc: "`pf2:1` Sunfire Beam +28 (fire, magical, range increment 100 feet)\n__Damage__  3d8 + 11 fire"
 
   - name: "Beam of the Seven Suns"
-    desc: "`pf2:2` (divine,fire) The sun-spire collects solar energy and uses the energy to create a deadly beam of fire. It fires the beam in a 120-foot line, dealing 11d8 fire damage to all creatures in the line (DC 33 Reflex check save). The concentrated beam ignites everything in its path, including the air, creating a wall of burning flame along the line that continues to burn until the end of the sun-spire's next turn. This wall has the effects of a 5th-rank [[Spells/Wall of Fire|Wall of Fire]] spell, dealing 5d6 fire damage to any creature that crosses the wall or occupies the wall's area at the start of its turn. The sun-spire can't use the Beam of the Seven Suns again for 1d4 rounds, although rounds it's not in sunlight don't count toward this number."
+    desc: "`pf2:2` (divine,fire) The sun-spire collects solar energy and uses the energy to create a deadly beam of fire. It fires the beam in a @Template[line|distance:120], dealing 11d8 fire damage to all creatures in the line (DC 33 Reflex check save). The concentrated beam ignites everything in its path, including the air, creating a wall of burning flame along the line that continues to burn until the end of the sun-spire's next turn. This wall has the effects of a 5th-rank [[Spells/Wall of Fire|Wall of Fire]] spell, dealing 5d6 fire damage to any creature that crosses the wall or occupies the wall's area at the start of its turn. The sun-spire can't use the Beam of the Seven Suns again for 1d4 rounds, although rounds it's not in sunlight don't count toward this number."
 
   - name: "[[Bestiary Ability Glossary/Trample|Trample]]"
     desc: "`pf2:3`  Large or smaller, arm, DC 33 Reflex check\n\n* * *\n"

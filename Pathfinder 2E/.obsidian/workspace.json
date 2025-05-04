@@ -8,79 +8,83 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dd12a36662c1e4cd",
+            "id": "170c748f5eccd256",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Enmity Cycle/EC - Prep Work To Do.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "bf85975c9e44db67",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Enmity Cycle/Sessions/Session 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "e348931274f23932",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enmity Cycle/Quests and Plot Threads/Side Quests & Political Plots.md",
+                "file": "Enmity Cycle/NPCs/Social Interactions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0b18c424daabd6f4",
+            "id": "b1d68d07bd09ca84",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enmity Cycle/Quests and Plot Threads/Side Quests/My only Sunshine.md",
+                "file": "Enmity Cycle/Scenes/Environment.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6d48c0cb9e45db3c",
+            "id": "803116321507399f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enmity Cycle/NPCs/Characters/Townsfolk.md",
+                "file": "Enmity Cycle/Scenes/Overland Travel.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d43f887912ce215d",
+            "id": "52d79f8a7b47cad5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Enmity Cycle/NPCs/Antagonists/Water Lords.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ede55c89fb68a77",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Enmity Cycle/Quests and Plot Threads/Background Events.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd363f6d528e8ae7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Enmity Cycle/Locations/Districts/F-Grand Market/Hannah's Herbs.md",
+                "file": "Enmity Cycle/Hexploration Player Primer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 294.5
   },
   "right": {
     "id": "965c9aa8692f5245",
@@ -146,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Enmity Cycle/Quests and Plot Threads/Side Quests/My only Sunshine.md",
+                "file": "Enmity Cycle/Scenes/Overland Travel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,24 +162,12 @@
             }
           },
           {
-            "id": "fd5c4e2209a5f6ec",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Enmity Cycle/Quests and Plot Threads/Side Quests/My only Sunshine.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "90aa2952518d2890",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Enmity Cycle/Quests and Plot Threads/Side Quests/My only Sunshine.md"
+                "file": "Enmity Cycle/Scenes/Overland Travel.md"
               }
             }
           },
@@ -195,28 +187,34 @@
               "state": {
                 "calendar": "ID_c83a681958fb",
                 "ephemeral": {
-                  "viewing": {
+                  "viewState": 1,
+                  "displaying": {
                     "day": 1,
                     "month": 5,
                     "year": 4725
                   },
-                  "viewState": 1,
-                  "displaying": {
-                    "day": 8,
-                    "month": 5,
-                    "year": 4725
-                  },
                   "displayDayNumber": true,
-                  "displayAbsoluteYear": true,
                   "displayMoons": true
                 },
                 "id": "ID_e9b8fb0a1bd9",
-                "child": "ID_da8859f979fb"
+                "child": "ID_7abaab591b9b"
               }
             }
           },
           {
-            "id": "87ee60fb283cbca2",
+            "id": "e94f56932efad013",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Enmity Cycle/Scenes/Overland Travel.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0ab68a727c888308",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -228,20 +226,19 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
-        "id": "8274381c4eb283dc",
+        "id": "e638d38c6d046056",
         "type": "tabs",
         "children": [
           {
-            "id": "659da17274ed1248",
+            "id": "23d71644a9e2636a",
             "type": "leaf",
             "state": {
               "type": "CALENDARIUM_AGENDA",
               "state": {
-                "calendar": "ID_c83a681958fb",
-                "id": "ID_da8859f979fb",
+                "id": "ID_7abaab591b9b",
                 "parent": "ID_e9b8fb0a1bd9"
               }
             }
@@ -250,7 +247,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 385.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,57 +260,59 @@
       "obsidian-5e-statblocks:Open Creature pane": false,
       "initiative-tracker:Initiative Tracker Encounter Builder": false,
       "fantasy-content-generator:Fantasy Generators": false,
-      "calendarium:Open Calendarium": false
+      "workspaces-plus:Manage workspaces": false,
+      "calendarium:Open Calendarium": false,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "0b18c424daabd6f4",
+  "active": "803116321507399f",
   "lastOpenFiles": [
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/My Favourite Coven of Bitches.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/My only Sunshine.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Murky Water.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Looking for Arika Avertin.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/It just takes one!.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Influence Encounter to help a Troupe.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Infiltration.md",
-    "Enmity Cycle/NPCs/Characters/Townsfolk.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Holy Vapours.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Gross Blockage.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Goin' Hard in the Sheets.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Duels.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Cop Girl.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Chase Encounters.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests & Political Plots.md",
-    "Enmity Cycle/Quests and Plot Threads/Background Events.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Bounty Board 3.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Bounty Board 4.md",
-    "Enmity Cycle/Locations/Districts/F-Grand Market/Hannah's Herbs.md",
-    "Enmity Cycle/Locations/Districts/North Shoulder.md",
-    "Enmity Cycle/NPCs/Antagonists/Water Lords.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Bounty Board 2.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Bounty Board 1.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Angry Guest.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/Ancient Grudge.md",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/An Ear Full of Pain.md",
-    "Enmity Cycle/Scenes/Society Modules/Archaeology in Aspenthar.pdf",
-    "Enmity Cycle/Scenes/Society Modules/21 In Pursuit of Water.pdf",
-    "Enmity Cycle/Screenshot 2024-07-14 115241.jpg",
-    "Enmity Cycle/Screenshot 2024-07-14 201059.jpg",
-    "zz-Attachments/Enmity Cycle Assets/EC-Character Art/nastya- shcherbakova.jpg",
-    "zz-Attachments/Enmity Cycle Assets/EC-Character Art/Thulgurn Lastaxe - nastya- shcherbakova.jpg",
-    "zz-Attachments/Enmity Cycle Assets/EC-Character Art/Thulgurn Lastaxe - nastya-shcherbakova.jpg",
-    "zz-Attachments/Enmity Cycle Assets/EC-Character Art/sanjin-halimic-sanjinhalimic-innkeeper-1400px.jpg",
-    "zz-Attachments/Enmity Cycle Assets/EC-Character Art/Security manager by willobrien.jpg",
-    "Enmity Cycle/Security manager by willobrien.jpg",
-    "Enmity Cycle/sanjin-halimic-sanjinhalimic-innkeeper-1400px.jpg",
-    "zz-Attachments/Enmity Cycle Assets/EC-Character Art/Ragmor Evendelver.jpg",
-    "zz-Attachments/PDFs/Pathfinder Society Guide.pdf",
-    "Enmity Cycle/Farseer Tower.jpg.0.pdnSave",
-    "Enmity Cycle/Scenes/Society Modules/S09-07 - Salvation of the Sages.pdf",
-    "Enmity Cycle/JonahtheLich1720200553.json",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/5 - Of Reefs & Ruin/Of Reefs & Ruin - Bestiary.pdf",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/5 - Of Reefs & Ruin/Of Reefs & Ruin - Map Folio.pdf",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/5 - Of Reefs & Ruin/Of Reefs & Ruin - Adventure.pdf",
-    "Enmity Cycle/Quests and Plot Threads/Side Quests/5 - Of Reefs & Ruin/Bestiary.pdf",
+    "Enmity Cycle/Scenes/Environment.md",
+    "Enmity Cycle/Hexploration Player Primer.md",
+    "Enmity Cycle/Scenes/Overland Travel.md",
+    "CompendiumDirectoryPF2e/Bestiaries/Rulebooks/Hazards (Rulebooks)/Quicksand.md",
+    "Enmity Cycle/Sessions/Session 2.md",
+    "Enmity Cycle/EC - Prep Work To Do.md",
+    "Enmity Cycle/NPCs/Social Interactions.md",
+    "CompendiumDirectoryPF2e/Bestiaries/Rulebooks/NPC Gallery/Bandit.md",
+    "Enmity Cycle/Locations/Districts/Little Arm.md",
+    "CompendiumDirectoryPF2e/Character Building/Feats/Efficient Explorer.md",
+    "Enmity Cycle/Locations/Districts/Grand Market.md",
+    "Enmity Cycle/Locations/Less important/Adapting Sandpoint.md",
+    "zz-Attachments/actions/map-the-area-gmg.md",
+    "zz-Attachments/actions/reconnoiter-gmg.md",
+    "zz-Attachments/actions/wind-them-up-loil.md",
+    "zz-Attachments/actions/wicked-thorns-loil.md",
+    "zz-Attachments/actions/vital-shot-g-g.md",
+    "zz-Attachments/actions/venom-draw-loil.md",
+    "zz-Attachments/actions/upgrade-defenses-aoa2.md",
+    "zz-Attachments/actions/unleash-psyche-da.md",
+    "zz-Attachments/actions/unexpected-patrol-aoa5.md",
+    "zz-Attachments/actions/unexpected-falcons-aoa5.md",
+    "zz-Attachments/actions/tumble-through.md",
+    "zz-Attachments/actions/trip.md",
+    "zz-Attachments/actions/take-control-gmg.md",
+    "zz-Attachments/actions/take-a-breather-gmg.md",
+    "zz-Attachments/actions",
+    "zz-Attachments/Pasted Images/Pasted image 20240824200809.png",
+    "zz-Attachments/Enmity Cycle Assets/EC-Character Art/lucian-acatrinei-dwarf-mage-avratim-steelcrow-1600.jpg",
+    "zz-Attachments/Resource PDFs/TRAILseeker2 024 The Emerald Crown Of Muzo.pdf",
+    "zz-Attachments/Resource PDFs/TRAILseeker2 019 Sands Of Twilight.pdf",
+    "zz-Attachments/Resource PDFs/TRAILseeker2 016 The Guardian Murderer.pdf",
+    "zz-Attachments/Enmity Cycle Assets/EC-Maps/In Pursuit of Water/Pasted image 20240809085932.png",
+    "zz-Attachments/Enmity Cycle Assets/EC-Maps/In Pursuit of Water/Pasted image 20240809090012.png",
+    "zz-Attachments/Enmity Cycle Assets/EC-Maps/In Pursuit of Water/Pasted image 20240809084547.png",
+    "zz-Attachments/Enmity Cycle Assets/EC-Maps/In Pursuit of Water",
+    "zz-Attachments/Enmity Cycle Assets/In Pursuit of Water/Pasted image 20240809085932.png",
+    "zz-Attachments/Enmity Cycle Assets/In Pursuit of Water/Pasted image 20240809084547.png",
+    "zz-Attachments/Enmity Cycle Assets/In Pursuit of Water/Pasted image 20240809090012.png",
+    "zz-Attachments/Enmity Cycle Assets/In Pursuit of Water",
+    "zz-Attachments/Enmity Cycle Assets/New folder",
+    "zz-Attachments/Enmity Cycle Assets/Pasted image 20240809084547.png",
+    "zz-Attachments/Enmity Cycle Assets/Pasted image 20240809090012.png",
+    "zz-Attachments/Enmity Cycle Assets/Monsters",
+    "zz-Attachments/PDFs/The Enmity Cycle.pdf",
+    "zz-Attachments/Resource PDFs/Settlements/Designing Hex Towns_v1.1.pdf",
     "Untitled.canvas"
   ]
 }

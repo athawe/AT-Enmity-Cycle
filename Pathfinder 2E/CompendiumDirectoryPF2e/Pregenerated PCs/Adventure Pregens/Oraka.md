@@ -69,12 +69,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Oraka
-creatures:
-  - 1: Oraka
-```
-
 
 
 

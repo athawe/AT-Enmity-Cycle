@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder #156: The Apocalypse Prophet
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.M3pYUyhrmylFqS0B" 
@@ -21,13 +22,13 @@ name: "Guthallath Rockslide"
 level: "Hazard 19"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 30
 sourcebook: "_Pathfinder #156: The Apocalypse Prophet_"
 ac: 42
 armorclass:
   - name: AC
-    desc: "42; __Fort__ +35, __Ref__ +29, __Will__ +0"
+    desc: "42; __Fort__ +35, __Ref__ +29, "
 hp: 150
 health:
   - name: ""

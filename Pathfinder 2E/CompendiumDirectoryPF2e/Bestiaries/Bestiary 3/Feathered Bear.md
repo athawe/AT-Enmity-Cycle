@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Feathered Bear"
@@ -25,9 +26,9 @@ level: "Creature 10"
 
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "incorporeal"
-trait_03: "spirit"
+trait_01: [[beast]]
+trait_02: [[incorporeal]]
+trait_03: [[spirit]]
 modifier: 18
 perception:
   - name: "Perception"

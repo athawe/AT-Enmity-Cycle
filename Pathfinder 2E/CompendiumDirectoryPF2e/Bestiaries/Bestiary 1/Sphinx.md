@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.Qa7HaKfKiosEPr94" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Sphinx"
@@ -23,7 +24,7 @@ level: "Creature 8"
 
 alignment: ""
 size: "Large"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Common, Draconic, Sphinx; comprehend language"
 skills:
   - name: "Skills"
-    desc: "Arcana: +17, Athletics: +18, Bardic Lore: +19, Deception: +16, Diplomacy: +16, Intimidation: +18, Occultism: +17"
+    desc: "Arcana: +17, Athletics: +18, Deception: +16, Diplomacy: +16, Intimidation: +18, Occultism: +17, Bardic Lore: +19"
 abilityMods: [6, 1, 3, 5, 4, 4]
 speed: 35 feet,  fly 40 feet
 sourcebook: "_Pathfinder Bestiary_"

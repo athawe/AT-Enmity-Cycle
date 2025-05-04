@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Lem (Level 5)
-creatures:
-  - 1: Lem (Level 5)
-```
-
 
 
 

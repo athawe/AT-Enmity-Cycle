@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Intro #2: United in Purpose
 aliases: "Compendium.pf2e.pfs-introductions-bestiary.Actor.U53RUprcBtfMmkFs" 
@@ -22,14 +23,14 @@ name: "Spiked Pit"
 level: "Hazard 2"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 10
 sourcebook: "_Pathfinder Society Intro #2: United in Purpose_"
 ac: 15
 armorclass:
   - name: AC
-    desc: "15; __Fort__ +5, __Ref__ +5, __Will__ +0"
+    desc: "15; __Fort__ +5, __Ref__ +5, "
 hp: 30
 health:
   - name: ""

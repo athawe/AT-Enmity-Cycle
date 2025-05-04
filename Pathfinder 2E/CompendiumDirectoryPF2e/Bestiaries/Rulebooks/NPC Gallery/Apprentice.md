@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.aJR3f8YcAkmfx7im"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Apprentice"
@@ -24,8 +25,8 @@ level: "Creature -1"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 2
 perception:
   - name: "Perception"

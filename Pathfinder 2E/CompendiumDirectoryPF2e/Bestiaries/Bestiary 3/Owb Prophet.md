@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.ZOrG61DZ9aiv8poK"
 tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/shadow
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Owb Prophet"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Owb Prophet"
 level: "Creature 13"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "shadow"
+trait_01: [[evil]]
+trait_02: [[shadow]]
 modifier: 24
 perception:
   - name: "Perception"
@@ -50,7 +51,7 @@ abilities_top:
   - name: ""
 
   - name: "Forsaken Patron"
-    desc: "  Each owb prophet serves as a conduit to one of the shadowy demigods known as the Forsaken. Forsaken patrons are detailed below, and each grants the owb prophet additional abilities.\n* * *\n\nEach owb prophet gains its power through a connection with a Forsaken patron. The patron grants the owb additional spells and has its own religious symbol and favored weapons. Each entry notes any ability or occult innate spell the Forsaken grants to its prophets, plus its favored weapon.\n\n**Enkaar, the Malformed Prisoner** This mutilated horror is the Forsaken patron of fetters, lethargy, and physical corruption.\n\n*   **Spell** [[Spells/Phantom Pain|Phantom Pain]] (4th, at will);\n*   **Favored Weapon** spiked chain\n\n**Eyes That Watch** This strange trio of feline eyes is the Forsaken patron of inferiority, cats, and strangers.\n\n*   **Ability** [[Bestiary Ability Glossary/Lifesense|Lifesense]] 120 feet\n*   **Favored Weapon** dagger\n\n**Grasping Iovett** A beautiful form of indescribable variety, Iovett is the Forsaken patron of accidents, parasites, and reckless lust.\n\n*   **Spell** [[Spells/Charm|Charm]](4th, at will);\n*   **Favored Weapon** shortsword\n\n**Husk** This androgynous creature is the Forsaken patron of emptiness, loneliness, and narcissism.\n\n*   **Spell** [[Spells/Silence|Silence]](4th, at will);\n*   **Favored Weapon** shortsword\n\n**Lady Razor** This stern magistrate forbids showing kindness or mercy to family members. Lady Razor is the Forsaken patron of family strife, suspicion, and vengeance.\n\n*   **Spell** [[Spells/Weapon Storm|Weapon Storm]] (4th, at will);\n*   **Favored Weapon** dagger\n\n**Reshmit of the Heavy Voice** Taking the form of a massive shadow, Reshmit is the Forsaken patron of broken things, forgetting, and unexpected violence.\n\n*   **Spell** [[Spells/Rewrite Memory|Rewrite Memory]] (4th, at will);\n*   **Favored Weapon** morningstar\n\n**Thalaphyrr Martyr-Minder** The Forsaken patron of failed heroics, imprisonment, and squandered time.\n\n*   **Spell** [[Spells/Slow|Slow]] (4th, at will);\n*   **Favored Weapon** spear"
+    desc: "  Each owb prophet serves as a conduit to one of the shadowy demigods known as the Forsaken. Forsaken patrons are detailed below, and each grants the owb prophet additional abilities.\n* * *\n\nEach owb prophet gains its power through a connection with a Forsaken patron. The patron grants the owb additional spells and has its own religious symbol and favored weapons. Each entry notes any ability or occult innate spell the Forsaken grants to its prophets, plus its favored weapon.\n\n**Enkaar, the Malformed Prisoner** This mutilated horror is the Forsaken patron of fetters, lethargy, and physical corruption.\n\n*   **Spell** [[Spells/Phantom Pain|Phantom Pain]] (4th, at will);\n*   **Favored Weapon** spiked chain\n\n**Eyes That Watch** This strange trio of feline eyes is the Forsaken patron of inferiority, cats, and strangers.\n\n*   **Ability** [[Bestiary Ability Glossary/Lifesense|Lifesense]] 120 feet\n*   **Favored Weapon** dagger\n\n**Grasping Iovett** A beautiful form of indescribable variety, Iovett is the Forsaken patron of accidents, parasites, and reckless lust.\n\n*   **Spell** [[Spells/Charm|Charm]] (4th, at will);\n*   **Favored Weapon** shortsword\n\n**Husk** This androgynous creature is the Forsaken patron of emptiness, loneliness, and narcissism.\n\n*   **Spell** [[Spells/Silence|Silence]] (4th, at will);\n*   **Favored Weapon** shortsword\n\n**Lady Razor** This stern magistrate forbids showing kindness or mercy to family members. Lady Razor is the Forsaken patron of family strife, suspicion, and vengeance.\n\n*   **Spell** [[Spells/Weapon Storm|Weapon Storm]] (4th, at will);\n*   **Favored Weapon** dagger\n\n**Reshmit of the Heavy Voice** Taking the form of a massive shadow, Reshmit is the Forsaken patron of broken things, forgetting, and unexpected violence.\n\n*   **Spell** [[Spells/Rewrite Memory|Rewrite Memory]] (4th, at will);\n*   **Favored Weapon** morningstar\n\n**Thalaphyrr Martyr-Minder** The Forsaken patron of failed heroics, imprisonment, and squandered time.\n\n*   **Spell** [[Spells/Slow|Slow]] (4th, at will);\n*   **Favored Weapon** spear"
 
 abilities_mid:
   - name: ""

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Sié Goluo"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: The Mwangi Expanse"
 name: "Sié Goluo"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "huge"
-trait_01: "beast"
-trait_02: "good"
-trait_03: "incorporeal"
-trait_04: "spirit"
+trait_01: [[beast]]
+trait_02: [[good]]
+trait_03: [[incorporeal]]
+trait_04: [[spirit]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -77,7 +78,7 @@ attacks:
     desc: "DC 34, attack +26; __3rd __  _[[Spells/Humanoid Form|Humanoid Form (At Will)]]_\n__Constant__  __(1st)__ _[[Spells/Vanishing Tracks|Pass Without Trace]]_"
 
   - name: "Spirit Charge"
-    desc: "`pf2:2`  Sié Goluo Strides twice, then makes a horn Strike. On a hit, Sié Goluo creates a shock wave that deals 4d12 force damage in a 30-foot cone (DC 34 Reflex check save).\n\nCreatures that fail their save are pushed away 5 feet (10 feet on a critical failure)."
+    desc: "`pf2:2`  Sié Goluo Strides twice, then makes a horn Strike. On a hit, Sié Goluo creates a shock wave that deals 4d12 force damage in a @Template[cone|distance:30] (DC 34 Reflex check save).\n\nCreatures that fail their save are pushed away 5 feet (10 feet on a critical failure)."
  
 ```
 

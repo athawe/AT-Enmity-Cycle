@@ -13,6 +13,7 @@ tags:
   - pf2e/creature/type/oni
   - pf2e/creature/type/shadow
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Shadow Yai"
@@ -30,14 +31,14 @@ level: "Creature 16"
 
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "giant"
-trait_05: "humanoid"
-trait_06: "oni"
-trait_07: "shadow"
-trait_08: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[giant]]
+trait_05: [[humanoid]]
+trait_06: [[oni]]
+trait_07: [[shadow]]
+trait_08: [[unholy]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -89,7 +90,7 @@ attacks:
     desc: "`pf2:1` (concentrate,polymorph,primal) The shadow yai takes on the appearance of a [[Bestiary 2/Shadow Giant|Shadow Giant]]. This doesn't change its Speed or Strike attack and damage.\n\n* * *\n"
 
   - name: "Shadow Touch"
-    desc: "  A shadow yai's touch harms their target's spiritual essence in addition to its body. A creature hit by the shadow yai's fist Strike must attempt a DC 36 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes 2d6 void damage.\n\n**Failure** The creature becomes [[Conditions/Drained 1|Drained 1]] and takes 3d6 void damage. As long as the creature is drained as a result of this ability, it loses the ability to speak above a whisper. When the creature attempts to Cast a Spell with a verbal component, it must succeed at a flat check or the spell is disrupted. The DC of this flat check is equal to 5 plus the creature's drained value (for example, DC 7 if the creature is drained 2).\n\n**Critical Failure** As failure, but the creature becomes [[Conditions/Drained 1|Drained 2]] and takes 6d6 void damage."
+    desc: "  A shadow yai's touch harms their target's spiritual essence in addition to its body. A creature hit by the shadow yai's fist Strike must attempt a DC 36 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes 2d6 void damage.\n\n**Failure** The creature becomes [[Conditions/Drained|Drained 1]] and takes 3d6 void damage. As long as the creature is drained as a result of this ability, it loses the ability to speak above a whisper. When the creature attempts to Cast a Spell with a verbal component, it must succeed at a flat check or the spell is disrupted. The DC of this flat check is equal to 5 plus the creature's drained value (for example, DC 7 if the creature is drained 2).\n\n**Critical Failure** As failure, but the creature becomes [[Conditions/Drained|Drained 2]] and takes 6d6 void damage."
  
 ```
 

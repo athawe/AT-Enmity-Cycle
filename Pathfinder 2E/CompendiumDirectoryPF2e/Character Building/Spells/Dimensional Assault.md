@@ -31,6 +31,6 @@ abilities_top:
     desc: "half your Speed"
 abilities_mid:
   - name: ""
-    desc: "You tumble through space, making a short dimensional hop to better position yourself for an attack. Teleport to any square in range that's within reach of a creature, and then make a melee Strike against one creature within your reach.\n\n_Note: Conflux spells refresh Spellstrike._"
+    desc: "You tumble through space, making a short dimensional hop to better position yourself for an attack. Teleport to any square in range that's within reach of a creature, and then make a melee Strike against one creature within your reach."
 sourcebook: "_Pathfinder Secrets of Magic_"
 ```

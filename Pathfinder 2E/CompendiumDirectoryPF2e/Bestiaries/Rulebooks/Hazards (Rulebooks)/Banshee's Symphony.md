@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - magical
+  - pf2eHazard
   - complex
 source: Pathfinder Core Rulebook
 aliases: "Compendium.pf2e.hazards.Actor.mMXHyWdmmAN0GPvG" 
@@ -21,13 +22,13 @@ name: "Banshee's Symphony"
 level: "Hazard 18"
 
 trait_06: "Complex"
-trait_01: "magical"
+trait_01: [[magical]]
 modifier: 30
 sourcebook: "_Pathfinder Core Rulebook_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

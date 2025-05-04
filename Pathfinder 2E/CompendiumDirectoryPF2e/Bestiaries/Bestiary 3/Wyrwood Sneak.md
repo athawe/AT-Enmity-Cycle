@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.3OrdGXuPXSlrLlbf"
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/wyrwood
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Wyrwood Sneak"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Wyrwood Sneak"
 level: "Creature 1"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Small"
-trait_01: "construct"
-trait_02: "wyrwood"
+trait_01: [[construct]]
+trait_02: [[wyrwood]]
 modifier: 6
 perception:
   - name: "Perception"

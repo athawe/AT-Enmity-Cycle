@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.crown-of-the-kobold-king-bestiary.Actor.cRD9K6jsJCF4ZfDh" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Albino Giant Bat"
@@ -23,7 +24,7 @@ level: "Creature 5"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 15
 perception:
   - name: "Perception"

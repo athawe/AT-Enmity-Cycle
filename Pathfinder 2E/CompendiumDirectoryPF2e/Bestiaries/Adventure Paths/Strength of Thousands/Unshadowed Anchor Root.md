@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/gnoll
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Unshadowed Anchor Root"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #174: Shadows of the Ancients"
 name: "Unshadowed Anchor Root"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "gnoll"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[gnoll]]
+trait_04: [[humanoid]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Amurrun, Common, Fey, Iruxi, Kholo, Necril"
 skills:
   - name: "Skills"
-    desc: "Academia Lore: +31, Deception: +35, Nature: +35, Occultism: +35, Religion: +31, Stealth: +31, Survival: +33"
+    desc: "Deception: +35, Nature: +35, Occultism: +35, Religion: +31, Stealth: +31, Survival: +33, Academia Lore: +31"
 abilityMods: [2, 3, 4, 5, 5, -1]
 speed: 25 feet
 sourcebook: "_Pathfinder #174: Shadows of the Ancients_"
@@ -56,7 +57,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Shadow's Displeasure"
-    desc: "  When Anchor Root has fewer than 150 Hit Points, her shadow pulls at her essence to show the _Vesicant Egg's_ displeasure. She looks pained and confused, and she becomes [[Conditions/Clumsy 1|Clumsy 1]] and [[Conditions/Stupefied 1|Stupefied 1]] until healed to 150 Hit Points or more. These conditions increase to 2 when below 100 Hit Points. When below 50 Hit Points, she falls [[Conditions/Unconscious|Unconscious]]."
+    desc: "  When Anchor Root has fewer than 150 Hit Points, her shadow pulls at her essence to show the _Vesicant Egg's_ displeasure. She looks pained and confused, and she becomes [[Conditions/Clumsy|Clumsy 1]] and [[Conditions/Stupefied|Stupefied 1]] until healed to 150 Hit Points or more. These conditions increase to 2 when below 100 Hit Points. When below 50 Hit Points, she falls [[Conditions/Unconscious|Unconscious]]."
 
   - name: "Vesicated Shadow"
     desc: "  Anchor Root's shadow has become corrupted via the power of the _Vesicant Egg_. Her shredded shadow grants her some control over acid and shadows. She gains a +4 status bonus to resist acid and shadow effects."

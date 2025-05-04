@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #184: The Ghouls Hunger
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.lmOabS84lQC3gJx4" 
@@ -22,8 +23,8 @@ name: "Collapsing Bridge"
 level: "Hazard 15"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 30
 sourcebook: "_Pathfinder #184: The Ghouls Hunger_"
 perception:

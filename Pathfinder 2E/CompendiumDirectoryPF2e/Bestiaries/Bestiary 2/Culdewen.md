@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Culdewen"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 2"
 name: "Culdewen"
 level: "Creature 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "amphibious"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "fey"
+trait_01: [[amphibious]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[fey]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Fey, Thalassic"
 skills:
   - name: "Skills"
-    desc: "Athletics: +16, Deception: +16, Intimidation: +14, Nature: +12, Sailing Lore: +14, Stealth: +15, Survival: +16"
+    desc: "Athletics: +16, Deception: +16, Intimidation: +14, Nature: +12, Stealth: +15, Survival: +16, Sailing Lore: +14"
 abilityMods: [4, 5, 1, -1, 2, 4]
 speed: 40 feet,  swim 40 feet
 sourcebook: "_Pathfinder Bestiary 2_"

@@ -6,6 +6,7 @@ tags:
   - magical
   - trap
   - visual
+  - pf2eHazard
 
 source: Pathfinder Dark Archive
 aliases: "Compendium.pf2e.pathfinder-dark-archive.Actor.9rQvZZQbn1IUfr77" 
@@ -23,9 +24,9 @@ name: "Mirror Door"
 level: "Hazard -1"
 
 
-trait_01: "magical"
-trait_02: "trap"
-trait_03: "visual"
+trait_01: [[magical]]
+trait_02: [[trap]]
+trait_03: [[visual]]
 modifier: 5
 sourcebook: "_Pathfinder Dark Archive_"
 perception:

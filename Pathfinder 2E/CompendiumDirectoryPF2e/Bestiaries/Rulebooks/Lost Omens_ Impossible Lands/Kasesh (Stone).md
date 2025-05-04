@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.lost-omens-impossible-lands-bestiary.Actor.UgGyHJ39EHz
 tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Kasesh (Stone)"
@@ -24,8 +25,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "earth"
-trait_02: "elemental"
+trait_01: [[earth]]
+trait_02: [[elemental]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Petran"
 skills:
   - name: "Skills"
-    desc: "Arcana: +11, Architectural Lore: +13, Nature: +10, Stealth: +9"
+    desc: "Arcana: +11, Nature: +10, Stealth: +9, Architectural Lore: +13"
 abilityMods: [-1, 2, 1, 4, 3, 2]
 speed: 20 feet,  burrow 20 feet
 sourcebook: "_Pathfinder Lost Omens: Impossible Lands_"

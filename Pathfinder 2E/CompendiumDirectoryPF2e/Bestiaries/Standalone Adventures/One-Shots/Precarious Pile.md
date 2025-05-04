@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Adventure: Little Trouble in Big Absalom
 aliases: "Compendium.pf2e.one-shot-bestiary.Actor.JhQqV8t4BPk2Ixg8" 
@@ -21,13 +22,13 @@ name: "Precarious Pile"
 level: "Hazard 2"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: -1
 sourcebook: "_Pathfinder Adventure: Little Trouble in Big Absalom_"
 ac: 16
 armorclass:
   - name: AC
-    desc: "16; __Fort__ +10, __Ref__ +2, __Will__ +0"
+    desc: "16; __Fort__ +10, __Ref__ +2, "
 hp: 25
 health:
   - name: ""

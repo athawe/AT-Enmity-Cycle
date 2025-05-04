@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
   - pf2e/creature/type/vampire
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Vetalarana Manipulator"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Book of the Dead"
 name: "Vetalarana Manipulator"
 level: "Creature 11"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
-trait_04: "vampire"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
+trait_04: [[vampire]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -83,7 +84,7 @@ attacks:
     desc: "  **Frequency** once per day\n* * *\n\n**Effect** The vetalarana manipulator spends 10 minutes to take psychic control of the creatures they've rendered comatose with Drain Thoughts. This has the effects of the [[Spells/Possession|Possession]] spell, but lasts for up to 6 hours, has a range of 1 mile, and the vetalarana can control a number of comatose victims at a time equal to half the vetalarana's level. A comatose victim can't resist this possession and automatically gets a critical failure on its saving throw against Control Comatose.\n\nAs long as a comatose victim is controlled by a vetalarana manipulator in this way, the victim's stupefied and [[Conditions/Unconscious|Unconscious]] conditions are temporarily suppressed."
 
   - name: "[[Creature Family Ability Glossary/(Vampire, Vetalarana, Basic) Drain Thoughts|Drain Thoughts]]"
-    desc: "`pf2:1` (mental,occult) **Requirements** A [[Conditions/Grabbed|Grabbed]], [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Restrained|Restrained]], [[Conditions/Unconscious|Unconscious]], or willing creature is within the vetalarana's reach\n* * *\n\n**Effect** The vetalarana seizes a creature and consumes its memories. This requires an Athletics check check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is [[Conditions/Stupefied 1|Stupefied 1]], and the vetalarana regains 14 HP, gaining any excess as temporary Hit Points. Draining Thoughts from a creature that is already stupefied doesn't restore any HP to the vetalarana but increases the victim's stupefied value by 1. Additionally, the vetalarana views one of the victim's memories.\n\nA victim's stupefied condition value decreases by 1 every week.\n\nA victim that becomes stupefied 5 in this way is rendered comatose, becoming permanently [[Conditions/Unconscious|Unconscious]]. As long as the vetalarana lives, a comatose victim can't regain consciousness, and its stupefied condition doesn't decrease."
+    desc: "`pf2:1` (mental,occult) **Requirements** A [[Conditions/Grabbed|Grabbed]], [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Restrained|Restrained]], [[Conditions/Unconscious|Unconscious]], or willing creature is within the vetalarana's reach\n* * *\n\n**Effect** The vetalarana seizes a creature and consumes its memories. This requires an Athletics check check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions. The victim is [[Conditions/Stupefied|Stupefied 1]], and the vetalarana regains 14 HP, gaining any excess as temporary Hit Points. Draining Thoughts from a creature that is already stupefied doesn't restore any HP to the vetalarana but increases the victim's stupefied value by 1. Additionally, the vetalarana views one of the victim's memories.\n\nA victim's stupefied condition value decreases by 1 every week.\n\nA victim that becomes stupefied 5 in this way is rendered comatose, becoming permanently [[Conditions/Unconscious|Unconscious]]. As long as the vetalarana lives, a comatose victim can't regain consciousness, and its stupefied condition doesn't decrease."
 
   - name: "[[Creature Family Ability Glossary/(Vampire, Vetalarana, Manipulator) Paralyzing Claws|Paralyzing Claws]]"
     desc: " (incapacitation,occult) Any living creature hit by a vetalarana manipulator's claw Strike must succeed at a DC 27 Fortitude check save or become [[Conditions/Paralyzed|Paralyzed]]. The target can attempt a new save at the end of each of its turns to end the effect, and the DC cumulatively decreases by 1 on each such save."

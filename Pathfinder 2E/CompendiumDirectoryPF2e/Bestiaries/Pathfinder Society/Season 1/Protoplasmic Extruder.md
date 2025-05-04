@@ -6,6 +6,7 @@ tags:
   - magical
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #1-00: Origin of the Open Road
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.ZX2dP4rP01qaCJh4" 
@@ -23,15 +24,15 @@ name: "Protoplasmic Extruder"
 level: "Hazard 5"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 0
 sourcebook: "_Pathfinder Society Scenario #1-00: Origin of the Open Road_"
 ac: 21
 armorclass:
   - name: AC
-    desc: "21; __Fort__ +10, __Ref__ +12, __Will__ +0"
+    desc: "21; __Fort__ +10, __Ref__ +12, "
 hp: 48
 health:
   - name: ""

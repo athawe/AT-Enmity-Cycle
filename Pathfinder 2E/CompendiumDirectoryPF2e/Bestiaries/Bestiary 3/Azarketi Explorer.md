@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/azarketi
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Azarketi Explorer"
@@ -26,10 +27,10 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "azarketi"
-trait_03: "chaotic"
-trait_04: "humanoid"
+trait_01: [[amphibious]]
+trait_02: [[azarketi]]
+trait_03: [[chaotic]]
+trait_04: [[humanoid]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Alghollthu, Azlanti, Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +5, Athletics: +8 (+10 to Swim), Deception: +7, Diplomacy: +7, Intimidation: +7, Nature: +4, Society: +4"
+    desc: "Acrobatics: +5, Athletics: +8, Deception: +7, Diplomacy: +7, Intimidation: +7, Nature: +4, Society: +4"
 abilityMods: [4, 1, 2, 0, 0, 3]
 speed: 20 feet,  swim 30 feet
 sourcebook: "_Pathfinder Bestiary 3_"

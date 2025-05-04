@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/clockwork
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Clockwork Fabricator"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #178: Punks in a Powder Keg"
 name: "Clockwork Fabricator"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "clockwork"
-trait_02: "construct"
-trait_03: "mindless"
+trait_01: [[clockwork]]
+trait_02: [[construct]]
+trait_03: [[mindless]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -76,13 +77,13 @@ attacks:
     desc: "`pf2:1` Arm +14 (agile, unarmed)\n__Damage__  2d4 + 6 bludgeoning plus grab"
 
   - name: "Ranged"
-    desc: "`pf2:1` Nail Gun +11 (agile, range 10 feet)\n__Damage__  2d8 piercing"
-
-  - name: "Ranged"
     desc: "`pf2:1` Towing Anchor +11 (thrown 30 ft.)\n__Damage__  1d4 + 6 piercing"
 
+  - name: "Ranged"
+    desc: "`pf2:1` Nail Gun +11 (agile, range 10 feet)\n__Damage__  2d8 piercing"
+
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  **Requirements** The clockwork fabricator has a creature grappled or [[Conditions/Restrained|Restrained]]\n* * *\n\n**Effect** 2d4 + 4 bludgeoning, DC 21 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  **Requirements** The clockwork fabricator has a creature grappled or [[Conditions/Restrained|Restrained]]\n* * *\n\n**Effect** 2d4+4 bludgeoning, DC 21 Fortitude check\n\n* * *\n"
 
   - name: "Modular Arms"
     desc: "  A clockwork fabricator is built to perform a specific type of task repeatedly, and it comes with built-in artisan's tools and two detachable \"arms.\" An adjacent creature can forcibly remove a clockwork fabricator's arm with a successful DC 18 Thievery check check to Disable a Device. A creature can Interact to install a new arm with a successful DC 18 Engineering check Lore check. A fabricator has two of any of the following types of arms.\n\n*   **Melee** `pf2:1` buzz-saw blade +16 (forceful, sweep), Damage 1d4+6 slashing plus 1d6 bleed\n*   **Melee** `pf2:1` crushing vise +14 (grapple), Damage 2d6+6 bludgeoning plus Grab\n*   **Melee** `pf2:1` sledgehammer +12, Damage 2d10+6 bludgeoning\n*   **Ranged** `pf2:1` nail gun +11 (agile, range 10 feet), Damage 2d8 piercing\n*   **Melee** `pf2:1` pneumatic chisel +14, Damage 2d8+6 piercing\n*   **Ranged** `pf2:1` towing anchor +11 (thrown 30 feet), Damage 1d4+6 piercing"

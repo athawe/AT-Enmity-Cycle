@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/giant
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/oni
+  - pf2eMonster
   - pf2e/creature/level/14
   - remaster
 statblock: inline
@@ -27,10 +28,10 @@ level: "Creature 14"
 
 alignment: ""
 size: "Large"
-trait_01: "fire"
-trait_02: "giant"
-trait_03: "humanoid"
-trait_04: "oni"
+trait_01: [[fire]]
+trait_02: [[giant]]
+trait_03: [[humanoid]]
+trait_04: [[oni]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -58,7 +59,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Bean Panic"
-    desc: "  Oni are curiously afraid of beans, especially as the seasons begin to change. If a creature Interacts to throw a handful of beans at the oni, the oni becomes [[Conditions/Frightened 1|Frightened 2]]. While frightened this way, their weakness to spirit damage is increased by 5. The oni then becomes immune to bean panic for 24 hours."
+    desc: "  Oni are curiously afraid of beans, especially as the seasons begin to change. If a creature Interacts to throw a handful of beans at the oni, the oni becomes [[Conditions/Frightened|Frightened 2]]. While frightened this way, their weakness to spirit damage is increased by 5. The oni then becomes immune to bean panic for 24 hours."
 
   - name: "[[Bestiary Ability Glossary/Reactive Strike|Reactive Strike]]"
     desc: "`pf2:r`  "

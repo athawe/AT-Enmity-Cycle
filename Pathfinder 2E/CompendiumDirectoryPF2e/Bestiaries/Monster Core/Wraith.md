@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
   - pf2e/creature/type/wraith
+  - pf2eMonster
   - pf2e/creature/level/6
   - remaster
 statblock: inline
@@ -27,10 +28,10 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "incorporeal"
-trait_02: "undead"
-trait_03: "unholy"
-trait_04: "wraith"
+trait_01: [[incorporeal]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
+trait_04: [[wraith]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -57,7 +58,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Sunlight Powerlessness"
-    desc: "  While in sunlight, a wraith is [[Conditions/Blinded|Blinded]] and [[Conditions/Slowed 1|Slowed 2]]."
+    desc: "  While in sunlight, a wraith is [[Conditions/Blinded|Blinded]] and [[Conditions/Slowed|Slowed 2]]."
 
 attacks:
   - name: ""

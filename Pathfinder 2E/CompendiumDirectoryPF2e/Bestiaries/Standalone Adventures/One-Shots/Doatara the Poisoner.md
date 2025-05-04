@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Doatara the Poisoner"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder One-Shot #4: Mark of the Mantis"
 name: "Doatara the Poisoner"
 level: "Creature 7"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Daemonic, Osiriani"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +16, Assassin Lore: +15, Crafting: +17, Deception: +16, Intimidation: +14, Religion: +12, Stealth: +16, Thievery: +14"
+    desc: "Acrobatics: +16, Crafting: +17, Deception: +16, Intimidation: +14, Religion: +12, Stealth: +16, Thievery: +14, Assassin Lore: +15"
 abilityMods: [1, 5, 1, 4, 1, 3]
 speed: 30 feet
 sourcebook: "_Pathfinder One-Shot #4: Mark of the Mantis_"
@@ -62,9 +63,6 @@ attacks:
 
   - name: "Melee"
     desc: "`pf2:1` Shortsword +17 (agile, finesse, versatile s)\n__Damage__  2d6 + 7 piercing"
-
-  - name: "Melee"
-    desc: "`pf2:1` Dagger +16 (agile, finesse, thrown 10 ft., versatile s)\n__Damage__  1d4 + 7 piercing"
 
   - name: "Ranged"
     desc: "`pf2:1` Dagger +16 (agile, finesse, thrown 10 ft., versatile s)\n__Damage__  1d4 + 7 piercing"

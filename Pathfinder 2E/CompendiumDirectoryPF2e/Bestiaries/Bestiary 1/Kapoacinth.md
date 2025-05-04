@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/earth
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Kapoacinth"
@@ -27,11 +28,11 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "aquatic"
-trait_02: "beast"
-trait_03: "chaotic"
-trait_04: "earth"
-trait_05: "evil"
+trait_01: [[aquatic]]
+trait_02: [[beast]]
+trait_03: [[chaotic]]
+trait_04: [[earth]]
+trait_05: [[evil]]
 modifier: 10
 perception:
   - name: "Perception"

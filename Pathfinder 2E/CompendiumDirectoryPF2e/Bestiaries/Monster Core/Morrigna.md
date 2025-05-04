@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.z9jEyLrsoBMmh9qg"
 tags:
   - pf2e/creature/type/monitor
   - pf2e/creature/type/psychopomp
+  - pf2eMonster
   - pf2e/creature/level/15
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 15"
 
 alignment: ""
 size: "Medium"
-trait_01: "monitor"
-trait_02: "psychopomp"
+trait_01: [[monitor]]
+trait_02: [[psychopomp]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -34,7 +35,7 @@ perception:
 languages: "Chthonian, Diabolic, Empyrean, Necril, Requian; Speak with Animals, Truespeech"
 skills:
   - name: "Skills"
-    desc: "Athletics: +27, Boneyard Lore: +28, Diplomacy: +27, Intimidation: +29, Religion: +29, Society: +24, Stealth: +27"
+    desc: "Athletics: +27, Diplomacy: +27, Intimidation: +29, Religion: +29, Society: +24, Stealth: +27, Boneyard Lore: +28"
 abilityMods: [8, 4, 4, 3, 6, 4]
 speed: 30 feet,  climb 30 feet
 sourcebook: "_Pathfinder Monster Core_"
@@ -74,11 +75,11 @@ attacks:
   - name: "[[Bestiary Ability Glossary/Change Shape|Change Shape]]"
     desc: "`pf2:1` (concentrate,polymorph) A morrigna can take the appearance of any Small or Medium animal or humanoid. This doesn't change their Speed or their attack and damage modifiers with their Strikes, but it might change the damage type their Strikes deal. Unless they choose to manifest their web wrappings in their new form, they cannot make web wrappings Strikes.\n\n* * *\n"
 
-  - name: "Shepherd’s Touch"
+  - name: "Shepherd's Touch"
     desc: "  A morrigna's Strikes affect incorporeal creatures as though etched with a _[[Equipment/Ghost Touch|Ghost Touch]]_ property rune and deal 4d6 void damage to living creatures or 4d6 vitality damage to undead."
 
   - name: "Spider Minions"
-    desc: "`pf2:3` (divine,summon) The morrigna summons a giant tarantula or spider swarm. These spiders have the summoned trait and remain for 10 minutes or until reduced to 0 Hit Points, whichever comes first. The morrigna does not need to Sustain the Spell to direct these summoned creatures, and the morrigna can have any number of summoned spiders in existence at once. The morrigna can see through the eyes of any of their summoned spiders at any time."
+    desc: "`pf2:3` (divine,summon) The morrigna summons a [[Monster Core/Giant Tarantula|Giant Tarantula]] or [[Monster Core/Spider Swarm|Spider Swarm]]. These spiders have the summoned trait and remain for 10 minutes or until reduced to 0 Hit Points, whichever comes first. The morrigna does not need to Sustain the Spell to direct these summoned creatures, and the morrigna can have any number of summoned spiders in existence at once. The morrigna can see through the eyes of any of their summoned spiders at any time."
 
   - name: "Wrappings Lash"
     desc: "`pf2:r`  **Trigger** A creature within reach of the morrigna's web wrappings uses an action to Strike or attempt a skill check\n* * *\n\n**Effect** The morrigna makes a web wrappings Strike against the triggering creature. If the strike is a critical hit, the triggering action is disrupted."

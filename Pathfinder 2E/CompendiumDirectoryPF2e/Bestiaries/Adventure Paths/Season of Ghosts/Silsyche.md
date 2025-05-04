@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/kami
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Silsyche"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #198: No Breath to Cry"
 name: "Silsyche"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "incorporeal"
-trait_03: "kami"
-trait_04: "spirit"
+trait_01: [[chaotic]]
+trait_02: [[incorporeal]]
+trait_03: [[kami]]
+trait_04: [[spirit]]
 modifier: 14
 perception:
   - name: "Perception"

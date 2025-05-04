@@ -30,6 +30,7 @@ district: "[[Riverside Estates]]"
 ### Statblock
 
 <% tp.file.cursor(5) %>
+Gnome 
 
 ### Activity Log 
 

@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.fists-of-the-ruby-phoenix-bestiary.Actor.rAsJXFWr1IJatEUm" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Mammoth Turtle"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #166: Despair on Danger Island"
 name: "Mammoth Turtle"
 level: "Creature 14"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 24
 perception:
   - name: "Perception"
@@ -68,7 +69,7 @@ attacks:
     desc: "`pf2:1` (attack,move) The turtle tries to capsize an adjacent aquatic vessel of its size or smaller. The turtle must succeed at a DC 43 Athletics check check (reduced by 5 for each size smaller the vessel is than the turtle) or the pilot's Sailing Lore DC, whichever is higher."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Large, 3d12 + 10 bludgeoning, Rupture 38\n\n* * *\n"
+    desc: "`pf2:1` (attack) Large, 3d12+10 bludgeoning, Rupture 38\n\n* * *\n"
  
 ```
 

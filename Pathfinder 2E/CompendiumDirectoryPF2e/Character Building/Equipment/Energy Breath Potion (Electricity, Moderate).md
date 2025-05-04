@@ -28,7 +28,7 @@ license: ORC
 
 Distilled from the energy of dangerous spells, an energy breath potion grants you the Energy Breath action for 1 hour after you imbibe the concoction.
 
-**Energy Breath `pf2:1`** You create a 30-foot line of electricity which deals 6d6 electricity damage. All creatures in the area must attempt a DC 29 Reflex check save.
+**Energy Breath** `pf2:1` You create a 30-foot line of electricity which deals 6d6 electricity damage. All creatures in the area must attempt a DC 29 Reflex check save.
 
 After you use Energy Breath, you can't do so again for 1d4 rounds.
 

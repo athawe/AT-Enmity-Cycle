@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.AcUb8s5fiktYw8Fx"
 tags:
   - pf2e/creature/type/caligni
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "caligni"
-trait_02: "humanoid"
+trait_01: [[caligni]]
+trait_02: [[humanoid]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -54,7 +55,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Final Fate"
-    desc: " (occult,spirit) When the hunter dies, their soul leaves their body in an explosion of spiritual energy. All creatures in a 20-foot burst take 5d6 spirit damage (DC 19 Will check save).\n\nThe hunter's possessions are left in a pile where they died."
+    desc: " (occult,spirit) When the hunter dies, their soul leaves their body in an explosion of spiritual energy. All creatures in a @Template[burst|distance:20] take 5d6 spirit damage (DC 19 Will check save).\n\nThe hunter's possessions are left in a pile where they died."
 
 attacks:
   - name: ""

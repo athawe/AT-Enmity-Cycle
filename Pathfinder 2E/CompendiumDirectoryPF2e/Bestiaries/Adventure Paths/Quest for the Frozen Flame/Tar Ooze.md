@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.quest-for-the-frozen-flame-bestiary.Actor.RuVQUpUOLAE2
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Tar Ooze"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #177: Burning Tundra"
 name: "Tar Ooze"
 level: "Creature 10"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "huge"
-trait_01: "mindless"
-trait_02: "ooze"
+trait_01: [[mindless]]
+trait_02: [[ooze]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +23, Stealth: +13 (+17 in tar pits)"
+    desc: "Athletics: +23, Stealth: +13"
 abilityMods: [8, -3, 8, -5, 0, -5]
 speed: 15 feet,  climb 10 feet
 sourcebook: "_Pathfinder #177: Burning Tundra_"

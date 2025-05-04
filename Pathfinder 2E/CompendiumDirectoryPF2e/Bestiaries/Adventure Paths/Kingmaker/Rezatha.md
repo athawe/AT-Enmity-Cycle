@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.tq87VRZjkGBmW8kf" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Rezatha"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Rezatha"
 level: "Creature 17"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "huge"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ attacks:
     desc: "`pf2:1` Tail +34 (fire, reach 15 feet)\n__Damage__  3d6 + 17 bludgeoning 2d6 fire"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (fire,primal) Rezatha unleashes a gout of flame that deals 18d6 fire damage in a 30-foot cone (DC 38 Reflex check). It can't use Breath Weapon again for 1d4 rounds."
+    desc: "`pf2:2` (fire,primal) Rezatha unleashes a gout of flame that deals 18d6 fire damage in a @Template[cone|distance:30] (DC 38 Reflex check). It can't use Breath Weapon again for 1d4 rounds."
 
   - name: "Ice Tunneler"
     desc: "  A remorhaz can leave a tunnel when it burrows through ice or snow, and it usually does."

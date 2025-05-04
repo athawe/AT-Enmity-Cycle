@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.FHfrIJCdKTzy2rrR" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Cauthooj"
@@ -23,7 +24,7 @@ level: "Creature 12"
 
 alignment: ""
 size: "Medium"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -48,7 +49,7 @@ abilities_top:
   - name: ""
 
   - name: "[[Bestiary Ability Glossary/Thoughtsense|Thoughtsense (Imprecise) 60 feet]]"
-    desc: " (mental,occult) The cauthooj senses a creatures mental essence at the listed ranged."
+    desc: " (mental,occult) The cauthooj senses a creatures mental essence at the listed range."
 
 abilities_mid:
   - name: ""
@@ -65,7 +66,7 @@ attacks:
     desc: "`pf2:1` (mental,primal,sonic) With subtle alterations in the pitch and tone of its song, the cauthooj directs one creature [[Conditions/Confused|Confused]] by its Warbling Song to make a Strike. This works like other Strikes made by confused creatures, except that the cauthooj chooses the target. If no target is in reach or range, or the creature is unable to Strike for any other reason, this ability has no effect."
 
   - name: "Warbling Song"
-    desc: "`pf2:2` (auditory,incapacitation,mental,primal) The cauthooj gives a strange, ululating cry that causes nearby creatures to lash out violently and without control. Each creature within 120-foot emanation that can hear the cauthooj must attempt a DC 32 Will check save to resist the effect.\n* * *\n\n**Critical Success** The target is unaffected and is temporarily immune for 1 minute.\n\n**Success** The target is unaffected.\n\n**Failure** The target is [[Conditions/Confused|Confused]] for 1 round.\n\n**Critical Failure** The target is [[Conditions/Confused|Confused]] for 1 round and immediately attacks itself (in the normal fashion for attacking oneself while confused). This Strike doesn't give the creature a flat check to recover from the confusion."
+    desc: "`pf2:2` (auditory,incapacitation,mental,primal) The cauthooj gives a strange, ululating cry that causes nearby creatures to lash out violently and without control. Each creature within @Template[emanation|distance:120] that can hear the cauthooj must attempt a DC 32 Will check save to resist the effect.\n* * *\n\n**Critical Success** The target is unaffected and is temporarily immune for 1 minute.\n\n**Success** The target is unaffected.\n\n**Failure** The target is [[Conditions/Confused|Confused]] for 1 round.\n\n**Critical Failure** The target is [[Conditions/Confused|Confused]] for 1 round and immediately attacks itself (in the normal fashion for attacking oneself while confused). This Strike doesn't give the creature a flat check to recover from the confusion."
  
 ```
 

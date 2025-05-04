@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/goblin
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/minion
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Ogthup (7-8)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-08: A Frosty Mug"
 name: "Ogthup (7-8)"
 level: "Creature 6"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "goblin"
-trait_03: "humanoid"
-trait_04: "minion"
+trait_01: [[chaotic]]
+trait_02: [[goblin]]
+trait_03: [[humanoid]]
+trait_04: [[minion]]
 modifier: 16
 perception:
   - name: "Perception"

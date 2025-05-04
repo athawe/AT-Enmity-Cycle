@@ -57,12 +57,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Reaching Rings
-creatures:
-  - 1: Reaching Rings
-```
-
 
 
 

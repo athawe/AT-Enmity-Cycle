@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - trap
+  - pf2eHazard
 
 source: Pathfinder Bounty #1: The Whitefang Wyrm
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.LZiiTvbxfgJ3QfIQ" 
@@ -22,14 +23,14 @@ name: "Ice Slick"
 level: "Hazard 0"
 
 
-trait_01: "environmental"
-trait_02: "trap"
+trait_01: [[environmental]]
+trait_02: [[trap]]
 modifier: 7
 sourcebook: "_Pathfinder Bounty #1: The Whitefang Wyrm_"
 ac: 16
 armorclass:
   - name: AC
-    desc: "16; __Fort__ +10, __Ref__ +4, __Will__ +0"
+    desc: "16; __Fort__ +10, __Ref__ +4, "
 hp: 20
 health:
   - name: ""

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.the-enmity-cycle-bestiary.Actor.5d0K1rXEMZkILjxu"
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/minion
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Mechanical Assistant"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: The Enmity Cycle"
 name: "Mechanical Assistant"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "construct"
-trait_02: "minion"
+trait_01: [[construct]]
+trait_02: [[minion]]
 modifier: 12
 perception:
   - name: "Perception"

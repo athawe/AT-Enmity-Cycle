@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/genie
   - pf2e/creature/type/metal
+  - pf2eMonster
   - pf2e/creature/level/8
   - remaster
 statblock: inline
@@ -23,12 +24,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Rage of Elements"
 name: "Zuhra"
 level: "Creature 8"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "elemental"
-trait_02: "genie"
-trait_03: "metal"
+trait_01: [[elemental]]
+trait_02: [[genie]]
+trait_03: [[metal]]
 modifier: 15
 perception:
   - name: "Perception"

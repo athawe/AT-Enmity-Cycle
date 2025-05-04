@@ -30,6 +30,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
   - name: "Duration"
     desc: "varies"
 abilities_mid:

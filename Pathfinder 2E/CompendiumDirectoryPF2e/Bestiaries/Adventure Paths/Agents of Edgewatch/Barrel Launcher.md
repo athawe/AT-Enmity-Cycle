@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/clockwork
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Barrel Launcher"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #161: Belly of the Black Whale"
 name: "Barrel Launcher"
 level: "Creature 15"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "clockwork"
-trait_02: "construct"
-trait_03: "mindless"
+trait_01: [[clockwork]]
+trait_02: [[construct]]
+trait_03: [[mindless]]
 modifier: 27
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +29, Athletics: +25, Stealth: +27"
+    desc: "Acrobatics: +31, Athletics: +27, Stealth: +29"
 abilityMods: [6, 8, 4, -5, 0, -5]
 speed: 30 feet,  climb 20 feet
 sourcebook: "_Pathfinder #161: Belly of the Black Whale_"
@@ -78,13 +79,13 @@ attacks:
     desc: "`pf2:1` Barrel +29 (range increment 60 feet)\n__Damage__  2d12 + 12 bludgeoning plus poison-ink"
 
   - name: "Poison Ink"
-    desc: " (poison) **Saving Throw** DC 38 Fortitude check\n\n**Maximum Duration** 10 rounds\n\n**Stage 1** 3d6 poison damage and [[Conditions/Sickened 1|Sickened 1]] (1 round)\n\n**Stage 2** 4d6 poison damage and [[Conditions/Sickened 1|Sickened 2]] (1 round)."
+    desc: " (poison) **Saving Throw** DC 38 Fortitude check\n\n**Maximum Duration** 10 rounds\n\n**Stage 1** 3d6 poison damage and [[Conditions/Sickened|Sickened 1]] (1 round)\n\n**Stage 2** 4d6 poison damage and [[Conditions/Sickened|Sickened 2]] (1 round)."
 
   - name: "Rapid Repair"
     desc: " (manipulate) The clockwork assassin spends 1 hour of its operational time to repair itself, regaining 25 Hit Points and refilling its integrated projectile launcher with 4 spinning blades (to a maximum of 10) and 2 smoke bombs (to a maximum of 5)."
 
   - name: "Smoke Bomb Launcher"
-    desc: "`pf2:1` (manipulate) The clockwork assassin launches a smoke bomb. A screen of thick, opaque smoke fills a 10-foot burst within 60 feet of the clockwork assassin. Creatures within the area are concealed, and all other creatures are concealed to them. The smoke lasts for 1 minute or until dispersed by a strong wind."
+    desc: "`pf2:1` (manipulate) The clockwork assassin launches a smoke bomb. A screen of thick, opaque smoke fills a @Template[burst|distance:10] within 60 feet of the clockwork assassin. Creatures within the area are concealed, and all other creatures are concealed to them. The smoke lasts for 1 minute or until dispersed by a strong wind."
 
   - name: "[[Bestiary Ability Glossary/Sneak Attack|Sneak Attack]]"
     desc: "  The clockwork assassin's Strikes deal an additional 3d6+4 precision damage to [[Conditions/Off-Guard|Off-Guard]] creatures."

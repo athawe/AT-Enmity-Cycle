@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - magical
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #1-01: The Absalom Initiation
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.73j0kmPBzSCIOtq1" 
@@ -21,7 +22,7 @@ name: "Deeply Flawed Ritual"
 level: "Hazard 5"
 
 trait_06: "Complex"
-trait_01: "magical"
+trait_01: [[magical]]
 modifier: 0
 sourcebook: "_Pathfinder Society Scenario #1-01: The Absalom Initiation_"
 perception:

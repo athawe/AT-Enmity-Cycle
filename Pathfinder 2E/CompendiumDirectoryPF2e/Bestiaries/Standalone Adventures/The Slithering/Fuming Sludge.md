@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.the-slithering-bestiary.Actor.ZXpX1TWooxGkIOuu"
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Fuming Sludge"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: The Slithering"
 name: "Fuming Sludge"
 level: "Creature 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "mindless"
-trait_02: "ooze"
+trait_01: [[mindless]]
+trait_02: [[ooze]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -53,7 +54,7 @@ abilities_top:
     desc: "  A fuming sludge detects nearby living and undead creatures by their complex chemical compositions, but it can't detect elementals or other creatures composed of a single element."
 
   - name: "Smoldering Haze"
-    desc: " (aura,fire) 15 feet. The fuming sludge constantly emits incendiary smoke that creates [[Conditions/Concealed|Concealment]] around it. The smoke doesn't impair the fuming sludge's chemical sense. A creature that enters the aura or begins its turn in the aura becomes [[Conditions/Sickened 1|Sickened 1]] (DC 25 Fortitude check negates) and cannot recover from [[Conditions/Persistent Damage|Persistent Fire Damage]] for 1 round. It is then temporarily immune to the sickening effect of the smoldering haze for 1 minute.\n\nA creature that is currently holding its breath, that doesn't need to breathe, or that's immune to poison is immune to the aura's sickened effect but not the concealment or inability to recover from persistent fire damage."
+    desc: " (aura,fire) 15 feet. The fuming sludge constantly emits incendiary smoke that creates [[Conditions/Concealed|Concealment]] around it. The smoke doesn't impair the fuming sludge's chemical sense. A creature that enters the aura or begins its turn in the aura becomes [[Conditions/Sickened|Sickened 1]] (DC 25 Fortitude check negates) and cannot recover from [[Conditions/Persistent Damage|Persistent Fire Damage]] for 1 round. It is then temporarily immune to the sickening effect of the smoldering haze for 1 minute.\n\nA creature that is currently holding its breath, that doesn't need to breathe, or that's immune to poison is immune to the aura's sickened effect but not the concealment or inability to recover from persistent fire damage."
 
 abilities_mid:
   - name: ""

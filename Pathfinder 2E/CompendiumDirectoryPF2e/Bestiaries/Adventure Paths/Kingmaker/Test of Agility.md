@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Kingmaker
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.hFHdGOMRuhXIuAJo" 
@@ -22,8 +23,8 @@ name: "Test of Agility"
 level: "Hazard 13"
 
 trait_06: "Complex"
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 27
 sourcebook: "_Pathfinder Kingmaker_"
 perception:

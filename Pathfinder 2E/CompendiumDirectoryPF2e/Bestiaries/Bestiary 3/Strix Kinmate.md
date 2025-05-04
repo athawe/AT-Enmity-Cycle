@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/strix
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Strix Kinmate"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Strix Kinmate"
 level: "Creature 2"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
-trait_02: "lawful"
-trait_03: "strix"
+trait_01: [[humanoid]]
+trait_02: [[lawful]]
+trait_03: [[strix]]
 modifier: 9
 perception:
   - name: "Perception"

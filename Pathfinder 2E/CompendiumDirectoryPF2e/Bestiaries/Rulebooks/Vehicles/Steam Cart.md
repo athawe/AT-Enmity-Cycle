@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
 source: Pathfinder Guns &amp; Gears
 aliases: "Compendium.pf2e.vehicles.Actor.FbSRhHvCmXBSVkrn" 
@@ -19,7 +20,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Guns & Gears"
 name: "Steam Cart"
 level: "Vehicle 2"
-rare_03: "Rare"
+rare_03: [[Rare]]
 
 size: "Large"
 modifier: 
@@ -55,7 +56,7 @@ attacks:
     desc: "2d8 (DC 16)"
 
   - name: "Steam Cloud"
-    desc: " Whenever the steam cart takes collision damage, its engine expels a dense cloud of steam in a 5-foot emanation. The steam cart and all creatures in the steam become [[Conditions/Concealed|Concealed]], and creatures outside the steam become concealed to creatures within it. The steam dissipates in 1 round."
+    desc: " Whenever the steam cart takes collision damage, its engine expels a dense cloud of steam in a @Template[emanation|distance:5]. The steam cart and all creatures in the steam become [[Conditions/Concealed|Concealed]], and creatures outside the steam become concealed to creatures within it. The steam dissipates in 1 round."
 
 
 

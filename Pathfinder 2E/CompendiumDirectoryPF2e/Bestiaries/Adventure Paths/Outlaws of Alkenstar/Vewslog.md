@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/giant
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Vewslog"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #180: The Smoking Gun"
 name: "Vewslog"
 level: "Creature 9"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "giant"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[giant]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Cyclops, Jotun"
 skills:
   - name: "Skills"
-    desc: "Athletics: +20, Fortune-Telling Lore: +19, Intimidation: +16, Survival: +18"
+    desc: "Athletics: +20, Intimidation: +16, Survival: +18, Fortune-Telling Lore: +19"
 abilityMods: [4, 6, 3, 0, 3, -1]
 speed: 30 feet
 sourcebook: "_Pathfinder #180: The Smoking Gun_"
@@ -78,7 +79,7 @@ attacks:
     desc: "  Vewslog's ranged attacks deal an additional 4d6 precision damage."
 
   - name: "Firearms Critical Specialization"
-    desc: "  When Vewslog makes a critical hit with a firearm, the target must succeed at a DC 25 Fortitude check save or become [[Conditions/Stunned 1|Stunned 1]]."
+    desc: "  When Vewslog makes a critical hit with a firearm, the target must succeed at a DC 25 Fortitude check save or become [[Conditions/Stunned|Stunned 1]]."
 
   - name: "Ricochet"
     desc: "`pf2:2`  **Frequency** once per round\n* * *\n\n**Effect** Vewslog makes a ranged Strike and compares the attack roll result to the AC of up to two foes, each of whom must be within 60 feet of Vewslog. Roll damage only once and apply it to each creature hit. A ricochet counts as two attacks for Vewslog's multiple attack penalty."

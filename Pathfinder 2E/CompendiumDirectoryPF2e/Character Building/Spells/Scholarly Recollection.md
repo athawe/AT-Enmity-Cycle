@@ -28,6 +28,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
 abilities_mid:
   - name: ""
     desc: "**Trigger** You attempt a Perception check to Seek, or you attempt a skill check to Recall Knowledge with a skill you're trained in.\n* * *\n\nSpeaking a short prayer as you gather your thoughts, you're blessed to find yourself pointed in the right direction. The GM rolls the triggering check twice and uses the better result."

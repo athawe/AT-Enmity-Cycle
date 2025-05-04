@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Quickling (PFS 2-00)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-00: The King in Thorns"
 name: "Quickling (PFS 2-00)"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fey"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fey]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -58,7 +59,7 @@ abilities_mid:
     desc: "`pf2:r`  **Trigger** The quickling is targeted by a Strike\n* * *\n\n**Effect** The quickling darts aside, gaining a +2 circumstance bonus to AC, then Strides up to half their Speed after the Strike resolves."
 
   - name: "Slow Susceptibility"
-    desc: "  The quickling takes a -2 status penalty to saving throws against effects that cause the [[Conditions/Slowed 1|Slowed]] condition. If the quickling ever becomes slowed, they lose their supernatural speed, can't Fade from View, and become [[Conditions/Sickened 1|Sickened 1]] for the duration of the slow. They also can't reduce this sickened condition for the duration of the slowed effect."
+    desc: "  The quickling takes a -2 status penalty to saving throws against effects that cause the [[Conditions/Slowed|Slowed]] condition. If the quickling ever becomes slowed, they lose their supernatural speed, can't Fade from View, and become [[Conditions/Sickened|Sickened 1]] for the duration of the slow. They also can't reduce this sickened condition for the duration of the slowed effect."
 
 attacks:
   - name: ""

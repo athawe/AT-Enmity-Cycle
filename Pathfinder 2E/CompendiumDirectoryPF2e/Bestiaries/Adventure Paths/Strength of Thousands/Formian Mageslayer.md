@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/formian
   - pf2e/creature/type/lawful
   - pf2e/creature/type/mutant
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Formian Mageslayer"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #173: Doorway to the Red Star"
 name: "Formian Mageslayer"
 level: "Creature 16"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "formian"
-trait_02: "lawful"
-trait_03: "mutant"
+trait_01: [[formian]]
+trait_02: [[lawful]]
+trait_03: [[mutant]]
 modifier: 31
 perception:
   - name: "Perception"
@@ -75,7 +76,7 @@ attacks:
     desc: "`pf2:1` Acid Spit +32 (range 60 feet)\n__Damage__  3d6 + 8 acid 3d6 acid"
 
   - name: "Stupefying Touch"
-    desc: " (curse,primal) A creature damaged by a mageslayer's claw Strike must succeed at a DC 37 Will check save. The creature becomes [[Conditions/Stupefied 1|Stupefied 2]] for 1 round on a failure. On a critical failure, the creature is stupefied 2 for 1 hour."
+    desc: " (curse,primal) A creature damaged by a mageslayer's claw Strike must succeed at a DC 37 Will check save. The creature becomes [[Conditions/Stupefied|Stupefied 2]] for 1 round on a failure. On a critical failure, the creature is stupefied 2 for 1 hour."
  
 ```
 

@@ -17,7 +17,7 @@ license: OGL
 
 
 
-**Prerequisites** Enhanced Familiar
+**Prerequisites** Familiar Master Dedication; Enhanced Familiar
 * * *
 Your familiar is infused with even more magic than other familiars. You can select six familiar or master abilities each day, instead of four.
 

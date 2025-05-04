@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.RknMXlwJcbvGhk3n"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/aquatic
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Reef Octopus"
@@ -24,8 +25,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "animal"
-trait_02: "aquatic"
+trait_01: [[animal]]
+trait_02: [[aquatic]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -64,7 +65,7 @@ attacks:
     desc: "  The reef octopus can change the color of its skin to [[Actions/Hide|Hide]] even if it doesn't have cover."
 
   - name: "Ink Cloud"
-    desc: "`pf2:1`  The reef octopus emits a cloud of dark-brown ink in a 10-foot emanation. This cloud has no effect outside of water. Creatures inside the cloud are [[Conditions/Hidden|Hidden]] and can't use their sense of smell. The cloud dissipates after 1 minute.\n\nThe octopus can't use Ink Cloud again for 2d6 rounds."
+    desc: "`pf2:1`  The reef octopus emits a cloud of dark-brown ink in a @Template[emanation|distance:10]. This cloud has no effect outside of water. Creatures inside the cloud are [[Conditions/Hidden|Hidden]] and can't use their sense of smell. The cloud dissipates after 1 minute.\n\nThe octopus can't use Ink Cloud again for 2d6 rounds."
 
   - name: "Jet"
     desc: "`pf2:2`  The reef octopus moves up to 80 feet in a straight line through the water without triggering reactions."

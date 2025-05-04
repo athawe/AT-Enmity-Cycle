@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.5CixyyBkCLj2VI8q" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Hippopotamus"
@@ -23,7 +24,7 @@ level: "Creature 5"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +13, Stealth: +11 (+13 in Water), Survival: +11"
+    desc: "Athletics: +13, Stealth: +11, Survival: +11"
 abilityMods: [6, 2, 6, -4, 4, -2]
 speed: 25 feet,  swim 20 feet
 sourcebook: "_Pathfinder Bestiary 2_"

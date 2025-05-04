@@ -60,12 +60,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Valeros (Level 5)
-creatures:
-  - 1: Valeros (Level 5)
-```
-
 
 
 

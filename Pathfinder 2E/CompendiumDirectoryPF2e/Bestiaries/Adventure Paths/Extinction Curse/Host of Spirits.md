@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
   - complex
 source: Pathfinder #155: Lord of the Black Sands
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.CknWKRO1xUHBL5Km" 
@@ -21,7 +22,7 @@ name: "Host of Spirits"
 level: "Hazard 18"
 
 trait_06: "Complex"
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 35
 sourcebook: "_Pathfinder #155: Lord of the Black Sands_"
 perception:

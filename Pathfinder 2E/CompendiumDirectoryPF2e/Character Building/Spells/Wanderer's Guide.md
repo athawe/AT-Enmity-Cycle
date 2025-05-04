@@ -29,6 +29,7 @@ abilities_top:
     desc: "divine, occult"
   - name: "Cast"
     desc: "1 minute"
+
   - name: "Duration"
     desc: "until your next daily preparations"
 abilities_mid:

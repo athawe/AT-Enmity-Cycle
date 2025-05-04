@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.rage-of-elements-bestiary.Actor.Gqz1qtpdgAl13pCE"
 tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/genie
+  - pf2eMonster
   - pf2e/creature/level/2
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "tiny"
-trait_01: "elemental"
-trait_02: "genie"
+trait_01: [[elemental]]
+trait_02: [[genie]]
 modifier: 8
 perception:
   - name: "Perception"

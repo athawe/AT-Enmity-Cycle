@@ -12,6 +12,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Pontrius Tilasti (3-4)"
@@ -26,16 +27,16 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #3-05: Inheritor&#x27;s Rite"
 name: "Pontrius Tilasti (3-4)"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "devil"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "halfling"
-trait_05: "humanoid"
-trait_06: "lawful"
-trait_07: "unholy"
+trait_01: [[devil]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[halfling]]
+trait_05: [[humanoid]]
+trait_06: [[lawful]]
+trait_07: [[unholy]]
 modifier: 7
 perception:
   - name: "Perception"

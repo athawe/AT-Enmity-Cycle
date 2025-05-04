@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - magical
+  - pf2eHazard
   - complex
 source: Pathfinder #185: A Taste of Ashes
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.8k2a2J7gSqV877sZ" 
@@ -21,7 +22,7 @@ name: "Cleansing Fire"
 level: "Hazard 17"
 
 trait_06: "Complex"
-trait_01: "magical"
+trait_01: [[magical]]
 modifier: 43
 sourcebook: "_Pathfinder #185: A Taste of Ashes_"
 perception:

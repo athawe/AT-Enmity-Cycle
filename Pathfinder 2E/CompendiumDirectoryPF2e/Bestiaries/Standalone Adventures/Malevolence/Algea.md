@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/monitor
   - pf2e/creature/type/psychopomp
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Algea"
@@ -25,9 +26,9 @@ level: "Creature 11"
 
 alignment: ""
 size: "Large"
-trait_01: "monitor"
-trait_02: "psychopomp"
-trait_03: "swarm"
+trait_01: [[monitor]]
+trait_02: [[psychopomp]]
+trait_03: [[swarm]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Chthonian, Diabolic, Empyrean, Requian"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +22, Boneyard Lore: +21, Occultism: +21, Religion: +20, Stealth: +22"
+    desc: "Acrobatics: +22, Occultism: +21, Religion: +20, Stealth: +22, Boneyard Lore: +21"
 abilityMods: [-1, 7, 5, 2, 5, 3]
 speed: 15 feet,  fly 40 feet
 sourcebook: "_Pathfinder Adventure: Malevolence_"
@@ -57,7 +58,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Grieving Aura"
-    desc: " (aura,divine,emotion,mental) 30 feet. A creature that begins its turn in the aura must attempt a DC 27 Will check save. Undead take a -2 circumstance penalty to this saving throw. The creature is then temporarily immune to the grieving aura for 1 hour.\n\n**Success** The creature is unaffected.\n\n**Failure** For 1 round, the creature can't use reactions and is [[Conditions/Slowed 1|Slowed 1]] for that turn as it sobs uncontrollably.\n\n**Critical Failure** As failure, but the effects lasts while the creature remains in the aura plus 1 minute."
+    desc: " (aura,divine,emotion,mental) 30 feet. A creature that begins its turn in the aura must attempt a DC 27 Will check save. Undead take a -2 circumstance penalty to this saving throw. The creature is then temporarily immune to the grieving aura for 1 hour.\n\n**Success** The creature is unaffected.\n\n**Failure** For 1 round, the creature can't use reactions and is [[Conditions/Slowed|Slowed 1]] for that turn as it sobs uncontrollably.\n\n**Critical Failure** As failure, but the effects lasts while the creature remains in the aura plus 1 minute."
 
 attacks:
   - name: ""

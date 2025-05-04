@@ -24,6 +24,7 @@ abilities_top:
     desc: "1 hour; **Cost** crushed rubies worth 2,000 gp; **Secondary Casters** 3"
   - name: "Primary Check"
     desc: "Occultism or Religion (legendary); **Secondary Checks** Fortitude, Society, Will"
+
   - name: "Duration"
     desc: "3 hours"
 abilities_mid:

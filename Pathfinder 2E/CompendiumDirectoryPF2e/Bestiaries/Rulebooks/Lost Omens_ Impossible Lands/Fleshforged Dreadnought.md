@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.lost-omens-impossible-lands-bestiary.Actor.KTabPRN489y
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Fleshforged Dreadnought"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Impossible Lands"
 name: "Fleshforged Dreadnought"
 level: "Creature 18"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "construct"
-trait_02: "mindless"
+trait_01: [[construct]]
+trait_02: [[mindless]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -73,7 +74,7 @@ attacks:
     desc: "`pf2:2`  The fleshforged dreadnought Strides up to twice its speed and makes a battering ram Strike against a structure or unattended object. The Strike ignores 20 points of the target's Hardness."
 
   - name: "Drown in Ichor"
-    desc: "`pf2:2` (acid,arcane) The fleshforged dreadnought releases a wave of caustic fluid from vents in its sides. Creatures within a 20-foot emanation take 8d6 acid damage (DC 40 Reflex check). Creatures who fail their saves also take 3d6 persistent acid damage."
+    desc: "`pf2:2` (acid,arcane) The fleshforged dreadnought releases a wave of caustic fluid from vents in its sides. Creatures within a @Template[emanation|distance:20] take 8d6 acid damage (DC 40 Reflex check). Creatures who fail their saves also take 3d6 persistent acid damage."
 
   - name: "[[Bestiary Ability Glossary/Trample|Trample]]"
     desc: "`pf2:3` (attack) Huge or smaller, battering ram, DC 44 Reflex check\n\n* * *\n"

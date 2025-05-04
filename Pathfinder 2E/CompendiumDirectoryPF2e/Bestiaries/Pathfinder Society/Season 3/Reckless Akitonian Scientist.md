@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Reckless Akitonian Scientist"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Special #3-99: Fate in the Future"
 name: "Reckless Akitonian Scientist"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Akitonian"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +12, Crafting: +17, Deception: +9, Engineering Lore: +15, Medicine: +10, Stealth: +12, Underworld Lore: +13"
+    desc: "Acrobatics: +12, Crafting: +17, Deception: +9, Medicine: +10, Stealth: +12, Engineering Lore: +15, Underworld Lore: +13"
 abilityMods: [1, 4, 5, 5, 2, -1]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Special #3-99: Fate in the Future_"
@@ -66,13 +67,13 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Sickle +17 (agile, finesse, magical, trip)\n__Damage__  1d4 + 7 slashing"
 
-  - name: "Ranged"
+  - name: "Melee"
     desc: "`pf2:1` Acid Flask (Moderate) +16 (bomb, consumable, infused, splash)\n__Damage__  1 acid 2d6 acid 2 acid"
 
-  - name: "Ranged"
+  - name: "Melee"
     desc: "`pf2:1` Alchemist&#x27;s Fire (Moderate) +16 (bomb, consumable, infused, splash)\n__Damage__  2d8 fire 2 fire 2 fire"
 
-  - name: "Ranged"
+  - name: "Melee"
     desc: "`pf2:1` Frost Vial (Moderate) +16 (bomb, consumable, infused, splash)\n__Damage__  2d6 cold 2 cold"
 
   - name: "Quick Bomber"

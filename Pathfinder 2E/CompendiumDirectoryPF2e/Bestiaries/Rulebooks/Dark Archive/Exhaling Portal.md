@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Dark Archive
 aliases: "Compendium.pf2e.pathfinder-dark-archive.Actor.P2fNCqJsR0gazMzM" 
@@ -22,8 +23,8 @@ name: "Exhaling Portal"
 level: "Hazard 9"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 23
 sourcebook: "_Pathfinder Dark Archive_"
 perception:

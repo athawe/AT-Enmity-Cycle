@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder #198: No Breath to Cry
 aliases: "Compendium.pf2e.season-of-ghosts-bestiary.Actor.7lNpmwXNZgHcYn9I" 
@@ -21,7 +22,7 @@ name: "False Victory"
 level: "Hazard 7"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 17
 sourcebook: "_Pathfinder #198: No Breath to Cry_"
 perception:

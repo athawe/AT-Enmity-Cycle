@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.zNN1Af6Xx5Tmglcu"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Tewakam Nekotek (5-6)"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-04: Path of Kings"
 name: "Tewakam Nekotek (5-6)"
 level: "Creature 4"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Mahwek, Skald"
 skills:
   - name: "Skills"
-    desc: "Athletics: +14, Scouting Lore: +12, Stealth: +11, Survival: +12"
+    desc: "Athletics: +14, Stealth: +11, Survival: +12, Scouting Lore: +12"
 abilityMods: [4, 1, 2, 1, 3, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #2-04: Path of Kings_"

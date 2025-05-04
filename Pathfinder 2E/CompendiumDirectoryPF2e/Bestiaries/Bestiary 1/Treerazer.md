@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/25
 statblock: inline
 name: "Treerazer"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Treerazer"
 level: "Creature 25"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "huge"
-trait_01: "amphibious"
-trait_02: "chaotic"
-trait_03: "demon"
-trait_04: "evil"
-trait_05: "fiend"
-trait_06: "unholy"
+trait_01: [[amphibious]]
+trait_02: [[chaotic]]
+trait_03: [[demon]]
+trait_04: [[evil]]
+trait_05: [[fiend]]
+trait_06: [[unholy]]
 modifier: 46
 perception:
   - name: "Perception"
@@ -70,19 +71,19 @@ attacks:
   - name: ""
 
   - name: "Melee"
-    desc: "`pf2:1` Blackaxe +47 (acid, magical, reach 15 feet, sweep, unholy)\n__Damage__  4d12 + 15 slashing 1d6 acid 1d6 spirit 1d6 spirit"
+    desc: "`pf2:1` Blackaxe +47 (acid, magical, reach 15 feet, sweep, unholy)\n__Damage__  4d12 + 15 slashing 1d6 acid 2d6 spirit"
 
   - name: "Melee"
-    desc: "`pf2:1` Jaws +45 (agile, magical, reach 15 feet, unholy)\n__Damage__  4d10 + 18 slashing 2d6 spirit 2d6 spirit"
+    desc: "`pf2:1` Jaws +45 (agile, magical, reach 15 feet, unholy)\n__Damage__  4d10 + 18 slashing 4d6 spirit"
 
   - name: "Primal Innate Spells"
-    desc: "DC 49, attack +43; __10th __  _[[Spells/Desiccate|Horrid Wilting]]_, _[[Spells/Freeze Time|Time Stop]]_, _[[Spells/Wall of Thorns|Wall of Thorns]]_; __9th __  _[[Spells/Abyssal Wrath|Abyssal Wrath (At Will)]]_, _[[Spells/Dispel Magic|Dispel Magic (At Will)]]_; __6th __  _[[Spells/Tangling Creepers|Tangling Creepers (At Will)]]_; __5th __  _[[Spells/Abyssal Plague|Abyssal Plague (At Will)]]_; __3rd __  _[[Spells/Earthbind|Earthbind (At Will)]]_; __2nd __  _[[Spells/Telekinetic Maneuver|Telekinetic Maneuver (At Will)]]_\n__Cantrips__  __(9th)__ _[[Spells/Telekinetic Projectile|Telekinetic Projectile]]_\n__Constant__  __(8th)__ _[[Spells/Truesight|True Seeing]]_ __(4th)__ _[[Spells/Unfettered Movement|Freedom of Movement]]_"
+    desc: "DC 49, attack +43; __10th __  _[[Spells/Desiccate|Horrid Wilting]]_, _[[Spells/Freeze Time|Time Stop]]_, _[[Spells/Wall of Thorns|Wall of Thorns]]_; __9th __  _[[Spells/Chthonian Wrath|Abyssal Wrath (At Will)]]_, _[[Spells/Dispel Magic|Dispel Magic (At Will)]]_; __6th __  _[[Spells/Tangling Creepers|Tangling Creepers (At Will)]]_; __5th __  _[[Spells/Abyssal Plague|Abyssal Plague (At Will)]]_; __3rd __  _[[Spells/Earthbind|Earthbind (At Will)]]_; __2nd __  _[[Spells/Telekinetic Maneuver|Telekinetic Maneuver (At Will)]]_\n__Cantrips__  __(9th)__ _[[Spells/Telekinetic Projectile|Telekinetic Projectile]]_\n__Constant__  __(8th)__ _[[Spells/Truesight|True Seeing]]_ __(4th)__ _[[Spells/Unfettered Movement|Freedom of Movement]]_"
 
   - name: "Rituals"
     desc: "_[[Spells/Demonic Pact|Abyssal Pact]]_, _[[Spells/Planar Servitor|Planar Ally]]_"
 
   - name: "Blackaxe - Link"
-    desc: "`pf2:1` (scrying) **Requirements** Treerazer isn't wielding _Blackaxe_.\n* * *\n\n**Effect** Treerazer senses the world around _Blackaxe_ as though it were in its location and can use any of it's innate spells through the link as if it were the source of the spell. If another creature is wielding Blackaxe, it must succeed at a DC 50 Will check save or be [[Conditions/Slowed 1|Slowed 2]] until it relinquishes the weapon."
+    desc: "`pf2:1` (scrying) **Requirements** Treerazer isn't wielding _Blackaxe_.\n* * *\n\n**Effect** Treerazer senses the world around _Blackaxe_ as though it were in its location and can use any of it's innate spells through the link as if it were the source of the spell. If another creature is wielding Blackaxe, it must succeed at a DC 50 Will check save or be [[Conditions/Slowed|Slowed 2]] until it relinquishes the weapon."
 
   - name: "Blackaxe - Restoration"
     desc: "`pf2:1` (death,healing) **Activate** command\n\n**Frequency** once per minute.\n* * *\n\n**Effect** Treerazer makes a Strike against a living tree with _Blackaxe_. If it hits, the tree withers to ash and Treerazer heals 250 Hit Points and gains the benefit of [[Spells/Restoration|Restoration]] (6th) and [[Spells/Sound Body|Sound Body]]."
@@ -91,13 +92,13 @@ attacks:
     desc: " (teleportation) **Activate** command\n\n**Requirements** Treerazer isn't wielding _Blackaxe_.\n* * *\n\n**Effect** _Blackaxe_ appears in Treerazer's hands, teleporting instantly from its prior location."
 
   - name: "Defoliation"
-    desc: "`pf2:2` (plant,primal) Treerazer exudes a pulse of sickly green light in a 30-foot emanation. All plants in the area (including creatures under the effect of his aura of corruption) blacken and wither. Non-creature plants immediately wither and die. Plant creatures take 20d8 void damage with a DC 49 Fortitude check save. A creature that fails its save is [[Conditions/Doomed 1|Doomed 1]] for 1 minute and [[Conditions/Sickened 1|Sickened 3]]. Treerazer can choose to exclude any number of plants in the area from this effect, and generally does so to preserve twisted and corrupted plants or fungi, or plant creatures that are allied to his cause.\n\nTreerazer can't use Defoliation for 1d4 rounds."
+    desc: "`pf2:2` (plant,primal) Treerazer exudes a pulse of sickly green light in a @Template[emanation|distance:30]. All plants in the area (including creatures under the effect of his aura of corruption) blacken and wither. Non-creature plants immediately wither and die. Plant creatures take 20d8 void damage with a DC 49 Fortitude check save. A creature that fails its save is [[Conditions/Doomed|Doomed 1]] for 1 minute and [[Conditions/Sickened|Sickened 3]]. Treerazer can choose to exclude any number of plants in the area from this effect, and generally does so to preserve twisted and corrupted plants or fungi, or plant creatures that are allied to his cause.\n\nTreerazer can't use Defoliation for 1d4 rounds."
 
   - name: "Dispelling Strike"
     desc: " (primal) **Frequency** once per round\n\n**Trigger** Treerazer hits a creature, object, or spell effect with a weapon Strike or a defoliation attack.\n* * *\n\n**Effect** Treerazer casts his innate [[Spells/Dispel Magic|Dispel Magic]], targeting the creature he hit with his Strike or one spell affecting that creature."
 
   - name: "Staggering Strike"
-    desc: "  When Treerazer scores a critical hit with a melee attack, the target is [[Conditions/Stunned 1|Stunned 2]]."
+    desc: "  When Treerazer scores a critical hit with a melee attack, the target is [[Conditions/Stunned|Stunned 2]]."
  
 ```
 

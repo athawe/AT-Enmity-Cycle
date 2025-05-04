@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
 source: Pathfinder Guns &amp; Gears
 aliases: "Compendium.pf2e.vehicles.Actor.IhniEmlnkb3pFRZG" 
@@ -19,7 +20,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Guns & Gears"
 name: "Clockwork Hopper"
 level: "Vehicle 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 
 size: "Large"
 modifier: 

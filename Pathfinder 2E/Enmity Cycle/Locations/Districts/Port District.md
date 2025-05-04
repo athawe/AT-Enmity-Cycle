@@ -1,3 +1,22 @@
+---
+tags:
+  - district
+---
+
+**Description**: Movement and work is constantly in the air. Most buildings are angled and shaped to guide the western winds through the streets without sacrificing storage space. Many warehouses and piers to accommodate sales and movement of products. The more pleasure and black market areas are not too well hidden on the southern end of the district. 
+**Theme Music**: 
+## Social Encounters 
+`dice: 2d8` 
+- 2 - Nothing
+- 3 - Government (1 on a d4 to be a Lord, else a public servant)
+- 4-6 - Lingering Note 
+- 7-10 - Other Hand 
+- 11-12 - Lamasara Mercantile League 
+- 13 - Townsfolk
+- 14 - Lamasara's Faithful 
+- 15 - Runewatchers 
+- 16 - Pathfinder Society 
+## Locations
 Tourists, shipping, and construction to the north, pleasure, black market, music, and shady business to the south.
 #### [[The Pillbug's Pantry]] LOCATION 6 
 The Other Hand CRIMINAL EMPLOYER MERCHANT WORKSHOP 
@@ -33,8 +52,19 @@ LINGERING NOTE EMPLOYER
 The Other Hand HOUSING MERCHANT PARLOR 
 **Wares** whores, lodging 
 [[Lamasara Mercantile League#"Dice"|"Dice"]]
+- They love to use [[Day's Weight]] to entice people to stay the night 
+- 
 
 #### [[Lamasara Shipyard]] LOCATION 4 
 Lamasara MERCANTILE LEAGUE EMPLOYER MERCHANT WORKSHOP 
 **Wares** ships, shipbuilding services, ship passage 
 [[Lamasara Mercantile League#Tagir Stenson|Tagir Stenson]]
+
+#### The Bearded Clam Location 2
+Townsfolk MERCHANT PARLOR 
+**Wares** whores 
+Yigyagg Yarpyad, male goblin pimp 4
+- A cousin of [[Yigrig Moneymaker]].
+Two-Beard, the female dwarf doxy
+Long-Tongue Lassie, the female human strumpet 
+![[1979 women of the night.jpg|400]]

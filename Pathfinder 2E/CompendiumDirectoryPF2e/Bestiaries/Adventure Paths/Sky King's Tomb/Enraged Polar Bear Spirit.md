@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
   - complex
 source: Pathfinder #195: Heavy is the Crown
 aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.90aVVTmTHwKgX3B1" 
@@ -21,7 +22,7 @@ name: "Enraged Polar Bear Spirit"
 level: "Hazard 9"
 
 trait_06: "Complex"
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 13
 sourcebook: "_Pathfinder #195: Heavy is the Crown_"
 perception:
@@ -40,7 +41,7 @@ attacks:
   - name: ""
 
   - name: "Feral Roar"
-    desc: "action (auditory, fear, mental) **Trigger** A creature approaches within 10 feet of the polar bear spirit\n* * *\n\n**Effect** The polar bear spirit roars. Each creature in the room must attempt a DC 28 Will check save. The enraged polar bear spirit rolls initiative.\n* * *\n\n**Critical Success** The creature is unaffected. Success The creature is [[Conditions/Frightened 1|Frightened 1]].\n\n**Failure** The creature takes 6d6 sonic damage and is [[Conditions/Frightened 1|Frightened 2]].\n\n**Critical Failure** The creature takes 12d6 sonic damage and is [[Conditions/Frightened 1|Frightened 3]]."
+    desc: "action (auditory, fear, mental) **Trigger** A creature approaches within 10 feet of the polar bear spirit\n* * *\n\n**Effect** The polar bear spirit roars. Each creature in the room must attempt a DC 28 Will check save. The enraged polar bear spirit rolls initiative.\n* * *\n\n**Critical Success** The creature is unaffected. Success The creature is [[Conditions/Frightened|Frightened 1]].\n\n**Failure** The creature takes 6d6 sonic damage and is [[Conditions/Frightened|Frightened 2]].\n\n**Critical Failure** The creature takes 12d6 sonic damage and is [[Conditions/Frightened|Frightened 3]]."
   - name: "Melee"
     desc: "Spiritual Claws +21 (agile, magical) "
 

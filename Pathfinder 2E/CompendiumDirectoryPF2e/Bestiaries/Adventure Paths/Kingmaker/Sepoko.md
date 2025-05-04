@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Sepoko"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Sepoko"
 level: "Creature 11"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "boggard"
-trait_03: "chaotic"
-trait_04: "evil"
-trait_05: "humanoid"
+trait_01: [[amphibious]]
+trait_02: [[boggard]]
+trait_03: [[chaotic]]
+trait_04: [[evil]]
+trait_05: [[humanoid]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Boggard"
 skills:
   - name: "Skills"
-    desc: "Athletics: +21, Deception: +23, Intimidation: +21, Religion: +20, Stealth: +20 (+24 in water), Survival: +20"
+    desc: "Athletics: +21, Deception: +23, Intimidation: +21, Religion: +20, Stealth: +20, Survival: +20"
 abilityMods: [4, 3, 4, 0, 5, 4]
 speed: 20 feet,  swim 25 feet
 sourcebook: "_Pathfinder Kingmaker_"
@@ -83,7 +84,7 @@ attacks:
     desc: "  A boggard cultist ignores difficult terrain caused by swamp terrain features."
 
   - name: "[[Actor.I8IPTHEU1zF5KmAB.Item.z8bl09rqF4yCJDy4|Terrifying Croak]]"
-    desc: "`pf2:1` (auditory,emotion,fear,mental) The boggard warden unleashes a terrifying croak. Any non-boggard within 30 feet becomes [[Conditions/Frightened 1|Frightened 1]] unless they succeed at a DC 30 Will check save.\n\nThose who critically succeed are temporarily immune for 1 minute."
+    desc: "`pf2:1` (auditory,emotion,fear,mental) The boggard warden unleashes a terrifying croak. Any non-boggard within 30 feet becomes [[Conditions/Frightened|Frightened 1]] unless they succeed at a DC 30 Will check save.\n\nThose who critically succeed are temporarily immune for 1 minute."
 
   - name: "[[Actor.I8IPTHEU1zF5KmAB.Item.A33mGw1DCgRJRDSe|Tongue Grab]]"
     desc: "  If the boggard warden hits a creature with its tongue, that creature becomes [[Conditions/Grabbed|Grabbed]] by the boggard. Unlike with a normal Grab, the creature isn't [[Conditions/Immobilized|Immobilized]], but it can't move beyond the reach of the boggard's tongue. A creature can sever the tongue by hitting AC 27 and dealing at least 14 slashing damage. Though this doesn't deal any damage to the boggard, it prevents it from using its tongue Strike until it regrows its tongue, which takes a week."

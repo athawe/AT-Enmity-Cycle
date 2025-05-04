@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/hag
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Blood Hag"
@@ -26,10 +27,10 @@ level: "Creature 8"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "hag"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[hag]]
+trait_04: [[humanoid]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -86,10 +87,10 @@ attacks:
     desc: "_[[Spells/Control Weather|Control Weather]]_"
 
   - name: "Assume Fiery Form"
-    desc: "`pf2:3` (concentrate,fire,occult,polymorph) The blood hag removes her borrowed skin and transforms into a brilliant ball of fire.\n\nShe becomes amorphous, gains the fire trait and a fly Speed of 60 feet, becomes immune to fire, and emits light as a torch. She loses her melee Strikes and can't Drain Blood, but she deals 3d10 fire damage (DC 26 Reflex check save) to each creature that touches her, as well as to each creature that succeeds at a melee Strike against her with an unarmed attack or from an adjacent space.\n\nIf her skin is intact, she can return to her normal form by spending a single action that has the manipulate trait while adjacent to the skin.\n\nThe hag can instead Assume Fiery Form as a single action, bursting through her skin in a blast of flames. Doing so destroys her borrowed skin and deals 9d6 fire damage (DC 26 Reflex check save) in a 20-foot emanation.\n\n[[Bestiary Effects/Effect_ Fiery Form|Effect: Fiery Form]]"
+    desc: "`pf2:3` (concentrate,fire,occult,polymorph) The blood hag removes her borrowed skin and transforms into a brilliant ball of fire.\n\nShe becomes amorphous, gains the fire trait and a fly Speed of 60 feet, becomes immune to fire, and emits light as a torch. She loses her melee Strikes and can't Drain Blood, but she deals 3d10 fire damage (DC 26 Reflex check save) to each creature that touches her, as well as to each creature that succeeds at a melee Strike against her with an unarmed attack or from an adjacent space.\n\nIf her skin is intact, she can return to her normal form by spending a single action that has the manipulate trait while adjacent to the skin.\n\nThe hag can instead Assume Fiery Form as a single action, bursting through her skin in a blast of flames. Doing so destroys her borrowed skin and deals 9d6 fire damage (DC 26 Reflex check save) in a @Template[emanation|distance:20].\n\n[[Bestiary Effects/Effect_ Fiery Form|Effect: Fiery Form]]"
 
   - name: "Drain Blood"
-    desc: "`pf2:1` (occult) **Requirements** A [[Conditions/Grabbed|Grabbed]], [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Restrained|Restrained]], [[Conditions/Unconscious|Unconscious]], or willing creature is within the blood hag's reach\n* * *\n\n**Effect** The hag sinks her fangs into the creature to drink its blood. This requires a successful Athletics check check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions.\n\nThe victim becomes [[Conditions/Drained 1|Drained 1]]. The hag regains 15 Hit Points, gaining any excess HP as temporary Hit Points that last for 1 hour. Drinking blood from a creature that's already drained doesn't restore any Hit Points to the hag but increases the victim's drained value by 1, killing the victim when it reaches drained 5.\n\nA victim's drained condition decreases by 1 per week. A blood transfusion, which requires a successful DC 20 Medicine check check and sufficient blood or a blood donor, reduces the drained condition by 1 after 10 minutes."
+    desc: "`pf2:1` (occult) **Requirements** A [[Conditions/Grabbed|Grabbed]], [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Restrained|Restrained]], [[Conditions/Unconscious|Unconscious]], or willing creature is within the blood hag's reach\n* * *\n\n**Effect** The hag sinks her fangs into the creature to drink its blood. This requires a successful Athletics check check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions.\n\nThe victim becomes [[Conditions/Drained|Drained 1]]. The hag regains 15 Hit Points, gaining any excess HP as temporary Hit Points that last for 1 hour. Drinking blood from a creature that's already drained doesn't restore any Hit Points to the hag but increases the victim's drained value by 1, killing the victim when it reaches drained 5.\n\nA victim's drained condition decreases by 1 per week. A blood transfusion, which requires a successful DC 20 Medicine check check and sufficient blood or a blood donor, reduces the drained condition by 1 after 10 minutes."
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

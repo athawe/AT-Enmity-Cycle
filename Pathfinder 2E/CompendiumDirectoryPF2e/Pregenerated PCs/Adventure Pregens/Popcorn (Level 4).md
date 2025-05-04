@@ -60,12 +60,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Popcorn (Level 4)
-creatures:
-  - 1: Popcorn (Level 4)
-```
-
 
 
 

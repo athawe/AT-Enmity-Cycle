@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
   - pf2e/creature/type/vampire
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Vrykolakas Spawn"
@@ -26,10 +27,10 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
-trait_04: "vampire"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
+trait_04: [[vampire]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -71,7 +72,7 @@ attacks:
     desc: "`pf2:1` Claw +17 (agile)\n__Damage__  2d6 + 8 slashing"
 
   - name: "Drink Blood"
-    desc: "`pf2:1` (divine) **Requirements** The vrykolakas' last action was a successful fangs Strike\n* * *\n\n**Effect** The vrykolakas sinks its fangs into that creature to drink its blood. This requires an Athletics check check against the creature's Fortitude DC. On a success, the creature becomes [[Conditions/Drained 1|Drained 1]], and the vrykolakas regains 10 HP, gaining any excess HP as temporary Hit Points.\n\nDrinking Blood from a creature that's already drained doesn't restore any HP to the vampire, but it increases the creature's drained condition value by 1. A vrykolakas can also consume blood that's been emptied into a vessel for sustenance, but it gains no HP from doing so.\n\nThe target creature's drained condition value decreases by 1 per week.\n\nA blood transfusion, which requires a successful DC 20 Medicine check check and sufficient blood or a blood donor, reduces the drained value by 1 after 10 minutes."
+    desc: "`pf2:1` (divine) **Requirements** The vrykolakas' last action was a successful fangs Strike\n* * *\n\n**Effect** The vrykolakas sinks its fangs into that creature to drink its blood. This requires an Athletics check check against the creature's Fortitude DC. On a success, the creature becomes [[Conditions/Drained|Drained 1]], and the vrykolakas regains 10 HP, gaining any excess HP as temporary Hit Points.\n\nDrinking Blood from a creature that's already drained doesn't restore any HP to the vampire, but it increases the creature's drained condition value by 1. A vrykolakas can also consume blood that's been emptied into a vessel for sustenance, but it gains no HP from doing so.\n\nThe target creature's drained condition value decreases by 1 per week.\n\nA blood transfusion, which requires a successful DC 20 Medicine check check and sufficient blood or a blood donor, reduces the drained value by 1 after 10 minutes."
 
   - name: "[[Bestiary Ability Glossary/Rend|Rend]]"
     desc: "`pf2:1`  Claw\n\n* * *\n"

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/dream
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Nightgaunt"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Nightgaunt"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "dream"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[dream]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -72,7 +73,7 @@ attacks:
     desc: "  A nightgaunt can Fly at full Speed while it has a Medium or smaller creature [[Conditions/Grabbed|Grabbed]] or [[Conditions/Restrained|Restrained]] in its claws, carrying that creature along with it."
 
   - name: "Tickle"
-    desc: "  The nightgaunt can use its tail to tickle a foe with horrible efficiency. A creature hit by its tail Strike must attempt a DC 21 Fortitude check save; if the creature is [[Conditions/Grabbed|Grabbed]] by the nightgaunt, it uses the outcome one degree of success worse than the result it rolled.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune for 1 minute.\n\n**Success** The creature is overcome with laughter and can't perform reactions for 1 round.\n\n**Failure** As success, and the creature is [[Conditions/Sickened 1|Sickened 1]].\n\n**Critical Failure** As success, and the creature is [[Conditions/Sickened 1|Sickened 2]] and can't speak for 1 round."
+    desc: "  The nightgaunt can use its tail to tickle a foe with horrible efficiency. A creature hit by its tail Strike must attempt a DC 21 Fortitude check save; if the creature is [[Conditions/Grabbed|Grabbed]] by the nightgaunt, it uses the outcome one degree of success worse than the result it rolled.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune for 1 minute.\n\n**Success** The creature is overcome with laughter and can't perform reactions for 1 round.\n\n**Failure** As success, and the creature is [[Conditions/Sickened|Sickened 1]].\n\n**Critical Failure** As success, and the creature is [[Conditions/Sickened|Sickened 2]] and can't speak for 1 round."
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

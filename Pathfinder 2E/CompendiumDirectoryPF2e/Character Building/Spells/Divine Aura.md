@@ -27,8 +27,10 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "divine"
-**Area** 10-foot emanation
-**Targets** allies in the area  - name: "Duration"
+
+  - name: "Area"
+    desc: "10-foot emanationallies in the area"
+  - name: "Duration"
     desc: "1 minute"
 abilities_mid:
   - name: ""

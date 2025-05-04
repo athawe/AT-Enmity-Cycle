@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.6IADTZHYowxObqAk"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Barkeep"
@@ -24,8 +25,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Alcohol Lore: +9, Athletics: +6, Deception: +6, Diplomacy: +8, Performance: +6, Society: +5, Thievery: +3"
+    desc: "Athletics: +6, Deception: +6, Diplomacy: +8, Performance: +6, Society: +5, Thievery: +3, Alcohol Lore: +9"
 abilityMods: [3, 0, 2, 0, 1, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

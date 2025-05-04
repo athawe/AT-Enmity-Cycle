@@ -23,7 +23,7 @@ This _standard-grade duskwood shield_ is perfectly symmetrical and incredibly st
 
 * * *
 
-**Activate - Repair**`pf2:1` (concentrate)
+**Activate - Repair** `pf2:1` (concentrate)
 
 **Frequency** once per day
 

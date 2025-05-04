@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/swarm
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Feral Skull Swarm"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Feral Skull Swarm"
 level: "Creature 12"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "huge"
-trait_01: "evil"
-trait_02: "mindless"
-trait_03: "swarm"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[evil]]
+trait_02: [[mindless]]
+trait_03: [[swarm]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -61,7 +62,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Boneshard Burst"
-    desc: "  When a feral skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a 30-foot burst, dealing 3d12 piercing damage and 2d12 void damage (DC 32 Reflex check save)."
+    desc: "  When a feral skull swarm is reduced to 0 Hit Points, it erupts in an explosion of foul energy and bone fragments in a @Template[burst|distance:30], dealing 3d12 piercing damage and 2d12 void damage (DC 32 Reflex check save)."
 
 attacks:
   - name: ""
@@ -70,7 +71,7 @@ attacks:
     desc: "`pf2:1`  Each enemy in the swarm's space takes 2d6 bludgeoning damage, 2d6 piercing damage, and 2d6 slashing damage (DC 32 Reflex check save).\n\nA creature that fails its saving throw also takes 1d10 bleed."
 
   - name: "Frightening Howl"
-    desc: "`pf2:1` (auditory,emotion,fear,mental) The feral skull swarm emits a terrifying howl. Each creature within 60 feet must succeed at a DC 32 Will check save or become [[Conditions/Frightened 1|Frightened 2]] ([[Conditions/Frightened 1|Frightened 3]] and [[Conditions/Fleeing|Fleeing]] for 1 round on a critical failure).\n\nWhether it succeeds or fails its save, a creature is temporarily immune to Frightening Howl for 24 hours."
+    desc: "`pf2:1` (auditory,emotion,fear,mental) The feral skull swarm emits a terrifying howl. Each creature within 60 feet must succeed at a DC 32 Will check save or become [[Conditions/Frightened|Frightened 2]] ([[Conditions/Frightened|Frightened 3]] and [[Conditions/Fleeing|Fleeing]] for 1 round on a critical failure).\n\nWhether it succeeds or fails its save, a creature is temporarily immune to Frightening Howl for 24 hours."
  
 ```
 

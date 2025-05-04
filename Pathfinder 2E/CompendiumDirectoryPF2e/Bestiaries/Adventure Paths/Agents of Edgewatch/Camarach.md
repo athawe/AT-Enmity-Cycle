@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.QRcIVhQV2vlpADSf"
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/monitor
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Camarach"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #162: Ruins of the Radiant Siege"
 name: "Camarach"
 level: "Creature 17"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "grg"
-trait_01: "chaotic"
-trait_02: "monitor"
+trait_01: [[chaotic]]
+trait_02: [[monitor]]
 modifier: 27
 perception:
   - name: "Perception"
@@ -73,7 +74,7 @@ attacks:
     desc: "  When the camarach casts project image, its illusory image can be another creature of its size or a structure of its size that features a large portal (such as a freestanding archway or a large hut with an open doorway)."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Huge, 3d10 + 9 bludgeoning damage, Rupture 34\n\n* * *\n"
+    desc: "`pf2:1` (attack) Huge, 3d10+9 bludgeoning damage, Rupture 34\n\n* * *\n"
  
 ```
 

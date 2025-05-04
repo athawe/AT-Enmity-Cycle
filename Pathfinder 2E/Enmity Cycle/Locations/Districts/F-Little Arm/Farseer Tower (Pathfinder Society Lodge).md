@@ -4,7 +4,11 @@ owner: "[[Thulgurn Lastaxe]]"
 business:
   - adventuring
 district: "[[Little Arm]]"
-favour:
+favour: 
+aliases:
+  - Farseer Tower
+  - Pathfinder Society Lodge
+  - Lodge
 ---
 HOUSING LIBRARY RESEARCH 
 **Venture-Captain** [[Thulgurn Lastaxe]]

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Lich"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Lich"
 level: "Creature 12"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 20
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Chthonian, Common, Diabolic, Draconic, Elven, Necril, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Arcana: +28, Crafting: +24 (can craft magic items), Deception: +17, Diplomacy: +19, Religion: +22, Stealth: +20"
+    desc: "Arcana: +28, Crafting: +24, Deception: +17, Diplomacy: +19, Religion: +22, Stealth: +20"
 abilityMods: [0, 4, 0, 6, 4, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary_"
@@ -47,7 +48,7 @@ hp: 190
 health:
   - name: ""
   - name: HP
-    desc: "190, void healing, rejuvenation; __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious; __Resistances__ cold 10, physical 10 (except bludgeoning)"
+    desc: "190, void healing, rejuvenation; __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious; __Resistances__ cold 10, physical 10 (except magical bludgeoning)"
 abilities_top:
   - name: ""
   - name: "Items"

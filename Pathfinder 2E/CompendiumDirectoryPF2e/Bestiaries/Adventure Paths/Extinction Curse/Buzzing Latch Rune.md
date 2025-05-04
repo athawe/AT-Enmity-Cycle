@@ -7,6 +7,7 @@ tags:
   - magical
   - sonic
   - trap
+  - pf2eHazard
 
 source: Pathfinder #154: Siege of the Dinosaurs
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.G2i7CUiYmyl1yjQo" 
@@ -24,16 +25,16 @@ name: "Buzzing Latch Rune"
 level: "Hazard 13"
 
 
-trait_01: "electricity"
-trait_02: "magical"
-trait_03: "sonic"
-trait_04: "trap"
+trait_01: [[electricity]]
+trait_02: [[magical]]
+trait_03: [[sonic]]
+trait_04: [[trap]]
 modifier: 22
 sourcebook: "_Pathfinder #154: Siege of the Dinosaurs_"
 ac: 33
 armorclass:
   - name: AC
-    desc: "33; __Fort__ +25, __Ref__ +19, __Will__ +0"
+    desc: "33; __Fort__ +25, __Ref__ +19, "
 hp: 84
 health:
   - name: ""

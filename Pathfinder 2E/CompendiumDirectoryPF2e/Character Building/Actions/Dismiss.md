@@ -20,7 +20,7 @@ license: ORC
 
 
 
-You end an effect that states you can Dismiss it. Dimissing ends the entire effect unless noted otherwise.
+You end an effect that states you can Dismiss it. Dismissing ends the entire effect unless noted otherwise.
 
 *Source: Pathfinder Player Core*
 *ORC*

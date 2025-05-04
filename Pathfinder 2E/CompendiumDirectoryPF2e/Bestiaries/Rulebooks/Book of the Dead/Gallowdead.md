@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Gallowdead"
@@ -25,9 +26,9 @@ level: "Creature 15"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 27
 perception:
   - name: "Perception"
@@ -58,13 +59,13 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Aura of Whispers"
-    desc: " (auditory,aura,divine,fear,mental) 30 feet. A gallowdead is surrounded by an aura of blasphemous whispers. A creature who hears them understands them to be mutterings of its most closely guarded secrets and private failings laid bare. A creature that first enters the area must attempt a DC 34 Will check save. Regardless of the result of the saving throw, the creature is temporarily immune to aura of whispers for 1 minute. The frightened condition from this aura can't be reduced while in the aura.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Frightened 1|Frightened 1]].\n\n**Failure** The creature is [[Conditions/Frightened 1|Frightened 2]] and [[Conditions/Stunned 1|Stunned 1]].\n\n**Critical Failure** The creature is [[Conditions/Frightened 1|Frightened 3]] and [[Conditions/Stunned 1|Stunned 3]]."
+    desc: " (auditory,aura,divine,fear,mental) 30 feet. A gallowdead is surrounded by an aura of blasphemous whispers. A creature who hears them understands them to be mutterings of its most closely guarded secrets and private failings laid bare. A creature that first enters the area must attempt a DC 34 Will check save. Regardless of the result of the saving throw, the creature is temporarily immune to aura of whispers for 1 minute. The frightened condition from this aura can't be reduced while in the aura.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Frightened|Frightened 1]].\n\n**Failure** The creature is [[Conditions/Frightened|Frightened 2]] and [[Conditions/Stunned|Stunned 1]].\n\n**Critical Failure** The creature is [[Conditions/Frightened|Frightened 3]] and [[Conditions/Stunned|Stunned 3]]."
 
   - name: "Chains of the Dead"
     desc: "  The spiked chain of a gallowdead is wrapped around and through their body, imbuing it with foul necromantic powers. The spiked chain can't be disarmed, deals an additional weapon die of damage, and has a greater reach while wielded by the gallowdead."
 
   - name: "Gallow Curse"
-    desc: " (curse,divine) Those who destroy gallowdead are subject to a powerful death curse. When a creature reduces a gallowdead to 0 HP, the creature must attempt a DC 34 Will check save. A creature that fails this saving throw is [[Conditions/Doomed 1|Doomed 1]] and can't remove the condition until the curse has been lifted."
+    desc: " (curse,divine) Those who destroy gallowdead are subject to a powerful death curse. When a creature reduces a gallowdead to 0 HP, the creature must attempt a DC 34 Will check save. A creature that fails this saving throw is [[Conditions/Doomed|Doomed 1]] and can't remove the condition until the curse has been lifted."
 
 attacks:
   - name: ""
@@ -91,4 +92,4 @@ creatures:
 
 
 
-
+The first gallowdead were hung from enormous, hooked chains from atop the Whispering Tyrant's prison, Gallowspire, and magically bonded to their chains after death. After Gallowspire's destruction, the gallowdead who remained were left to wander the ruins.

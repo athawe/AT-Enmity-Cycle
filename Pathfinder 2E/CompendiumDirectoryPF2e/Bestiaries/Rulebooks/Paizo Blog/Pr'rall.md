@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/catfolk
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Pr&#x27;rall"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Blog"
 name: "Pr'rall"
 level: "Creature 9"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "catfolk"
-trait_02: "chaotic"
-trait_03: "humanoid"
+trait_01: [[catfolk]]
+trait_02: [[chaotic]]
+trait_03: [[humanoid]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Amurrun, Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +16, Athletics: +17, Hunting Lore: +12, Medicine: +14, Nature: +14, Society: +12, Stealth: +20, Survival: +18"
+    desc: "Acrobatics: +16, Athletics: +17, Medicine: +14, Nature: +14, Society: +12, Stealth: +20, Survival: +18, Hunting Lore: +12"
 abilityMods: [5, 4, 3, 0, 2, 2]
 speed: 30 feet
 sourcebook: "_Pathfinder Blog_"

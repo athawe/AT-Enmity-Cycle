@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.9KZRWATLOGP7QGyM"
 tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/fire
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Fire Wisp"
@@ -24,8 +25,8 @@ level: "Creature 0"
 
 alignment: ""
 size: "tiny"
-trait_01: "elemental"
-trait_02: "fire"
+trait_01: [[elemental]]
+trait_02: [[fire]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Pyric"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +5, Plane of Fire Lore: +4, Stealth: +7"
+    desc: "Acrobatics: +5, Stealth: +7, Plane of Fire Lore: +4"
 abilityMods: [2, 3, 2, 0, 2, 0]
 speed: 40 feet,  fly 15 feet
 sourcebook: "_Pathfinder Bestiary 3_"

@@ -25,7 +25,11 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "divine"
-**Targets** self  - name: "Duration"
+
+  - name: "Targets"
+
+    desc: "self"
+  - name: "Duration"
     desc: "1 minute"
 abilities_mid:
   - name: ""

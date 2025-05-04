@@ -26,6 +26,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
 abilities_mid:
   - name: ""
     desc: "**Trigger** An attack or effect would deal damage to you.\n* * *\n\nYour own might mingles with divine power to protect you from harm. You gain resistance equal to 8 plus your Strength modifier against all damage from the triggering attack or effect.\n\n[[Spell Effects/Spell Effect_ Enduring Might|Spell Effect: Enduring Might]]\n* * *\n\n**Heightened (+1)** The resistance increases by 2."

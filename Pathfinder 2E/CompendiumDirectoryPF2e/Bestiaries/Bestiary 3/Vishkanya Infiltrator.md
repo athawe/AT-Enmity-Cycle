@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.tjtTHdIBP5QIAyS7"
 tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/vishkanya
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Vishkanya Infiltrator"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Vishkanya Infiltrator"
 level: "Creature 3"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
-trait_02: "vishkanya"
+trait_01: [[humanoid]]
+trait_02: [[vishkanya]]
 modifier: 10
 perception:
   - name: "Perception"

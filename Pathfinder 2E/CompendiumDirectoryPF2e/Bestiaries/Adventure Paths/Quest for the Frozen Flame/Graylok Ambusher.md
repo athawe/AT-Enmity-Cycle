@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/giant
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Graylok Ambusher"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #177: Burning Tundra"
 name: "Graylok Ambusher"
 level: "Creature 8"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "cold"
-trait_03: "evil"
-trait_04: "giant"
-trait_05: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[cold]]
+trait_03: [[evil]]
+trait_04: [[giant]]
+trait_05: [[humanoid]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Jotun"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +16, Athletics: +21, Intimidation: +16, Stealth: +18 (+22 in snow), Survival: +16"
+    desc: "Acrobatics: +16, Athletics: +21, Intimidation: +16, Stealth: +18, Survival: +16"
 abilityMods: [5, 3, 4, 1, 2, 0]
 speed: 30 feet
 sourcebook: "_Pathfinder #177: Burning Tundra_"
@@ -67,17 +68,17 @@ abilities_mid:
 attacks:
   - name: ""
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Hatchet +18 (agile, magical, reach 10 feet, sweep, thrown 10 ft.)\n__Damage__  2d6 + 9 slashing"
 
   - name: "Melee"
     desc: "`pf2:1` Fist +18 (reach 10 feet)\n__Damage__  2d6 + 8 bludgeoning"
 
   - name: "Brutal Beating"
-    desc: "  When the Graylok ambusher scores a critical hit with a melee Strike, the target is [[Conditions/Frightened 1|Frightened 1]]."
+    desc: "  When the Graylok ambusher scores a critical hit with a melee Strike, the target is [[Conditions/Frightened|Frightened 1]]."
 
   - name: "Dread Striker"
-    desc: "  Any creature that has the [[Conditions/Frightened 1|Frightened]] condition is [[Conditions/Off-Guard|Off-Guard]] against the Graylok ambusher's attacks."
+    desc: "  Any creature that has the [[Conditions/Frightened|Frightened]] condition is [[Conditions/Off-Guard|Off-Guard]] against the Graylok ambusher's attacks."
 
   - name: "Ice Stride"
     desc: "  A frost giant isn't impeded by difficult terrain caused by snow or ice, nor do they need to attempt Acrobatics checks to keep from falling on slippery ice."

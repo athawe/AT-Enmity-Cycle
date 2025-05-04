@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kitsune
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Ji-yook (Gumiho Form)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #168: King of the Mountain"
 name: "Ji-yook (Gumiho Form)"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "kitsune"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[kitsune]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -76,7 +77,7 @@ attacks:
     desc: "`pf2:1` (concentrate,divine,polymorph) Ji-yook transforms into her human form. Using Change Shape counts as creating a disguise for the Impersonate use of Deception. Ji-yook can remain in her human form indefinitely, and she can shift back to her true kitsune form by using this action again.\n\n* * *\n"
 
   - name: "Disquieting Change Shape"
-    desc: "`pf2:1` (concentrate,divine,polymorph) Ji-yook selects one enemy within 60 feet, then Changes Shape into humanoid form, taking the form of a person emotionally close to that enemy, such as a dead family member. Ji-yook is not aware of the form she will take until she transforms. If her target sees her, even if they are aware it is a trick, they must attempt a DC 40 Will check save or be [[Conditions/Frightened 1|Frightened 1]] ([[Conditions/Frightened 1|Frightened 2]] on a critical failure) for 1 round. This is a fear effect."
+    desc: "`pf2:1` (concentrate,divine,polymorph) Ji-yook selects one enemy within 60 feet, then Changes Shape into humanoid form, taking the form of a person emotionally close to that enemy, such as a dead family member. Ji-yook is not aware of the form she will take until she transforms. If her target sees her, even if they are aware it is a trick, they must attempt a DC 40 Will check save or be [[Conditions/Frightened|Frightened 1]] ([[Conditions/Frightened|Frightened 2]] on a critical failure) for 1 round. This is a fear effect."
 
   - name: "Foxfire Blast"
     desc: "`pf2:2` (electricity,flourish,magical) Ji-yook makes a fist Strike. On a hit, the target takes an additional 3d6 electricity damage and is pushed back 5 feet. On a critical hit, the target is pushed back and then knocked [[Conditions/Prone|Prone]]"

@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/nymph
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Gathganara"
@@ -28,12 +29,12 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "chaotic"
-trait_03: "fey"
-trait_04: "good"
-trait_05: "nymph"
-trait_06: "water"
+trait_01: [[amphibious]]
+trait_02: [[chaotic]]
+trait_03: [[fey]]
+trait_04: [[good]]
+trait_05: [[nymph]]
+trait_06: [[water]]
 modifier: 6
 perception:
   - name: "Perception"

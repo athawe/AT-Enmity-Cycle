@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kobold
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Kobold Dragon Mage (PFS 1-11)"
@@ -26,10 +27,10 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "kobold"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[kobold]]
+trait_04: [[lawful]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Draconic"
 skills:
   - name: "Skills"
-    desc: "Arcana: +6, Deception: +8, Diplomacy: +8, Dragon Lore: +10, Intimidation: +8, Stealth: +7"
+    desc: "Arcana: +6, Deception: +8, Diplomacy: +8, Intimidation: +8, Stealth: +7, Dragon Lore: +10"
 abilityMods: [-1, 3, 0, 2, 1, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #1-11: Flames of Rebellion_"

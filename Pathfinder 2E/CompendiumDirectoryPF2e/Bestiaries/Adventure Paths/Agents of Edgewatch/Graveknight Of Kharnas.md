@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Graveknight Of Kharnas"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #162: Ruins of the Radiant Siege"
 name: "Graveknight Of Kharnas"
 level: "Creature 17"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -73,10 +74,10 @@ attacks:
     desc: "`pf2:1` Greater Flaming Javelin +29 (magical, thrown 30 ft.)\n__Damage__  3d6 + 19 piercing 1d6 fire"
 
   - name: "Devastating Blast"
-    desc: "`pf2:2` (arcane,fire) The graveknight unleashes a 30-foot cone of energy.\n\nCreatures in the area take 10d12 fire damage (DC 37 Reflex check save).\n\nThe graveknight can't use this ability again for 1d4 rounds."
+    desc: "`pf2:2` (arcane,fire) The graveknight unleashes a @Template[cone|distance:30] of energy.\n\nCreatures in the area take 10d12 fire damage (DC 37 Reflex check save).\n\nThe graveknight can't use this ability again for 1d4 rounds."
 
   - name: "Graveknight's Curse"
-    desc: "  This curse affects anyone who wears a graveknight's armor for at least 1 hour\n\n**Saving Throw** DC 43 Will check save\n\n**Onset** 1 hour\n* * *\n\n**Stage 1** [[Conditions/Doomed 1|Doomed 1]] and can't remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed 1|Doomed 2]], hampered 10, and can't remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight"
+    desc: "  This curse affects anyone who wears a graveknight's armor for at least 1 hour\n\n**Saving Throw** DC 43 Will check save\n\n**Onset** 1 hour\n* * *\n\n**Stage 1** [[Conditions/Doomed|Doomed 1]] and can't remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed|Doomed 2]], hampered 10, and can't remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight"
 
   - name: "Kharnas's Blessing"
     desc: "`pf2:2`  The graveknight carves the sigil of Kharnas onto an adjacent [[Conditions/Immobilized|Immobilized]] or [[Conditions/Unconscious|Unconscious]] creature.\n\nAs long as the creature bears the sigil of Kharnas, it takes a -2 status penalty to saving throws against the abilities of any creature that previously served Kharnas, but it can also freely pass through any hazards that can be bypassed by those bearing the sigil of Kharnas, such as Kharnas's glyphs.\n\n[[Bestiary Effects/Effect_ Kharna's Blessing|Effect: Kharna's Blessing]]"

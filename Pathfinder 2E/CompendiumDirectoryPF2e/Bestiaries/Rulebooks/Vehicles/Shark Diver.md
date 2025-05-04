@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
 source: Pathfinder Lost Omens: The Grand Bazaar
 aliases: "Compendium.pf2e.vehicles.Actor.QMPVAWtaClZtD2Ip" 
@@ -19,7 +20,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: The Grand Bazaar"
 name: "Shark Diver"
 level: "Vehicle 11"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 
 size: "huge"
 modifier: 

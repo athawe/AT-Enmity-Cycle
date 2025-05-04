@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/shadow
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Caligni Assassin"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #194: Cult of the Cave Worm"
 name: "Caligni Assassin"
 level: "Creature 8"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "caligni"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "shadow"
+trait_01: [[caligni]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[shadow]]
 modifier: 14
 perception:
   - name: "Perception"

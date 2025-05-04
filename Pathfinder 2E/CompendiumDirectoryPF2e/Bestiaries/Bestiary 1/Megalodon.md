@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.vUKCuAgLQdz5akgp"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/aquatic
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Megalodon"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Megalodon"
 level: "Creature 9"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "grg"
-trait_01: "animal"
-trait_02: "aquatic"
+trait_01: [[animal]]
+trait_02: [[aquatic]]
 modifier: 20
 perception:
   - name: "Perception"
@@ -70,7 +71,7 @@ attacks:
     desc: "`pf2:1`  **Requirements** The megalodon hit with a jaws Strike on its most recent action this turn.\n* * *\n\n**Effect** The creature the megalodon hit takes 2d12 slashing damage."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Huge, 2d8 + 5 bludgeoning, Rupture 20\n\n* * *\n"
+    desc: "`pf2:1` (attack) Huge, 2d8+5 bludgeoning, Rupture 20\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Push|Push 15 feet]]"
     desc: "`pf2:1`  "

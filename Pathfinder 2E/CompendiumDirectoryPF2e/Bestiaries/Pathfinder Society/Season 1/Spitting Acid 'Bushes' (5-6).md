@@ -3,6 +3,7 @@ title: Spitting Acid 'Bushes' (5-6)
 obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #1-24: Lightning Strikes, Stars Fall
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.KorFY6YT3UBrzXOL" 
@@ -25,7 +26,7 @@ sourcebook: "_Pathfinder Society Scenario #1-24: Lightning Strikes, Stars Fall_"
 ac: 19
 armorclass:
   - name: AC
-    desc: "19; __Fort__ +12, __Ref__ +6, __Will__ +0"
+    desc: "19; __Fort__ +12, __Ref__ +6, "
 hp: 10
 health:
   - name: ""

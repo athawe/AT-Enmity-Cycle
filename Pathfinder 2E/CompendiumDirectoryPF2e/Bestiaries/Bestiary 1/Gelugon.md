@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Gelugon"
@@ -27,11 +28,11 @@ level: "Creature 13"
 
 alignment: ""
 size: "Large"
-trait_01: "devil"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "lawful"
-trait_05: "unholy"
+trait_01: [[devil]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[lawful]]
+trait_05: [[unholy]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -83,7 +84,7 @@ attacks:
     desc: "_[[Spells/Diabolic Pact|Infernal Pact]]_"
 
   - name: "Slowing Frost"
-    desc: " (cold,divine) The ice devil channels the extreme cold of its body through its appendages and weapons. A creature hit by an ice devil's weapon or unarmed attack in melee must attempt a DC 32 Fortitude check save or be [[Conditions/Slowed 1|Slowed 1]] for 1d4 rounds. A weapon used by an ice devil gains the effects of a _[[Equipment/Frost|Frost]]_ rune while the gelugon holds it, and the ice devil can throw any such weapon with a 20-foot range increment, trailing motes of frost."
+    desc: " (cold,divine) The ice devil channels the extreme cold of its body through its appendages and weapons. A creature hit by an ice devil's weapon or unarmed attack in melee must attempt a DC 32 Fortitude check save or be [[Conditions/Slowed|Slowed 1]] for 1d4 rounds. A weapon used by an ice devil gains the effects of a _[[Equipment/Frost|Frost]]_ rune while the gelugon holds it, and the ice devil can throw any such weapon with a 20-foot range increment, trailing motes of frost."
 
   - name: "Tactician of Cocytus"
     desc: "`pf2:1` (concentrate) An ice devil's logical mind devises genius tactics from its perfect memory. It can telepathically send a tactical repositioning to its allies, allowing all commanded or allied evil creatures in the range of its telepathy to immediately Stride (or Burrow, Climb, Fly, or Swim, if the creature has the corresponding Speed)."

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.B0pZAGooj735FGfw"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Tomb Raider"
@@ -24,8 +25,8 @@ level: "Creature 5"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +13, Architecture Lore: +11, Athletics: +13, Deception: +7, Engineering Lore: +11, Society: +9, Stealth: +11, Thievery: +13"
+    desc: "Acrobatics: +13, Athletics: +13, Deception: +7, Society: +9, Stealth: +11, Thievery: +13, Architecture Lore: +11, Engineering Lore: +11"
 abilityMods: [4, 4, 1, 2, 2, 0]
 speed: 25 feet,  climb 15 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

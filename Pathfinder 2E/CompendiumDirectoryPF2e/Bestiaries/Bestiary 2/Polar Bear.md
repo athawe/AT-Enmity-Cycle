@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.UqFObUjgFAlWrriA" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Polar Bear"
@@ -23,7 +24,7 @@ level: "Creature 5"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +14, Stealth: +10 (+14 in icy areas), Survival: +10"
+    desc: "Athletics: +14, Stealth: +10, Survival: +10"
 abilityMods: [5, 1, 5, -4, 1, -1]
 speed: 35 feet,  swim 15 feet
 sourcebook: "_Pathfinder Bestiary 2_"

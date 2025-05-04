@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/spirit
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Path Maiden"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #199: To Bloom Below the Web"
 name: "Path Maiden"
 level: "Creature 12"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "incorporeal"
-trait_04: "spirit"
-trait_05: "undead"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[incorporeal]]
+trait_04: [[spirit]]
+trait_05: [[undead]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Empyrean, Necril; Telepathy 100 feet"
 skills:
   - name: "Skills"
-    desc: "Deception: +22, Intimidation: +24, Occultism: +22, Pharasma Lore: +24, Religion: +22"
+    desc: "Deception: +22, Intimidation: +24, Occultism: +22, Religion: +22, Pharasma Lore: +24"
 abilityMods: [-5, 5, 0, 4, 4, 6]
 speed: 25 feet,  fly 25 feet
 sourcebook: "_Pathfinder #199: To Bloom Below the Web_"
@@ -56,7 +57,7 @@ abilities_top:
   - name: ""
 
   - name: "[[Creature Family Ability Glossary/(Path Maiden) Limited Flight|Limited Flight]]"
-    desc: "  A path maiden has a fly Speed equal to her Speed but can't fly higher than 10 feet above the ground, and if she ends her turn above a nonsolid surface, she vanishes and rematerializes on the last space she occupied over solid ground and becomes [[Conditions/Stunned 1|Stunned 1]]."
+    desc: "  A path maiden has a fly Speed equal to her Speed but can't fly higher than 10 feet above the ground, and if she ends her turn above a nonsolid surface, she vanishes and rematerializes on the last space she occupied over solid ground and becomes [[Conditions/Stunned|Stunned 1]]."
 
 abilities_mid:
   - name: ""

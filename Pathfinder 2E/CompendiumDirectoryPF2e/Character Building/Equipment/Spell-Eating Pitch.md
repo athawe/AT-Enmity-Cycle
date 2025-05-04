@@ -27,7 +27,7 @@ This gummy resin contains sparkling motes of magical energy that dramatically im
 
 * * *
 
-S**aving Throw** DC 31 Fortitude check
+**Saving Throw** DC 31 Fortitude check
 
 **Maximum Duration** 6 rounds
 

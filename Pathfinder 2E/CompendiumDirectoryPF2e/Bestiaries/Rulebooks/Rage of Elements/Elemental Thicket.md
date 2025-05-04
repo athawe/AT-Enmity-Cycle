@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/plant
   - pf2e/creature/type/wood
+  - pf2eMonster
   - pf2e/creature/level/11
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 11"
 
 alignment: ""
 size: "huge"
-trait_01: "elemental"
-trait_02: "plant"
-trait_03: "wood"
+trait_01: [[elemental]]
+trait_02: [[plant]]
+trait_03: [[wood]]
 modifier: 24
 perception:
   - name: "Perception"
@@ -61,7 +62,7 @@ attacks:
     desc: "`pf2:1` Gnarled Branch +24 (reach 20 feet)\n__Damage__  2d12 + 7 bludgeoning plus grab"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  1d12 + 7 bludgeoning, DC 30 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  1d12+7 bludgeoning, DC 30 Fortitude check\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Engulf|Engulf]]"
     desc: "`pf2:2`  DC 30 Reflex check, 8d10 bludgeoning damage, Escape DC 27, Rupture 20\n\n* * *\n"

@@ -6,6 +6,7 @@ tags:
   - magical
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #186: Ghost King&#x27;s Rage
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.9cYqx6JeqTC6UDIJ" 
@@ -23,15 +24,15 @@ name: "Button Mash"
 level: "Hazard 17"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 24
 sourcebook: "_Pathfinder #186: Ghost King's Rage_"
 ac: 40
 armorclass:
   - name: AC
-    desc: "40; __Fort__ +32, __Ref__ +26, __Will__ +0"
+    desc: "40; __Fort__ +32, __Ref__ +26, "
 hp: 110
 health:
   - name: ""
@@ -58,7 +59,7 @@ attacks:
     desc: "Comet +33 () "
 
   - name: "Routine"
-    desc: "(2 actions) Noph frantically pecks and stomps on the console, using each action to press a random sigil. Roll [[/gmr 1d6 #Pressed Sigil]] to determine which sigil Noph presses. Psychopomps are immune to the effects of these sigils.\n\n**1** The area is flooded with holy light, dealing 3d12 + 19 vitality damage to each creature in the area (DC 43 Reflex check).\n\n**2** The area is flooded with unholy darkness, dealing 3d12 + 19 void damage to each creature in the area (DC 43 Reflex check).\n\n**3** The area is flooded with blue flames, dealing 3d10 + 19 fire damage to each creature in the area (DC 43 Reflex check). On a critical failure, a creature additionally takes 1d10 persistent fire damage.\n\n**4** A comet streaks through the area, attacking the nearest creature to Noph with a comet Strike.\n\n**5** Force tethers sprout from the floor, grasping at intruders. Each creature in the area is [[Conditions/Immobilized|Immobilized]] for 1 round unless they succeed at a DC 43 Fortitude check save.\n\n**6** Ghostly blue mist surrounds each psychopomp in the area, healing them 3d8+19 HP and granting them [[Conditions/Concealed|Concealement]] for 1 round."
+    desc: "(2 actions) Noph frantically pecks and stomps on the console, using each action to press a random sigil. Roll [[/gmr 1d6 #Pressed Sigil]] to determine which sigil Noph presses. Psychopomps are immune to the effects of these sigils.\n\n**1** The area is flooded with holy light, dealing 3d12+19 vitality damage to each creature in the area (DC 43 Reflex check).\n\n**2** The area is flooded with unholy darkness, dealing 3d12+19 void damage to each creature in the area (DC 43 Reflex check).\n\n**3** The area is flooded with blue flames, dealing 3d10+19 fire damage to each creature in the area (DC 43 Reflex check). On a critical failure, a creature additionally takes 1d10 persistent fire damage.\n\n**4** A comet streaks through the area, attacking the nearest creature to Noph with a comet Strike.\n\n**5** Force tethers sprout from the floor, grasping at intruders. Each creature in the area is [[Conditions/Immobilized|Immobilized]] for 1 round unless they succeed at a DC 43 Fortitude check save.\n\n**6** Ghostly blue mist surrounds each psychopomp in the area, healing them 3d8+19 HP and granting them [[Conditions/Concealed|Concealement]] for 1 round."
 
 ```
 

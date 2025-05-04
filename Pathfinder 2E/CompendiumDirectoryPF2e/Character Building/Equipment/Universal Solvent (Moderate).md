@@ -21,7 +21,7 @@ license: OGL
 
 **Activate** `pf2:1` Interact
 
-Originally formulated as a means of dissolving [[Equipment/Sovereign Glue|Soverign Glue]], this powerful solvent can break almost any adhesive's grip. As universal solvent is particularly effective against sovereign glue, it automatically dissolves sovereign glue. It attempts to counteract any other adhesives, such as [[Equipment/Glue Bomb (Lesser)|Tanglefoot Bags]], with a counteract modifier of 1d20 + 9.
+Originally formulated as a means of dissolving [[Equipment/Sovereign Glue|Soverign Glue]], this powerful solvent can break almost any adhesive's grip. As universal solvent is particularly effective against sovereign glue, it automatically dissolves sovereign glue. It attempts to counteract any other adhesives, such as [[Equipment/Glue Bomb (Lesser)|Tanglefoot Bags]], with a counteract modifier of 1d20+9.
 
 *Source: Pathfinder Advanced Player's Guide*
 *OGL*

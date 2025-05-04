@@ -6,6 +6,7 @@ tags:
   - alchemical
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #159: All or Nothing
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.hzThZ50RRdfTYTKc" 
@@ -23,15 +24,15 @@ name: "Clockwork Poison Bomb"
 level: "Hazard 11"
 
 trait_06: "Complex"
-trait_01: "alchemical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[alchemical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 0
 sourcebook: "_Pathfinder #159: All or Nothing_"
 ac: 32
 armorclass:
   - name: AC
-    desc: "32; __Fort__ +24, __Ref__ +26, __Will__ +0"
+    desc: "32; __Fort__ +24, __Ref__ +26, "
 hp: 20
 health:
   - name: ""

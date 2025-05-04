@@ -5,6 +5,7 @@ noteType: pf2eMonster
 cssClasses: pf2e
 aliases: "Compendium.pf2e.npc-gallery.Actor.w4VJ6h4mysbpdoN4" 
 tags:
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Advisor"
@@ -29,7 +30,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Deception: +15, Diplomacy: +15, Legal Lore: +11, Occultism: +9, Performance: +11, Society: +11"
+    desc: "Deception: +15, Diplomacy: +15, Occultism: +9, Performance: +11, Society: +11, Legal Lore: +11"
 abilityMods: [0, 2, 2, 0, 4, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

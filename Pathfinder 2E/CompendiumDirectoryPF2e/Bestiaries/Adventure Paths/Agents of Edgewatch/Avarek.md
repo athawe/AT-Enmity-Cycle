@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Avarek"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #159: All or Nothing"
 name: "Avarek"
 level: "Creature 8"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "amphibious"
-trait_02: "evil"
-trait_03: "fey"
+trait_01: [[amphibious]]
+trait_02: [[evil]]
+trait_03: [[fey]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Sakvroth, Thalassic; speak with animals"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +17, Athletics: +14 (+16 to Climb), Deception: +17, Nature: +16, Sailing Lore: +15, Stealth: +19, Survival: +16, Thievery: +19"
+    desc: "Acrobatics: +17, Athletics: +14, Deception: +17, Nature: +16, Stealth: +19, Survival: +16, Thievery: +19, Sailing Lore: +15"
 abilityMods: [2, 5, 4, 3, 4, 3]
 speed: 20 feet,  climb 20 feet,  swim 50 feet
 sourcebook: "_Pathfinder #159: All or Nothing_"

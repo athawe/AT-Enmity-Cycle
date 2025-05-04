@@ -21,7 +21,7 @@ license: OGL
 
 This _+2 greater resilient breastplate_ is made from shining bronze overlaid with reinforcing golden panels in the shape of lion's heads. Wearing this breastplate grants you a commanding aura. You gain a +3 item bonus to Diplomacy checks, but you take a -3 item penalty to Stealth checks to [[Actions/Hide|Hide]] and [[Actions/Sneak|Sneak]] and Deception checks to [[Actions/Impersonate|Impersonate]].
 
-**Activate** `pf2:1`Command
+**Activate** `pf2:1` Command
 
 **Frequency** once per day
 

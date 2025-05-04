@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.abomination-vaults-bestiary.Actor.zsgW8hHm3JfZUgwF" 
 tags:
   - pf2e/creature/type/aberration
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Mulventok"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #164: Hands of the Devil"
 name: "Mulventok"
 level: "Creature 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
+trait_01: [[aberration]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Aklo, Daemonic, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Athletics: +17, Intimidation: +17, Purpose Lore: +15, Survival: +15"
+    desc: "Athletics: +17, Intimidation: +17, Survival: +15, Purpose Lore: +15"
 abilityMods: [6, 0, 4, 2, 4, 6]
 speed: 25 feet
 sourcebook: "_Pathfinder #164: Hands of the Devil_"

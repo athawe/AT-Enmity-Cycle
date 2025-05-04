@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.lost-omens-monsters-of-myth-bestiary.Actor.ns6fmJ8469h
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Mosquito Witch (The Hemoprophet)"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Monsters of Myth"
 name: "Mosquito Witch (The Hemoprophet)"
 level: "Creature 10"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "fey"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -58,10 +59,10 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Bloodbelly"
-    desc: "  The Mosquito Witch steals and stores stolen blood to power her divinations. Whenever she deals piercing damage, the Mosquito Witch can gain an equal number of Blood Points, to a maximum of 100 Blood Points. She becomes [[Conditions/Clumsy 1|Clumsy 1]] so long as she has at least 40 Blood Points stored, or [[Conditions/Clumsy 1|Clumsy 2]] if she has at least 80 Blood Points stored."
+    desc: "  The Mosquito Witch steals and stores stolen blood to power her divinations. Whenever she deals piercing damage, the Mosquito Witch can gain an equal number of Blood Points, to a maximum of 100 Blood Points. She becomes [[Conditions/Clumsy|Clumsy 1]] so long as she has at least 40 Blood Points stored, or [[Conditions/Clumsy|Clumsy 2]] if she has at least 80 Blood Points stored."
 
   - name: "Haunting Gaze"
-    desc: " (aura,emotion,fear,mental,visual) 30 feet. When a creature ends its turn in the emanation, it must attempt a DC 29 Will check save. If the creature fails, it becomes [[Conditions/Frightened 1|Frightened 1]]. If it's already frightened, its frightened value instead increases by 1 (maximum [[Conditions/Frightened 1|Frightened 3]]) and doesn't decrease by 1 at the end of the creature's next turn. If a creature's frightened value is 3 or higher before failing its save, the creature is also [[Conditions/Fleeing|Fleeing]] for 1 round."
+    desc: " (aura,emotion,fear,mental,visual) 30 feet. When a creature ends its turn in the emanation, it must attempt a DC 29 Will check save. If the creature fails, it becomes [[Conditions/Frightened|Frightened 1]]. If it's already frightened, its frightened value instead increases by 1 (maximum [[Conditions/Frightened|Frightened 3]]) and doesn't decrease by 1 at the end of the creature's next turn. If a creature's frightened value is 3 or higher before failing its save, the creature is also [[Conditions/Fleeing|Fleeing]] for 1 round."
 
 attacks:
   - name: ""

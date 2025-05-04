@@ -23,11 +23,11 @@ license: OGL
 
 
 
-You unleash a small, localized tremor in a 10-foot burst within 30 feet. Each creature in the area takes 1d8 + 0d10 bludgeoning damage with a Fortitude check save against your class DC. A creature that critically fails is knocked [[Conditions/Prone|Prone]]. Earth and stone in the area is difficult terrain until the start of your next turn.
+You unleash a small, localized tremor in a 10-foot burst within 30 feet. Each creature in the area takes 1d8 bludgeoning damage with a Fortitude check save against your class DC. A creature that critically fails is knocked [[Conditions/Prone|Prone]]. Earth and stone in the area is difficult terrain until the start of your next turn.
 
 * * *
 
-**Level (+2)** The damage increases by 1d10.
+**Level (+2)** The damage increases by 1d8.
 
 *Source: Pathfinder Rage of Elements*
 *OGL*

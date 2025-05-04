@@ -28,8 +28,7 @@ abilities_top:
   - name: "Traditions"
     desc: "arcane, divine, occult, primal"
   - name: "Range"
-    desc: "120 feet; **Area** 20-foot emanation
-; **Targets** 1 creature with the minion trait that you summoned or permanently control"
+    desc: "120 feet; **Area** 20-foot emanation; **Targets** 1 creature with the minion trait that you summoned or permanently control"
   - name: "Defense"
     desc: "basic reflex"
 abilities_mid:

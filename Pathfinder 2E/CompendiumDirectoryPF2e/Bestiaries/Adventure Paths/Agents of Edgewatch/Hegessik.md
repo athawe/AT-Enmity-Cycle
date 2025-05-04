@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/monitor
   - pf2e/creature/type/protean
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Hegessik"
@@ -25,9 +26,9 @@ level: "Creature 15"
 
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "monitor"
-trait_03: "protean"
+trait_01: [[chaotic]]
+trait_02: [[monitor]]
+trait_03: [[protean]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -81,10 +82,10 @@ attacks:
     desc: "`pf2:1` (concentrate,divine,polymorph) The hegessik takes the appearance of any Large or smaller creature. This doesn't change its Speed or its attack and damage bonuses with its Strikes, but might change the damage type its Strikes deal.\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  2d8 + 14 bludgeoning damage, DC 36 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  2d8+14 bludgeoning damage, DC 36 Fortitude check\n\n* * *\n"
 
   - name: "Leaching Glare"
-    desc: "`pf2:1` (divine) The hegessik briefly opens its third eye.\n\nNon-protean creatures in a 30-foot cone must succeed at a DC 38 Will check save or become [[Conditions/Stupefied 1|Stupefied 2]] for 1 round ([[Conditions/Stupefied 1|Stupefied 3]] on a critical failure)."
+    desc: "`pf2:1` (divine) The hegessik briefly opens its third eye.\n\nNon-protean creatures in a @Template[cone|distance:30] must succeed at a DC 38 Will check save or become [[Conditions/Stupefied|Stupefied 2]] for 1 round ([[Conditions/Stupefied|Stupefied 3]] on a critical failure)."
 
   - name: "Telekinetic Reach"
     desc: "`pf2:2` (divine,force) The hegessik manifests psychic versions of its natural attacks and makes a Strike with each of its jaws, claw, and tail, in any order. These Strikes have a reach of 60 feet.\n\nThese attacks count toward the hegessik's multiple attack penalty, but the penalty doesn't increase until after it makes all the attacks."

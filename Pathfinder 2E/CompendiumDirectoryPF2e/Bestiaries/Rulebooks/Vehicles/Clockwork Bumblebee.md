@@ -5,6 +5,7 @@ noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
   - clockwork
+  - pf2eVehicle
 
 source: Pathfinder Lost Omens: The Grand Bazaar
 aliases: "Compendium.pf2e.vehicles.Actor.cmLOaqR3qebmLA1P" 
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: The Grand Bazaar"
 name: "Clockwork Bumblebee"
 level: "Vehicle 9"
-rare_03: "Rare"
+rare_03: [[Rare]]
 
 size: "Large"
-trait_01: "clockwork"
+trait_01: [[clockwork]]
 modifier: 
 perception:
   - name: ""

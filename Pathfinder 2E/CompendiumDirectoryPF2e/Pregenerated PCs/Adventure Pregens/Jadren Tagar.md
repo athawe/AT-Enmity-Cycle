@@ -60,12 +60,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Jadren Tagar
-creatures:
-  - 1: Jadren Tagar
-```
-
 
 
 

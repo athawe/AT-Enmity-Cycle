@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - trap
+  - pf2eHazard
 
 source: Pathfinder Bounty #2: Blood of the Beautiful
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.Y2tEkaZK5j2NySJu" 
@@ -22,14 +23,14 @@ name: "Sinkhole"
 level: "Hazard 0"
 
 
-trait_01: "environmental"
-trait_02: "trap"
+trait_01: [[environmental]]
+trait_02: [[trap]]
 modifier: 8
 sourcebook: "_Pathfinder Bounty #2: Blood of the Beautiful_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 10
 health:
   - name: ""

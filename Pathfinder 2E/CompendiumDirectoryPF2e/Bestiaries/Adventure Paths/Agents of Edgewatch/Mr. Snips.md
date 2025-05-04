@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/golem
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Mr. Snips"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #161: Belly of the Black Whale"
 name: "Mr. Snips"
 level: "Creature 14"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "construct"
-trait_02: "golem"
-trait_03: "mindless"
+trait_01: [[construct]]
+trait_02: [[golem]]
+trait_03: [[mindless]]
 modifier: 23
 perception:
   - name: "Perception"
@@ -81,7 +82,7 @@ attacks:
     desc: "`pf2:1`  The iron golem Strides up to its Speed, pushing back each creature whose space it moves into and damaging them if they try to stop its movement. A creature can attempt to bar the way by succeeding at a DC 39 Fortitude check save. On a critical success, the resisting creature takes no damage; otherwise, it is damaged as if hit by the golem's fist."
 
   - name: "Iron Golem Poison"
-    desc: " (poison) Any [[Conditions/Drained 1|Drained]] value from this poison is reduced by 1 every hour.\n\n**Saving Throw** DC 35 Fortitude check\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 2d6 poison and [[Conditions/Drained 1|Drained 1]] (1 round)\n\n**Stage 2** 4d6 poison and [[Conditions/Drained 1|Drained 2]] (1 round)\n\n**Stage 3** 8d6 poison and [[Conditions/Drained 1|Drained 3]] (1 round)."
+    desc: " (poison) Any [[Conditions/Drained|Drained]] value from this poison is reduced by 1 every hour.\n\n**Saving Throw** DC 35 Fortitude check\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 2d6 poison and [[Conditions/Drained|Drained 1]] (1 round)\n\n**Stage 2** 4d6 poison and [[Conditions/Drained|Drained 2]] (1 round)\n\n**Stage 3** 8d6 poison and [[Conditions/Drained|Drained 3]] (1 round)."
  
 ```
 

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/shisk
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Liaskra (1-2)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-10: Arclord&#x27;s Abode"
 name: "Liaskra (1-2)"
 level: "Creature 1"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "changeling"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "shisk"
+trait_01: [[changeling]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[shisk]]
 modifier: 8
 perception:
   - name: "Perception"

@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #187: The Seventh Arch
 aliases: "Compendium.pf2e.gatewalkers-bestiary.Actor.wi3CaCYAyWcQy221" 
@@ -22,14 +23,14 @@ name: "Violet Mister"
 level: "Hazard 2"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 10
 sourcebook: "_Pathfinder #187: The Seventh Arch_"
 ac: 16
 armorclass:
   - name: AC
-    desc: "16; __Fort__ +10, __Ref__ +10, __Will__ +0"
+    desc: "16; __Fort__ +10, __Ref__ +10, "
 hp: 25
 health:
   - name: ""
@@ -54,7 +55,7 @@ attacks:
     desc: "`pf2:r` **Trigger** A creature attempts to open the door\n* * *\n\n**Effect** Every creature within 10 feet of the door is exposed to violet venom poison."
 
   - name: "Violet Venom"
-    desc: "passive (contact, poison) **Saving Throw** DC 17 Fortitude check;\n\n**Onset** 1 minute;\n\n**Maximum Duration** 6 rounds;\n\n**Stage 1** 1d6 poison plus [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round);\n\n**Stage 2** 1d6 poison plus [[Conditions/Drained 1|Drained 1]] (1 round);\n\n**Stage 3** 2d6 poison plus enfeebled 1 (1 round)"
+    desc: "passive (contact, poison) **Saving Throw** DC 17 Fortitude check;\n\n**Onset** 1 minute;\n\n**Maximum Duration** 6 rounds;\n\n**Stage 1** 1d6 poison plus [[Conditions/Enfeebled|Enfeebled 1]] (1 round);\n\n**Stage 2** 1d6 poison plus [[Conditions/Drained|Drained 1]] (1 round);\n\n**Stage 3** 2d6 poison plus enfeebled 1 (1 round)"
 
 
 

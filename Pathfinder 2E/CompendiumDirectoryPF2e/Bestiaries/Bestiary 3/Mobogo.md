@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Mobogo"
@@ -26,10 +27,10 @@ level: "Creature 10"
 
 alignment: ""
 size: "huge"
-trait_01: "amphibious"
-trait_02: "beast"
-trait_03: "chaotic"
-trait_04: "evil"
+trait_01: [[amphibious]]
+trait_02: [[beast]]
+trait_03: [[chaotic]]
+trait_04: [[evil]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Boggard; speak with animals"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +19, Athletics: +23, Nature: +21, Stealth: +19 (+21 in Swamps)"
+    desc: "Acrobatics: +19, Athletics: +23, Nature: +21, Stealth: +19"
 abilityMods: [7, 5, 6, -2, 5, 7]
 speed: 25 feet,  fly 20 feet,  swim 30 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -71,10 +72,10 @@ attacks:
     desc: "_[[Spells/Plant Growth|Plant Growth]]_"
 
   - name: "Song of the Swamp"
-    desc: "`pf2:1` (auditory,emotion,mental,primal) **Frequency** once per 10 minutes\n* * *\n\n**Effect** The mobogo unleashes a booming croak. All boggards and mobogos within 50 feet gain a +2 status bonus to damage rolls and saves against fear for 1 round. Other creatures in the area of effect must attempt a DC 27 Will check save.\n* * *\n\n**Success** The creature is unaffected and is temporarily immune for 24 hours.\n\n**Failure** The creature is [[Conditions/Slowed 1|Slowed 1]] for 1d4 rounds.\n\n**Critical Failure** The creature is [[Conditions/Slowed 1|Slowed 2]] for 1d4 rounds.\n\n[[Bestiary Effects/Effect_ Song of the Swamp|Effect: Song of the Swamp]]"
+    desc: "`pf2:1` (auditory,emotion,mental,primal) **Frequency** once per 10 minutes\n* * *\n\n**Effect** The mobogo unleashes a booming croak. All boggards and mobogos within 50 feet gain a +2 status bonus to damage rolls and saves against fear for 1 round. Other creatures in the area of effect must attempt a DC 27 Will check save.\n* * *\n\n**Success** The creature is unaffected and is temporarily immune for 24 hours.\n\n**Failure** The creature is [[Conditions/Slowed|Slowed 1]] for 1d4 rounds.\n\n**Critical Failure** The creature is [[Conditions/Slowed|Slowed 2]] for 1d4 rounds.\n\n[[Bestiary Effects/Effect_ Song of the Swamp|Effect: Song of the Swamp]]"
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Large, 2d12 + 6 bludgeoning, Rupture 19\n\n* * *\n"
+    desc: "`pf2:1` (attack) Large, 2d12+6 bludgeoning, Rupture 19\n\n* * *\n"
 
   - name: "Swamp Stride"
     desc: "  A mobogo ignores difficult terrain caused by swamp terrain features."

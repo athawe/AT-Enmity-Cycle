@@ -16,9 +16,7 @@ license: OGL
 
 
 
-A vestigial spur in your tail secretes one dose of deadly
-
-venom each day. You gain the [[Actions/Tail Toxin|Tail Toxin]] action.
+A vestigial spur in your tail secretes one dose of deadly venom each day. You gain the [[Actions/Tail Toxin|Tail Toxin]] action.
 
 *Source: Pathfinder Advanced Player's Guide*
 *OGL*

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Privateer Captain"
@@ -26,10 +27,10 @@ level: "Creature 11"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "good"
-trait_03: "human"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[good]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Thalassic"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +20, Athletics: +17, Deception: +21, Religion: +23, Sailing Lore: +19, Thievery: +22"
+    desc: "Acrobatics: +20, Athletics: +17, Deception: +21, Religion: +23, Thievery: +22, Sailing Lore: +19"
 abilityMods: [1, 4, 3, 0, 5, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder Lost Omens: Character Guide_"

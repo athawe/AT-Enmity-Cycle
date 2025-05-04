@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
 source: Pathfinder Guns &amp; Gears
 aliases: "Compendium.pf2e.vehicles.Actor.yXbxHtz3xVIMbxyh" 
@@ -19,7 +20,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Guns & Gears"
 name: "Mobile Inn"
 level: "Vehicle 8"
-rare_03: "Rare"
+rare_03: [[Rare]]
 
 size: "huge"
 modifier: 

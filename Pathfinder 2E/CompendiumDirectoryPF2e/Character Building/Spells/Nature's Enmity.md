@@ -26,8 +26,7 @@ abilities_top:
   - name: "Traditions"
     desc: "primal"
   - name: "Range"
-    desc: "120 feet; **Area** 500-foot burst
-; **Targets** up to 5 creatures"
+    desc: "120 feet; **Area** 500-foot burst; **Targets** up to 5 creatures"
   - name: "Duration"
     desc: "10 minutes"
 abilities_mid:

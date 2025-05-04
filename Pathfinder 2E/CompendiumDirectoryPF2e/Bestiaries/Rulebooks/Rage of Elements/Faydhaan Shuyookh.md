@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/genie
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/14
   - remaster
 statblock: inline
@@ -23,12 +24,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Rage of Elements"
 name: "Faydhaan Shuyookh"
 level: "Creature 14"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "elemental"
-trait_02: "genie"
-trait_03: "water"
+trait_01: [[elemental]]
+trait_02: [[genie]]
+trait_03: [[water]]
 modifier: 23
 perception:
   - name: "Perception"
@@ -36,7 +37,7 @@ perception:
 languages: "Common, Muan, Petran, Pyric, Sussuran, Talican, Thalassic; telepathy 100 feet, truespeech"
 skills:
   - name: "Skills"
-    desc: "Athletics: +27 (+31 to Swim), Crafting: +24, Deception: +26, Diplomacy: +28, Nature: +25, Performance: +28, Society: +26, Stealth: +27"
+    desc: "Athletics: +27, Crafting: +24, Deception: +26, Diplomacy: +28, Nature: +25, Performance: +28, Society: +26, Stealth: +27"
 abilityMods: [7, 7, 5, 4, 5, 8]
 speed: 25 feet,  swim 60 feet
 sourcebook: "_Pathfinder Rage of Elements_"
@@ -77,7 +78,7 @@ attacks:
     desc: "`pf2:1` Jambiya +29 (agile, magical, thrown 20 ft., versatile s)\n__Damage__  2d4 + 13 piercing"
 
   - name: "Arcane Innate Spells"
-    desc: "DC 34, attack +26; __7th __  _[[Spells/Hydraulic Torrent|Hydraulic Torrent]]_, _[[Compendium.pf2e.spells-srd.Item.nRINcQb81Wt4KeFu|Interplanar Teleport (At Will; To Astral Plane, Elemental Planes, or the Universe only)]]_, _[[Spells/Planar Palace|Magnificent Mansion]]_, _[[Spells/Summon Elemental|Summon Elemental]]_; __5th __  _[[Spells/Control Water|Control Water (At Will)]]_, _[[Spells/Howling Blizzard|Howling Blizzard (At Will)]]_, _[[Compendium.pf2e.spells-srd.Item.zgIlFMtzRkKfSay1|Mirage]]_, _[[Spells/Truespeech|Truespeech (At Will)]]_; __4th __  _[[Spells/Hydraulic Push|Hydraulic Push (At Will)]]_, _[[Spells/Invisibility|Invisibility (x2)]]_, _[[Spells/Vapor Form|Vapor Form]]_; __2nd __  _[[Spells/Befitting Attire|Befitting Attire (At Will)]]_, _[[Spells/Create Water|Create Water (At Will)]]_, _[[Spells/Invisibility|Invisibility (At Will)]]_, _[[Spells/See the Unseen|See the Unseen]]_, _[[Spells/Water Breathing|Water Breathing]]_\n__Cantrips__  __(7th)__ _[[Spells/Detect Magic|Detect Magic]]_\n__Constant__  __(7th)__ _[[Spells/Truespeech|Truespeech]]_"
+    desc: "DC 34, attack +26; __7th __  _[[Spells/Hydraulic Torrent|Hydraulic Torrent]]_, _[[Compendium.pf2e.spells-srd.Item.nRINcQb81Wt4KeFu|Interplanar Teleport (At Will; To Astral Plane, Elemental Planes, or the Universe only)]]_, _[[Spells/Planar Palace|Planar Palace]]_, _[[Spells/Summon Elemental|Summon Elemental]]_; __5th __  _[[Spells/Control Water|Control Water (At Will)]]_, _[[Spells/Howling Blizzard|Howling Blizzard (At Will)]]_, _[[Compendium.pf2e.spells-srd.Item.zgIlFMtzRkKfSay1|Mirage]]_, _[[Spells/Truespeech|Truespeech (At Will)]]_; __4th __  _[[Spells/Hydraulic Push|Hydraulic Push (At Will)]]_, _[[Spells/Invisibility|Invisibility (x2)]]_, _[[Spells/Vapor Form|Vapor Form]]_; __2nd __  _[[Spells/Befitting Attire|Befitting Attire (At Will)]]_, _[[Spells/Create Water|Create Water (At Will)]]_, _[[Spells/Invisibility|Invisibility (At Will)]]_, _[[Spells/See the Unseen|See the Unseen]]_, _[[Spells/Water Breathing|Water Breathing]]_\n__Cantrips__  __(7th)__ _[[Spells/Detect Magic|Detect Magic]]_\n__Constant__  __(7th)__ _[[Spells/Truespeech|Truespeech]]_"
 
   - name: "[[Bestiary Ability Glossary/Change Shape|Change Shape]]"
     desc: "`pf2:1` (arcane,concentrate,polymorph) * * *\n\nThe faydhaan transforms into a Small or Medium water elemental, aquatic animal, or humanoid. This doesn't affect the faydhaan's statistics, but it could change the damage type of their Strikes."

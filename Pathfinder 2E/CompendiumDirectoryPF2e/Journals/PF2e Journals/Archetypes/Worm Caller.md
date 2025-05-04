@@ -104,11 +104,11 @@ You call forth a ghostly manifestation of the worm spirit. Choose an intersectio
 
 **Critical Success** The target is unaffected.
 
-**Success** The target takes 1d10 + 13 bludgeoning damage as it is battered by the worm's body.
+**Success** The target takes 1d10+13 bludgeoning damage as it is battered by the worm's body.
 
-**Failure** The target takes 3d10 + 15 piercing damage as it is bitten by the worm. The target is [[Conditions/Immobilized|Immobilized]] until the end of its next turn.
+**Failure** The target takes 3d10+15 piercing damage as it is bitten by the worm. The target is [[Conditions/Immobilized|Immobilized]] until the end of its next turn.
 
-**Critical Failure** As failure, but the damage increases to 6d10 + 30 bludgeoning and the target is knocked [[Conditions/Prone|Prone]].
+**Critical Failure** As failure, but the damage increases to 6d10+30 bludgeoning and the target is knocked [[Conditions/Prone|Prone]].
 
 ## [[Feats/Tunnel|Tunnel]] Feat 2
 
@@ -160,15 +160,15 @@ You also gain specific abilities based on the type of monster you choose:
 
 **Melee** `pf2:1` jaws (deadly 2d10, reach 15 feet), **Damage** 3d10+15 piercing
 
-**Melee**`pf2:1` stinger (agile, poison, reach 15 feet), **Damage** 2d12+15 piercing plus 2d6 persistent poison
+**Melee** `pf2:1` stinger (agile, poison, reach 15 feet), **Damage** 2d12+15 piercing plus 2d6 persistent poison
 
-**Melee**`pf2:1` body (reach 15 feet) **Damage** 1d10+13 bludgeoning
+**Melee** `pf2:1` body (reach 15 feet) **Damage** 1d10+13 bludgeoning
 
 **Hybrid** Speed 40 feet
 
-**Melee**`pf2:1` stinger (agile, poison, reach 10 feet), **Damage** 2d12+15 piercing plus 1d6 persistent poison
+**Melee** `pf2:1` stinger (agile, poison, reach 10 feet), **Damage** 2d12+15 piercing plus 1d6 persistent poison
 
-**Melee**`pf2:1` body (reach 10 feet), **Damage** 1d10+13 bludgeoning
+**Melee** `pf2:1` body (reach 10 feet), **Damage** 1d10+13 bludgeoning
 
 **Hybrid Caster** You retain the ability to speak, and can cast spells as long as they don't have somatic or material components.
 

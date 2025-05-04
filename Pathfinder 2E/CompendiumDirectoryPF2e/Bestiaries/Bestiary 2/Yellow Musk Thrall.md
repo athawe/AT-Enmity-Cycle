@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.0rhltfBkQtYkCwXd"
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Yellow Musk Thrall"
@@ -24,8 +25,8 @@ level: "Creature -1"
 
 alignment: ""
 size: "Medium"
-trait_01: "mindless"
-trait_02: "plant"
+trait_01: [[mindless]]
+trait_02: [[plant]]
 modifier: 0
 perception:
   - name: "Perception"
@@ -50,7 +51,7 @@ abilities_top:
   - name: ""
 
   - name: "Slow"
-    desc: "  A yellow musk thrall is permanently [[Conditions/Slowed 1|Slowed 1]] and can't use reactions."
+    desc: "  A yellow musk thrall is permanently [[Conditions/Slowed|Slowed 1]] and can't use reactions."
 
 abilities_mid:
   - name: ""

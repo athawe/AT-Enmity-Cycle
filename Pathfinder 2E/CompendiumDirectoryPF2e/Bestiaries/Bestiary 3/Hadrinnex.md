@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.OTEJFZ03NDqtrhcj"
 tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Hadrinnex"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Hadrinnex"
 level: "Creature 8"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "evil"
+trait_01: [[aberration]]
+trait_02: [[evil]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -67,7 +68,7 @@ attacks:
     desc: "`pf2:2`  The hadrinnex makes two weapon arm Strikes, each targeting a different creature. The hadrinnex's reach increases to 20 feet for these Strikes."
 
   - name: "Vent Energy"
-    desc: "`pf2:1` (occult) The hadrinnex purges the energy in its energy gland for an external discharge.\n\nIt either blasts the energy to deal 7d6 damage to creatures in a 30-foot cone (DC 26 Reflex check save), or directs the energy to its weapon arms, making its weapon arm Strikes deal an extra 2d6 energy damage for 1 minute.\n\nEither one expends the damage type stored in the hadrinnex's energy gland, as described below.\n\nAfter the energy is vented, the energy gland goes dormant. The hadrinnex loses its energy resistance and can't use energy ray until it uses Rapid Evolution to reconfigure its energy gland again. Directing energy to its weapon arms again removes any previous energy boost to its weapon arm.\n\n[[Bestiary Effects/Effect_ Vent Energy|Effect: Vent Energy]]"
+    desc: "`pf2:1` (occult) The hadrinnex purges the energy in its energy gland for an external discharge.\n\nIt either blasts the energy to deal 7d6 damage to creatures in a @Template[cone|distance:30] (DC 26 Reflex check save), or directs the energy to its weapon arms, making its weapon arm Strikes deal an extra 2d6 energy damage for 1 minute.\n\nEither one expends the damage type stored in the hadrinnex's energy gland, as described below.\n\nAfter the energy is vented, the energy gland goes dormant. The hadrinnex loses its energy resistance and can't use energy ray until it uses Rapid Evolution to reconfigure its energy gland again. Directing energy to its weapon arms again removes any previous energy boost to its weapon arm.\n\n[[Bestiary Effects/Effect_ Vent Energy|Effect: Vent Energy]]"
  
 ```
 

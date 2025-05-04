@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.NVWaLagWOu5tCCZu"
 tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Sod Hound"
@@ -24,8 +25,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Small"
-trait_01: "earth"
-trait_02: "elemental"
+trait_01: [[earth]]
+trait_02: [[elemental]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +11, Survival: +9 (+11 to Track)"
+    desc: "Athletics: +11, Survival: +9"
 abilityMods: [4, -1, 3, -4, 2, -1]
 speed: 30 feet,  burrow 20 feet
 sourcebook: "_Pathfinder Bestiary_"

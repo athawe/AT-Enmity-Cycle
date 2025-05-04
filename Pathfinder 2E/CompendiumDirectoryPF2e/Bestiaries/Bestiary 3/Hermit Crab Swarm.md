@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/animal
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Hermit Crab Swarm"
@@ -25,9 +26,9 @@ level: "Creature 4"
 
 alignment: ""
 size: "Large"
-trait_01: "amphibious"
-trait_02: "animal"
-trait_03: "swarm"
+trait_01: [[amphibious]]
+trait_02: [[animal]]
+trait_03: [[swarm]]
 modifier: 11
 perception:
   - name: "Perception"

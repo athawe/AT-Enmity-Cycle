@@ -5,13 +5,13 @@
       "blocks": [
         {
           "type": "inline",
-          "id": "1929183baa1a",
+          "id": "ea299b88b8ea",
           "properties": [],
           "hasRule": true,
           "nested": [
             {
               "type": "group",
-              "id": "093b49ca1a99",
+              "id": "89490a491888",
               "properties": [
                 "name",
                 "size",
@@ -22,13 +22,13 @@
               "nested": [
                 {
                   "type": "inline",
-                  "id": "9beaf9a98a08",
+                  "id": "e89b7989fbf9",
                   "properties": [],
                   "hasRule": false,
                   "nested": [
                     {
                       "type": "heading",
-                      "id": "78f8c8aae958",
+                      "id": "6829db2beb0a",
                       "properties": [
                         "name"
                       ],
@@ -37,19 +37,19 @@
                     },
                     {
                       "type": "inline",
-                      "id": "a888fbdac96b",
+                      "id": "eafaa94a2879",
                       "properties": [],
                       "hasRule": false,
                       "nested": [
                         {
                           "type": "action",
-                          "id": "8beb6bbbfbcb",
+                          "id": "3a89fbb8c958",
                           "icon": "sword",
                           "callback": "try { InitiativeTracker.newEncounter({roll: true, creatures: [monster]}); } catch(e) {}"
                         },
                         {
                           "type": "action",
-                          "id": "3a7babb8b9c8",
+                          "id": "ca9ada3af81a",
                           "icon": "plus-with-circle",
                           "callback": "try { InitiativeTracker.addCreatures([monster]); } catch(e) {}"
                         }
@@ -59,7 +59,7 @@
                 },
                 {
                   "type": "subheading",
-                  "id": "38688ab8fb9b",
+                  "id": "cb9938496abb",
                   "properties": [
                     "size",
                     "type",
@@ -74,7 +74,7 @@
             },
             {
               "type": "image",
-              "id": "c9695bda5958",
+              "id": "4b8a390a7a29",
               "properties": [
                 "image"
               ]
@@ -83,7 +83,7 @@
         },
         {
           "type": "group",
-          "id": "18ab29ba79da",
+          "id": "8a7ad80a881b",
           "properties": [
             "ac",
             "hp",
@@ -92,7 +92,7 @@
           "nested": [
             {
               "type": "property",
-              "id": "3a8bc9d9abba",
+              "id": "6aa8d9caeba9",
               "properties": [
                 "ac"
               ],
@@ -102,7 +102,7 @@
             },
             {
               "type": "property",
-              "id": "4a1919a9690a",
+              "id": "187949ca0aaa",
               "properties": [
                 "hp"
               ],
@@ -115,7 +115,7 @@
             },
             {
               "type": "property",
-              "id": "38483b88caab",
+              "id": "891a3808ea0b",
               "display": "Speed",
               "properties": [
                 "speed"
@@ -128,7 +128,7 @@
         },
         {
           "type": "table",
-          "id": "197a4a896b89",
+          "id": "cb99197838bb",
           "properties": [
             "stats"
           ],
@@ -146,7 +146,7 @@
         },
         {
           "type": "table",
-          "id": "d998db183978",
+          "id": "295bb8881a5a",
           "properties": [
             "fage_stats"
           ],
@@ -167,7 +167,7 @@
         },
         {
           "type": "group",
-          "id": "a8ea59894a1a",
+          "id": "9a4bb8dae99b",
           "properties": [
             "saves",
             "skillsaves",
@@ -182,7 +182,7 @@
           "nested": [
             {
               "type": "saves",
-              "id": "fb4be86aeb08",
+              "id": "296afb29a868",
               "display": "Saves",
               "properties": [
                 "saves"
@@ -191,7 +191,7 @@
             },
             {
               "type": "saves",
-              "id": "9afaaa39ea6a",
+              "id": "098a18cbda78",
               "display": "Skills",
               "properties": [
                 "skillsaves"
@@ -200,7 +200,7 @@
             },
             {
               "type": "property",
-              "id": "592a596bba7b",
+              "id": "ca0b3a88fb58",
               "display": "Damage Resistances",
               "properties": [
                 "damage_resistances"
@@ -209,7 +209,7 @@
             },
             {
               "type": "property",
-              "id": "ca1bdaaa7a49",
+              "id": "d868db380b28",
               "display": "Damage Immunities",
               "properties": [
                 "damage_immunities"
@@ -218,7 +218,7 @@
             },
             {
               "type": "property",
-              "id": "c949885acb09",
+              "id": "bb9acb1ac83b",
               "display": "Condition Immunities",
               "properties": [
                 "condition_immunities"
@@ -227,7 +227,7 @@
             },
             {
               "type": "property",
-              "id": "0be95aeaf828",
+              "id": "cb6b99f81b68",
               "display": "Damage Vulnerabilities",
               "properties": [
                 "damage_vulnerabilities"
@@ -236,7 +236,7 @@
             },
             {
               "type": "property",
-              "id": "18eb8ad83be9",
+              "id": "cb0b2998d868",
               "display": "Senses",
               "properties": [
                 "senses"
@@ -245,7 +245,7 @@
             },
             {
               "type": "property",
-              "id": "db8b98293b68",
+              "id": "8adb598b396b",
               "display": "Languages",
               "properties": [
                 "languages"
@@ -254,13 +254,13 @@
             },
             {
               "type": "inline",
-              "id": "f89a5a4b4aa9",
+              "id": "8a6bf96abad9",
               "properties": [],
               "conditioned": true,
               "nested": [
                 {
                   "type": "property",
-                  "id": "a8c8595b7ad8",
+                  "id": "db79a9eb9bfb",
                   "display": "Challenge",
                   "properties": [
                     "cr"
@@ -269,7 +269,7 @@
                 },
                 {
                   "type": "property",
-                  "id": "485b68a81b7b",
+                  "id": "69e959588bc8",
                   "display": "Proficiency Bonus",
                   "properties": [
                     "cr"
@@ -284,7 +284,7 @@
         },
         {
           "type": "traits",
-          "id": "5a6bc90889fa",
+          "id": "392b1968f918",
           "properties": [
             "traits"
           ],
@@ -293,7 +293,7 @@
         },
         {
           "type": "spells",
-          "id": "28bbe82ada2a",
+          "id": "da58b8190bba",
           "properties": [
             "spells"
           ],
@@ -302,7 +302,7 @@
         },
         {
           "type": "text",
-          "id": "5a890bab7998",
+          "id": "f83aab696969",
           "properties": [
             "spellsNotes"
           ],
@@ -311,7 +311,7 @@
         },
         {
           "type": "traits",
-          "id": "0bebc9484998",
+          "id": "9afb5ad8c8d8",
           "properties": [
             "actions"
           ],
@@ -321,7 +321,7 @@
         },
         {
           "type": "traits",
-          "id": "db88484aa81a",
+          "id": "1a08b84aeb18",
           "properties": [
             "bonus_actions"
           ],
@@ -331,7 +331,7 @@
         },
         {
           "type": "group",
-          "id": "fbebb82afa59",
+          "id": "aadabb3a5b18",
           "properties": [
             "legendary_description",
             "legendary_actions"
@@ -340,7 +340,7 @@
           "nested": [
             {
               "type": "text",
-              "id": "fa6abaf9bbb8",
+              "id": "6a79497b09ab",
               "properties": [
                 "legendary_description"
               ],
@@ -349,7 +349,7 @@
             },
             {
               "type": "traits",
-              "id": "3ab9e97a0b18",
+              "id": "8909a929ca3b",
               "properties": [
                 "legendary_actions"
               ],
@@ -361,7 +361,7 @@
         },
         {
           "type": "group",
-          "id": "18096b2be809",
+          "id": "2a0aa82938db",
           "properties": [
             "mythic_description",
             "mythic_actions"
@@ -370,7 +370,7 @@
           "nested": [
             {
               "type": "text",
-              "id": "688959bac858",
+              "id": "e96b78f8a9aa",
               "properties": [
                 "mythic_description"
               ],
@@ -379,7 +379,7 @@
             },
             {
               "type": "traits",
-              "id": "2b29e85a496a",
+              "id": "2ad958d859d8",
               "properties": [
                 "mythic_actions"
               ],
@@ -391,7 +391,7 @@
         },
         {
           "type": "traits",
-          "id": "c8396a3808c8",
+          "id": "29bb6a7958ba",
           "properties": [
             "reactions"
           ],
@@ -401,7 +401,7 @@
         },
         {
           "type": "traits",
-          "id": "386ae9eac89a",
+          "id": "d87bd8088aa8",
           "properties": [
             "lair_actions"
           ],
@@ -411,7 +411,7 @@
         },
         {
           "type": "traits",
-          "id": "7849184b5b7a",
+          "id": "29bbcbc9f9e8",
           "properties": [
             "regional_effects"
           ],
@@ -1209,7 +1209,7 @@
     "patch": 0
   },
   "paths": [
-    "/"
+    "CompendiumDirectoryPF2e/Bestiaries"
   ],
   "autoParse": true,
   "disableSRD": true,

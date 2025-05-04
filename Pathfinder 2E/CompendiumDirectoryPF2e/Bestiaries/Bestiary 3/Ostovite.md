@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Ostovite"
@@ -26,10 +27,10 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[unholy]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Chthonian"
 skills:
   - name: "Skills"
-    desc: "Crafting: +4 (+6 when using bone), Stealth: +7"
+    desc: "Crafting: +4, Stealth: +7"
 abilityMods: [0, 4, 3, -4, 1, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"

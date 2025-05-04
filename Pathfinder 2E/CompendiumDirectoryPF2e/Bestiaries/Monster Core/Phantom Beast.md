@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/phantom
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/8
   - remaster
 statblock: inline
@@ -24,13 +25,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Monster Core"
 name: "Phantom Beast"
 level: "Creature 8"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "ethereal"
-trait_02: "incorporeal"
-trait_03: "phantom"
-trait_04: "spirit"
+trait_01: [[ethereal]]
+trait_02: [[incorporeal]]
+trait_03: [[phantom]]
+trait_04: [[spirit]]
 modifier: 18
 perception:
   - name: "Perception"

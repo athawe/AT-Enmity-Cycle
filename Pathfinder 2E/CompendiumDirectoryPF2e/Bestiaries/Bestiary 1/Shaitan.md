@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/genie
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Shaitan"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Shaitan"
 level: "Creature 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "earth"
-trait_02: "elemental"
-trait_03: "genie"
-trait_04: "lawful"
+trait_01: [[earth]]
+trait_02: [[elemental]]
+trait_03: [[genie]]
+trait_04: [[lawful]]
 modifier: 15
 perception:
   - name: "Perception"

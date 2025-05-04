@@ -37,10 +37,13 @@ abilities_top:
     desc: "arcane, divine, occult, primal"
   - name: "Cast"
     desc: "10 minutes"
+
+  - name: "Defense"
+    desc: " will"
   - name: "Duration"
     desc: "24 hours"
 abilities_mid:
   - name: ""
-    desc: "This spell wards against those who attempt to subvert your mind and turns mental magic back on them. When the spell is complete, you gain the [[Actions/Fight with Fear|Fight with Fear]] reaction; once you use the reaction, the spell ends.\n\nWill check"
+    desc: "This spell wards against those who attempt to subvert your mind and turns mental magic back on them. When the spell is complete, you gain the [[Actions/Fight with Fear|Fight with Fear]] reaction; once you use the reaction, the spell ends.\n\n[[Spell Effects/Spell Effect_ Mind of Menace|Spell Effect: Mind of Menace]]"
 sourcebook: "_Pathfinder Secrets of Magic_"
 ```

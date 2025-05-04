@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #159: All or Nothing
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.rAUaIxp3QFgT3bzl" 
@@ -22,14 +23,14 @@ name: "Needling Stairs"
 level: "Hazard 11"
 
 trait_06: "Complex"
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 20
 sourcebook: "_Pathfinder #159: All or Nothing_"
 ac: 28
 armorclass:
   - name: AC
-    desc: "28; __Fort__ +22, __Ref__ +19, __Will__ +0"
+    desc: "28; __Fort__ +22, __Ref__ +19, "
 hp: 25
 health:
   - name: ""

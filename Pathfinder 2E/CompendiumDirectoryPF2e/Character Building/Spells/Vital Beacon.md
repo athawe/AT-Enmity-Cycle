@@ -34,6 +34,7 @@ abilities_top:
     desc: "divine, primal"
   - name: "Cast"
     desc: "1 minute"
+
   - name: "Duration"
     desc: "until your next daily preparations"
 abilities_mid:

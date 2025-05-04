@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Kellid Graveknight"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Kellid Graveknight"
 level: "Creature 14"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 27
 perception:
   - name: "Perception"
@@ -76,10 +77,10 @@ attacks:
     desc: "`pf2:1` Dagger +27 (agile, magical, thrown 10 ft., versatile s)\n__Damage__  1d4 + 14 piercing 1d6 cold"
 
   - name: "[[Creature Family Ability Glossary/(Graveknight) Devastating Blast|Devastating Blast]]"
-    desc: "`pf2:2` (arcane,cold) The graveknight unleashes a 30-foot cone of energy. Creatures in the area take 8d12 cold damage (DC 34 Reflex check save). The graveknight can use this ability once every 1d4 rounds."
+    desc: "`pf2:2` (arcane,cold) The graveknight unleashes a @Template[cone|distance:30] of energy. Creatures in the area take 8d12 cold damage (DC 34 Reflex check save). The graveknight can use this ability once every 1d4 rounds."
 
   - name: "[[Creature Family Ability Glossary/(Graveknight) Graveknight's Curse|Graveknight's Curse]]"
-    desc: " (arcane,curse) This curse affects anyone who wears a graveknight's armor for at least 1 hour.\n\n**Saving Throw** DC 34 Will check save\n* * *\n\n**Onset** 1 hour\n\n**Stage 1** [[Conditions/Doomed 1|Doomed 1]] and cannot remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed 1|Doomed 2]], the creature's Speed is reduced by 10, and cannot remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight.\n\n[[Bestiary Effects/Effect_ Graveknight's Curse|Effect: Graveknight's Curse]]"
+    desc: " (arcane,curse) This curse affects anyone who wears a graveknight's armor for at least 1 hour.\n\n**Saving Throw** DC 34 Will check save\n* * *\n\n**Onset** 1 hour\n\n**Stage 1** [[Conditions/Doomed|Doomed 1]] and cannot remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed|Doomed 2]], the creature's Speed is reduced by 10, and cannot remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight.\n\n[[Bestiary Effects/Effect_ Graveknight's Curse|Effect: Graveknight's Curse]]"
 
   - name: "Repulsing Blow"
     desc: "`pf2:1` (arcane,incapacitation,mental) **Requirements** The graveknight's last action was a success with a Strike using a shove weapon.\n* * *\n\n**Effect** The target struck by the shove weapon is knocked back 10 feet and must succeed at a DC 33 Will check save or be unable to approach within 5 feet of the graveknight for 1 round. If the last action was a critical hit, the target automatically fails the Will save."

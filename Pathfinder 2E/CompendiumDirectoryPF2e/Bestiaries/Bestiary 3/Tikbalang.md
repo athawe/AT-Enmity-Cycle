@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.HObVT8aJnsx5nnqu"
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/chaotic
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Tikbalang"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Tikbalang"
 level: "Creature 9"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "chaotic"
+trait_01: [[beast]]
+trait_02: [[chaotic]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Fey"
 skills:
   - name: "Skills"
-    desc: "Athletics: +20 (+22 to Grapple), Deception: +21, Nature: +14, Stealth: +17, Survival: +16"
+    desc: "Athletics: +20, Deception: +21, Nature: +14, Stealth: +17, Survival: +16"
 abilityMods: [5, 4, 4, -1, 3, 6]
 speed: 30 feet
 sourcebook: "_Pathfinder Bestiary 3_"

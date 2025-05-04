@@ -25,7 +25,9 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, primal"
-**Area** 60-foot cone
+
+  - name: "Area"
+    desc: "60-foot cone"
   - name: "Defense"
     desc: " reflex"
 abilities_mid:

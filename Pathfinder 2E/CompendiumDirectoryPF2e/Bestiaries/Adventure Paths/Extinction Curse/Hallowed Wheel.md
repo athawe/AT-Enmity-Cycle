@@ -6,6 +6,7 @@ tags:
   - magical
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #152: Legacy of the Lost God
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.4Abc5gg8ac5ixGx1" 
@@ -23,15 +24,15 @@ name: "Hallowed Wheel"
 level: "Hazard 10"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 19
 sourcebook: "_Pathfinder #152: Legacy of the Lost God_"
 ac: 30
 armorclass:
   - name: AC
-    desc: "30; __Fort__ +21, __Ref__ +15, __Will__ +0"
+    desc: "30; __Fort__ +21, __Ref__ +15, "
 hp: 80
 health:
   - name: ""

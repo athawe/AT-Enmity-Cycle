@@ -28,8 +28,7 @@ abilities_top:
   - name: "Traditions"
     desc: "divine, occult, primal"
   - name: "Range"
-    desc: "120 feet; **Area** 10-foot burst
-"
+    desc: "120 feet; **Area** 10-foot burst"
   - name: "Duration"
     desc: "5 minutes"
 abilities_mid:

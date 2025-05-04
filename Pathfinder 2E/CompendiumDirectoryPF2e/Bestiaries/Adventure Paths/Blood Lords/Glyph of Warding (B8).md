@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #184: The Ghouls Hunger
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.mZUwni8Hhv27vj4s" 
@@ -22,8 +23,8 @@ name: "Glyph of Warding (B8)"
 level: "Hazard 13"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 23
 sourcebook: "_Pathfinder #184: The Ghouls Hunger_"
 perception:

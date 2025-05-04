@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/grippli
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Grippli Skirmisher"
@@ -25,9 +26,9 @@ level: "Creature 4"
 
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "grippli"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[grippli]]
+trait_03: [[humanoid]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -70,7 +71,7 @@ attacks:
     desc: "`pf2:1` Composite Shortbow +14 (deadly d10, propulsive, range increment 60 feet, reload 0)\n__Damage__  1d6 + 3 piercing plus baneback-poison"
 
   - name: "Baneback Poison"
-    desc: " (poison) **Saving Throw** DC 21 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d4 poison damage and [[Conditions/Stupefied 1|Stupefied 1]] (1 round)\n\n**Stage 2** 2d4 poison damage and [[Conditions/Stupefied 1|Stupefied 2]] (1 round)\n\n**Stage 3** 2d4 poison damage, [[Conditions/Stupefied 1|Stupefied 3]], and [[Conditions/Off-Guard|Off-Guard]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 21 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d4 poison damage and [[Conditions/Stupefied|Stupefied 1]] (1 round)\n\n**Stage 2** 2d4 poison damage and [[Conditions/Stupefied|Stupefied 2]] (1 round)\n\n**Stage 3** 2d4 poison damage, [[Conditions/Stupefied|Stupefied 3]], and [[Conditions/Off-Guard|Off-Guard]] (1 round)"
 
   - name: "Jungle Stride"
     desc: "  Gripplis ignore difficult terrain in forests and jungles."

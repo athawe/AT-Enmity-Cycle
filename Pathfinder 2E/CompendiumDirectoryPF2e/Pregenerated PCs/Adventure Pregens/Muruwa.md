@@ -57,12 +57,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Muruwa
-creatures:
-  - 1: Muruwa
-```
-
 
 
 

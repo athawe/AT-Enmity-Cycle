@@ -34,8 +34,10 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "divine, occult"
-**Area** 40-foot burst
-**Targets** any number of creatures  - name: "Defense"
+
+  - name: "Area"
+    desc: "40-foot burstany number of creatures"
+  - name: "Defense"
     desc: " will"
   - name: "Duration"
     desc: "until full tribute is paid"

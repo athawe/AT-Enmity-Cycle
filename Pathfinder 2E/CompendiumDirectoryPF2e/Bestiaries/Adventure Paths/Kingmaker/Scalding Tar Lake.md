@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder Kingmaker
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.GviFe34FuTpo8AT0" 
@@ -21,7 +22,7 @@ name: "Scalding Tar Lake"
 level: "Hazard 9"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: -10
 sourcebook: "_Pathfinder Kingmaker_"
 perception:

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/clockwork
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Possessed Clockwork Vessel"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-06: Signal from the Electric Laboratory"
 name: "Possessed Clockwork Vessel"
 level: "Creature 10"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "clockwork"
-trait_02: "construct"
-trait_03: "mindless"
+trait_01: [[clockwork]]
+trait_02: [[construct]]
+trait_03: [[mindless]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +22 (+24 to Disarm, Grappe, or avoid being Disarmed)"
+    desc: "Athletics: +22"
 abilityMods: [6, 3, 5, -5, 5, -5]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #4-06: Signal from the Electric Laboratory_"
@@ -73,7 +74,7 @@ attacks:
     desc: "`pf2:1`  One of the soldier's external plates extends on a mechanical actuator to defend the soldier or an adjacent creature of the soldier's choice.\n\nThe creature gains a +2 circumstance bonus to AC until the start of the soldier's next turn, or until it is no longer adjacent to the soldier, whichever comes first. The soldier can have no more than one plate extended at a time.\n\n[[Bestiary Effects/Effect_ Activate Defenses|Effect: Activate Defenses]]"
 
   - name: "Etheric Discharge"
-    desc: "`pf2:2` (divine) The controlled clockwork vessel releases arcs of void energy from the essence-gatherer on its back. Creatures within a 10-foot emanation take 11d6 void damage (DC 26 Fortitude check). The vessel can't use Etheric Discharge for 1d4 rounds."
+    desc: "`pf2:2` (divine) The controlled clockwork vessel releases arcs of void energy from the essence-gatherer on its back. Creatures within a @Template[emanation|distance:10] take 11d6 void damage (DC 26 Fortitude check). The vessel can't use Etheric Discharge for 1d4 rounds."
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

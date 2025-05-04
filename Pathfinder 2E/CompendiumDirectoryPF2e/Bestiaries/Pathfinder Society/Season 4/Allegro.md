@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #4-14: Shattering Golden Chains
 aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.zbohP3l19fvkAypi" 
@@ -22,14 +23,14 @@ name: "Allegro"
 level: "Hazard 7"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 18
 sourcebook: "_Pathfinder Society Scenario #4-14: Shattering Golden Chains_"
 ac: 27
 armorclass:
   - name: AC
-    desc: "27; __Fort__ +12, __Ref__ +19, __Will__ +0"
+    desc: "27; __Fort__ +12, __Ref__ +19, "
 hp: 60
 health:
   - name: ""

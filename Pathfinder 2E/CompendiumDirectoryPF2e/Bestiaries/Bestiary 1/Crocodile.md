@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.vJwnApm0HkadGR7w" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Crocodile"
@@ -23,7 +24,7 @@ level: "Creature 2"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +8, Stealth: +7 (+11 in water)"
+    desc: "Athletics: +8, Stealth: +7"
 abilityMods: [4, 1, 3, -5, 1, -4]
 speed: 20 feet,  swim 25 feet
 sourcebook: "_Pathfinder Bestiary_"

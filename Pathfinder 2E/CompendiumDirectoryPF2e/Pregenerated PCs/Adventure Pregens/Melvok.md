@@ -66,12 +66,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Melvok
-creatures:
-  - 1: Melvok
-```
-
 
 
 

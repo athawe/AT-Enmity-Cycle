@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/swarm
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Hellwasp Swarm"
@@ -27,11 +28,11 @@ level: "Creature 8"
 
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "fiend"
-trait_03: "lawful"
-trait_04: "swarm"
-trait_05: "unholy"
+trait_01: [[evil]]
+trait_02: [[fiend]]
+trait_03: [[lawful]]
+trait_04: [[swarm]]
+trait_05: [[unholy]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -67,7 +68,7 @@ attacks:
     desc: "`pf2:1`  Each enemy in the swarm's space takes 4d8 piercing damage (DC 26 Reflex check save). Any creature that fails its saving throw is exposed to hellwasp venom."
 
   - name: "Hellwasp Venom"
-    desc: " (poison) **Saving Throw** DC 26 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d8 poison damage and [[Conditions/Clumsy 1|Clumsy 2]] (1 round)\n\n**Stage 2** 2d8 poison damage and clumsy 2 (1 round)"
+    desc: " (poison) **Saving Throw** DC 26 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d8 poison damage and [[Conditions/Clumsy|Clumsy 2]] (1 round)\n\n**Stage 2** 2d8 poison damage and clumsy 2 (1 round)"
 
   - name: "Infest Corpse"
     desc: "`pf2:2` (manipulate) The hellwasp swarm animates the corpse of a Small, Medium, or Large humanoid that protected by [[Spells/Peaceful Rest|Peaceful Rest]] or similar magic, crawling into its mouth and other orifices.\n\nIts size changes to that of the corpse and it loses its piercing and slashing resistances, fly Speed, and Hellwasp Stings.\n\nIt gains a fist melee Strike with a +18/+13/+8 attack modifier that deals 2d8 bludgeoning damage plus 2d8 piercing damage and hellwasp venom. The hellwasp swarm gains 40 temporary Hit Points when it Infests a Corpse; when these temporary HP are depleted, the corpse falls apart and the swarm Abandons the Corpse automatically."

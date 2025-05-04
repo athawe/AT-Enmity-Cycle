@@ -34,6 +34,6 @@ abilities_top:
     desc: "10 minutes"
 abilities_mid:
   - name: ""
-    desc: "You unlock the target’s inner heroism, granting it a +1 status bonus to attack rolls, Perception checks, saving throws, and skill checks.\n* * *\n\n**Heightened (6th)** The status bonus increases to +2.\n\n**Heightened (9th)** The status bonus increases to +3.\n\n[[Spell Effects/Spell Effect_ Heroism|Spell Effect: Heroism]]"
+    desc: "You unlock the target's inner heroism, granting it a +1 status bonus to attack rolls, Perception checks, saving throws, and skill checks.\n* * *\n\n**Heightened (6th)** The status bonus increases to +2.\n\n**Heightened (9th)** The status bonus increases to +3.\n\n[[Spell Effects/Spell Effect_ Heroism|Spell Effect: Heroism]]"
 sourcebook: "_Pathfinder Player Core_"
 ```

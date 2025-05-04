@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/halfling
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Halfling Druid (3-4)"
@@ -25,9 +26,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "halfling"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[halfling]]
+trait_03: [[humanoid]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -60,7 +61,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Club +5 ()\n__Damage__  1d6 bludgeoning"
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Halfling Sling Staff +8 (range increment 80 feet, reload 1)\n__Damage__  1d10 bludgeoning"
 
   - name: "Primal Prepared Spells"

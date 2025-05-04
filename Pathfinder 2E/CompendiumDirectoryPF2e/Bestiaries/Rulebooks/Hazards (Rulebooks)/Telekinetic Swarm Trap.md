@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - mechanical
+  - pf2eHazard
   - complex
 source: Pathfinder Core Rulebook
 aliases: "Compendium.pf2e.hazards.Actor.AM3YY2Zfe2ChJHd7" 
@@ -22,14 +23,14 @@ name: "Telekinetic Swarm Trap"
 level: "Hazard 12"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "mechanical"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
 modifier: 24
 sourcebook: "_Pathfinder Core Rulebook_"
 ac: 33
 armorclass:
   - name: AC
-    desc: "33; __Fort__ +24, __Ref__ +19, __Will__ +0"
+    desc: "33; __Fort__ +24, __Ref__ +19, "
 hp: 88
 health:
   - name: ""

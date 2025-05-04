@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - animal
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder #193: Mantle of Gold
 aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.4XsYTdkDsNnz8jwq" 
@@ -22,8 +23,8 @@ name: "Ornery Augdunars"
 level: "Hazard 1"
 
 trait_06: "Complex"
-trait_01: "animal"
-trait_02: "environmental"
+trait_01: [[animal]]
+trait_02: [[environmental]]
 modifier: 8
 sourcebook: "_Pathfinder #193: Mantle of Gold_"
 ac: 16

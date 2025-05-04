@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #178: Punks in a Powder Keg
 aliases: "Compendium.pf2e.outlaws-of-alkenstar-bestiary.Actor.Qbt1X2GTcPvmptgc" 
@@ -22,14 +23,14 @@ name: "Lyzerium Bottles"
 level: "Hazard 1"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 6
 sourcebook: "_Pathfinder #178: Punks in a Powder Keg_"
 ac: 13
 armorclass:
   - name: AC
-    desc: "13; __Fort__ +4, __Ref__ +6, __Will__ +0"
+    desc: "13; __Fort__ +4, __Ref__ +6, "
 hp: 4
 health:
   - name: ""

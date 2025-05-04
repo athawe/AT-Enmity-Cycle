@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/werecreature
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Weretiger (PFS 3-13)"
@@ -27,11 +28,11 @@ level: "Creature 4"
 
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
-trait_05: "werecreature"
+trait_01: [[beast]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
+trait_05: [[werecreature]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -73,7 +74,7 @@ attacks:
     desc: "`pf2:1` Claw +14 (agile)\n__Damage__  2d4 + 7 slashing"
 
   - name: "[[Bestiary Ability Glossary/Change Shape|Change Shape]]"
-    desc: "`pf2:1` (concentrate,polymorph,primal) The weretiger changes into their animal, human, or hybrid shape; they are presented in their animal shape. Each shape has a specific, persistent appearance.\n\nIn human or hybrid form, the weretiger's size changes to Medium, they lose their Wrestle ability, and their speed decreases to 25 feet. In human form, they also lose their jaws and claw Strikes and gain a melee fist Strike (+14 for 1d4 + 7 bludgeoning damage).\n\n* * *\n"
+    desc: "`pf2:1` (concentrate,polymorph,primal) The weretiger changes into their animal, human, or hybrid shape; they are presented in their animal shape. Each shape has a specific, persistent appearance.\n\nIn human or hybrid form, the weretiger's size changes to Medium, they lose their Wrestle ability, and their speed decreases to 25 feet. In human form, they also lose their jaws and claw Strikes and gain a melee fist Strike (+14 for 1d4+7 bludgeoning damage).\n\n* * *\n"
 
   - name: "Curse of the Weretiger"
     desc: " (curse,primal) This curse affects only humanoids\n\n**Saving Throw** DC 21 Fortitude check.\n\nOn each full moon, the cursed creature must succeed at another Fortitude save or turn into the same kind of werecreature until dawn. The creature is under the GM's control and goes on a rampage for half the night before falling unconscious until dawn."

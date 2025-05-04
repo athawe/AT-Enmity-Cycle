@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.WNUvjcKRAqdguWfN" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/4
   - remaster
 statblock: inline
@@ -21,10 +22,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Monster Core"
 name: "Poracha"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 10
 perception:
   - name: "Perception"

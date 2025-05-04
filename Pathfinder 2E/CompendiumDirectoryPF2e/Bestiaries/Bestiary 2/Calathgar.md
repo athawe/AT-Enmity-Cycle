@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.DC9b8mG1KdyXZkLp"
 tags:
   - pf2e/creature/type/cold
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Calathgar"
@@ -24,8 +25,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Small"
-trait_01: "cold"
-trait_02: "plant"
+trait_01: [[cold]]
+trait_02: [[plant]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -67,7 +68,7 @@ attacks:
     desc: "`pf2:1` Tendril +13 (agile, finesse)\n__Damage__  2d4 + 4 slashing 1d4 cold"
 
   - name: "Seed Spray"
-    desc: "`pf2:2` (cold,primal) The calathgar expels thorny, frozen seeds in a 15-foot cone, dealing 1d6 piercing and 4d6 cold damage (DC 20 Reflex check save).\n\nIn mild cold or colder environments, these seeds cling to living creatures they strike, dealing 1d4 persistent cold damage.\n\nThe calathgar can't use Seed Spray again for 1d4 rounds."
+    desc: "`pf2:2` (cold,primal) The calathgar expels thorny, frozen seeds in a @Template[cone|distance:15], dealing 1d6 piercing and 4d6 cold damage (DC 20 Reflex check save).\n\nIn mild cold or colder environments, these seeds cling to living creatures they strike, dealing 1d4 persistent cold damage.\n\nThe calathgar can't use Seed Spray again for 1d4 rounds."
  
 ```
 

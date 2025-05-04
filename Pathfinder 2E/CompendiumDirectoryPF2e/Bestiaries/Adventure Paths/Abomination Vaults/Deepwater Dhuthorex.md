@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/aquatic
   - pf2e/creature/type/chaotic
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Deepwater Dhuthorex"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #165: Eyes of Empty Death"
 name: "Deepwater Dhuthorex"
 level: "Creature 9"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "aquatic"
-trait_03: "chaotic"
+trait_01: [[aberration]]
+trait_02: [[aquatic]]
+trait_03: [[chaotic]]
 modifier: 18
 perception:
   - name: "Perception"

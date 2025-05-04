@@ -26,7 +26,9 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, primal"
-**Area** 20-foot emanation
+
+  - name: "Area"
+    desc: "20-foot emanation"
   - name: "Defense"
     desc: "basic reflex"
 abilities_mid:

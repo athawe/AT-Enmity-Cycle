@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.cx796RgvywxF8P1A"
 tags:
   - pf2e/creature/type/fire
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Flaming Moss Monster"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-17: Lost Maid of Anactoria"
 name: "Flaming Moss Monster"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "fire"
-trait_02: "plant"
+trait_01: [[fire]]
+trait_02: [[plant]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -52,7 +53,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Smoldering Stench"
-    desc: " (aura,olfactory) 5 feet. A creature entering the aura or starting its turn in the aura must attempt a DC 19 Fortitude check save.\n* * *\n\n**Success** The creature is unaffected and is temporarily immune to for 1 minute.\n\n**Failure** The creature is [[Conditions/Sickened 1|Sickened 1]].\n\n**Critical Failure** The creature is [[Conditions/Sickened 1|Sickened 2]]."
+    desc: " (aura,olfactory) 5 feet. A creature entering the aura or starting its turn in the aura must attempt a DC 19 Fortitude check save.\n* * *\n\n**Success** The creature is unaffected and is temporarily immune to for 1 minute.\n\n**Failure** The creature is [[Conditions/Sickened|Sickened 1]].\n\n**Critical Failure** The creature is [[Conditions/Sickened|Sickened 2]]."
 
 attacks:
   - name: ""

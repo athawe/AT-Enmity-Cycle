@@ -3,6 +3,7 @@ title: Central Spears (BB)
 obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
+  - pf2eHazard
 
 source: Pathfinder Beginner Box
 aliases: "Compendium.pf2e.menace-under-otari-bestiary.Actor.j8qD2LVDSP2lhLUO" 

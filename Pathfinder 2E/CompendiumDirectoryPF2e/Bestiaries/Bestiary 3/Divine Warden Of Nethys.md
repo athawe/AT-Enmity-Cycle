@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.61atKNQVF73vWpqc"
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Divine Warden Of Nethys"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Divine Warden Of Nethys"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "construct"
-trait_02: "mindless"
+trait_01: [[construct]]
+trait_02: [[mindless]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -52,7 +53,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "[[Creature Family Ability Glossary/(Divine Warden) Divine Destruction|Divine Destruction]]"
-    desc: " (divine,void) When the divine warden is reduced to 0 HP, it erupts with divine energy in a 30-foot emanation, dealing 5d6 void damage. Each creature in the area must attempt a DC 19 Will check save with the following outcomes.\n* * *\n\n**Critical Success** The creature takes half damage.\n\n**Success** The creature takes full damage.\n\n**Failure** The creature takes full damage and becomes temporarily cursed by the patron deity. The creature becomes [[Conditions/Enfeebled 1|Enfeebled 1]] and [[Conditions/Stupefied 1|Stupefied 1]] for 1 day; this is a curse effect that uses the Will save DC as the counteract DC.\n\n**Critical Failure** As failure, except the creature becomes [[Conditions/Enfeebled 1|Enfeebled 2]] and [[Conditions/Stupefied 1|Stupefied 2]]."
+    desc: " (divine,void) When the divine warden is reduced to 0 HP, it erupts with divine energy in a @Template[emanation|distance:30], dealing 5d6 void damage. Each creature in the area must attempt a DC 19 Will check save with the following outcomes.\n* * *\n\n**Critical Success** The creature takes half damage.\n\n**Success** The creature takes full damage.\n\n**Failure** The creature takes full damage and becomes temporarily cursed by the patron deity. The creature becomes [[Conditions/Enfeebled|Enfeebled 1]] and [[Conditions/Stupefied|Stupefied 1]] for 1 day; this is a curse effect that uses the Will save DC as the counteract DC.\n\n**Critical Failure** As failure, except the creature becomes [[Conditions/Enfeebled|Enfeebled 2]] and [[Conditions/Stupefied|Stupefied 2]]."
 
   - name: "[[Creature Family Ability Glossary/(Divine Warden) Faith Bound|Faith Bound]]"
     desc: " (divine) A divine warden can't attack a creature that openly wears or displays the religious symbol of the divine warden's patron deity unless that creature uses a hostile action against the divine warden first. If the divine warden is intelligent, it can also attack a creature it believes isn't faithful to its deity or who wears the religious symbol as a ruse (typically after succeeding at a Perception check to [[Actions/Sense Motive|Sense Motive]])."

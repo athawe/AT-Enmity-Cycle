@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
   - pf2e/creature/type/wight
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Smokesight Deadeye Wight"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-15: In Glorious Battle"
 name: "Smokesight Deadeye Wight"
 level: "Creature 9"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "lawful"
-trait_03: "undead"
-trait_04: "unholy"
-trait_05: "wight"
+trait_01: [[evil]]
+trait_02: [[lawful]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
+trait_05: [[wight]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -74,10 +75,10 @@ attacks:
     desc: "`pf2:1` Composite Longbow +21 (deadly d10, propulsive, range increment 100 feet, volley 30 ft.)\n__Damage__  1d8 + 10 piercing plus drain-life"
 
   - name: "Drain Life"
-    desc: " (divine) When the deadeye wight damages a living creature using an unarmed attack or their bound weapon, they gain 9 temporary Hit Points, and the creature must succeed at a DC 25 Fortitude check save or become [[Conditions/Drained 1|Drained 1]]. Further damage dealt by the deadeye wight's unarmed and bound weapon attacks increases the value of the drained condition by 1 on a failed save, to a maximum of drained 4."
+    desc: " (divine) When the deadeye wight damages a living creature using an unarmed attack or their bound weapon, they gain 9 temporary Hit Points, and the creature must succeed at a DC 25 Fortitude check save or become [[Conditions/Drained|Drained 1]]. Further damage dealt by the deadeye wight's unarmed and bound weapon attacks increases the value of the drained condition by 1 on a failed save, to a maximum of drained 4."
 
   - name: "Spawn Deadeye Wight"
-    desc: " (divine) A living humanoid killed by a deadeye wight's weapon or claw Strike rises as a deadeye wight spawn after 1d4 rounds. This spawn is under the command of the deadeye wight that killed them. They don't have drain life or spawn deadeye wight and are [[Conditions/Clumsy 1|Clumsy 2]] for as long as they're a deadeye wight spawn. If the creator of the deadeye wight spawn dies, the deadeye wight spawn becomes a fully autonomous deadeye wight; they regain their free will, gain drain life and spawn deadeye wight, and are no longer clumsy."
+    desc: " (divine) A living humanoid killed by a deadeye wight's weapon or claw Strike rises as a deadeye wight spawn after 1d4 rounds. This spawn is under the command of the deadeye wight that killed them. They don't have drain life or spawn deadeye wight and are [[Conditions/Clumsy|Clumsy 2]] for as long as they're a deadeye wight spawn. If the creator of the deadeye wight spawn dies, the deadeye wight spawn becomes a fully autonomous deadeye wight; they regain their free will, gain drain life and spawn deadeye wight, and are no longer clumsy."
  
 ```
 

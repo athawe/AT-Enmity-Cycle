@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Corrosive Lizard"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #151: The Show Must Go On"
 name: "Corrosive Lizard"
 level: "Creature 2"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "animal"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "unholy"
+trait_01: [[animal]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[unholy]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -65,7 +66,7 @@ attacks:
     desc: "`pf2:1` Jaws +11 (unholy)\n__Damage__  1d10 + 2 piercing plus grab 1d6 acid plus grab"
 
   - name: "Gout of Acid"
-    desc: "`pf2:2` (acid,primal) The corrosive lizard vomits a gout of acid in a 15-foot cone. Each creature in this area takes 3d6 acid damage (DC 20 Reflex check save).\n\nThe lizard can't use Gout of Acid again for 1d4 rounds."
+    desc: "`pf2:2` (acid,primal) The corrosive lizard vomits a gout of acid in a @Template[cone|distance:15]. Each creature in this area takes 3d6 acid damage (DC 20 Reflex check save).\n\nThe lizard can't use Gout of Acid again for 1d4 rounds."
 
   - name: "Lurching Charge"
     desc: "`pf2:2`  The corrosive lizard Strides up to double its Speed and then makes a jaws Strike. If the lizard moved at least 20 feet away from its starting position, it gains a +2 circumstance bonus to this attack roll."

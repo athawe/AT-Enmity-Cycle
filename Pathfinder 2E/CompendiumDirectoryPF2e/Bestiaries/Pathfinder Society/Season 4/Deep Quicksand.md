@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #4-04: To Seek the Heart of Calamity
 aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.sN1Mm3M5fnb0SjYq" 
@@ -21,7 +22,7 @@ name: "Deep Quicksand"
 level: "Hazard 5"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 16
 sourcebook: "_Pathfinder Society Scenario #4-04: To Seek the Heart of Calamity_"
 perception:

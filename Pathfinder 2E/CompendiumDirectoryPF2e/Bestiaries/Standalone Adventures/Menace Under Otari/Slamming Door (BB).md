@@ -3,6 +3,7 @@ title: Slamming Door (BB)
 obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
+  - pf2eHazard
 
 source: Pathfinder Beginner Box
 aliases: "Compendium.pf2e.menace-under-otari-bestiary.Actor.4O7wKZdeAemTEbvG" 
@@ -25,7 +26,7 @@ sourcebook: "_Pathfinder Beginner Box_"
 ac: 16
 armorclass:
   - name: AC
-    desc: "16; __Fort__ +10, __Ref__ +2, __Will__ +0"
+    desc: "16; __Fort__ +10, __Ref__ +2, "
 hp: 20
 health:
   - name: ""

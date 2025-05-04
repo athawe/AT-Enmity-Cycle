@@ -28,7 +28,7 @@ A holy weapon commands powerful celestial energy. Strikes made with it gain the 
 
 * * *
 
-**Effect** You regain HP equal to double the unholy creature’s level.
+**Effect** You regain HP equal to double the unholy creature's level.
 
 **Craft Requirements** You are holy.
 

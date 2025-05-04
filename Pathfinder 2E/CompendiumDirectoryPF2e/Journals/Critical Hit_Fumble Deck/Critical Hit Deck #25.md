@@ -26,6 +26,6 @@ tags:
 
 # Shrink Aftereffect
 
-> Normal damage. The target is reduced in size as if subject to a [[Spells/Shrink|Shrink]] spell until the end of its next turn. [[Spell Effects/Spell Effect\_ Shrink|Spell Effect: Shrink]]
+> Normal damage. The target is reduced in size as if subject to a [[Spells/Shrink|Shrink]] spell until the end of its next turn. [[Spell Effects/Spell Effect_ Shrink|Spell Effect: Shrink]]
 
 `Bomb or Spell`

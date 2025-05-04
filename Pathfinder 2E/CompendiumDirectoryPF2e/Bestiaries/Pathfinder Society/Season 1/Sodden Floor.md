@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - mechanical
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #1-03: Escaping the Grave
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.LXXodovLOERAGqWj" 
@@ -21,13 +22,13 @@ name: "Sodden Floor"
 level: "Hazard 0"
 
 
-trait_01: "mechanical"
+trait_01: [[mechanical]]
 modifier: 15
 sourcebook: "_Pathfinder Society Scenario #1-03: Escaping the Grave_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +1, __Ref__ +1, __Will__ +0"
+    desc: "10; __Fort__ +1, __Ref__ +1, "
 hp: 1
 health:
   - name: ""

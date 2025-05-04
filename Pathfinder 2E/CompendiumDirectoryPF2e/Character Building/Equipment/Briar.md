@@ -89,7 +89,7 @@ Once _Briar_ gains the capability to speak, it can relate to its partner the sad
 
 **Effect** _Briar_ casts a 6th-rank [[Spells/Oaken Resilience|Oaken Resilience]] on its partner.
 
-**Activate** `pf2:`pf2:r``
+**Activate** `pf2:r`
 
 **Frequency** once per day
 

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Raven Nicoletta"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #192: Worst of All Possible Worlds"
 name: "Raven Nicoletta"
 level: "Creature 20"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Daemonic, Skald, Varisian"
 skills:
   - name: "Skills"
-    desc: "Arcana: +31, Deception: +41, Diplomacy: +37, Fortune-Telling Lore: +33, Intimidation: +35, Occultism: +33, Performance: +31, Society: +31"
+    desc: "Arcana: +31, Deception: +41, Diplomacy: +37, Intimidation: +35, Occultism: +33, Performance: +31, Society: +31, Fortune-Telling Lore: +33"
 abilityMods: [0, 5, 2, 3, 5, 9]
 speed: 25 feet
 sourcebook: "_Pathfinder #192: Worst of All Possible Worlds_"
@@ -70,7 +71,7 @@ attacks:
     desc: "  When Raven casts a bloodline spell, she gains [[Conditions/Concealed|Concealement]] for 1 round, but can't use it to [[Actions/Hide|Hide]]."
 
   - name: "Harrow Burst"
-    desc: "`pf2:2` (occult) Raven unleashes a mass of magical harrow cards, dealing 15d8 slashing damage in a 30-foot emanation (DC 42 Reflex check save). A creature that fails its save rolls 1d6 to determine a suit of cards: 1 = hammers (Strength), 2 = keys (Dexterity), 3 = shields (Constitution), 4 = books (Intelligence), 5 = stars (Wisdom), 6 = crowns (Charisma). The creature takes a –1 status penalty to all checks related to that ability score for 1 round (–2 status penalty on a critical failure). Raven can't use Harrow Burst again for 1d4 rounds.\n\n[[Bestiary Effects/Effect_ Harrow Burst|Effect: Harrow Burst]]"
+    desc: "`pf2:2` (occult) Raven unleashes a mass of magical harrow cards, dealing 15d8 slashing damage in a @Template[emanation|distance:30] (DC 42 Reflex check save). A creature that fails its save rolls 1d6 to determine a suit of cards: 1 = hammers (Strength), 2 = keys (Dexterity), 3 = shields (Constitution), 4 = books (Intelligence), 5 = stars (Wisdom), 6 = crowns (Charisma). The creature takes a –1 status penalty to all checks related to that ability score for 1 round (–2 status penalty on a critical failure). Raven can't use Harrow Burst again for 1d4 rounds.\n\n[[Bestiary Effects/Effect_ Harrow Burst|Effect: Harrow Burst]]"
  
 ```
 

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/mutant
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Spellscar Sky Marauder"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #179: Cradle of Quartz"
 name: "Spellscar Sky Marauder"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "mutant"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[mutant]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Sphinx"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +13, Arcana: +11, Athletics: +13, Intimidation: +10, Spellscar Desert Lore: +13, Stealth: +13"
+    desc: "Acrobatics: +13, Arcana: +11, Athletics: +13, Intimidation: +10, Stealth: +13, Spellscar Desert Lore: +13"
 abilityMods: [4, 4, 5, 0, 3, -1]
 speed: 30 feet,  fly 40 feet
 sourcebook: "_Pathfinder #179: Cradle of Quartz_"
@@ -75,7 +76,7 @@ attacks:
     desc: "DC 22, attack +14; __1st __  _[[Spells/Sanctuary|Sanctuary (x3)]]_, _[[Spells/Sure Strike|True Strike]]_\n__Cantrips__  __(3rd)__ _[[Spells/Sigil|Sigil]]_"
 
   - name: "Mana Fever"
-    desc: " (disease) A creature can't remove the fatigued condition while infected\n\n**Saving Throw** DC 22 Fortitude check\n* * *\n\n**Onset** 1 day\n\n**Stage 1** [[Conditions/Fatigued|Fatigued]] and [[Conditions/Stupefied 1|Stupefied 1]] (1 day)\n\n**Stage 2** fatigued and [[Conditions/Stupefied 1|Stupefied 2]] (1 day)\n\n**Stage 3** fatigued and [[Conditions/Stupefied 1|Stupefied 3]] (1 day)\n\n**Stage 4** gain immunity to mana fever and become a Mana Wastes mutant"
+    desc: " (disease) A creature can't remove the fatigued condition while infected\n\n**Saving Throw** DC 22 Fortitude check\n* * *\n\n**Onset** 1 day\n\n**Stage 1** [[Conditions/Fatigued|Fatigued]] and [[Conditions/Stupefied|Stupefied 1]] (1 day)\n\n**Stage 2** fatigued and [[Conditions/Stupefied|Stupefied 2]] (1 day)\n\n**Stage 3** fatigued and [[Conditions/Stupefied|Stupefied 3]] (1 day)\n\n**Stage 4** gain immunity to mana fever and become a Mana Wastes mutant"
 
   - name: "Paired Strike"
     desc: "`pf2:2`  **Requirements** The maftet is wielding two scimitars\n* * *\n\n**Effect** The maftet makes two Strikes against the same target, one with each of their scimitars. The maftet combines the damage of any attacks that hit and applies resistances and weaknesses only once. This counts as one attack when calculating the maftet's multiple attack penalty."

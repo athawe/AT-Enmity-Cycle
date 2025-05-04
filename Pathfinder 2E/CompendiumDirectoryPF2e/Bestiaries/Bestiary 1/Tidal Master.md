@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aquatic
   - pf2e/creature/type/elemental
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Tidal Master"
@@ -25,9 +26,9 @@ level: "Creature 9"
 
 alignment: ""
 size: "Large"
-trait_01: "aquatic"
-trait_02: "elemental"
-trait_03: "water"
+trait_01: [[aquatic]]
+trait_02: [[elemental]]
+trait_03: [[water]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -52,7 +53,7 @@ abilities_top:
   - name: ""
 
   - name: "Water-Bound"
-    desc: "  When not touching water, the tidal master is [[Conditions/Slowed 1|Slowed 1]] and can't use reactions."
+    desc: "  When not touching water, the tidal master is [[Conditions/Slowed|Slowed 1]] and can't use reactions."
 
 abilities_mid:
   - name: ""
@@ -66,7 +67,7 @@ attacks:
     desc: "`pf2:1` Wave +21 (reach 15 feet)\n__Damage__  2d12 + 11 bludgeoning plus push-or-pull-10-feet"
 
   - name: "Drench"
-    desc: "`pf2:1` (primal,water) The elemental puts out all fires in a 10-foot emanation.\n\nIt extinguishes all non-magical fires automatically and attempts to counteract magical fires (+20 counteract modifier)."
+    desc: "`pf2:1` (primal,water) The elemental puts out all fires in a @Template[emanation|distance:10].\n\nIt extinguishes all non-magical fires automatically and attempts to counteract magical fires (+20 counteract modifier)."
 
   - name: "[[Bestiary Ability Glossary/Push|Push or Pull 10 feet]]"
     desc: "`pf2:1`  The tidal master can also pull the creature.\n\n* * *\n"

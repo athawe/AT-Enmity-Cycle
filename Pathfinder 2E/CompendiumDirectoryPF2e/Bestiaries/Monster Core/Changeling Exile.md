@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/changeling
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/3
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "changeling"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[changeling]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 11
 perception:
   - name: "Perception"

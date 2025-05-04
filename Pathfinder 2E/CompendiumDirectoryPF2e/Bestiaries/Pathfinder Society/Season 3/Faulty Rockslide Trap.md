@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #3-10: Delve the Pallid Depths
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.WQUsCm35NNZUlJYy" 
@@ -21,7 +22,7 @@ name: "Faulty Rockslide Trap"
 level: "Hazard 1"
 
 
-trait_01: "trap"
+trait_01: [[trap]]
 modifier: 7
 sourcebook: "_Pathfinder Society Scenario #3-10: Delve the Pallid Depths_"
 perception:

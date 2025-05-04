@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/elemental
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/1
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "amphibious"
-trait_02: "elemental"
-trait_03: "water"
+trait_01: [[amphibious]]
+trait_02: [[elemental]]
+trait_03: [[water]]
 modifier: 3
 perception:
   - name: "Perception"
@@ -64,10 +65,10 @@ attacks:
     desc: "DC 17, attack +9; __2nd __  _[[Spells/Acid Grip|Acid Grip]]_; __1st __  _[[Spells/Create Water|Create Water]]_"
 
   - name: "Acid Breath"
-    desc: "`pf2:2` (acid,arcane) The water scamp breathes acid in a 15-foot cone that deals 2d6 acid damage to each creature within the area (DC 17 Reflex check save).\n\nThe water scamp can't use Acid Breath again for 1d4 rounds."
+    desc: "`pf2:2` (acid,arcane) The water scamp breathes acid in a @Template[cone|distance:15] that deals 2d6 acid damage to each creature within the area (DC 17 Reflex check save).\n\nThe water scamp can't use Acid Breath again for 1d4 rounds."
 
   - name: "Drench"
-    desc: "`pf2:1` (arcane,water) The water scamp shakes out a seemingly endless supply of water from its fur to put out all fires in a 5-foot emanation. The scamp extinguishes all non-magical fires automatically and attempts to counteract magical fires (+7 counteract modifier)."
+    desc: "`pf2:1` (arcane,water) The water scamp shakes out a seemingly endless supply of water from its fur to put out all fires in a @Template[emanation|distance:5]. The scamp extinguishes all non-magical fires automatically and attempts to counteract magical fires (+7 counteract modifier)."
  
 ```
 

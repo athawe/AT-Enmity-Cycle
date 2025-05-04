@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/phantom
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Jin-hae"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #168: King of the Mountain"
 name: "Jin-hae"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "ethereal"
-trait_02: "lawful"
-trait_03: "phantom"
-trait_04: "spirit"
+trait_01: [[ethereal]]
+trait_02: [[lawful]]
+trait_03: [[phantom]]
+trait_04: [[spirit]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -74,7 +75,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Linked Hook Swords +35 (magical, reach 10 feet, sweep)\n__Damage__  6d6 + 20 slashing"
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Feng Huo Lun +35 (agile, disarm, finesse, magical, parry, thrown 20 ft., twin, versatile p)\n__Damage__  3d6 + 15 slashing 3d6 fire"
 
   - name: "Ranged"

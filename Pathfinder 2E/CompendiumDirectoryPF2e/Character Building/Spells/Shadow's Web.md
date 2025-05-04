@@ -27,6 +27,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
   - name: "Defense"
     desc: " fortitude"
 abilities_mid:

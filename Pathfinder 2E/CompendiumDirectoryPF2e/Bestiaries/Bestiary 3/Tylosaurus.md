@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.PX8tlo804y4I1C8S" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Tylosaurus"
@@ -23,7 +24,7 @@ level: "Creature 8"
 
 alignment: ""
 size: "grg"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -65,7 +66,7 @@ attacks:
     desc: "`pf2:1`  **Requirements** The tylosaurus has a creature [[Conditions/Grabbed|Grabbed]]\n* * *\n\n**Effect** The tylosaurus Swims up to half its Speed, carrying the grabbed creature with it."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Large, 2d6 + 5 bludgeoning, Rupture 18\n\n* * *\n"
+    desc: "`pf2:1` (attack) Large, 2d6+5 bludgeoning, Rupture 18\n\n* * *\n"
 
   - name: "Vicious Strafe"
     desc: "`pf2:2`  The tylosaurus Swims up to its Speed. It can make one jaws Strike and one tail Strike at any points during its movement, each attacking a different target."

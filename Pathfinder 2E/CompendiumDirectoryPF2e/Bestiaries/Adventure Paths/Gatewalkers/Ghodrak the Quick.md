@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/hobgoblin
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Ghodrak the Quick"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #188: They Watched the Stars"
 name: "Ghodrak the Quick"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "goblin"
-trait_03: "hobgoblin"
-trait_04: "humanoid"
-trait_05: "lawful"
+trait_01: [[evil]]
+trait_02: [[goblin]]
+trait_03: [[hobgoblin]]
+trait_04: [[humanoid]]
+trait_05: [[lawful]]
 modifier: 15
 perception:
   - name: "Perception"

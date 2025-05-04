@@ -64,12 +64,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Jirelle (Level 1)
-creatures:
-  - 1: Jirelle (Level 1)
-```
-
 
 
 

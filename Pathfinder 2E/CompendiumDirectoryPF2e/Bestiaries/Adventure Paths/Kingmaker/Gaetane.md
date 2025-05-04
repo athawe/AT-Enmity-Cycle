@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/werecreature
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Gaetane"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Gaetane"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "beast"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
-trait_05: "lawful"
-trait_06: "werecreature"
+trait_01: [[beast]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
+trait_05: [[lawful]]
+trait_06: [[werecreature]]
 modifier: 27
 perception:
   - name: "Perception"
@@ -41,7 +42,7 @@ perception:
 languages: "Common; rat empathy"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +28, Athletics: +26 (+28 to Climb or Swim), Nature: +22, Stealth: +28, Survival: +25"
+    desc: "Acrobatics: +28, Athletics: +26, Nature: +22, Stealth: +28, Survival: +25"
 abilityMods: [4, 6, 4, 0, 5, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder Kingmaker_"
@@ -76,7 +77,7 @@ attacks:
     desc: "`pf2:1` Oathbow +30 (deadly d10, range 100 feet, reload 0, volley 30 ft.)\n__Damage__  2d8 + 10 piercing"
 
   - name: "[[Bestiary Ability Glossary/Change Shape|Change Shape]]"
-    desc: "`pf2:1` (concentrate,polymorph) *   **Human**\n    *   **Melee** fist +24 (agile, nonlethal), **Damage** 1d4 + 10 bludgeoning damage\n*   **Rat**\n    *   **Size** Small\n    *   **Speed** 30 feet, climb 10 feet"
+    desc: "`pf2:1` (concentrate,polymorph) *   **Human**\n    *   **Melee** fist +24 (agile, nonlethal), **Damage** 1d4+10 bludgeoning damage\n*   **Rat**\n    *   **Size** Small\n    *   **Speed** 30 feet, climb 10 feet"
 
   - name: "Curse of the Wererat"
     desc: " (curse,primal) This curse affects only humanoids.\n\n**Saving Throw** DC 34 Fortitude check\n* * *\n\nOn each full moon, the cursed creature must succeed at another Fortitude save or turn into a wererat until dawn.\n\nThe creature is under the GM's control and goes on a rampage for half the night before falling unconscious until dawn."

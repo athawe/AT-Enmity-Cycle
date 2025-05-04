@@ -28,8 +28,7 @@ columnWidth: x
 abilities_top:
   - name: ""
   - name: "Range"
-    desc: "60 feet; **Area** 20-foot burst
-"
+    desc: "60 feet; **Area** 20-foot burst"
   - name: "Defense"
     desc: " reflex"
 abilities_mid:

@@ -10,7 +10,7 @@ tags:
 # Ritualist
 While some learn the art of ritual casting through rigorous study, other gifted individuals may find that a combination of natural talent and luck gives them surprising skill at performing rituals, whether they want that power or not.
 
-## [[Feats/Ritualist Dedication|Ritualist Dedication]] Feat 2
+## [[Feats/Ritualist Dedication|Ritualist Dedication]] Feat 4
 
 **Prerequisites** expert in Arcana, Nature, Occultism, or Religion
 

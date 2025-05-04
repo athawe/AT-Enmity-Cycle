@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/devil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/5
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 5"
 
 alignment: ""
 size: "Medium"
-trait_01: "devil"
-trait_02: "fiend"
-trait_03: "unholy"
+trait_01: [[devil]]
+trait_02: [[fiend]]
+trait_03: [[unholy]]
 modifier: 12
 perception:
   - name: "Perception"

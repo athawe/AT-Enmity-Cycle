@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Temagyr"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #187: The Seventh Arch"
 name: "Temagyr"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fey"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fey]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -66,7 +67,7 @@ attacks:
     desc: "`pf2:1` Bite +9 ()\n__Damage__  1d4 + 4 piercing"
 
   - name: "Shadow Bite"
-    desc: "`pf2:1`  **Frequency** once per round\n* * *\n\n**Effect** The temagyr attempts to tear away and swallow a gobbet of shadow from a creature within reach. The creature must attempt a DC 17 Fortitude check save.\n\n**Success** The target takes no damage.\n\n**Failure** The target takes 1d4 + 4 piercing and the temagyr gains 2 temporary Hit Points for 1 minute.\n\n**Critical Failure** The target takes 2d4 + 8 piercing and the temagyr gains 4 temporary Hit Points for 1 minute."
+    desc: "`pf2:1`  **Frequency** once per round\n* * *\n\n**Effect** The temagyr attempts to tear away and swallow a gobbet of shadow from a creature within reach. The creature must attempt a DC 17 Fortitude check save.\n\n**Success** The target takes no damage.\n\n**Failure** The target takes 1d4+4 piercing and the temagyr gains 2 temporary Hit Points for 1 minute.\n\n**Critical Failure** The target takes 2d4+8 piercing and the temagyr gains 4 temporary Hit Points for 1 minute."
 
   - name: "Umbral Leap"
     desc: "`pf2:2` (primal,teleportation) **Frequency** once per day\n* * *\n\n**Effect** The temagyr bends light and darkness to leap into a creature's shadow. The temagyr targets a creature that it can see who is in dim or brighter light within 120 feet. The temagyr teleports to a space adjacent to the target creature."

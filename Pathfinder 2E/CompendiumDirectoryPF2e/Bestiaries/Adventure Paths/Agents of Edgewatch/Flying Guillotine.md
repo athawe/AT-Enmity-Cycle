@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #157: Devil at the Dreaming Palace
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.UkmM3bjBoBld0uzS" 
@@ -22,14 +23,14 @@ name: "Flying Guillotine"
 level: "Hazard 5"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 10
 sourcebook: "_Pathfinder #157: Devil at the Dreaming Palace_"
 ac: 23
 armorclass:
   - name: AC
-    desc: "23; __Fort__ +9, __Ref__ +17, __Will__ +0"
+    desc: "23; __Fort__ +9, __Ref__ +17, "
 hp: 52
 health:
   - name: ""

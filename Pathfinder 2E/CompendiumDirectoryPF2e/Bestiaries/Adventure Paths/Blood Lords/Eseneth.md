@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.7tmoC1LEp3taxaRp"
 tags:
   - pf2e/creature/type/monitor
   - pf2e/creature/type/psychopomp
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Eseneth"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #186: Ghost King&#x27;s Rage"
 name: "Eseneth"
 level: "Creature 17"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "monitor"
-trait_02: "psychopomp"
+trait_01: [[monitor]]
+trait_02: [[psychopomp]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Chthonian, Diabolic, Empyrean, Requian"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +33, Athletics: +33, Boneyard Lore: +29, Medicine: +31, Sewing Lore: +35, Stealth: +33"
+    desc: "Acrobatics: +33, Athletics: +33, Medicine: +31, Stealth: +33, Boneyard Lore: +29, Sewing Lore: +35"
 abilityMods: [8, 8, 5, 6, 4, 2]
 speed: 25 feet,  fly 40 feet
 sourcebook: "_Pathfinder #186: Ghost King&#x27;s Rage_"
@@ -73,7 +74,7 @@ attacks:
     desc: "`pf2:1` (attack,incapacitation) The eseneth tries to yank the soul out of the body of a creature they've [[Conditions/Grabbed|Grabbed]] or [[Conditions/Restrained|Restrained]]. The eseneth attempts an Athletics check check against the target's Fortitude DC.\n* * *\n\n**Critical Success** The eseneth grabs the target's soul. The body is released and is [[Conditions/Paralyzed|Paralyzed]] for 2 rounds. When the body ceases being paralyzed, its soul returns instantly and the target wakes. The soul—grabbed by the eseneth—is incorporeal, is [[Conditions/Invisible|Invisible]], has a fly Speed equal to the creature's Speed, and otherwise has all the same statistics. It can't attack, cast spells, or attempt any skill checks that require a physical body other than checks to [[Actions/Escape|Escape]], and it must always maintain line of effect to its body.\n\n**Success** As critical success, but the paralysis ends after 1 round.\n\n**Failure** The target remains grabbed or restrained, but its soul remains in its body.\n\n**Critical Failure** The grab ends."
 
   - name: "Shred Soul"
-    desc: "`pf2:1`  **Frequency** once per round\n* * *\n\n**Effect** The eseneth deals 3d10 + 14 force damage to an incorporeal creature they've [[Conditions/Grabbed|Grabbed]]."
+    desc: "`pf2:1`  **Frequency** once per round\n* * *\n\n**Effect** The eseneth deals 3d10+14 force damage to an incorporeal creature they've [[Conditions/Grabbed|Grabbed]]."
 
   - name: "Spirit Grasp"
     desc: "  An eseneth can [[Actions/Grapple|Grapple]] incorporeal creatures despite being corporeal. The eseneth uses their Athletics check to Grapple incorporeal creatures as normal but can't use Athletics for other actions against incorporeal creatures, like [[Actions/Shove|Shove]] or [[Actions/Trip|Trip]]."

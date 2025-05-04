@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fetchling
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Fetchling Sneak"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #3-06: Struck by Shadows"
 name: "Fetchling Sneak"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fetchling"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[fetchling]]
+trait_03: [[humanoid]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Necril, Sakvroth, Shadowtongue"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Athletics: +4, Deception: +4, Diplomacy: +4, Intimidation: +4, Occultism: +5, Shadow Plane Lore: +5, Society: +5, Stealth: +7, Survival: +4, Thievery: +7"
+    desc: "Acrobatics: +7, Athletics: +4, Deception: +4, Diplomacy: +4, Intimidation: +4, Occultism: +5, Society: +5, Stealth: +7, Survival: +4, Thievery: +7, Shadow Plane Lore: +5"
 abilityMods: [1, 4, 0, 2, 1, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #3-06: Struck by Shadows_"

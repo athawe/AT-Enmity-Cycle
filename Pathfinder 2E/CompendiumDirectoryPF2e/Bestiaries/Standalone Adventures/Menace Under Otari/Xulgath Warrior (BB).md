@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.menace-under-otari-bestiary.Actor.RTzFvmdSCf5yhguy"
 tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/xulgath
+  - pf2eMonster
   - pf2e/creature/level/1
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
-trait_02: "xulgath"
+trait_01: [[humanoid]]
+trait_02: [[xulgath]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -54,7 +55,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Stench"
-    desc: "  A creature that comes within 30-foot emanation of the xulgath and can smell the xulgath must attempt a DC 16 Fortitude check save. On a failure, the creature takes a -1 status penalty to all checks and DCs until it uses an action to retch. A creature that succeeds at its save isn't affected by any xulgaths' stenches for 1 minute _(Use [[Conditions/Sickened 1|Sickened 1]])_."
+    desc: "  A creature that comes within @Template[emanation|distance:30] of the xulgath and can smell the xulgath must attempt a DC 16 Fortitude check save. On a failure, the creature takes a -1 status penalty to all checks and DCs until it uses an action to retch. A creature that succeeds at its save isn't affected by any xulgaths' stenches for 1 minute _(Use [[Conditions/Sickened|Sickened 1]])_."
 
 attacks:
   - name: ""

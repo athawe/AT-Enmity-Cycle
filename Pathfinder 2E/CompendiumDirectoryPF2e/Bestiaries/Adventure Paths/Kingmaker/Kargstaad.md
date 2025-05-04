@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/giant
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "Kargstaad"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Kargstaad"
 level: "Creature 19"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "cold"
-trait_03: "evil"
-trait_04: "giant"
-trait_05: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[cold]]
+trait_03: [[evil]]
+trait_04: [[giant]]
+trait_05: [[humanoid]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Aklo, Common, Fey, Jotun"
 skills:
   - name: "Skills"
-    desc: "Athletics: +39, Crafting: +33, Intimidation: +37, Stealth: +33 (+37 in snow)"
+    desc: "Athletics: +39, Crafting: +33, Intimidation: +37, Stealth: +33"
 abilityMods: [10, 6, 8, 4, 6, 8]
 speed: 30 feet
 sourcebook: "_Pathfinder Kingmaker_"
@@ -71,7 +72,7 @@ attacks:
   - name: ""
 
   - name: "Melee"
-    desc: "`pf2:1` Hatchet +37 (agile, magical, sweep)\n__Damage__  3d6 + 18 slashing"
+    desc: "`pf2:1` Hatchet +37 (agile, magical, sweep)\n__Damage__  3d6 + 18 slashing 2d6 cold"
 
   - name: "Ranged"
     desc: "`pf2:1` Rock +35 (brutal, range increment 120 feet)\n__Damage__  2d10 + 18 bludgeoning plus rock"

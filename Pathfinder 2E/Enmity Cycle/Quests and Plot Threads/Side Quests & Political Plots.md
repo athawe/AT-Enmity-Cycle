@@ -103,9 +103,6 @@ Some side content should really drive some exposure to more of the things that t
 ### [[Petrific]]
 - [[Nisk Tander]] wants Basilisk eggs 
 
-### [[Posh and Pomp]] 
-- Nobles arriving for the sun orchid festival 
-
 ### [[Researching the Ruins to the south]]
 
 ### [[Silver Strike]] 
@@ -133,8 +130,9 @@ Some side content should really drive some exposure to more of the things that t
 ### [[Treasure Map]]
 - Pathfinder Society has a map, and doesn't know that it's trap by Jonah. 
 
-### [[My only Sunshine]]
+### [[My Only Sunshine]]
 - Hearstona Patts, a whole plotline inspired by [Patty Hearst](https://en.wikipedia.org/wiki/Symbionese_Liberation_Army#Kidnapping_of_Patty_Hearst). She was kidnapped by the agents of the [[The Other Hand|Other Hand]], before becoming one of them.
+
 
 ## Other ideas 
 - Working with the [[Runewatchers]] and [[Hakren Zost]] could tap into Golarion's energies to awaken a [ley line](https://2e.aonprd.com/Rules.aspx?ID=1531) running through the region. 

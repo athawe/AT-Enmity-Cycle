@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Doblagub"
@@ -26,10 +27,10 @@ level: "Creature 13"
 
 alignment: ""
 size: "Large"
-trait_01: "amphibious"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "fey"
+trait_01: [[amphibious]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[fey]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -65,7 +66,7 @@ attacks:
     desc: "`pf2:1` Jaws +27 (reach 10 feet)\n__Damage__  4d8 + 14 bludgeoning plus grab"
 
   - name: "Melee"
-    desc: "`pf2:1` Tongue +27 (reach 15 feet)\n__Damage__   bludgeoning plus grab,magical-tongue"
+    desc: "`pf2:1` Tongue +27 (reach 15 feet)\n__Damage__ "
 
   - name: "Primal Innate Spells"
     desc: "DC 33, attack +27; __6th __  _[[Spells/Wave of Despair|Crushing Despair]]_, _[[Spells/Dominate|Dominate]]_; __5th __  _[[Spells/Confusion|Confusion]]_, _[[Spells/Enthrall|Enthrall (x2)]]_, _[[Spells/Illusory Scene|Illusory Scene (At Will)]]_, _[[Spells/Wall of Stone|Wall of Stone]]_; __4th __  _[[Spells/Charm|Charm (At Will)]]_, _[[Spells/Lightning Bolt|Lightning Bolt (x2)]]_, _[[Spells/Paralyze|Paralyze (x3)]]_; __3rd __  _[[Spells/Faerie Fire|Faerie Fire (x2)]]_, _[[Spells/Fear|Fear (At Will)]]_, _[[Spells/Laughing Fit|Hideous Laughter]]_\n__Cantrips__  __(6th)__ _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Produce Flame|Produce Flame]]_\n__Constant__  __(6th)__ _[[Spells/Truesight|True Seeing]]_"
@@ -77,7 +78,7 @@ attacks:
     desc: "  A doblagub can use their tongue to make spell attacks with spells that have a range of touch."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Medium, 4d10 + 8 bludgeoning, Rupture 24\n\n* * *\n"
+    desc: "`pf2:1` (attack) Medium, 4d10+8 bludgeoning, Rupture 24\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

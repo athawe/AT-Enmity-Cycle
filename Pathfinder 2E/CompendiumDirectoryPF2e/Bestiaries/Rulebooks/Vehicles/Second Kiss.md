@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
 source: Pathfinder #179: Cradle of Quartz
 aliases: "Compendium.pf2e.vehicles.Actor.K0ThJViHQzzxRmqE" 
@@ -19,7 +20,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #179: Cradle of Quartz"
 name: "Second Kiss"
 level: "Vehicle 12"
-rare_03: "Unique"
+rare_03: [[Unique]]
 
 size: "Gargantuan"
 modifier: 

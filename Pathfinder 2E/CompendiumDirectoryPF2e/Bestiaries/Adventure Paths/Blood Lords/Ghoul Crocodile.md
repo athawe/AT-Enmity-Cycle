@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/ghoul
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Ghoul Crocodile"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #182: Graveclaw"
 name: "Ghoul Crocodile"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "amphibious"
-trait_02: "evil"
-trait_03: "ghoul"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[amphibious]]
+trait_02: [[evil]]
+trait_03: [[ghoul]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +12, Stealth: +9 (+13 in water)"
+    desc: "Athletics: +12, Stealth: +9"
 abilityMods: [4, 1, 3, -5, 1, -4]
 speed: 20 feet,  swim 25 feet
 sourcebook: "_Pathfinder #182: Graveclaw_"

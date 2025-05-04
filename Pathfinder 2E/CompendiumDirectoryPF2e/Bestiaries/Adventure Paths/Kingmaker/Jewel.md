@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.xMuLJmx51eBv9FcE"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/minion
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Jewel"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Jewel"
 level: "Creature 9"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "tiny"
-trait_01: "animal"
-trait_02: "minion"
+trait_01: [[animal]]
+trait_02: [[minion]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -58,7 +59,7 @@ attacks:
     desc: "`pf2:1` Jaws +19 (agile, finesse)\n__Damage__  1d4 + 1 piercing plus ankle-bite"
 
   - name: "Ankle Bite"
-    desc: "  If Jewel damages a Small or larger creature standing on the ground with her jaws Strike, that creature becomes [[Conditions/Off-Guard|Off-Guard]] for 1 round (or off-guard and [[Conditions/Clumsy 1|Clumsy 1]] for 1 round on a critical hit)."
+    desc: "  If Jewel damages a Small or larger creature standing on the ground with her jaws Strike, that creature becomes [[Conditions/Off-Guard|Off-Guard]] for 1 round (or off-guard and [[Conditions/Clumsy|Clumsy 1]] for 1 round on a critical hit)."
 
   - name: "Distracting Yipping"
     desc: "`pf2:2` (auditory,emotion,mental) Jewel unleashes a torrent of grating, high-pitched yips. All creatures other than Pavetta within 20 feet must attempt a DC 25 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected and becomes temporarily immune to Distracting Yipping for 24 hours.\n\n**Success** The creature takes a -2 status penalty to Perception checks for 1 round.\n\n**Failure** The creature takes a -4 status penalty to Perception checks and is [[Conditions/Off-Guard|Off-Guard]] for 1 round.\n\n**Critical Failure** As failure, but also, if the creature attempts any concentrate action during the round, they must succeed at a DC 11 Flat check or the action is lost."

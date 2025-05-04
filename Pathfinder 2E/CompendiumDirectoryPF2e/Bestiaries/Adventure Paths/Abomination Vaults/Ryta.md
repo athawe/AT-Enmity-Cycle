@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/ratfolk
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Ryta"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #164: Hands of the Devil"
 name: "Ryta"
 level: "Creature 4"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "humanoid"
-trait_02: "lawful"
-trait_03: "ratfolk"
+trait_01: [[humanoid]]
+trait_02: [[lawful]]
+trait_03: [[ratfolk]]
 modifier: 10
 perception:
   - name: "Perception"

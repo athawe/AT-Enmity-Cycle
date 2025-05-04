@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/aquatic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Scrapborn"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: The Enmity Cycle"
 name: "Scrapborn"
 level: "Creature 5"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "aquatic"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[aquatic]]
+trait_03: [[evil]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Thalassic"
 skills:
   - name: "Skills"
-    desc: "Athletics: +12, Intimidation: +12, Stealth: +11 (+15 in sewers and scrapyards)"
+    desc: "Athletics: +12, Intimidation: +12, Stealth: +11"
 abilityMods: [5, 4, 3, 0, 1, -2]
 speed: 25 feet,  swim 30 feet
 sourcebook: "_Pathfinder Adventure: The Enmity Cycle_"
@@ -62,7 +63,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Claw +14 ()\n__Damage__  2d8 + 5 piercing"
 
-  - name: "Ranged"
+  - name: "Melee"
     desc: "`pf2:1` Thrown Scrap +13 ()\n__Damage__  2d8 + 2 bludgeoning"
 
   - name: "Rebuild Armor"

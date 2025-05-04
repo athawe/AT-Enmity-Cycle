@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/elemental
   - pf2e/creature/type/genie
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Muurfeli"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #155: Lord of the Black Sands"
 name: "Muurfeli"
 level: "Creature 16"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "air"
-trait_02: "chaotic"
-trait_03: "elemental"
-trait_04: "genie"
+trait_01: [[air]]
+trait_02: [[chaotic]]
+trait_03: [[elemental]]
+trait_04: [[genie]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -57,7 +58,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Firedamp Winds"
-    desc: " (air,aura) 30 feet. DC 33 Fortitude check.\n\nSwirling winds of noxious, flammable gas surround a muurfeli. An open flame, spark, or similar fire effect in the area causes an explosion that deals 20d6 fire damage to all creatures in the aura (including the muurfeli) and temporarily disables the aura for 1 minute.\n\nWhen the muurfeli takes damage from an ability with the water trait or fails a saving throw against a water effect, their firedamp winds aura is disabled for 1 minute.\n\nA creature that enters or begins its turn in the aura must attempt a Fortitude save.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Sickened 1|Sickened 1]].\n\n**Failure** The creature is [[Conditions/Sickened 1|Sickened 2]].\n\n**Critical Failure** The creature is [[Conditions/Sickened 1|Sickened 2]] and [[Conditions/Fatigued|Fatigued]]."
+    desc: " (air,aura) 30 feet. DC 33 Fortitude check.\n\nSwirling winds of noxious, flammable gas surround a muurfeli. An open flame, spark, or similar fire effect in the area causes an explosion that deals 20d6 fire damage to all creatures in the aura (including the muurfeli) and temporarily disables the aura for 1 minute.\n\nWhen the muurfeli takes damage from an ability with the water trait or fails a saving throw against a water effect, their firedamp winds aura is disabled for 1 minute.\n\nA creature that enters or begins its turn in the aura must attempt a Fortitude save.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Sickened|Sickened 1]].\n\n**Failure** The creature is [[Conditions/Sickened|Sickened 2]].\n\n**Critical Failure** The creature is [[Conditions/Sickened|Sickened 2]] and [[Conditions/Fatigued|Fatigued]]."
 
 attacks:
   - name: ""

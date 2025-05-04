@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/evil
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Sandswept Statue"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #3-09: The Secluded Siege"
 name: "Sandswept Statue"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "construct"
-trait_02: "earth"
-trait_03: "evil"
-trait_04: "mindless"
+trait_01: [[construct]]
+trait_02: [[earth]]
+trait_03: [[evil]]
+trait_04: [[mindless]]
 modifier: 9
 perception:
   - name: "Perception"

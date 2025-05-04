@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/spirit
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/15
   - remaster
 statblock: inline
@@ -24,13 +25,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Monster Core"
 name: "Dybbuk"
 level: "Creature 15"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "incorporeal"
-trait_02: "spirit"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[incorporeal]]
+trait_02: [[spirit]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 27
 perception:
   - name: "Perception"
@@ -50,7 +51,7 @@ hp: 175
 health:
   - name: ""
   - name: HP
-    desc: "175, void healing; __Immunities__  death effects,  disease,  paralyzed,  poison,  precision,  unconscious,  bleed; __Resistances__ all damage 10 (except force, ghost touch, or vitality; double resistance vs. non-magical)"
+    desc: "175, void healing; __Immunities__  death effects,  disease,  paralyzed,  poison,  precision,  unconscious,  bleed; __Resistances__ all damage 10 (except force, ghost touch, spirit, or vitality; double resistance vs. non-magical)"
 abilities_top:
   - name: ""
 

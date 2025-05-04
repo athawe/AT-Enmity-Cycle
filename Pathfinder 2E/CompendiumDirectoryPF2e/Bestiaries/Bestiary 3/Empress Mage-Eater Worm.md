@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.JGpz9B0QkkAcHT4e" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Empress Mage-Eater Worm"
@@ -23,7 +24,7 @@ level: "Creature 7"
 
 alignment: ""
 size: "huge"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -65,7 +66,7 @@ attacks:
     desc: "`pf2:1`  The empress mage-eater worm Strides, leaving behind dribbles of acid in every square that it passes through.\n\nA creature that enters or begins its turn in such a square takes 3d6 acid damage (DC 22 Fortitude check save). The acid becomes inert after 1 minute."
 
   - name: "Painful Bite"
-    desc: "  The bite of an empress mage-eater worm causes excruciating pain. The target must succeed at a DC 25 Fortitude check save or become [[Conditions/Sickened 1|Sickened 1]] from the pain ([[Conditions/Sickened 1|Sickened 2]] on a critical failure).\n\nAdditionally, the worm also attempts a counteract check against a single spell affecting the creature (counteract rank 3, counteract modifier +12)."
+    desc: "  The bite of an empress mage-eater worm causes excruciating pain. The target must succeed at a DC 25 Fortitude check save or become [[Conditions/Sickened|Sickened 1]] from the pain ([[Conditions/Sickened|Sickened 2]] on a critical failure).\n\nAdditionally, the worm also attempts a counteract check against a single spell affecting the creature (counteract rank 3, counteract modifier +12)."
  
 ```
 

@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.wz2788pDzWe52BBE" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "Aspect of Hunger"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #174: Shadows of the Ancients"
 name: "Aspect of Hunger"
 level: "Creature 19"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "grg"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -43,14 +44,14 @@ hp: 410
 health:
   - name: ""
   - name: HP
-    desc: "410, fire healing; __Immunities__  mental"
+    desc: "410, fire healing; __Immunities__  mental,  immobilized"
 abilities_top:
   - name: ""
 
 abilities_mid:
   - name: ""
   - name: "Inexorable"
-    desc: "  The Aspect of Hunger recovers from the [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Slowed 1|Slowed]], and [[Conditions/Stunned 1|Stunned]] conditions at the end of its turn. It's also immune to penalties to its Speeds and the [[Conditions/Immobilized|Immobilized]] condition, and it ignores difficult terrain and greater difficult terrain."
+    desc: "  The Aspect of Hunger recovers from the [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Slowed|Slowed]], and [[Conditions/Stunned|Stunned]] conditions at the end of its turn. It's also immune to penalties to its Speeds and the [[Conditions/Immobilized|Immobilized]] condition, and it ignores difficult terrain and greater difficult terrain."
 
   - name: "Key Weakness"
     desc: "  The Aspect of Hunger is foiled by the bounty of natural magic. It has a weakness to divine spells and primal spells."
@@ -71,10 +72,10 @@ attacks:
     desc: "`pf2:1` Body +34 (mental, reach 15 feet)\n__Damage__  2d10 + 16 bludgeoning 2d6 mental"
 
   - name: "Aspect of Hunger Venom"
-    desc: " (poison) **Saving Throw** DC 41 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage and [[Conditions/Drained 1|Drained 1]] (1 round)\n\n**Stage 2** 2d6 poison damage and drained 1 (1 round)\n\n**Stage 3** 2d6 poison damage and [[Conditions/Drained 1|Drained 2]] (1 round)."
+    desc: " (poison) **Saving Throw** DC 41 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage and [[Conditions/Drained|Drained 1]] (1 round)\n\n**Stage 2** 2d6 poison damage and drained 1 (1 round)\n\n**Stage 3** 2d6 poison damage and [[Conditions/Drained|Drained 2]] (1 round)."
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (mental,primal) The Aspect of Hunger breathes a blast of hunger in a 60-foot cone that deals 18d6 mental damage to all creatures in the area (DC 41 Reflex check save).\n\nIt can't use Breath Weapon again for 1d4 rounds."
+    desc: "`pf2:2` (mental,primal) The Aspect of Hunger breathes a blast of hunger in a @Template[cone|distance:60] that deals 18d6 mental damage to all creatures in the area (DC 41 Reflex check save).\n\nIt can't use Breath Weapon again for 1d4 rounds."
 
   - name: "Essence of Hunger"
     desc: "  The Aspect of Hunger doesn't have the fire trait, immunity to fire, weakness to cold, or fire healing. It instead has immunity to mental effects, and its attacks deal mental damage instead of fire damage."

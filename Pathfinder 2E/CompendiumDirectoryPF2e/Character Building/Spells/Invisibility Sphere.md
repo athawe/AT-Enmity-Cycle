@@ -25,8 +25,10 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, occult"
-**Area** 10-foot emanation
-**Targets** you and any number of creatures in range  - name: "Duration"
+
+  - name: "Area"
+    desc: "10-foot emanationyou and any number of creatures in range"
+  - name: "Duration"
     desc: "10 minutes"
 abilities_mid:
   - name: ""

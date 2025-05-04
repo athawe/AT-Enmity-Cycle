@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.WMiPblOVq5w2Fa1x" 
 tags:
   - pf2e/creature/type/construct
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Aolaz"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 2"
 name: "Aolaz"
 level: "Creature 18"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "construct"
+trait_01: [[construct]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -71,7 +72,7 @@ attacks:
     desc: "`pf2:3`  Huge or smaller, foot, DC 40 Reflex check\n\n* * *\n"
 
   - name: "Ultrasonic Blast"
-    desc: "`pf2:1` (arcane,sonic) The aolaz releases a tremendous blast of sonic energy from its trunk in a 150-foot line, dealing 12d10 sonic damage. The frequency of this sound is such that it is completely imperceptible to humanoids, but the damage it wreaks is all too evident. Each creature in the area must attempt a DC 40 Fortitude check save.\n\nThe aolaz can't use Ultrasonic Blast again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage and is [[Conditions/Stunned 1|Stunned 1]].\n\n**Failure** The creature takes full damage and is [[Conditions/Stunned 1|Stunned 2]].\n\n**Critical Failure** The creature takes double damage and is [[Conditions/Stunned 1|Stunned 3]]."
+    desc: "`pf2:1` (arcane,sonic) The aolaz releases a tremendous blast of sonic energy from its trunk in a @Template[line|distance:150], dealing 12d10 sonic damage. The frequency of this sound is such that it is completely imperceptible to humanoids, but the damage it wreaks is all too evident. Each creature in the area must attempt a DC 40 Fortitude check save.\n\nThe aolaz can't use Ultrasonic Blast again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage and is [[Conditions/Stunned|Stunned 1]].\n\n**Failure** The creature takes full damage and is [[Conditions/Stunned|Stunned 2]].\n\n**Critical Failure** The creature takes double damage and is [[Conditions/Stunned|Stunned 3]]."
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

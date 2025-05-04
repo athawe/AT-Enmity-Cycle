@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/evil
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Manticore"
@@ -25,9 +26,9 @@ level: "Creature 6"
 
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "evil"
-trait_03: "lawful"
+trait_01: [[beast]]
+trait_02: [[evil]]
+trait_03: [[lawful]]
 modifier: 14
 perception:
   - name: "Perception"

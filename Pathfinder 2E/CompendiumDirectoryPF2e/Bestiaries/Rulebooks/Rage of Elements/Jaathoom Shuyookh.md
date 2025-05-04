@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/elemental
   - pf2e/creature/type/genie
+  - pf2eMonster
   - pf2e/creature/level/10
   - remaster
 statblock: inline
@@ -23,12 +24,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Rage of Elements"
 name: "Jaathoom Shuyookh"
 level: "Creature 10"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "air"
-trait_02: "elemental"
-trait_03: "genie"
+trait_01: [[air]]
+trait_02: [[elemental]]
+trait_03: [[genie]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -40,10 +41,10 @@ skills:
 abilityMods: [5, 7, 3, 5, 3, 6]
 speed: 25 feet
 sourcebook: "_Pathfinder Rage of Elements_"
-ac: 39
+ac: 29
 armorclass:
   - name: AC
-    desc: "39; __Fort__ +17, __Ref__ +21, __Will__ +19"
+    desc: "29; __Fort__ +17, __Ref__ +21, __Will__ +19"
 hp: 150
 health:
   - name: ""
@@ -92,7 +93,7 @@ attacks:
     desc: " (downtime) **Frequency** three times per year\n* * *\n\n**Effect** The shuyookh conducts a wish ritual for the benefit of a mortal, requiring no cost or secondary casters. The shuyookh's result is a success if they succeed at a DC 5 Flat check or a failure if not. The shuyookh's visions of the subject's future inform how it interprets the wish."
 
   - name: "Ominous Dreams"
-    desc: "`pf2:2` (mental,prediction) The jaathoom sends a prophetic dream into the mind of a sleeping creature within 60 feet. An unwilling creature can avoid the vision if it succeeds at a DC 32 Will check save. The jaathoom chooses the dream's subject but not its exact events. The target sees a brief vision of its future related to that subject, with the effect of augury. If the result is bad or mixed, the creature is [[Conditions/Frightened 1|Frightened 2]] and doesn't start to recover from being frightened until it wakes."
+    desc: "`pf2:2` (mental,prediction) The jaathoom sends a prophetic dream into the mind of a sleeping creature within 60 feet. An unwilling creature can avoid the vision if it succeeds at a DC 32 Will check save. The jaathoom chooses the dream's subject but not its exact events. The target sees a brief vision of its future related to that subject, with the effect of augury. If the result is bad or mixed, the creature is [[Conditions/Frightened|Frightened 2]] and doesn't start to recover from being frightened until it wakes."
  
 ```
 

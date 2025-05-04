@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
 
 source: Pathfinder Book of the Dead
 aliases: "Compendium.pf2e.book-of-the-dead-bestiary.Actor.uE6YuCCqU715E1Ay" 
@@ -21,13 +22,13 @@ name: "Bloodthirsty Toy"
 level: "Hazard 1"
 
 
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 7
 sourcebook: "_Pathfinder Book of the Dead_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 10
 health:
   - name: ""

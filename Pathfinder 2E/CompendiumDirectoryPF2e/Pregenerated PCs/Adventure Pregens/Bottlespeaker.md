@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Bottlespeaker
-creatures:
-  - 1: Bottlespeaker
-```
-
 
 
 

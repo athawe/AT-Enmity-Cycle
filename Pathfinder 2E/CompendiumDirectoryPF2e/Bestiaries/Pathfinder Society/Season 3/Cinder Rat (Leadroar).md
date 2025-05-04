@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.ATBFj4El0uLXDrjb"
 tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/fire
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Cinder Rat (Leadroar)"
@@ -24,8 +25,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Small"
-trait_01: "elemental"
-trait_02: "fire"
+trait_01: [[elemental]]
+trait_02: [[fire]]
 modifier: 9
 perception:
   - name: "Perception"

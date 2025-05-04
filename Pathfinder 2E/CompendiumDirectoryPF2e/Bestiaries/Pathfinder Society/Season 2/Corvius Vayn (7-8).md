@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Corvius Vayn (7-8)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-16: Freedom for Wishes"
 name: "Corvius Vayn (7-8)"
 level: "Creature 6"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Kelish, Petran, Pyric, Sussuran, Thalassic"
 skills:
   - name: "Skills"
-    desc: "Arcana: +18, Deception: +15, Diplomacy: +13, Genie Lore: +18, Society: +14, Thievery: +10"
+    desc: "Arcana: +18, Deception: +15, Diplomacy: +13, Society: +14, Thievery: +10, Genie Lore: +18"
 abilityMods: [1, 1, 0, 3, 2, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #2-16: Freedom for Wishes_"

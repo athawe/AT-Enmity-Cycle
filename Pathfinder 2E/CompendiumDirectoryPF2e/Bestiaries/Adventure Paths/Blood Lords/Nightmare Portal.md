@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #184: The Ghouls Hunger
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.ku6gSDVfrxBKwAC3" 
@@ -22,14 +23,14 @@ name: "Nightmare Portal"
 level: "Hazard 16"
 
 trait_06: "Complex"
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 32
 sourcebook: "_Pathfinder #184: The Ghouls Hunger_"
 ac: 39
 armorclass:
   - name: AC
-    desc: "39; __Fort__ +30, __Ref__ +25, __Will__ +0"
+    desc: "39; __Fort__ +30, __Ref__ +25, "
 hp: 104
 health:
   - name: ""

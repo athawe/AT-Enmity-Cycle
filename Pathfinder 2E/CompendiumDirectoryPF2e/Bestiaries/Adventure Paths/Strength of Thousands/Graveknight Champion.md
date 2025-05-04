@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Graveknight Champion"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #172: Secrets of the Temple-City"
 name: "Graveknight Champion"
 level: "Creature 15"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "lawful"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[lawful]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 27
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Necril"
 skills:
   - name: "Skills"
-    desc: "<Deity> Lore: +27, Athletics: +31, Intimidation: +29, Religion: +27"
+    desc: "Athletics: +31, Intimidation: +29, Religion: +27, <Deity> Lore: +27"
 abilityMods: [8, 4, 5, 2, 4, 6]
 speed: 25 feet
 sourcebook: "_Pathfinder #172: Secrets of the Temple-City_"
@@ -84,10 +85,10 @@ attacks:
     desc: "`pf2:2`  The graveknight redirects magical energies through its armor, allowing it to deliver magic through an attack.\n\nThe graveknight Casts a Spell that takes 1 or 2 actions to cast and requires a spell attack roll. The effects of the spell don't occur immediately but are imbued into an attack instead. The graveknight then makes a melee Strike with a weapon or unarmed attack. The spell is coupled with the attack, using the attack roll result to determine the effects of both the Strike and the spell.\n\nThis counts as two attacks for the graveknight's multiple attack penalty but doesn't apply the penalty until after it's completed Channeling Magic.\n\nThe graveknight can't use Channel Magic again for 1d4 rounds."
 
   - name: "[[Creature Family Ability Glossary/(Graveknight) Devastating Blast|Devastating Blast]]"
-    desc: "`pf2:2` (arcane) The graveknight unleashes a 30-foot cone of energy. Creatures in the area take 8d12 fire damage (DC 36 Reflex check save).\n\nThe graveknight can use this ability once every 1d4 rounds."
+    desc: "`pf2:2` (arcane) The graveknight unleashes a @Template[cone|distance:30] of energy. Creatures in the area take 8d12 fire damage (DC 36 Reflex check save).\n\nThe graveknight can use this ability once every 1d4 rounds."
 
   - name: "[[Creature Family Ability Glossary/(Graveknight) Graveknight's Curse|Graveknight's Curse]]"
-    desc: " (arcane,curse) This curse affects anyone who wears a graveknight's armor for at least 1 hour.\n* * *\n\n**Saving Throw** DC 36 Will check save\n\n**Onset** 1 hour\n\n**Stage 1** [[Conditions/Doomed 1|Doomed 1]] and cannot remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed 1|Doomed 2]], speed penalty of -10 feet, and cannot remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight."
+    desc: " (arcane,curse) This curse affects anyone who wears a graveknight's armor for at least 1 hour.\n* * *\n\n**Saving Throw** DC 36 Will check save\n\n**Onset** 1 hour\n\n**Stage 1** [[Conditions/Doomed|Doomed 1]] and cannot remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed|Doomed 2]], speed penalty of -10 feet, and cannot remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight."
 
   - name: "[[Creature Family Ability Glossary/(Graveknight) Weapon Master|Weapon Master]]"
     desc: "  The graveknight has access to the critical specialization effects of any weapons it wields."

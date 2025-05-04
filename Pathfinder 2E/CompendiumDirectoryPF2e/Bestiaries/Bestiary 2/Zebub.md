@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Zebub"
@@ -27,11 +28,11 @@ level: "Creature 3"
 
 alignment: ""
 size: "Small"
-trait_01: "devil"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "lawful"
-trait_05: "unholy"
+trait_01: [[devil]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[lawful]]
+trait_05: [[unholy]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -70,7 +71,7 @@ attacks:
     desc: "_[[Spells/Diabolic Pact|Infernal Pact]]_"
 
   - name: "Cocytan Filth"
-    desc: " (disease,virulent) **Saving Throw** DC 18 Fortitude check\n\n**Onset** 1d4 days\n* * *\n\n**Stage 1** [[Conditions/Enfeebled 1|Enfeebled 1]] (1 day)\n\n**Stage 2** [[Conditions/Enfeebled 1|Enfeebled 2]] (1 day)\n\n**Stage 3** [[Conditions/Enfeebled 1|Enfeebled 3]] (1 day)"
+    desc: " (disease,virulent) **Saving Throw** DC 18 Fortitude check\n\n**Onset** 1d4 days\n* * *\n\n**Stage 1** [[Conditions/Enfeebled|Enfeebled 1]] (1 day)\n\n**Stage 2** [[Conditions/Enfeebled|Enfeebled 2]] (1 day)\n\n**Stage 3** [[Conditions/Enfeebled|Enfeebled 3]] (1 day)"
 
   - name: "Infernal Eye"
     desc: "`pf2:3` (divine) The zebub records everything they see, and though they don't remember all observations, they can pass them along to another creature.\n\nThe zebub replays 10 minutes of witnessed events to a touched willing creature, which receives the memories in a flash of information. By remaining in contact, the zebub can spend additional 3-action activities to replay more information.\n\nAfter relaying their visions to another, the zebub can't ever recall those events again."

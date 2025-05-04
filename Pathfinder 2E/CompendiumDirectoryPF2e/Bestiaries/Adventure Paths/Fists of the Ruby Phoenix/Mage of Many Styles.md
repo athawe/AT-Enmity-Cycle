@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.fists-of-the-ruby-phoenix-bestiary.Actor.AYQEkPFyTuGlx
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Mage of Many Styles"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #166: Despair on Danger Island"
 name: "Mage of Many Styles"
 level: "Creature 13"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Taldane, Tien"
 skills:
   - name: "Skills"
-    desc: "Academia Lore: +26, Acrobatics: +23, Arcana: +28, Occultism: +26"
+    desc: "Acrobatics: +23, Arcana: +28, Occultism: +26, Academia Lore: +26"
 abilityMods: [3, 4, 3, 5, 1, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder #166: Despair on Danger Island_"

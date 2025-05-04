@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/orc
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Bloody Blade Mercenary"
@@ -27,11 +28,11 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "dromaar"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
-trait_05: "orc"
+trait_01: [[dromaar]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
+trait_05: [[orc]]
 modifier: 6
 perception:
   - name: "Perception"

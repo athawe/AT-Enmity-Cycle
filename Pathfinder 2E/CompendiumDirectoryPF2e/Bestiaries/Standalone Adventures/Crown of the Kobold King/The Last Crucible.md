@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Adventure: Crown of the Kobold King
 aliases: "Compendium.pf2e.crown-of-the-kobold-king-bestiary.Actor.E8nyAU02n190bMJG" 
@@ -22,14 +23,14 @@ name: "The Last Crucible"
 level: "Hazard 6"
 
 trait_06: "Complex"
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 5
 sourcebook: "_Pathfinder Adventure: Crown of the Kobold King_"
 ac: 22
 armorclass:
   - name: AC
-    desc: "22; __Fort__ +17, __Ref__ +11, __Will__ +0"
+    desc: "22; __Fort__ +17, __Ref__ +11, "
 hp: 58
 health:
   - name: ""

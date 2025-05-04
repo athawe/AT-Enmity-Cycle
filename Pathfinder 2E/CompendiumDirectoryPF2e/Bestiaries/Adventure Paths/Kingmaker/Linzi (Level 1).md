@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.ZaA9oQXOWne0IXSG"
 tags:
   - pf2e/creature/type/halfling
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Linzi (Level 1)"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Linzi (Level 1)"
 level: "Creature 1"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "halfling"
-trait_02: "humanoid"
+trait_01: [[halfling]]
+trait_02: [[humanoid]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Hallit, Common, Halfling"
 skills:
   - name: "Skills"
-    desc: "Art Lore: +0, Bardic Lore: +0, "
+    desc: ""
 abilityMods: [-1, 3, 1, 1, 1, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Kingmaker_"

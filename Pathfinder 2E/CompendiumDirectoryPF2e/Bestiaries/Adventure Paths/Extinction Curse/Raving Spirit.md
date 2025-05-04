@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
   - complex
 source: Pathfinder #153: Life&#x27;s Long Shadows
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.KXY9CRct0VKhiNob" 
@@ -21,7 +22,7 @@ name: "Raving Spirit"
 level: "Hazard 11"
 
 trait_06: "Complex"
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 10
 sourcebook: "_Pathfinder #153: Life's Long Shadows_"
 perception:

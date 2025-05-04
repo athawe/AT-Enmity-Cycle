@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #170: Spoken on the Song Wind
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.ZDiRrUHkhFz0mLc7" 
@@ -22,8 +23,8 @@ name: "Serpent Ward"
 level: "Hazard 7"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 15
 sourcebook: "_Pathfinder #170: Spoken on the Song Wind_"
 perception:

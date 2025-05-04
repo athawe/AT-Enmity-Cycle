@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.3kLXBdtKpUsU8ey5"
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Satyr"
@@ -24,8 +25,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "fey"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -62,10 +63,10 @@ attacks:
     desc: "`pf2:1` Dagger +14 (agile, finesse, versatile s)\n__Damage__  1d4 + 6 piercing"
 
   - name: "Ranged"
-    desc: "`pf2:1` Shortbow +14 (deadly d10, range increment 60 feet, reload 0)\n__Damage__  1d6 + 3 piercing"
+    desc: "`pf2:1` Dagger +14 (agile, thrown 10 ft., versatile s)\n__Damage__  1d4 + 6 piercing"
 
   - name: "Ranged"
-    desc: "`pf2:1` Dagger +14 (agile, thrown 10 ft., versatile s)\n__Damage__  1d4 + 6 piercing"
+    desc: "`pf2:1` Shortbow +14 (deadly d10, range increment 60 feet, reload 0)\n__Damage__  1d6 + 3 piercing"
 
   - name: "Primal Innate Spells"
     desc: "DC 21, attack +13; __4th __  _[[Spells/Charm|Charm]]_, _[[Spells/Fear|Fear]]_, _[[Spells/Sleep|Sleep]]_, _[[Spells/Suggestion|Suggestion]]_\n__Cantrips__  __(2nd)__ _[[Compendium.pf2e.spells-srd.Item.kl2q6JvBZwed4B6v|Dancing Lights]]_, _[[Spells/Ghost Sound|Ghost Sound]]_, _[[Spells/Uplifting Overture|Inspire Competence]]_, _[[Spells/Courageous Anthem|Inspire Courage]]_, _[[Spells/Triple Time|Triple Time]]_"
@@ -74,7 +75,7 @@ attacks:
     desc: "  When the satyr Plays the Pipes to cast a spell, he can Step or Stride as part of the activity."
 
   - name: "Play the Pipes"
-    desc: "`pf2:3` (auditory,primal) **Requirements** The satyr is holding a musical instrument.\n* * *\n\n**Effect** The satyr plays a melody on his instrument to cast [[Spells/Charm|Charm]], [[Spells/Fear|Fear]], [[Spells/Sleep|Sleep]], or [[Spells/Suggestion|Suggestion]] without expending the spell slot and using his music in place of providing the spell's component actions. The spell gains the auditory trait and targets all creatures in a 60-foot emanation instead of its usual targets. A creature that succeeds at its Will save against any spell is then temporarily immune from spells played from that satyr's pipes for 1 minute. Satyrs are immune to this music."
+    desc: "`pf2:3` (auditory,primal) **Requirements** The satyr is holding a musical instrument.\n* * *\n\n**Effect** The satyr plays a melody on his instrument to cast [[Spells/Charm|Charm]], [[Spells/Fear|Fear]], [[Spells/Sleep|Sleep]], or [[Spells/Suggestion|Suggestion]] without expending the spell slot and using his music in place of providing the spell's component actions. The spell gains the auditory trait and targets all creatures in a @Template[emanation|distance:60] instead of its usual targets. A creature that succeeds at its Will save against any spell is then temporarily immune from spells played from that satyr's pipes for 1 minute. Satyrs are immune to this music."
  
 ```
 

@@ -24,6 +24,7 @@ abilities_top:
     desc: "1 day"
   - name: "Primary Check"
     desc: "Religion (expert; you must be a div)"
+
 abilities_mid:
   - name: ""
     desc: "You call upon the powers of Abaddon to grant you the assistance of a div. You call upon a div whose level can be no more than double _div pact's_ spell rank, two divs whose levels are each at least 2 less than double the spell rank, or three divs whose levels are each at least 3 less than double the spell rank.\n* * *\n\n**Critical Success** You conjure the div or divs, and they require nothing in return for their service.\n\n**Success** You conjure the div or divs. They are not eager to pursue the task, so they require a favor in return.\n\n**Failure** you don't conjure any divs.\n\n**Critical Failure** You don't conjure any divs, and they send a spiritual backlash that denies your use of any of your innate divine spells for 24 hours. If you are under the effect of any of your innate divine spells, the durations end."

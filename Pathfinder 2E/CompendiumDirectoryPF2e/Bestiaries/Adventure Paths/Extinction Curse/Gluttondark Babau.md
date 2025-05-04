@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Gluttondark Babau"
@@ -27,11 +28,11 @@ level: "Creature 7"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "demon"
-trait_03: "evil"
-trait_04: "fiend"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[demon]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
+trait_05: [[unholy]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -83,7 +84,7 @@ attacks:
     desc: "_[[Spells/Demonic Pact|Abyssal Pact]]_"
 
   - name: "Grievous Strike"
-    desc: "`pf2:2` (attack) The babau makes an attack with the intent of creating a particularly horrific and gory wound. It make a melee Strike. This counts as two attacks when calculating their multiple attack penalty. If this Strike hits, the babau deals an additional 1d6 damage and the creature struck is [[Conditions/Sickened 1|Sickened 2]] for 1 round; this [[Conditions/Sickened 1|Sickened]] condition cannot be removed by retching."
+    desc: "`pf2:2` (attack) The babau makes an attack with the intent of creating a particularly horrific and gory wound. It make a melee Strike. This counts as two attacks when calculating their multiple attack penalty. If this Strike hits, the babau deals an additional 1d6 damage and the creature struck is [[Conditions/Sickened|Sickened 2]] for 1 round; this [[Conditions/Sickened|Sickened]] condition cannot be removed by retching."
 
   - name: "[[Bestiary Ability Glossary/Sneak Attack|Sneak Attack]]"
     desc: "  A babau deals an additional 1d6 precision damage precision damage to [[Conditions/Off-Guard|Off-Guard]] creatures."

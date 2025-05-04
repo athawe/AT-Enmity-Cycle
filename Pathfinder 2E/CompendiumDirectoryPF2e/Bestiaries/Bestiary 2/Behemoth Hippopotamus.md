@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.VrkmTQKB3Ln7wVTr" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Behemoth Hippopotamus"
@@ -23,7 +24,7 @@ level: "Creature 10"
 
 alignment: ""
 size: "huge"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +23, Stealth: +18 (+20 in Water), Survival: +17"
+    desc: "Athletics: +23, Stealth: +18, Survival: +17"
 abilityMods: [7, 4, 7, -4, 5, -2]
 speed: 35 feet,  swim 35 feet
 sourcebook: "_Pathfinder Bestiary 2_"
@@ -71,7 +72,7 @@ attacks:
     desc: "`pf2:1`  The behemoth hippo makes a jaws Strike targeting two creatures adjacent to each other. Roll the attack and damage once, and apply it to each creature separately. A Double Chomp counts as two attacks for the multiple attack penalty."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Medium, 2d12 + 10 bludgeoning damage, Rupture 26\n\n* * *\n"
+    desc: "`pf2:1` (attack) Medium, 2d12+10 bludgeoning damage, Rupture 26\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Trample|Trample]]"
     desc: "`pf2:3`  Large or smaller, foot, DC 29 Reflex check\n\n* * *\n"

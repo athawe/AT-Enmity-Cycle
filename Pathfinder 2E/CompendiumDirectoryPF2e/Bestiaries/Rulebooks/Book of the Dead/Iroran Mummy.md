@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/mummy
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Iroran Mummy"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Book of the Dead"
 name: "Iroran Mummy"
 level: "Creature 10"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "lawful"
-trait_02: "mummy"
-trait_03: "undead"
+trait_01: [[lawful]]
+trait_02: [[mummy]]
+trait_03: [[undead]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Necril; any two languages they knew while alive"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +25, Athletics: +21, Irori Lore: +25, Religion: +21"
+    desc: "Acrobatics: +25, Athletics: +21, Religion: +21, Irori Lore: +25"
 abilityMods: [5, 7, 4, 0, 5, 3]
 speed: 30 feet
 sourcebook: "_Pathfinder Book of the Dead_"
@@ -70,10 +71,10 @@ attacks:
     desc: "`pf2:1` Shuriken +23 (agile, thrown 20 ft.)\n__Damage__  2d4 + 11 piercing"
 
   - name: "Monk Ki Spells"
-    desc: "3 Focus Points, DC 29, attack +21; __5th __  _[[Spells/Ki Blast|Ki Blast]]_, _[[Spells/Ki Rush|Ki Rush]]_, _[[Spells/Ki Strike|Ki Strike]]_, _[[Spells/Wind Jump|Wind Jump]]_"
+    desc: "3 Focus Points, DC 29, attack +21; __5th __  _[[Spells/Qi Blast|Ki Blast]]_, _[[Spells/Qi Rush|Ki Rush]]_, _[[Spells/Inner Upheaval|Ki Strike]]_, _[[Spells/Wind Jump|Wind Jump]]_"
 
   - name: "Stunning Flurry"
-    desc: "`pf2:1`  **Frequency** once per round\n* * *\n\n**Effect** The Iroran mummy makes two unarmed Strikes. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses, and the target must succeed at a DC 29 Fortitude check save or be [[Conditions/Stunned 1|Stunned 1]] (or stunned 3 on a critical failure); this save has the incapacitation trait."
+    desc: "`pf2:1`  **Frequency** once per round\n* * *\n\n**Effect** The Iroran mummy makes two unarmed Strikes. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses, and the target must succeed at a DC 29 Fortitude check save or be [[Conditions/Stunned|Stunned 1]] (or stunned 3 on a critical failure); this save has the incapacitation trait."
  
 ```
 

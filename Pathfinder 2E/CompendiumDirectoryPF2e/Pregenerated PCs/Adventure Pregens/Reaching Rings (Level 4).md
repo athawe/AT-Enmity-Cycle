@@ -57,12 +57,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Reaching Rings (Level 4)
-creatures:
-  - 1: Reaching Rings (Level 4)
-```
-
 
 
 

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/animal
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Squirrelwind"
@@ -25,9 +26,9 @@ level: "Creature 10"
 
 alignment: ""
 size: "Large"
-trait_01: "air"
-trait_02: "animal"
-trait_03: "elemental"
+trait_01: [[air]]
+trait_02: [[animal]]
+trait_03: [[elemental]]
 modifier: 19
 perception:
   - name: "Perception"

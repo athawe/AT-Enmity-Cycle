@@ -24,6 +24,7 @@ abilities_top:
     desc: "1 day; **Cost** rare incenses, oils, and powdered silver, worth 150 gp total; **Secondary Casters** 3"
   - name: "Primary Check"
     desc: "Arcana, Nature, or Occultism (master); **Secondary Checks** Lore (any), Survival, Thievery"
+
   - name: "Duration"
     desc: "1 week"
 abilities_mid:

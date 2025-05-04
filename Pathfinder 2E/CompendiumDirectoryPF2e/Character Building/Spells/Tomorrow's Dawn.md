@@ -27,6 +27,7 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "occult, primal"
+
   - name: "Defense"
     desc: " will"
   - name: "Duration"

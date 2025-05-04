@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Flaming Eye (1-2)"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-05: Balancing the Scales"
 name: "Flaming Eye (1-2)"
 level: "Creature -1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "tiny"
-trait_01: "evil"
-trait_02: "fire"
-trait_03: "mindless"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[evil]]
+trait_02: [[fire]]
+trait_03: [[mindless]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -58,7 +59,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Explode"
-    desc: "  When the flaming eye dies, it explodes in a violent burst of flame, dealing 1d6 fire damage (DC 14 Reflex check save) to creatures in a 5-foot burst."
+    desc: "  When the flaming eye dies, it explodes in a violent burst of flame, dealing 1d6 fire damage (DC 14 Reflex check save) to creatures in a @Template[burst|distance:5]."
 
 attacks:
   - name: ""

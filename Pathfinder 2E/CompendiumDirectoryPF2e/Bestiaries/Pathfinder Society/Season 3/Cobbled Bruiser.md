@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.cYovLvzfbqkTF9uF"
 tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/earth
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Cobbled Bruiser"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #3-16: Escape from Oppara"
 name: "Cobbled Bruiser"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "earth"
+trait_01: [[aberration]]
+trait_02: [[earth]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -67,7 +68,7 @@ attacks:
     desc: "`pf2:1` Fist +13 (reach 10 feet)\n__Damage__  2d8 + 7 bludgeoning plus grab"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  1d8 + 7 bludgeoning, DC 20 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  1d8+7 bludgeoning, DC 20 Fortitude check\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

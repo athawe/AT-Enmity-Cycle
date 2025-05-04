@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/undine
   - pf2e/creature/type/vanara
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Younger Sister Vivatu"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #5-10: The Crocodile&#x27;s Smile"
 name: "Younger Sister Vivatu"
 level: "Creature 1"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "chaotic"
-trait_03: "humanoid"
-trait_04: "undine"
-trait_05: "vanara"
+trait_01: [[amphibious]]
+trait_02: [[chaotic]]
+trait_03: [[humanoid]]
+trait_04: [[undine]]
+trait_05: [[vanara]]
 modifier: 6
 perception:
   - name: "Perception"

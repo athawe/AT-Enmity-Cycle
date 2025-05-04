@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.PLOfWPKwB7pE4arv"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Innkeeper"
@@ -24,8 +25,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Accounting Lore: +5, Cooking Lore: +5, Deception: +6, Diplomacy: +8, Society: +7"
+    desc: "Deception: +6, Diplomacy: +8, Society: +7, Accounting Lore: +5, Cooking Lore: +5"
 abilityMods: [2, 0, 1, 2, 2, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

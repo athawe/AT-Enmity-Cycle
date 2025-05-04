@@ -36,6 +36,6 @@ abilities_top:
     desc: "1 minute"
 abilities_mid:
   - name: ""
-    desc: "Your patron’s majesty—or their displeasure—comes in a growl from your throat, making other creatures reluctant to harm you. The target must attempt a Will save; if the creature is an animal, fungus, or plant, it takes a –1 circumstance penalty to its save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** When the target attempts an attack roll or skill check that would harm you, it takes a -2 status penalty to its roll.\n\n**Failure** As success, but the target also becomes [[Conditions/Sickened 1|Sickened 1]] each time it damages you.\n\n**Critical Failure** As failure, but the sickened value is 2."
+    desc: "Your patron's majesty—or their displeasure—comes in a growl from your throat, making other creatures reluctant to harm you. The target must attempt a Will save; if the creature is an animal, fungus, or plant, it takes a –1 circumstance penalty to its save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** When the target attempts an attack roll or skill check that would harm you, it takes a -2 status penalty to its roll.\n\n**Failure** As success, but the target also becomes [[Conditions/Sickened 1|Sickened 1]] each time it damages you.\n\n**Critical Failure** As failure, but the sickened value is 2."
 sourcebook: "_Pathfinder Player Core_"
 ```

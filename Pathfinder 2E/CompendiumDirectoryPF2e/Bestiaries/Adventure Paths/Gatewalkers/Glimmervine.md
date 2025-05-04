@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.gatewalkers-bestiary.Actor.16Ru7zfHAHD544xO"
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Glimmervine"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #188: They Watched the Stars"
 name: "Glimmervine"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "mindless"
-trait_02: "plant"
+trait_01: [[mindless]]
+trait_02: [[plant]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -61,7 +62,7 @@ attacks:
     desc: "`pf2:1` Vine +14 (reach 10 feet)\n__Damage__  2d6 + 8 bludgeoning plus grab"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  2d6 + 4 bludgeoning, DC 21 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  2d6+4 bludgeoning, DC 21 Fortitude check\n\n* * *\n"
 
   - name: "Dazzling Blooms"
     desc: "`pf2:1` (visual) The glimmervine shakes its iridescent blossoms to astound nearby foes. All creatures within 30 feet, except other glimmervines, must attempt a DC 21 Fortitude check save. The glimmervine then can't use Dazzling Blooms for 1d4 rounds.\n\n**Success** The creature is unaffected.\n\n**Failure** The creature is [[Conditions/Dazzled|Dazzled]] for 1 round.\n\n**Critical Failure** The creature is [[Conditions/Blinded|Blinded]] for 1 round, then dazzled for 1 round."

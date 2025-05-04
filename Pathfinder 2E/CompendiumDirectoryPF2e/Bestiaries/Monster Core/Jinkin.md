@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.lFDYJOIp2knQ0IRY"
 tags:
   - pf2e/creature/type/fey
   - pf2e/creature/type/gremlin
+  - pf2eMonster
   - pf2e/creature/level/1
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "tiny"
-trait_01: "fey"
-trait_02: "gremlin"
+trait_01: [[fey]]
+trait_02: [[gremlin]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -34,7 +35,7 @@ perception:
 languages: "Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Crafting: +5 (+7 traps), Deception: +5, Nature: +5, Stealth: +7, Thievery: +7"
+    desc: "Acrobatics: +7, Crafting: +5, Deception: +5, Nature: +5, Stealth: +7, Thievery: +7"
 abilityMods: [-2, 4, 0, 2, 2, 2]
 speed: 30 feet
 sourcebook: "_Pathfinder Monster Core_"

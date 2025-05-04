@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.fcFQ2GDUZ9YAhiDC"
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Animated Trebuchet"
@@ -24,8 +25,8 @@ level: "Creature 13"
 
 alignment: ""
 size: "grg"
-trait_01: "construct"
-trait_02: "mindless"
+trait_01: [[construct]]
+trait_02: [[mindless]]
 modifier: 21
 perception:
   - name: "Perception"

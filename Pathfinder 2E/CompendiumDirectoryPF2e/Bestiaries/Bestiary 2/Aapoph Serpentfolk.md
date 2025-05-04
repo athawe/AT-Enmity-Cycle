@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/mutant
   - pf2e/creature/type/serpentfolk
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Aapoph Serpentfolk"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 2"
 name: "Aapoph Serpentfolk"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "mutant"
-trait_05: "serpentfolk"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[mutant]]
+trait_05: [[serpentfolk]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -74,7 +75,7 @@ attacks:
     desc: "`pf2:1` Tail +11 (agile)\n__Damage__  1d6 + 6 bludgeoning plus knockdown"
 
   - name: "Serpentfolk Venom"
-    desc: " (poison) **Saving Throw** DC 20 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d4 poison damage and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)\n\n**Stage 2** 2d4 poison damage and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 20 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d4 poison damage and [[Conditions/Enfeebled|Enfeebled 1]] (1 round)\n\n**Stage 2** 2d4 poison damage and [[Conditions/Enfeebled|Enfeebled 1]] (1 round)"
 
   - name: "Slithering Attack"
     desc: "`pf2:1`  The aapoph serpentfolk makes one scimitar or fangs Strike and one tail Strike, each targeting a different creature. These attacks both count toward the aapoph's multiple attack penalty, but the penalty doesn't increase until after the aapoph makes both attacks."

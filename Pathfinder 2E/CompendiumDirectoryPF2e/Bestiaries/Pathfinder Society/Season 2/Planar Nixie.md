@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Planar Nixie"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-16: Freedom for Wishes"
 name: "Planar Nixie"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "aquatic"
-trait_02: "chaotic"
-trait_03: "fey"
-trait_04: "water"
+trait_01: [[aquatic]]
+trait_02: [[chaotic]]
+trait_03: [[fey]]
+trait_04: [[water]]
 modifier: 8
 perception:
   - name: "Perception"

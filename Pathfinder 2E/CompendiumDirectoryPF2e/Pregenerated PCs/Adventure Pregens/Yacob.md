@@ -60,12 +60,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Yacob
-creatures:
-  - 1: Yacob
-```
-
 
 
 

@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/goblin
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/mortic
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Shadern Immolator"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Book of the Dead"
 name: "Shadern Immolator"
 level: "Creature 1"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fire"
-trait_04: "goblin"
-trait_05: "humanoid"
-trait_06: "mortic"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fire]]
+trait_04: [[goblin]]
+trait_05: [[humanoid]]
+trait_06: [[mortic]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -60,7 +61,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Consecration Vulnerability"
-    desc: "  A shadern in a place of worship dedicated to a non-evil deity or on sacred ground, such as an area blessed by [[Spells/Sanctified Ground|Sanctified Ground]], is [[Conditions/Slowed 1|Slowed 1]]."
+    desc: "  A shadern in a place of worship dedicated to a non-evil deity or on sacred ground, such as an area blessed by [[Spells/Anointed Ground|Anointed Ground]], is [[Conditions/Slowed|Slowed 1]]."
 
   - name: "Smoke Vision"
     desc: "  The shadern ignores the [[Conditions/Concealed|Concealed]] condition from smoke."

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/monitor
   - pf2e/creature/type/protean
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Voidworm"
@@ -25,9 +26,9 @@ level: "Creature 1"
 
 alignment: ""
 size: "tiny"
-trait_01: "chaotic"
-trait_02: "monitor"
-trait_03: "protean"
+trait_01: [[chaotic]]
+trait_02: [[monitor]]
+trait_03: [[protean]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -75,7 +76,7 @@ attacks:
     desc: "`pf2:1` (concentrate,divine,polymorph) The voidworm takes on the appearance of a Tiny animal. This doesn't change its Speed or its attack and damage bonuses with its Strikes, but might change the damage type its Strikes deal.\n\n* * *\n"
 
   - name: "Confounding Lash"
-    desc: " (divine,emotion,mental) A creature hit by the voidworm's tail Strike is [[Conditions/Stupefied 1|Stupefied 1]] for 1 round ([[Conditions/Stupefied 1|Stupefied 2]] on a critical hit). A successful DC 16 Will check save negates this effect and grants temporary immunity to confounding lash for 1 minute."
+    desc: " (divine,emotion,mental) A creature hit by the voidworm's tail Strike is [[Conditions/Stupefied|Stupefied 1]] for 1 round ([[Conditions/Stupefied|Stupefied 2]] on a critical hit). A successful DC 16 Will check save negates this effect and grants temporary immunity to confounding lash for 1 minute."
  
 ```
 

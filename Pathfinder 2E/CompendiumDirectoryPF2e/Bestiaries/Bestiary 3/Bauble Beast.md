@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.Yg7R4UgB1FjF2Euu"
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/earth
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Bauble Beast"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Bauble Beast"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "earth"
+trait_01: [[beast]]
+trait_02: [[earth]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Dwarven, Petran, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Athletics: +14, Crafting: +13 (+17 to Craft jewelry), Deception: +14, Diplomacy: +12, Jewelry Lore: +18, Society: +11, Stealth: +14, Thievery: +14"
+    desc: "Athletics: +14, Crafting: +13, Deception: +14, Diplomacy: +12, Society: +11, Stealth: +14, Thievery: +14, Jewelry Lore: +18"
 abilityMods: [4, 4, 3, 1, 3, 4]
 speed: 30 feet,  climb 10 feet
 sourcebook: "_Pathfinder Bestiary 3_"

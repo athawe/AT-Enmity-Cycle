@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.bblPYqxgXeRmR4Bi" 
 tags:
   - pf2e/creature/type/shadow
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Ghiono"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #186: Ghost King&#x27;s Rage"
 name: "Ghiono"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "shadow"
+trait_01: [[shadow]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Aklo, Common, Kelish, Necril, Osiriani, Sakvroth, Shae"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +35, Deception: +37, Diplomacy: +35, Occultism: +30, Religion: +30, Shadow Plane Lore: +30, Society: +30, Stealth: +35"
+    desc: "Acrobatics: +35, Deception: +37, Diplomacy: +35, Occultism: +30, Religion: +30, Society: +30, Stealth: +35, Shadow Plane Lore: +30"
 abilityMods: [4, 9, 5, 6, 6, 9]
 speed: 25 feet,  fly 35 feet
 sourcebook: "_Pathfinder #186: Ghost King&#x27;s Rage_"

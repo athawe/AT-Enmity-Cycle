@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
   - pf2e/creature/type/gremlin
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Vilm"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: A Few Flowers More"
 name: "Vilm"
 level: "Creature 1"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "tiny"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fey"
-trait_04: "gremlin"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fey]]
+trait_04: [[gremlin]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8, Crafting: +5 (+7 traps), Deception: +5, Nature: +5, Stealth: +7, Thievery: +7"
+    desc: "Acrobatics: +8, Crafting: +5, Deception: +5, Nature: +5, Stealth: +7, Thievery: +7"
 abilityMods: [-2, 4, 0, 2, 2, 2]
 speed: 30 feet
 sourcebook: "_Pathfinder Adventure: A Few Flowers More_"

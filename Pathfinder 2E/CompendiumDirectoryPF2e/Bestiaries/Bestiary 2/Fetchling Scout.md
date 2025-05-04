@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/fetchling
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/shadow
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Fetchling Scout"
@@ -25,9 +26,9 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "fetchling"
-trait_02: "humanoid"
-trait_03: "shadow"
+trait_01: [[fetchling]]
+trait_02: [[humanoid]]
+trait_03: [[shadow]]
 modifier: 5
 perception:
   - name: "Perception"

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/primal
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Grogrisant"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Monsters of Myth"
 name: "Grogrisant"
 level: "Creature 16"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "huge"
-trait_01: "beast"
-trait_02: "chaotic"
-trait_03: "primal"
+trait_01: [[beast]]
+trait_02: [[chaotic]]
+trait_03: [[primal]]
 modifier: 30
 perception:
   - name: "Perception"

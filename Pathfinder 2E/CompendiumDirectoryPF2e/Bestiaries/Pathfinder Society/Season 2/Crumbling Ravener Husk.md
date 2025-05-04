@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Crumbling Ravener Husk"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-24: Breaking The Storm: Parting Clouds"
 name: "Crumbling Ravener Husk"
 level: "Creature 9"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "chaotic"
-trait_02: "dragon"
-trait_03: "evil"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[dragon]]
+trait_03: [[evil]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -61,7 +62,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Boneshatter"
-    desc: "`pf2:r`  **Trigger** The ravener husk takes bludgeoning damage\n* * *\n\n**Effect** The ravener's brittle bones shatter, spraying bone shards everywhere. Every creature within a 10-foot emanation of the ravener husk takes 5d6 piercing damage (DC 25 Reflex check save)."
+    desc: "`pf2:r`  **Trigger** The ravener husk takes bludgeoning damage\n* * *\n\n**Effect** The ravener's brittle bones shatter, spraying bone shards everywhere. Every creature within a @Template[emanation|distance:10] of the ravener husk takes 5d6 piercing damage (DC 25 Reflex check save)."
 
   - name: "[[Bestiary Ability Glossary/Frightful Presence|Frightful Presence]]"
     desc: " (aura,emotion,fear,mental) 90 feet. DC 25 Will check\n\n* * *\n"

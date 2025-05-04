@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/mutant
   - pf2e/creature/type/sea-devil
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Sea Devil Baron"
@@ -28,12 +29,12 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "lawful"
-trait_05: "mutant"
-trait_06: "sea-devil"
+trait_01: [[amphibious]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
+trait_05: [[mutant]]
+trait_06: [[sea-devil]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -41,7 +42,7 @@ perception:
 languages: "Thalassic; shark commune 150 feet"
 skills:
   - name: "Skills"
-    desc: "Athletics: +15 (+18 to Swim), Intimidation: +12, Stealth: +12, Survival: +11"
+    desc: "Athletics: +15, Intimidation: +12, Stealth: +12, Survival: +11"
 abilityMods: [5, 2, 4, 0, 3, 2]
 speed: 25 feet,  swim 35 feet
 sourcebook: "_Pathfinder Bestiary_"

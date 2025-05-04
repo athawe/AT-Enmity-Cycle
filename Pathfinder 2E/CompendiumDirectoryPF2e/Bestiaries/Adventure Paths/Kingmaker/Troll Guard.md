@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/giant
   - pf2e/creature/type/troll
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Troll Guard"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Troll Guard"
 level: "Creature 15"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "giant"
-trait_04: "troll"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[giant]]
+trait_04: [[troll]]
 modifier: 27
 perception:
   - name: "Perception"
@@ -78,7 +79,7 @@ attacks:
     desc: "`pf2:1` (concentrate) **Requirements** The troll guard's regeneration is not currently deactivated.\n* * *\n\n**Effect** The guard king regains 20 HP."
 
   - name: "Primordial Roar"
-    desc: "`pf2:1` (auditory,emotion,fear,mental) The troll guard unleashes a bestial roar. Each non-troll creature within 100 feet must attempt a DC 35 Will check save. The creature is then temporarily immune for 10 minutes.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Frightened 1|Frightened 1]]\n\n**Failure** The creature is [[Conditions/Frightened 1|Frightened 2]]\n\n**Critical Failure** The creature is [[Conditions/Frightened 1|Frightened 3]]"
+    desc: "`pf2:1` (auditory,emotion,fear,mental) The troll guard unleashes a bestial roar. Each non-troll creature within 100 feet must attempt a DC 35 Will check save. The creature is then temporarily immune for 10 minutes.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Frightened|Frightened 1]]\n\n**Failure** The creature is [[Conditions/Frightened|Frightened 2]]\n\n**Critical Failure** The creature is [[Conditions/Frightened|Frightened 3]]"
 
   - name: "[[Bestiary Ability Glossary/Rend|Rend]]"
     desc: "`pf2:1`  Battleaxe\n\n* * *\n"

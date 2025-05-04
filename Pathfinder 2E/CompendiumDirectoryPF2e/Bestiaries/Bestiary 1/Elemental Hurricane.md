@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.FPKoiMXENk5FouXp"
 tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Elemental Hurricane"
@@ -24,8 +25,8 @@ level: "Creature 11"
 
 alignment: ""
 size: "huge"
-trait_01: "air"
-trait_02: "elemental"
+trait_01: [[air]]
+trait_02: [[elemental]]
 modifier: 20
 perception:
   - name: "Perception"
@@ -70,7 +71,7 @@ attacks:
     desc: "`pf2:1` Lightning Lash +24 (range increment 75 feet)\n__Damage__  2d12 + 6 electricity"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (air) The elemental breathes a 30-foot cone of air. Creatures in the cone must succeed at a DC 29 Fortitude check save or be knocked away from the elemental.\n\nA creature knocked into a solid object stops moving and takes 10d6 bludgeoning damage.\n\nThe elemental hurricane can't use Breath Weapon again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is Pushed 20 feet.\n\n**Failure** The creature is Pushed 40 feet.\n\n**Critical Failure** The creature is Pushed 40 feet and knocked [[Conditions/Prone|Prone]]."
+    desc: "`pf2:2` (air) The elemental breathes a @Template[cone|distance:30] of air. Creatures in the cone must succeed at a DC 29 Fortitude check save or be knocked away from the elemental.\n\nA creature knocked into a solid object stops moving and takes 10d6 bludgeoning damage.\n\nThe elemental hurricane can't use Breath Weapon again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is Pushed 20 feet.\n\n**Failure** The creature is Pushed 40 feet.\n\n**Critical Failure** The creature is Pushed 40 feet and knocked [[Conditions/Prone|Prone]]."
 
   - name: "[[Bestiary Ability Glossary/Push|Push 10 feet]]"
     desc: "`pf2:1`  "

@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Firestorm Brimorak"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-24: Breaking The Storm: Parting Clouds"
 name: "Firestorm Brimorak"
 level: "Creature 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "demon"
-trait_03: "evil"
-trait_04: "fiend"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[demon]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
+trait_05: [[unholy]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -88,7 +89,7 @@ attacks:
     desc: " (divine,fire) A brimorak's hooves and any weapon they wield burst into flame, dealing an extra 1d6 fire damage with each hit. If they don't have a weapon, they can create a flaming sword of fire and steel (see flaming sword Strike in Melee entry above)."
 
   - name: "Fume"
-    desc: "`pf2:2` (divine,fire) The brimorak emits a cloud of thick black smoke in a 10-foot burst that remains in place for 1d4 rounds. All creatures within the smoke become [[Conditions/Concealed|Concealed]], and all creatures outside the smoke become concealed to creatures within it. A creature that enters or begins its turn within the smoke it must succeed at a DC 24 Fortitude check save or become [[Conditions/Sickened 1|Sickened 1]] ([[Conditions/Sickened 1|Sickened 2]] on a critical failure)."
+    desc: "`pf2:2` (divine,fire) The brimorak emits a cloud of thick black smoke in a 10-foot burst that remains in place for 1d4 rounds. All creatures within the smoke become [[Conditions/Concealed|Concealed]], and all creatures outside the smoke become concealed to creatures within it. A creature that enters or begins its turn within the smoke it must succeed at a DC 24 Fortitude check save or become [[Conditions/Sickened|Sickened 1]] ([[Conditions/Sickened|Sickened 2]] on a critical failure)."
  
 ```
 

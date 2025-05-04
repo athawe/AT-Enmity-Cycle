@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Barralbus (1-2)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #1-12: The Burden of Envy"
 name: "Barralbus (1-2)"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Jotun, Thassilonian, Varisian"
 skills:
   - name: "Skills"
-    desc: "Accounting Lore: +9, Arcana: +11, Society: +9, Stealth: +7, Thassilon Lore: +9, Thievery: +9"
+    desc: "Arcana: +11, Society: +9, Stealth: +7, Thievery: +9, Accounting Lore: +9, Thassilon Lore: +9"
 abilityMods: [0, 2, 1, 4, 1, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #1-12: The Burden of Envy_"
@@ -65,7 +66,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Staff +12 (two-hand d8)\n__Damage__  1d4 + 1 bludgeoning"
 
-  - name: "Ranged"
+  - name: "Melee"
     desc: "`pf2:1` Crossbow +7 ()\n__Damage__  1d8 piercing"
 
   - name: "Arcane Prepared Spells"

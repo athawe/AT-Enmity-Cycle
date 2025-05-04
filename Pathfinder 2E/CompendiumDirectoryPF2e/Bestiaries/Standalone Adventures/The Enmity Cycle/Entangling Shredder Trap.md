@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Adventure: The Enmity Cycle
 aliases: "Compendium.pf2e.the-enmity-cycle-bestiary.Actor.9ochTIvh3CTSOknf" 
@@ -22,14 +23,14 @@ name: "Entangling Shredder Trap"
 level: "Hazard 6"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 15
 sourcebook: "_Pathfinder Adventure: The Enmity Cycle_"
 ac: 22
 armorclass:
   - name: AC
-    desc: "22; __Fort__ +11, __Ref__ +16, __Will__ +0"
+    desc: "22; __Fort__ +11, __Ref__ +16, "
 hp: 54
 health:
   - name: ""

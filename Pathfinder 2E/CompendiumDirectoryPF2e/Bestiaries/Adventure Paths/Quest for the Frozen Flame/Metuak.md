@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Metuak"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #177: Burning Tundra"
 name: "Metuak"
 level: "Creature 13"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "human"
-trait_05: "humanoid"
-trait_06: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[human]]
+trait_05: [[humanoid]]
+trait_06: [[unholy]]
 modifier: 20
 perception:
   - name: "Perception"
@@ -72,7 +73,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Claw +27 (magical, unholy)\n__Damage__  3d8 + 14 cold 2d6 spirit"
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Hatchet +27 (agile, magical, sweep, thrown 10 ft., unholy)\n__Damage__  3d6 + 14 slashing 1d6 spirit"
 
   - name: "Divine Innate Spells"

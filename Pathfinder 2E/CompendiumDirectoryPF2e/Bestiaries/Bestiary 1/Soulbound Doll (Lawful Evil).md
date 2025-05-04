@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/lawful
   - pf2e/creature/type/soulbound
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Soulbound Doll (Lawful Evil)"
@@ -26,10 +27,10 @@ level: "Creature 2"
 
 alignment: ""
 size: "tiny"
-trait_01: "construct"
-trait_02: "evil"
-trait_03: "lawful"
-trait_04: "soulbound"
+trait_01: [[construct]]
+trait_02: [[evil]]
+trait_03: [[lawful]]
+trait_04: [[soulbound]]
 modifier: 8
 perception:
   - name: "Perception"

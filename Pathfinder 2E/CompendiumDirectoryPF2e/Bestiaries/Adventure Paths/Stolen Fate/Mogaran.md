@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Mogaran"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #191: The Destiny War"
 name: "Mogaran"
 level: "Creature 17"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "huge"
-trait_01: "chaotic"
-trait_02: "demon"
-trait_03: "evil"
-trait_04: "fiend"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[demon]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
+trait_05: [[unholy]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -64,7 +65,7 @@ abilities_mid:
     desc: " (aura,emotion,fear,mental) 60 feet. DC 35 Will check\n\nThis aura is suppressed as long as Mogaran's crystal implant is functioning.\n\n* * *\n"
 
   - name: "Restoration Vulnerability"
-    desc: "  Mogaran is repulsed by the restoration of souls. He takes 3d10 + 10 mental damage the first time each round a creature within 100 feet of him is restored to life or loses the [[Conditions/Doomed 1|Doomed]] condition."
+    desc: "  Mogaran is repulsed by the restoration of souls. He takes 3d10+10 mental damage the first time each round a creature within 100 feet of him is restored to life or loses the [[Conditions/Doomed|Doomed]] condition."
 
 attacks:
   - name: ""
@@ -82,16 +83,16 @@ attacks:
     desc: "DC 38, attack +30; __9th __  _[[Spells/Massacre|Massacre]]_, _[[Spells/Power Word Stun|Power Word Stun]]_; __8th __  _[[Spells/Divine Aura|Divine Aura]]_, _[[Spells/Divine Wrath|Divine Wrath (At Will)]]_, _[[Spells/Earthquake|Earthquake]]_; __5th __  _[[Spells/Translocate|Dimension Door]]_; __4th __  _[[Spells/Translocate|Dimension Door (At Will)]]_\n__Constant__  __(9th)__ _[[Spells/Truesight|True Seeing]]_"
 
   - name: "[[Actor.RLuLdBW6SSs9u2hL.Item.oe15nn62zh9y60Wn|Smoking Wound]]"
-    desc: "  A creature damaged by Mogaran's jaws is [[Conditions/Sickened 1|Sickened 1]] from the rank smell of vapors from the wound."
+    desc: "  A creature damaged by Mogaran's jaws is [[Conditions/Sickened|Sickened 1]] from the rank smell of vapors from the wound."
 
   - name: "Soulfire Breath"
-    desc: "`pf2:2` (death,divine,void) Mogaran exhales ghostly green fire in a 60-foot cone. Living creatures in the area take 18d6 void damage (DC 38 Reflex check save). A good creature that fails this save becomes [[Conditions/Stupefied 1|Stupefied 2]] for 1 minute ([[Conditions/Stupefied 1|Stupefied 4]] on a critical failure). A creature slain by Soulfire Breath can't be resurrected except by powerful magic such as a wish spell. Mogaran can't use Soulfire Breath again for 1d4 rounds."
+    desc: "`pf2:2` (death,divine,void) Mogaran exhales ghostly green fire in a @Template[cone|distance:60]. Living creatures in the area take 18d6 void damage (DC 38 Reflex check save). A good creature that fails this save becomes [[Conditions/Stupefied|Stupefied 2]] for 1 minute ([[Conditions/Stupefied|Stupefied 4]] on a critical failure). A creature slain by Soulfire Breath can't be resurrected except by powerful magic such as a wish spell. Mogaran can't use Soulfire Breath again for 1d4 rounds."
 
   - name: "Soulfire Inhalation"
     desc: "`pf2:1` (divine,healing) **Requirements** Mogaran's last action was Soulfire Breath\n* * *\n\n**Effect** Mogaran inhales and regains 10 Hit Points for each creature damaged by his Soulfire Breath. Any excess healing is gained as temporary Hit Points, which remain for 1 minute."
 
   - name: "Stunning Tail"
-    desc: " (incapacitation) If Mogaran critically hits with his tail Strike, the target must succeed at a DC 38 Fortitude check save or be [[Conditions/Stunned 1|Stunned]] for 1 round (1d4 rounds on a critical failure)."
+    desc: " (incapacitation) If Mogaran critically hits with his tail Strike, the target must succeed at a DC 38 Fortitude check save or be [[Conditions/Stunned|Stunned]] for 1 round (1d4 rounds on a critical failure)."
 
   - name: "[[Bestiary Ability Glossary/Trample|Trample]]"
     desc: "`pf2:3`  Large or smaller, claw, DC 38 Reflex check\n\n* * *\n"

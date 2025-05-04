@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/nephilim
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Lomok"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #177: Burning Tundra"
 name: "Lomok"
 level: "Creature 11"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
-trait_05: "nephilim"
+trait_01: [[good]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
+trait_05: [[nephilim]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -59,7 +60,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Aura of Courage"
-    desc: "  15 feet. Whenever Lomok becomes [[Conditions/Frightened 1|Frightened]], reduce the condition value by 1 (minimum 0). At the end of his turn, when he would reduce his frightened condition value by 1, also reduce the value by 1 for all allies in his aura."
+    desc: "  15 feet. Whenever Lomok becomes [[Conditions/Frightened|Frightened]], reduce the condition value by 1 (minimum 0). At the end of his turn, when he would reduce his frightened condition value by 1, also reduce the value by 1 for all allies in his aura."
 
   - name: "Powerful Will"
     desc: "  When Lomok rolls a success on a Will save, he gets a critical success instead."

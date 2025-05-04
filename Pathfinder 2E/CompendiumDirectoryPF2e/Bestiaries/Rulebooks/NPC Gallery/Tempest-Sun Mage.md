@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Tempest-Sun Mage"
@@ -25,9 +26,9 @@ level: "Creature 11"
 
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[good]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Mwangi"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +18, Arcana: +23, Diplomacy: +16, Intimidation: +16, Magaambya Lore: +23, Medicine: +19, Nature: +21, Survival: +21"
+    desc: "Acrobatics: +18, Arcana: +23, Diplomacy: +16, Intimidation: +16, Medicine: +19, Nature: +21, Survival: +21, Magaambya Lore: +23"
 abilityMods: [0, 4, 3, 5, 3, 1]
 speed: 30 feet
 sourcebook: "_Pathfinder Lost Omens: Character Guide_"

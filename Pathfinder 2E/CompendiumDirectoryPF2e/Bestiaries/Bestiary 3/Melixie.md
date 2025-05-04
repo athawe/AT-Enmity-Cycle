@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
   - pf2e/creature/type/sprite
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Melixie"
@@ -25,9 +26,9 @@ level: "Creature 0"
 
 alignment: ""
 size: "tiny"
-trait_01: "chaotic"
-trait_02: "fey"
-trait_03: "sprite"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
+trait_03: [[sprite]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Fey; speak with arthropods"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +6, Confectionery Lore: +6, Crafting: +6, Stealth: +6"
+    desc: "Acrobatics: +6, Crafting: +6, Stealth: +6, Confectionery Lore: +6"
 abilityMods: [-1, 4, 2, 2, 0, 3]
 speed: 10 feet,  fly 40 feet
 sourcebook: "_Pathfinder Bestiary 3_"

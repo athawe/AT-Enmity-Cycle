@@ -6,6 +6,7 @@ tags:
   - chaotic
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #2-09: The Seven Secrets of Dacilane Academy
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.pNPUo3lDaw7ZoDek" 
@@ -23,15 +24,15 @@ name: "Chaotic Door (3-4)"
 level: "Hazard 3"
 
 
-trait_01: "chaotic"
-trait_02: "magical"
-trait_03: "trap"
+trait_01: [[chaotic]]
+trait_02: [[magical]]
+trait_03: [[trap]]
 modifier: 13
 sourcebook: "_Pathfinder Society Scenario #2-09: The Seven Secrets of Dacilane Academy_"
 ac: 21
 armorclass:
   - name: AC
-    desc: "21; __Fort__ +12, __Ref__ +13, __Will__ +0"
+    desc: "21; __Fort__ +12, __Ref__ +13, "
 hp: 40
 health:
   - name: ""

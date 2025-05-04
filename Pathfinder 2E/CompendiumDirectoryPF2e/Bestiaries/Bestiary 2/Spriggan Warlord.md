@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/gnome
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/spriggan
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Spriggan Warlord"
@@ -25,9 +26,9 @@ level: "Creature 7"
 
 alignment: ""
 size: "Small"
-trait_01: "gnome"
-trait_02: "humanoid"
-trait_03: "spriggan"
+trait_01: [[gnome]]
+trait_02: [[humanoid]]
+trait_03: [[spriggan]]
 modifier: 14
 perception:
   - name: "Perception"

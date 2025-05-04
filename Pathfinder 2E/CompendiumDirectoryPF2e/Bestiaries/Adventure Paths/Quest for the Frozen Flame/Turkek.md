@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Turkek"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #176: Lost Mammoth Valley"
 name: "Turkek"
 level: "Creature 7"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "dhampir"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
+trait_01: [[dhampir]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -72,7 +73,7 @@ attacks:
     desc: "DC 25, attack +17; __4th __  _[[Spells/Sanguine Mist|Sanguine Mist]]_; __3rd __  _[[Spells/Bind Undead|Bind Undead]]_; __2nd __  _[[Spells/Blood Vendetta|Blood Vendetta]]_, _[[Spells/Bone Spray|Bone Spray]]_, _[[Spells/False Vitality|False Life]]_, _[[Spells/Invisibility|Invisibility]]_, _[[Spells/Gecko Grip|Spider Climb]]_; __1st __  _[[Spells/Grim Tendrils|Grim Tendrils]]_, _[[Spells/Mystic Armor|Mage Armor]]_, _[[Spells/Enfeeble|Ray of Enfeeblement]]_\n__Cantrips__  __(4th)__ _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Ghost Sound|Ghost Sound]]_, _[[Spells/Telekinetic Hand|Mage Hand]]_, _[[Spells/Shield|Shield]]_, _[[Spells/Telekinetic Projectile|Telekinetic Projectile]]_"
 
   - name: "Blood Let"
-    desc: "`pf2:1`  **Requirements** Turkek's last action was a fang Strike that hit the target\n* * *\n\n**Effect** Turkek rips her fangs across one of the target's arteries or veins, dealing an additional 1d6 + 5 slashing damage."
+    desc: "`pf2:1`  **Requirements** Turkek's last action was a fang Strike that hit the target\n* * *\n\n**Effect** Turkek rips her fangs across one of the target's arteries or veins, dealing an additional 1d6+5 slashing damage."
 
   - name: "Siphon Blood"
     desc: "`pf2:2`  **Requirements** A creature within Turkek's sanguine aura is taking persistent bleed damage\n* * *\n\n**Effect** Turkek draws her enemy's blood into her own body to heal her wounds. She regains 7 Hit Points."

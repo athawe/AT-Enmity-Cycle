@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.qnFiUNUyH0zuG6hj"
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Quintessivore"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Quintessivore"
 level: "Creature 10"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "beast"
-trait_02: "evil"
+trait_01: [[beast]]
+trait_02: [[evil]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -71,7 +72,7 @@ attacks:
     desc: "`pf2:1` (arcane) The quintessivore suspends the life processes of a dying creature within 15 feet of it. The creature can't decrease or increase its HP or dying value for 10 minutes. The creature can attempt a DC 29 Will check save to avoid this effect. If the creature receives magical healing, it can attempt a new save, ending the effect and being healed normally on a success.\n\nThe effect ends if the quintessivore uses Suspend Soul again."
 
   - name: "Tattered Soul"
-    desc: "  A creature hit by the quintessivore's blade-leg Strike must succeed at a DC 29 Fortitude check save or become [[Conditions/Drained 1|Drained 1]] ([[Conditions/Drained 1|Drained 2]] on a critical failure). If the creature is already drained, it's immune to this effect."
+    desc: "  A creature hit by the quintessivore's blade-leg Strike must succeed at a DC 29 Fortitude check save or become [[Conditions/Drained|Drained 1]] ([[Conditions/Drained|Drained 2]] on a critical failure). If the creature is already drained, it's immune to this effect."
  
 ```
 

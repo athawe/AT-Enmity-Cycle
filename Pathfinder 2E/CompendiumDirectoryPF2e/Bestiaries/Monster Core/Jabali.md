@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/elemental
   - pf2e/creature/type/genie
+  - pf2eMonster
   - pf2e/creature/level/7
   - remaster
 statblock: inline
@@ -23,12 +24,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Monster Core"
 name: "Jabali"
 level: "Creature 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "earth"
-trait_02: "elemental"
-trait_03: "genie"
+trait_01: [[earth]]
+trait_02: [[elemental]]
+trait_03: [[genie]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -71,7 +72,7 @@ attacks:
     desc: "  The jabali can [[Actions/Burrow|Burrow]] through dirt and stone at its full burrow Speed, leaving no tunnels or signs of its passing."
 
   - name: "Stone Clutch"
-    desc: " (arcane,earth) When the jabali Pushes a creature into a stone barrier, the surface grips it with fingers of stone. The target must succeed at a DC 22 Reflex check save or become [[Conditions/Grabbed|Grabbed]] by the surface ([[Actions/Escape|Escape]] DC 28)."
+    desc: " (arcane,earth) When the jabali Pushes a creature into a stone barrier, the surface grips it with fingers of stone. The target must succeed at a DC 22 Reflex check save or become [[Conditions/Grabbed|Grabbed]] by the surface ([[/act escape dc=28]])."
 
   - name: "[[Bestiary Ability Glossary/Push|Push 10 feet]]"
     desc: "`pf2:1`  "

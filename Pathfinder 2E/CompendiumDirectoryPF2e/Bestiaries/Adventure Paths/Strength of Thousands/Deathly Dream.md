@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #173: Doorway to the Red Star
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.34ndZHSZRtvqNUxa" 
@@ -22,14 +23,14 @@ name: "Deathly Dream"
 level: "Hazard 15"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 28
 sourcebook: "_Pathfinder #173: Doorway to the Red Star_"
 ac: 34
 armorclass:
   - name: AC
-    desc: "34; __Fort__ +29, __Ref__ +23, __Will__ +0"
+    desc: "34; __Fort__ +29, __Ref__ +23, "
 hp: 96
 health:
   - name: ""

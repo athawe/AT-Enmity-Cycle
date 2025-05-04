@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.kSk6QjH4wDGPPFrY" 
 tags:
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Rokurokubi"
@@ -23,7 +24,7 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
+trait_01: [[humanoid]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Athletics: +7, Deception: +8, Diplomacy: +8, Intimidation: +8 (+10 to Demoralize with Threatening Lunge), Society: +6, Stealth: +8"
+    desc: "Athletics: +7, Deception: +8, Diplomacy: +8, Intimidation: +8, Society: +6, Stealth: +8"
 abilityMods: [3, 4, 3, 2, 3, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"

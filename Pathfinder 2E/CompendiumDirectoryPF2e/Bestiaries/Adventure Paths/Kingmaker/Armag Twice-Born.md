@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Armag Twice-Born"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Armag Twice-Born"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 24
 perception:
   - name: "Perception"
@@ -58,7 +59,7 @@ abilities_mid:
     desc: "`pf2:r`  "
 
   - name: "No Time To Die"
-    desc: "  As long as Armag wields _Ovinrbaane_ and is raging, the combination of the sword's magic and Armag's furious conviction that he is the true Armag protects him from death. His eyes and the sword's blade weep with blood and glow with red light at this time. As long as these conditions persist, he never increases beyond [[Conditions/Dying 1|Dying 3]] and is not rendered [[Conditions/Unconscious|Unconscious]]. Instead, Armag becomes [[Conditions/Confused|Confused]] and continues to fight. If _Ovinrbaane_ is taken from him (such as via a successful [[Actions/Disarm|Disarm]]), or if his rage ends while he is dying, he immediately dies regardless of his dying condition value. If he's healed to at least 1 Hit Point, the confusion effect immediately ends."
+    desc: "  As long as Armag wields _Ovinrbaane_ and is raging, the combination of the sword's magic and Armag's furious conviction that he is the true Armag protects him from death. His eyes and the sword's blade weep with blood and glow with red light at this time. As long as these conditions persist, he never increases beyond [[Conditions/Dying|Dying 3]] and is not rendered [[Conditions/Unconscious|Unconscious]]. Instead, Armag becomes [[Conditions/Confused|Confused]] and continues to fight. If _Ovinrbaane_ is taken from him (such as via a successful [[Actions/Disarm|Disarm]]), or if his rage ends while he is dying, he immediately dies regardless of his dying condition value. If he's healed to at least 1 Hit Point, the confusion effect immediately ends."
 
   - name: "Second Wind"
     desc: "`pf2:r`  **Trigger** Armag is [[Conditions/Fatigued|Fatigued]] and scores a critical hit with a melee strike or reduces a creature to 0 Hit Points with a melee Strike\n\n**Effect** Armag draws upon inner reserves of furious energy. He is no longer fatigued."

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.menace-under-otari-bestiary.Actor.aeCoh4u6c5kt1iCs"
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/earth
+  - pf2eMonster
   - pf2e/creature/level/4
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "beast"
-trait_02: "earth"
+trait_01: [[beast]]
+trait_02: [[earth]]
 modifier: 10
 perception:
   - name: "Perception"

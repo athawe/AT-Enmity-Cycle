@@ -26,6 +26,7 @@ abilities_top:
     desc: "1 day; **Cost** a lavish meal with expensive alcohol for every caster (225 gp); **Secondary Casters** 8"
   - name: "Primary Check"
     desc: "Occultism or Religion; **Secondary Checks** Performance"
+
   - name: "Duration"
     desc: "until midnight (see text)"
 abilities_mid:

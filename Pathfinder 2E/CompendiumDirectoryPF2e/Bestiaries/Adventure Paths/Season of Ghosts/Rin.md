@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/kitsune
   - pf2e/creature/type/spirit
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Rin"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #198: No Breath to Cry"
 name: "Rin"
 level: "Creature 8"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "ghost"
-trait_03: "incorporeal"
-trait_04: "kitsune"
-trait_05: "spirit"
-trait_06: "undead"
+trait_01: [[chaotic]]
+trait_02: [[ghost]]
+trait_03: [[incorporeal]]
+trait_04: [[kitsune]]
+trait_05: [[spirit]]
+trait_06: [[undead]]
 modifier: 15
 perception:
   - name: "Perception"

@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Qormintur"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #155: Lord of the Black Sands"
 name: "Qormintur"
 level: "Creature 16"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "duergar"
-trait_02: "dwarf"
-trait_03: "evil"
-trait_04: "humanoid"
-trait_05: "lawful"
+trait_01: [[duergar]]
+trait_02: [[dwarf]]
+trait_03: [[evil]]
+trait_04: [[humanoid]]
+trait_05: [[lawful]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Dwarven, Elven, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +29, Crafting: +32, Deception: +25, Occultism: +28, Shraen Lore: +28, Society: +30, Stealth: +27, Survival: +27"
+    desc: "Acrobatics: +29, Crafting: +32, Deception: +25, Occultism: +28, Society: +30, Stealth: +27, Survival: +27, Shraen Lore: +28"
 abilityMods: [2, 5, 3, 6, 3, 1]
 speed: 20 feet
 sourcebook: "_Pathfinder #155: Lord of the Black Sands_"

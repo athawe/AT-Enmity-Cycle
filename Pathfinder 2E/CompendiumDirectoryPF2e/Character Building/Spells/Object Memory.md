@@ -27,7 +27,11 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
-**Targets** 1 weapon or tool  - name: "Duration"
+
+  - name: "Targets"
+
+    desc: "1 weapon or tool"
+  - name: "Duration"
     desc: "1 minute"
 abilities_mid:
   - name: ""

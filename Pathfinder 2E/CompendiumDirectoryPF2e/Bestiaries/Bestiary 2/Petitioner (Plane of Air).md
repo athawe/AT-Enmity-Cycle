@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.6FltuGxvUoNH9b17"
 tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/petitioner
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Petitioner (Plane of Air)"
@@ -24,8 +25,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "air"
-trait_02: "petitioner"
+trait_01: [[air]]
+trait_02: [[petitioner]]
 modifier: 7
 perception:
   - name: "Perception"

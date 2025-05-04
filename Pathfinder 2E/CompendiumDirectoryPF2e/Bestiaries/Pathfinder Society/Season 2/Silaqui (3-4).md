@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/lawful
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Silaqui (3-4)"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-06: The Crashing Wave"
 name: "Silaqui (3-4)"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "aquatic"
-trait_02: "elemental"
-trait_03: "evil"
-trait_04: "lawful"
-trait_05: "water"
+trait_01: [[aquatic]]
+trait_02: [[elemental]]
+trait_03: [[evil]]
+trait_04: [[lawful]]
+trait_05: [[water]]
 modifier: 7
 perception:
   - name: "Perception"

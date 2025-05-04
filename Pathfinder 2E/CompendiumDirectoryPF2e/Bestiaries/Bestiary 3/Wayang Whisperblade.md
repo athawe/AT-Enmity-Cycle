@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/shadow
   - pf2e/creature/type/wayang
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Wayang Whisperblade"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Wayang Whisperblade"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "humanoid"
-trait_02: "shadow"
-trait_03: "wayang"
+trait_01: [[humanoid]]
+trait_02: [[shadow]]
+trait_03: [[wayang]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Shadowtongue"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Deception: +4, Occultism: +6, Performance: +6, Shadow Plane Lore: +6, Stealth: +7, Thievery: +7"
+    desc: "Acrobatics: +7, Deception: +4, Occultism: +6, Performance: +6, Stealth: +7, Thievery: +7, Shadow Plane Lore: +6"
 abilityMods: [0, 4, 1, 3, 0, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"

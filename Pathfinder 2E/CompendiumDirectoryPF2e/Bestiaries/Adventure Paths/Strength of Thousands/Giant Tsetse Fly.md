@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.CUkPnLXw1H0e5NMe" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Giant Tsetse Fly"
@@ -23,7 +24,7 @@ level: "Creature 2"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +8, Stealth: +5 (+9 to hide)"
+    desc: "Athletics: +8, Stealth: +5"
 abilityMods: [5, 3, 3, -5, 1, -5]
 speed: 10 feet,  fly 40 feet
 sourcebook: "_Pathfinder #169: Kindled Magic_"
@@ -62,7 +63,7 @@ attacks:
     desc: "`pf2:1`  If the fly's last action was a successful proboscis Strike, it sucks its target's blood. The target takes 1d4 bleed (or 1d6 bleed if the target is an animal)."
 
   - name: "Sleeping Sickness"
-    desc: " (disease) **Saving Throw** DC 18 Fortitude check\n\n**Stage 1** [[Conditions/Enfeebled 1|Enfeebled 1]] (1 day)\n\n**Stage 2** enfeebled 1 and [[Conditions/Drained 1|Drained 1]] (1 day)\n\n**Stage 3** [[Conditions/Unconscious|Unconscious]]\n\n(1 day)\n\n**Stage 4** as Stage 3 (1 day)\n\n**Stage 5** dead"
+    desc: " (disease) **Saving Throw** DC 18 Fortitude check\n\n**Stage 1** [[Conditions/Enfeebled|Enfeebled 1]] (1 day)\n\n**Stage 2** enfeebled 1 and [[Conditions/Drained|Drained 1]] (1 day)\n\n**Stage 3** [[Conditions/Unconscious|Unconscious]]\n\n(1 day)\n\n**Stage 4** as Stage 3 (1 day)\n\n**Stage 5** dead"
  
 ```
 

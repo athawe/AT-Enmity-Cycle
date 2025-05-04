@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/daemon
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/1
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 1"
 
 alignment: ""
 size: "tiny"
-trait_01: "daemon"
-trait_02: "fiend"
-trait_03: "unholy"
+trait_01: [[daemon]]
+trait_02: [[fiend]]
+trait_03: [[unholy]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -64,7 +65,7 @@ attacks:
     desc: "DC 17, attack +9; __4th __  _[[Spells/Read Omens|Read Omens]]_; __2nd __  _[[Spells/Invisibility|Invisibility (At Will) (Self Only)]]_; __1st __  _[[Spells/Fear|Fear]]_\n__Cantrips__  __(1st)__ _[[Spells/Detect Magic|Detect Magic]]_"
 
   - name: "Cacodaemonia"
-    desc: " (disease) The cacodaemon can telepathically communicate with the afflicted creature at any distance on the same plane.\n\n**Saving Throw** DC 17 Fortitude check\n* * *\n\n**Stage 1** carrier (1 day)\n\n**Stage 2** [[Conditions/Stupefied 1|Stupefied 1]] (1 day)\n\n**Stage 3** [[Conditions/Stupefied 1|Stupefied 2]] (1 day)"
+    desc: " (disease) The cacodaemon can telepathically communicate with the afflicted creature at any distance on the same plane.\n\n**Saving Throw** DC 17 Fortitude check\n* * *\n\n**Stage 1** carrier (1 day)\n\n**Stage 2** [[Conditions/Stupefied|Stupefied 1]] (1 day)\n\n**Stage 3** [[Conditions/Stupefied|Stupefied 2]] (1 day)"
 
   - name: "[[Bestiary Ability Glossary/Change Shape|Change Shape]]"
     desc: "`pf2:1` (concentrate,divine,polymorph) *   **Lizard**\n    *   **Speed** 20 feet;\n    *   **Melee** jaws +8 (agile, finesse), **Damage** 1d8+1 piercing\n*   **Octopus**\n    *   **Size** Small;\n    *   **Speed** 20 feet, swim 30 feet;\n    *   **Skills** Athletics +6;\n    *   **Melee** tentacle +8 (finesse), **Damage** 1d8+1 bludgeoning plus [[Bestiary Ability Glossary/Grab|Grab]];\n    *   **Melee** beak +8 (agile, finesse), **Damage** 1d6 piercing plus 2 poison\n*   **Scorpion**\n    *   **Size** Small;\n    *   **Speed** 30 feet;\n    *   **Melee** pincer +8 (agile, finesse), **Damage** 1d6+1 bludgeoning plus Grab;\n    *   **Melee** stinger +8 (agile, finesse), **Damage** 1d6+1 piercing plus 1d4 poison\n\n* * *\n"

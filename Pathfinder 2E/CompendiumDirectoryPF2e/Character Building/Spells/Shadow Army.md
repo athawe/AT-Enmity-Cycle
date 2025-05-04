@@ -35,7 +35,9 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, occult"
-**Area** 50-foot burst
+
+  - name: "Area"
+    desc: "50-foot burst"
   - name: "Defense"
     desc: " will"
   - name: "Duration"

@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #189: Dreamers of the Nameless Spires
 aliases: "Compendium.pf2e.gatewalkers-bestiary.Actor.y9W4wnQ5mzs09Px8" 
@@ -22,8 +23,8 @@ name: "Soporific Lecture"
 level: "Hazard 8"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 18
 sourcebook: "_Pathfinder #189: Dreamers of the Nameless Spires_"
 perception:

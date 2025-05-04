@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #2-21: In Pursuit of Water
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.DVqAA7JxUykHG2oT" 
@@ -22,8 +23,8 @@ name: "Empowered Blood (3-4)"
 level: "Hazard 1"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 2
 sourcebook: "_Pathfinder Society Scenario #2-21: In Pursuit of Water_"
 perception:

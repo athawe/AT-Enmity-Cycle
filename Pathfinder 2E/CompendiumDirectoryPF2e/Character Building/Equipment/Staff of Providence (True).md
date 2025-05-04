@@ -42,9 +42,9 @@ When wielding this staff, you gain a +1 item bonus on Survival checks to [[Actio
 *   **4th** [[Spells/Cleanse Affliction|Cleanse Affliction]], [[Spells/Spell Immunity|Spell Immunity]], [[Spells/Status|Status]]
 *   **5th** [[Spells/Scouting Eye|Scouting Eye]], [[Spells/See the Unseen|See the Unseen]], [[Spells/Spell Immunity|Spell Immunity]]
 *   **6th** [[Spells/Spell Immunity|Spell Immunity]], [[Spells/Scintillating Safeguard|Scintillating Safeguard]], [[Spells/Truesight|Truesight]]
-*   7th [[Spells/Energy Aegis|Energy Aegis]], [[Spells/Spell Immunity|Spell Immunity]]
-*   8th [[Spells/Divine Inspiration|Divine Inspiration]], [[Spells/Spell Immunity|Spell Immunity]]
-*   9th [[Spells/Foresight|Foresight]], [[Spells/Overwhelming Presence|Overwhelming Presence]], [[Spells/Spell Immunity|Spell Immunity]]
+*   **7th** [[Spells/Energy Aegis|Energy Aegis]], [[Spells/Spell Immunity|Spell Immunity]]
+*   **8th** [[Spells/Divine Inspiration|Divine Inspiration]], [[Spells/Spell Immunity|Spell Immunity]]
+*   **9th** [[Spells/Foresight|Foresight]], [[Spells/Overwhelming Presence|Overwhelming Presence]], [[Spells/Spell Immunity|Spell Immunity]]
 
 **Craft Requirements** Supply one casting of all listed levels of all listed spells.
 

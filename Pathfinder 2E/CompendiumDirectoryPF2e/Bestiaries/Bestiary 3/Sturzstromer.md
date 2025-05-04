@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/earth
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "Sturzstromer"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Sturzstromer"
 level: "Creature 19"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "huge"
-trait_01: "aberration"
-trait_02: "earth"
-trait_03: "swarm"
+trait_01: [[aberration]]
+trait_02: [[earth]]
+trait_03: [[swarm]]
 modifier: 33
 perception:
   - name: "Perception"

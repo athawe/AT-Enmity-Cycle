@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.hh7OuFB5BQIrfeRT"
 tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/kami
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Kasa-Obake"
@@ -24,8 +25,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "kami"
+trait_01: [[good]]
+trait_02: [[kami]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -61,7 +62,7 @@ attacks:
     desc: "`pf2:1` Foot +14 (agile, finesse)\n__Damage__  2d6 + 5 bludgeoning"
 
   - name: "Jump Scare"
-    desc: " (emotion,fear,incapacitation,mental) If a kasa-obake successfully [[Actions/Demoralize|Demoralizes]] a creature and they were [[Conditions/Hidden|Hidden]] to the creature before the attempt to Demoralize, the creature must succeed at a DC 21 Will check save or be [[Conditions/Stunned 1|Stunned]] for 1 round."
+    desc: " (emotion,fear,incapacitation,mental) If a kasa-obake successfully [[Actions/Demoralize|Demoralizes]] a creature and they were [[Conditions/Hidden|Hidden]] to the creature before the attempt to Demoralize, the creature must succeed at a DC 21 Will check save or be [[Conditions/Stunned|Stunned]] for 1 round."
  
 ```
 

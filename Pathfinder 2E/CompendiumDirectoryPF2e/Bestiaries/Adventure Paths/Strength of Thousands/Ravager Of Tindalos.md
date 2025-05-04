@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/evil
   - pf2e/creature/type/time
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Ravager Of Tindalos"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #173: Doorway to the Red Star"
 name: "Ravager Of Tindalos"
 level: "Creature 18"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "evil"
-trait_03: "time"
+trait_01: [[aberration]]
+trait_02: [[evil]]
+trait_03: [[time]]
 modifier: 31
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +35, Athletics: +32, Occultism: +35, Stealth: +35, Survival: +31 (+35 to Track)"
+    desc: "Acrobatics: +35, Athletics: +32, Occultism: +35, Stealth: +35, Survival: +31"
 abilityMods: [6, 9, 6, 6, 7, 5]
 speed: 30 feet,  fly 30 feet
 sourcebook: "_Pathfinder #173: Doorway to the Red Star_"
@@ -60,7 +61,7 @@ abilities_mid:
     desc: " (aura,occult,visual) 30 feet. The ravager of Tindalos's eyes glow balefully, causing painful but bloodless wounds to rip open in the body of a creature that meets its awful gaze. When a creature ends its turn in the aura's emanation, it takes 9d6 slashing damage (DC 37 Fortitude check save).\n\nA creature that critically succeeds at its save is temporarily immune for 24 hours."
 
   - name: "Vulnerable to Curved Space"
-    desc: "  When a ravager of Tindalos is not adjacent to a structural angle of 90º (or more acute), its resistance to physical damage is suppressed and it becomes [[Conditions/Sickened 1|Sickened 1]]. It can't recover from this sickened condition, but the condition ends automatically once the ravager is again adjacent to a suitable angle.\n\n[[Bestiary Effects/Effect_ Vulnerable to Curved Space|Effect: Vulnerable to Curved Space]]"
+    desc: "  When a ravager of Tindalos is not adjacent to a structural angle of 90º (or more acute), its resistance to physical damage is suppressed and it becomes [[Conditions/Sickened|Sickened 1]]. It can't recover from this sickened condition, but the condition ends automatically once the ravager is again adjacent to a suitable angle.\n\n[[Bestiary Effects/Effect_ Vulnerable to Curved Space|Effect: Vulnerable to Curved Space]]"
 
 attacks:
   - name: ""

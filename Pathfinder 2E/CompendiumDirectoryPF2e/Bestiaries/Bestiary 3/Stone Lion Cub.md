@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/celestial
   - pf2e/creature/type/good
   - pf2e/creature/type/holy
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Stone Lion Cub"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Stone Lion Cub"
 level: "Creature 2"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "celestial"
-trait_02: "good"
-trait_03: "holy"
+trait_01: [[celestial]]
+trait_02: [[good]]
+trait_03: [[holy]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Empyrean; telepathy 60 feet"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Athletics: +7, Meteorology Lore: +7, Religion: +8"
+    desc: "Acrobatics: +7, Athletics: +7, Religion: +8, Meteorology Lore: +7"
 abilityMods: [3, 3, 0, 1, 4, 0]
 speed:  fly 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"

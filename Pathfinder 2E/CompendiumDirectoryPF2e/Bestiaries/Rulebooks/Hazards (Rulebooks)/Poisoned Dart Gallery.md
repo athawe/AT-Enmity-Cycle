@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
   - complex
   - remaster
 source: Pathfinder GM Core
@@ -23,14 +24,14 @@ name: "Poisoned Dart Gallery"
 level: "Hazard 8"
 
 trait_06: "Complex"
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 16
 sourcebook: "_Pathfinder GM Core_"
 ac: 27
 armorclass:
   - name: AC
-    desc: "27; __Fort__ +13, __Ref__ +17, __Will__ +0"
+    desc: "27; __Fort__ +13, __Ref__ +17, "
 hp: 56
 health:
   - name: ""
@@ -60,7 +61,7 @@ attacks:
     desc: "`pf2:0` **Trigger** A creature within the active gallery finishes an action\n* * *\n\n**Effect** The trap makes a poisoned dart Strike against the triggering creature."
 
   - name: "Flesset Poison"
-    desc: "passive (poison) **Saving Throw** DC 22 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage and [[Conditions/Clumsy 1|Clumsy 1]] (1 round)\n\n**Stage 2** 2d6 poison damage and [[Conditions/Clumsy 1|Clumsy 2]] (1 round)\n\n**Stage 3** 3d6 poison damage and [[Conditions/Clumsy 1|Clumsy 3]] (1 round)"
+    desc: "passive (poison) **Saving Throw** DC 22 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage and [[Conditions/Clumsy|Clumsy 1]] (1 round)\n\n**Stage 2** 2d6 poison damage and [[Conditions/Clumsy|Clumsy 2]] (1 round)\n\n**Stage 3** 3d6 poison damage and [[Conditions/Clumsy|Clumsy 3]] (1 round)"
 
   - name: "No MAP"
     desc: "passive The poisoned dart Strikes do not apply a MAP."

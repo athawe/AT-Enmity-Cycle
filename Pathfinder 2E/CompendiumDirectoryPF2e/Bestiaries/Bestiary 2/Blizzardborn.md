@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/cold
   - pf2e/creature/type/elemental
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Blizzardborn"
@@ -25,9 +26,9 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "cold"
-trait_02: "elemental"
-trait_03: "water"
+trait_01: [[cold]]
+trait_02: [[elemental]]
+trait_03: [[water]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Thalassic"
 skills:
   - name: "Skills"
-    desc: "Athletics: +15, Stealth: +14 (+16 in ice or snow)"
+    desc: "Athletics: +15, Stealth: +14"
 abilityMods: [5, 2, 4, 0, 4, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 2_"
@@ -57,7 +58,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Shattering Ice"
-    desc: "`pf2:r`  **Trigger** An enemy hits the blizzardborn with an attack that deals physical damage\n* * *\n\n**Effect** A portion of the blizzardborn's body shatters into an explosion of razor sharp ice crystals and blinding snow that deals 2d6 piercing damage to opponents in a 5-foot emanation (DC 24 Reflex check save). Anyone who fails is also [[Conditions/Blinded|Blinded]] for 1 round (or 3 rounds on a critical failure)."
+    desc: "`pf2:r`  **Trigger** An enemy hits the blizzardborn with an attack that deals physical damage\n* * *\n\n**Effect** A portion of the blizzardborn's body shatters into an explosion of razor sharp ice crystals and blinding snow that deals 2d6 piercing damage to opponents in a @Template[emanation|distance:5] (DC 24 Reflex check save). Anyone who fails is also [[Conditions/Blinded|Blinded]] for 1 round (or 3 rounds on a critical failure)."
 
 attacks:
   - name: ""

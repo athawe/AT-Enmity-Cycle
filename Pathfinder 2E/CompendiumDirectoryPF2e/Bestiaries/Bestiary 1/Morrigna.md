@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.DPEmRRXYevk3ADqW"
 tags:
   - pf2e/creature/type/monitor
   - pf2e/creature/type/psychopomp
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Morrigna"
@@ -24,8 +25,8 @@ level: "Creature 15"
 
 alignment: ""
 size: "Medium"
-trait_01: "monitor"
-trait_02: "psychopomp"
+trait_01: [[monitor]]
+trait_02: [[psychopomp]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Chthonian, Diabolic, Empyrean, Necril, Requian; speak with animals, tongues"
 skills:
   - name: "Skills"
-    desc: "Athletics: +27, Boneyard Lore: +28, Diplomacy: +27, Intimidation: +29, Religion: +29, Society: +24, Stealth: +27"
+    desc: "Athletics: +27, Diplomacy: +27, Intimidation: +29, Religion: +29, Society: +24, Stealth: +27, Boneyard Lore: +28"
 abilityMods: [8, 4, 4, 3, 6, 4]
 speed: 30 feet,  climb 30 feet
 sourcebook: "_Pathfinder Bestiary_"

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.gatewalkers-bestiary.Actor.78E4gYNIFP3jd8Bt"
 tags:
   - pf2e/creature/type/divine
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Protosoul"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #189: Dreamers of the Nameless Spires"
 name: "Protosoul"
 level: "Creature 11"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "divine"
-trait_02: "mindless"
+trait_01: [[divine]]
+trait_02: [[mindless]]
 modifier: 19
 perception:
   - name: "Perception"

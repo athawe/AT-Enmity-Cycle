@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Tormented (Crushing)"
@@ -26,10 +27,10 @@ level: "Creature 14"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 27
 perception:
   - name: "Perception"
@@ -68,7 +69,7 @@ attacks:
     desc: "`pf2:1` Painful Touch +28 (agile, finesse, magical)\n__Damage__  4d6 + 14 mental 2d6 mental"
 
   - name: "Scream in Agony"
-    desc: "`pf2:2` (auditory,divine,mental) Each creature in the tormented's Tortured Gaze aura takes 14d6 mental damage (DC 34 Will check). A creature that fails is also [[Conditions/Sickened 1|Sickened 1]] (or [[Conditions/Sickened 1|Sickened 2]] on a critical failure).\n\nThe tormented can't Scream in Agony again for 1d4 rounds, but recharges the ability whenever they take damage from an attacker's critical hit or their own critical failure on a saving throw."
+    desc: "`pf2:2` (auditory,divine,mental) Each creature in the tormented's Tortured Gaze aura takes 14d6 mental damage (DC 34 Will check). A creature that fails is also [[Conditions/Sickened|Sickened 1]] (or [[Conditions/Sickened|Sickened 2]] on a critical failure).\n\nThe tormented can't Scream in Agony again for 1d4 rounds, but recharges the ability whenever they take damage from an attacker's critical hit or their own critical failure on a saving throw."
  
 ```
 

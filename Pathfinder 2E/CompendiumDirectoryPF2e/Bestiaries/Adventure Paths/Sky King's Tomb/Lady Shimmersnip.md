@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.0VMod1UuV6GIQozy"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/aquatic
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Lady Shimmersnip"
@@ -24,8 +25,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
-trait_02: "aquatic"
+trait_01: [[animal]]
+trait_02: [[aquatic]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Athletics: +8, Stealth: +7"
+    desc: "Acrobatics: +5, Athletics: +7, Stealth: +5"
 abilityMods: [4, 3, 1, -4, 2, -3]
 speed: 25 feet,  swim 15 feet
 sourcebook: "_Pathfinder #193: Mantle of Gold_"
@@ -50,7 +51,7 @@ abilities_top:
   - name: ""
 
   - name: "Parasitized"
-    desc: "  Lady Shimmersnip has two giant leeches partly burrowed into her body, making her [[Conditions/Enfeebled 1|Enfeebled 1]] and [[Conditions/Clumsy 1|Clumsy 2]]. These conditions' modifiers can change and aren't reflected in her stat block."
+    desc: "  Lady Shimmersnip has two giant leeches partly burrowed into her body, making her [[Conditions/Enfeebled|Enfeebled 1]] and [[Conditions/Clumsy|Clumsy 2]]. These conditions' modifiers can change and aren't reflected in her stat block."
 
 abilities_mid:
   - name: ""
@@ -67,7 +68,7 @@ attacks:
     desc: "`pf2:1` Claw +10 (reach 10 feet)\n__Damage__  1d10 + 4 slashing plus grab"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  1d6 + 4 bludgeoning damage, DC 18 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  1d6+4 bludgeoning damage, DC 18 Fortitude check\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

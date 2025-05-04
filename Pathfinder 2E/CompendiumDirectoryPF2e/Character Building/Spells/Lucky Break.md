@@ -28,6 +28,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
 abilities_mid:
   - name: ""
     desc: "**Trigger** You fail, but don't critically fail, a saving throw.\n* * *\n\nReroll the saving throw and use the better result. You then become temporarily immune for 10 minutes."

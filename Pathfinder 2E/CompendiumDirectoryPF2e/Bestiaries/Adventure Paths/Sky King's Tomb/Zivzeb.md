@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.wakAqAhokUT6qYxR" 
 tags:
   - pf2e/creature/type/aberration
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Zivzeb"
@@ -23,7 +24,7 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
+trait_01: [[aberration]]
 modifier: 9
 perception:
   - name: "Perception"

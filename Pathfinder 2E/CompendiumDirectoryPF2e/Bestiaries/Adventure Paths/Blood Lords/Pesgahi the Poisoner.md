@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/ghoul
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Pesgahi the Poisoner"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #181: Zombie Feast"
 name: "Pesgahi the Poisoner"
 level: "Creature 4"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "ghoul"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[ghoul]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Aklo, Common, Necril"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +10, Athletics: +8, Crafting: +12, Medicine: +9, Poison Lore: +12, Stealth: +11"
+    desc: "Acrobatics: +10, Athletics: +8, Crafting: +12, Medicine: +9, Stealth: +11, Poison Lore: +12"
 abilityMods: [1, 4, 2, 4, 1, 1]
 speed: 30 feet,  burrow 5 feet
 sourcebook: "_Pathfinder #181: Zombie Feast_"

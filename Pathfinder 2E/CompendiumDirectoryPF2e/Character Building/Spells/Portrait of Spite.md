@@ -26,7 +26,11 @@ abilities_top:
     desc: "7 days; **Cost** splendid art supplies worth at least 100 gp × the target's level, at least one pint of blood from the target;; **Secondary Casters** 3"
   - name: "Primary Check"
     desc: "Occultism or Religion (master); **Secondary Checks** Crafting, Occultism or Religion (whichever isn&#x27;t used for the primary check)"
-**Targets** 1 living creature  - name: "Duration"
+
+  - name: "Targets"
+
+    desc: "1 living creature"
+  - name: "Duration"
     desc: "1 year"
 abilities_mid:
   - name: ""

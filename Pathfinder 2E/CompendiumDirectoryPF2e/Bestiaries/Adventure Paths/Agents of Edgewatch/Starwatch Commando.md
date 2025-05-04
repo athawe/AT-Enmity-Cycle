@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Starwatch Commando"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #161: Belly of the Black Whale"
 name: "Starwatch Commando"
 level: "Creature 11"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
-trait_03: "lawful"
+trait_01: [[human]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
 modifier: 24
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Athletics: +21, Diplomacy: +18, Intimidation: +20, Legal Lore: +20, Society: +18, Stealth: +20"
+    desc: "Athletics: +21, Diplomacy: +18, Intimidation: +20, Society: +18, Stealth: +20, Legal Lore: +20"
 abilityMods: [4, 3, 5, 1, 2, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder #161: Belly of the Black Whale_"

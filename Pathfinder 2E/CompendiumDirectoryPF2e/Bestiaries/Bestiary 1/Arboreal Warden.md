@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.aNWiP985fISjClGo"
 tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Arboreal Warden"
@@ -24,8 +25,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Large"
-trait_01: "good"
-trait_02: "plant"
+trait_01: [[good]]
+trait_02: [[plant]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Arboreal, Common, Fey"
 skills:
   - name: "Skills"
-    desc: "Athletics: +13, Stealth: +9 (+14 in forests)"
+    desc: "Athletics: +13, Stealth: +9"
 abilityMods: [5, 1, 3, 1, 3, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary_"

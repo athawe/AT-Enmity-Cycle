@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - magical
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #5-12: Mischief in the Maze
 aliases: "Compendium.pf2e.pfs-season-5-bestiary.Actor.e9j6zxkEUzoPlaWG" 
@@ -22,14 +23,14 @@ name: "Unruly Mushrooms"
 level: "Hazard 3"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "magical"
+trait_01: [[environmental]]
+trait_02: [[magical]]
 modifier: 10
 sourcebook: "_Pathfinder Society Scenario #5-12: Mischief in the Maze_"
 ac: 16
 armorclass:
   - name: AC
-    desc: "16; __Fort__ +12, __Ref__ +6, __Will__ +0"
+    desc: "16; __Fort__ +12, __Ref__ +6, "
 hp: 25
 health:
   - name: ""

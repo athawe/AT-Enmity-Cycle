@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Zakzak
-creatures:
-  - 1: Zakzak
-```
-
 
 
 

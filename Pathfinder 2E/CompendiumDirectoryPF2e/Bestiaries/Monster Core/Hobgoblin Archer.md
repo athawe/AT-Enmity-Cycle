@@ -5,8 +5,9 @@ noteType: pf2eMonster
 cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.JwOlSrHk1pkAKMRn" 
 tags:
-  - pf2e/creature/type/goblin
+  - pf2e/creature/type/hobgoblin
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "goblin"
-trait_02: "humanoid"
+trait_01: [[hobgoblin]]
+trait_02: [[humanoid]]
 modifier: 10
 perception:
   - name: "Perception"

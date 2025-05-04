@@ -28,7 +28,9 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, occult"
-**Area** 30-foot line
+
+  - name: "Area"
+    desc: "30-foot line"
   - name: "Defense"
     desc: " fortitude"
 abilities_mid:

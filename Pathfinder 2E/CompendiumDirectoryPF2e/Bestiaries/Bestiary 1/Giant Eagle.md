@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.tKaOsbg8cmIUSjSE"
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/good
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Giant Eagle"
@@ -24,8 +25,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "good"
+trait_01: [[beast]]
+trait_02: [[good]]
 modifier: 11
 perception:
   - name: "Perception"

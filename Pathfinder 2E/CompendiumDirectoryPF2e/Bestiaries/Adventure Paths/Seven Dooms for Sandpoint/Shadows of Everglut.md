@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder #200: Seven Dooms for Sandpoint
 aliases: "Compendium.pf2e.seven-dooms-for-sandpoint-bestiary.Actor.uW9TjCzpLESYlgVz" 
@@ -21,7 +22,7 @@ name: "Shadows of Everglut"
 level: "Hazard 11"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 19
 sourcebook: "_Pathfinder #200: Seven Dooms for Sandpoint_"
 perception:

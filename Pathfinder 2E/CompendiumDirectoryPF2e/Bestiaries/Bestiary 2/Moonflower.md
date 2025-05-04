@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.wqsmnoby2n3BOvKu" 
 tags:
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Moonflower"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 2"
 name: "Moonflower"
 level: "Creature 8"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "huge"
-trait_01: "plant"
+trait_01: [[plant]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "telepathy 1 mile (other moonflowers only)"
 skills:
   - name: "Skills"
-    desc: "Athletics: +19 (Can&#x27;t Jump or Swim), Stealth: +14 (+18 in Thick Vegetation)"
+    desc: "Athletics: +19, Stealth: +14"
 abilityMods: [7, 0, 4, -2, 4, 3]
 speed: 20 feet
 sourcebook: "_Pathfinder Bestiary 2_"

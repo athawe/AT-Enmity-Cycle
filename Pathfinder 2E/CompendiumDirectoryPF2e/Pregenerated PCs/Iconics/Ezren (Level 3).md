@@ -72,12 +72,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Ezren (Level 3)
-creatures:
-  - 1: Ezren (Level 3)
-```
-
 
 
 

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/elf
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Seaborn Captain"
@@ -26,10 +27,10 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "aquatic"
-trait_02: "chaotic"
-trait_03: "elf"
-trait_04: "humanoid"
+trait_01: [[aquatic]]
+trait_02: [[chaotic]]
+trait_03: [[elf]]
+trait_04: [[humanoid]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Thalassic"
 skills:
   - name: "Skills"
-    desc: "Athletics: +7 (+9 to swim), Deception: +6, Nature: +8, Ocean Lore: +8"
+    desc: "Athletics: +7, Deception: +6, Nature: +8, Ocean Lore: +8"
 abilityMods: [3, 2, 1, 0, 4, 2]
 speed: 25 feet,  swim 25 feet
 sourcebook: "_Pathfinder Society Quest #4: Port Peril Pub Crawl_"

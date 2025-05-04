@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
   - pf2e/creature/type/zombie
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Combustive Zombie"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-15: In Glorious Battle"
 name: "Combustive Zombie"
 level: "Creature 8"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fire"
-trait_03: "mindless"
-trait_04: "undead"
-trait_05: "unholy"
-trait_06: "zombie"
+trait_01: [[evil]]
+trait_02: [[fire]]
+trait_03: [[mindless]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
+trait_06: [[zombie]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -58,12 +59,12 @@ abilities_top:
   - name: ""
 
   - name: "Slow"
-    desc: "  A combustive zombie is permanently [[Conditions/Slowed 1|Slowed 1]] and can't use reactions."
+    desc: "  A combustive zombie is permanently [[Conditions/Slowed|Slowed 1]] and can't use reactions."
 
 abilities_mid:
   - name: ""
   - name: "Death Throes"
-    desc: "  When a combustive zombie dies, its body explodes in a 30-foot burst of fire and debris that deals 3d10 bludgeoning damage and 3d10 fire damage to each creature in the area (DC 25 Reflex check save)."
+    desc: "  When a combustive zombie dies, its body explodes in a @Template[burst|distance:30] of fire and debris that deals 3d10 bludgeoning damage and 3d10 fire damage to each creature in the area (DC 25 Reflex check save)."
 
 attacks:
   - name: ""

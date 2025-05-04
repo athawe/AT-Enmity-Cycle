@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/cold
   - pf2e/creature/type/good
   - pf2e/creature/type/holy
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Peng"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #167: Ready? Fight!"
 name: "Peng"
 level: "Creature 12"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "air"
-trait_02: "beast"
-trait_03: "cold"
-trait_04: "good"
-trait_05: "holy"
+trait_01: [[air]]
+trait_02: [[beast]]
+trait_03: [[cold]]
+trait_04: [[good]]
+trait_05: [[holy]]
 modifier: 25
 perception:
   - name: "Perception"

@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
   - pf2e/creature/type/zombie
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Sulfur Zombie"
@@ -28,12 +29,12 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fire"
-trait_03: "mindless"
-trait_04: "undead"
-trait_05: "unholy"
-trait_06: "zombie"
+trait_01: [[evil]]
+trait_02: [[fire]]
+trait_03: [[mindless]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
+trait_06: [[zombie]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -58,12 +59,12 @@ abilities_top:
   - name: ""
 
   - name: "Slow"
-    desc: "  A sulfur zombie is permanently [[Conditions/Slowed 1|Slowed 1]] and can't use reactions."
+    desc: "  A sulfur zombie is permanently [[Conditions/Slowed|Slowed 1]] and can't use reactions."
 
 abilities_mid:
   - name: ""
   - name: "Death Throes"
-    desc: "  When a sulfur zombie dies, its body explodes in a 30-foot burst of fire and debris that deals 2d10 bludgeoning damage and 2d10 fire damage to each creature in the area (DC 21 Reflex check save)."
+    desc: "  When a sulfur zombie dies, its body explodes in a @Template[burst|distance:30] of fire and debris that deals 2d10 bludgeoning damage and 2d10 fire damage to each creature in the area (DC 21 Reflex check save)."
 
 attacks:
   - name: ""

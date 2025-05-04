@@ -22,7 +22,7 @@ license: OGL
 * * *
 **Requirements** You are wearing your armor innovation.
 
-You electrify your armor to punish foes who dare to attack you. For 1 round, any creature that touches you, or that hits you with a melee unarmed attack or a non-reach melee weapon attack, takes 1d4 electricity|overrideTraits damage. The effect ends if you cease wearing your armor innovation.
+You electrify your armor to punish foes who dare to attack you. For 1 round, any creature that touches you, or that hits you with a melee unarmed attack or a non-reach melee weapon attack, takes 1d4 electricity damage. The effect ends if you cease wearing your armor innovation.
 
 If you have the revolutionary innovation class feature, the damage increases to 2d4.
 

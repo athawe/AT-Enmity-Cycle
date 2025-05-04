@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - fire
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #4-16: Dacilane Academy&#x27;s First Great Prank War
 aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.IIlSpHMHQ8ZqftvG" 
@@ -22,8 +23,8 @@ name: "Alarmingly Efficient Unseen Arson Assistant"
 level: "Hazard 3"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "fire"
+trait_01: [[environmental]]
+trait_02: [[fire]]
 modifier: 5
 sourcebook: "_Pathfinder Society Scenario #4-16: Dacilane Academy's First Great Prank War_"
 perception:

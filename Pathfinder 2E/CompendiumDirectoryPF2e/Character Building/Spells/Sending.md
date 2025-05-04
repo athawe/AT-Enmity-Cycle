@@ -29,7 +29,7 @@ abilities_top:
   - name: "Traditions"
     desc: "arcane, divine, occult"
   - name: "Range"
-    desc: "planetary; **Targets** 1 creature with whom you are familiar"
+    desc: "planetary; **Targets** 1 creature you know well"
 abilities_mid:
   - name: ""
     desc: "You send the creature a mental message of 25 words or fewer, and it can respond immediately with its own message of 25 words or fewer."

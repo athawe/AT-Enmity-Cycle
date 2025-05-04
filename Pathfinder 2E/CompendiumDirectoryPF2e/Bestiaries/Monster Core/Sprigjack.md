@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/fey
   - pf2e/creature/type/plant
   - pf2e/creature/type/wood
+  - pf2eMonster
   - pf2e/creature/level/-1
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature -1"
 
 alignment: ""
 size: "tiny"
-trait_01: "fey"
-trait_02: "plant"
-trait_03: "wood"
+trait_01: [[fey]]
+trait_02: [[plant]]
+trait_03: [[wood]]
 modifier: 5
 perception:
   - name: "Perception"

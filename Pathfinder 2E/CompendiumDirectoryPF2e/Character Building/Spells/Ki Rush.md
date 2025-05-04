@@ -25,6 +25,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
 abilities_mid:
   - name: ""
     desc: "Accelerated by your ki, you move with such speed you become a blur. Move two times: two Strides, two Steps, or one Stride and one Step (in either order).\n\nYou gain the [[Conditions/Concealed|Concealed]] condition during this movement and until the start of your next turn."

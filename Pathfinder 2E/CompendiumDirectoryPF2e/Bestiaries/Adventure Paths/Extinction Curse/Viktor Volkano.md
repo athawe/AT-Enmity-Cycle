@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Viktor Volkano"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #151: The Show Must Go On"
 name: "Viktor Volkano"
 level: "Creature 2"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -64,7 +65,7 @@ attacks:
     desc: "`pf2:1` Flame Spit +10 (range 10 feet)\n__Damage__  2d8 fire plus set-on-fire"
 
   - name: "Breathe Fire"
-    desc: "`pf2:1` (fire,primal) **Requirements** Viktor is holding an ignited baton\n* * *\n\n**Effect** Viktor breathes fire in a 20-foot cone. Creatures within the cone take 3d6 fire damage (DC 18 Reflex check save).\n\nOnce Viktor breathes fire, he cannot do so again for 1d4 rounds."
+    desc: "`pf2:1` (fire,primal) **Requirements** Viktor is holding an ignited baton\n* * *\n\n**Effect** Viktor breathes fire in a @Template[cone|distance:20]. Creatures within the cone take 3d6 fire damage (DC 18 Reflex check save).\n\nOnce Viktor breathes fire, he cannot do so again for 1d4 rounds."
 
   - name: "Ignite Baton"
     desc: "`pf2:2`  Viktor ignites or douses a baton. Ignited batons burn for 10 minutes or until Viktor douses them."

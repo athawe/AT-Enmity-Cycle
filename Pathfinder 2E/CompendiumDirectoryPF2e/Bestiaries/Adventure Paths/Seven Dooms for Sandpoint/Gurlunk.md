@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/goblin
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Gurlunk"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #200: Seven Dooms for Sandpoint"
 name: "Gurlunk"
 level: "Creature 4"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "goblin"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[goblin]]
+trait_04: [[humanoid]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -78,7 +79,7 @@ attacks:
     desc: "  Gurlunk deals an additional 1d8 precision damage the first time he hits his hunted prey in a round."
 
   - name: "Whistling Threat"
-    desc: "`pf2:2` (concentrate,emotion,fear,mental,primal) **Frequency** once per day\n* * *\n\n**Effect** Gurlunk whistles sharply at a Medium or larger animal or beast he can see within 30 feet, using his voice to dull the creature's wits and cause it to lower its defenses. The target must attempt a DC 21 Will check save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is [[Conditions/Frightened 1|Frightened 1]].\n\n**Failure** The target is [[Conditions/Frightened 1|Frightened 2]].\n\n**Critical Failure** The target is [[Conditions/Frightened 1|Frightened 3]] and [[Conditions/Slowed 1|Slowed 1]] for 1 round as it shakes in fear."
+    desc: "`pf2:2` (concentrate,emotion,fear,mental,primal) **Frequency** once per day\n* * *\n\n**Effect** Gurlunk whistles sharply at a Medium or larger animal or beast he can see within 30 feet, using his voice to dull the creature's wits and cause it to lower its defenses. The target must attempt a DC 21 Will check save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is [[Conditions/Frightened|Frightened 1]].\n\n**Failure** The target is [[Conditions/Frightened|Frightened 2]].\n\n**Critical Failure** The target is [[Conditions/Frightened|Frightened 3]] and [[Conditions/Slowed|Slowed 1]] for 1 round as it shakes in fear."
  
 ```
 

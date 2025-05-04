@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.lh3pcyJlUUtNpWcI"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Ledorick Banyan"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #154: Siege of the Dinosaurs"
 name: "Ledorick Banyan"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 24
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +24, Athletics: +25 (+27 to Disarm), Deception: +23, Diplomacy: +25, Intimidation: +25, Society: +20, Willowside Lore: +18"
+    desc: "Acrobatics: +24, Athletics: +25, Deception: +23, Diplomacy: +25, Intimidation: +25, Society: +20, Willowside Lore: +18"
 abilityMods: [5, 4, 2, 0, 2, 5]
 speed: 25 feet
 sourcebook: "_Pathfinder #154: Siege of the Dinosaurs_"

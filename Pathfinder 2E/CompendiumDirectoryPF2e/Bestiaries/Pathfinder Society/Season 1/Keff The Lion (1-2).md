@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.yn7x4Me1YrPuXFZf"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Keff The Lion (1-2)"
@@ -24,8 +25,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
-trait_02: "evil"
+trait_01: [[animal]]
+trait_02: [[evil]]
 modifier: 9
 perception:
   - name: "Perception"

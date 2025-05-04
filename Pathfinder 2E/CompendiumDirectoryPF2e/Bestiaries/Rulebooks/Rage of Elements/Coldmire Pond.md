@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aquatic
   - pf2e/creature/type/elemental
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/8
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 8"
 
 alignment: ""
 size: "huge"
-trait_01: "aquatic"
-trait_02: "elemental"
-trait_03: "water"
+trait_01: [[aquatic]]
+trait_02: [[elemental]]
+trait_03: [[water]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -70,7 +71,7 @@ attacks:
     desc: "`pf2:2`  **Requirements** The coldmire pond occupies the same space as a target it has [[Conditions/Grabbed|Grabbed]]\n* * *\n\n**Effect** The coldmire pond pulls the target below the surface. The target must succeed at a DC 26 Reflex check save or fall [[Conditions/Prone|Prone]] and begin drowning."
 
   - name: "Flash Flood"
-    desc: "`pf2:2` (primal,water) Water surges out of the coldmire pond in a 20-foot emanation and crashes into nearby creatures, knocking them off their feet. Creatures in the area, as well as any creatures currently sharing the coldmire pond's space, take 4d8 bludgeoning damage and are knocked [[Conditions/Prone|Prone]] (DC 26 Reflex check save). Creatures standing inside the coldmire pond treat their result as one step worse."
+    desc: "`pf2:2` (primal,water) Water surges out of the coldmire pond in a @Template[emanation|distance:20] and crashes into nearby creatures, knocking them off their feet. Creatures in the area, as well as any creatures currently sharing the coldmire pond's space, take 4d8 bludgeoning damage and are knocked [[Conditions/Prone|Prone]] (DC 26 Reflex check save). Creatures standing inside the coldmire pond treat their result as one step worse."
  
 ```
 

@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
   - complex
 source: Pathfinder #183: Field of Maidens
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.Q5HbADjzw2s2biXq" 
@@ -21,7 +22,7 @@ name: "The Fight"
 level: "Hazard 9"
 
 trait_06: "Complex"
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 20
 sourcebook: "_Pathfinder #183: Field of Maidens_"
 ac: 30

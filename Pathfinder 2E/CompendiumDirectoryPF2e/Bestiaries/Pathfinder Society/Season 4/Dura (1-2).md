@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/orc
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Dura (1-2)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Quest #14: The Swordlord&#x27;s Challenge"
 name: "Dura (1-2)"
 level: "Creature -1"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
-trait_03: "lawful"
-trait_04: "orc"
+trait_01: [[human]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
+trait_04: [[orc]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Orcish"
 skills:
   - name: "Skills"
-    desc: "Athletics: +5, Dueling Lore: +2, Intimidation: +4"
+    desc: "Athletics: +5, Intimidation: +4, Dueling Lore: +2"
 abilityMods: [3, 2, 2, 0, -1, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Quest #14: The Swordlord&#x27;s Challenge_"

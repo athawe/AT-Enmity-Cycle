@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/beast
   - pf2e/creature/type/electricity
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Thunderbird"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 2"
 name: "Thunderbird"
 level: "Creature 11"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "grg"
-trait_01: "air"
-trait_02: "beast"
-trait_03: "electricity"
+trait_01: [[air]]
+trait_02: [[beast]]
+trait_03: [[electricity]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -78,7 +79,7 @@ attacks:
     desc: "_[[Spells/Control Weather|Control Weather]]_"
 
   - name: "Lightning Blast"
-    desc: "`pf2:2` (primal) The thunderbird spreads their wings and blasts their foe with thunderous bolts of lightning. Each creature in a 30-foot emanation takes 6d6 electricity damage and 6d6 sonic damage (DC 30 Reflex check save). The thunderbird can't use Lightning Blast for 1d4 rounds."
+    desc: "`pf2:2` (primal) The thunderbird spreads their wings and blasts their foe with thunderous bolts of lightning. Each creature in a @Template[emanation|distance:30] takes 6d6 electricity damage and 6d6 sonic damage (DC 30 Reflex check save). The thunderbird can't use Lightning Blast for 1d4 rounds."
 
   - name: "Stormflight"
     desc: "  A thunderbird can move in wind with ease. They don't treat wind as difficult terrain or need to [[Actions/Maneuver in Flight|Maneuver in Flight]] in high winds."

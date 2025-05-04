@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Hieracosphinx"
@@ -25,9 +26,9 @@ level: "Creature 5"
 
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[beast]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -72,7 +73,7 @@ attacks:
     desc: "`pf2:1`  The hieracosphinx Strides and makes a Strike at the end of that movement. If they began this action [[Conditions/Hidden|Hidden]], they remain hidden until after the attack."
 
   - name: "Shriek"
-    desc: "`pf2:1` (auditory,incapacitation) The hieracosphinx emits a shrill, ear-piercing shriek. Each non-sphinx in a 60-foot emanation must attempt a DC 22 Fortitude check save. Any creature that attempts a save is temporarily immune for 24 hours.\n* * *\n\n**Critical Success** The creature is temporarily immune to that hieracosphinx's shriek for 24 hours.\n\n**Success** The creature is [[Conditions/Deafened|Deafened]] for 1 round.\n\n**Failure** The creature is deafened for 1 minute and [[Conditions/Stunned 1|Stunned 1]]."
+    desc: "`pf2:1` (auditory,incapacitation) The hieracosphinx emits a shrill, ear-piercing shriek. Each non-sphinx in a @Template[emanation|distance:60] must attempt a DC 22 Fortitude check save. Any creature that attempts a save is temporarily immune for 24 hours.\n* * *\n\n**Critical Success** The creature is temporarily immune to that hieracosphinx's shriek for 24 hours.\n\n**Success** The creature is [[Conditions/Deafened|Deafened]] for 1 round.\n\n**Failure** The creature is deafened for 1 minute and [[Conditions/Stunned|Stunned 1]]."
  
 ```
 

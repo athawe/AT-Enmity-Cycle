@@ -31,7 +31,9 @@ abilities_top:
     desc: "arcane, divine, occult, primal"
   - name: "Cast"
     desc: "1 minute"
-**Area** 60-foot burst
+
+  - name: "Area"
+    desc: "60-foot burst"
   - name: "Duration"
     desc: "1 day"
 abilities_mid:

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.5pk6bfodgnllSIOy"
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Giant Flytrap"
@@ -24,8 +25,8 @@ level: "Creature 10"
 
 alignment: ""
 size: "huge"
-trait_01: "mindless"
-trait_02: "plant"
+trait_01: [[mindless]]
+trait_02: [[plant]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +23, Stealth: +21 (+24 in undergrowth)"
+    desc: "Athletics: +23, Stealth: +21"
 abilityMods: [7, 5, 5, -5, 3, -2]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary_"

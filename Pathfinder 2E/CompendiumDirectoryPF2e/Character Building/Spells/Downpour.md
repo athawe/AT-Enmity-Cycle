@@ -31,11 +31,11 @@ columnWidth: x
 abilities_top:
   - name: ""
   - name: "Range"
-    desc: "120 feet"
+    desc: "120 feet; **Area** 30-foot burst"
   - name: "Duration"
     desc: "1 minute"
 abilities_mid:
   - name: ""
-    desc: "You call forth a torrential downpour, which extinguishes nonmagical flames. Creatures in the area are [[Conditions/Concealed|Concealed]] and gain fire resistance 10. Creatures outside the area are Concealed to those inside the area. If a creature with weakness to water ends its turn in the area, the downpour triggers its weakness.  \n  \n\n[[Spell Effects/Spell Effect_ Downpour|Spell Effect: Downpour]]\n* * *\n\n**Heightened (+1)** The fire resistance increases by 2."
+    desc: "You call forth a torrential downpour, which extinguishes non-magical flames. Creatures in the area are [[Conditions/Concealed|Concealed]] and gain fire resistance 10. Creatures outside the area are Concealed to those inside the area. If a creature with weakness to water ends its turn in the area, the downpour triggers its weakness.\n\n[[Spell Effects/Spell Effect_ Downpour|Spell Effect: Downpour]]\n* * *\n\n**Heightened (+1)** The fire resistance increases by 2."
 sourcebook: "_Pathfinder Player Core_"
 ```

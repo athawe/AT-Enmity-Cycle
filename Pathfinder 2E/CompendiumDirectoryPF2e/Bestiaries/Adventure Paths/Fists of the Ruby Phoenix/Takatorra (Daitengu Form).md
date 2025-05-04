@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/tengu
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Takatorra (Daitengu Form)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #168: King of the Mountain"
 name: "Takatorra (Daitengu Form)"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "lawful"
-trait_04: "tengu"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
+trait_04: [[tengu]]
 modifier: 32
 perception:
   - name: "Perception"
@@ -75,7 +76,7 @@ attacks:
     desc: " (air) Takatorra extends the cutting surface of their blades with high-pressure airflow. Until the end of their turn, their blades have a reach of 15 feet."
 
   - name: "Blade Barrage"
-    desc: "`pf2:3`  Takatorra unleashes a flurry of attacks. Takatorra makes five melee Strikes. They gain a cumulative +2 circumstance bonus to damage for each successful Strike. If one target is hit with at least two of these Strikes, they also take 2d6 bleed. They then become [[Conditions/Stunned 1|Stunned 1]] and [[Conditions/Off-Guard|Off-Guard]] until the start of their next turn.\n\n[[Bestiary Effects/Effect_ Blade Barrage|Effect: Blade Barrage]]"
+    desc: "`pf2:3`  Takatorra unleashes a flurry of attacks. Takatorra makes five melee Strikes. They gain a cumulative +2 circumstance bonus to damage for each successful Strike. If one target is hit with at least two of these Strikes, they also take 2d6 bleed. They then become [[Conditions/Stunned|Stunned 1]] and [[Conditions/Off-Guard|Off-Guard]] until the start of their next turn.\n\n[[Bestiary Effects/Effect_ Blade Barrage|Effect: Blade Barrage]]"
 
   - name: "Disarming Whirl"
     desc: "`pf2:2` (flourish) Takatorra spins, striking at their foes' weapons. Takatorra attempts an Athletics check to [[Actions/Disarm|Disarm]] against each enemy within their melee reach. Each attempt counts toward Takatorra's multiple attack penalty, but the penalty doesn't increase until they have made all the attempts."

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.GsrqCDf0Dc9PisEt"
 tags:
   - pf2e/creature/type/fungus
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Violet Fungus"
@@ -24,8 +25,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "fungus"
-trait_02: "mindless"
+trait_01: [[fungus]]
+trait_02: [[mindless]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -58,7 +59,7 @@ attacks:
     desc: "`pf2:1` Tentacle +11 (agile, reach 10 feet)\n__Damage__  1d10 + 4 bludgeoning plus violet-rot"
 
   - name: "Violet Rot"
-    desc: " (poison) **Saving Throw** DC 20 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage plus [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)\n\n**Stage 2** 1d6 poison damage plus enfeebled 1 and [[Conditions/Drained 1|Drained 1]] (1 round)\n\n**Stage 3** 2d6 poison damage plus enfeebled 1 and drained 1 (1 round)"
+    desc: " (poison) **Saving Throw** DC 20 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage plus [[Conditions/Enfeebled|Enfeebled 1]] (1 round)\n\n**Stage 2** 1d6 poison damage plus enfeebled 1 and [[Conditions/Drained|Drained 1]] (1 round)\n\n**Stage 3** 2d6 poison damage plus enfeebled 1 and drained 1 (1 round)"
  
 ```
 

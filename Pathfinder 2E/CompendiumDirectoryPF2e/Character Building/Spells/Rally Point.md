@@ -28,8 +28,7 @@ abilities_top:
   - name: "Traditions"
     desc: "arcane, occult"
   - name: "Range"
-    desc: "touch; **Area** 5-foot square
-"
+    desc: "touch; **Area** 5-foot square"
   - name: "Duration"
     desc: "1 minute"
 abilities_mid:

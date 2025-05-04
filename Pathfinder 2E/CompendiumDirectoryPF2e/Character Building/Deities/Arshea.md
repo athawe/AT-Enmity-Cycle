@@ -45,11 +45,11 @@ When casting the [[Spells/Avatar|Avatar]] spell, a worshipper of Arshea becomes 
 
 **Arshea** Speed 30 feet, fly 70 feet, immune to forced movement, immune to [[Conditions/Immobilized|Immobilized]]
 
-Melee `pf2:1` flail (disarm, reach 15 feet, sweep, trip), Damage 6d6 + 6 bludgeoning
+Melee `pf2:1` flail (disarm, reach 15 feet, sweep, trip), Damage 6d6+6 bludgeoning
 
-Melee `pf2:1` gossamer veil (disarm, finesse, grapple, nonlethal, reach 20 feet, trip), Damage 6d4 + 6 slashing
+Melee `pf2:1` gossamer veil (disarm, finesse, grapple, nonlethal, reach 20 feet, trip), Damage 6d4+6 slashing
 
-Ranged `pf2:1` gaze of abandon (nonlethal, range 120 feet, visual), Damage 6d6 + 3 mental.
+Ranged `pf2:1` gaze of abandon (nonlethal, range 120 feet, visual), Damage 6d6+3 mental.
 
 *Source: Pathfinder Lost Omens: Firebrands*
 *OGL*

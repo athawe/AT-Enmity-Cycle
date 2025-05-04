@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Abridan Ashau"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: Shadows at Sundown"
 name: "Abridan Ashau"
 level: "Creature 10"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -58,7 +59,7 @@ abilities_mid:
     desc: "  Abridan is an ex-cleric. While he's lost the magical abilities that come from his connection to Pharasma, he can still use the _major staff of healing_ or any of his scrolls by tricking the item. Since he can't cast spells, he can't recharge his staff, and uses its remaining charges only as a last resort."
 
   - name: "Marked by Urgathoa"
-    desc: "`pf2:0` (divine) **Trigger** Abridan dies before he's had a chance to atone for his blasphemies or has become an actual cleric of Urgathoa\n* * *\n\n**Effect** Urgathoa watched Abridan's fall from grace, and if he dies before he finishes his conversion, her disappointment causes his body to decay as if he had been dead for a week. This process also causes all living creatures within 30 feet to take 11d6 void damage (DC 33 Fortitude check). If steps are not thereafter taken to prevent his soul from returning (such as by casting [[Spells/Peaceful Rest|Peaceful Rest]] on the partially decayed corpse), Abridan rises as a _[[Bestiary 3/Dybbuk|Dybbuk]]_ on the site of his death a minute after the next sundown and seeks revenge on the PCs for killing him."
+    desc: "`pf2:0` (divine) **Trigger** Abridan dies before he's had a chance to atone for his blasphemies or has become an actual cleric of Urgathoa\n* * *\n\n**Effect** Urgathoa watched Abridan's fall from grace, and if he dies before he finishes his conversion, her disappointment causes his body to decay as if he had been dead for a week. This process also causes all living creatures within 30 feet to take 11d6 void damage (DC 33 Fortitude check). If steps are not thereafter taken to prevent his soul from returning (such as by casting [[Spells/Peaceful Rest|Peaceful Rest]] on the partially decayed corpse), Abridan rises as a _[[Monster Core/Dybbuk|Dybbuk]]_ on the site of his death a minute after the next sundown and seeks revenge on the PCs for killing him."
 
 attacks:
   - name: ""

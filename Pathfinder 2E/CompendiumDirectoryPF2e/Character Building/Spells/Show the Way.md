@@ -31,8 +31,10 @@ abilities_top:
     desc: "divine, primal"
   - name: "Cast"
     desc: "10 minutes"
-**Area** 5-foot emanation
-**Targets** you and allies in the area  - name: "Duration"
+
+  - name: "Area"
+    desc: "5-foot emanationyou and allies in the area"
+  - name: "Duration"
     desc: "8 hours"
 abilities_mid:
   - name: ""

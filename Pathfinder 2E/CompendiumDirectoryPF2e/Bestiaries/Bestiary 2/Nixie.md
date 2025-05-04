@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.LZp7LLcFzDBlrwod"
 tags:
   - pf2e/creature/type/aquatic
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Nixie"
@@ -24,8 +25,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "aquatic"
-trait_02: "fey"
+trait_01: [[aquatic]]
+trait_02: [[fey]]
 modifier: 6
 perception:
   - name: "Perception"

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/swarm
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Cobblebone Swarm"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #181: Zombie Feast"
 name: "Cobblebone Swarm"
 level: "Creature 3"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "earth"
-trait_02: "swarm"
-trait_03: "undead"
+trait_01: [[earth]]
+trait_02: [[swarm]]
+trait_03: [[undead]]
 modifier: 9
 perception:
   - name: "Perception"

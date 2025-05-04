@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.oM1AvORITfhzwrDk"
 tags:
   - pf2e/creature/type/dragon
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Barbtongued Wyvern"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Barbtongued Wyvern"
 level: "Creature 18"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "dragon"
-trait_02: "evil"
+trait_01: [[dragon]]
+trait_02: [[evil]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -70,10 +71,10 @@ attacks:
     desc: "`pf2:1` Stinger +35 (agile, reach 20 feet)\n__Damage__  3d10 + 17 piercing plus barbtongued-wyvern-venom"
 
   - name: "Barbtongued Wyvern Venom"
-    desc: " (poison) **Saving Throw** DC 40 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 5d12 poison damage and [[Conditions/Clumsy 1|Clumsy 1]] (1 round)\n\n**Stage 2** 6d12 poison damage and [[Conditions/Clumsy 1|Clumsy 2]] (1 round)\n\n**Stage 3** 7d12 poison damage and [[Conditions/Clumsy 1|Clumsy 3]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 40 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 5d12 poison damage and [[Conditions/Clumsy|Clumsy 1]] (1 round)\n\n**Stage 2** 6d12 poison damage and [[Conditions/Clumsy|Clumsy 2]] (1 round)\n\n**Stage 3** 7d12 poison damage and [[Conditions/Clumsy|Clumsy 3]] (1 round)"
 
   - name: "Pin to the Sky"
-    desc: "`pf2:1`  With incredible force, the barbtongued wyvern whips its tongue and flings barbs from its length. Up to two creatures within 200 feet of the wyvern can be targeted; each creature must attempt a DC 40 Reflex check save. The barbtongued wyvern can't use Pin to the Sky again until its next turn.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target takes 2d12 + 3 piercing damage.\n\n**Failure** The target takes 5d12 piercing damage and is pinned in place, fastened to the underlying magical nature of Thousandbreaths by the barbs (even if not adjacent to a solid surface). It is [[Conditions/Immobilized|Immobilized]] until it Escapes. If the creature is under the effects of a spell that would prevent it from being immobilized, Thousandbreaths first attempts a Counteract check against the spell (+27).\n\n**Critical Failure** As failure, but the target takes 10d12 piercing damage and is [[Conditions/Slowed 1|Slowed 1]] until it escapes."
+    desc: "`pf2:1`  With incredible force, the barbtongued wyvern whips its tongue and flings barbs from its length. Up to two creatures within 200 feet of the wyvern can be targeted; each creature must attempt a DC 40 Reflex check save. The barbtongued wyvern can't use Pin to the Sky again until its next turn.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target takes 2d12+3 piercing damage.\n\n**Failure** The target takes 5d12 piercing damage and is pinned in place, fastened to the underlying magical nature of Thousandbreaths by the barbs (even if not adjacent to a solid surface). It is [[Conditions/Immobilized|Immobilized]] until it Escapes. If the creature is under the effects of a spell that would prevent it from being immobilized, Thousandbreaths first attempts a Counteract check against the spell (+27).\n\n**Critical Failure** As failure, but the target takes 10d12 piercing damage and is [[Conditions/Slowed|Slowed 1]] until it escapes."
 
   - name: "Reel In"
     desc: "  **Requirements** The wyvern has a creature [[Conditions/Grabbed|Grabbed]] in its tongue.\n* * *\n\n**Effect** The wyvern moves the creature up to 20 feet closer to it."

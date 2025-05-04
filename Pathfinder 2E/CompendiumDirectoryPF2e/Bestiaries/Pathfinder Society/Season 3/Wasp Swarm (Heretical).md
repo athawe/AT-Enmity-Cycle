@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/swarm
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Wasp Swarm (Heretical)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #3-13: Guardian&#x27;s Covenant"
 name: "Wasp Swarm (Heretical)"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "animal"
-trait_02: "swarm"
-trait_03: "unholy"
+trait_01: [[animal]]
+trait_02: [[swarm]]
+trait_03: [[unholy]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -60,7 +61,7 @@ attacks:
     desc: "`pf2:1`  Each enemy in the swarm's space takes 2d8 piercing damage (DC 21 Reflex check save) and is exposed to wasp venom. A successful save negates the poison exposure."
 
   - name: "Wasp Venom"
-    desc: " (poison) **Saving Throw** DC 21 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison (1 round)\n\n**Stage 2** 2d6 poison and [[Conditions/Clumsy 1|Clumsy 2]] (2 rounds)"
+    desc: " (poison) **Saving Throw** DC 21 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison (1 round)\n\n**Stage 2** 2d6 poison and [[Conditions/Clumsy|Clumsy 2]] (2 rounds)"
  
 ```
 

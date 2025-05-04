@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/spirit
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Zhi Hui"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #197: Let the Leaves Fall"
 name: "Zhi Hui"
 level: "Creature 7"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "ghost"
-trait_02: "good"
-trait_03: "incorporeal"
-trait_04: "lawful"
-trait_05: "spirit"
-trait_06: "undead"
+trait_01: [[ghost]]
+trait_02: [[good]]
+trait_03: [[incorporeal]]
+trait_04: [[lawful]]
+trait_05: [[spirit]]
+trait_06: [[undead]]
 modifier: 18
 perception:
   - name: "Perception"

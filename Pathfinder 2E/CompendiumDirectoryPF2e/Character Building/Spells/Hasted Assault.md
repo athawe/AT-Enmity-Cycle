@@ -25,10 +25,11 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
   - name: "Duration"
     desc: "1 minute"
 abilities_mid:
   - name: ""
-    desc: "You call upon your magic to speed up your attacks. You gain the quickened condition and can use the extra action each round for only Strike actions.\n\n_Note: Conflux spells refresh Spellstrike._"
+    desc: "You call upon your magic to speed up your attacks. You gain the [[Conditions/Quickened|Quickened]] condition and can use the extra action each round for only Strike actions."
 sourcebook: "_Pathfinder Secrets of Magic_"
 ```

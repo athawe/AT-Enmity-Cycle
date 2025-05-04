@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Society Quest #9: Wayfinder Origins
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.WM8ycweNEOEFE08F" 
@@ -22,14 +23,14 @@ name: "Aeon Nexus (3-4)"
 level: "Hazard 3"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 8
 sourcebook: "_Pathfinder Society Quest #9: Wayfinder Origins_"
 ac: 22
 armorclass:
   - name: AC
-    desc: "22; __Fort__ +14, __Ref__ +8, __Will__ +0"
+    desc: "22; __Fort__ +14, __Ref__ +8, "
 hp: 42
 health:
   - name: ""

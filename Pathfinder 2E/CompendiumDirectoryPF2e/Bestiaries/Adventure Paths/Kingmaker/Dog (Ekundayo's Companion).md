@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.oOPf7VG4tuMvzrgA"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/minion
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Dog (Ekundayo&#x27;s Companion)"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Dog (Ekundayo's Companion)"
 level: "Creature 6"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "animal"
-trait_02: "minion"
+trait_01: [[animal]]
+trait_02: [[minion]]
 modifier: 12
 perception:
   - name: "Perception"

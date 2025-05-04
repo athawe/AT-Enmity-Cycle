@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.dCljcVK6RAc0Y8Z7"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Wasp Swarm (PFS 3-13)"
@@ -24,8 +25,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "animal"
-trait_02: "swarm"
+trait_01: [[animal]]
+trait_02: [[swarm]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -58,7 +59,7 @@ attacks:
     desc: "`pf2:1`  Each enemy in the swarm's space takes 2d8 piercing damage (DC 21 Reflex check save) and is exposed to wasp venom. A successful save negates the poison exposure."
 
   - name: "Wasp Venom"
-    desc: " (poison) **Saving Throw** DC 21 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison (1 round)\n\n**Stage 2** 2d6 poison and [[Conditions/Clumsy 1|Clumsy 2]] (2 rounds)"
+    desc: " (poison) **Saving Throw** DC 21 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison (1 round)\n\n**Stage 2** 2d6 poison and [[Conditions/Clumsy|Clumsy 2]] (2 rounds)"
  
 ```
 

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.quest-for-the-frozen-flame-bestiary.Actor.8kGAwppxApSa
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Kadlaka"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #175: Broken Tusk Moon"
 name: "Kadlaka"
 level: "Creature 4"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "beast"
-trait_02: "lawful"
+trait_01: [[beast]]
+trait_02: [[lawful]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -73,7 +74,7 @@ attacks:
     desc: " (illusion,primal) A kadlaka's movements are practically silent. Against a creature using only hearing to perceive them, they gain a +4 circumstance bonus to their Stealth check. As normal, this benefit also improves the kadlaka's Stealth DC."
 
   - name: "Wingbeat"
-    desc: "`pf2:2` (primal,sonic) The kadlaka beats their wings with a mighty peal of thunder. Creatures in a 15-foot emanation take 5d6 sonic damage (DC 21 Fortitude check). On a failed save, the creature is also pushed 5 feet away from the kadlaka.\n\nThe kadlaka can't use Wingbeat again for 1d4 rounds."
+    desc: "`pf2:2` (primal,sonic) The kadlaka beats their wings with a mighty peal of thunder. Creatures in a @Template[emanation|distance:15] take 5d6 sonic damage (DC 21 Fortitude check). On a failed save, the creature is also pushed 5 feet away from the kadlaka.\n\nThe kadlaka can't use Wingbeat again for 1d4 rounds."
  
 ```
 

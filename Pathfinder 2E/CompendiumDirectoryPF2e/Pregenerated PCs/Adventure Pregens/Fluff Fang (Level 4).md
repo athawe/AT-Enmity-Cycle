@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Fluff Fang (Level 4)
-creatures:
-  - 1: Fluff Fang (Level 4)
-```
-
 
 
 

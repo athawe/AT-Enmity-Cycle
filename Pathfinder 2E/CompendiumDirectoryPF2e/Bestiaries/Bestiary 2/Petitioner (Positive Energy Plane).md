@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/petitioner
   - pf2e/creature/type/vitality
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Petitioner (Positive Energy Plane)"
@@ -25,9 +26,9 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "petitioner"
-trait_03: "vitality"
+trait_01: [[good]]
+trait_02: [[petitioner]]
+trait_03: [[vitality]]
 modifier: 7
 perception:
   - name: "Perception"

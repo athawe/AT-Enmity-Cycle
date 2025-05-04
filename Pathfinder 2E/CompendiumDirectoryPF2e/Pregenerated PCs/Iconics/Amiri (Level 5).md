@@ -60,12 +60,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Amiri (Level 5)
-creatures:
-  - 1: Amiri (Level 5)
-```
-
 
 
 

@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.T5CUuPsMPb17d6Qy" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Goliath Spider"
@@ -23,7 +24,7 @@ level: "Creature 11"
 
 alignment: ""
 size: "grg"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -68,7 +69,7 @@ attacks:
     desc: "`pf2:1` (move) The goliath spider moves straight down up to 120 feet, suspended by a web line. It can hang from the web or drop off. The distance it Descends on a Web doesn't count for falling damage.\n\nA creature that successfully Strikes the web (AC 20, Hardness 5, 20 HP) severs it, causing the spider to fall."
 
   - name: "Goliath Spider Venom"
-    desc: " (incapacitation,poison) **Saving Throw** DC 30 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 2d6 poison and [[Conditions/Slowed 1|Slowed 1]] (1 round)\n\n**Stage 2** 2d6 poison and [[Conditions/Slowed 1|Slowed 2]] (1 round)\n\n**Stage 3** [[Conditions/Paralyzed|Paralyzed]] for 2d4 hours"
+    desc: " (incapacitation,poison) **Saving Throw** DC 30 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 2d6 poison and [[Conditions/Slowed|Slowed 1]] (1 round)\n\n**Stage 2** 2d6 poison and [[Conditions/Slowed|Slowed 2]] (1 round)\n\n**Stage 3** [[Conditions/Paralyzed|Paralyzed]] for 2d4 hours"
 
   - name: "Web Tether"
     desc: "  A creature hit by the spider's web Strike is [[Conditions/Restrained|Restrained]] and tethered to the spider, preventing it from moving farther away from the spider.\n\nThe spider can have one creature tethered at a time. The DC to [[Actions/Escape|Escape]] or [[Actions/Force Open|Force Open]] the web is 30. The tether can be severed with a Strike (AC 20, Hardness 5, HP 20), but this doesn't free the restrained creature."

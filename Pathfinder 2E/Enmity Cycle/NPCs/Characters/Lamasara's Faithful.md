@@ -19,25 +19,25 @@ type:
 - female gnome cleric 8, priestess of Sarenrae at the Church of Radiance in Lower District 
 
 ### Paeda Rosemane
-- female halfling cleric of Shelyn that asks for help in [[Holy Vapours]] 
+- female halfling cleric (3) of Shelyn that asks for help in [[Holy Vapours]] 
 - 
 ## Less Important 
 ### Naffer Vosk 
 - male human gravedigger 3
 
 ## Gilded Guards (Lamasaran Soldiers)
-Stostic Embergaz male human
-Tenkor Proudkiller male human
-Erras Ezgha male human
-Orzor Notham male human
+Stostic Embergaz male human guard 4
+Tenkor Proudkiller male human champion of Shelyn 5
+Erras Ezgha male human guard 3
+Orzor Notham male human guard 2
 
-Thalbek Cahehk male dwarf 
-Rannam Bruronn male dwarf
+Thalbek Cahehk male dwarf guard 3
+Rannam Brudonn male dwarf champion of Torag 6
 
-Anzu Greengather male halfling 
+Anzu Greengather male halfling [[Watch Officer]] 3 (Perception +8, Will DC 18)
 
 ## Aspenthari Squad
-Fiman Freehair male human
+Fiman Freehair male human - really likes the corndogs.
 Gilois Mokuddr male human
 
 Berkom Stormale male dwarf

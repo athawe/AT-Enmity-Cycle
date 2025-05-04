@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/dwarf
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Kolbo"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #170: Spoken on the Song Wind"
 name: "Kolbo"
 level: "Creature 6"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "dwarf"
-trait_02: "evil"
-trait_03: "humanoid"
+trait_01: [[dwarf]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -66,7 +67,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Longsword +17 (versatile p)\n__Damage__  1d8 + 6 slashing"
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Heavy Crossbow +15 (range increment 60 feet, reload 1)\n__Damage__  1d10 piercing"
 
   - name: "Low Blow"

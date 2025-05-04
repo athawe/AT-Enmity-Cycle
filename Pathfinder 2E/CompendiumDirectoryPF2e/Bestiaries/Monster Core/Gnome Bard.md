@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.9XccneFB5DmMHig0"
 tags:
   - pf2e/creature/type/gnome
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "gnome"
-trait_02: "humanoid"
+trait_01: [[gnome]]
+trait_02: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -63,7 +64,7 @@ attacks:
     desc: "DC 19, attack +11; __1st __ (2 slots) _[[Spells/Charm|Charm]]_, _[[Spells/Command|Command]]_\n__Cantrips__  __(1st)__ _[[Spells/Courageous Anthem|Courageous Anthem]]_, _[[Spells/Daze|Daze]]_, _[[Spells/Figment|Figment]]_, _[[Spells/Message|Message]]_, _[[Spells/Prestidigitation|Prestidigitation]]_, _[[Spells/Summon Instrument|Summon Instrument]]_"
 
   - name: "Do a Jig!"
-    desc: "`pf2:1` (auditory,incapacitation,mental,occult) The gnome bard plays a ditty that inspires dance. One creature within 30 feet must make a DC 19 Will check saving throw.\n* * *\n\n**Success** the target is unaffected.\n\n**Failure** The target must waste 1 action on its next turn dancing.\n\n**Critical Failure** The target must waste 2 actions on its next turn dancing."
+    desc: "`pf2:1` (auditory,incapacitation,mental,occult) The gnome bard plays a ditty that inspires dance. One creature within 30 feet must make a DC 19 Will check saving throw.\n* * *\n\n**Success** The target is unaffected.\n\n**Failure** The target must waste 1 action on its next turn dancing.\n\n**Critical Failure** The target must waste 2 actions on its next turn dancing."
  
 ```
 

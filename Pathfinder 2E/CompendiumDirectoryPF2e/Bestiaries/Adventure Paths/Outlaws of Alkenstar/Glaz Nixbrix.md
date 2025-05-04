@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/goblin
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Glaz Nixbrix"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #178: Punks in a Powder Keg"
 name: "Glaz Nixbrix"
 level: "Creature 4"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "goblin"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[goblin]]
+trait_03: [[humanoid]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Goblin"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +14, Athletics: +11 (+15 to Climb), Crafting: +9, Intimidation: +10, Underworld Lore: +9"
+    desc: "Acrobatics: +14, Athletics: +11, Crafting: +9, Intimidation: +10, Underworld Lore: +9"
 abilityMods: [3, 6, 4, 3, 1, 2]
 speed: 20 feet,  climb 30 feet
 sourcebook: "_Pathfinder #178: Punks in a Powder Keg_"

@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/skelm
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Soul Skelm"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Soul Skelm"
 level: "Creature 10"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fiend"
-trait_03: "humanoid"
-trait_04: "lawful"
-trait_05: "skelm"
-trait_06: "unholy"
+trait_01: [[evil]]
+trait_02: [[fiend]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
+trait_05: [[skelm]]
+trait_06: [[unholy]]
 modifier: 19
 perception:
   - name: "Perception"

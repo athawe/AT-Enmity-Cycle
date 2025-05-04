@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.7lSwznbhNb7THfZo" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Terror Shrike"
@@ -23,7 +24,7 @@ level: "Creature 4"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ attacks:
     desc: "`pf2:2`  **Frequency** once per minute\n* * *\n\n**Effect** The terror shrike Strides three times in a straight line."
 
   - name: "Stunning Screech"
-    desc: "`pf2:1` (auditory,emotion,fear,mental) The terror shrike unleashes a haunting screech that causes prey to freeze in fear. Each creature in a 30-foot emanation other than terror birds must attempt a DC 19 Will check save. Regardless of the result, creatures are then temporarily immune for 1 minute.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Off-Guard|Off-Guard]] until the start of its turn.\n\n**Failure** The creature is [[Conditions/Stunned 1|Stunned 1]].\n\n**Critical Failure** The creature is [[Conditions/Stunned 1|Stunned 2]]."
+    desc: "`pf2:1` (auditory,emotion,fear,mental) The terror shrike unleashes a haunting screech that causes prey to freeze in fear. Each creature in a @Template[emanation|distance:30] other than terror birds must attempt a DC 19 Will check save. Regardless of the result, creatures are then temporarily immune for 1 minute.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Off-Guard|Off-Guard]] until the start of its turn.\n\n**Failure** The creature is [[Conditions/Stunned|Stunned 1]].\n\n**Critical Failure** The creature is [[Conditions/Stunned|Stunned 2]]."
 
   - name: "Sudden Charge"
     desc: "`pf2:2`  The terror shrike Strides twice. If it ends its movement within melee reach of one creature, it can make a melee Strike against that creature."

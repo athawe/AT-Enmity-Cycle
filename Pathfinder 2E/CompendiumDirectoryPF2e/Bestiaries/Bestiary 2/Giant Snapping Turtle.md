@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.fVvRASaKa6SkQkYG" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Giant Snapping Turtle"
@@ -23,7 +24,7 @@ level: "Creature 9"
 
 alignment: ""
 size: "grg"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -65,7 +66,7 @@ attacks:
     desc: "`pf2:1`  The giant snapping turtle retracts its limbs and head into its shell and ends its turn. This increases its AC to 30, but it can't act except to reemerge, which it can do as a single action."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Large, 2d12 + 7 bludgeoning damage, Rupture 30\n\n* * *\n"
+    desc: "`pf2:1` (attack) Large, 2d12+7 bludgeoning damage, Rupture 30\n\n* * *\n"
  
 ```
 

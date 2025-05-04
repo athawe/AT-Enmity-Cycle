@@ -29,6 +29,7 @@ tags:
   
 
 **Table: Victory Point Scales**
+ 
 | **Duration of Challenge** | **VP End Point** | **VP Thresholds** |
 | --- | --- | --- |
 | Quick encounter | 3-5 | \- |
@@ -116,6 +117,7 @@ The table also lists numbers for one or more thresholds. These are the point val
   
 
 **Table: Victory Point Scales**
+ 
 | **Duration of Challenge** | **VP End Point** | **VP Thresholds** |
 | --- | --- | --- |
 | Quick encounter | 3-5 | \- |

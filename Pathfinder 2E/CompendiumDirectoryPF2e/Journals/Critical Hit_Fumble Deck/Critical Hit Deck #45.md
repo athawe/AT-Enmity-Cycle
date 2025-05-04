@@ -14,7 +14,7 @@ tags:
 
 # Hobbled
 
-> **Crit Effect:** Until healed, the target is [[Conditions/Clumsy 1|Clumsy 2]] and takes a [[Other Effects/Effect\_ -10-foot circumstance penalty to all Speeds|-10-foot circumstance penalty to all Speeds]].
+> **Crit Effect:** Until healed, the target is [[Conditions/Clumsy 1|Clumsy 2]] and takes a [[Other Effects/Effect_ -10-foot circumstance penalty to all Speeds|-10-foot circumstance penalty to all Speeds]].
 
 `Piercing`
 

@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/mummy
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Bog Mummy Amalgamation"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #171: Hurricane&#x27;s Howl"
 name: "Bog Mummy Amalgamation"
 level: "Creature 9"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "lawful"
-trait_03: "mummy"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[evil]]
+trait_02: [[lawful]]
+trait_03: [[mummy]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Necril"
 skills:
   - name: "Skills"
-    desc: "Athletics: +19, Stealth: +16 (+18 while buried in silt)"
+    desc: "Athletics: +19, Stealth: +16"
 abilityMods: [6, 1, 3, 0, 3, 0]
 speed: 20 feet,  burrow 15 feet
 sourcebook: "_Pathfinder #171: Hurricane&#x27;s Howl_"
@@ -70,7 +71,7 @@ attacks:
     desc: "`pf2:1` Fist +20 (reach 10 feet)\n__Damage__  2d6 + 5 bludgeoning plus bog-rot"
 
   - name: "Bog Rot"
-    desc: " (curse,disease,divine,void) This affliction can't be reduced below stage 1, nor can the damage from it be healed, until it's successfully treated with [[Spells/Cleanse Affliction|Cleanse Affliction]] or a similar effect; the affliction can then be removed as normal for a disease.\n\nA creature killed by bog rot melts into a noxious sludge and can't be resurrected except by a 7th-rank [[Spells/Resurrect|Resurrect]] ritual or similar magic\n\n**Saving Throw** DC 21 Fortitude check\n\n**Stage 1** carrier with no ill effect (1 minute)\n\n**Stage 2** 3d6 void damage and [[Conditions/Clumsy 1|Clumsy 1]] (1 day)."
+    desc: " (curse,disease,divine,void) This affliction can't be reduced below stage 1, nor can the damage from it be healed, until it's successfully treated with [[Spells/Cleanse Affliction|Cleanse Affliction]] or a similar effect; the affliction can then be removed as normal for a disease.\n\nA creature killed by bog rot melts into a noxious sludge and can't be resurrected except by a 7th-rank [[Spells/Resurrect|Resurrect]] ritual or similar magic\n\n**Saving Throw** DC 21 Fortitude check\n\n**Stage 1** carrier with no ill effect (1 minute)\n\n**Stage 2** 3d6 void damage and [[Conditions/Clumsy|Clumsy 1]] (1 day)."
 
   - name: "Fist Flurry"
     desc: "`pf2:2`  The amalgamation makes two fist Strikes against two different targets within its reach. Its multiple attack penalty doesn't increase until after both attacks."

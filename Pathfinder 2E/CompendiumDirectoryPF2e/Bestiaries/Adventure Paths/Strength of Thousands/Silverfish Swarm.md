@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.rSCb5qmvljAHZ65d"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Silverfish Swarm"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #169: Kindled Magic"
 name: "Silverfish Swarm"
 level: "Creature -1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "animal"
-trait_02: "swarm"
+trait_01: [[animal]]
+trait_02: [[swarm]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -58,7 +59,7 @@ attacks:
   - name: ""
 
   - name: "Swarming Bites"
-    desc: "`pf2:1`  Each enemy in the silverfish swarm's space takes 1d4 piercing damage (DC 14 Fortitude check save). A creature that fails its save is [[Conditions/Sickened 1|Sickened 1]]."
+    desc: "`pf2:1`  Each enemy in the silverfish swarm's space takes 1d4 piercing damage (DC 14 Fortitude check save). A creature that fails its save is [[Conditions/Sickened|Sickened 1]]."
  
 ```
 

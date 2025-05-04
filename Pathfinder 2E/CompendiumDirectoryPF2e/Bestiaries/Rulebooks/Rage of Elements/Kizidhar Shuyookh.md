@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/genie
   - pf2e/creature/type/plant
   - pf2e/creature/type/wood
+  - pf2eMonster
   - pf2e/creature/level/11
   - remaster
 statblock: inline
@@ -24,13 +25,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Rage of Elements"
 name: "Kizidhar Shuyookh"
 level: "Creature 11"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "elemental"
-trait_02: "genie"
-trait_03: "plant"
-trait_04: "wood"
+trait_01: [[elemental]]
+trait_02: [[genie]]
+trait_03: [[plant]]
+trait_04: [[wood]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -38,7 +39,7 @@ perception:
 languages: "Common, Muan; speak with plants, truespeech"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +20, Arcana: +19, Athletics: +22, Crafting: +23, Deception: +21, Intimidation: +21, Nature: +24, Stealth: +22 (+24 in forests)"
+    desc: "Acrobatics: +20, Arcana: +19, Athletics: +22, Crafting: +23, Deception: +21, Intimidation: +21, Nature: +24, Stealth: +22"
 abilityMods: [5, 5, 7, 4, 4, 4]
 speed: 25 feet,  climb 25 feet
 sourcebook: "_Pathfinder Rage of Elements_"
@@ -91,7 +92,7 @@ attacks:
     desc: "`pf2:1` (auditory,emotion,mental) **Frequency** once per round;\n* * *\n\n**Effect** The kizidhar plants a desire for greatness in the mind of a creature within 50 feet. The target must attempt a DC 30 Will check save. On a failure, until the end of its next turn, the target can't Delay, Ready, or use reactions. Instead, it must use all its actions to Strike or cast the highest rank of spell available to it using spell slots or Focus Points, or take actions to facilitate doing so, such as drawing a weapon or moving toward an enemy. The target must focus its attacks either on the kizidhar or on the opponent it perceives to be the biggest threat. This effect ends if the kizidhar uses Seed of Ambition again."
 
   - name: "Take Root"
-    desc: "`pf2:1` (arcane,plant,wood) The genie thrusts their weapon into the ground. Plants sprout and grow out of the ground in a 20-foot burst centered on one corner of the kizidhar's square. All squares on the ground in that area are difficult terrain until the kizidhar uses this ability again."
+    desc: "`pf2:1` (arcane,plant,wood) The genie thrusts their weapon into the ground. Plants sprout and grow out of the ground in a @Template[burst|distance:20] centered on one corner of the kizidhar's square. All squares on the ground in that area are difficult terrain until the kizidhar uses this ability again."
  
 ```
 

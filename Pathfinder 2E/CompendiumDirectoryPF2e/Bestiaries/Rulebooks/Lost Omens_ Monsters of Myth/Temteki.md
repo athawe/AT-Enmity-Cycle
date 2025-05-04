@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/elemental
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Temteki"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Monsters of Myth"
 name: "Temteki"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "earth"
-trait_02: "elemental"
-trait_03: "lawful"
+trait_01: [[earth]]
+trait_02: [[elemental]]
+trait_03: [[lawful]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Fey, Petran; (can&#x27;t speak any language)"
 skills:
   - name: "Skills"
-    desc: "Athletics: +12, Intimidation: +14, Nature: +11, Stealth: +11 (+15 in forests)"
+    desc: "Athletics: +12, Intimidation: +14, Nature: +11, Stealth: +11"
 abilityMods: [5, 0, 4, 2, 2, 5]
 speed: 30 feet,  burrow 30 feet
 sourcebook: "_Pathfinder Lost Omens: Monsters of Myth_"

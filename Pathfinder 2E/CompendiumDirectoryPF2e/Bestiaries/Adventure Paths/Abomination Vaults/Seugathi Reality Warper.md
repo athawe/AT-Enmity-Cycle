@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/seugathi
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Seugathi Reality Warper"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #164: Hands of the Devil"
 name: "Seugathi Reality Warper"
 level: "Creature 9"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "seugathi"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[seugathi]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -74,9 +75,6 @@ attacks:
   - name: "Occult Innate Spells"
     desc: "DC 28, attack +20; __5th __  _[[Spells/Black Tentacles|Black Tentacles]]_, _[[Spells/Hallucination|Hallucination]]_, _[[Spells/Synesthesia|Synesthesia]]_, _[[Spells/Wave of Despair|Wave of Despair]]_; __4th __  _[[Spells/Confusion|Confusion (x3)]]_, _[[Spells/Phantasmal Killer|Phantasmal Killer]]_, _[[Spells/Suggestion|Suggestion]]_; __3rd __  _[[Spells/Hypercognition|Hypercognition (x3)]]_, _[[Spells/Levitate|Levitate (x3)]]_, _[[Spells/Mind Reading|Mind Reading (x3)]]_\n__Cantrips__  __(5th)__ _[[Spells/Daze|Daze]]_, _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Telekinetic Hand|Telekinetic Hand]]_, _[[Spells/Telekinetic Projectile|Telekinetic Projectile]]_"
 
-  - name: "Magic Item Mastery"
-    desc: "DC 28, attack +20"
-
   - name: "Envenom Weapon"
     desc: "`pf2:1` (manipulate) The seugathi applies their seugathi venom to one weapon they wield."
 
@@ -84,10 +82,10 @@ attacks:
     desc: "  A seugathi can Cast a Spell from a magic item even if the spell isn't on their spell list. All such spells are occult spells and use the seugathi's innate spell DC and attack modifier."
 
   - name: "Seugathi Venom"
-    desc: " (poison) **Saving Throw** DC 25 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage and [[Conditions/Stupefied 1|Stupefied 1]] (1 round)\n\n**Stage 2** 2d6 poison damage and [[Conditions/Deafened|Deafened]] and [[Conditions/Stupefied 1|Stupefied 2]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 25 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage and [[Conditions/Stupefied|Stupefied 1]] (1 round)\n\n**Stage 2** 2d6 poison damage and [[Conditions/Deafened|Deafened]] and [[Conditions/Stupefied|Stupefied 2]] (1 round)"
 
   - name: "Warp Reality"
-    desc: "`pf2:3` (concentrate,occult) The seugathi bends reality in their choice of a 10-foot emanation or a 60-foot line, altering the terrain of the area. The terrain becomes a different type of terrain (such as aquatic, arctic, or desert) and becomes normal or difficult terrain, as the seugathi chooses. Structures, general geographic features, and creatures in the area aren't transformed, but creatures in the area take 5d6 spirit damage (DC 28 Fortitude check save) as reality tries to bend them along with the terrain.\n\nThough changes to the area are permanent, the natural environment might eventually revert the land back to its original state (aquatic areas drain, arctic areas thaw, and so on)."
+    desc: "`pf2:3` (concentrate,occult) The seugathi bends reality in their choice of a @Template[emanation|distance:10] or a @Template[line|distance:60], altering the terrain of the area. The terrain becomes a different type of terrain (such as aquatic, arctic, or desert) and becomes normal or difficult terrain, as the seugathi chooses. Structures, general geographic features, and creatures in the area aren't transformed, but creatures in the area take 5d6 spirit damage (DC 28 Fortitude check save) as reality tries to bend them along with the terrain.\n\nThough changes to the area are permanent, the natural environment might eventually revert the land back to its original state (aquatic areas drain, arctic areas thaw, and so on)."
  
 ```
 

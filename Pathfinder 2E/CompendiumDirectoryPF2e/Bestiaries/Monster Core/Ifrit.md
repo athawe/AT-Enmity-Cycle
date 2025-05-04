@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/fire
   - pf2e/creature/type/genie
+  - pf2eMonster
   - pf2e/creature/level/9
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 9"
 
 alignment: ""
 size: "Large"
-trait_01: "elemental"
-trait_02: "fire"
-trait_03: "genie"
+trait_01: [[elemental]]
+trait_02: [[fire]]
+trait_03: [[genie]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -74,7 +75,7 @@ attacks:
     desc: "`pf2:1`  **Requirements** The ifrit has a hand free\n* * *\n\n**Effect** The ifrit makes a melee Strike. If the Strike hits, the target is [[Conditions/Grabbed|Grabbed]] in the ifrit's free hand."
 
   - name: "Wings of Flame"
-    desc: "`pf2:1` (arcane,fire) The ifrit grows flaming wings from their back. They gain a fly Speed of 35 feet for 1 minute. The flames also create an aura in a 5-foot emanation around the ifrit.\n\nAny creature that ends its turn in the aura takes 2d6 fire damage with a DC 25 Reflex check save."
+    desc: "`pf2:1` (arcane,fire) The ifrit grows flaming wings from their back. They gain a fly Speed of 35 feet for 1 minute. The flames also create an aura in a @Template[emanation|distance:5] around the ifrit.\n\nAny creature that ends its turn in the aura takes 2d6 fire damage with a DC 25 Reflex check save."
  
 ```
 

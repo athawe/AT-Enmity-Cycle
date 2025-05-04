@@ -3,6 +3,7 @@ title: Mermaid Fountain (BB)
 obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
+  - pf2eHazard
   - complex
 source: Pathfinder Beginner Box
 aliases: "Compendium.pf2e.menace-under-otari-bestiary.Actor.v51J7K27abdDyLgJ" 
@@ -25,7 +26,7 @@ sourcebook: "_Pathfinder Beginner Box_"
 ac: 18
 armorclass:
   - name: AC
-    desc: "18; __Fort__ +7, __Ref__ +5, __Will__ +0"
+    desc: "18; __Fort__ +7, __Ref__ +5, "
 hp: 15
 health:
   - name: ""

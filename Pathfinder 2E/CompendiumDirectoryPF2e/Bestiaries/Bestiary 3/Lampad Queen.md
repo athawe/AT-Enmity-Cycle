@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/fey
   - pf2e/creature/type/nymph
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Lampad Queen"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Lampad Queen"
 level: "Creature 15"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "earth"
-trait_03: "fey"
-trait_04: "nymph"
+trait_01: [[chaotic]]
+trait_02: [[earth]]
+trait_03: [[fey]]
+trait_04: [[nymph]]
 modifier: 27
 perception:
   - name: "Perception"

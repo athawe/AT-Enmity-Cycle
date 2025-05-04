@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.rUZMrUyOucemrMrt"
 tags:
   - pf2e/creature/type/dwarf
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Dwarven Monster Hunter"
@@ -24,8 +25,8 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "dwarf"
-trait_02: "humanoid"
+trait_01: [[dwarf]]
+trait_02: [[humanoid]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Dwarven, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Athletics: +15, Monster Lore: +13, Stealth: +13, Survival: +11"
+    desc: "Athletics: +15, Stealth: +13, Survival: +11, Monster Lore: +13"
 abilityMods: [4, 3, 3, 1, 1, 1]
 speed: 15 feet
 sourcebook: "_Pathfinder #195: Heavy is the Crown_"

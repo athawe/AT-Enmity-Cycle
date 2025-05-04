@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - fire
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #1-15: The Blooming Catastrophe
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.WT62cRWceB4NlSE8" 
@@ -22,14 +23,14 @@ name: "Smoldering Forest Fire"
 level: "Hazard -1"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "fire"
+trait_01: [[environmental]]
+trait_02: [[fire]]
 modifier: -10
 sourcebook: "_Pathfinder Society Scenario #1-15: The Blooming Catastrophe_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 10
 health:
   - name: ""

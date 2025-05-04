@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/orc
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Evora Yarket"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #152: Legacy of the Lost God"
 name: "Evora Yarket"
 level: "Creature 7"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
-trait_03: "orc"
+trait_01: [[human]]
+trait_02: [[humanoid]]
+trait_03: [[orc]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Orc Ferocity"
-    desc: "`pf2:r`  **Frequency** once per day\n\n**Trigger** Evora would be reduced to 0 Hit Points but not immediately killed\n* * *\n\n**Effect** Evora avoids being knocked out and remains at 1 Hit Point, and her [[Conditions/Wounded 1|Wounded]] condition increases by 1."
+    desc: "`pf2:r`  **Frequency** once per day\n\n**Trigger** Evora would be reduced to 0 Hit Points but not immediately killed\n* * *\n\n**Effect** Evora avoids being knocked out and remains at 1 Hit Point, and her [[Conditions/Wounded|Wounded]] condition increases by 1."
 
   - name: "Stand Still"
     desc: "`pf2:r`  **Trigger** A creature within Evora's reach uses a move action or leaves a square during a move action it's using\n* * *\n\n**Effect** Evora makes a melee Strike against the triggering creature. If this attack is a critical hit and the trigger was a move action, she disrupts that action."

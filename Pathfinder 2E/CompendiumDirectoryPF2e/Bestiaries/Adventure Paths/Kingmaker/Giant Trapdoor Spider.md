@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.1UWbR2WkeP0kl1nQ" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Giant Trapdoor Spider"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Giant Trapdoor Spider"
 level: "Creature 2"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -59,7 +60,7 @@ attacks:
     desc: "`pf2:1` Fangs +11 ()\n__Damage__  1d10 + 3 piercing plus giant-trapdoor-spider-venom"
 
   - name: "Giant Trapdoor Spider Venom"
-    desc: " (incapacitation,poison) **Saving Throw** DC 18 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d10 poison and [[Conditions/Off-Guard|Off-Guard]] (1 round)\n\n**Stage 2** 1d12 poison, [[Conditions/Slowed 1|Slowed 1]], and off-guard (1 round)\n\n**Stage 3** 2d6 poison and [[Conditions/Paralyzed|Paralyzed]] (1 round)"
+    desc: " (incapacitation,poison) **Saving Throw** DC 18 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d10 poison and [[Conditions/Off-Guard|Off-Guard]] (1 round)\n\n**Stage 2** 1d12 poison, [[Conditions/Slowed|Slowed 1]], and off-guard (1 round)\n\n**Stage 3** 2d6 poison and [[Conditions/Paralyzed|Paralyzed]] (1 round)"
  
 ```
 

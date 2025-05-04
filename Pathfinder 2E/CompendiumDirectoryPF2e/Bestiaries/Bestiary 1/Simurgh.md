@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.ASc5sT2hU84tp1fx"
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/good
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Simurgh"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Simurgh"
 level: "Creature 18"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "beast"
-trait_02: "good"
+trait_01: [[beast]]
+trait_02: [[good]]
 modifier: 32
 perception:
   - name: "Perception"
@@ -76,10 +77,10 @@ attacks:
     desc: "DC 42, attack +34; __9th __  _[[Spells/Flame Strike|Flame Strike]]_, _[[Spells/Heal|Heal]]_; __3rd __  _[[Spells/Ring of Truth|Zone of Truth (At Will)]]_; __2nd __  _[[Spells/Detect Alignment|Detect Alignment (At Will) (Evil Only)]]_; __1st __  _[[Spells/Dazzling Flash|Dazzling Flash]]_\n__Cantrips__  __(9th)__ _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Light|Light]]_\n__Constant__  __(5th)__ _[[Spells/Truespeech|Tongues]]_"
 
   - name: "Banishing Swipe"
-    desc: "  If a creature hit by the simurgh's tail Strike is not currently on its home plane, it must succeed at a DC 42 Will check save or be affected by [[Spells/Banishment|Banishment]], except that if the creature critically succeeds its save the simurgh is not [[Conditions/Stunned 1|Stunned]]."
+    desc: "  If a creature hit by the simurgh's tail Strike is not currently on its home plane, it must succeed at a DC 42 Will check save or be affected by [[Spells/Banishment|Banishment]], except that if the creature critically succeeds its save the simurgh is not [[Conditions/Stunned|Stunned]]."
 
   - name: "Radiant Feathers"
-    desc: "`pf2:2` (attack) **Frequency** Once per day\n* * *\n\n**Effect** The simurgh fans out its glimmering tail feathers and blasts its foes with a 100-foot cone of radiant light. Aside from the size of the cone, this effect is identical to [[Spells/Prismatic Spray|Prismatic Spray]] (DC 42)."
+    desc: "`pf2:2` (attack) **Frequency** Once per day\n* * *\n\n**Effect** The simurgh fans out its glimmering tail feathers and blasts its foes with a @Template[cone|distance:100] of radiant light. Aside from the size of the cone, this effect is identical to [[Spells/Prismatic Spray|Prismatic Spray]] (DC 42)."
  
 ```
 

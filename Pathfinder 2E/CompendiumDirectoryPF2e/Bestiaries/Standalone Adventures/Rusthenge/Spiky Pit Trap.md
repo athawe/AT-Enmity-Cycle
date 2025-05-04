@@ -3,6 +3,7 @@ title: Spiky Pit Trap
 obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
+  - pf2eHazard
 
 source: Pathfinder Adventure: Rusthenge
 aliases: "Compendium.pf2e.rusthenge-bestiary.Actor.Tvz5JKAE8rrCF5qW" 

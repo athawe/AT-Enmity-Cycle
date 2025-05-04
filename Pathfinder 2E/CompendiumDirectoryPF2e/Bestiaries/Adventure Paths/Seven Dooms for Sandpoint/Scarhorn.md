@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/dragon
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Scarhorn"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #200: Seven Dooms for Sandpoint"
 name: "Scarhorn"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "acid"
-trait_02: "amphibious"
-trait_03: "chaotic"
-trait_04: "dragon"
-trait_05: "evil"
+trait_01: [[acid]]
+trait_02: [[amphibious]]
+trait_03: [[chaotic]]
+trait_04: [[dragon]]
+trait_05: [[evil]]
 modifier: 24
 perception:
   - name: "Perception"
@@ -85,7 +86,7 @@ attacks:
     desc: "DC 34, attack +26; __2nd __  _[[Spells/Darkness|Darkness (At Will)]]_"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (acid,arcane) Scarhorn breathes a spray of acid that deals 15d6 acid damage in an 80-foot line (DC 34 Reflex check save). She can't use Breath Weapon again for 1d4 rounds."
+    desc: "`pf2:2` (acid,arcane) Scarhorn breathes a spray of acid that deals 15d6 acid damage in an @Template[line|distance:80] (DC 34 Reflex check save). She can't use Breath Weapon again for 1d4 rounds."
 
   - name: "Corrupt Water"
     desc: "`pf2:1` (arcane,concentrate) **Frequency** Once per day\n* * *\n\n**Effect** The dragon permanently befouls 10 cubic feet of liquid within 90 feet. The liquid becomes undrinkable and unable to support water-breathing life.\n\nThis destroys liquid magic or alchemical items if they're of a lower level than the dragon (a creature can attempt a DC 31 Will check save to protect liquids in its possession). This doesn't affect liquids in a creature's body."

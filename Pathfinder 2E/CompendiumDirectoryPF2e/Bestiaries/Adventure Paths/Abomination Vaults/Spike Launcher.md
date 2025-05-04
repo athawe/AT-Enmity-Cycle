@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #163: Ruins of Gauntlight
 aliases: "Compendium.pf2e.abomination-vaults-bestiary.Actor.6NijRSpkIuQpSxUp" 
@@ -22,14 +23,14 @@ name: "Spike Launcher"
 level: "Hazard 0"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 9
 sourcebook: "_Pathfinder #163: Ruins of Gauntlight_"
 ac: 16
 armorclass:
   - name: AC
-    desc: "16; __Fort__ +9, __Ref__ +3, __Will__ +0"
+    desc: "16; __Fort__ +9, __Ref__ +3, "
 hp: 16
 health:
   - name: ""

@@ -34,8 +34,7 @@ columnWidth: x
 abilities_top:
   - name: ""
   - name: "Range"
-    desc: "100 feet; **Area** 20-foot burst
-"
+    desc: "100 feet; **Area** 20-foot burst"
   - name: "Defense"
     desc: " fortitude"
 abilities_mid:

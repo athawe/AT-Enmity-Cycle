@@ -28,8 +28,7 @@ abilities_top:
   - name: "Traditions"
     desc: "occult"
   - name: "Range"
-    desc: "60 feet; **Area** 10-foot cube
-"
+    desc: "60 feet; **Area** 10-foot cube"
   - name: "Defense"
     desc: " will"
   - name: "Duration"

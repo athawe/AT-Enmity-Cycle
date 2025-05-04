@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.YX0CqhKKtRzoLkuP"
 tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Water Wisp"
@@ -24,8 +25,8 @@ level: "Creature 0"
 
 alignment: ""
 size: "tiny"
-trait_01: "elemental"
-trait_02: "water"
+trait_01: [[elemental]]
+trait_02: [[water]]
 modifier: 6
 perception:
   - name: "Perception"

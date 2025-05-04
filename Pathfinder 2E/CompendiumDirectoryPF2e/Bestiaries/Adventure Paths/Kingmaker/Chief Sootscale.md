@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kobold
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Chief Sootscale"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Chief Sootscale"
 level: "Creature 2"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "kobold"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[kobold]]
+trait_04: [[lawful]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Draconic"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8, Crafting: +4 (+6 traps), Intimidation: +8, Stealth: +8"
+    desc: "Acrobatics: +8, Crafting: +4, Intimidation: +8, Stealth: +8"
 abilityMods: [2, 4, 1, 0, 2, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Kingmaker_"
@@ -59,7 +60,7 @@ abilities_mid:
 attacks:
   - name: ""
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Club +8 (thrown 10 ft.)\n__Damage__  1d6 + 4 bludgeoning"
 
   - name: "Ranged"

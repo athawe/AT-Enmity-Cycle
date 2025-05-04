@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - mechanical
+  - pf2eHazard
   - complex
 source: Pathfinder #161: Belly of the Black Whale
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.LACpbwnVT7m2ZqBi" 
@@ -22,14 +23,14 @@ name: "The Winder"
 level: "Hazard 19"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "mechanical"
+trait_01: [[environmental]]
+trait_02: [[mechanical]]
 modifier: 31
 sourcebook: "_Pathfinder #161: Belly of the Black Whale_"
 ac: 43
 armorclass:
   - name: AC
-    desc: "43; __Fort__ +32, __Ref__ +35, __Will__ +0"
+    desc: "43; __Fort__ +32, __Ref__ +35, "
 hp: 250
 health:
   - name: ""

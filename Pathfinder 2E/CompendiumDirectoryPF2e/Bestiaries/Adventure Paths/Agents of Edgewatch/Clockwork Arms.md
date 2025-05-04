@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - mechanical
+  - pf2eHazard
   - complex
 source: Pathfinder #161: Belly of the Black Whale
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.82wJQmzPlKttl0sc" 
@@ -21,13 +22,13 @@ name: "Clockwork Arms"
 level: "Hazard 15"
 
 trait_06: "Complex"
-trait_01: "mechanical"
+trait_01: [[mechanical]]
 modifier: 30
 sourcebook: "_Pathfinder #161: Belly of the Black Whale_"
 ac: 37
 armorclass:
   - name: AC
-    desc: "37; __Fort__ +23, __Ref__ +26, __Will__ +0"
+    desc: "37; __Fort__ +23, __Ref__ +26, "
 hp: 50
 health:
   - name: ""

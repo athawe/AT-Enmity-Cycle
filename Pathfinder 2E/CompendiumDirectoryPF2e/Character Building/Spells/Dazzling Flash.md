@@ -32,7 +32,9 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
-**Area** 15-foot cone
+
+  - name: "Area"
+    desc: "15-foot cone"
   - name: "Defense"
     desc: " fortitude"
 abilities_mid:

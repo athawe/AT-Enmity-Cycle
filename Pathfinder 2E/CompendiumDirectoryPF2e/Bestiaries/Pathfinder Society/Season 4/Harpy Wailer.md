@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Harpy Wailer"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-06: Signal from the Electric Laboratory"
 name: "Harpy Wailer"
 level: "Creature 9"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +21, Deception: +21, Intimidation: +19, Performance: +21 (+23 singing)"
+    desc: "Acrobatics: +21, Deception: +21, Intimidation: +19, Performance: +21"
 abilityMods: [2, 6, 2, 0, 3, 6]
 speed: 20 feet,  fly 60 feet
 sourcebook: "_Pathfinder Society Scenario #4-06: Signal from the Electric Laboratory_"
@@ -55,7 +56,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Sonic Screech"
-    desc: "`pf2:2` (auditory,sonic) The harpy wailer unleashes blast of sound that deals 10d6 sonic damage in a 60-foot line (DC 27 Reflex check). She can't use Sonic Screech again for 1d4 rounds."
+    desc: "`pf2:2` (auditory,sonic) The harpy wailer unleashes blast of sound that deals 10d6 sonic damage in a @Template[line|distance:60] (DC 27 Reflex check). She can't use Sonic Screech again for 1d4 rounds."
 
 attacks:
   - name: ""

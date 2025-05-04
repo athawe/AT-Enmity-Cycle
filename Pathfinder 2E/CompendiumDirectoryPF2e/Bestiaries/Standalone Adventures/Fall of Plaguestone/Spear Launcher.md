@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Adventure: The Fall of Plaguestone
 aliases: "Compendium.pf2e.fall-of-plaguestone-bestiary.Actor.jpw5eHse4EcmYSp6" 
@@ -22,14 +23,14 @@ name: "Spear Launcher"
 level: "Hazard 2"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 10
 sourcebook: "_Pathfinder Adventure: The Fall of Plaguestone_"
 ac: 18
 armorclass:
   - name: AC
-    desc: "18; __Fort__ +11, __Ref__ +3, __Will__ +0"
+    desc: "18; __Fort__ +11, __Ref__ +3, "
 hp: 32
 health:
   - name: ""

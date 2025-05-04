@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/monitor
   - pf2e/creature/type/protean
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Voidworm Ouroboros"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #1-21: Mistress of the Maze"
 name: "Voidworm Ouroboros"
 level: "Creature 5"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "monitor"
-trait_03: "protean"
+trait_01: [[chaotic]]
+trait_02: [[monitor]]
+trait_03: [[protean]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -75,7 +76,7 @@ attacks:
     desc: "`pf2:1` (concentrate,divine,polymorph) The voidworm takes on the appearance of a Tiny animal. This doesn't change its Speed or its attack and damage bonuses with its Strikes, but might change the damage type its Strikes deal.\n\n* * *\n"
 
   - name: "Confounding Lash"
-    desc: " (divine,emotion,mental) A creature hit by the voidworm's tail Strike is [[Conditions/Stupefied 1|Stupefied 1]] for 1 round ([[Conditions/Stupefied 1|Stupefied 2]] on a critical hit). A successful DC 22 Will check save negates this effect and grants temporary immunity to confounding lash for 1 minute."
+    desc: " (divine,emotion,mental) A creature hit by the voidworm's tail Strike is [[Conditions/Stupefied|Stupefied 1]] for 1 round ([[Conditions/Stupefied|Stupefied 2]] on a critical hit). A successful DC 22 Will check save negates this effect and grants temporary immunity to confounding lash for 1 minute."
 
   - name: "Divide"
     desc: "`pf2:1` (polymorph) In any round the voidworm ouroboros has less than half its total Hit Points, it can split into two standard [[Bestiary 1/Voidworm|Voidworms]] which assume normal statistics for that creature."

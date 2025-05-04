@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
   - remaster
 source: Pathfinder GM Core
@@ -23,14 +24,14 @@ name: "Vorpal Executioner"
 level: "Hazard 19"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 33
 sourcebook: "_Pathfinder GM Core_"
 ac: 43
 armorclass:
   - name: AC
-    desc: "43; __Fort__ +32, __Ref__ +32, __Will__ +0"
+    desc: "43; __Fort__ +32, __Ref__ +32, "
 hp: 120
 health:
   - name: ""
@@ -59,7 +60,7 @@ attacks:
   - name: "Decapitation"
     desc: "passive On a critical hit, a target must succeed at a DC 39 Fortitude check save or be decapitated, dying instantly unless it can survive without a head."
 
-  - name: "No Map"
+  - name: "No MAP"
     desc: "passive The saw blade Strikes do not apply a MAP."
 
 

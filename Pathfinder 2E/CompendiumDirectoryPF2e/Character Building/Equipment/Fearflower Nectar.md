@@ -22,7 +22,7 @@ license: ORC
 **Bulk** L; **Size** med
 **Usage** held-in-two-hands
 
-The nectar of a night-blooming desert flower attacks a victim’s central nervous system and causes feelings of panic.
+The nectar of a night-blooming desert flower attacks a victim's central nervous system and causes feelings of panic.
 
 * * *
 

@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
 
 source: Pathfinder Society Special #3-98: Expedition Into Pallid Peril
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.5vtvRmXRvQAvG39l" 
@@ -21,13 +22,13 @@ name: "Weeping Carved Mourner"
 level: "Hazard 3"
 
 
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 13
 sourcebook: "_Pathfinder Society Special #3-98: Expedition Into Pallid Peril_"
 ac: 22
 armorclass:
   - name: AC
-    desc: "22; __Fort__ +12, __Ref__ +6, __Will__ +0"
+    desc: "22; __Fort__ +12, __Ref__ +6, "
 hp: 48
 health:
   - name: ""

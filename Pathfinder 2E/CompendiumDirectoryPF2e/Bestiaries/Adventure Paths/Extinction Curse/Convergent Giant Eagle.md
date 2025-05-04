@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.Sxip3Rmi0PFpzHNw"
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Convergent Giant Eagle"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #156: The Apocalypse Prophet"
 name: "Convergent Giant Eagle"
 level: "Creature 15"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "lawful"
+trait_01: [[beast]]
+trait_02: [[lawful]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Disrupted Link"
-    desc: "  While a convergent giant eagle is [[Conditions/Confused|Confused]], [[Conditions/Fascinated|Fascinated]], or [[Conditions/Frightened 1|Frightened]], it loses its convergent link and convergent tactics abilities."
+    desc: "  While a convergent giant eagle is [[Conditions/Confused|Confused]], [[Conditions/Fascinated|Fascinated]], or [[Conditions/Frightened|Frightened]], it loses its convergent link and convergent tactics abilities."
 
   - name: "Evasion"
     desc: "  When a giant eagle succeeds at a Reflex save, it critically succeeds instead."

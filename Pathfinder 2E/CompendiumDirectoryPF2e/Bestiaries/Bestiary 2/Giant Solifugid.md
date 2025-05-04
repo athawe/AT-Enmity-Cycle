@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.C7LvY2Xxzm2xRL1M" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Giant Solifugid"
@@ -23,7 +24,7 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8, Athletics: +6, Stealth: +6 (+10 in Deserts)"
+    desc: "Acrobatics: +8, Athletics: +6, Stealth: +6"
 abilityMods: [1, 3, 3, -5, 1, -4]
 speed: 35 feet,  climb 25 feet
 sourcebook: "_Pathfinder Bestiary 2_"

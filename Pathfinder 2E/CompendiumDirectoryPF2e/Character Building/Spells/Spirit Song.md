@@ -27,7 +27,9 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "occult"
-**Area** 60-foot cone
+
+  - name: "Area"
+    desc: "60-foot cone"
   - name: "Defense"
     desc: "basic fortitude"
 abilities_mid:

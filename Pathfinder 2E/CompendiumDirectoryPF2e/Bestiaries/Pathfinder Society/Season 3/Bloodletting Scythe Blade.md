@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Special #3-99: Fate in the Future
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.5YBQ8KPyEaKnR5eX" 
@@ -22,14 +23,14 @@ name: "Bloodletting Scythe Blade"
 level: "Hazard 6"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 16
 sourcebook: "_Pathfinder Society Special #3-99: Fate in the Future_"
 ac: 24
 armorclass:
   - name: AC
-    desc: "24; __Fort__ +15, __Ref__ +11, __Will__ +0"
+    desc: "24; __Fort__ +15, __Ref__ +11, "
 hp: 50
 health:
   - name: ""

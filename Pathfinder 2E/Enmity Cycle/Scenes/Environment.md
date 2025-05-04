@@ -76,6 +76,10 @@ Only the most extreme temperatures have a direct impact on the PCs during an enc
 > Any movement creatures make while jumping ignores terrain that the creature is jumping over. Some abilities (such as flight or being incorporeal) allow creatures to avoid the movement reduction from some types of difficult terrain. Certain other abilities let creatures ignore difficult terrain while traveling on foot; such an ability also allows a creature to move through greater difficult terrain using the movement cost for difficult terrain, but unless the ability specifies otherwise, these abilities don't let creatures ignore greater difficult terrain.  
 > 
 > **Hazardous terrain** damages creatures whenever they move through it. For instance, an acid pool, a pit of burning embers, and a spike-filled passageway all constitute hazardous terrain. The amount and type of damage depend on the specific hazardous terrain.  
+> 
+> [Uneven Ground](https://2e.aonprd.com/Rules.aspx?ID=2370)
+> Uneven ground is an area unsteady enough that you need to [Balance](https://2e.aonprd.com/Actions.aspx?ID=2369) or risk falling [prone](https://2e.aonprd.com/Conditions.aspx?ID=88) and possibly injuring yourself, depending on the specifics of the uneven ground. You are [off-guard](https://2e.aonprd.com/Conditions.aspx?ID=58) on uneven ground. Each time you are hit by an attack or fail a save on uneven ground, you must succeed at a Reflex save (with the same DC as the [Acrobatics](https://2e.aonprd.com/Skills.aspx?ID=34) check to Balance) or fall prone.
+
 
 Desert encompasses sandy and rocky deserts as well as badlands. Though tundra is technically a desert, it’s classified as arctic, as the climate is the primary challenge in such areas. Sandy deserts often have quicksand hazards and sandstorms.  
 
@@ -208,7 +212,7 @@ A **khamsin** is a powerful seasonal wind storm that often carries great amoun
 <sup>GM Core p. 170</sup>
 While you can represent long, heroic journeys using normal exploration, if you want something more detailed, you can use the hexploration subsystem instead. This is a method where the overland map is divided into individual hexagonal sections of territory. During their exploration, the PCs travel through and explore individual hexes, finding interesting sites, secrets, resources, and dangers.
 
-The pace of travel is measured in days rather than hours or minutes. This means choosing hexploration activities are more akin to choosing downtime activities than exploration activities. Each day, the PCs explore or travel through a region of the wilderness measured in hexes on a map to survey, discover resources, forage, find sites, and reconnoiter potential foes and allies.
+The pace of travel is measured in days rather than hours or minutes. This means choosing *hexploration activities are more akin to choosing downtime activities than exploration activities*. Each day, the PCs explore or travel through a region of the wilderness measured in hexes on a map to survey, discover resources, forage, find sites, and reconnoiter potential foes and allies.
 
 Hexploration is ideal for sandbox-style campaigns, where the players are at liberty to set the course of their own adventure. The GM populates a region with interesting locations and situations that the players explore in any order they see fit.
 
@@ -264,7 +268,7 @@ The Travel activity assumes you are walking overland. If you are flying or trave
 
 **Reconnoiter**
 CONCENTRATE
-You spend time surveying and exploring a specific area, getting the lay of the land and looking for unusual features and specific sites. Reconnoitering a single hex takes a number of hexploration activities equal to the number of Travel activities necessary to traverse the hex—1 for open terrain, 2 for difficult terrain, and 3 for greater difficult terrain. Traveling on roads doesn't lessen the time required to Reconnoiter. Once the hex has been Reconnoitered, you can Map the Area to reduce your chance of getting lost in that hex (see below). You automatically find any special feature that doesn't require a check to find, and you attempt the appropriate checks to find hidden special features.
+You spend time surveying and exploring a specific area, getting the lay of the land and looking for unusual features and specific sites. Reconnoitering a single hex takes a number of hexploration activities equal to the number of Travel activities necessary to traverse the hex—1 for open terrain, 2 for difficult terrain, and 3 for greater difficult terrain. Traveling on roads doesn't lessen the time required to Reconnoiter. Once the hex has been Reconnoitered, you can *Map the Area* to reduce your chance of getting lost in that hex (see below). You automatically find any special feature that doesn't require a check to find, and you attempt the appropriate checks to find hidden special features.
 
 For instance, if you were looking for an obvious rock formation among some hills, you would spend 2 hexploration activities to Reconnoiter the hex, and you'd find the rock formation. But if you were looking for a hidden tengu monastery somewhere in some deep forests, after spending 2 activities to Reconnoiter the forest hex, you would have to succeed at a Perception check as part of your Reconnoiter activity to find the monastery.
 
@@ -277,7 +281,7 @@ You can spend time fortifying your camp for defense with a successful [Crafting]
 
 **Map The Area**
 CONCENTRATE
-As long as your group has successfully Reconnoitered the hex, you can use this activity to create an accurate map of the hex with a successful [Survival](compendium/skills.md#Survival) check (typically at a trained or expert DC). When you have an accurate map of the hex, the DC of any check to navigate that hex is reduced by 2.
+As long as your group has successfully Reconnoitered the hex, you can use this activity to create an accurate map of the hex with a successful [Survival](compendium/skills.md#Survival) check (typically at a trained or expert DC). When you have an accurate map of the hex, the DC of any check to navigate that hex is reduced by 2. (Perhaps Mapping the area allows the PCs to guarantee no night-time encounters!)
 
 ##### Existing Activities
 Characters can use the [Subsist](rules/actions/subsist.md) downtime activity, which follows the same rules but assumes they're using it after 8 hours or less of exploration. Any skill feats or other abilities that apply to [Subsist](rules/actions/subsist.md) normally still apply here.
@@ -307,3 +311,12 @@ When exploring, there is always a chance the PC will stumble upon random encount
 
 #### Switching Out of Hexploration
 Most short encounters do not affect the number of hexploration activities that the PCs can perform during the day, but when the PCs take on multiple encounters or engage in activities that take hours rather than minutes, you'll want to deduct the time from their available hexploration activities. For the story's sake, it's best to think of hexploration activities as the various things that the PCs have time to do in the daylight hours. For instance, maybe the group spends 2 of their 3 hexploration activities Reconnoitering a hex, finding a tengu monastery, and learning that it is a sprawling complex underneath a small wooded hill. You might decide that the PCs found it in the evening, and they have the choice between making a foray into the complex late in the day or pursuing some individual activities, camping for the night, and starting off fresh in the morning.
+
+## [Starvation and Thirst](https://2e.aonprd.com/Rules.aspx?ID=2603)
+
+**Source** [_GM Core pg. 43_](https://2e.aonprd.com/Sources.aspx?ID=218) [2.0](https://2e.aonprd.com/Sources.aspx?ID=218)  
+Typically characters eat and drink enough to survive comfortably. When they can’t, they’re fatigued until they do. After a number of days without water equal to a creature’s Constitution modifier + 1, the creature takes 1d4 damage each hour that can’t be healed until it quenches its thirst. After the same amount of time without food, it takes 1 damage each day that can’t be healed until it eats.
+
+
+- When setting up random encounter tables, there should be specific encounters for local faction activity, effects of that activity, something that indicates what's going on. Plotting out territory for factions in important. 
+- 

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Ajbal Kimon"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #171: Hurricane&#x27;s Howl"
 name: "Ajbal Kimon"
 level: "Creature 13"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 23
 perception:
   - name: "Perception"
@@ -85,7 +86,7 @@ attacks:
     desc: "  Ajbal deals an additional 1d6 precision damage to [[Conditions/Off-Guard|Off-Guard]] creatures."
 
   - name: "Tear the Wound"
-    desc: "`pf2:1`  **Requirements** Ajbal's last action was a melee Strike that dealt sneak attack damage to an [[Conditions/Off-Guard|Off-Guard]] target\n* * *\n\n**Effect** Ajbal deals 6 bleed damage to the target creature, and the target is [[Conditions/Enfeebled 1|Enfeebled 1]] for as long as it's bleeding."
+    desc: "`pf2:1`  **Requirements** Ajbal's last action was a melee Strike that dealt sneak attack damage to an [[Conditions/Off-Guard|Off-Guard]] target\n* * *\n\n**Effect** Ajbal deals 6 bleed damage to the target creature, and the target is [[Conditions/Enfeebled|Enfeebled 1]] for as long as it's bleeding."
 
   - name: "Trident Bully"
     desc: "  A trident Ajbal is using gains the shove trait, and any creature Ajbal critically hits with a trident is [[Conditions/Off-Guard|Off-Guard]] until the start of Ajbal's next turn."

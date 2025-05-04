@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
 
 source: Pathfinder Kingmaker
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.JLfy3tVKEhLqT2j5" 
@@ -21,7 +22,7 @@ name: "Shelyn's Shame"
 level: "Hazard 11"
 
 
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 23
 sourcebook: "_Pathfinder Kingmaker_"
 perception:

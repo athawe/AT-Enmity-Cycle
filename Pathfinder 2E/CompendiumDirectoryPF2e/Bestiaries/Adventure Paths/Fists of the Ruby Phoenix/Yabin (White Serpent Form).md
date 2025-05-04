@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/nagaji
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Yabin (White Serpent Form)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #168: King of the Mountain"
 name: "Yabin (White Serpent Form)"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "nagaji"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[nagaji]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -75,7 +76,7 @@ attacks:
     desc: "`pf2:1` Venom +33 (range 20 feet)\n__Damage__  4d8 + 8 poison plus white-serpent-venom"
 
   - name: "Spontaneous Arcane Spells"
-    desc: "DC 40, attack +32; __9th __ (4 slots) _[[Spells/Dispel Magic|Dispel Magic]]_, _[[Spells/Force Barrage|Magic Missile]]_, _[[Spells/Polar Ray|Polar Ray]]_; __8th __ (4 slots) _[[Spells/Disappearance|Disappearance]]_, _[[Spells/Desiccate|Horrid Wilting]]_, _[[Spells/Prismatic Wall|Prismatic Wall]]_, _[[Spells/Scintillating Pattern|Scintillating Pattern]]_; __7th __ (4 slots) _[[Spells/Disintegrate|Disintegrate]]_, _[[Spells/Eclipse Burst|Eclipse Burst]]_, _[[Spells/Mask of Terror|Mask of Terror]]_, _[[Spells/Truesight|True Seeing]]_; __6th __ (4 slots) _[[Spells/Chain Lightning|Chain Lightning]]_, _[[Spells/Never Mind|Feeblemind]]_, _[[Spells/Fireball|Fireball]]_, _[[Spells/Spellwrack|Spellwrack]]_; __5th __ (4 slots) _[[Spells/Chromatic Wall|Chromatic Wall]]_, _[[Spells/Cloak of Colors|Cloak of Colors]]_, _[[Spells/Unfettered Movement|Freedom of Movement]]_, _[[Spells/Haste|Haste]]_\n__Cantrips__  __(9th)__ _[[Spells/Acid Splash|Acid Splash]]_, _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Light|Light]]_, _[[Spells/Shield|Shield]]_, _[[Spells/Telekinetic Projectile|Telekinetic Projectile]]_"
+    desc: "DC 40, attack +32; __9th __ (4 slots) _[[Spells/Dispel Magic|Dispel Magic]]_, _[[Spells/Force Barrage|Magic Missile]]_, _[[Spells/Polar Ray|Polar Ray]]_; __8th __ (4 slots) _[[Spells/Disappearance|Disappearance]]_, _[[Spells/Desiccate|Horrid Wilting]]_, _[[Spells/Prismatic Wall|Prismatic Wall]]_, _[[Spells/Confusing Colors|Scintillating Pattern]]_; __7th __ (4 slots) _[[Spells/Disintegrate|Disintegrate]]_, _[[Spells/Eclipse Burst|Eclipse Burst]]_, _[[Spells/Mask of Terror|Mask of Terror]]_, _[[Spells/Truesight|True Seeing]]_; __6th __ (4 slots) _[[Spells/Chain Lightning|Chain Lightning]]_, _[[Spells/Never Mind|Feeblemind]]_, _[[Spells/Fireball|Fireball]]_, _[[Spells/Spellwrack|Spellwrack]]_; __5th __ (4 slots) _[[Spells/Chromatic Wall|Chromatic Wall]]_, _[[Spells/Cloak of Colors|Cloak of Colors]]_, _[[Spells/Unfettered Movement|Freedom of Movement]]_, _[[Spells/Haste|Haste]]_\n__Cantrips__  __(9th)__ _[[Spells/Acid Splash|Acid Splash]]_, _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Light|Light]]_, _[[Spells/Shield|Shield]]_, _[[Spells/Telekinetic Projectile|Telekinetic Projectile]]_"
  
 ```
 

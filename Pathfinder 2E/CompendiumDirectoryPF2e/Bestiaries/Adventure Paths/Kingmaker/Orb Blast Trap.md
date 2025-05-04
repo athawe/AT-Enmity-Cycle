@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Kingmaker
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.ce5vC049lfuXnPSy" 
@@ -22,14 +23,14 @@ name: "Orb Blast Trap"
 level: "Hazard 18"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 35
 sourcebook: "_Pathfinder Kingmaker_"
 ac: 42
 armorclass:
   - name: AC
-    desc: "42; __Fort__ +27, __Ref__ +33, __Will__ +0"
+    desc: "42; __Fort__ +27, __Ref__ +33, "
 hp: 40
 health:
   - name: ""

@@ -7,6 +7,7 @@ tags:
   - magical
   - mental
   - trap
+  - pf2eHazard
 
 source: Pathfinder Dark Archive
 aliases: "Compendium.pf2e.pathfinder-dark-archive.Actor.cZwTVO2KF85Ak4o6" 
@@ -24,10 +25,10 @@ name: "Confounding Portal"
 level: "Hazard 0"
 
 
-trait_01: "illusion"
-trait_02: "magical"
-trait_03: "mental"
-trait_04: "trap"
+trait_01: [[illusion]]
+trait_02: [[magical]]
+trait_03: [[mental]]
+trait_04: [[trap]]
 modifier: 6
 sourcebook: "_Pathfinder Dark Archive_"
 perception:

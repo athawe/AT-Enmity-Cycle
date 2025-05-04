@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.NoAyIhPpqJ1WE1pF"
 tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kovintus
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Kovintus Geomancer"
@@ -24,8 +25,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
-trait_02: "kovintus"
+trait_01: [[humanoid]]
+trait_02: [[kovintus]]
 modifier: 11
 perception:
   - name: "Perception"

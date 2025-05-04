@@ -6,6 +6,7 @@ tags:
   - magical
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #164: Hands of the Devil
 aliases: "Compendium.pf2e.abomination-vaults-bestiary.Actor.VsRKgjKolLsJMd0I" 
@@ -23,15 +24,15 @@ name: "Shuffling Scythe Blades"
 level: "Hazard 8"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 18
 sourcebook: "_Pathfinder #164: Hands of the Devil_"
 ac: 27
 armorclass:
   - name: AC
-    desc: "27; __Fort__ +19, __Ref__ +13, __Will__ +0"
+    desc: "27; __Fort__ +19, __Ref__ +13, "
 hp: 30
 health:
   - name: ""

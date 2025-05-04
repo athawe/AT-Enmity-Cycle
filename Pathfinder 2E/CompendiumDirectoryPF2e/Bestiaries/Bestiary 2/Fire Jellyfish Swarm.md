@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/aquatic
   - pf2e/creature/type/mindless
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Fire Jellyfish Swarm"
@@ -26,10 +27,10 @@ level: "Creature 6"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
-trait_02: "aquatic"
-trait_03: "mindless"
-trait_04: "swarm"
+trait_01: [[animal]]
+trait_02: [[aquatic]]
+trait_03: [[mindless]]
+trait_04: [[swarm]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -68,7 +69,7 @@ attacks:
     desc: "`pf2:1` (poison) Each enemy in the swarm's space takes 3d8 poison damage (DC 24 Reflex check save) and is exposed to fire jelly venom."
 
   - name: "Fire Jelly Venom"
-    desc: " (poison) **Saving Throw** DC 24 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** [[Conditions/Clumsy 1|Clumsy 1]] (1 round)\n\n**Stage 2** [[Conditions/Clumsy 1|Clumsy 2]] (1 round)\n\n**Stage 3** [[Conditions/Clumsy 1|Clumsy 3]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 24 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** [[Conditions/Clumsy|Clumsy 1]] (1 round)\n\n**Stage 2** [[Conditions/Clumsy|Clumsy 2]] (1 round)\n\n**Stage 3** [[Conditions/Clumsy|Clumsy 3]] (1 round)"
  
 ```
 

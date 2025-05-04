@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Jaithe
-creatures:
-  - 1: Jaithe
-```
-
 
 
 

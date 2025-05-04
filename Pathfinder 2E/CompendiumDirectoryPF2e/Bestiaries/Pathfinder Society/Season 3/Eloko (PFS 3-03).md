@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.ISBNLUY6Ilu0Jl28"
 tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Eloko (PFS 3-03)"
@@ -24,8 +25,8 @@ level: "Creature 7"
 
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "fey"
+trait_01: [[evil]]
+trait_02: [[fey]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -62,10 +63,10 @@ attacks:
     desc: "`pf2:1` Dagger +16 (agile, magical, versatile s)\n__Damage__  1d4 + 8 piercing"
 
   - name: "Ranged"
-    desc: "`pf2:1` Blowgun +17 (agile, nonlethal, range increment 20 feet, reload 1)\n__Damage__  1 piercing 2d4 poison"
+    desc: "`pf2:1` Dagger +16 (agile, magical, thrown 10 ft., versatile s)\n__Damage__  1d4 + 8 piercing"
 
   - name: "Ranged"
-    desc: "`pf2:1` Dagger +16 (agile, magical, thrown 10 ft., versatile s)\n__Damage__  1d4 + 8 piercing"
+    desc: "`pf2:1` Blowgun +17 (agile, nonlethal, range increment 20 feet, reload 1)\n__Damage__  1 piercing 2d4 poison"
 
   - name: "Primal Innate Spells"
     desc: "DC 22, attack +14; __1st __  _[[Spells/Charm|Charm]]_"

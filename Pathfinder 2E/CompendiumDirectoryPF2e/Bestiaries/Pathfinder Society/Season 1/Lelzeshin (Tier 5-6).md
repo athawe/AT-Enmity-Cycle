@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Lelzeshin (Tier 5-6)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #1-16: The Perennial Crown Part 1, Opal of Bhopan"
 name: "Lelzeshin (Tier 5-6)"
 level: "Creature 7"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Fey, Mwangi"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +16, Athletics: +11, Bhopan Lore: +13, Deception: +18, Diplomacy: +16, Legal Lore: +13, Nature: +12, Society: +13, Stealth: +16"
+    desc: "Acrobatics: +16, Athletics: +11, Deception: +18, Diplomacy: +16, Nature: +12, Society: +13, Stealth: +16, Bhopan Lore: +13, Legal Lore: +13"
 abilityMods: [2, 4, 2, 2, -1, 4]
 speed: 30 feet
 sourcebook: "_Pathfinder Society Scenario #1-16: The Perennial Crown Part 1, Opal of Bhopan_"

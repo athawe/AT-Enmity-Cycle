@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/giant
   - pf2e/creature/type/good
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Storm Giant"
@@ -27,11 +28,11 @@ level: "Creature 13"
 
 alignment: ""
 size: "huge"
-trait_01: "amphibious"
-trait_02: "chaotic"
-trait_03: "giant"
-trait_04: "good"
-trait_05: "humanoid"
+trait_01: [[amphibious]]
+trait_02: [[chaotic]]
+trait_03: [[giant]]
+trait_04: [[good]]
+trait_05: [[humanoid]]
 modifier: 24
 perception:
   - name: "Perception"

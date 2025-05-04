@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.rage-of-elements-bestiary.Actor.TPi6QRmfyM9BWSof"
 tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/fire
+  - pf2eMonster
   - pf2e/creature/level/13
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 13"
 
 alignment: ""
 size: "huge"
-trait_01: "elemental"
-trait_02: "fire"
+trait_01: [[elemental]]
+trait_02: [[fire]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -34,7 +35,7 @@ perception:
 languages: "Pyric"
 skills:
   - name: "Skills"
-    desc: "Athletics: +27, Intimidation: +23, Stealth: +22 (+26 in lava)"
+    desc: "Athletics: +27, Intimidation: +23, Stealth: +22"
 abilityMods: [8, 5, 5, 4, 5, 4]
 speed: 40 feet,  swim 60 feet
 sourcebook: "_Pathfinder Rage of Elements_"
@@ -68,13 +69,13 @@ attacks:
     desc: "`pf2:2`  DC 33 Reflex check, 2d10 bludgeoning + 4d6 fire damage, Escape DC 33, Rupture 25\n\n* * *\n"
 
   - name: "Launch Lava"
-    desc: "`pf2:2` (fire) The living magma hurls an exploding glob of lava up to 120 feet. Each creature in a 10-foot burst takes 7d6 fire damage (DC 33 Reflex check save)."
+    desc: "`pf2:2` (fire) The living magma hurls an exploding glob of lava up to 120 feet. Each creature in a @Template[burst|distance:10] takes 7d6 fire damage (DC 33 Reflex check save)."
 
   - name: "Reignite"
     desc: "`pf2:2` (fire) **Requirements** The living magma is not in molten form\n* * *\n\n**Effect** The living magma returns to molten form."
 
   - name: "Volcanic Heat"
-    desc: " (aura,fire) 40 feet. Any creature that enters or starts its turn in the aura takes 15 fire damage (DC 33 Fortitude check save). A creature that fails its save is also [[Conditions/Enfeebled 1|Enfeebled 1]] until it's no longer in the aura."
+    desc: " (aura,fire) 40 feet. Any creature that enters or starts its turn in the aura takes 15 fire damage (DC 33 Fortitude check save). A creature that fails its save is also [[Conditions/Enfeebled|Enfeebled 1]] until it's no longer in the aura."
  
 ```
 

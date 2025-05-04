@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.E279VPhAy1a4ihqI"
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/construct
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "Living Mural"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #162: Ruins of the Radiant Siege"
 name: "Living Mural"
 level: "Creature 19"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "chaotic"
-trait_02: "construct"
+trait_01: [[chaotic]]
+trait_02: [[construct]]
 modifier: 32
 perception:
   - name: "Perception"
@@ -70,7 +71,7 @@ attacks:
     desc: "`pf2:2`  The subjects depicted within the living mural all reach out at once to attack. The living mural makes a fist Strike against each target within range.\n\nThese attacks count toward the living mural's multiple attack penalty, but this penalty doesn't increase until after all of the attacks are made."
 
   - name: "Paint the Masses"
-    desc: "`pf2:2`  The living mural expels a 15-foot cone of paint.\n\nCreatures in the area must succeed at a DC 41 Reflex check save or be [[Conditions/Blinded|Blinded]] for 1 round.\n\nThe living mural can't use Paint the Masses again for 1d4 rounds."
+    desc: "`pf2:2`  The living mural expels a @Template[cone|distance:15] of paint.\n\nCreatures in the area must succeed at a DC 41 Reflex check save or be [[Conditions/Blinded|Blinded]] for 1 round.\n\nThe living mural can't use Paint the Masses again for 1d4 rounds."
 
   - name: "Splash of Color"
     desc: "  When the living mural hits with a splatter attack, the target is also [[Conditions/Blinded|Blinded]] for 1 round."

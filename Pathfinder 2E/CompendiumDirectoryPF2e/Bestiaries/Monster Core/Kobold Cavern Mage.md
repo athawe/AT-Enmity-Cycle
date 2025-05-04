@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.JFmFuoOzCwc3hA1H"
 tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kobold
+  - pf2eMonster
   - pf2e/creature/level/2
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "humanoid"
-trait_02: "kobold"
+trait_01: [[humanoid]]
+trait_02: [[kobold]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -34,8 +35,8 @@ perception:
 languages: "Common, Fey, Petran, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +6, Deception: +8, Diplomacy: +8, Dragon Lore: +10, Intimidation: +8, Nature: +5, Stealth: +6"
-abilityMods: [-1, 3, 0, 2, 1, 4]
+    desc: "Acrobatics: +6, Deception: +8, Diplomacy: +8, Intimidation: +8, Nature: +5, Stealth: +6"
+abilityMods: [2, 2, -1, 0, 1, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Monster Core_"
 ac: 16
@@ -66,7 +67,7 @@ attacks:
     desc: "`pf2:1` Light Hammer +6 (agile, thrown 20 ft.)\n__Damage__  1d6 + 2 bludgeoning"
 
   - name: "Primal Spontaneous Spells"
-    desc: "DC 0, attack +0; __1st __ (4 slots) _[[Spells/Fleet Step|Fleet Step]]_, _[[Spells/Heal|Heal]]_, _[[Spells/Pummeling Rubble|Pummeling Rubble]]_, _[[Spells/Runic Weapon|Runic Weapon]]_\n__Cantrips__  __(1st)__ _[[Spells/Caustic Blast|Caustic Blast]]_, _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Figment|Figment]]_, _[[Spells/Know the Way|Know the Way]]_, _[[Spells/Tangle Vine|Tangle Vine]]_"
+    desc: "DC 18, attack +10; __1st __ (4 slots) _[[Spells/Fleet Step|Fleet Step]]_, _[[Spells/Heal|Heal]]_, _[[Spells/Pummeling Rubble|Pummeling Rubble]]_, _[[Spells/Runic Weapon|Runic Weapon]]_\n__Cantrips__  __(1st)__ _[[Spells/Caustic Blast|Caustic Blast]]_, _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Figment|Figment]]_, _[[Spells/Know the Way|Know the Way]]_, _[[Spells/Tangle Vine|Tangle Vine]]_"
 
   - name: "Inspiring Display"
     desc: "`pf2:1` (auditory,emotion,linguistic,mental) **Requirements** The cavern mage's previous action was to Cast a Spell\n* * *\n\n**Effect** The cavern mage uses their magical display to inspire another kobold within 30 feet. That kobold gains 4 temporary Hit Points that last until the start of the cavern mage's next turn.\n\n[[Bestiary Effects/Effect_ Inspiring Display|Effect: Inspiring Display]]"

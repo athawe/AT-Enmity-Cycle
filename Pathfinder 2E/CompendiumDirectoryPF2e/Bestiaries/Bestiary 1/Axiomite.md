@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aeon
   - pf2e/creature/type/lawful
   - pf2e/creature/type/monitor
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Axiomite"
@@ -25,9 +26,9 @@ level: "Creature 8"
 
 alignment: ""
 size: "Medium"
-trait_01: "aeon"
-trait_02: "lawful"
-trait_03: "monitor"
+trait_01: [[aeon]]
+trait_02: [[lawful]]
+trait_03: [[monitor]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Chthonian, Common, Diabolic, Draconic, Empyrean, Utopian"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +16, Axis Lore: +17, Crafting: +21, Diplomacy: +15, Occultism: +17, Religion: +17"
+    desc: "Acrobatics: +16, Crafting: +21, Diplomacy: +15, Occultism: +17, Religion: +17, Axis Lore: +17"
 abilityMods: [5, 4, 3, 5, 5, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary_"

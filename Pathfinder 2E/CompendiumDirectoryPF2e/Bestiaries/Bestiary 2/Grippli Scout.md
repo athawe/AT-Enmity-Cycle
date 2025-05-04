@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.rpq2rHlZjy5g31xo"
 tags:
   - pf2e/creature/type/grippli
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Grippli Scout"
@@ -24,8 +25,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "grippli"
-trait_02: "humanoid"
+trait_01: [[grippli]]
+trait_02: [[humanoid]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Grippli"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Athletics: +4, Nature: +6, Stealth: +7 (+9 in forests), Survival: +6"
+    desc: "Acrobatics: +7, Athletics: +4, Nature: +6, Stealth: +7, Survival: +6"
 abilityMods: [1, 4, 2, 0, 3, -1]
 speed: 25 feet,  climb 20 feet
 sourcebook: "_Pathfinder Bestiary 2_"

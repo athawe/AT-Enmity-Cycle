@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/angel
   - pf2e/creature/type/celestial
   - pf2e/creature/type/holy
+  - pf2eMonster
   - pf2e/creature/level/8
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 8"
 
 alignment: ""
 size: "Medium"
-trait_01: "angel"
-trait_02: "celestial"
-trait_03: "holy"
+trait_01: [[angel]]
+trait_02: [[celestial]]
+trait_03: [[holy]]
 modifier: 18
 perception:
   - name: "Perception"

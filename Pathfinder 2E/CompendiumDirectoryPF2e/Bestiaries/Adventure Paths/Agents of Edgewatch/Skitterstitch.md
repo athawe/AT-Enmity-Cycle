@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.AYNIAAxV7TbIKPI4"
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Skitterstitch"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #158: Sixty Feet Under"
 name: "Skitterstitch"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "construct"
-trait_02: "mindless"
+trait_01: [[construct]]
+trait_02: [[mindless]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -70,7 +71,7 @@ attacks:
     desc: "`pf2:2`  The skitterstitch makes a blade Strike against an animal or humanoid. On a success, the skitterstitch slices a long strip of flesh from the target; if the skitterstitch dealt damage, it deals an additional 1d6 persistent bleed damage."
 
   - name: "Skitterstitch Venom"
-    desc: "  **Saving Throw** DC 23 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d10 poison damage, [[Conditions/Off-Guard|Off-Guard]], and [[Conditions/Clumsy 1|Clumsy 1]] (1 round)\n\n**Stage 2** 1d10 poison damage, off-guard, and [[Conditions/Clumsy 1|Clumsy 2]] (1 round)"
+    desc: "  **Saving Throw** DC 23 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d10 poison damage, [[Conditions/Off-Guard|Off-Guard]], and [[Conditions/Clumsy|Clumsy 1]] (1 round)\n\n**Stage 2** 1d10 poison damage, off-guard, and [[Conditions/Clumsy|Clumsy 2]] (1 round)"
 
   - name: "Stitch Skin"
     desc: "`pf2:1` (manipulate) **Requirements** The skitterstitch hasn't used this ability since the last time it successfully used its Flay ability\n* * *\n\n**Effect** The skitterstitch sews flayed flesh to its body to seal tears and rents. The skitterstitch regains 8 Hit Points."

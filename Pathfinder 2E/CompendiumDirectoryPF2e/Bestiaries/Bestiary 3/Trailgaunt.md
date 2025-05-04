@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Trailgaunt"
@@ -25,9 +26,9 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -54,7 +55,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Pained Muttering"
-    desc: " (auditory,aura,emotion,fear) 10 feet. The trailgaunt's constant mutters and groans of pain are deeply unsettling. Each creature that starts its turn in the aura must succeed at a DC 20 Fortitude check save or become [[Conditions/Frightened 1|Frightened 1]] ([[Conditions/Frightened 1|Frightened 2]] on a critical failure). The creature is then temporarily immune for 1 minute."
+    desc: " (auditory,aura,emotion,fear) 10 feet. The trailgaunt's constant mutters and groans of pain are deeply unsettling. Each creature that starts its turn in the aura must succeed at a DC 20 Fortitude check save or become [[Conditions/Frightened|Frightened 1]] ([[Conditions/Frightened|Frightened 2]] on a critical failure). The creature is then temporarily immune for 1 minute."
 
 attacks:
   - name: ""

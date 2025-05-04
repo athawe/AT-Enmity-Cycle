@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #4-11: Prisoners of the Electric Castle
 aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.Tmev5DrM9pgZE00u" 
@@ -22,14 +23,14 @@ name: "In The Witch's Clutches"
 level: "Hazard 9"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 23
 sourcebook: "_Pathfinder Society Scenario #4-11: Prisoners of the Electric Castle_"
 ac: 28
 armorclass:
   - name: AC
-    desc: "28; __Fort__ +21, __Ref__ +15, __Will__ +0"
+    desc: "28; __Fort__ +21, __Ref__ +15, "
 hp: 24
 health:
   - name: ""

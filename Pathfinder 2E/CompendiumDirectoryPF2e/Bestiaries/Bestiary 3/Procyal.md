@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/celestial
   - pf2e/creature/type/good
   - pf2e/creature/type/holy
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Procyal"
@@ -26,10 +27,10 @@ level: "Creature 8"
 
 alignment: ""
 size: "Medium"
-trait_01: "agathion"
-trait_02: "celestial"
-trait_03: "good"
-trait_04: "holy"
+trait_01: [[agathion]]
+trait_02: [[celestial]]
+trait_03: [[good]]
+trait_04: [[holy]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Diabolic, Draconic, Empyrean, Halfling; speak with animals, tongues"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +14, Deception: +18, Diplomacy: +16, Medicine: +16, Nature: +16, Nirvana Lore: +15, Religion: +16, Society: +17 (+19 to Create Forgery), Stealth: +16, Survival: +16, Thievery: +14"
+    desc: "Acrobatics: +14, Deception: +18, Diplomacy: +16, Medicine: +16, Nature: +16, Religion: +16, Society: +17, Stealth: +16, Survival: +16, Thievery: +14, Nirvana Lore: +15"
 abilityMods: [4, 4, 6, 5, 6, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"

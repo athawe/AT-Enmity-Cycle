@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/elemental
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Wishbound Belker (7-8)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-16: Freedom for Wishes"
 name: "Wishbound Belker (7-8)"
 level: "Creature 7"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "air"
-trait_02: "elemental"
-trait_03: "evil"
+trait_01: [[air]]
+trait_02: [[elemental]]
+trait_03: [[evil]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Sussuran"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +17, Stealth: +17 (+19 in smoke)"
+    desc: "Acrobatics: +17, Stealth: +17"
 abilityMods: [4, 6, 3, -2, 4, 0]
 speed: 25 feet,  fly 40 feet
 sourcebook: "_Pathfinder Society Scenario #2-16: Freedom for Wishes_"

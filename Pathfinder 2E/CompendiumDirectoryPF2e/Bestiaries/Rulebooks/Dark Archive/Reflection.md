@@ -5,6 +5,7 @@ noteType: pf2eMonster
 cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-dark-archive.Actor.ICdVjs6JEs0YAefl" 
 tags:
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Reflection"

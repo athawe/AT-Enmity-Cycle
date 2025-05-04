@@ -32,8 +32,7 @@ columnWidth: x
 abilities_top:
   - name: ""
   - name: "Range"
-    desc: "60 feet; **Area** 20-foot cube
-"
+    desc: "60 feet; **Area** 20-foot cube"
   - name: "Duration"
     desc: "1 minute"
 abilities_mid:

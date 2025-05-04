@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/monitor
   - pf2e/creature/type/psychopomp
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Haunted Nosoi"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: Malevolence"
 name: "Haunted Nosoi"
 level: "Creature 2"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "tiny"
-trait_01: "monitor"
-trait_02: "psychopomp"
-trait_03: "undead"
+trait_01: [[monitor]]
+trait_02: [[psychopomp]]
+trait_03: [[undead]]
 modifier: 8
 perception:
   - name: "Perception"

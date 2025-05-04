@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/morlock
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Morlock Cultist"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #163: Ruins of Gauntlight"
 name: "Morlock Cultist"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "morlock"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[morlock]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Aklo, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +10, Athletics: +11 (+13 Climbing), Crafting: +11 (Repair only), Occultism: +13, Stealth: +11"
+    desc: "Acrobatics: +10, Athletics: +11, Crafting: +11, Occultism: +13, Stealth: +11"
 abilityMods: [3, 3, 1, 5, 3, 0]
 speed: 30 feet,  climb 20 feet
 sourcebook: "_Pathfinder #163: Ruins of Gauntlight_"

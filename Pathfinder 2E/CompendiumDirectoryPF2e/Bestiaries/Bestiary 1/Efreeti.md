@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fire
   - pf2e/creature/type/genie
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Efreeti"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Efreeti"
 level: "Creature 9"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "elemental"
-trait_02: "evil"
-trait_03: "fire"
-trait_04: "genie"
-trait_05: "lawful"
+trait_01: [[elemental]]
+trait_02: [[evil]]
+trait_03: [[fire]]
+trait_04: [[genie]]
+trait_05: [[lawful]]
 modifier: 17
 perception:
   - name: "Perception"

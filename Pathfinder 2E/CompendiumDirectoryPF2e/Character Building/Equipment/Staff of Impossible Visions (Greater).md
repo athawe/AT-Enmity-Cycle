@@ -4,6 +4,7 @@ title: "Staff of Impossible Visions (Greater)"
 cssclasses: pf2e,pf2e-spell
 tags:
   - pf2e/weapon
+  - trait/illusion
   - trait/magical
   - trait/staff
   - trait/two-hand-d8
@@ -14,7 +15,7 @@ license: OGL
 ---
 # Staff of Impossible Visions (Greater)
 ## Item 12
-### [uncommon](uncommon "Uncommon Rarity Trait")[[magical]][[staff]][[two-hand-d8]]
+### [uncommon](uncommon "Uncommon Rarity Trait")[[illusion]][[magical]][[staff]][[two-hand-d8]]
 
 |  |  |
 | -- | -- |

@@ -6,6 +6,7 @@ tags:
   - fire
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #4-09: Killer in the Golden Mask
 aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.wmdK9SL7u1g4a0wY" 
@@ -23,9 +24,9 @@ name: "Major Fireball Rune"
 level: "Hazard 9"
 
 
-trait_01: "fire"
-trait_02: "magical"
-trait_03: "trap"
+trait_01: [[fire]]
+trait_02: [[magical]]
+trait_03: [[trap]]
 modifier: 20
 sourcebook: "_Pathfinder Society Scenario #4-09: Killer in the Golden Mask_"
 perception:

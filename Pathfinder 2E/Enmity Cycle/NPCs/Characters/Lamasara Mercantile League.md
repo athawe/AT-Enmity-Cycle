@@ -30,9 +30,13 @@ type:
 ### [[Vorvashali Voon]]
 - male human merchant 5 
 - runs a **curio shop** in the Theatre District 
-### Tralamin Bluebrook
+### [[Tralamin Bluebrook]]
 - male elf jeweler 6
 - owner of the Jeweler's Guild 
+
+### Barry Baryl 
+- male human cabbage vendor 2
+- rival of Duncan's 
 
 ## Less Important (for now)
 
@@ -53,13 +57,15 @@ type:
 ### Lanalee Magravi
 
 ### Jesk “Cracktooth” Berinni 
-
+- NG male human tavernkeeper 3
+- Owns [[Cracktooth's Tavern]]
 ### Venli Wobblehand 
 
 ### Daviren Hosk 
 
-### Garridan Viskalai 
-
+### Garrida Viskalai 
+Female catfolk innkeeper 4, owns the The White Deer in Grand Market 
+ 
 ### Maver Kesk 
 
 ### Samri Bevnik 
@@ -78,7 +84,7 @@ type:
 ### Jasper Korvaski 
 
 ### Bilivar Wheen 
-
+male dwarf wheelwright 3
 
 ```dataview
 TABLE district, owner, business 

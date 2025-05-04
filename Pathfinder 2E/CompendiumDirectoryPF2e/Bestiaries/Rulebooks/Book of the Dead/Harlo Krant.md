@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
   - pf2e/creature/type/zombie
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Harlo Krant"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Book of the Dead"
 name: "Harlo Krant"
 level: "Creature 4"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
-trait_04: "zombie"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
+trait_04: [[zombie]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Necril"
 skills:
   - name: "Skills"
-    desc: "Athletics: +10, Mercantile Lore: +9, Religion: +13, Stealth: +10"
+    desc: "Athletics: +10, Religion: +13, Stealth: +10, Mercantile Lore: +9"
 abilityMods: [4, 4, 3, 1, 5, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder Book of the Dead_"
@@ -53,7 +54,7 @@ health:
 abilities_top:
   - name: ""
   - name: "Items"
-    desc: "[[Equipment/Scythe|Scythe]], Bag of Holding (Type 1), 2x [[Equipment/Arsenic|Arsenic]], [[Equipment/Invisibility Potion|Invisibility Potion]], 136x [[Equipment/Gold Pieces|Gold Pieces]]"
+    desc: "[[Equipment/Scythe|Scythe]], 2x [[Equipment/Arsenic|Arsenic]], [[Equipment/Invisibility Potion|Invisibility Potion]], 136x [[Equipment/Gold Pieces|Gold Pieces]], [[Equipment/Spacious Pouch (Type I)|Bag of Holding (Type I)]]"
 abilities_mid:
   - name: ""
 attacks:

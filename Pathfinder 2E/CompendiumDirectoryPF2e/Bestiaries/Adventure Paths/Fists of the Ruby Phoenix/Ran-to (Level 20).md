@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/goblin
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Ran-to (Level 20)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #168: King of the Mountain"
 name: "Ran-to (Level 20)"
 level: "Creature 20"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "goblin"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[goblin]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -69,7 +70,7 @@ attacks:
     desc: "`pf2:1`  **Requirements** Ran-to is grabbing a creature\n* * *\n\n**Effect** Ran-to throws his foe against the ground. The grabbed creature takes 12d6 bludgeoning damage (DC 43 Fortitude check save) and is knocked [[Conditions/Prone|Prone]]. The creature is no longer grabbed."
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  7d4 + 5 bludgeoning damage, DC 43 Fortitude check save\n\n* * *\n"
+    desc: "`pf2:1`  7d4+5 bludgeoning damage, DC 43 Fortitude check save\n\n* * *\n"
 
   - name: "Major Leaping Catch"
     desc: "`pf2:2`  Ran-to leaps from the ground and attempts to grab a foe while he soars. He makes a Leap, High Jump, or Long Jump. His maximum distance is 100 feet. He must succeed at an Athletics check to perform the leap as usual, but regardless of the type of leap the DC is equal to half the number of feet he moves in the air. Ran-to can attempt an Athletics check to Grapple at any point during the jump. Immediately after the attempt, he (and the creature, if the Grapple was successful) falls to the ground. Ran-to takes no falling damage when using this ability, but the grabbed creature takes the appropriate amount of falling damage as if it had fallen the distance moved. Ran-to can spend three actions to use this ability instead of two; if he does, he can use Plummeting Fall to add 12d6 bludgeoning damage to the falling damage dealt to the grabbed creature, and the creature is knocked [[Conditions/Prone|Prone]]."

@@ -27,8 +27,7 @@ abilities_top:
   - name: "Traditions"
     desc: "arcane, primal"
   - name: "Range"
-    desc: "120 feet; **Area** 5-foot emanation
-; **Targets** 1 magic item or spell effect"
+    desc: "120 feet; **Area** 5-foot emanation; **Targets** 1 magic item or spell effect"
   - name: "Defense"
     desc: "basic reflex"
 abilities_mid:

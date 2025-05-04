@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Yoh Souran"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #168: King of the Mountain"
 name: "Yoh Souran"
 level: "Creature 15"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "good"
-trait_03: "human"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[good]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Taldane, Tien"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +28, Athletics: +24, Piloting Lore: +38, Ruby Phoenix Tournament Lore: +38, Society: +28"
+    desc: "Acrobatics: +28, Athletics: +24, Society: +28, Piloting Lore: +38, Ruby Phoenix Tournament Lore: +38"
 abilityMods: [3, 7, 3, 5, 0, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder #168: King of the Mountain_"
@@ -72,7 +73,7 @@ attacks:
     desc: "`pf2:1` Heavy Crossbow +30 (range increment 120 feet, reload 2)\n__Damage__  4d10 + 6 piercing"
 
   - name: "Deploy Countermeasures"
-    desc: "`pf2:2` (manipulate) **Frequency** once per hour\n\n**Requirements** Yoh is piloting the Solar Jian II\n* * *\n\n**Effect** While the Solar Jian II is not a combat vessel, it does have a magically renewing supply of fireworks for victory parades and the like. Yoh fires them at a 20-foot burst within 60 feet. Creatures in the area take 3d6 fire damage and 3d6 sonic damage with a Fortitude save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target takes half damage and is [[Conditions/Dazzled|Dazzled]] for 1 round.\n\n**Failure** The target takes full damage and is dazzled for 3 rounds.\n\n**Critical Failure** The target takes double damage, takes 3d4 persistent fire damage, and is dazzled for 1 minute."
+    desc: "`pf2:2` (manipulate) **Frequency** once per hour\n\n**Requirements** Yoh is piloting the Solar Jian II\n* * *\n\n**Effect** While the Solar Jian II is not a combat vessel, it does have a magically renewing supply of fireworks for victory parades and the like. Yoh fires them at a @Template[burst|distance:20] within 60 feet. Creatures in the area take 3d6 fire damage and 3d6 sonic damage with a Fortitude save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target takes half damage and is [[Conditions/Dazzled|Dazzled]] for 1 round.\n\n**Failure** The target takes full damage and is dazzled for 3 rounds.\n\n**Critical Failure** The target takes double damage, takes 3d4 persistent fire damage, and is dazzled for 1 minute."
 
   - name: "I'll Get You into Position!"
     desc: "`pf2:2` (manipulate) **Requirements** Yoh is piloting an airborne vessel\n* * *\n\n**Effect** Yoh pumps the brakes, banks quickly, or performs some other aerial maneuver to get the drop on an enemy. He attempts a Piloting Lore check against the enemy's Perception DC. If he succeeds, that enemy is [[Conditions/Off-Guard|Off-Guard]] to the next attack from a creature onboard as long as it is made before Yoh's next turn. All enemies who witnessed the maneuver are then temporarily immune for 1 day."

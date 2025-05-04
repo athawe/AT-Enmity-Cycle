@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/aquatic
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Vaspercham"
@@ -26,10 +27,10 @@ level: "Creature 17"
 
 alignment: ""
 size: "huge"
-trait_01: "aberration"
-trait_02: "aquatic"
-trait_03: "chaotic"
-trait_04: "evil"
+trait_01: [[aberration]]
+trait_02: [[aquatic]]
+trait_03: [[chaotic]]
+trait_04: [[evil]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -74,7 +75,7 @@ attacks:
     desc: " (arcane,illusion,mental) A creature hit by the vaspercham's Strikes or Mindwarping Tide must attempt a DC 38 Fortitude check save. On a failure, the creature is overwhelmed with phantasmal visions, becoming [[Conditions/Confused|Confused]] for 1 round (1 minute on a critical failure)."
 
   - name: "Mindwarping Tide"
-    desc: "`pf2:1` (concentrate) The vaspercham releases an effusion of noxious water from its shell. Creatures within a 15-foot emanation must save against the vaspercham's hallucinatory brine."
+    desc: "`pf2:1` (concentrate) The vaspercham releases an effusion of noxious water from its shell. Creatures within a @Template[emanation|distance:15] must save against the vaspercham's hallucinatory brine."
 
   - name: "Whipping Tentacles"
     desc: "`pf2:2`  The vaspercham makes four tentacle Strikes, each against a different target. These attacks count toward the vaspercham's multiple attack penalty, but the multiple attack penalty doesn't increase until after the vaspercham makes all of their attacks."

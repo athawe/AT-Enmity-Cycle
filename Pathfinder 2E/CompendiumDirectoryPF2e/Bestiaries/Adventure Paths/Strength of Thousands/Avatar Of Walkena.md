@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Avatar Of Walkena"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #172: Secrets of the Temple-City"
 name: "Avatar Of Walkena"
 level: "Creature 17"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "divine"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[divine]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -90,7 +91,7 @@ attacks:
     desc: "`pf2:1`  2d4+11 bludgeoning plus 2d8 fire, DC 38 Fortitude check\n\n* * *\n"
 
   - name: "Pull Down the Sun"
-    desc: "`pf2:3` (divine,fire,light) The avatar of Walkena plucks a small drop of sunlight from the sky and rains down sunfire on the battlefield. The avatar selects a 20-foot burst within 90 feet. Sunfire rains down in the area, dealing 12d8 fire damage (DC 38 Reflex check save) to all creatures that enter or begin their turn in the area. The power of the sun restores the avatar; it instead recovers an equal number of Hit Points while in the area. The sunfire continues to rain until the end of the avatar's next turn. The avatar can't use Pull Down the Sun again for 1d4 rounds."
+    desc: "`pf2:3` (divine,fire,light) The avatar of Walkena plucks a small drop of sunlight from the sky and rains down sunfire on the battlefield. The avatar selects a @Template[burst|distance:20] within 90 feet. Sunfire rains down in the area, dealing 12d8 fire damage (DC 38 Reflex check save) to all creatures that enter or begin their turn in the area. The power of the sun restores the avatar; it instead recovers an equal number of Hit Points while in the area. The sunfire continues to rain until the end of the avatar's next turn. The avatar can't use Pull Down the Sun again for 1d4 rounds."
 
   - name: "Radiate Glory"
     desc: "`pf2:2` (divine,light) The avatar intensifies its light. All creatures within 30 feet must attempt a DC 38 Fortitude check save. The avatar can't use Radiate Glory again for 1d4 rounds. During this time, the avatar's Sun Touch no longer dazzles creatures.\n* * *\n\n**Critical Success** The creature is unaffected and becomes temporarily immune for 24 hours.\n\n**Success** The creature is [[Conditions/Dazzled|Dazzled]] for 1 round.\n\n**Failure** The creature is [[Conditions/Blinded|Blinded]] for 1 round.\n\n**Critical Failure** The creature is blinded for 1 minute."

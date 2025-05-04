@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/boggard
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Croakchief Globblit Skink-eater"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: The Slithering"
 name: "Croakchief Globblit Skink-eater"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "boggard"
-trait_03: "evil"
-trait_04: "humanoid"
+trait_01: [[amphibious]]
+trait_02: [[boggard]]
+trait_03: [[evil]]
+trait_04: [[humanoid]]
 modifier: 13
 perception:
   - name: "Perception"

@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/shadow
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Onyx Alliance Officer"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #3-19: Mean Streets of Shadow Absalom"
 name: "Onyx Alliance Officer"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fetchling"
-trait_03: "humanoid"
-trait_04: "lawful"
-trait_05: "shadow"
+trait_01: [[evil]]
+trait_02: [[fetchling]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
+trait_05: [[shadow]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Shadowtongue"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +11, Athletics: +11, Deception: +10, Intimidation: +12, Shadow Plane Lore: +12, Stealth: +13, Thievery: +13"
+    desc: "Acrobatics: +11, Athletics: +11, Deception: +10, Intimidation: +12, Stealth: +13, Thievery: +13, Shadow Plane Lore: +12"
 abilityMods: [4, 4, 0, 1, 2, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #3-19: Mean Streets of Shadow Absalom_"
@@ -59,7 +60,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Reinforced Loyalty"
-    desc: "  The officer is resistant to mind-affecting magics due to their repeated exposure to Marcien Blakros's enchantments. Whenever the officer rolls a success on a Will save against an enchantment or fear effect, they get a critical success instead, unless that effect originated from Marcien. In addition, anytime they gain the [[Conditions/Frightened 1|Frightened]] condition, reduce its value by 1."
+    desc: "  The officer is resistant to mind-affecting magics due to their repeated exposure to Marcien Blakros's enchantments. Whenever the officer rolls a success on a Will save against an enchantment or fear effect, they get a critical success instead, unless that effect originated from Marcien. In addition, anytime they gain the [[Conditions/Frightened|Frightened]] condition, reduce its value by 1."
 
   - name: "Shadow Blending"
     desc: "  When the officer is concealed as a result of dim light, the flat check to target them has a DC of 7, not 5."

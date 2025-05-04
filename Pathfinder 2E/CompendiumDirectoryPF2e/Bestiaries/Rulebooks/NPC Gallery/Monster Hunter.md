@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.zQfufnnLCTzQ165S"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Monster Hunter"
@@ -24,8 +25,8 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Athletics: +15, Monster Lore: +13, Stealth: +13, Survival: +11"
+    desc: "Athletics: +15, Stealth: +13, Survival: +11, Monster Lore: +13"
 abilityMods: [4, 3, 3, 1, 1, 1]
 speed: 20 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

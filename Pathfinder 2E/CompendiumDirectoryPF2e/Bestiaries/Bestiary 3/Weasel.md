@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.aepfNXXy2juozgzB" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Weasel"
@@ -23,7 +24,7 @@ level: "Creature -1"
 
 alignment: ""
 size: "tiny"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +5 (+7 to Escape), Athletics: +4, Stealth: +5"
+    desc: "Acrobatics: +5, Athletics: +4, Stealth: +5"
 abilityMods: [2, 3, 2, -4, 0, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"

@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.lost-omens-highhelm-bestiary.Actor.IGoJDxjMiADXa1bm" 
 tags:
   - pf2e/creature/type/aberration
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Graul"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Highhelm"
 name: "Graul"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
+trait_01: [[aberration]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Aklo"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +10, Athletics: +10 (+12 to Grapple), Deception: +10, Stealth: +12"
+    desc: "Acrobatics: +10, Athletics: +10, Deception: +10, Stealth: +12"
 abilityMods: [5, 3, 3, 2, 3, 2]
 speed:  fly 25 feet
 sourcebook: "_Pathfinder Lost Omens: Highhelm_"

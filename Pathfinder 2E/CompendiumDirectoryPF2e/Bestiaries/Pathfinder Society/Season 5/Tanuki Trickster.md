@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/tanuki
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Tanuki Trickster"
@@ -25,9 +26,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "humanoid"
-trait_03: "tanuki"
+trait_01: [[chaotic]]
+trait_02: [[humanoid]]
+trait_03: [[tanuki]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Tanuki, Tien"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Athletics: +7, Deception: +7, Nature: +5, Performance: +7, Religion: +5"
+    desc: "Acrobatics: +10, Athletics: +7, Deception: +7, Nature: +5, Performance: +7, Religion: +5"
 abilityMods: [2, 2, 3, 1, 0, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #5-12: Mischief in the Maze_"

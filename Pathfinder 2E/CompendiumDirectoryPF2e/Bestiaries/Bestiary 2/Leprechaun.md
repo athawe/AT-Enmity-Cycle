@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.R0YrD0izubtQYbTU"
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Leprechaun"
@@ -24,8 +25,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "fey"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Fey"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8, Deception: +9, Gold Lore: +7, Nature: +7, Performance: +9, Thievery: +8"
+    desc: "Acrobatics: +8, Deception: +9, Nature: +7, Performance: +9, Thievery: +8, Gold Lore: +7"
 abilityMods: [1, 4, 1, 3, 3, 4]
 speed: 30 feet
 sourcebook: "_Pathfinder Bestiary 2_"

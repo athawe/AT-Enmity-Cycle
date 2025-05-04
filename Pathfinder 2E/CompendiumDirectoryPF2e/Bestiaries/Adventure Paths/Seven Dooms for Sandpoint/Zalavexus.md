@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Zalavexus"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #200: Seven Dooms for Sandpoint"
 name: "Zalavexus"
 level: "Creature 10"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "swarm"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[swarm]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Aklo, Jotun, Petran, Thassilonian, Varisian"
 skills:
   - name: "Skills"
-    desc: "Arcana: +17, Deception: +23, Diplomacy: +21, Genie Lore: +19, Intimidation: +21, Medicine: +19, Nature: +21, Occultism: +17, Stealth: +21"
+    desc: "Arcana: +17, Deception: +23, Diplomacy: +21, Intimidation: +21, Medicine: +19, Nature: +21, Occultism: +17, Stealth: +21, Genie Lore: +19"
 abilityMods: [3, 7, 5, 3, 5, 7]
 speed: 30 feet
 sourcebook: "_Pathfinder #200: Seven Dooms for Sandpoint_"

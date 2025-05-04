@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/elemental
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Uthul"
@@ -26,10 +27,10 @@ level: "Creature 14"
 
 alignment: ""
 size: "huge"
-trait_01: "air"
-trait_02: "chaotic"
-trait_03: "elemental"
-trait_04: "evil"
+trait_01: [[air]]
+trait_02: [[chaotic]]
+trait_03: [[elemental]]
+trait_04: [[evil]]
 modifier: 20
 perception:
   - name: "Perception"
@@ -68,7 +69,7 @@ attacks:
     desc: "`pf2:1` Debris +29 (range increment 60 feet)\n__Damage__  5d8 + 15 bludgeoning"
 
   - name: "Lightning Crash"
-    desc: "`pf2:1` (electricity,incapacitation,sonic) The uthul unleashes a powerful bolt of lightning and a stunning thunderclap. The bolt deals 6d12 electricity damage to all creatures in a 30-foot line, with a DC 34 Reflex check save, and every creature in a 20-foot emanation must attempt a DC 34 Fortitude check save.\n\nThe uthul can't use Lightning Crash again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Stunned 1|Stunned 1]].\n\n**Failure** The creature is [[Conditions/Stunned 1|Stunned]] for 1 round.\n\n**Critical Failure** The creature is stunned for 1d4 rounds."
+    desc: "`pf2:1` (electricity,incapacitation,sonic) The uthul unleashes a powerful bolt of lightning and a stunning thunderclap. The bolt deals 6d12 electricity damage to all creatures in a @Template[line|distance:30], with a DC 34 Reflex check save, and every creature in a @Template[emanation|distance:20] must attempt a DC 34 Fortitude check save.\n\nThe uthul can't use Lightning Crash again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Stunned|Stunned 1]].\n\n**Failure** The creature is [[Conditions/Stunned|Stunned]] for 1 round.\n\n**Critical Failure** The creature is stunned for 1d4 rounds."
 
   - name: "Swiftness"
     desc: "  An uthul's movement doesn't trigger reactions."

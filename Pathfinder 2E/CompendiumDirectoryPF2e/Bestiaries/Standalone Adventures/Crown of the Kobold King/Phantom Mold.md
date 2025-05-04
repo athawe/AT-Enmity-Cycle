@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - fungus
+  - pf2eHazard
 
 source: Pathfinder Adventure: Crown of the Kobold King
 aliases: "Compendium.pf2e.crown-of-the-kobold-king-bestiary.Actor.gfi71qgcpDMpXK6G" 
@@ -22,14 +23,14 @@ name: "Phantom Mold"
 level: "Hazard 2"
 
 
-trait_01: "environmental"
-trait_02: "fungus"
+trait_01: [[environmental]]
+trait_02: [[fungus]]
 modifier: 8
 sourcebook: "_Pathfinder Adventure: Crown of the Kobold King_"
 ac: 15
 armorclass:
   - name: AC
-    desc: "15; __Fort__ +11, __Ref__ +5, __Will__ +0"
+    desc: "15; __Fort__ +11, __Ref__ +5, "
 hp: 30
 health:
   - name: ""

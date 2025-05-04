@@ -30,6 +30,7 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, primal"
+
   - name: "Defense"
     desc: "basic reflex"
 abilities_mid:

@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
   - complex
 source: Pathfinder #150: Broken Promises
 aliases: "Compendium.pf2e.age-of-ashes-bestiary.Actor.hPPdfkiRZ1LUpN2h" 
@@ -21,7 +22,7 @@ name: "Damurdiel's Vengeance"
 level: "Hazard 19"
 
 trait_06: "Complex"
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 37
 sourcebook: "_Pathfinder #150: Broken Promises_"
 ac: 43

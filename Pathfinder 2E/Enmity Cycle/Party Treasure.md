@@ -1,19 +1,23 @@
 ## Level 4 Budget
-- [ ] Currency: 250 gp - 
+- [ ] Currency: 250 gp - 20gp
 ### 2 5th level permanent items  
 - [ ] Silver armour
 - [ ] +1 striking [[Handwraps of Mighty Blows]] (Permanent 4)
-- [ ] Drake Rifle
 - [ ] [[Holy Prayer Beads]] 
 - [ ] [[Skeleton Key]] 
 - [ ] [[Obsidian Goggles]] 
 ### 3 4th level permanent items 
-- [ ] [[Lifting Belt]] (80)
-- [ ] Jug of Fond Remembrance (75)
+- [x] [[Lifting Belt]] (80)
+- [ ] [[Jug of Fond Remembrance]] (75)
 - [ ] [[Healer's Gloves]] 
+- [ ] Fiend [[CompendiumDirectoryPF2e/Character Building/Equipment/Bane|Bane]] Rune 
+- [ ] Elemental [[CompendiumDirectoryPF2e/Character Building/Equipment/Bane|Bane]] Rune 
+- [ ] Beast [[CompendiumDirectoryPF2e/Character Building/Equipment/Bane|Bane]] Rune 
+- [ ] Dragon [[CompendiumDirectoryPF2e/Character Building/Equipment/Bane|Bane]] Rune 
+- [x] [[Striking]] Rune 
 ### 3 5th level consumable items
 - [ ] [[Bola Shot]] (ammunition, 25 gp)
-- [ ] [[Freezing Ammunition]] 
+- [x] [[Freezing Ammunition]] 
 - [ ] [[Oil Of Revelation]] 
 - [ ] [[Sneaky Key]]
 - [ ] [[Soothing Tonic (Moderate)]] 
@@ -31,94 +35,90 @@
 ## Level 5 Budget
 - [ ] Currency: 400 gp
 ### 2 6th level permanent items  
-- [ ] Bloodletting Kukri
-- [ ] [[thundercrasher-tv|Thundercrasher]] 
-- [ ] Flurrying (Orchid)
-- [ ] Phantasmal Doorknob
+- [ ] [[Bloodletting Kukri]]
+- [ ] [[Thundercrasher]]
+- [ ] [[Flurrying]]
+- [ ] [[Phantasmal Doorknob]]
 ### 3 5th level permanent items 
-- [ ] Wand of Contagious Frailty
-- [ ] [[homeward-swallow-tv|Homeward Swallow]] 
+- [ ] Wand of [[Wand of Contagious Frailty]]
+- [ ] [[Homeward Swallow]]
 - [ ] Earthbinding Rune
 ### 3 6th level consumable items
-- [ ] Terrifying Ammunition 
-- [ ] [[pathfinders-pouch-locg|Pathfinder's Pouch]] 
-- [ ] [[antipode-oil-tv|Antipode Oil]] 
+- [ ] [[Terrifying Ammunition]]
+- [ ] [[Pathfinder's Pouch]]
+- [ ] [[Antipode Oil]]
 ### 3 5th level consumable items
-- [ ] Ginger Chew
-- [ ] [[pucker-pickle-tv|Pucker Pickle]] 
-- [ ] [[tiger-menuki|Tiger Menuki]] 
+- [ ] [[Ginger Chew]]
+- [ ] [[Pucker Pickle]] 
+- [ ] [[Tiger Menuki]] 
 ### 2 4th level consumable items 
-- [ ] [[barkskin-potion|Barkskin Potion]]
-- [ ] Energized Cartridge
-- [ ] 2x [[oxygen-ooze-loil|Oxygen Ooze]]
+- [ ] 
 
 ## Level 6 Budget
 - [ ] Currency: 625 gp
 ### 2 7th level permanent items  
-- [ ] [[decanter-of-endless-water|Decanter of Endless Water]]
-- [ ] [[deathless-lotgb|Deathless]] (330 gp)
+- [ ] [[Decanter of Endless Water]]
+- [ ] [[Deathless]] (330 gp)
 - [ ] [[wounding|Wounding]] (340 gp)
-- [ ] [[bag-of-holding|Bag of Holding]] type 2
+- [ ] [[Spacious Pouch (Type II)]] type 2 (Bag of Holding)
 ### 3 6th level permanent items 
-- [ ] [[energizing-lotgb|Energizing]] 
-- [ ] Staff of the Desert Winds 
-- [ ] 2nd-Level Spell Wand of Hopeless Night
-- [ ] Western Star [[aeon-stone|Aeon Stone]] 
+- [ ] [[Energizing]] 
+- [ ] [Staff of the Desert Winds](https://2e.aonprd.com/Equipment.aspx?ID=1078)
+- [ ] [[Wand of Hopeless Night (2nd-Rank Spell)]]
+- [ ] [[Aeon Stone (Western Star)]]
 ### 3 7th level consumable items
-- [ ] Formula for [[fire-and-iceberg-lotgb|Fire And Iceberg]]
-- [ ] [[terrifying-ammunition-apg|Terrifying Ammunition]] 
-- [ ] [[antipode-oil-tv|Antipode Oil]] 
+- [ ] Formula for [[Fire And Iceberg]]
+- [ ] [[Terrifying Ammunition]] 
+- [ ] [[Antipode Oil]] 
 ### 3 6th level consumable items
-- [ ] [[golden-silencer-ooa2|Golden Silencer]] 
-- [ ] [[ghostbane-fulu-som|Ghostbane Fulu]] 
-- [ ] Lesser [[silver-crescent-tv|Silver Crescent]] 
+- [ ] [[Ghostbane Fulu]] 
+- [ ] [[Silver Crescent (Lesser)]] 
 ### 2 5th level consumable items 
-- [ ] [[freeze-ammunition-tv|Freeze Ammunition]]
-- [ ] [[oil-of-revelation-apg|Oil Of Revelation]] 
+- [ ] [[Freeze Ammunition]]
+- [ ] [[Oil Of Revelation]] 
 
 ## Level 7 Budget
 - [ ] Currency: 900 gp
 ### 2 8th level permanent items  
-- [ ] Greater [[grim-sandglass-som|Grim Sandglass]] 
-- [ ] Greater [[slick|Slick]] 
+- [ ]  [[Grim Sandglass (Greater)]] 
+- [ ] [[Slick (Greater)]] 
 - [ ] [[resilient|Resilient]] 
 ### 3 7th level permanent items 
-- [ ] [[RPG Note Vault/Pathfinder 2E/Mechanics/compendium/equipment/items/guiding-star-som|Guiding Star]] 
-- [ ] [[liars-gun-g-g|Liar's Gun]] 
-- [ ] [[flurrying-tv|Flurrying]] 
+- [ ] [[Guiding Star]] 
+- [ ] [[Liar's Gun]] 
+- [ ] [[Flurrying]] 
 ### 3 8th level consumable items
 - [ ] Potion Of Shared Life
-- [ ] [[hype-lol|Hype]] 
-- [ ] 2x [[chain-of-stars-tv|Chain of Stars]] 
-- [ ] [[caydens-brew-tv|Cayden's Brew]]
+- [ ] [[Hype]] 
+- [ ] 2x [[Chain of Stars]] 
+- [ ] [[Cayden's Brew]]
 ### 3 7th level consumable items
-- [ ] Lesser [[magnetic-shot-tv|Magnetic Shot]] 
-- [ ] [[owlbear-egg-tv|Owlbear Egg]] 
-- [ ] 2x [[skinstitch-salve-apg|Skinstitch Salve]] 
+- [ ] [[Magnetic Shot (Lesser)]] 
+- [ ] [[Owlbear Egg]] 
+- [ ] 2x [[Skinstitch Salve]] 
 ### 2 6th level consumable items 
-- [ ] Moderate [[potion-of-swimming|Potion of Swimming]] 
+- [ ] Moderate [[Potion of Swimming]] 
 
 ## Level 8 Budget
 - [ ] Currency: 1250 gp
 ### 2 9th level permanent items  
-- [ ] [[thunderblast-slippers-tv|Thunderblast Slippers]]
-- [ ] [[messengers-ring|Messenger's Ring]] 
-- [ ] [[pontoon-tv|Pontoon]] 
+- [ ] [[Thunderblast Slippers]]
+- [ ] [[Messenger's Ring]] 
+- [ ] [[Pontoon]] 
 ### 3 8th level permanent items 
-- [ ] Greater [[staff-of-healing|Staff of Healing]] 
-- [ ] +1 resilient armour with the ability from [[plate-armor-of-the-deep|Plate Armor of the Deep]] 
-- [ ] [[breath-blaster-g-g|Breath Blaster]]  (500)
+- [ ] [[Staff of Healing (Greater)]] 
+- [ ] [[Breath Blaster]]  (500)
 ### 3 9th level consumable items
-- [ ] [[body-recovery-kit-lopsg|Body Recovery Kit]]
-- [ ] [[dust-of-disappearance|Dust of Disappearance]] 
-- [ ] Greater [[blast-boots-g-g|Blast Boots]] 
+- [ ] [[Body Recovery Kit]]
+- [ ] [[Dust of Disappearance]] 
+- [ ] Greater [[Blast Boots (Greater)]] 
 ### 3 8th level consumable items
-- [ ] [[potion-of-quickness|Potion of Quickness]]
-- [ ] Lesser [[malleable-mixture-lotgb|Malleable Mixture]]
-- [ ] [[jade-bauble|Jade Bauble]] 
+- [ ] [[Potion of Quickness]]
+- [ ] [[Malleable Mixture (Lesser)]]
+- [ ] [[Jade Bauble]] 
 ### 2 7th level consumable items 
-- [ ] [[meteor-shot-g-g|Meteor Shot]]
-- [ ] [[dragons-breath-potion|Dragon's Breath Potion]] 
+- [ ] [[Meteor Shot]]
+- [ ] [[Dragon's Breath Potion]] 
 
 ## Level 9 Budget
 - [ ] Currency: 1750 gp
@@ -145,39 +145,42 @@
 ### 2 9th level consumable items 
 - [ ] 
 ## 3rd level items
-1. Moderate [[acid-flask|Acid Flask]] 
-2. Moderate [[tanglefoot-bag|Tanglefoot Bag]] 
-3. Moderate [[thunderstone]] 
-4. Moderate [[antidote]] 
+1. [[Acid Flask (Moderate)]] 
+2. [[Glue Bomb (Moderate)]]
+3.  [[Thunderstone (Moderate)]] 
+4. [[Antidote (Moderate)]] 
 5. [[Maestro's Instrument (Lesser)]] 
-6. Sterling artisan's tools
+6. [[Artisan's Toolkit (Sterling)]]
 7. [[Keymaking Tools]] 
 8. [[Armory Bracelet (Minor)]]
-9. [[repair-kit]] (superb)
-10. [[thieves-tools]] (infiltrator)
+9. [[Repair Toolkit (Superb)]]
+10. [[Thieves' Toolkit (Infiltrator)]]
 11. [[Bane Oil]] 
 12. [[Battle Medic's Baton]]
-13. [[beacon-shot|Beacon Shot]] 
-14. Blazons of Shared Power 
-15. [[Blood Booster]]
+13. [[Beacon Shot]] 
+14. [[Blazons of Shared Power]]
+15. [[Blood Booster (Lesser)]]
 16. [[Bracers of Missile Deflection]]  
 17. [[Tracker's Stew]] 
 18. [[Coin Of Comfort]] 
 19. [[Retrieval Prism]] (12gp, consumable)
-20. [[Toothwort Extract]] 
-21. Rune 
+20. [[Captivating Rosebud]] (10gp, consumable)
+21. [[Aerial Cloak]]
+22. [[Candle of Inflamed Passions]] 
+23. 
+24. Rune 
 	1. [[Called]] (60 gp)
 	2. Returning (55 gp)
 	3. [[Crushing]] (50 gp)
 	4. [[Cunning]] (140 gp) (Pathfinder Society secret)
 
 ## 4th level items
-1. [[bag-of-holding]] type 1
+1. [[Spacious Pouch (Type I)]]
 2. [[Lifting Belt]]
 3. [[Admonishing Band]]
 4. [[Air Cartridge Firing System]]
 5. [[Fortifying Pebble]] 
-6. [[Barkskin Potion]]
+6. [[Oak Potion]]
 7. [[Blessed Tattoo]]
 8. [[Dazzling Rosary]] 
 9. [[Energized Cartridge]]
@@ -190,7 +193,9 @@
 16. [[Energized Cartridge]] 
 17. [[Demon Mask]] 
 18. [[Salamander Elixir (Lesser)]]
-19. Runes 
+19. [[Atmospheric Staff (Lesser)]]
+20. [[Spiny Lodestone]]
+21. Runes 
 	1. Striking (65 gp)
 	2. Bane (100 gp)
 	3. [[Merciful]] (70 gp)
@@ -210,7 +215,8 @@
 12. [[Soothing Tonic (Moderate)]] 
 13. [[Shade Hat]]
 14. [[Obsidian Goggles]]
-15. Runes 
+15. [[Staff of Metal]]
+16. Runes 
 	1. [[Cunning]](140 gp)
 	2. [[Earthbinding]] (125 gp)
 	3. [[Armor Potency (+1)]] (160 gp)
@@ -229,69 +235,86 @@
 10. [[Ghostbane Fulu]] 
 11. [[Silver Crescent (Lesser)]] 
 12. [[Potion of Swimming]] 
-13. Runes 
+13. [[Endless Grimoire]]
+14. Runes 
 	1. [[Aim-Aiding]]
 	2. [[Energizing]] (250 gp)
-	3. [[Retaliation]] (250 gp)
-	4. Shadow (55 gp)(armor) (L5)
-	5. .
+	3. [[Retaliation (Lesser)]] (250 gp)
+	4. [[CompendiumDirectoryPF2e/Character Building/Equipment/Shadow|Shadow]] (55 gp)(armor) (L5)
+	5. [[Swallow-Spike]] (200 gp)(armor)
 
 ## 7th level items
 1. [[Moonlit Chain]] 
-2. [[bag-of-holding|Bag of Holding]] type 2
-3. [[decanter-of-endless-water|Decanter of Endless Water]] 
+2.  [[Spacious Pouch (Type II)]]
+3. [[Decanter of Endless Water]] 
 4. [[Lion's Shield]]
 5. [[Terrifying Ammunition]]
 6. [[Pathfinder's Pouch]]
-7. [[antipode-oil-tv|Antipode Oil]] 
-8. [[meteor-shot-g-g|Meteor Shot]]
-9. [[stepping-stone-shot-g-g|Stepping Stone Shot]] (65gp)
-10. [[dragons-breath-potion|Dragon's Breath Potion]] 
-11. Runes 
-	1. [[deathless-lotgb|Deathless]] (330 gp)
+7. [[Antipode Oil]] 
+8. [[Meteor Shot]]
+9. [[Stepping Stone Shot]] (65gp)
+10. [[Dragon's Breath Potion]] 
+11. [[Stalagmite Seed]]
+12. [[Blooming Lotus Seed Pod]]
+13. [[Frost Breath]]
+14. [[Ash Gown]]
+15. Runes 
+	1. [[Deathless]] (330 gp)
 	2. [[wounding|Wounding]] (340 gp)
-	3. Swallow-Spike (200 gp)(armor)
-	4. .
+	3. [[Rooting]]
 
 ## 8th level items 
-1. +1 [[bracers-of-armor|Bracers of Armor]] 
-2. Greater [[staff-of-healing|Staff of Healing]] 
-3. +1 resilient armour with the ability from [[plate-armor-of-the-deep|Plate Armor of the Deep]] 
-4. [[breath-blaster-g-g|Breath Blaster]]  (500)
-5. Greater [[chameleon-suit-g-g|Chameleon Suit]]  (80)
-6. [[jade-bauble|Jade Bauble]] 
-7. Runes 
-	1. Bitter (135 gp)
-	2. Advancing (625 gp)
+1. [[Bands of Force]]
+2. [[Staff of Healing (Greater)]] 
+3. [[Breath Blaster]]  (500)
+4. [[Chameleon Suit (Greater)]]  (80)
+5. [[Jade Bauble]] 
+6. [[Nimbus Breath]]
+7. [[Therapeutic Snap Peas]]
+8. [[Brine Dragon Scale]]
+9. 
+10. Runes 
+	1. [[Bitter]] (135 gp)
+	2. [[Advancing]] (625 gp)
 	3. [[resilient|Resilient]] (340 gp) 
 	4. 
 ## 9th level items
-1. [[underwater-firing-mechanism-g-g|Underwater Firing Mechanism]] 
-2. Greater [[blast-boots-g-g|Blast Boots]] 
-3. moderate [[healers-gel-som|Healer's Gel]] 
-4. [[body-recovery-kit-lopsg|Body Recovery Kit]]
-5. [[dust-of-disappearance|Dust of Disappearance]] 
-6. [[thunderblast-slippers-tv|Thunderblast Slippers]]
-7. [[messengers-ring|Messenger's Ring]] 
-8. Runes 
-	1. [[pontoon-tv|Pontoon]] 
+1. [[Underwater Firing Mechanism]] 
+2. [[Blast Boots (Greater)]] 
+3. [[Healer's Gel (Moderate)]] 
+4. [[Body Recovery Kit]]
+5. [[Dust of Disappearance]] 
+6. [[Thunderblast Slippers]]
+7. [[Messenger's Ring]] 
+8. [[Vital Earth]]
+9. [[Storm Breath]]
+10. [[Malleable]] (armour)
+11. [[Wisp Chain]]
+12. [[Jann's Prism]]*
+13. [[Elemental Fragment]]
+14. 
+15. Runes 
+	1. [[Pontoon]] 
 
 ## 10th level items
-1. +2 striking [[handwraps-of-mighty-blows|Handwraps of Mighty Blows]] 
-2. Greater [[retrieval-prism-som|Retrieval Prism]] (200gp, consumable)
-3. greater [[soothing-tonic-tv|Soothing Tonic]] 
-4. [[forge-warden|Forge Warden]] (Shield) 
-5. [[daredevil-boots|Daredevil Boots]] 
-6. Runes 
-	1. +2 [[weapon-potency|Weapon Potency]] (935 gp)
+1. +2 striking [[Handwraps of Mighty Blows]] 
+2. [[Retrieval Prism (Greater)]] (200gp, consumable)
+3. [[Soothing Tonic (Greater)]] 
+4. [[Forge Warden]] (Shield) 
+5. [[Daredevil Boots]] 
+6. [[Jaathoom's Scarf]]*
+7. 
+8. Runes 
+	1. [[Weapon Potency (+2)]] (935 gp)
 	2. [[Impactful]] (1000 gp)
 
 ## 11th level items
-1. Ghostshot Wrapping
+1. [[Ghostshot Wrapping]]
 2. [[Oracular Crown]]
-3. Silencing Shot 
-4. Runes 
-	1.  +2 Armor Potency(1060)
-	2. Axiomatic(1400 gp)
-	3. Holy (1400 gp)
-	4. Hopeful (1200 gp)
+3. [[Silencing Shot]]
+4. [[Gate Attenuator (Major)]]
+5. Runes 
+	1.  [[Armor Potency (+2)]] (1060)
+	2. [[Holy]] (1400 gp)
+	3. [[Hopeful]] (1200 gp)
+	4. 

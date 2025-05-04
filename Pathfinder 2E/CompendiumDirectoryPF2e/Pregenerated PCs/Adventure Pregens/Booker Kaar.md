@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Booker Kaar
-creatures:
-  - 1: Booker Kaar
-```
-
 
 
 

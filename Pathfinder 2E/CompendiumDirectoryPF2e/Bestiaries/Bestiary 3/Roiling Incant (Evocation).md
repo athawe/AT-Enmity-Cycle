@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.QWx9cIVUeP7dMOez"
 tags:
   - pf2e/creature/type/arcane
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Roiling Incant (Evocation)"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Roiling Incant (Evocation)"
 level: "Creature 9"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "arcane"
-trait_02: "mindless"
+trait_01: [[arcane]]
+trait_02: [[mindless]]
 modifier: 15
 perception:
   - name: "Perception"

@@ -25,6 +25,7 @@ abilities_top:
     desc: "1 day; **Secondary Casters** 1"
   - name: "Primary Check"
     desc: "Nature (master); **Secondary Checks** Survival"
+
   - name: "Duration"
     desc: "4d12 hours"
 abilities_mid:

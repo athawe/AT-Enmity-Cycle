@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Roper"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Roper"
 level: "Creature 10"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Athletics: +22, Nature: +17 (+21 about caves), Religion: +19, Stealth: +17 (+25 in stony or icy areas)"
+    desc: "Athletics: +22, Nature: +17, Religion: +19, Stealth: +17"
 abilityMods: [6, 1, 6, 1, 3, 1]
 speed: 10 feet,  climb 10 feet
 sourcebook: "_Pathfinder Bestiary_"
@@ -75,7 +76,7 @@ attacks:
     desc: "`pf2:2`  The roper pulls every creature [[Conditions/Grabbed|Grabbed]] by its strands toward itself. The roper rolls a single Athletics check check and compares the result to each [[Conditions/Immobilized|Immobilized]] creature's Fortitude DC. The roper pulls each creature it succeeds against up to 25 feet closer and each creature it critically succeeds against up to 50 feet closer."
 
   - name: "Sticky Strand"
-    desc: "  Any creature hit by a roper's strand is [[Conditions/Enfeebled 1|Enfeebled 1]] and [[Conditions/Grabbed|Grabbed]]. Each additional hit from a strand increases the enfeebled condition value by 1 (to a maximum of enfeebled 4). This enfeebled value decreases by 1 every 8 hours. The roper can move while it has a creature grabbed with a strand, but it automatically releases the creature if it moves beyond the strand's reach. The roper can release an grabbed creature as a free action. A creature can sever a strand with a target attack that hits AC 27 and deals at least 18 slashing damage. This doesn't deal any damage to the roper itself, though it can no longer attack with a severed strand."
+    desc: "  Any creature hit by a roper's strand is [[Conditions/Enfeebled|Enfeebled 1]] and [[Conditions/Grabbed|Grabbed]]. Each additional hit from a strand increases the enfeebled condition value by 1 (to a maximum of enfeebled 4). This enfeebled value decreases by 1 every 8 hours. The roper can move while it has a creature grabbed with a strand, but it automatically releases the creature if it moves beyond the strand's reach. The roper can release an grabbed creature as a free action. A creature can sever a strand with a target attack that hits AC 27 and deals at least 18 slashing damage. This doesn't deal any damage to the roper itself, though it can no longer attack with a severed strand."
  
 ```
 

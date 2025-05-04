@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/sahkil
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Miss Whisper"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: Night of the Gray Death"
 name: "Miss Whisper"
 level: "Creature 9"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fiend"
-trait_03: "sahkil"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[fiend]]
+trait_03: [[sahkil]]
+trait_04: [[unholy]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -80,7 +81,7 @@ attacks:
     desc: "DC 30, attack +20; __7th __ (1 slots) _[[Spells/Mask of Terror|Mask of Terror (Self Only)]]_; __6th __ (3 slots) _[[Spells/Dominate|Dominate]]_; __5th __ (3 slots) _[[Spells/Calm|Calm Emotions]]_, _[[Spells/Charm|Charm]]_, _[[Spells/Suggestion|Suggestion (At Will)]]_\n__Cantrips__  __(5th)__ _[[Spells/Detect Magic|Detect Magic]]_\n__Constant__  __(6th)__ _[[Spells/Truespeech|Tongues]]_, _[[Spells/Truesight|True Seeing]]_"
 
   - name: "Betrayal Toxin"
-    desc: " (divine,mental,poison) A creature affected by betrayal toxin hears whispers of incessant doubt in their head and can't treat any creature as their ally\n\n**Saving Throw** DC 28 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** [[Conditions/Stupefied 1|Stupefied 1]] (1 round)\n\n**Stage 2** [[Conditions/Stupefied 1|Stupefied 2]] (1 round)"
+    desc: " (divine,mental,poison) A creature affected by betrayal toxin hears whispers of incessant doubt in their head and can't treat any creature as their ally\n\n**Saving Throw** DC 28 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** [[Conditions/Stupefied|Stupefied 1]] (1 round)\n\n**Stage 2** [[Conditions/Stupefied|Stupefied 2]] (1 round)"
 
   - name: "Skip Between"
     desc: "`pf2:1` (divine,teleportation) The sahkil moves from the Material Plane to the Ethereal Plane or vice-versa, with the effects of [[Spells/Ethereal Jaunt|Ethereal Jaunt]] except that the effect has an unlimited duration and can be Dismissed.\n\nA summoned sahkil can't use Skip Between."

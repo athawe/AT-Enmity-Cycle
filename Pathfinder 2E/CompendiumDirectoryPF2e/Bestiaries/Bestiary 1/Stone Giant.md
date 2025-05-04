@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/giant
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Stone Giant"
@@ -25,9 +26,9 @@ level: "Creature 8"
 
 alignment: ""
 size: "Large"
-trait_01: "earth"
-trait_02: "giant"
-trait_03: "humanoid"
+trait_01: [[earth]]
+trait_02: [[giant]]
+trait_03: [[humanoid]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Jotun"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +14, Athletics: +20, Intimidation: +14, Stealth: +14 (+18 in rocky terrain)"
+    desc: "Acrobatics: +14, Athletics: +20, Intimidation: +14, Stealth: +14"
 abilityMods: [6, 2, 4, 0, 1, 0]
 speed: 35 feet
 sourcebook: "_Pathfinder Bestiary_"

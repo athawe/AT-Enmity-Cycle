@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #3-14: The Tomb Between Worlds
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.LiKplPXYeqLVJ462" 
@@ -22,14 +23,14 @@ name: "Insolent's Retort"
 level: "Hazard 7"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 17
 sourcebook: "_Pathfinder Society Scenario #3-14: The Tomb Between Worlds_"
 ac: 25
 armorclass:
   - name: AC
-    desc: "25; __Fort__ +18, __Ref__ +12, __Will__ +0"
+    desc: "25; __Fort__ +18, __Ref__ +12, "
 hp: 60
 health:
   - name: ""

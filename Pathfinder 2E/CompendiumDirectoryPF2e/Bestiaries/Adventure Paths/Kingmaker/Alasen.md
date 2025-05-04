@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/werecreature
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Alasen"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Alasen"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
-trait_05: "werecreature"
+trait_01: [[beast]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
+trait_05: [[werecreature]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -77,7 +78,7 @@ attacks:
     desc: "`pf2:1` (concentrate,polymorph,primal) Medium human with fist +26 for 2d6+16 bludgeoning, or tiger with Speed 30 feet and Wrestle.\n\nWrestle `pf2:1` The tiger makes a claw Strike against a creature it is grabbing. If the attack hits, that creature is knocked [[Conditions/Prone|Prone]].\n* * *\n\nThe werecreature changes into its humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true werecreature's natural form is its hybrid shape.\n\nIn humanoid shape, the werecreature uses its original humanoid size, loses its jaws and claws Strikes, and gains a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by its claw.\n\nIn animal shape, its Speed and size change to that of the animal, it gains any special Strike effects of the animal that it didn't already have (such as Grab), and it loses its weapon Strikes.\n\n* * *\n"
 
   - name: "Critical Debilitating Strike"
-    desc: "  **Trigger** Alasen's Strike hits an [[Conditions/Off-Guard|Off-Guard]] creature and deals damage.\n* * *\n\n**Effect** The target becomes [[Conditions/Enfeebled 1|Enfeebled 1]] or takes a -10-foot status penalty to its Speeds, as chosen by Alasen. On a critical hit, the target must also attempt a DC 34 Fortitude check save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is [[Conditions/Slowed 1|Slowed 1]] until the end of Alasen's next turn.\n\n**Failure** The target is [[Conditions/Slowed 1|Slowed 2]] until the end of Alasen's next turn.\n\n**Critical Failure** The target is [[Conditions/Paralyzed|Paralyzed]] until the end of Alasen's next turn."
+    desc: "  **Trigger** Alasen's Strike hits an [[Conditions/Off-Guard|Off-Guard]] creature and deals damage.\n* * *\n\n**Effect** The target becomes [[Conditions/Enfeebled|Enfeebled 1]] or takes a -10-foot status penalty to its Speeds, as chosen by Alasen. On a critical hit, the target must also attempt a DC 34 Fortitude check save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is [[Conditions/Slowed|Slowed 1]] until the end of Alasen's next turn.\n\n**Failure** The target is [[Conditions/Slowed|Slowed 2]] until the end of Alasen's next turn.\n\n**Critical Failure** The target is [[Conditions/Paralyzed|Paralyzed]] until the end of Alasen's next turn."
 
   - name: "[[Creature Family Ability Glossary/(Werecreature) Curse of the Werecreature|Curse of the Weretiger]]"
     desc: " (curse,primal) This curse affects only humanoids.\n* * *\n\n**Saving Throw** DC 34 Fortitude check\n\nOn each full moon, the cursed creature must succeed at another Fortitude save or turn into the same kind of werecreature until dawn.\n\nThe creature is under the GM's control and goes on a rampage for half the night before falling unconscious until dawn."

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/elemental
   - pf2e/creature/type/genie
+  - pf2eMonster
   - pf2e/creature/level/5
   - remaster
 statblock: inline
@@ -26,14 +27,14 @@ level: "Creature 5"
 
 alignment: ""
 size: "Large"
-trait_01: "air"
-trait_02: "elemental"
-trait_03: "genie"
+trait_01: [[air]]
+trait_02: [[elemental]]
+trait_03: [[genie]]
 modifier: 15
 perception:
   - name: "Perception"
     desc: "+15; Darkvision"
-languages: "Common, Sussuran; (Can’t Speak Any Language); Cloud of Visions"
+languages: "Common, Sussuran; (Can&#x27;t Speak Any Language); Cloud of Visions"
 skills:
   - name: "Skills"
     desc: "Acrobatics: +14, Arcana: +11, Athletics: +11, Crafting: +9, Deception: +11, Diplomacy: +13, Society: +9, Stealth: +12"
@@ -48,7 +49,7 @@ hp: 55
 health:
   - name: ""
   - name: HP
-    desc: "55; __Immunities__  acid; __Resistances__ mental 5, sonic 5"
+    desc: "55"
 abilities_top:
   - name: ""
   - name: "Items"
@@ -74,10 +75,10 @@ attacks:
     desc: "`pf2:1` Fist +16 (agile, finesse, magical, nonlethal, reach 10 feet)\n__Damage__  1d4 + 10 bludgeoning"
 
   - name: "Ranged"
-    desc: "`pf2:1` Crashing Wind +15 (air, arcane, range increment 20 feet)\n__Damage__  1d8 + 8 bludgeoning"
+    desc: "`pf2:1` Crashing Wind +16 (air, arcane, range increment 20 feet)\n__Damage__  1d8 + 8 bludgeoning"
 
   - name: "Arcane Innate Spells"
-    desc: "DC 21, attack +13; __7th __  _[[Spells/Interplanar Teleport|Interplanar Teleport(to Astral Plane, Elemental Planes, or the Universe only)]]_; __4th __  _[[Spells/Nightmare|Nightmare]]_, _[[Spells/Vapor Form|Vapor Form]]_; __3rd __  _[[Spells/Ill Omen|Ill Omen]]_, _[[Spells/Illusory Creature|Illusory Creature]]_, _[[Spells/Illusory Object|Illusory Object]]_, _[[Spells/Sleep|Sleep]]_\n__Cantrips__  __(3rd)__ _[[Spells/Detect Magic|Detect Magic]]_"
+    desc: "DC 21, attack +13; __7th __  _[[Spells/Interplanar Teleport|Interplanar Teleport (to Astral Plane, Elemental Planes, or the Universe only)]]_; __4th __  _[[Spells/Nightmare|Nightmare]]_, _[[Spells/Vapor Form|Vapor Form]]_; __3rd __  _[[Spells/Ill Omen|Ill Omen]]_, _[[Spells/Illusory Creature|Illusory Creature]]_, _[[Spells/Illusory Object|Illusory Object]]_, _[[Spells/Sleep|Sleep]]_\n__Cantrips__  __(3rd)__ _[[Spells/Detect Magic|Detect Magic]]_"
 
   - name: "[[Bestiary Ability Glossary/Change Shape|Change Shape]]"
     desc: "`pf2:1` (arcane,concentrate,polymorph) The jaathoom transforms into a Small or Medium air elemental or aerial animal, such as an owl. This doesn't affect their statistics, but it could change the damage type of their Strikes.\n\n* * *\n"
@@ -86,7 +87,7 @@ attacks:
     desc: "`pf2:1` (air,arcane) **Frequency** once per round\n* * *\n\n**Effect** The jaathoom moves all creatures without the air trait in their turbulent skies aura 20 feet directly away, clockwise, or counterclockwise. A creature avoids being moved if it succeeds at a DC 21 Fortitude check save."
 
   - name: "Ominous Dreams"
-    desc: "`pf2:2` (mental,prediction) The jaathoom sends a prophetic dream to a sleeping creature within 10 feet. An unwilling creature avoids the vision if it succeeds at a DC 23 Will check save.\n\nThe jaathoom chooses the dream's subject, but not its exact events. The target sees a brief vision of its future related to that subject, with the effect of [[Spells/Augury|Augury]]. If the result is bad or mixed, the creature is [[Conditions/Frightened 1|Frightened 2]] and can't recover from being frightened until it wakes."
+    desc: "`pf2:2` (mental,prediction) The jaathoom sends a prophetic dream to a sleeping creature within 10 feet. An unwilling creature avoids the vision if it succeeds at a DC 23 Will check save.\n\nThe jaathoom chooses the dream's subject, but not its exact events. The target sees a brief vision of its future related to that subject, with the effect of [[Spells/Augury|Augury]]. If the result is bad or mixed, the creature is [[Conditions/Frightened|Frightened 2]] and can't recover from being frightened until it wakes."
  
 ```
 

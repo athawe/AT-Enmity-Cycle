@@ -34,7 +34,7 @@ languages: "Common, Draconic"
 skills:
   - name: "Skills"
     desc: "Labor Lore: +0, "
-abilityMods: [3, 1, 2, 0, 1, 1]
+abilityMods: [4, 1, 2, 0, 1, 1]
 speed: 25 feet
 sourcebook: "__"
 ac: 18
@@ -55,12 +55,6 @@ abilities_mid:
 attacks:
   - name: ""
  
-```
-
-```encounter-table
-name: Simeek
-creatures:
-  - 1: Simeek
 ```
 
 

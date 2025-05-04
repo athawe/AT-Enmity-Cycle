@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/giant
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Cyclops Bully"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #171: Hurricane&#x27;s Howl"
 name: "Cyclops Bully"
 level: "Creature 9"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "giant"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[giant]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -72,7 +73,7 @@ attacks:
     desc: "`pf2:1` Fist +21 (agile, unarmed)\n__Damage__  2d6 + 10 bludgeoning"
 
   - name: "Terrorizing Swing"
-    desc: "`pf2:2`  The cyclops bully attempts to [[Actions/Demoralize|Demoralize]] a foe within its melee reach, then makes a melee Strike against that foe.\n\nIf the creature is [[Conditions/Frightened 1|Frightened]] and takes damage, it takes an additional 2d10 damage and is knocked [[Conditions/Prone|Prone]].\n\nThis counts as two attacks toward the cyclops's multiple attack penalty."
+    desc: "`pf2:2`  The cyclops bully attempts to [[Actions/Demoralize|Demoralize]] a foe within its melee reach, then makes a melee Strike against that foe.\n\nIf the creature is [[Conditions/Frightened|Frightened]] and takes damage, it takes an additional 2d10 damage and is knocked [[Conditions/Prone|Prone]].\n\nThis counts as two attacks toward the cyclops's multiple attack penalty."
  
 ```
 

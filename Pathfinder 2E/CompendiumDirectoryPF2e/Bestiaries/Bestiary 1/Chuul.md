@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Chuul"
@@ -26,10 +27,10 @@ level: "Creature 7"
 
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "amphibious"
-trait_03: "chaotic"
-trait_04: "evil"
+trait_01: [[aberration]]
+trait_02: [[amphibious]]
+trait_03: [[chaotic]]
+trait_04: [[evil]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -65,7 +66,7 @@ attacks:
     desc: "`pf2:1` Claws +19 (reach 10 feet)\n__Damage__  2d8 + 9 bludgeoning plus grab"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  1d8 + 9 bludgeoning damage, DC 25 Fortitude check save ([[Conditions/Grabbed|Grabbed]] by claws only)\n\n* * *\n"
+    desc: "`pf2:1`  1d8+9 bludgeoning damage, DC 25 Fortitude check save ([[Conditions/Grabbed|Grabbed]] by claws only)\n\n* * *\n"
 
   - name: "Mandibles"
     desc: "`pf2:1`  **Requirements** A creature is [[Conditions/Grabbed|Grabbed]] and [[Conditions/Paralyzed|Paralyzed]] by the chuul's tentacles.\n* * *\n\n**Effect** The creature takes 3d6 piercing damage."

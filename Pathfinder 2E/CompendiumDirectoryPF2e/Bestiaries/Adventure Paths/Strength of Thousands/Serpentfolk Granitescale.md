@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/mutant
   - pf2e/creature/type/serpentfolk
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Serpentfolk Granitescale"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #170: Spoken on the Song Wind"
 name: "Serpentfolk Granitescale"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "mutant"
-trait_04: "serpentfolk"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[mutant]]
+trait_04: [[serpentfolk]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -78,7 +79,7 @@ attacks:
     desc: "`pf2:1` (auditory,emotion,mental) **Requirements** The granitescale's last action was a successful spear Strike\n* * *\n\n**Effect** The granitescale rattles the base of their spear, attempting an Intimidation check to [[Action Macros/Demoralize_ Intimidation|Demoralize: Intimidation]] all enemies within 30 feet (compare the granitescale's Intimidation check result to the targets' Will DCs individually)."
 
   - name: "Serpentfolk Venom"
-    desc: " (poison) **Saving Throw** DC 22 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d4 poison damage and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)\n\n**Stage 2** 2d4 poison damage and enfeebled 1 (1 round)"
+    desc: " (poison) **Saving Throw** DC 22 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d4 poison damage and [[Conditions/Enfeebled|Enfeebled 1]] (1 round)\n\n**Stage 2** 2d4 poison damage and enfeebled 1 (1 round)"
  
 ```
 

@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.glq0AJMjNAB0R2Ke" 
 tags:
   - pf2e/creature/type/construct
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Terra-cotta Soldier"
@@ -23,7 +24,7 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "construct"
+trait_01: [[construct]]
 modifier: 14
 perception:
   - name: "Perception"

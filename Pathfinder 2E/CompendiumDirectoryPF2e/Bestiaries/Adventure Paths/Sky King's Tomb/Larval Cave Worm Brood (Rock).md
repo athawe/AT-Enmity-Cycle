@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.fNmv72cAmZxc6HvN"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Larval Cave Worm Brood (Rock)"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #195: Heavy is the Crown"
 name: "Larval Cave Worm Brood (Rock)"
 level: "Creature 10"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "animal"
-trait_02: "swarm"
+trait_01: [[animal]]
+trait_02: [[swarm]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -52,7 +53,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Relentless"
-    desc: "  When a juvenile cave worm gains the [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Slowed 1|Slowed]], or [[Conditions/Stunned 1|Stunned]] condition, reduce the duration by half, to a minimum of 1 round. It also recovers from penalties to its Speeds and the [[Conditions/Immobilized|Immobilized]] condition at the end of its turn. Finally, it ignores non-magical difficult terrain and treats greater difficult terrain like difficult terrain."
+    desc: "  When a juvenile cave worm gains the [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Slowed|Slowed]], or [[Conditions/Stunned|Stunned]] condition, reduce the duration by half, to a minimum of 1 round. It also recovers from penalties to its Speeds and the [[Conditions/Immobilized|Immobilized]] condition at the end of its turn. Finally, it ignores non-magical difficult terrain and treats greater difficult terrain like difficult terrain."
 
   - name: "Shake It Off"
     desc: "`pf2:r`  **Trigger** The larval cave worm brood would be affected by a condition or adverse effect (such as [[Spells/Cursed Metamorphosis|Cursed Metamorphosis]])\n* * *\n\n**Effect** The larval brood negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way."

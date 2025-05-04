@@ -34,6 +34,7 @@
     "favour": "checkbox",
     "location": "text",
     "business": "multitext",
-    "completed": "checkbox"
+    "completed": "checkbox",
+    "antagonist": "multitext"
   }
 }

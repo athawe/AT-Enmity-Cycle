@@ -65,12 +65,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Seelah (Level 1)
-creatures:
-  - 1: Seelah (Level 1)
-```
-
 
 
 

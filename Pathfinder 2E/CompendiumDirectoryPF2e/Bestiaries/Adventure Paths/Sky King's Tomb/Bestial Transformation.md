@@ -6,6 +6,7 @@ tags:
   - magical
   - polymorph
   - trap
+  - pf2eHazard
 
 source: Pathfinder #195: Heavy is the Crown
 aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.cLZccdJGPEu04xGq" 
@@ -23,9 +24,9 @@ name: "Bestial Transformation"
 level: "Hazard 9"
 
 
-trait_01: "magical"
-trait_02: "polymorph"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[polymorph]]
+trait_03: [[trap]]
 modifier: 20
 sourcebook: "_Pathfinder #195: Heavy is the Crown_"
 perception:

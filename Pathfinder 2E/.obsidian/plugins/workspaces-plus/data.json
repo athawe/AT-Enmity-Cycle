@@ -18,10 +18,10 @@
     "spellcheck": false,
     "attachmentFolderPath": "zz-Attachments"
   },
-  "activeWorkspaceDesktop": "Enmity Cycle Prep",
+  "activeWorkspaceDesktop": "Sam",
   "activeWorkspaceMobile": "",
   "reloadLivePreview": false,
-  "workspaceSwitcherRibbon": false,
+  "workspaceSwitcherRibbon": true,
   "modeSwitcherRibbon": false,
   "replaceNativeRibbon": false
 }

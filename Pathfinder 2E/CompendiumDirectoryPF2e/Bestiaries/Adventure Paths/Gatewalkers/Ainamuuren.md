@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/cold
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Ainamuuren"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #189: Dreamers of the Nameless Spires"
 name: "Ainamuuren"
 level: "Creature 12"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "cold"
-trait_02: "evil"
-trait_03: "humanoid"
+trait_01: [[cold]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
 modifier: 23
 perception:
   - name: "Perception"
@@ -75,13 +76,13 @@ attacks:
     desc: "DC 32, attack +24; __6th __  _[[Spells/Never Mind|Feeblemind]]_, _[[Spells/Phantasmal Calamity|Phantasmal Calamity]]_; __5th __  _[[Spells/Black Tentacles|Black Tentacles]]_, _[[Spells/Synaptic Pulse|Synaptic Pulse]]_\n__Cantrips__  __(6th)__ _[[Spells/Daze|Daze]]_"
 
   - name: "Dreams of the Blackfrost Whale"
-    desc: "`pf2:2` (incapacitation,mental) **Frequency** once per day\n* * *\n\n**Effect** Ainamuuren fixes his many-eyed gaze upon a single target he can see within 60 feet, then opens wide his maw to release a torrent of whispers channeled from Osoyo's slumbering mind. The targeted creature must attempt a DC 32 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature endures a brief moment where they believe they are imprisoned in the ice, as Osoyo has been for thousands of years, and is [[Conditions/Slowed 1|Slowed 1]] for 1 round.\n\n**Failure** The vision of being imprisoned in ice is more profound, and in the span of a few seconds, the creature endures what seems like a thousand years of imprisonment. The creature is [[Conditions/Paralyzed|Paralyzed]] until the end of its next turn, after which it emerges from its paralysis [[Conditions/Stupefied 1|Stupefied 1]].\n\n**Critical Failure** As failure, but the creature doesn't automatically recover from paralysis at the end of its turn. Instead, it can attempt a new DC 32 save. On a success, the paralysis ends and they are stupefied 1, but on a failure, the paralysis continues for another round."
+    desc: "`pf2:2` (incapacitation,mental) **Frequency** once per day\n* * *\n\n**Effect** Ainamuuren fixes his many-eyed gaze upon a single target he can see within 60 feet, then opens wide his maw to release a torrent of whispers channeled from Osoyo's slumbering mind. The targeted creature must attempt a DC 32 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature endures a brief moment where they believe they are imprisoned in the ice, as Osoyo has been for thousands of years, and is [[Conditions/Slowed|Slowed 1]] for 1 round.\n\n**Failure** The vision of being imprisoned in ice is more profound, and in the span of a few seconds, the creature endures what seems like a thousand years of imprisonment. The creature is [[Conditions/Paralyzed|Paralyzed]] until the end of its next turn, after which it emerges from its paralysis [[Conditions/Stupefied|Stupefied 1]].\n\n**Critical Failure** As failure, but the creature doesn't automatically recover from paralysis at the end of its turn. Instead, it can attempt a new DC 32 save. On a success, the paralysis ends and they are stupefied 1, but on a failure, the paralysis continues for another round."
 
   - name: "[[Creature Family Ability Glossary/(Blackfrost Dead) Blackfrost|Invasive Blackfrost]]"
-    desc: " (cold,curse,disease,occult) Gatewalker characters are not immune to blackfrost effects inflicted by Ainamuuren\n\nThis affliction can't be reduced below stage 1, nor the damage from it healed, until successfully treated with [[Spells/Cleanse Affliction|Cleanse Affliction]] or a similar effect; the affliction can then be removed as a normal disease. A creature that dies from cold damage while cursed with blackfrost rises as a blackfrost dead after 24 hours. Blackfrost has a counteract rank of 10.\n\n**Saving Throw** DC 32 Fortitude check\n\n**Stage 1** 4d6 cold (1 minute)\n\n**Stage 2** weakness to cold 5 and [[Conditions/Drained 1|Drained 1]] (1 day)\n\n**Stage 3** weakness to cold 10 and [[Conditions/Drained 1|Drained 2]] (1 day)"
+    desc: " (cold,curse,disease,occult) Gatewalker characters are not immune to blackfrost effects inflicted by Ainamuuren\n\nThis affliction can't be reduced below stage 1, nor the damage from it healed, until successfully treated with [[Spells/Cleanse Affliction|Cleanse Affliction]] or a similar effect; the affliction can then be removed as a normal disease. A creature that dies from cold damage while cursed with blackfrost rises as a blackfrost dead after 24 hours. Blackfrost has a counteract rank of 10.\n\n**Saving Throw** DC 32 Fortitude check\n\n**Stage 1** 4d6 cold (1 minute)\n\n**Stage 2** weakness to cold 5 and [[Conditions/Drained|Drained 1]] (1 day)\n\n**Stage 3** weakness to cold 10 and [[Conditions/Drained|Drained 2]] (1 day)"
 
   - name: "Twist Deviance"
-    desc: "`pf2:2` (mental,occult) Ainamuuren reaches out, then clutches his fingers into a fist and twists his arm, as if he were wrenching and tugging. At the same moment, all gatewalkers in a 60-foot cone that Ainamuuren can see feel the signs they've worn on their bodies since they emerged from their Missing Moment spike with pain, as if Ainamuuren had [[Conditions/Grabbed|Grabbed]] that flesh and was twisting and tearing it. The targets must attempt a DC 32 Will check save. Ainamuuren can't use Twist Deviance again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature endures a brief moment of horrific pain and takes 4d8 mental.\n\n**Failure** The pain is much greater, and for a moment the creature is convinced that the portion of their flesh that was adorned with the sign of the gatewalker has been torn free. They take 8d8 mental and can't use their deviant abilities for 1 round.\n\n**Critical Failure** As failure, but 16d8 mental and they can't use their deviant abilities for 1 minute."
+    desc: "`pf2:2` (mental,occult) Ainamuuren reaches out, then clutches his fingers into a fist and twists his arm, as if he were wrenching and tugging. At the same moment, all gatewalkers in a @Template[cone|distance:60] that Ainamuuren can see feel the signs they've worn on their bodies since they emerged from their Missing Moment spike with pain, as if Ainamuuren had [[Conditions/Grabbed|Grabbed]] that flesh and was twisting and tearing it. The targets must attempt a DC 32 Will check save. Ainamuuren can't use Twist Deviance again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature endures a brief moment of horrific pain and takes 4d8 mental.\n\n**Failure** The pain is much greater, and for a moment the creature is convinced that the portion of their flesh that was adorned with the sign of the gatewalker has been torn free. They take 8d8 mental and can't use their deviant abilities for 1 round.\n\n**Critical Failure** As failure, but 16d8 mental and they can't use their deviant abilities for 1 minute."
 
   - name: "[[Bestiary Ability Glossary/Knockdown|Knockdown]]"
     desc: "`pf2:1`  "

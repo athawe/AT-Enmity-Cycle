@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/halfling
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Ambrost Mugland"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #179: Cradle of Quartz"
 name: "Ambrost Mugland"
 level: "Creature 8"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "halfling"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[halfling]]
+trait_03: [[humanoid]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Halfling, Osiriani"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +16, Alkenstar Lore: +16, Athletics: +14, Deception: +18, Intimidation: +18, Society: +18, Stealth: +18, Thievery: +18, Underworld Lore: +16"
+    desc: "Acrobatics: +16, Athletics: +14, Deception: +18, Intimidation: +18, Society: +18, Stealth: +18, Thievery: +18, Alkenstar Lore: +16, Underworld Lore: +16"
 abilityMods: [1, 4, 3, 2, 0, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder #179: Cradle of Quartz_"
@@ -69,7 +70,7 @@ abilities_mid:
 attacks:
   - name: ""
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Cane Pistol +15 (critical fusion, thrown 10 ft.)\n__Damage__  1d6 + 4 bludgeoning"
 
   - name: "Ranged"

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Rinnarv Bontimar"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #150: Broken Promises"
 name: "Rinnarv Bontimar"
 level: "Creature 20"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "elf"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[elf]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 32
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Draconic, Elven"
 skills:
   - name: "Skills"
-    desc: "Arcana: +32, Athletics: +38, Deception: +34, Diplomacy: +38, Hermea Lore: +32, Occultism: +34, Religion: +38"
+    desc: "Arcana: +32, Athletics: +38, Deception: +34, Diplomacy: +38, Occultism: +34, Religion: +38, Hermea Lore: +32"
 abilityMods: [8, 7, 8, 3, 4, 10]
 speed: 30 feet
 sourcebook: "_Pathfinder #150: Broken Promises_"

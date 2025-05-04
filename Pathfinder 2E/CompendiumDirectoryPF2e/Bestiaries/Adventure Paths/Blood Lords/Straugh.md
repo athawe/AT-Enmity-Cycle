@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/ghoul
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Straugh"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #184: The Ghouls Hunger"
 name: "Straugh"
 level: "Creature 10"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "ghoul"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[ghoul]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -70,7 +71,7 @@ attacks:
     desc: "`pf2:1` (manipulate) **Requirements** The ghoul is adjacent to the corpse of a creature that died within the last hour.\n* * *\n\n**Effect** The ghoul devours a chunk of the corpse and regains 7d6 Hit Points.\n\nIt can regain Hit Points from any given corpse only once."
 
   - name: "Fetid Screech"
-    desc: "`pf2:1` (olfactory) Unaware that its vocal organs have withered and decayed, the straugh instinctively but ineffectively attempts to screech, instead releasing malodorous gas, half-digested corpse flesh, and small swarms of maggots from its open beak. The straugh releases a disgusting cloud of gas and decaying detritus in a 15-foot cone; any creature within the area must attempt a DC 28 Fortitude check save. On a failure, the creature is [[Conditions/Sickened 1|Sickened 2]]. On a critical failure, the creature also takes a -5 foot status penalty to its Speeds for 1 round. Any creature that succeeds at the save is temporarily immune to Fetid Screech for 24 hours.\n\n[[Bestiary Effects/Effect_ Fetid Screech (Critical Failure)|Effect: Fetid Screech (Critical Failure)]]"
+    desc: "`pf2:1` (olfactory) Unaware that its vocal organs have withered and decayed, the straugh instinctively but ineffectively attempts to screech, instead releasing malodorous gas, half-digested corpse flesh, and small swarms of maggots from its open beak. The straugh releases a disgusting cloud of gas and decaying detritus in a @Template[cone|distance:15]; any creature within the area must attempt a DC 28 Fortitude check save. On a failure, the creature is [[Conditions/Sickened|Sickened 2]]. On a critical failure, the creature also takes a -5 foot status penalty to its Speeds for 1 round. Any creature that succeeds at the save is temporarily immune to Fetid Screech for 24 hours.\n\n[[Bestiary Effects/Effect_ Fetid Screech (Critical Failure)|Effect: Fetid Screech (Critical Failure)]]"
 
   - name: "[[Creature Family Ability Glossary/(Ghoul) Ghoul Fever|Ghoul Fever]]"
     desc: " (disease) **Saving Throw** DC 28 Fortitude check\n* * *\n\n**Stage 1** carrier with no ill effect (1 day)\n\n**Stage 2** 4d8 void damage and regains half as many Hit Points from all healing (1 day)\n\n**Stage 3** as stage 2 (1 day)\n\n**Stage 4** 4d8 void damage and gains no benefit from healing (1 day)\n\n**Stage 5** as stage 4 (1 day)\n\n**Stage 6** dead, and rises as a [[Bestiary 1/Ghoul|Ghoul]] the next midnight."

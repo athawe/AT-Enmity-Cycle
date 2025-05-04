@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Promise Guard"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #150: Broken Promises"
 name: "Promise Guard"
 level: "Creature 17"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
-trait_03: "lawful"
+trait_01: [[human]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Draconic"
 skills:
   - name: "Skills"
-    desc: "Athletics: +33, Diplomacy: +30, Hermea Lore: +33, Intimidation: +33, Society: +30, Survival: +28"
+    desc: "Athletics: +33, Diplomacy: +30, Intimidation: +33, Society: +30, Survival: +28, Hermea Lore: +33"
 abilityMods: [8, 2, 9, 2, 3, 2]
 speed: 30 feet
 sourcebook: "_Pathfinder #150: Broken Promises_"

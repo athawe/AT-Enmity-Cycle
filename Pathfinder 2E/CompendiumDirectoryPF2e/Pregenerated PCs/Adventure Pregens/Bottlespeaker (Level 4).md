@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Bottlespeaker (Level 4)
-creatures:
-  - 1: Bottlespeaker (Level 4)
-```
-
 
 
 

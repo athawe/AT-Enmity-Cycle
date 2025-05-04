@@ -31,8 +31,10 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
-**Area** 5-foot emanation
-**Targets** creatures in the area  - name: "Defense"
+
+  - name: "Area"
+    desc: "5-foot emanationcreatures in the area"
+  - name: "Defense"
     desc: " will"
   - name: "Duration"
     desc: "varies"

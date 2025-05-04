@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/protean
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Blune&#x27;s Illusory Toady"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #162: Ruins of the Radiant Siege"
 name: "Blune's Illusory Toady"
 level: "Creature 16"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "incorporeal"
-trait_03: "protean"
+trait_01: [[chaotic]]
+trait_02: [[incorporeal]]
+trait_03: [[protean]]
 modifier: 27
 perception:
   - name: "Perception"

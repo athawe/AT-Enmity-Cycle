@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - mechanical
+  - pf2eHazard
   - complex
 source: Pathfinder Kingmaker
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.0qc6h3jgLFNhX1tG" 
@@ -21,13 +22,13 @@ name: "Ballista Defense"
 level: "Hazard 11"
 
 trait_06: "Complex"
-trait_01: "mechanical"
+trait_01: [[mechanical]]
 modifier: 23
 sourcebook: "_Pathfinder Kingmaker_"
 ac: 31
 armorclass:
   - name: AC
-    desc: "31; __Fort__ +24, __Ref__ +18, __Will__ +0"
+    desc: "31; __Fort__ +24, __Ref__ +18, "
 hp: 80
 health:
   - name: ""

@@ -23,7 +23,7 @@ When displayed prominently, this brass badge makes creatures find you more agree
 
 * * *
 
-**Activate—Diplomat’s Bearing** `pf2:1` (concentrate)
+**Activate—Diplomat's Bearing** `pf2:1` (concentrate)
 
 **Frequency** once per day
 

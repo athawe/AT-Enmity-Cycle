@@ -24,8 +24,9 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
 abilities_mid:
   - name: ""
-    desc: "**Trigger** An effect would deal acid, cold, electricity, or fire damage to you\n* * *\n\nYou’re used to mitigating the damage done by bombs, siege engines, and magical artillery. You gain resistance 15 to your choice of acid, cold, electricity, or fire damage from the triggering effect. The resistance applies only to the triggering effect’s initial damage.\n\n[[Spell Effects/Spell Effect_ Energy Absorption|Spell Effect: Energy Absorption]]\n* * *\n\n**Heightened (+1)** The resistance increases by 5."
+    desc: "**Trigger** An effect would deal acid, cold, electricity, or fire damage to you\n* * *\n\nYou're used to mitigating the damage done by bombs, siege engines, and magical artillery. You gain resistance 15 to your choice of acid, cold, electricity, or fire damage from the triggering effect. The resistance applies only to the triggering effect's initial damage.\n\n[[Spell Effects/Spell Effect_ Energy Absorption|Spell Effect: Energy Absorption]]\n* * *\n\n**Heightened (+1)** The resistance increases by 5."
 sourcebook: "_Pathfinder Player Core_"
 ```

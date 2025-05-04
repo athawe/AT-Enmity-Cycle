@@ -26,7 +26,11 @@ abilities_top:
     desc: "1 day; **Cost** crushed gems and spices worth 250 gp; **Secondary Casters** 2"
   - name: "Primary Check"
     desc: "Arcana (expert) or Occultism (expert); **Secondary Checks** Crafting, Arcana or Occultism (whichever isn&#x27;t used for the primary check)"
-**Targets** 1 non-magical inanimate object  - name: "Duration"
+
+  - name: "Targets"
+
+    desc: "1 non-magical inanimate object"
+  - name: "Duration"
     desc: "unlimited"
 abilities_mid:
   - name: ""

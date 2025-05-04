@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Calennia"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #161: Belly of the Black Whale"
 name: "Calennia"
 level: "Creature 16"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Diabolic"
 skills:
   - name: "Skills"
-    desc: "Athletics: +31, Diplomacy: +28, Hell Lore: +26, Intimidation: +30, Legal Lore: +24, Religion: +25"
+    desc: "Athletics: +31, Diplomacy: +28, Intimidation: +30, Religion: +25, Hell Lore: +26, Legal Lore: +24"
 abilityMods: [5, 0, 5, 2, 3, 4]
 speed: 15 feet
 sourcebook: "_Pathfinder #161: Belly of the Black Whale_"

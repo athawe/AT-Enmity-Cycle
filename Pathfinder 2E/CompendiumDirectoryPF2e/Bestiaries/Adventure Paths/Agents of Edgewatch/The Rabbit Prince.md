@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/halfling
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "The Rabbit Prince"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #160: Assault on Hunting Lodge Seven"
 name: "The Rabbit Prince"
 level: "Creature 17"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "halfling"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[halfling]]
+trait_04: [[humanoid]]
 modifier: 31
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Halfling"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +32, Crafting: +26, Deception: +29, Harrow Lore: +28, Intimidation: +29, Occultism: +28, Stealth: +32, Thievery: +32"
+    desc: "Acrobatics: +32, Crafting: +26, Deception: +29, Intimidation: +29, Occultism: +28, Stealth: +32, Thievery: +32, Harrow Lore: +28"
 abilityMods: [1, 7, 2, 1, 5, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder #160: Assault on Hunting Lodge Seven_"

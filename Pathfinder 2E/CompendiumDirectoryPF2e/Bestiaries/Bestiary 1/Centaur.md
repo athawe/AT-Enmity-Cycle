@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.l05LjJTXvFS4tYTE" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Centaur"
@@ -23,7 +24,7 @@ level: "Creature 3"
 
 alignment: ""
 size: "Large"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 9
 perception:
   - name: "Perception"

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Mateena Lumlin"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: Night of the Gray Death"
 name: "Mateena Lumlin"
 level: "Creature 16"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ abilities_top:
   - name: "Items"
     desc: "2x [[Equipment/Dagger|+2 Striking Dagger]], [[Equipment/Sword Cane|+2 Greater Striking Sword Cane]], [[Equipment/Breastplate|+1 Resilient Glamered Breastplate]], Ceramic Mask"
   - name: "Invaded"
-    desc: "  Mateena is subject to the conqueror worm's Mental Invader effect , but she doesn't realize it."
+    desc: "  Mateena is subject to the conqueror worm's Mental Invader effect, but she doesn't realize it."
 
 abilities_mid:
   - name: ""

@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #200: Seven Dooms for Sandpoint
 aliases: "Compendium.pf2e.seven-dooms-for-sandpoint-bestiary.Actor.2j2PyCu5eShIZqUQ" 
@@ -22,14 +23,14 @@ name: "Sticky Greeter"
 level: "Hazard 5"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 13
 sourcebook: "_Pathfinder #200: Seven Dooms for Sandpoint_"
 ac: 19
 armorclass:
   - name: AC
-    desc: "19; __Fort__ +15, __Ref__ +9, __Will__ +0"
+    desc: "19; __Fort__ +15, __Ref__ +9, "
 hp: 40
 health:
   - name: ""

@@ -3,6 +3,7 @@ title: Spiky Pit (3-4)
 obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
+  - pf2eHazard
 
 source: Pathfinder Society Quest #10: The Broken Scales
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.7aBQjC0nswiFuRAX" 
@@ -25,7 +26,7 @@ sourcebook: "_Pathfinder Society Quest #10: The Broken Scales_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +1, __Ref__ +1, __Will__ +0"
+    desc: "10; __Fort__ +1, __Ref__ +1, "
 hp: 12
 health:
   - name: ""

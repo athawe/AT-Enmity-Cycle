@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Soulbound Ruin"
@@ -26,10 +27,10 @@ level: "Creature 15"
 
 alignment: ""
 size: "grg"
-trait_01: "construct"
-trait_02: "evil"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[construct]]
+trait_02: [[evil]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 26
 perception:
   - name: "Perception"

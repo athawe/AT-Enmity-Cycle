@@ -70,12 +70,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Lavanna Saltspray
-creatures:
-  - 1: Lavanna Saltspray
-```
-
 
 
 

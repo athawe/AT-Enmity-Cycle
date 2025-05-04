@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Seoni (Level 1)
-creatures:
-  - 1: Seoni (Level 1)
-```
-
 
 
 

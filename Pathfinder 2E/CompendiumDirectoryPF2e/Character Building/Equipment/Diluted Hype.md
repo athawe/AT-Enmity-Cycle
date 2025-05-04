@@ -36,7 +36,7 @@ A synthetic adrenaline supplement that increases awareness and reaction time. Di
 
 **Stage 2** [[Conditions/Stupefied 1|Stupefied 1]] (1 round)
 
-**Stage 3** [[Conditions/Drained 1|Drained]] and stupefied 1 (1 round)
+**Stage 3** [[Conditions/Drained 1|Drained 1]] and stupefied 1 (1 round)
 
 *Source: Pathfinder Lost Omens: Legends*
 *OGL*

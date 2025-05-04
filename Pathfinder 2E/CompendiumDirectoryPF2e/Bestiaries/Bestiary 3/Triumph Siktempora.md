@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/siktempora
   - pf2e/creature/type/time
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Triumph Siktempora"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Triumph Siktempora"
 level: "Creature 14"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Small"
-trait_01: "lawful"
-trait_02: "siktempora"
-trait_03: "time"
+trait_01: [[lawful]]
+trait_02: [[siktempora]]
+trait_03: [[time]]
 modifier: 24
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo; (can&#x27;t speak any language), telepathy 200 feet"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +24, Athletics: +30, Dimension of Time Lore: +24, Diplomacy: +23, Intimidation: +27, Medicine: +22, Performance: +25"
+    desc: "Acrobatics: +24, Athletics: +30, Diplomacy: +23, Intimidation: +27, Medicine: +22, Performance: +25, Dimension of Time Lore: +24"
 abilityMods: [8, 4, 5, 4, 4, 5]
 speed: 60 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -54,7 +55,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Cheaters Never Prosper"
-    desc: " (aura,occult) 50 feet. A creature within the aura who uses or benefits from an effect with the fortune trait must succeed at a DC 34 Will check save or become [[Conditions/Slowed 1|Slowed 1]] for 1 round ([[Conditions/Slowed 1|Slowed 2]] on a critical failure)."
+    desc: " (aura,occult) 50 feet. A creature within the aura who uses or benefits from an effect with the fortune trait must succeed at a DC 34 Will check save or become [[Conditions/Slowed|Slowed 1]] for 1 round ([[Conditions/Slowed|Slowed 2]] on a critical failure)."
 
   - name: "Clinch Victory"
     desc: "`pf2:r`  **Trigger** A creature within the triumph siktempora's reach uses an action that would restore Hit Points\n* * *\n\n**Effect** The triumph siktempora makes a glorious fist Strike against the triggering creature. On a critical success, this Strike also disrupts the triggering action."

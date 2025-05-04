@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.Xi53GFvTgBApltjp" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Giant Bone Skipper"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #158: Sixty Feet Under"
 name: "Giant Bone Skipper"
 level: "Creature 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ attacks:
     desc: "`pf2:1`  The giant bone skipper [[Actions/Leap|Leaps]] up to 20 feet. It then makes a mandibles Strike, gaining a +1 circumstance bonus to its attack roll."
 
   - name: "Marrow Rot"
-    desc: "  Marrow rot affects only creatures with a skeletal system\n\n**Saving Throw** DC 25 Fortitude check\n\n**Onset** 1 day\n\n**Stage 1** [[Conditions/Enfeebled 1|Enfeebled 1]] (1 day)\n\n**Stage 2** [[Conditions/Enfeebled 1|Enfeebled 2]] (1 day)\n\n**Stage 3** [[Conditions/Enfeebled 1|Enfeebled 2]] and [[Conditions/Drained 1|Drained 1]] (1 day)"
+    desc: "  Marrow rot affects only creatures with a skeletal system\n\n**Saving Throw** DC 25 Fortitude check\n\n**Onset** 1 day\n\n**Stage 1** [[Conditions/Enfeebled|Enfeebled 1]] (1 day)\n\n**Stage 2** [[Conditions/Enfeebled|Enfeebled 2]] (1 day)\n\n**Stage 3** [[Conditions/Enfeebled|Enfeebled 2]] and [[Conditions/Drained|Drained 1]] (1 day)"
  
 ```
 

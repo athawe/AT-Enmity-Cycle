@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Lost Omens: Impossible Lands
 aliases: "Compendium.pf2e.lost-omens-impossible-lands-bestiary.Actor.98wPo6efoFhxdVwl" 
@@ -21,13 +22,13 @@ name: "Spell Pitchers"
 level: "Hazard 1"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 10
 sourcebook: "_Pathfinder Lost Omens: Impossible Lands_"
 ac: 16
 armorclass:
   - name: AC
-    desc: "16; __Fort__ +11, __Ref__ +5, __Will__ +0"
+    desc: "16; __Fort__ +11, __Ref__ +5, "
 hp: 40
 health:
   - name: ""

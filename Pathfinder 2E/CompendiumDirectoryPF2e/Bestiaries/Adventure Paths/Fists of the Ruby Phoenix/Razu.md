@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/tengu
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Razu"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #167: Ready? Fight!"
 name: "Razu"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "tengu"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[tengu]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Taldane, Tengu, Tien"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +32, Deception: +35, Diplomacy: +33, Goka Lore: +25, Intimidation: +33, Performance: +35, Theater Lore: +27, Warfare Lore: +27"
+    desc: "Acrobatics: +32, Deception: +35, Diplomacy: +33, Intimidation: +33, Performance: +35, Goka Lore: +25, Theater Lore: +27, Warfare Lore: +27"
 abilityMods: [0, 6, 3, 1, 4, 6]
 speed: 25 feet,  fly 80 feet
 sourcebook: "_Pathfinder #167: Ready? Fight!_"
@@ -63,7 +64,7 @@ abilities_mid:
 attacks:
   - name: ""
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Erhu Bow +30 (agile, finesse, magical, thrown 20 ft., versatile p)\n__Damage__  3d6 + 10 slashing 3d6 sonic"
 
   - name: "Bard Composition Spells"

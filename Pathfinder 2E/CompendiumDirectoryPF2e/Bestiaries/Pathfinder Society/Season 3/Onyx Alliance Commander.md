@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/shadow
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Onyx Alliance Commander"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #3-19: Mean Streets of Shadow Absalom"
 name: "Onyx Alliance Commander"
 level: "Creature 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fetchling"
-trait_03: "humanoid"
-trait_04: "lawful"
-trait_05: "shadow"
+trait_01: [[evil]]
+trait_02: [[fetchling]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
+trait_05: [[shadow]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Shadowtongue"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +12, Athletics: +14, Deception: +13, Intimidation: +15, Shadow Plane Lore: +19, Stealth: +17, Thievery: +15"
+    desc: "Acrobatics: +12, Athletics: +14, Deception: +13, Intimidation: +15, Stealth: +17, Thievery: +15, Shadow Plane Lore: +19"
 abilityMods: [4, 4, 0, 1, 2, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #3-19: Mean Streets of Shadow Absalom_"
@@ -62,7 +63,7 @@ abilities_mid:
     desc: "`pf2:r`  "
 
   - name: "Reinforced Loyalty"
-    desc: "  The commander is resistant to mind-affecting magics due to their repeated exposure to Marcien Blakros's enchantments. Whenever the commander rolls a success on a Will save against an enchantment or fear effect, they get a critical success instead, unless that effect originated from Marcien. In addition, anytime they gain the [[Conditions/Frightened 1|Frightened]] condition, reduce its value by 1."
+    desc: "  The commander is resistant to mind-affecting magics due to their repeated exposure to Marcien Blakros's enchantments. Whenever the commander rolls a success on a Will save against an enchantment or fear effect, they get a critical success instead, unless that effect originated from Marcien. In addition, anytime they gain the [[Conditions/Frightened|Frightened]] condition, reduce its value by 1."
 
   - name: "Shadow Blending"
     desc: "  When the commander is concealed as a result of dim light, the flat check to target them has a DC of 7, not 5."

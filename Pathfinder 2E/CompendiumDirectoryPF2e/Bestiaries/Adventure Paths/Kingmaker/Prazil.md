@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kobold
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Prazil"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Prazil"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "humanoid"
-trait_03: "kobold"
+trait_01: [[chaotic]]
+trait_02: [[humanoid]]
+trait_03: [[kobold]]
 modifier: 12
 perception:
   - name: "Perception"

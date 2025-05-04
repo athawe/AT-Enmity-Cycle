@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/leshy
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Leshy Crafter (1-2)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #1-15: The Blooming Catastrophe"
 name: "Leshy Crafter (1-2)"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "leshy"
-trait_04: "plant"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[leshy]]
+trait_04: [[plant]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -64,7 +65,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Razor-sharp Leaf +11 (agile, finesse, sweep)\n__Damage__  1d8 + 5 slashing"
 
-  - name: "Ranged"
+  - name: "Melee"
     desc: "`pf2:1` Thorn +11 (agile, thrown)\n__Damage__  1d6 + 5 piercing"
 
   - name: "Primal Innate Spells"

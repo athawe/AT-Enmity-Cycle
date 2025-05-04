@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/gnoll
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Surjit Hamelan"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #167: Ready? Fight!"
 name: "Surjit Hamelan"
 level: "Creature 13"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "gnoll"
-trait_02: "humanoid"
-trait_03: "lawful"
+trait_01: [[gnoll]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
 modifier: 25
 perception:
   - name: "Perception"

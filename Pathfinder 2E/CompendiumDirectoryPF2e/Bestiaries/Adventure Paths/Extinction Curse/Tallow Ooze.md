@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.BORxkpaFBSCyB1f1"
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Tallow Ooze"
@@ -24,8 +25,8 @@ level: "Creature 11"
 
 alignment: ""
 size: "Medium"
-trait_01: "mindless"
-trait_02: "ooze"
+trait_01: [[mindless]]
+trait_02: [[ooze]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Congealed"
-    desc: "  Whenever the tallow ooze takes fire damage, it becomes [[Conditions/Quickened|Quickened]] for 1 round (it can only Stride or Strike with the extra action).\n\nWhenever the tallow ooze is dealt cold damage (even if that damage is prevented by its resistance), it becomes [[Conditions/Slowed 1|Slowed 1]] for 1 round and can't use its Engulf ability (but creatures already engulfed are still engulfed)."
+    desc: "  Whenever the tallow ooze takes fire damage, it becomes [[Conditions/Quickened|Quickened]] for 1 round (it can only Stride or Strike with the extra action).\n\nWhenever the tallow ooze is dealt cold damage (even if that damage is prevented by its resistance), it becomes [[Conditions/Slowed|Slowed 1]] for 1 round and can't use its Engulf ability (but creatures already engulfed are still engulfed)."
 
   - name: "Greasy Seepage"
     desc: " (aura) 10 feet. Any creature that starts its turn in or enters a square in the area must attempt a DC 30 Acrobatics check check to Balance. A creature that takes a Step doesn't need to roll this check."

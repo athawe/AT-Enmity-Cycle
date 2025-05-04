@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Urevian"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #164: Hands of the Devil"
 name: "Urevian"
 level: "Creature 9"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "devil"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "lawful"
-trait_05: "unholy"
+trait_01: [[devil]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[lawful]]
+trait_05: [[unholy]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Aklo, Chthonian, Common, Diabolic, Empyrean, Necril, Sakvroth; telepathy 100 feet, tongues"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +17, Deception: +21, Diplomacy: +19, Intimidation: +19, Legal Lore: +23, Religion: +19, Society: +19, Thievery: +18"
+    desc: "Acrobatics: +17, Deception: +21, Diplomacy: +19, Intimidation: +19, Religion: +19, Society: +19, Thievery: +18, Legal Lore: +23"
 abilityMods: [3, 4, 3, 6, 4, 6]
 speed: 25 feet
 sourcebook: "_Pathfinder #164: Hands of the Devil_"

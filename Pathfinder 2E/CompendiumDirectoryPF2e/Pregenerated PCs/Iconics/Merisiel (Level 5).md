@@ -57,12 +57,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Merisiel (Level 5)
-creatures:
-  - 1: Merisiel (Level 5)
-```
-
 
 
 

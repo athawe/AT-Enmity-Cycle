@@ -12,6 +12,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Hellbound Attorney"
@@ -26,16 +27,16 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Hellbound Attorney"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "devil"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "human"
-trait_05: "humanoid"
-trait_06: "lawful"
-trait_07: "unholy"
+trait_01: [[devil]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[human]]
+trait_05: [[humanoid]]
+trait_06: [[lawful]]
+trait_07: [[unholy]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -43,7 +44,7 @@ perception:
 languages: "Common, Diabolic"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +10, Deception: +11, Diplomacy: +11 (+13 to Make an Impression), Intimidation: +11, Legal Lore: +14, Society: +12"
+    desc: "Acrobatics: +10, Deception: +11, Diplomacy: +11, Intimidation: +11, Society: +12, Legal Lore: +14"
 abilityMods: [1, 2, 0, 4, 1, 3]
 speed: 20 feet
 sourcebook: "_Pathfinder Bestiary 3_"

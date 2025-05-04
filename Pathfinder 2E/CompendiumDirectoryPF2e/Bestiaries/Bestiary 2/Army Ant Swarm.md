@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.8a9N2iPA5HLpkWaF"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Army Ant Swarm"
@@ -24,8 +25,8 @@ level: "Creature 5"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
-trait_02: "swarm"
+trait_01: [[animal]]
+trait_02: [[swarm]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -58,7 +59,7 @@ attacks:
   - name: ""
 
   - name: "Swarming Bites"
-    desc: "`pf2:1` (concentrate,manipulate) Each enemy in the swarm's space takes 3d6 piercing damage (DC 21 Fortitude check save). A creature that fails its save against Swarming Bites becomes [[Conditions/Clumsy 1|Clumsy 1]] for 1 round. If the creature attempts a concentrate or manipulate action while affected, it must succeed at a DC 5 Flat check check or the action is lost; roll the check after spending the action, but before any effects are applied."
+    desc: "`pf2:1` (concentrate,manipulate) Each enemy in the swarm's space takes 3d6 piercing damage (DC 21 Fortitude check save). A creature that fails its save against Swarming Bites becomes [[Conditions/Clumsy|Clumsy 1]] for 1 round. If the creature attempts a concentrate or manipulate action while affected, it must succeed at a DC 5 Flat check check or the action is lost; roll the check after spending the action, but before any effects are applied."
  
 ```
 

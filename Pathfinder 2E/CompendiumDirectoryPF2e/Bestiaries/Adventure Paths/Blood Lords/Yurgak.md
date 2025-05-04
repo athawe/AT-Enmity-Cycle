@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/ghoul
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Yurgak"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #184: The Ghouls Hunger"
 name: "Yurgak"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "ghoul"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[ghoul]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Chthonian, Common, Necril, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +24 (+26 to Maneuver in Flight), Arcana: +24, Crafting: +24, Deception: +26, Intimidation: +26, Medicine: +28, Occultism: +24, Religion: +28, Society: +24, Stealth: +26"
+    desc: "Acrobatics: +24, Arcana: +24, Crafting: +24, Deception: +26, Intimidation: +26, Medicine: +28, Occultism: +24, Religion: +28, Society: +24, Stealth: +26"
 abilityMods: [4, 6, 5, 4, 8, 6]
 speed: 30 feet,  burrow 5 feet
 sourcebook: "_Pathfinder #184: The Ghouls Hunger_"

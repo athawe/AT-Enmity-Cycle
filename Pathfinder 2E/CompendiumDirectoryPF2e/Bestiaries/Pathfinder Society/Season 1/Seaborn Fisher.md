@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/elf
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Seaborn Fisher"
@@ -26,10 +27,10 @@ level: "Creature -1"
 
 alignment: ""
 size: "Medium"
-trait_01: "aquatic"
-trait_02: "chaotic"
-trait_03: "elf"
-trait_04: "humanoid"
+trait_01: [[aquatic]]
+trait_02: [[chaotic]]
+trait_03: [[elf]]
+trait_04: [[humanoid]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Thalassic"
 skills:
   - name: "Skills"
-    desc: "Athletics: +4 (+6 to swim), Deception: +3, Nature: +5, Ocean Lore: +5"
+    desc: "Athletics: +4, Deception: +3, Nature: +5, Ocean Lore: +5"
 abilityMods: [1, 1, 0, 0, 2, 1]
 speed: 25 feet,  swim 25 feet
 sourcebook: "_Pathfinder Society Quest #4: Port Peril Pub Crawl_"

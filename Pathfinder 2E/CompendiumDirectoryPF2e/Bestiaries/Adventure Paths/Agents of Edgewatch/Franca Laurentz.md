@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/elf
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Franca Laurentz"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #159: All or Nothing"
 name: "Franca Laurentz"
 level: "Creature 13"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "elf"
-trait_03: "human"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[elf]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Hallit"
 skills:
   - name: "Skills"
-    desc: "Absalom Lore: +20, Acrobatics: +26, Athletics: +22, Deception: +22, Intimidation: +22, Society: +20, Stealth: +28, Thievery: +28"
+    desc: "Acrobatics: +26, Athletics: +22, Deception: +22, Intimidation: +22, Society: +20, Stealth: +28, Thievery: +28, Absalom Lore: +20"
 abilityMods: [3, 5, 3, 1, 2, 3]
 speed: 30 feet
 sourcebook: "_Pathfinder #159: All or Nothing_"
@@ -72,7 +73,7 @@ attacks:
     desc: "`pf2:2`  Franca quickly slashes at nearby foes, aiming to maim rather than disable. She makes up to three melee Strikes, each against a different creature within reach.\n\nThese Strikes count toward Franca's multiple attack penalty, but the penalty doesn't increase until after all three Strikes are made.\n\nOn a hit, the Strike deals 3 bleed damage instead of its normal damage.\n\nOn a critical hit, the creature is [[Conditions/Off-Guard|Off-Guard]] until the beginning of Franca's next turn or until they spend an action to remove the condition, whichever comes first."
 
   - name: "Hamstring"
-    desc: "`pf2:1`  **Requirements** Franca's last action was a melee Strike that dealt sneak attack damage to an [[Conditions/Off-Guard|Off-Guard]] target\n* * *\n\n**Effect** Franca deals 6 bleed damage to the target creature, and the target is [[Conditions/Slowed 1|Slowed 1]]."
+    desc: "`pf2:1`  **Requirements** Franca's last action was a melee Strike that dealt sneak attack damage to an [[Conditions/Off-Guard|Off-Guard]] target\n* * *\n\n**Effect** Franca deals 6 bleed damage to the target creature, and the target is [[Conditions/Slowed|Slowed 1]]."
 
   - name: "[[Bestiary Ability Glossary/Sneak Attack|Sneak Attack]]"
     desc: "  Franca's Strikes deal an additional 3d6 precision damage to [[Conditions/Off-Guard|Off-Guard]] creatures."

@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - magical
+  - pf2eHazard
   - complex
 source: Pathfinder Dark Archive
 aliases: "Compendium.pf2e.pathfinder-dark-archive.Actor.0AdtolhMWrPlzVZY" 
@@ -22,8 +23,8 @@ name: "Call of the Void"
 level: "Hazard 12"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "magical"
+trait_01: [[environmental]]
+trait_02: [[magical]]
 modifier: 15
 sourcebook: "_Pathfinder Dark Archive_"
 perception:

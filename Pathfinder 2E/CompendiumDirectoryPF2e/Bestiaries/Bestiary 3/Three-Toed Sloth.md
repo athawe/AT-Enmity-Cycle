@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.MtCiCanKa8EgZOm9" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Three-Toed Sloth"
@@ -23,7 +24,7 @@ level: "Creature -1"
 
 alignment: ""
 size: "tiny"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +5 (+7 to Climb), Stealth: +5 (+7 to Hide and Sneak while in a tree), Survival: +4"
+    desc: "Athletics: +5, Stealth: +5, Survival: +4"
 abilityMods: [2, 1, 3, -4, 2, 0]
 speed: 5 feet,  climb 10 feet
 sourcebook: "_Pathfinder Bestiary 3_"

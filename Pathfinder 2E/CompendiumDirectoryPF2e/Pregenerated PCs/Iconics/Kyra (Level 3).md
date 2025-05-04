@@ -68,12 +68,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Kyra (Level 3)
-creatures:
-  - 1: Kyra (Level 3)
-```
-
 
 
 

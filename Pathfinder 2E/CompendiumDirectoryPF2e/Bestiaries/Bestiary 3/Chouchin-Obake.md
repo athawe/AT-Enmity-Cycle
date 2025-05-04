@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.EGyCQDseM9FaCl78"
 tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/kami
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Chouchin-Obake"
@@ -24,8 +25,8 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "kami"
+trait_01: [[evil]]
+trait_02: [[kami]]
 modifier: 15
 perception:
   - name: "Perception"

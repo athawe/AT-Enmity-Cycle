@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/mutant
   - pf2e/creature/type/sea-devil
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Baron Utomo (3-4)"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-06: The Crashing Wave"
 name: "Baron Utomo (3-4)"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "mutant"
-trait_05: "sea-devil"
+trait_01: [[amphibious]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[mutant]]
+trait_05: [[sea-devil]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Thalassic; shark commune 150 feet"
 skills:
   - name: "Skills"
-    desc: "Athletics: +12 (+15 to Swim), Intimidation: +9, Stealth: +9, Survival: +8"
+    desc: "Athletics: +12, Intimidation: +9, Stealth: +9, Survival: +8"
 abilityMods: [5, 2, 3, 0, 3, 2]
 speed: 25 feet,  swim 35 feet
 sourcebook: "_Pathfinder Society Scenario #2-06: The Crashing Wave_"

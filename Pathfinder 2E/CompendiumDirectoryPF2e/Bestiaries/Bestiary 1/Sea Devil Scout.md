@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/sea-devil
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Sea Devil Scout"
@@ -27,11 +28,11 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "lawful"
-trait_05: "sea-devil"
+trait_01: [[amphibious]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
+trait_05: [[sea-devil]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Thalassic; shark commune 150 feet"
 skills:
   - name: "Skills"
-    desc: "Athletics: +9 (+11 to Swim), Intimidation: +5, Stealth: +8, Survival: +7"
+    desc: "Athletics: +9, Intimidation: +5, Stealth: +8, Survival: +7"
 abilityMods: [3, 4, 1, 0, 3, -1]
 speed: 25 feet,  swim 35 feet
 sourcebook: "_Pathfinder Bestiary_"

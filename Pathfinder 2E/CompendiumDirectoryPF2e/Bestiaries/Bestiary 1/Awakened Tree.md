@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.oBMIc2S8ekmDgPpi" 
 tags:
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Awakened Tree"
@@ -23,7 +24,7 @@ level: "Creature 6"
 
 alignment: ""
 size: "huge"
-trait_01: "plant"
+trait_01: [[plant]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Arboreal; (can&#x27;t speak any language)"
 skills:
   - name: "Skills"
-    desc: "Athletics: +14, Stealth: +9 (+14 in forests)"
+    desc: "Athletics: +14, Stealth: +9"
 abilityMods: [6, -1, 6, -5, 3, 0]
 speed: 20 feet
 sourcebook: "_Pathfinder Bestiary_"

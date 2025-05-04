@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
   - pf2e/creature/type/gremlin
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Kurshkin"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #169: Kindled Magic"
 name: "Kurshkin"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "tiny"
-trait_01: "evil"
-trait_02: "fey"
-trait_03: "gremlin"
+trait_01: [[evil]]
+trait_02: [[fey]]
+trait_03: [[gremlin]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Kholo, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Arcana: +8, Crafting: +8, Deception: +8, Nature: +8, Stealth: +11, Thievery: +9 (+11 to steal)"
+    desc: "Arcana: +8, Crafting: +8, Deception: +8, Nature: +8, Stealth: +11, Thievery: +9"
 abilityMods: [-2, 4, 1, 1, -1, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder #169: Kindled Magic_"

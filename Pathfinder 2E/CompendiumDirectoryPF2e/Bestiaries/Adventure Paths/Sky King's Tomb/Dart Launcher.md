@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #193: Mantle of Gold
 aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.piG1RSGHklQy2H57" 
@@ -22,14 +23,14 @@ name: "Dart Launcher"
 level: "Hazard 1"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 10
 sourcebook: "_Pathfinder #193: Mantle of Gold_"
 ac: 16
 armorclass:
   - name: AC
-    desc: "16; __Fort__ +8, __Ref__ +4, __Will__ NaN"
+    desc: "16; __Fort__ +8, __Ref__ +4, "
 hp: 24
 health:
   - name: ""

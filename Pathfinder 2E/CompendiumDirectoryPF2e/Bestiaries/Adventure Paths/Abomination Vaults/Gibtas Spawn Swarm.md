@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Gibtas Spawn Swarm"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #164: Hands of the Devil"
 name: "Gibtas Spawn Swarm"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "swarm"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[swarm]]
 modifier: 14
 perception:
   - name: "Perception"

@@ -84,6 +84,6 @@ Gamplix Noraneanithar (CG male gnome inventor 12) Erratic creator of clockwork m
 - Primary religion - [Gozreh](https://pathfinderwiki.com/wiki/Gozreh "Gozreh") is worshipped in the city state of Duwwor, where the people strive to live in harmony with nature
 - contains many windmills that power the city's ingenious industry.
 - The people of Duwwor have little interest in the other cities of Thuvia, and try to live in harmony with the desert. Because of this, the city is an ideal place to find a desert guide. A circle of desert [druids](https://pathfinderwiki.com/wiki/Druid "Druid") live close to the city with a reputation of being good allies and bad enemies.
-- Quality Resources Few can deny the fine quality of ore from Duwwor. Ingots of steel, silver, and adamantine up to high quality are always available, although all these materials cost 10% more than normal. Their purity makes them easy to work with; the Craft activity done with these materials takes 1 fewer day (minimum 1). 
+- **Quality Resources** Few can deny the fine quality of ore from Duwwor. Ingots of steel, silver, and adamantine up to high quality are always available, although all these materials cost 10% more than normal. Their purity makes them easy to work with; the Craft activity done with these materials takes 1 fewer day (minimum 1). 
 - The dwarves of [[Duwwor]] export the best ore, and control how much they sell to other city-states tightly. This keeps Aspenthar in check
 ---

@@ -66,12 +66,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Elsir Syniras
-creatures:
-  - 1: Elsir Syniras
-```
-
 
 
 

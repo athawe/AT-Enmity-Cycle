@@ -28,8 +28,7 @@ columnWidth: x
 abilities_top:
   - name: ""
   - name: "Range"
-    desc: "60 feet; **Area** 5-foot square
-"
+    desc: "60 feet; **Area** 5-foot square"
   - name: "Duration"
     desc: "until the start of your next turn"
 abilities_mid:

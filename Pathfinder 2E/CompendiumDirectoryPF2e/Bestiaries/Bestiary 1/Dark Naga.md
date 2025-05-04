@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/evil
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Dark Naga"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Dark Naga"
 level: "Creature 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "evil"
-trait_03: "lawful"
+trait_01: [[aberration]]
+trait_02: [[evil]]
+trait_03: [[lawful]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -69,7 +70,7 @@ attacks:
     desc: "DC 25, attack +17\n__Constant__  __(3rd)__ _[[Spells/Mind Reading|Mind Reading]]_"
 
   - name: "Dark Naga Venom"
-    desc: " (incapacitation,poison) **Saving Throw** DC 25 Fortitude check\n* * *\n\n**Maximum Duration** 5 minutes\n\n**Stage 1** [[Conditions/Slowed 1|Slowed 1]] (1 round)\n\n**Stage 2** [[Conditions/Slowed 1|Slowed 2]] (1 round)\n\n**Stage 3** [[Conditions/Unconscious|Unconscious]] with no Perception check to wake up (1d4+1 minutes)"
+    desc: " (incapacitation,poison) **Saving Throw** DC 25 Fortitude check\n* * *\n\n**Maximum Duration** 5 minutes\n\n**Stage 1** [[Conditions/Slowed|Slowed 1]] (1 round)\n\n**Stage 2** [[Conditions/Slowed|Slowed 2]] (1 round)\n\n**Stage 3** [[Conditions/Unconscious|Unconscious]] with no Perception check to wake up (1d4+1 minutes)"
  
 ```
 

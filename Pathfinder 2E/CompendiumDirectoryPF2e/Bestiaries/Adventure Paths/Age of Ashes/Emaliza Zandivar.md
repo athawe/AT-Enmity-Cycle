@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Emaliza Zandivar"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #150: Broken Promises"
 name: "Emaliza Zandivar"
 level: "Creature 20"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 36
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Chthonian, Common, Diabolic, Draconic, Dwarven, Kelish, Osiriani, Pyric, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +32, Arcana: +41, Deception: +38, Dragon Lore: +32, Hermea Lore: +38, Intimidation: +38, Occultism: +34, Society: +34"
+    desc: "Acrobatics: +32, Arcana: +41, Deception: +38, Intimidation: +38, Occultism: +34, Society: +34, Dragon Lore: +32, Hermea Lore: +38"
 abilityMods: [2, 8, 5, 10, 5, 6]
 speed: 25 feet,  fly 30 feet
 sourcebook: "_Pathfinder #150: Broken Promises_"

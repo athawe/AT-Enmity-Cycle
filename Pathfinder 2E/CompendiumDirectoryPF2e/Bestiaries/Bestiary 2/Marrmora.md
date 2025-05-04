@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
   - pf2e/creature/type/fire
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Marrmora"
@@ -25,9 +26,9 @@ level: "Creature 15"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fey"
-trait_03: "fire"
+trait_01: [[evil]]
+trait_02: [[fey]]
+trait_03: [[fire]]
 modifier: 27
 perception:
   - name: "Perception"
@@ -69,7 +70,7 @@ attacks:
     desc: "`pf2:1` Flame Jet +29 (fire, range increment 40 feet)\n__Damage__  6d6 fire 2d6 fire"
 
   - name: "Primal Innate Spells"
-    desc: "DC 36, attack +28; __8th __ (2 slots) _[[Spells/Fire Shield|Fire Shield]]_, _[[Spells/Fireball|Fireball]]_; __7th __ (3 slots) _[[Spells/Elemental Form|Elemental Form (Fire Elemental only)]]_, _[[Spells/Volcanic Eruption|Volcanic Eruption]]_, _[[Spells/Wall of Fire|Wall of Fire]]_; __6th __ (7 slots) _[[Spells/Fire Shield|Fire Shield (x3)]]_, _[[Spells/Fireball|Fireball (x3)]]_, _[[Spells/One with Plants|Tree Shape (At will) (Appears as a burnt, dead tree)]]_\n__Cantrips__  __(8th)__ _[[Spells/Produce Flame|Produce Flame]]_"
+    desc: "DC 36, attack +28; __8th __ (2 slots) _[[Spells/Fire Shield|Fire Shield]]_, _[[Spells/Fireball|Fireball]]_; __7th __ (3 slots) _[[Spells/Volcanic Eruption|Volcanic Eruption]]_, _[[Spells/Wall of Fire|Wall of Fire]]_; __6th __ (7 slots) _[[Spells/Fire Shield|Fire Shield (x3)]]_, _[[Spells/Fireball|Fireball (x3)]]_, _[[Spells/One with Plants|Tree Shape (At will) (Appears as a burnt, dead tree)]]_; __5th __  _[[Spells/Elemental Form|Elemental Form (Fire Only)]]_\n__Cantrips__  __(8th)__ _[[Spells/Produce Flame|Produce Flame]]_"
 
   - name: "Igniting Assault"
     desc: "`pf2:1`  **Requirements** The marrmora is not under the effect of fire shield\n* * *\n\n**Effect** The marrmora makes a claw Strike. If it hits, it can immediately cast one of its available fire shield innate spells as a free action."

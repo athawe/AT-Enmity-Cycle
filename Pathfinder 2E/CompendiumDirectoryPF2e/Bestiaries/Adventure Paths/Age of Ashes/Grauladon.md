@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.age-of-ashes-bestiary.Actor.H0pP1GqpMfX1WEiQ" 
 tags:
   - pf2e/creature/type/dragon
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Grauladon"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #145: Hellknight Hill"
 name: "Grauladon"
 level: "Creature 2"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "dragon"
+trait_01: [[dragon]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -68,7 +69,7 @@ attacks:
     desc: "  A grauladon can hold its breath for 225 rounds (22-1/2 minutes)."
 
   - name: "Noxious Breath"
-    desc: "`pf2:1`  The grauladon hisses and unleashes a nauseating cloud of halitosis in a 15-foot cone. Each creature in the area must succeed at a DC 18 Fortitude check saving throw or be [[Conditions/Sickened 1|Sickened 1]] ([[Conditions/Sickened 1|Sickened 2]] on a critical failure).\n\nThe grauladon can't use Noxious Breath or Reactive Breath again for 1d4 rounds."
+    desc: "`pf2:1`  The grauladon hisses and unleashes a nauseating cloud of halitosis in a @Template[cone|distance:15]. Each creature in the area must succeed at a DC 18 Fortitude check saving throw or be [[Conditions/Sickened|Sickened 1]] ([[Conditions/Sickened|Sickened 2]] on a critical failure).\n\nThe grauladon can't use Noxious Breath or Reactive Breath again for 1d4 rounds."
  
 ```
 

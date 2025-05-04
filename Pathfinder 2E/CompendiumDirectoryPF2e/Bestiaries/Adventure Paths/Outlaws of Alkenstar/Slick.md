@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.outlaws-of-alkenstar-bestiary.Actor.A1o0TVBwnrdFyKBz" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Slick"
@@ -23,7 +24,7 @@ level: "Creature 3"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +10, Stealth: +10 (+13 to Hide)"
+    desc: "Athletics: +10, Stealth: +10"
 abilityMods: [5, 3, 1, -4, 3, -2]
 speed: 30 feet,  climb 20 feet
 sourcebook: "_Pathfinder #178: Punks in a Powder Keg_"

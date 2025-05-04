@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #5-11: The Hidden Current
 aliases: "Compendium.pf2e.pfs-season-5-bestiary.Actor.KWGNfh21lLKQpmIS" 
@@ -21,7 +22,7 @@ name: "Conference Z's Victims (9-10)"
 level: "Hazard 11"
 
 trait_06: "Complex"
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 29
 sourcebook: "_Pathfinder Society Scenario #5-11: The Hidden Current_"
 perception:

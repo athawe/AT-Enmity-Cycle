@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/elemental
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Zaramuun"
@@ -26,10 +27,10 @@ level: "Creature 16"
 
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "earth"
-trait_03: "elemental"
-trait_04: "evil"
+trait_01: [[chaotic]]
+trait_02: [[earth]]
+trait_03: [[elemental]]
+trait_04: [[evil]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Chthonian, Petran"
 skills:
   - name: "Skills"
-    desc: "Athletics: +31 (+35 to Disarm stone or metal objects), Religion: +26, Stealth: +27 (+30 in sandy terrain)"
+    desc: "Athletics: +31, Religion: +26, Stealth: +27"
 abilityMods: [9, 5, 6, 0, 5, -1]
 speed: 35 feet,  burrow 35 feet
 sourcebook: "_Pathfinder Bestiary_"
@@ -86,7 +87,7 @@ attacks:
     desc: "  The zaramuun can [[Actions/Burrow|Burrow]] through sand and dirt (but not stone) at its full burrow Speed, leaving no tunnel or sign of its passing. Any Engulfed creatures are left behind when it Burrows. Loose sand and scree are not difficult terrain for a zaramuun."
 
   - name: "Sandblast"
-    desc: "`pf2:2` (earth) The zaramuun sprays a blast of sand that deals 11d10 slashing damage to all creatures in a 60-foot line (DC 38 Reflex check).\n\nIt can't Sandblast again for 1d4 rounds.\n* * *\n\n**Critical Success** No effect.\n\n**Success** Half damage.\n\n**Failure** Full damage.\n\n**Critical Failure** Full damage and [[Conditions/Blinded|Blinded]] for 1 round."
+    desc: "`pf2:2` (earth) The zaramuun sprays a blast of sand that deals 11d10 slashing damage to all creatures in a @Template[line|distance:60] (DC 38 Reflex check).\n\nIt can't Sandblast again for 1d4 rounds.\n* * *\n\n**Critical Success** No effect.\n\n**Success** Half damage.\n\n**Failure** Full damage.\n\n**Critical Failure** Full damage and [[Conditions/Blinded|Blinded]] for 1 round."
  
 ```
 

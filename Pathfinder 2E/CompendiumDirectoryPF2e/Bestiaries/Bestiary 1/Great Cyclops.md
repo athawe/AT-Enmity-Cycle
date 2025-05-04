@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/giant
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/mutant
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Great Cyclops"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Great Cyclops"
 level: "Creature 12"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "huge"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "giant"
-trait_04: "humanoid"
-trait_05: "mutant"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[giant]]
+trait_04: [[humanoid]]
+trait_05: [[mutant]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Cyclops, Jotun"
 skills:
   - name: "Skills"
-    desc: "Any One Lore: +18, Athletics: +25, Survival: +22"
+    desc: "Athletics: +25, Survival: +22, Any One Lore: +18"
 abilityMods: [7, 1, 6, -2, 4, -1]
 speed: 40 feet
 sourcebook: "_Pathfinder Bestiary_"

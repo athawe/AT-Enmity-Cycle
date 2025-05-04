@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Arboreal Snag"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #182: Graveclaw"
 name: "Arboreal Snag"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "mindless"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[mindless]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +10, Intimidation: +7, Stealth: +7 (+12 in Forests)"
+    desc: "Athletics: +10, Intimidation: +7, Stealth: +7"
 abilityMods: [4, 1, 3, -5, 1, 0]
 speed: 20 feet
 sourcebook: "_Pathfinder #182: Graveclaw_"
@@ -62,7 +63,7 @@ abilities_mid:
     desc: "  An arboreal snag takes 5 additional damage from axes."
 
   - name: "Putrid Sap"
-    desc: " (disease,primal) If the arboreal snag takes damage from a piercing attack, nauseating green pus spurts from the wound. Creatures within 10 feet of the snag must succeed at a DC 20 Fortitude check save or be [[Conditions/Sickened 1|Sickened 1]] ([[Conditions/Sickened 1|Sickened 2]] on a critical failure). Creatures that attempt this save are then temporarily immune for 1 hour."
+    desc: " (disease,primal) If the arboreal snag takes damage from a piercing attack, nauseating green pus spurts from the wound. Creatures within 10 feet of the snag must succeed at a DC 20 Fortitude check save or be [[Conditions/Sickened|Sickened 1]] ([[Conditions/Sickened|Sickened 2]] on a critical failure). Creatures that attempt this save are then temporarily immune for 1 hour."
 
 attacks:
   - name: ""

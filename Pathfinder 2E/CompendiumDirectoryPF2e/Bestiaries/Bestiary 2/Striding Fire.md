@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/elemental
   - pf2e/creature/type/fire
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Striding Fire"
@@ -25,9 +26,9 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "elemental"
-trait_03: "fire"
+trait_01: [[chaotic]]
+trait_02: [[elemental]]
+trait_03: [[fire]]
 modifier: 14
 perception:
   - name: "Perception"

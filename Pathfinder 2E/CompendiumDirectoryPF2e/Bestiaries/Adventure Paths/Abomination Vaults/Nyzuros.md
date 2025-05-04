@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/drow
   - pf2e/creature/type/elf
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Nyzuros"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Abomination Vaults Hardcover Compilation"
 name: "Nyzuros"
 level: "Creature 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "drow"
-trait_03: "elf"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[drow]]
+trait_03: [[elf]]
+trait_04: [[humanoid]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Elven, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Athletics: +14, Nature: +14, Stealth: +15, Survival: +16 (+18 to Subsist)"
+    desc: "Athletics: +14, Nature: +14, Stealth: +15, Survival: +16"
 abilityMods: [3, 4, 2, 0, 3, 1]
 speed: 30 feet
 sourcebook: "_Pathfinder Abomination Vaults Hardcover Compilation_"

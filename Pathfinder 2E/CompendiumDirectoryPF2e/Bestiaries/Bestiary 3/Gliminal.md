@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/spirit
   - pf2e/creature/type/vitality
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Gliminal"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Gliminal"
 level: "Creature 9"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "incorporeal"
-trait_02: "spirit"
-trait_03: "vitality"
+trait_01: [[incorporeal]]
+trait_02: [[spirit]]
+trait_03: [[vitality]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Jyoti; telepathy 60 feet"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +19, Arcana: +15, Forge of Creation Lore: +19, Medicine: +18, Religion: +16"
+    desc: "Acrobatics: +19, Arcana: +15, Medicine: +18, Religion: +16, Forge of Creation Lore: +19"
 abilityMods: [-5, 6, 4, 2, 3, 5]
 speed:  fly 60 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -75,7 +76,7 @@ attacks:
     desc: "`pf2:1` (healing,primal,vitality) The gliminal magically links to one living creature within the radius of their radiant mantle. This creature glows with bright light in a 20-foot emanation and dim light to 40 feet.\n\nWhile the link is in effect, the target has fast healing 10, and any time the target needs to defend against an attack or attempt a save, the gliminal can substitute their own AC or corresponding save bonus if it's higher than the target's.\n\nAny time the target takes damage, the gliminal can choose to divert any amount of that damage to themself. The damage has the same type and still applies the gliminal's immunities, resistances, and weaknesses.\n\nThe link remains until the target is more than 120 feet away, the gliminal falls unconscious, or the gliminal uses Bond in Light again.\n\n[[Bestiary Effects/Effect_ Bond in Light|Effect: Bond in Light]]"
 
   - name: "Overpowering Healing"
-    desc: " (primal,vitality) When a gliminal grants vitality healing that would heal a living creature above their maximum Hit Points, including the fast healing HP from their Bond in Light ability, the excess is granted as temporary Hit Points.\n\nUnlike normal, these temporary HP combine with each other, and they last for 1 hour. If a creature's temporary HP from a gliminal ever exceeds its maximum HP, it becomes overloaded and explodes in a burst of vitality energy.\n\nA creature with temporary HP from overpowering healing becomes [[Conditions/Sickened 1|Sickened 1]], or [[Conditions/Sickened 1|Sickened 2]] if the temporary HP equal half their maximum HP or more. The creature can't reduce this sickened condition unless it has 0 temporary HP.\n\nOverpowering healing doesn't apply to creatures with the vitality trait."
+    desc: " (primal,vitality) When a gliminal grants vitality healing that would heal a living creature above their maximum Hit Points, including the fast healing HP from their Bond in Light ability, the excess is granted as temporary Hit Points.\n\nUnlike normal, these temporary HP combine with each other, and they last for 1 hour. If a creature's temporary HP from a gliminal ever exceeds its maximum HP, it becomes overloaded and explodes in a burst of vitality energy.\n\nA creature with temporary HP from overpowering healing becomes [[Conditions/Sickened|Sickened 1]], or [[Conditions/Sickened|Sickened 2]] if the temporary HP equal half their maximum HP or more. The creature can't reduce this sickened condition unless it has 0 temporary HP.\n\nOverpowering healing doesn't apply to creatures with the vitality trait."
  
 ```
 

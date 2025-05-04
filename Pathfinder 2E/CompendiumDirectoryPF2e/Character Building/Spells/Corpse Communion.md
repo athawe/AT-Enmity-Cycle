@@ -24,6 +24,7 @@ abilities_top:
     desc: "1 hour; **Cost** rare spices and seasonings worth a total value of 50 gp × the spell rank"
   - name: "Primary Check"
     desc: "Crafting (master), Occultism (expert), Religion (expert)"
+
   - name: "Duration"
     desc: "24 hours"
 abilities_mid:

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/earth
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Dust Mephit"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 2"
 name: "Dust Mephit"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "air"
-trait_02: "earth"
-trait_03: "elemental"
+trait_01: [[air]]
+trait_02: [[earth]]
+trait_03: [[elemental]]
 modifier: 3
 perception:
   - name: "Perception"
@@ -66,7 +67,7 @@ attacks:
     desc: "DC 17, attack +9; __2nd __ (1 slots) _[[Spells/Revealing Light|Glitterdust]]_"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (air,arcane,earth) The dust mephit breathes a cloud of dust in a 15-foot cone that deals 2d6 slashing damage to each creature within the area (DC 17 Reflex check save).\n\nThe dust mephit can't use Breath Weapon again for 1d4 rounds."
+    desc: "`pf2:2` (air,arcane,earth) The dust mephit breathes a cloud of dust in a @Template[cone|distance:15] that deals 2d6 slashing damage to each creature within the area (DC 17 Reflex check save).\n\nThe dust mephit can't use Breath Weapon again for 1d4 rounds."
  
 ```
 

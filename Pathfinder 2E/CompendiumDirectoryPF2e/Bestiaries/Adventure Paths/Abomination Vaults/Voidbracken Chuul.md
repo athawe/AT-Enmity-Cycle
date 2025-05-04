@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Voidbracken Chuul"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #165: Eyes of Empty Death"
 name: "Voidbracken Chuul"
 level: "Creature 9"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "amphibious"
-trait_03: "chaotic"
-trait_04: "evil"
+trait_01: [[aberration]]
+trait_02: [[amphibious]]
+trait_03: [[chaotic]]
+trait_04: [[evil]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -65,7 +66,7 @@ attacks:
     desc: "`pf2:1` Claw +22 (reach 10 feet)\n__Damage__  2d8 + 12 bludgeoning plus grab"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict (Grabbed by Claws only)]]"
-    desc: "`pf2:1`  1d8 + 12 bludgeoning damage, DC 28\n\n* * *\n"
+    desc: "`pf2:1`  1d8+12 bludgeoning damage, DC 28\n\n* * *\n"
 
   - name: "Draining Venom"
     desc: " (poison) **Saving Throw** DC 28 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** drained 1 (1 round)\n\n**Stage 2** drained 2 (1 round)"

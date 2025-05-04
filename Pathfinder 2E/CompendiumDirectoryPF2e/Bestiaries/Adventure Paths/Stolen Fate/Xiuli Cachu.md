@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Xiuli Cachu"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #191: The Destiny War"
 name: "Xiuli Cachu"
 level: "Creature 13"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Chthonian, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +24, Athletics: +23 (+25 Climbing), Religion: +27, Stealth: +24, Survival: +25"
+    desc: "Acrobatics: +24, Athletics: +23, Religion: +27, Stealth: +24, Survival: +25"
 abilityMods: [4, 5, 5, 2, 6, 5]
 speed: 30 feet,  climb 20 feet
 sourcebook: "_Pathfinder #191: The Destiny War_"

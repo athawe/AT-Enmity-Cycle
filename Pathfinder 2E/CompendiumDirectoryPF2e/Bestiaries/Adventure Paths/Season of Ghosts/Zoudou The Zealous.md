@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Zoudou The Zealous"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #196: The Summer That Never Was"
 name: "Zoudou The Zealous"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -58,13 +59,13 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Identity Crisis"
-    desc: "`pf2:r` (emotion,mental,occult,visual) **Frequency** once per day\n\n**Trigger** Zoudou successfully Steals the Face of an adjacent creature\n* * *\n\n**Effect** As Zoudou Steals the creature's Face, she telepathically draws at the creature's sense of identity and self. The creature must attempt a DC 20 Will check save. On a failure, the creature questions their own identity and becomes [[Conditions/Slowed 1|Slowed 1]] for 1 round. On a critical failure, they're slowed 1 for 1 minute."
+    desc: "`pf2:r` (emotion,mental,occult,visual) **Frequency** once per day\n\n**Trigger** Zoudou successfully Steals the Face of an adjacent creature\n* * *\n\n**Effect** As Zoudou Steals the creature's Face, she telepathically draws at the creature's sense of identity and self. The creature must attempt a DC 20 Will check save. On a failure, the creature questions their own identity and becomes [[Conditions/Slowed|Slowed 1]] for 1 round. On a critical failure, they're slowed 1 for 1 minute."
 
   - name: "Oath of Anonymity"
     desc: "  When Zoudou has a face, she can't cast divine prepared spells."
 
   - name: "Sensitive Hearing"
-    desc: "  As long as a noppera-bo is [[Conditions/Deafened|Deafened]], they are [[Conditions/Slowed 1|Slowed 1]]."
+    desc: "  As long as a noppera-bo is [[Conditions/Deafened|Deafened]], they are [[Conditions/Slowed|Slowed 1]]."
 
 attacks:
   - name: ""

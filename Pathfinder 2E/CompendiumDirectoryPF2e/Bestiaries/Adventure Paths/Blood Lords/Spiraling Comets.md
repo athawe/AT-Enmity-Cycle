@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #186: Ghost King&#x27;s Rage
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.HQwuxqW1cTS0PrDM" 
@@ -22,14 +23,14 @@ name: "Spiraling Comets"
 level: "Hazard 16"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 32
 sourcebook: "_Pathfinder #186: Ghost King's Rage_"
 ac: 36
 armorclass:
   - name: AC
-    desc: "36; __Fort__ +25, __Ref__ +30, __Will__ +0"
+    desc: "36; __Fort__ +25, __Ref__ +30, "
 hp: 100
 health:
   - name: ""

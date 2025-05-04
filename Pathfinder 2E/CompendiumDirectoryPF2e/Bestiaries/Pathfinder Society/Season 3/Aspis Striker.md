@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.hqFuN3UINx7ChbqS"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Aspis Striker"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Special #3-98: Expedition Into Pallid Peril"
 name: "Aspis Striker"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -49,7 +50,7 @@ health:
 abilities_top:
   - name: ""
   - name: "Items"
-    desc: "[[Equipment/Dagger|Dagger]], [[Equipment/Thunderstone (Moderate)|Thunderstone (Moderate)]], Bronze Aspis Consortium Badge"
+    desc: "[[Equipment/Dagger|Dagger]], [[Equipment/Blasting Stone (Moderate)|Thunderstone (Moderate)]], Bronze Aspis Consortium Badge"
 abilities_mid:
   - name: ""
   - name: "Impress the Boss"
@@ -58,7 +59,7 @@ abilities_mid:
 attacks:
   - name: ""
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Dagger +10 (agile, thrown 10 ft., versatile s)\n__Damage__  1d4 + 7 piercing"
 
   - name: "Ranged"

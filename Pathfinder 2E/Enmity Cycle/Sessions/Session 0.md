@@ -19,7 +19,12 @@
 	- [ ] River on one side of the map, some muddy patches on the shore line - difficult terrain. 
 - [ ] 2 [[CompendiumDirectoryPF2e/Bestiaries/Monster Core/Bugbear Tormentor|Bugbear Tormentor]]s + 2 [[Bugbear Prowler]]s. 
 	- [ ] Forest road ambush setting *Remember to get a marching order and exploration actions* 
-- [ ] 
+- [ ] [[Scene 1 - Let's Fight!]]
+	- [ ] [[Daemonic Fog]]
+
+For more combats, start chapter 4 of Abomination Vaults. 
+
+
 ---
 ### Session End Notes
 *Date & Time, stuff done this session*

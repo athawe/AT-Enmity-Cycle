@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.PcHQDmPTztw32PhL"
 tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kobold
+  - pf2eMonster
   - pf2e/creature/level/1
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "humanoid"
-trait_02: "kobold"
+trait_01: [[humanoid]]
+trait_02: [[kobold]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -81,7 +82,7 @@ creatures:
 
 
 
-Most kobolds encountered outside of a well-defended warren or lair are kobold scouts, those trained for stalking and hunting. They’re also often in the thick of the fighting when a warren is invaded, buying time for their comrades to set up various traps and deadfalls.
+Most kobolds encountered outside of a well-defended warren or lair are kobold scouts, those trained for stalking and hunting. They're also often in the thick of the fighting when a warren is invaded, buying time for their comrades to set up various traps and deadfalls.
 
 * * *
 

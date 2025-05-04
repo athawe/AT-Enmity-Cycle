@@ -27,7 +27,9 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
-**Area** 60-foot cone
+
+  - name: "Area"
+    desc: "60-foot cone"
   - name: "Defense"
     desc: "basic reflex"
 abilities_mid:

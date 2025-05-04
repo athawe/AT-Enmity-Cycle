@@ -1,4 +1,4 @@
-## GM Core pg 31
+## GM Core 31
 Most conversations play best as free-form roleplaying, with maybe one or two checks for social skills involved. Sometimes, though, a tense situation or crucial parley requires a social encounter that uses initiative, much like a combat encounter. As with any other encounter, the stakes of a social encounter need to be high! A failed social encounter could mean a character is imprisoned or put to death, a major rival becomes a political powerhouse, or a key ally is disgraced and ostracized.  
   
 Using the structure of an encounter is helpful because it makes the timing clearer than in free-form play, and each character feels like they're contributing. When running a social encounter, establish the stakes up front, so the players know the consequences of success or failure and the circumstances that will cause the encounter to end.
@@ -27,6 +27,40 @@ These are just a few challenges you might want to play out using social encounte
 - Turning low-ranking agents against their leader
 - Urging a lawmaker to grant clemency or a stay of execution
 - Winning a debate about a contentious topic
+
+### More examples 
+`dice: d30`
+
+1. Stop. Thief! A criminal has run away with someone’s belongings, likely a bag or pouch. 
+2. On Patrol. 1d4 Guardsmen pass the party. 
+3. Beggar. A beggar approaches the party, asking for a coin or two. 
+4. Event. A poster or flier of an upcoming event is spotted. 
+5. Taxi! A wagon which allows for transportation around the settlement stops nearby and the passengers get out (Reroll if not a city). 
+6. Caravan Arrives. A merchant caravan passes the party. There is a 2 in 6 chance they are of a different race to the settlement’s owner. 
+7. Street Performers! A group of `dice: 2d4` entertainers perform for people on the streets. They may be juggling, fire-breathing, playing music, or singing songs. Roll a d6 for how well received their performance is by watchers. 1 is awful, 6 is great. 
+8. Religious Guidance. `dice: 1d4` Priests encourage people to attend prayer at the local place of worship. 
+9. Drunken Brawl. Two men are fighting. Roll a d4 for each man to determine how well they are fighting. 1 is bad and 4 is good. 
+10. Building on Fire. They smell smoke and come across a building ablaze. There is a 3 in 6 chance that 1d4 humanoids are trapped inside. 
+11. Public Execution. People have gathered to watch someone be executed (hanging, guillotine, firing squad, bonfire). 
+12. Anti-Social Behaviour. A random humanoid shouts something weird or obscene at the group, such as “STOP TOUCHING ME.” when the group is clearly not touching them. 
+13. Construction Site. They pass the construction site of a new home or business. 
+14. Stray Dogs. They come across a pack of 1d4 stray dogs. Roll for their Reaction. 
+15. Thugs. A group of thugs that outnumber your own group block the path asking for money. 
+16. Stockades. They spot a man in the stockade, likely a drunk or troublemaker. 
+17. New Recruits. A group of new guardsmen are being trained outside a military structure. 
+18. Prisoners. A prison cart passes showing 1d4 criminals in a cage. 
+19. Bounties. They spot a number of posters with wanted criminals or other bounties. 
+20. Buy my Things! They pass street vendors, selling specific trade goods. 
+21. A Bustling Place. Wagons filled with cargo pass the group. 
+22. Conversion - 1d4 Priests are trying to persuade passersby to attend prayer at the church/temple. 
+23. Collecting Donations - A priest is collecting donations for the church. This might be for upkeep costs, repair damage, or for new improvements. 
+24. Pilgrims Arrive - A group of zealots who have recently arrived at town approach the party. 
+25. Religious Figure Arrives - An influential member of the clergy passes the party, either on foot, horse, or carriage. 
+26. Public Ritual - A group of priests perform a ritual, which could be baptism, consecration, perhaps even sacrificing a goat 
+27. Make Way! - Noble(s) pass by in carriage 
+28. Disguised Noble - A disguised noble is on the streets; perhaps the party may recognise them. 
+29. Curious Guards - The guards approach and ask “State your business.” 
+30. Messenger - A messenger carrying a sealed scroll passes the party.
 
 ## GM Core pg 55
 When a character uses Deception, Diplomacy, Intimidation, or Performance to influence or impress someone whose level or Will DC you don’t know, **estimate the level of the creature and use that DC**. A commoner is usually level 0 or 1. Don’t worry about being exact. It often makes sense to **adjust** the DC based on the target’s **attitude** for Deception, Diplomacy, or Performance, making the DC easy for a friendly creature, very easy for a helpful one, hard for an unfriendly one, or very hard for a hostile one. You might **adjust the DC further** or differently based on the **PC’s goal**; for instance, the DC to [[Request]] something an indifferent NPC is fundamentally opposed to might be incredibly hard or impossible, and it might be easy to convince an unfriendly creature to do something it already wants to do.

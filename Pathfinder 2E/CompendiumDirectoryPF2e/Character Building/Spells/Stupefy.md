@@ -36,6 +36,6 @@ abilities_top:
     desc: "1 minute"
 abilities_mid:
   - name: ""
-    desc: "You dull the target's mind, depending on its Will save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is [[Conditions/Stupefied 1|Stupefied 1]] until the start of your next turn.\n\n**Failure** The target is [[Conditions/Stupefied 1|Stupefied 2]] for 1 minute.\n\n**Critical Failure** The target is [[Conditions/Stupefied 1|Stupefied 3]] for 1 minute"
+    desc: "You dull the target's mind, depending on its Will save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is [[Conditions/Stupefied 1|Stupefied 1]] until the start of your next turn.\n\n**Failure** The target is [[Conditions/Stupefied 1|Stupefied 2]] for 1 minute.\n\n**Critical Failure** The target is [[Conditions/Stupefied 1|Stupefied 3]] for 1 minute."
 sourcebook: "_Pathfinder Player Core_"
 ```

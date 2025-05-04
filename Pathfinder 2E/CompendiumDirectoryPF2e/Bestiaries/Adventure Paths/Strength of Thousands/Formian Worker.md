@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.MtaFBwBwpvoTC1PH"
 tags:
   - pf2e/creature/type/formian
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Formian Worker"
@@ -24,8 +25,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "formian"
-trait_02: "lawful"
+trait_01: [[formian]]
+trait_02: [[lawful]]
 modifier: 6
 perception:
   - name: "Perception"

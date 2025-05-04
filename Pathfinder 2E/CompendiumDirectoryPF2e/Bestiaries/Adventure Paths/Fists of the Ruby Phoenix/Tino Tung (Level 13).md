@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Tino Tung (Level 13)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #167: Ready? Fight!"
 name: "Tino Tung (Level 13)"
 level: "Creature 13"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[good]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 23
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Nagaji, Taldane, Tengu, Tien"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +26, Athletics: +25, Diplomacy: +22, Irori Lore: +19, Medicine: +20"
+    desc: "Acrobatics: +26, Athletics: +25, Diplomacy: +22, Medicine: +20, Irori Lore: +19"
 abilityMods: [4, 5, 4, 0, 1, 3]
 speed: 45 feet
 sourcebook: "_Pathfinder #167: Ready? Fight!_"
@@ -66,7 +67,7 @@ attacks:
     desc: "`pf2:1` Temple Sword +24 (trip)\n__Damage__  2d8 + 10 slashing 1d6 fire"
 
   - name: "Focus Spells"
-    desc: "3 Focus Points, DC 24, attack +16; __7th __  _[[Spells/Ki Blast|Ki Blast]]_, _[[Spells/Ki Strike|Ki Strike]]_, _[[Spells/Lay on Hands|Lay on Hands]]_"
+    desc: "3 Focus Points, DC 24, attack +16; __7th __  _[[Spells/Qi Blast|Ki Blast]]_, _[[Spells/Inner Upheaval|Ki Strike]]_, _[[Spells/Lay on Hands|Lay on Hands]]_"
 
   - name: "Defiant Shove"
     desc: "`pf2:1`  **Requirements** Tino used Retributive Strike on a creature since the start of his previous turn, attempted the Strike it permitted, and didn't critically miss\n* * *\n\n**Effect** Tino throws his whole body into a powerful push. He moves the target 5 feet in any direction and can then attempt to [[Actions/Trip|Trip]] that creature. This is forced movement."

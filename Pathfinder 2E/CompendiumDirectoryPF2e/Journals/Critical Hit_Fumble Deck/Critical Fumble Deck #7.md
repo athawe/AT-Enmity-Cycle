@@ -20,7 +20,7 @@ tags:
 
 # Punctured Foot
 
-> You take 1d4 bleed. Until this effect ends, you take a [[Other Effects/Effect\_ -10-foot circumstance penalty to your land Speed|-10-foot circumstance penalty to your land Speed]].
+> You take 1d4 bleed. Until this effect ends, you take a [[Other Effects/Effect_ -10-foot circumstance penalty to your land Speed|-10-foot circumstance penalty to your land Speed]].
 
 `Unarmed`
 

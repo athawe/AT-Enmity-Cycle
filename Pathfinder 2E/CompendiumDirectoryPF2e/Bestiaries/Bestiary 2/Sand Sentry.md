@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.gOjrie9YndQPomU8"
 tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Sand Sentry"
@@ -24,8 +25,8 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "earth"
-trait_02: "elemental"
+trait_01: [[earth]]
+trait_02: [[elemental]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Petran"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +14, Stealth: +14 (+17 in sand)"
+    desc: "Acrobatics: +14, Stealth: +14"
 abilityMods: [5, 2, 4, 0, 2, 1]
 speed: 25 feet,  burrow 50 feet
 sourcebook: "_Pathfinder Bestiary 2_"

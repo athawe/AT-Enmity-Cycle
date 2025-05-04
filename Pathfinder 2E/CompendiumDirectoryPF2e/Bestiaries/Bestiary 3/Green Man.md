@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.kXc11R18rF28AgIf"
 tags:
   - pf2e/creature/type/leshy
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/24
 statblock: inline
 name: "Green Man"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Green Man"
 level: "Creature 24"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "leshy"
-trait_02: "plant"
+trait_01: [[leshy]]
+trait_02: [[plant]]
 modifier: 42
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Arboreal, Fey, Wildsong; green tongue"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +39, Athletics: +42, Deception: +40, Diplomacy: +40 (+44 vs. plants), Intimidation: +40 (+44 vs. plants), Nature: +48, Stealth: +41, Survival: +44"
+    desc: "Acrobatics: +39, Athletics: +42, Deception: +40, Diplomacy: +40, Intimidation: +40, Nature: +48, Stealth: +41, Survival: +44"
 abilityMods: [12, 9, 11, 7, 10, 8]
 speed: 40 feet,  climb 40 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -61,7 +62,7 @@ abilities_mid:
     desc: "  A green man takes 20 additional damage from axes."
 
   - name: "Green Caress"
-    desc: " (aura,incapacitation,plant,primal) 60 feet. Living creatures in the area other than plants slowly transform into non-creature plants. The green man can exclude creatures from this effect, but they must be aware of a creature's presence and location to do so. A non-plant creature in the area must attempt a DC 45 Fortitude check save immediately before the start of its turn.\n* * *\n\n**Critical Success** The creature is unaffected, or if it is slowed by green caress, it reduces its slowed value by 2.\n\n**Success** The creature is unaffected, or if it is slowed by green caress, it reduces its slowed value by 1.\n\n**Failure** The creature becomes [[Conditions/Slowed 1|Slowed 1]], or if it was already slowed by green caress, increases the slowed value by 1, as their body transforms more and more into a non-creature plant. If the creature ever becomes slowed to the point they have no actions left for their turn, they become an inanimate plant, a condition that can only be reversed by [[Spells/Primal Phenomenon|Primal Phenomenon]] or similarly powerful magic.\n\n**Critical Failure** As failure, except the creature becomes [[Conditions/Slowed 1|Slowed 2]] (or increases the condition value by 2)."
+    desc: " (aura,incapacitation,plant,primal) 60 feet. Living creatures in the area other than plants slowly transform into non-creature plants. The green man can exclude creatures from this effect, but they must be aware of a creature's presence and location to do so. A non-plant creature in the area must attempt a DC 45 Fortitude check save immediately before the start of its turn.\n* * *\n\n**Critical Success** The creature is unaffected, or if it is slowed by green caress, it reduces its slowed value by 2.\n\n**Success** The creature is unaffected, or if it is slowed by green caress, it reduces its slowed value by 1.\n\n**Failure** The creature becomes [[Conditions/Slowed|Slowed 1]], or if it was already slowed by green caress, increases the slowed value by 1, as their body transforms more and more into a non-creature plant. If the creature ever becomes slowed to the point they have no actions left for their turn, they become an inanimate plant, a condition that can only be reversed by [[Spells/Primal Phenomenon|Primal Phenomenon]] or similarly powerful magic.\n\n**Critical Failure** As failure, except the creature becomes [[Conditions/Slowed|Slowed 2]] (or increases the condition value by 2)."
 
   - name: "Root In Place"
     desc: "`pf2:r`  **Trigger** A creature within the green man's reach uses a move action or leaves a square during a move action it's using\n* * *\n\n**Effect** The green man lashes out to hold the foe in place. The green man makes a vine Strike against the triggering creature. If the attack hits, the green man disrupts the action. If the creature was Flying when its action was disrupted, it falls."

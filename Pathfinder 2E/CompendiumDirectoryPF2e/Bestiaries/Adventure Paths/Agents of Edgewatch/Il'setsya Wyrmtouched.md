@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/ganzi
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "Il&#x27;setsya Wyrmtouched"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #162: Ruins of the Radiant Siege"
 name: "Il'setsya Wyrmtouched"
 level: "Creature 19"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "ganzi"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[ganzi]]
+trait_03: [[humanoid]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Chthonian, Common, Daemonic, Draconic, Empyrean, Protean"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +28, Arcana: +34, Deception: +35, Diplomacy: +33, Maelstrom Lore: +34, Occultism: +32, Society: +32, Stealth: +30"
+    desc: "Acrobatics: +28, Arcana: +34, Deception: +35, Diplomacy: +33, Occultism: +32, Society: +32, Stealth: +30, Maelstrom Lore: +34"
 abilityMods: [0, 4, 2, 6, 1, 7]
 speed: 30 feet
 sourcebook: "_Pathfinder #162: Ruins of the Radiant Siege_"

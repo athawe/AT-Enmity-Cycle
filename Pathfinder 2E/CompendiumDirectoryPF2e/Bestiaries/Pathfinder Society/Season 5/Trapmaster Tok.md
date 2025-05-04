@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kobold
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Trapmaster Tok"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #5-07: Sewer Dragon Crisis"
 name: "Trapmaster Tok"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "kobold"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[kobold]]
+trait_04: [[lawful]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Draconic, Dwarven, Goblin"
 skills:
   - name: "Skills"
-    desc: "Absalom Lore: +10, Acrobatics: +9, Crafting: +10 (+11 traps), Occultism: +10, Stealth: +9, Thievery: +9"
+    desc: "Acrobatics: +9, Crafting: +10, Occultism: +10, Stealth: +9, Thievery: +9, Absalom Lore: +10"
 abilityMods: [1, 4, 2, 4, -1, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #5-07: Sewer Dragon Crisis_"
@@ -68,13 +69,13 @@ attacks:
   - name: "Ranged"
     desc: "`pf2:1` Dagger +12 (agile, thrown 10 ft., versatile s)\n__Damage__  1d4 + 1 piercing"
 
-  - name: "Ranged"
+  - name: "Melee"
     desc: "`pf2:1` Acid Flask (Moderate) +12 (bomb, consumable, infused, splash)\n__Damage__  1 acid 2 acid 2d6 acid"
 
-  - name: "Ranged"
+  - name: "Melee"
     desc: "`pf2:1` Alchemist&#x27;s Fire (Moderate) +12 (bomb, consumable, infused, splash)\n__Damage__  2 fire 1d8 + 2 fire 2 fire"
 
-  - name: "Ranged"
+  - name: "Melee"
     desc: "`pf2:1` Vexing Vapor (Moderate) +12 (bomb, consumable, infused, inhaled, splash)\n__Damage__  1d6 + 2 mental 2 mental"
 
   - name: "Hurried Retreat"

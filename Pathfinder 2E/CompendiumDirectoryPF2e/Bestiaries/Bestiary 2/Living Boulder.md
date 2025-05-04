@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.zAxCU99Jwky6QoBy"
 tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Living Boulder"
@@ -24,8 +25,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "earth"
-trait_02: "elemental"
+trait_01: [[earth]]
+trait_02: [[elemental]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +8, Stealth: +5 (+7 in rocky areas)"
+    desc: "Athletics: +8, Stealth: +5"
 abilityMods: [4, -1, 4, -4, 2, -1]
 speed: 20 feet,  burrow 20 feet
 sourcebook: "_Pathfinder Bestiary 2_"

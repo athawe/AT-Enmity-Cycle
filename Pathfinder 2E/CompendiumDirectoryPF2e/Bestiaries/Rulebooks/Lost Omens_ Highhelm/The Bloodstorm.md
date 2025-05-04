@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/swarm
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "The Bloodstorm"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Highhelm"
 name: "The Bloodstorm"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "huge"
-trait_01: "demon"
-trait_02: "evil"
-trait_03: "swarm"
-trait_04: "unholy"
+trait_01: [[demon]]
+trait_02: [[evil]]
+trait_03: [[swarm]]
+trait_04: [[unholy]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -65,7 +66,7 @@ attacks:
     desc: "`pf2:1` Pincer +27 (magical, reach 20 feet, unholy)\n__Damage__  1d4 spirit plus improved-grab 3d8 + 15 piercing plus improved-grab"
 
   - name: "Biting Constrict"
-    desc: "`pf2:1`  **Requirements** The Bloodstorm is in Demon Shape and has a creature [[Conditions/Grabbed|Grabbed]]\n* * *\n\n**Effect** The writing mass of the Bloodstorm's pincer bites the grabbed creature, dealing 3d8 + 8 piercing damage (basic Fortitude save). On a failure, the creature also takes 1d8 persistent bleed damage.\n* * *\n\nThe monster deals the listed amount of damage to any number of creatures [[Conditions/Grabbed|Grabbed]] or [[Conditions/Restrained|Restrained]] by it. Each of those creatures can attempt a basic Fortitude save with the listed DC."
+    desc: "`pf2:1`  **Requirements** The Bloodstorm is in Demon Shape and has a creature [[Conditions/Grabbed|Grabbed]]\n* * *\n\n**Effect** The writing mass of the Bloodstorm's pincer bites the grabbed creature, dealing 3d8+8 piercing damage (basic Fortitude save). On a failure, the creature also takes 1d8 persistent bleed damage.\n* * *\n\nThe monster deals the listed amount of damage to any number of creatures [[Conditions/Grabbed|Grabbed]] or [[Conditions/Restrained|Restrained]] by it. Each of those creatures can attempt a basic Fortitude save with the listed DC."
 
   - name: "Biting Swarm"
     desc: "`pf2:1`  Each creature in the Bloodstorm's space takes 3d6 piercing + 3d6 slashing damage (DC 31 Fortitude check save). Creatures that fail their saving throw also take 1d8 persistent bleed damage."

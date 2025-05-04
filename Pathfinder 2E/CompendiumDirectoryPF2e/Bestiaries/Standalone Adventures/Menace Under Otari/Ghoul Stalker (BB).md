@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/ghoul
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/1
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "ghoul"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[ghoul]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Stench"
-    desc: "  A creature that comes within 10 feet of the ghoul and can smell the ghoul must attempt a DC 14 Fortitude check save. On a failure, the creature takes a -1 status penalty to all checks and DCs until it uses an action to retch ([[Conditions/Sickened 1|Sickened 1]]). A creature that succeeds at its save isn't affected by any ghoul's stench for 1 minute."
+    desc: "  A creature that comes within 10 feet of the ghoul and can smell the ghoul must attempt a DC 14 Fortitude check save. On a failure, the creature takes a -1 status penalty to all checks and DCs until it uses an action to retch ([[Conditions/Sickened|Sickened 1]]). A creature that succeeds at its save isn't affected by any ghoul's stench for 1 minute."
 
 attacks:
   - name: ""

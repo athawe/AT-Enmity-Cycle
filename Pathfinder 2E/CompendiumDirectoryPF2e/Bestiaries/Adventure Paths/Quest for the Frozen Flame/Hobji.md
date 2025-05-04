@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/morlock
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Hobji"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #175: Broken Tusk Moon"
 name: "Hobji"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "morlock"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[morlock]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Athletics: +9 (+11 to Climb), Crafting: +6 (+8 to Craft traps), Stealth: +10, Thievery: +9"
+    desc: "Athletics: +9, Crafting: +6, Stealth: +10, Thievery: +9"
 abilityMods: [4, 2, 3, 1, 3, -1]
 speed: 30 feet,  climb 20 feet
 sourcebook: "_Pathfinder #175: Broken Tusk Moon_"

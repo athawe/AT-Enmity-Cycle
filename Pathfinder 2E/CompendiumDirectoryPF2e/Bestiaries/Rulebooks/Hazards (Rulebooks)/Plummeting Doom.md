@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
 
 source: Pathfinder Gamemastery Guide
 aliases: "Compendium.pf2e.hazards.Actor.gB9WkJtH88jJQa5Z" 
@@ -21,13 +22,13 @@ name: "Plummeting Doom"
 level: "Hazard 15"
 
 
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 30
 sourcebook: "_Pathfinder Gamemastery Guide_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

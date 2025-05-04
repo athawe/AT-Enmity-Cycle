@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Corrupted Priest"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #151: The Show Must Go On"
 name: "Corrupted Priest"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Diplomacy: +7, Gozreh Lore: +8, Nature: +9, Religion: +9, Survival: +9"
+    desc: "Diplomacy: +7, Nature: +9, Religion: +9, Survival: +9, Gozreh Lore: +8"
 abilityMods: [1, 0, 1, 1, 4, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder #151: The Show Must Go On_"
@@ -63,7 +64,7 @@ abilities_mid:
 attacks:
   - name: ""
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Trident +10 (thrown 20 ft., fatal d10)\n__Damage__  1d8 + 1 piercing"
 
   - name: "Primal Prepared Spells"

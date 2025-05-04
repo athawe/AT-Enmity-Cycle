@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.gsn4NsJLwZCQUwgf" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Almiraj"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #157: Devil at the Dreaming Palace"
 name: "Almiraj"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -59,7 +60,7 @@ attacks:
     desc: "`pf2:1` Horn +9 (finesse, magical)\n__Damage__  1d6 + 2 piercing"
 
   - name: "Magic Horn"
-    desc: "  Any living creature slain by the almiraj's horn Strike immediately becomes [[Conditions/Petrified|Petrified]] with no saving throw, in addition to dying.\n\nA severed almiraj horn retains a wisp of its former magic; in combat, the horn can be wielded as a _+1 [[Equipment/Dagger|dagger]]_ or, if affixed to a shaft, a _+1 [[Equipment/Spear|spear]]_"
+    desc: "  Any living creature slain by the almiraj's horn Strike immediately becomes [[Conditions/Petrified|Petrified]] with no saving throw, in addition to dying.\n\nA severed almiraj horn retains a wisp of its former magic; in combat, the horn can be wielded as a _+1 [[Equipment/Dagger|Dagger]]_ or, if affixed to a shaft, a _+1 [[Equipment/Spear|Spear]]_"
  
 ```
 

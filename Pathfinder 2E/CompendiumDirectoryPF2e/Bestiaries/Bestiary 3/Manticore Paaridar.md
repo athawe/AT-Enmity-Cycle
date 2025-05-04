@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/paaridar
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Manticore Paaridar"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Manticore Paaridar"
 level: "Creature 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "beast"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "lawful"
-trait_05: "paaridar"
+trait_01: [[beast]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
+trait_05: [[paaridar]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +16, Athletics: +19, Intimidation: +11, Manticore Lore: +14, Occultism: +10"
+    desc: "Acrobatics: +16, Athletics: +19, Intimidation: +11, Occultism: +10, Manticore Lore: +14"
 abilityMods: [6, 5, 3, -1, 5, -2]
 speed: 40 feet,  fly 20 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -59,7 +60,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Sharp Riposte"
-    desc: "`pf2:r`  **Trigger** An adjacent creature targets the paaridar with a melee attack\n* * *\n\n**Effect** The paaridar blocks the attack with their claws. The paaridar gains resistance 5 to physical damage from the attack, and if the attack hits, the attacker takes 1d8 + 4 slashing damage."
+    desc: "`pf2:r`  **Trigger** An adjacent creature targets the paaridar with a melee attack\n* * *\n\n**Effect** The paaridar blocks the attack with their claws. The paaridar gains resistance 5 to physical damage from the attack, and if the attack hits, the attacker takes 1d8+4 slashing damage."
 
 attacks:
   - name: ""
@@ -74,7 +75,7 @@ attacks:
     desc: "`pf2:1` Spike +16 (propulsive, range increment 40 feet)\n__Damage__  1d10 + 5 piercing"
 
   - name: "Monk Ki Spells"
-    desc: "3 Focus Points, DC 24, attack +16; __4th __  _[[Spells/Ki Rush|Ki Rush]]_, _[[Spells/Ki Strike|Ki Strike]]_, _[[Spells/Wholeness of Body|Wholeness of Body]]_"
+    desc: "3 Focus Points, DC 24, attack +16; __4th __  _[[Spells/Qi Rush|Ki Rush]]_, _[[Spells/Inner Upheaval|Ki Strike]]_, _[[Spells/Harmonize Self|Wholeness of Body]]_"
 
   - name: "Flurry of Blows"
     desc: "`pf2:1`  **Frequency** once per round\n* * *\n\n**Effect** The paaridar makes two unarmed Strikes or two spike Strikes. If both hit the same creature, combine their damage for the purpose of resistances and weaknesses."

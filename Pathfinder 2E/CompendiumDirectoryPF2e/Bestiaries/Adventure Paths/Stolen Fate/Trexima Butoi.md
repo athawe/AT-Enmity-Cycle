@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Trexima Butoi"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #191: The Destiny War"
 name: "Trexima Butoi"
 level: "Creature 16"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Common, Daemonic, Draconic, Mwangi, Necril, Osiriani, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Arcana: +31, Crafting: +29 (can craft magic items), Deception: +29, Intimidation: +27, Nature: +27, Stealth: +27"
+    desc: "Arcana: +31, Crafting: +29, Deception: +29, Intimidation: +27, Nature: +27, Stealth: +27"
 abilityMods: [0, 5, 4, 7, 5, 5]
 speed: 25 feet
 sourcebook: "_Pathfinder #191: The Destiny War_"
@@ -47,7 +48,7 @@ hp: 290
 health:
   - name: ""
   - name: HP
-    desc: "290, void healing, rejuvenation; __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious; __Resistances__ cold 15, physical 15 (except bludgeoning)"
+    desc: "290, void healing, rejuvenation; __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious; __Resistances__ cold 15, physical 15 (except magical bludgeoning)"
 abilities_top:
   - name: ""
   - name: "Items"

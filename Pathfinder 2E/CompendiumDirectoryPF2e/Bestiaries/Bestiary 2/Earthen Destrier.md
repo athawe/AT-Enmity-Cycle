@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.CrAsEzLl3F2vejd3"
 tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Earthen Destrier"
@@ -24,8 +25,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Large"
-trait_01: "earth"
-trait_02: "elemental"
+trait_01: [[earth]]
+trait_02: [[elemental]]
 modifier: 10
 perception:
   - name: "Perception"

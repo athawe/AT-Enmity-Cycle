@@ -6,6 +6,7 @@ tags:
   - magical
   - mechanical
   - trap
+  - pf2eHazard
   - complex
   - remaster
 source: Pathfinder GM Core
@@ -24,15 +25,15 @@ name: "Wheel Of Misery"
 level: "Hazard 6"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 16
 sourcebook: "_Pathfinder GM Core_"
 ac: 24
 armorclass:
   - name: AC
-    desc: "24; __Fort__ +15, __Ref__ +13, __Will__ +0"
+    desc: "24; __Fort__ +15, __Ref__ +13, "
 hp: 56
 health:
   - name: ""

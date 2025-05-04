@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.Tj03FbN4SSr0o953"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Acrobat"
@@ -24,8 +25,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +15, Athletics: +8, Circus Lore: +5, Deception: +5, Performance: +9, Stealth: +8"
+    desc: "Acrobatics: +15, Athletics: +8, Deception: +5, Performance: +9, Stealth: +8, Circus Lore: +5"
 abilityMods: [2, 4, 2, 1, 0, 1]
 speed: 30 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

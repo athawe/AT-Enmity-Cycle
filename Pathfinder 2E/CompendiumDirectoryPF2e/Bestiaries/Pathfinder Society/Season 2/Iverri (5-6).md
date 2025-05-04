@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/nymph
   - pf2e/creature/type/plant
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Iverri (5-6)"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-15: A Dirge for Sarkoris"
 name: "Iverri (5-6)"
 level: "Creature 6"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fey"
-trait_04: "nymph"
-trait_05: "plant"
-trait_06: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fey]]
+trait_04: [[nymph]]
+trait_05: [[plant]]
+trait_06: [[unholy]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -60,7 +61,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Blight Dependent"
-    desc: "  Instead of being bonded to a specific tree, Iverri is bonded to blighted areas formerly ravaged by the Abyss. If she does not remain within 300 feet of at least one blighted tree, she becomes [[Conditions/Sickened 1|Sickened 1]] and is unable to recover. She must attempt a DC 25 Fortitude check save every hour or increase the sickened value by 1 (to a maximum of [[Conditions/Sickened 1|Sickened 4]]). After 24 hours, she becomes [[Conditions/Drained 1|Drained 1]], with this value increasing by 1 every additional 24 hours."
+    desc: "  Instead of being bonded to a specific tree, Iverri is bonded to blighted areas formerly ravaged by the Abyss. If she does not remain within 300 feet of at least one blighted tree, she becomes [[Conditions/Sickened|Sickened 1]] and is unable to recover. She must attempt a DC 25 Fortitude check save every hour or increase the sickened value by 1 (to a maximum of [[Conditions/Sickened|Sickened 4]]). After 24 hours, she becomes [[Conditions/Drained|Drained 1]], with this value increasing by 1 every additional 24 hours."
 
 attacks:
   - name: ""
@@ -68,7 +69,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Branch +17 (finesse, magical)\n__Damage__  2d10 + 5 bludgeoning"
 
-  - name: "Ranged"
+  - name: "Melee"
     desc: "`pf2:1` Thorn Spike +17 (magical)\n__Damage__  2d6 piercing 2d6 poison"
 
   - name: "Primal Innate Spells"

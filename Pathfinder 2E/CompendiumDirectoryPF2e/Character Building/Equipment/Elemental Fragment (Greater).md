@@ -20,7 +20,7 @@ license: OGL
 **Bulk** 0; **Size** med
 **Usage** held-in-one-hand
 
-**Activate `pf2:2` (concentrate, manipulate)**
+**Activate** `pf2:2` (concentrate, manipulate)
 
 * * *
 

@@ -2,7 +2,7 @@
 type:
   - faction
 ---
-
+If the party wants to do something to get closer to LN, they plan on a smuggling mission next week.
 ### Top Brass
 #### [[Kylas Akhom]]
 - Head of the Lingering Note
@@ -19,7 +19,7 @@ The criminal elements of The Lingering Note consist of propaganda and subterfuge
 - male tabaxi smith 7, has a merchant guild membership
 
 ### Legitimate Side
-The Lingering Note covers its criminal side through a number of organizations that do honest business, simply focusing on smuggling and making extra profit where possible. They own almost all business to do with construction and excavation. 
+The Lingering Note covers its criminal side through a number of organizations that do honest business, simply focusing on **smuggling** and making extra profit where possible. They own almost all construction and excavation businesses. 
 #### [[Nisk Tander]]
 - male half-elf alchemist 4
 - Runs [[Bottled Solutions]] in Lower District 
@@ -45,5 +45,10 @@ SORT district
 
 ### Timeline
 
-
+```dataview
+TABLE completed
+FROM "Enmity Cycle/Quests and Plot Threads/Side Quests"
+WHERE antagonist = [[The Lingering Note]]
+SORT completed
+```
 

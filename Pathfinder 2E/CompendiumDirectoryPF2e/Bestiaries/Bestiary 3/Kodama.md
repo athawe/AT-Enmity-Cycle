@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/holy
   - pf2e/creature/type/kami
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Kodama"
@@ -26,10 +27,10 @@ level: "Creature 5"
 
 alignment: ""
 size: "Small"
-trait_01: "good"
-trait_02: "holy"
-trait_03: "kami"
-trait_04: "spirit"
+trait_01: [[good]]
+trait_02: [[holy]]
+trait_03: [[kami]]
+trait_04: [[spirit]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -60,7 +61,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Distracting Gaze"
-    desc: " (aura,divine,visual) 30 feet. When a creature ends its turn in the aura, it must attempt a DC 23 Will check save. The kodama can activate or deactivate this aura by using a single action, which has the concentrate trait.\n* * *\n\n**Success** The creature is unaffected.\n\n**Failure** The creature is [[Conditions/Fascinated|Fascinated]]. This condition ends if the creature ends its turn outside the aura.\n\n**Critical Failure** As failure, plus the creature is [[Conditions/Slowed 1|Slowed 1]] as long as it remains fascinated."
+    desc: " (aura,divine,visual) 30 feet. When a creature ends its turn in the aura, it must attempt a DC 23 Will check save. The kodama can activate or deactivate this aura by using a single action, which has the concentrate trait.\n* * *\n\n**Success** The creature is unaffected.\n\n**Failure** The creature is [[Conditions/Fascinated|Fascinated]]. This condition ends if the creature ends its turn outside the aura.\n\n**Critical Failure** As failure, plus the creature is [[Conditions/Slowed|Slowed 1]] as long as it remains fascinated."
 
 attacks:
   - name: ""

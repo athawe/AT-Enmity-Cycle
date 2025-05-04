@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/good
   - pf2e/creature/type/holy
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Ghaele Of Kharnas"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #162: Ruins of the Radiant Siege"
 name: "Ghaele Of Kharnas"
 level: "Creature 17"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "azata"
-trait_02: "celestial"
-trait_03: "chaotic"
-trait_04: "good"
-trait_05: "holy"
+trait_01: [[azata]]
+trait_02: [[celestial]]
+trait_03: [[chaotic]]
+trait_04: [[good]]
+trait_05: [[holy]]
 modifier: 32
 perception:
   - name: "Perception"
@@ -71,7 +72,7 @@ attacks:
     desc: "`pf2:1` Holy Greatsword +33 (holy, magical, versatile p)\n__Damage__  3d12 + 16 slashing"
 
   - name: "Ranged"
-    desc: "`pf2:1` Light Ray +31 (holy, light, range increment 300 feet)\n__Damage__  2d12 spirit 1d12 spirit"
+    desc: "`pf2:1` Light Ray +31 (holy, light, range increment 300 feet)\n__Damage__  3d12 spirit"
 
   - name: "Divine Innate Spells"
     desc: "DC 38, attack +30; __8th __ (1 slots) _[[Spells/Prismatic Wall|Prismatic Wall]]_; __7th __ (1 slots) _[[Spells/Chromatic Wall|Chromatic Wall]]_, _[[Spells/Dispel Magic|Dispel Magic]]_, _[[Spells/Heal|Heal (x5)]]_, _[[Spells/Prismatic Spray|Prismatic Spray]]_; __6th __ (1 slots) _[[Spells/Illusory Scene|Illusory Scene]]_; __5th __ (1 slots) _[[Spells/Banishment|Banishment]]_; __4th __ (6 slots) _[[Spells/Invisibility|Invisibility (At Will) (Self Only)]]_, _[[Spells/Restoration|Restoration]]_; __3rd __ (1 slots) _[[Spells/Mind Reading|Mind Reading]]_; __1st __ (3 slots) _[[Spells/Charm|Charm]]_, _[[Spells/Detect Alignment|Detect Alignment (At Will) (Evil Only)]]_, _[[Spells/Illusory Disguise|Illusory Disguise (At Will)]]_\n__Cantrips__  __(7th)__ _[[Compendium.pf2e.spells-srd.Item.kl2q6JvBZwed4B6v|Dancing Lights]]_, _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Light|Light]]_\n__Constant__  __(7th)__ _[[Spells/See the Unseen|See Invisibility]]_ __(5th)__ _[[Spells/Truespeech|Tongues]]_"

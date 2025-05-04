@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.BZKNSyp1ATtn3JXj" 
 tags:
   - pf2e/creature/type/astral
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Adachros"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Adachros"
 level: "Creature 13"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "astral"
+trait_01: [[astral]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Chthonian, Common, Daemonic, Diabolic, Empyrean, Protean, Requian, Utopian; telepathy 120 feet"
 skills:
   - name: "Skills"
-    desc: "Athletics: +25, Deception: +25, Intimidation: +27, Lore (any one): +28, Occultism: +22"
+    desc: "Athletics: +25, Deception: +25, Intimidation: +27, Occultism: +22, Lore (any one): +28"
 abilityMods: [6, 2, 5, 5, 5, 8]
 speed: 40 feet,  fly 40 feet
 sourcebook: "_Pathfinder Bestiary 3_"

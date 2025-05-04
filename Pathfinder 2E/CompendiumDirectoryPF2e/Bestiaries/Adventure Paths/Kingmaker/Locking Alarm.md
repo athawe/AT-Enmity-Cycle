@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Kingmaker
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.B0EZMtvXsIE3SYiu" 
@@ -22,14 +23,14 @@ name: "Locking Alarm"
 level: "Hazard 10"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 17
 sourcebook: "_Pathfinder Kingmaker_"
 ac: 25
 armorclass:
   - name: AC
-    desc: "25; __Fort__ +24, __Ref__ +16, __Will__ +0"
+    desc: "25; __Fort__ +24, __Ref__ +16, "
 hp: 70
 health:
   - name: ""

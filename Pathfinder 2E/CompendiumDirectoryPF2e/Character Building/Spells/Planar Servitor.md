@@ -25,6 +25,7 @@ abilities_top:
     desc: "1 day; **Cost** rare incense and offerings worth a total value of 2 gp × the spell rank × the target's level, see text for more details; **Secondary Casters** 2"
   - name: "Primary Check"
     desc: "Religion (expert); **Secondary Checks** Diplomacy"
+
   - name: "Duration"
     desc: "see text"
 abilities_mid:

@@ -28,8 +28,7 @@ abilities_top:
   - name: "Traditions"
     desc: "occult, primal"
   - name: "Range"
-    desc: "60 feet; **Area** 10-foot square
-"
+    desc: "60 feet; **Area** 10-foot square"
   - name: "Defense"
     desc: "basic reflex"
   - name: "Duration"

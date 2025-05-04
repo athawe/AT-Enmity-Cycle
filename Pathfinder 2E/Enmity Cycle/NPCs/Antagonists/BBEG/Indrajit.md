@@ -1,5 +1,5 @@
 ---
-faction: 
+faction: Whispering Way
 favour: 
 occupation: 
 location: 

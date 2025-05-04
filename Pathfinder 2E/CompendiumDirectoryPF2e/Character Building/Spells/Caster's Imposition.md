@@ -27,7 +27,11 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, divine, occult, primal"
-**Targets** 1 creature within 60 feet  - name: "Defense"
+
+  - name: "Targets"
+
+    desc: "1 creature within 60 feet"
+  - name: "Defense"
     desc: " will"
   - name: "Duration"
     desc: "1 minute"

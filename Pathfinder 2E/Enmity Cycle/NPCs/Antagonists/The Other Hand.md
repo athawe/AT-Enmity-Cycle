@@ -15,7 +15,7 @@ aliases:
 ### Criminal Side
 #### [[Aliver “Pillbug” Podiker]]
 - alchemist - [[The Pillbug's Pantry]] (Port District)
-#### CHIZ 
+#### CHIZ "Cheese"
 - male ratfolk [[Fence]] 
 
 male dwarf thug 
@@ -23,10 +23,13 @@ female human thug
 male elf thug  
 some revolutionary types
 
-#### Cyrdak Drokkus 
+#### [[Underlings#Cyrdak Drokkus|Cyrdak Drokkus]] 
 - Owner of the [[Carpe Noctem Theatre]]
 
-Whoever runs the clinic in Lower District that sells organs 
+Whoever runs [[Sunshine Stroll]].
+
+#### [[Apophis]]
+- Conspirator dragon in disguise as an elf. He acts like a smart advisor and enforcer, but enjoys riling them up toward revolution gradually.
 
 ### Legitimate Side 
 The Other Hand presents itself publicly as charity staff and art investors.
@@ -36,6 +39,7 @@ The Other Hand presents itself publicly as charity staff and art investors.
 - CN male half-orc dungsweeper 3
 #### [[Zridi]]
 - .
+
 ### Extra names 
 - Male humans - Radron Glask, Sel Glovrotsk, Blagrarth Tarrenbreath  
 - Female humans - Eshemay Flintvigor, Sistrothro Horserock, Tiellirva Honormourn
@@ -52,5 +56,13 @@ SORT district
 ```
 
 ### Timeline
-<span data-category='red' data-calendar="Calendar of Golarion" data-date='Sarenith-1-4725' data-name='Adventure Commence'>Adventure begins here.</span>
+<span data-category='red' data-calendar="Calendar of Golarion" data-date='Sarenith-5-4725' data-name='Other Hand Plot'></span>
+
+
+```dataview
+TABLE completed
+FROM "Enmity Cycle/Quests and Plot Threads/Side Quests"
+WHERE antagonist = [[The Other Hand]]
+SORT completed
+```
 

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/samsaran
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Joon-seo"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #167: Ready? Fight!"
 name: "Joon-seo"
 level: "Creature 15"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "humanoid"
-trait_03: "samsaran"
+trait_01: [[good]]
+trait_02: [[humanoid]]
+trait_03: [[samsaran]]
 modifier: 28
 perception:
   - name: "Perception"

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/22
 statblock: inline
 name: "Rhevanna"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #162: Ruins of the Radiant Siege"
 name: "Rhevanna"
 level: "Creature 22"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "fiend"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[fiend]]
+trait_03: [[unholy]]
 modifier: 42
 perception:
   - name: "Perception"

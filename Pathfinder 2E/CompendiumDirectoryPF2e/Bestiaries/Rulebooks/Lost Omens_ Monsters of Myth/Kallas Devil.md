@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/hag
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Kallas Devil"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Monsters of Myth"
 name: "Kallas Devil"
 level: "Creature 9"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "evil"
-trait_03: "hag"
-trait_04: "humanoid"
+trait_01: [[amphibious]]
+trait_02: [[evil]]
+trait_03: [[hag]]
+trait_04: [[humanoid]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -66,7 +67,7 @@ abilities_mid:
     desc: "  Once a month, the Kallas Devil can spend 1 day stitching the skin of a person into her coat. This gives her skinned cloak a +1 circumstance bonus to her AC for one week."
 
   - name: "Loathsome Stench"
-    desc: " (aura,olfactory) 20 feet. A creature entering the aura or starting its turn in the aura must succeed at a DC 20 Fortitude check save or become [[Conditions/Sickened 1|Sickened 1]] ([[Conditions/Sickened 1|Sickened 2]] on a critical failure). A creature that succeeds at its saves is temporarily immune for 1 minute."
+    desc: " (aura,olfactory) 20 feet. A creature entering the aura or starting its turn in the aura must succeed at a DC 20 Fortitude check save or become [[Conditions/Sickened|Sickened 1]] ([[Conditions/Sickened|Sickened 2]] on a critical failure). A creature that succeeds at its saves is temporarily immune for 1 minute."
 
   - name: "Mount Steed"
     desc: "`pf2:r`  **Trigger** The Skinned Steed enters a space adjacent to the Kallas Devil\n* * *\n\n**Effect** The Kallas Devil mounts the horse."
@@ -105,10 +106,10 @@ attacks:
     desc: "`pf2:2`  **Requirements** The Kallas Devil is mounted on the Skinned Steed\n* * *\n\n**Effect** The Kallas Devil Strides twice. If she ends her movement within melee reach of at least one creature, she can make a melee Strike against that creature."
 
   - name: "Flay Alive"
-    desc: "`pf2:3` (attack) **Requirements** The Kallas Devil has a creature [[Conditions/Grabbed|Grabbed]], and it has been grabbed since her last turn.\n* * *\n\n**Effect** The Kallas Devil flays her prey, dealing 2d12 + 17 slashing damage, and the target must attempt a DC 25 Fortitude check save. On a failure, it becomes [[Conditions/Drained 1|Drained 1]] ([[Conditions/Drained 1|Drained 2]] on a critical failure). On a critical success, the creature escapes from being grabbed; otherwise, the Kallas Devil extends the grabbed condition until the end of her next turn."
+    desc: "`pf2:3` (attack) **Requirements** The Kallas Devil has a creature [[Conditions/Grabbed|Grabbed]], and it has been grabbed since her last turn.\n* * *\n\n**Effect** The Kallas Devil flays her prey, dealing 2d12+17 slashing damage, and the target must attempt a DC 25 Fortitude check save. On a failure, it becomes [[Conditions/Drained|Drained 1]] ([[Conditions/Drained|Drained 2]] on a critical failure). On a critical success, the creature escapes from being grabbed; otherwise, the Kallas Devil extends the grabbed condition until the end of her next turn."
 
   - name: "Sewer Haze"
-    desc: " (disease,virulent) Many healers and alchemists suspect that sewer haze has a supernatural origin, given its association with particularly strong otyughs.\n\n**Saving Throw** DC 23 Fortitude check\n\n**Onset** 2 days\n\n**Stage 1** [[Conditions/Stupefied 1|Stupefied 2]] (1 day)\n\n**Stage 2** [[Conditions/Drained 1|Drained 2]] and stupefied 2 (1 day)\n\n**Stage 3** [[Conditions/Drained 1|Drained 3]] and [[Conditions/Stupefied 1|Stupefied 3]] (1 day)"
+    desc: " (disease,virulent) Many healers and alchemists suspect that sewer haze has a supernatural origin, given its association with particularly strong otyughs.\n\n**Saving Throw** DC 23 Fortitude check\n\n**Onset** 2 days\n\n**Stage 1** [[Conditions/Stupefied|Stupefied 2]] (1 day)\n\n**Stage 2** [[Conditions/Drained|Drained 2]] and stupefied 2 (1 day)\n\n**Stage 3** [[Conditions/Drained|Drained 3]] and [[Conditions/Stupefied|Stupefied 3]] (1 day)"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

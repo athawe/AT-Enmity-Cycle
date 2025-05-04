@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.fists-of-the-ruby-phoenix-bestiary.Actor.gSlkZ86P3QrbM
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Weapon Master"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #166: Despair on Danger Island"
 name: "Weapon Master"
 level: "Creature 13"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 23
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Taldane, Tien"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +23, Athletics: +23, Athletics: +26, Intimidation: +22, Survival: +24, Warfare Lore: +23"
+    desc: "Acrobatics: +23, Athletics: +23, Intimidation: +22, Survival: +24, Warfare Lore: +23"
 abilityMods: [5, 2, 4, 2, 3, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder #166: Despair on Danger Island_"

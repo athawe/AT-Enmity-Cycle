@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/shadow
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Tenebric Giant"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #185: A Taste of Ashes"
 name: "Tenebric Giant"
 level: "Creature 17"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "shadow"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[shadow]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 31
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Jotun, Necril; telepathy (with its creator only) 100 feet"
 skills:
   - name: "Skills"
-    desc: "Athletics: +33, Intimidation: +30, Religion: +30, Stealth: +29 (+33 to Hide in Dim Light or Darkness)"
+    desc: "Athletics: +33, Intimidation: +30, Religion: +30, Stealth: +29"
 abilityMods: [9, 4, 9, 4, 7, 5]
 speed: 25 feet
 sourcebook: "_Pathfinder #185: A Taste of Ashes_"

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/hag
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Transformed Narcela (9-10)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-11: Prisoners of the Electric Castle"
 name: "Transformed Narcela (9-10)"
 level: "Creature 10"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "hag"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[hag]]
+trait_04: [[humanoid]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -71,7 +72,7 @@ attacks:
     desc: "`pf2:1` (concentrate,manipulate,occult) **Requirements** Narcela has a hand free\n\n**Effect** Narcela reaches into her chest and pulls out a crimson gem. This bloodstone is a lesser version of a night hag's heartstone; as long as she holds it, Narcela gains a +1 item bonus to Will saves."
 
   - name: "Scream of Spite"
-    desc: "`pf2:2` (auditory,emotion,mental,occult) Narcela lets out a scream laden with all her rage, spreading Aslynn's ritual transmogrifying magic to any creature that can hear her. All creatures within a 30-foot emanation must attempt a DC 29 Will check save; creatures with the hag trait are immune to this effect. Narcela can't use Scream of Spite again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Stunned 1|Stunned 1]] as it resists the effects.\n\n**Failure** The creature is [[Conditions/Confused|Confused]] for 1 round as it tries to keep its thoughts its own.\n\n**Critical Failure** The creature is confused for 1d4 rounds."
+    desc: "`pf2:2` (auditory,emotion,mental,occult) Narcela lets out a scream laden with all her rage, spreading Aslynn's ritual transmogrifying magic to any creature that can hear her. All creatures within a @Template[emanation|distance:30] must attempt a DC 29 Will check save; creatures with the hag trait are immune to this effect. Narcela can't use Scream of Spite again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Stunned|Stunned 1]] as it resists the effects.\n\n**Failure** The creature is [[Conditions/Confused|Confused]] for 1 round as it tries to keep its thoughts its own.\n\n**Critical Failure** The creature is confused for 1d4 rounds."
  
 ```
 

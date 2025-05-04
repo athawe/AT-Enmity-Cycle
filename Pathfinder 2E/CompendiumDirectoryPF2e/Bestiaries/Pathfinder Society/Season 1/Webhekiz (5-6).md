@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/fey
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Webhekiz (5-6)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #1-17: The Perennial Crown Part 2, The Thorned Monarch"
 name: "Webhekiz (5-6)"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "fey"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[fey]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Fey, Mwangi"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +11, Bhopan Lore: +17, Diplomacy: +13, Heraldry Lore: +15, Nature: +12, Society: +12"
+    desc: "Acrobatics: +11, Diplomacy: +13, Nature: +12, Society: +12, Bhopan Lore: +17, Heraldry Lore: +15"
 abilityMods: [3, 1, 1, 2, 2, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #1-17: The Perennial Crown Part 2, The Thorned Monarch_"

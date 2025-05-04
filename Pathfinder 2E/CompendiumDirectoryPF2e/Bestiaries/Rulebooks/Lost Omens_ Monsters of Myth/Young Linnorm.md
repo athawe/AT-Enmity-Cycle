@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/dragon
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Young Linnorm"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Monsters of Myth"
 name: "Young Linnorm"
 level: "Creature 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "dragon"
-trait_03: "evil"
+trait_01: [[chaotic]]
+trait_02: [[dragon]]
+trait_03: [[evil]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -69,10 +70,10 @@ attacks:
     desc: "`pf2:1` Tail +18 (agile, magical, reach 15 feet)\n__Damage__  2d8 + 9 bludgeoning plus improved-grab"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  2d8 + 4 bludgeoning damage, DC 25 Fortitude check save\n\n* * *\n"
+    desc: "`pf2:1`  2d8+4 bludgeoning damage, DC 25 Fortitude check save\n\n* * *\n"
 
   - name: "Young Linnorm Venom"
-    desc: " (poison) **Saving Throw** DC 25 Fortitude check\n\n**Maximum Duration** 10 rounds\n\n**Stage 1** 4d6 poison damage and [[Conditions/Drained 1|Drained 1]]"
+    desc: " (poison) **Saving Throw** DC 25 Fortitude check\n\n**Maximum Duration** 10 rounds\n\n**Stage 1** 4d6 poison damage and [[Conditions/Drained|Drained 1]]"
  
 ```
 

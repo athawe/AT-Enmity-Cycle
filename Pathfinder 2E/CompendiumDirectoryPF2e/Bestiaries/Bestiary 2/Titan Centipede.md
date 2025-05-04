@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.n1jTYFRCaqF1nQrf" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Titan Centipede"
@@ -23,7 +24,7 @@ level: "Creature 9"
 
 alignment: ""
 size: "grg"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ attacks:
     desc: "  When a titan centipede scores a critical hit with its mandibles, the target is painfully pierced with barbed spines and bristles, taking 1d6 bleed and becoming [[Conditions/Off-Guard|Off-Guard]] as long as the bleed damage continues."
 
   - name: "Titan Centipede Venom"
-    desc: " (poison) **Saving Throw** DC 28 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 2d6 poison damage and [[Conditions/Clumsy 1|Clumsy 2]] (1 round)\n\n**Stage 2** 2d8 poison damage, [[Conditions/Clumsy 1|Clumsy 2]], and [[Conditions/Slowed 1|Slowed 1]] (1 round)\n\n**Stage 3** 2d10 poison damage, [[Conditions/Clumsy 1|Clumsy 2]], and [[Conditions/Slowed 1|Slowed 2]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 28 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 2d6 poison damage and [[Conditions/Clumsy|Clumsy 2]] (1 round)\n\n**Stage 2** 2d8 poison damage, [[Conditions/Clumsy|Clumsy 2]], and [[Conditions/Slowed|Slowed 1]] (1 round)\n\n**Stage 3** 2d10 poison damage, [[Conditions/Clumsy|Clumsy 2]], and [[Conditions/Slowed|Slowed 2]] (1 round)"
 
   - name: "[[Bestiary Ability Glossary/Trample|Trample]]"
     desc: "`pf2:3`  Huge or smaller, foot, DC 28 Reflex check\n\n* * *\n"

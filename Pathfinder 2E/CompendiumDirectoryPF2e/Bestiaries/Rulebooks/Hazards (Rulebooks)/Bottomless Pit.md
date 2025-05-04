@@ -6,6 +6,7 @@ tags:
   - magical
   - mechanical
   - trap
+  - pf2eHazard
 
   - remaster
 source: Pathfinder GM Core
@@ -24,15 +25,15 @@ name: "Bottomless Pit"
 level: "Hazard 9"
 
 
-trait_01: "magical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 20
 sourcebook: "_Pathfinder GM Core_"
 ac: 28
 armorclass:
   - name: AC
-    desc: "28; __Fort__ +12, __Ref__ +12, __Will__ +0"
+    desc: "28; __Fort__ +12, __Ref__ +12, "
 hp: 36
 health:
   - name: ""

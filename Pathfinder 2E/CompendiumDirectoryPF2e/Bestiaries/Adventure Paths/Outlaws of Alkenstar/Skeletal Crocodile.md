@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/skeleton
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Skeletal Crocodile"
@@ -27,11 +28,11 @@ level: "Creature 8"
 
 alignment: ""
 size: "huge"
-trait_01: "evil"
-trait_02: "mindless"
-trait_03: "skeleton"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[evil]]
+trait_02: [[mindless]]
+trait_03: [[skeleton]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +20, Intimidation: +15"
+    desc: "Athletics: +22, Intimidation: +17"
 abilityMods: [7, 2, 4, -5, 2, 2]
 speed: 30 feet
 sourcebook: "_Pathfinder #180: The Smoking Gun_"

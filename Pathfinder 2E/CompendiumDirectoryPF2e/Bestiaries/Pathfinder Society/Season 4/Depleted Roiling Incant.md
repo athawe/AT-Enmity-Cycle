@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.zj9L3bvmhtnOilmf"
 tags:
   - pf2e/creature/type/arcane
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Depleted Roiling Incant"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-06: Signal from the Electric Laboratory"
 name: "Depleted Roiling Incant"
 level: "Creature 7"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "arcane"
-trait_02: "mindless"
+trait_01: [[arcane]]
+trait_02: [[mindless]]
 modifier: 12
 perception:
   - name: "Perception"

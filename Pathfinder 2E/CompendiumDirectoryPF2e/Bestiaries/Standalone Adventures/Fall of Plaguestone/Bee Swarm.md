@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.fall-of-plaguestone-bestiary.Actor.JtBjUnYz859krAVv"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Bee Swarm"
@@ -24,8 +25,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
-trait_02: "swarm"
+trait_01: [[animal]]
+trait_02: [[swarm]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ attacks:
   - name: ""
 
   - name: "Beestings"
-    desc: " (poison) The creature must attempt a DC 16 Fortitude check save. Those who fail take 1d4 poison damage and are [[Conditions/Clumsy 1|Clumsy 1]] for 1 minute."
+    desc: " (poison) The creature must attempt a DC 16 Fortitude check save. Those who fail take 1d4 poison damage and are [[Conditions/Clumsy|Clumsy 1]] for 1 minute."
 
   - name: "Swarming Stings"
     desc: "`pf2:1`  Each enemy in the swarm's space takes 1d4 piercing damage (DC 16 Reflex check save). The first time each round a creature fails the save and takes piercing damage, it also suffers the effect of beestings.\n\nWhenever the bee swarm uses this ability, the swarm takes 1 damage."

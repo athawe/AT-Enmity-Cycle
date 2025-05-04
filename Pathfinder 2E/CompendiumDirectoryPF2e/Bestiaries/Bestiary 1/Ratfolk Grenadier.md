@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/ratfolk
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Ratfolk Grenadier"
@@ -25,9 +26,9 @@ level: "Creature 4"
 
 alignment: ""
 size: "Small"
-trait_01: "humanoid"
-trait_02: "lawful"
-trait_03: "ratfolk"
+trait_01: [[humanoid]]
+trait_02: [[lawful]]
+trait_03: [[ratfolk]]
 modifier: 10
 perception:
   - name: "Perception"

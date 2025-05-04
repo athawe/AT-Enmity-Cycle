@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Lini (Level 3)
-creatures:
-  - 1: Lini (Level 3)
-```
-
 
 
 

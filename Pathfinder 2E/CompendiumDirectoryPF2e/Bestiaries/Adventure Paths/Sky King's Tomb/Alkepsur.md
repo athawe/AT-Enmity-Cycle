@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/spirit
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Alkepsur"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #193: Mantle of Gold"
 name: "Alkepsur"
 level: "Creature 1"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "dwarf"
-trait_02: "ghost"
-trait_03: "incorporeal"
-trait_04: "spirit"
-trait_05: "undead"
+trait_01: [[dwarf]]
+trait_02: [[ghost]]
+trait_03: [[incorporeal]]
+trait_04: [[spirit]]
+trait_05: [[undead]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Draconic, Dwarven, Gnomish, Hallit, Petran, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Dwarf Lore: +7, Intimidation: +6, Stealth: +7"
+    desc: "Intimidation: +6, Stealth: +7, Dwarf Lore: +7"
 abilityMods: [-5, 1, 2, 1, 4, 3]
 speed:  fly 20 feet
 sourcebook: "_Pathfinder #193: Mantle of Gold_"
@@ -73,7 +74,7 @@ attacks:
     desc: "`pf2:1` Ghostly Clan Dagger +8 (agile, finesse, magical)\n__Damage__  1d6 + 2 void"
 
   - name: "Ancient Anecdote"
-    desc: "`pf2:1` (auditory,linguistic,mental,occult) **Frequency** once per round\n* * *\n\n**Effect** Alkepsur banters with a creature within 60 feet while referencing a forgotten anecdote. The creature must attempt either a DC 18 Will check saving throw or DC 15 Dwarf Lore check check.\n\n**Success** The target is unaffected.\n\n**Failure** The target is [[Conditions/Stunned 1|Stunned 1]] as they try to decipher the reference.\n\n**Critical Failure** The anecdote makes the target [[Conditions/Confused|Confused]] and [[Conditions/Stupefied 1|Stupefied 2]] for 1 round."
+    desc: "`pf2:1` (auditory,linguistic,mental,occult) **Frequency** once per round\n* * *\n\n**Effect** Alkepsur banters with a creature within 60 feet while referencing a forgotten anecdote. The creature must attempt either a DC 18 Will check saving throw or DC 15 Dwarf Lore check check.\n\n**Success** The target is unaffected.\n\n**Failure** The target is [[Conditions/Stunned|Stunned 1]] as they try to decipher the reference.\n\n**Critical Failure** The anecdote makes the target [[Conditions/Confused|Confused]] and [[Conditions/Stupefied|Stupefied 2]] for 1 round."
  
 ```
 

@@ -30,6 +30,7 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, occult"
+
   - name: "Defense"
     desc: " fortitude"
 abilities_mid:

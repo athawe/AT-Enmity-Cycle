@@ -1944,6 +1944,11 @@
           "id": "ID_490bca4a693a",
           "color": "#e2ea77",
           "name": "red"
+        },
+        {
+          "id": "ID_796a399b4bf9",
+          "color": "#cc3fd3",
+          "name": "green"
         }
       ],
       "dateFormat": "MMMM-DD-YYYY"

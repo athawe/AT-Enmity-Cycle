@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/evil
   - pf2e/creature/type/soulbound
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Toilforged Sentinel"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #195: Heavy is the Crown"
 name: "Toilforged Sentinel"
 level: "Creature 8"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "construct"
-trait_02: "evil"
-trait_03: "soulbound"
+trait_01: [[construct]]
+trait_02: [[evil]]
+trait_03: [[soulbound]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Dwarven, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Athletics: +18, Droskar Lore: +15, Intimidation: +13"
+    desc: "Athletics: +18, Intimidation: +13, Droskar Lore: +15"
 abilityMods: [6, 3, 4, -1, 2, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder #195: Heavy is the Crown_"

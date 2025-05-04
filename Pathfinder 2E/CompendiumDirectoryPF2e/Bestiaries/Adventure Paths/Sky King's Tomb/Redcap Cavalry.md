@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Redcap Cavalry"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #194: Cult of the Cave Worm"
 name: "Redcap Cavalry"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fey"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fey]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -61,7 +62,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Divine Revulsion"
-    desc: " (emotion,fear,mental) If a redcap sees a creature brandish a religious symbol of a good deity (which requires an interact action by that creature) or use one to cast a divine spell, the redcap must attempt a DC 19 Will check save. It then becomes temporarily immune to all brandished religious symbols for 10 minutes.\n* * *\n\n**Critical Success** The redcap is unaffected\n\n**Success** The redcap is [[Conditions/Frightened 1|Frightened 2]]\n\n**Failure** The redcap gains the [[Conditions/Fleeing|Fleeing]] condition for 1 round and is [[Conditions/Frightened 1|Frightened 4]]"
+    desc: " (emotion,fear,mental) If a redcap sees a creature brandish a religious symbol of a good deity (which requires an interact action by that creature) or use one to cast a divine spell, the redcap must attempt a DC 19 Will check save. It then becomes temporarily immune to all brandished religious symbols for 10 minutes.\n* * *\n\n**Critical Success** The redcap is unaffected\n\n**Success** The redcap is [[Conditions/Frightened|Frightened 2]]\n\n**Failure** The redcap gains the [[Conditions/Fleeing|Fleeing]] condition for 1 round and is [[Conditions/Frightened|Frightened 4]]"
 
 attacks:
   - name: ""

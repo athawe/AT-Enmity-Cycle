@@ -28,6 +28,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
 abilities_mid:
   - name: ""
     desc: "**Trigger** You attempt a check to [[Actions/Recall Knowledge|Recall Knowledge]] about a creature, but you haven't rolled yet.\n* * *\n\nYou have a preternatural ability to remember details about your foes. Roll the triggering check twice and use the better result."

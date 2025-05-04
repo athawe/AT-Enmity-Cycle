@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.rrkjmcNlODuIpbz6"
 tags:
   - pf2e/creature/type/astral
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/21
 statblock: inline
 name: "Ouroboros"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Ouroboros"
 level: "Creature 21"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "astral"
-trait_02: "beast"
+trait_01: [[astral]]
+trait_02: [[beast]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -55,10 +56,10 @@ abilities_mid:
     desc: "`pf2:0`  Incalculable Fangs Only\n\nBecause the ouroboros contains an infinite number of snakes that act independently, its Attack of Opportunity is a free action (though it can still use only one per trigger).\n\n* * *\n"
 
   - name: "Sanguine Spray"
-    desc: "  When the ouroboros takes slashing or piercing damage, or when Devour Tail ends, blood gushes from the wound in a 15-foot cone. Each creature in the area takes 5d6 acid damage (DC 41 Reflex check save). A creature that takes any damage is exposed to the ouroboros's regenerative blood.\n\nWhere the blood falls upon ground, it coagulates into magical snakes that bite at anyone who passes. This is hazardous terrain deals 17 piercing damage and 5 poison damage to any non-ouroboros creature that moves through the square or ends its turn there. A creature that avoids all the piercing damage doesn't take the poison damage. After 1 hour, a blood patch permanently becomes a living snake, typically an [[Bestiary 2/Emperor Cobra|Emperor Cobra]]."
+    desc: "  When the ouroboros takes slashing or piercing damage, or when Devour Tail ends, blood gushes from the wound in a @Template[cone|distance:15]. Each creature in the area takes 5d6 acid damage (DC 41 Reflex check save). A creature that takes any damage is exposed to the ouroboros's regenerative blood.\n\nWhere the blood falls upon ground, it coagulates into magical snakes that bite at anyone who passes. This is hazardous terrain deals 17 piercing damage and 5 poison damage to any non-ouroboros creature that moves through the square or ends its turn there. A creature that avoids all the piercing damage doesn't take the poison damage. After 1 hour, a blood patch permanently becomes a living snake, typically an [[Bestiary 2/Emperor Cobra|Emperor Cobra]]."
 
   - name: "Unfathomable Infinity"
-    desc: " (aura,incapacitation,mental,visual) 100 feet. The ouroboros is the embodiment of perfect infinity, and this concept pulls at the threads of mortal minds, desperately straining the limits of their comprehension. When a creature ends its turn in the aura, it must attempt a DC 41 Will check save.\n\nThe creature is then temporarily immune for 1 minute.\n* * *\n\n**Critical Success** The creature is [[Conditions/Stupefied 1|Stupefied 1]] for 1 round.\n\n**Success** The creature is stupefied 1 for 1 minute.\n\n**Failure** The creature is stupefied 1 for 1 minute and [[Conditions/Stunned 1|Stunned 3]].\n\n**Critical Failure** The creature is [[Conditions/Stupefied 1|Stupefied 3]] and [[Conditions/Stunned 1|Stunned]], both for 1 minute."
+    desc: " (aura,incapacitation,mental,visual) 100 feet. The ouroboros is the embodiment of perfect infinity, and this concept pulls at the threads of mortal minds, desperately straining the limits of their comprehension. When a creature ends its turn in the aura, it must attempt a DC 41 Will check save.\n\nThe creature is then temporarily immune for 1 minute.\n* * *\n\n**Critical Success** The creature is [[Conditions/Stupefied|Stupefied 1]] for 1 round.\n\n**Success** The creature is stupefied 1 for 1 minute.\n\n**Failure** The creature is stupefied 1 for 1 minute and [[Conditions/Stunned|Stunned 3]].\n\n**Critical Failure** The creature is [[Conditions/Stupefied|Stupefied 3]] and [[Conditions/Stunned|Stunned]], both for 1 minute."
 
 attacks:
   - name: ""
@@ -76,7 +77,7 @@ attacks:
     desc: "`pf2:1` Tail +39 (magical, reach 30 feet)\n__Damage__  4d12 + 18 bludgeoning"
 
   - name: "Devour Tail"
-    desc: "`pf2:1`  An ouroboros spend most of its life eating its own tail, which perpetually regrows at the same rate it's consumed. The ouroboros places its maw around the end of its tail and begins devouring its own body.\n\nWhile the ouroboros is consuming itself, its regeneration can't be suppressed, and it is immune to [[Conditions/Drained 1|Drained]], [[Conditions/Enfeebled 1|Enfeebled]], [[Conditions/Fatigued|Fatigued]], [[Conditions/Persistent Damage|Persistent Damage]], and [[Conditions/Sickened 1|Sickened]] conditions. If any of these conditions is in effect when the ouroboros takes this action, the condition immediately ends.\n\nWhile eating its tail, the ouroboros can't make maw or tail strikes, and its Speeds are 50 feet. It continues devouring its tail even while [[Conditions/Dying 1|Dying]], [[Conditions/Unconscious|Unconscious]], [[Conditions/Stunned 1|Stunned]], or otherwise unable to act.\n\nTo end this effect, the ouroboros must first be [[Conditions/Immobilized|Immobilized]], then a creature must successfully [[Actions/Grapple|Grapple]] it, which tears the maw free in addition to its normal effects. The ouroboros can also cease Devouring its Tail with a single action. Either of these tears the maw free of the tail, causing the stump to spill blood as described in sanguine spray."
+    desc: "`pf2:1`  An ouroboros spend most of its life eating its own tail, which perpetually regrows at the same rate it's consumed. The ouroboros places its maw around the end of its tail and begins devouring its own body.\n\nWhile the ouroboros is consuming itself, its regeneration can't be suppressed, and it is immune to [[Conditions/Drained|Drained]], [[Conditions/Enfeebled|Enfeebled]], [[Conditions/Fatigued|Fatigued]], [[Conditions/Persistent Damage|Persistent Damage]], and [[Conditions/Sickened|Sickened]] conditions. If any of these conditions is in effect when the ouroboros takes this action, the condition immediately ends.\n\nWhile eating its tail, the ouroboros can't make maw or tail strikes, and its Speeds are 50 feet. It continues devouring its tail even while [[Conditions/Dying|Dying]], [[Conditions/Unconscious|Unconscious]], [[Conditions/Stunned|Stunned]], or otherwise unable to act.\n\nTo end this effect, the ouroboros must first be [[Conditions/Immobilized|Immobilized]], then a creature must successfully [[Actions/Grapple|Grapple]] it, which tears the maw free in addition to its normal effects. The ouroboros can also cease Devouring its Tail with a single action. Either of these tears the maw free of the tail, causing the stump to spill blood as described in sanguine spray."
 
   - name: "Fast Swallow"
     desc: "`pf2:r`  **Trigger** The ouroboros [[Conditions/Grabbed|Grabs]] a creature with their maw\n* * *\n\n**Effect** The ouroboros uses Swallow Whole."
@@ -85,10 +86,10 @@ attacks:
     desc: "`pf2:2`  **Requirements** The ouroboros is eating its own tail (see Devour Tail)\n* * *\n\n**Effect** As Trample, except the ouroboros can Fly up to double its Speed instead of Striding.\n\nHuge or smaller, body, DC 45 Reflex check\n\n* * *\n"
 
   - name: "Regenerative Blood"
-    desc: " (contact,curse,incapacitation,poison,polymorph,primal) The regenerative and transmutative properties of ouroboros blood regenerate and mutate a creature's body into ouroboros-like snakes. A creature already affected by regenerative blood is immune to additional exposure.\n\n**Saving Throw** DC 42 Fortitude check\n* * *\n\n**Maximum Duration** 24 hours\n\n**Stage 1** regeneration 5 (deactivated by fire), [[Conditions/Slowed 1|Slowed 1]], and [[Conditions/Clumsy 1|Clumsy 2]] (12 hours)\n\n**Stage 2** regeneration 5 (deactivated by fire), [[Conditions/Slowed 1|Slowed 2]] and [[Conditions/Clumsy 1|Clumsy 4]] (12 hours)\n\n**Stage 3** The creature's body transmutes into a mass of writhing snakes, with the effects an 8th-rank [[Spells/Animal Form|Animal Form]] spell but with an unlimited duration."
+    desc: " (contact,curse,incapacitation,poison,polymorph,primal) The regenerative and transmutative properties of ouroboros blood regenerate and mutate a creature's body into ouroboros-like snakes. A creature already affected by regenerative blood is immune to additional exposure.\n\n**Saving Throw** DC 42 Fortitude check\n* * *\n\n**Maximum Duration** 24 hours\n\n**Stage 1** regeneration 5 (deactivated by fire), [[Conditions/Slowed|Slowed 1]], and [[Conditions/Clumsy|Clumsy 2]] (12 hours)\n\n**Stage 2** regeneration 5 (deactivated by fire), [[Conditions/Slowed|Slowed 2]] and [[Conditions/Clumsy|Clumsy 4]] (12 hours)\n\n**Stage 3** The creature's body transmutes into a mass of writhing snakes, with the effects an 8th-rank [[Spells/Animal Form|Animal Form]] spell but with an unlimited duration."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Huge, 4d10 + 9 acid, Rupture 50\n\n* * *\n"
+    desc: "`pf2:1` (attack) Huge, 4d10+9 acid, Rupture 50\n\n* * *\n"
  
 ```
 

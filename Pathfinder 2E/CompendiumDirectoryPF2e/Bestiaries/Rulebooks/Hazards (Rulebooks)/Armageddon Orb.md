@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - magical
+  - pf2eHazard
 
   - remaster
 source: Pathfinder GM Core
@@ -22,13 +23,13 @@ name: "Armageddon Orb"
 level: "Hazard 23"
 
 
-trait_01: "magical"
+trait_01: [[magical]]
 modifier: 0
 sourcebook: "_Pathfinder GM Core_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

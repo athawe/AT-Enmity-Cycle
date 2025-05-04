@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/giant
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Athach"
@@ -26,10 +27,10 @@ level: "Creature 12"
 
 alignment: ""
 size: "huge"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "giant"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[giant]]
+trait_04: [[humanoid]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -77,7 +78,7 @@ attacks:
     desc: "`pf2:1` Rock +25 (brutal, range increment 120 feet)\n__Damage__  3d8 + 13 bludgeoning"
 
   - name: "Athach Venom"
-    desc: " (poison) **Saving Throw** DC 32 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 2d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 1]]\n\n**Stage 2** 2d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 2]]\n\n**Stage 3** 2d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 3]]"
+    desc: " (poison) **Saving Throw** DC 32 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 2d6 poison damage and [[Conditions/Enfeebled|Enfeebled 1]]\n\n**Stage 2** 2d6 poison damage and [[Conditions/Enfeebled|Enfeebled 2]]\n\n**Stage 3** 2d6 poison damage and [[Conditions/Enfeebled|Enfeebled 3]]"
 
   - name: "Swift Claw"
     desc: "`pf2:r`  **Trigger** The athach hits a creature with two fist Strikes\n* * *\n\n**Effect** The athach makes a claw Strike with no multiple attack penalty against the creature it hit with its fist Strikes. This claw attack does not increase the athach's multiple attack penalty."

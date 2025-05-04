@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/dream
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Somnalu Oculus"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Monsters of Myth"
 name: "Somnalu Oculus"
 level: "Creature 11"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "dream"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[dream]]
+trait_03: [[evil]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -57,7 +58,7 @@ abilities_mid:
     desc: "`pf2:r`  **Trigger** The Somnalu Oculus would be affected by a condition\n* * *\n\n**Effect** The Somnalu Oculus rapidly blinks, using dream wisps as an eyelid. The Somnalu Oculus attempts to counteract the source of the condition with a counteract modifier of +24 and a counteract rank of 8.\n\nIt can't use Clearing Blink again for 1d4 rounds."
 
   - name: "Scrutinizing Presence"
-    desc: " (aura,mental) 60 feet. The Somnalu Oculus scrutinizes creatures around it, causing them to falter with nervousness and self-doubt. Upon entering the emanation, a creature must attempt a DC 34 Will check save. On a failed save, the creature is [[Conditions/Stupefied 1|Stupefied 2]] for 1 round. Regardless of the result of the saving throw, the creature is temporarily immune to scrutinizing presence for 1 minute."
+    desc: " (aura,mental) 60 feet. The Somnalu Oculus scrutinizes creatures around it, causing them to falter with nervousness and self-doubt. Upon entering the emanation, a creature must attempt a DC 34 Will check save. On a failed save, the creature is [[Conditions/Stupefied|Stupefied 2]] for 1 round. Regardless of the result of the saving throw, the creature is temporarily immune to scrutinizing presence for 1 minute."
 
 attacks:
   - name: ""

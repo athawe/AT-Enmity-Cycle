@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.season-of-ghosts-bestiary.Actor.BK4gQmGPX4BW4hyb"
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/chaotic
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Bakeneko"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #197: Let the Leaves Fall"
 name: "Bakeneko"
 level: "Creature 3"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Small"
-trait_01: "beast"
-trait_02: "chaotic"
+trait_01: [[beast]]
+trait_02: [[chaotic]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ abilities_mid:
     desc: "  When a bakeneko is killed, they immediately reincarnate into a normal house cat who can never again become a bakeneko."
 
   - name: "Feel the Beat"
-    desc: "  Bakenekos love to dance. If a bakeneko begins their turn within 30 feet of a source of music, they become [[Conditions/Slowed 1|Slowed 1]] until the start of their next turn as they follow their compulsion to move to the rhythm of the tune by swishing their tail in time, stomping from one hind leg to the other, or clapping their front paws."
+    desc: "  Bakenekos love to dance. If a bakeneko begins their turn within 30 feet of a source of music, they become [[Conditions/Slowed|Slowed 1]] until the start of their next turn as they follow their compulsion to move to the rhythm of the tune by swishing their tail in time, stomping from one hind leg to the other, or clapping their front paws."
 
   - name: "Flammable"
     desc: "  Thanks to their high-fat diets, bakenekos secrete flammable oils from their skin that coats their fur. If a bakeneko takes any fire damage, their entire body lights up in flame, turning them into a furry fireball until the end of their next turn. While burning in this way, a bakeneko's Strikes inflict an additional 1d6 fire damage.\n\n[[Bestiary Effects/Effect_ Flammable|Effect: Flammable]]"

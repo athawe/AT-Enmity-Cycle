@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #178: Punks in a Powder Keg
 aliases: "Compendium.pf2e.outlaws-of-alkenstar-bestiary.Actor.CMTeUYpFwhN0CKs2" 
@@ -22,14 +23,14 @@ name: "Precarious Thunderstone Trap"
 level: "Hazard 1"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 5
 sourcebook: "_Pathfinder #178: Punks in a Powder Keg_"
 ac: 12
 armorclass:
   - name: AC
-    desc: "12; __Fort__ +7, __Ref__ +3, __Will__ +0"
+    desc: "12; __Fort__ +7, __Ref__ +3, "
 hp: 10
 health:
   - name: ""

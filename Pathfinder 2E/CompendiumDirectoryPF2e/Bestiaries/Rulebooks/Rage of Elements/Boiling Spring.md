@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/fire
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/13
   - remaster
 statblock: inline
@@ -27,10 +28,10 @@ level: "Creature 13"
 
 alignment: ""
 size: "Large"
-trait_01: "aquatic"
-trait_02: "elemental"
-trait_03: "fire"
-trait_04: "water"
+trait_01: [[aquatic]]
+trait_02: [[elemental]]
+trait_03: [[fire]]
+trait_04: [[water]]
 modifier: 23
 perception:
   - name: "Perception"
@@ -75,10 +76,10 @@ attacks:
     desc: "`pf2:1` Heat Wave +27 (fire, range increment 50 feet)\n__Damage__  3d12 fire"
 
   - name: "Freeze and Shatter"
-    desc: "  If the boiling spring is destroyed with cold damage, their body freezes over and explodes, sending out a wave of frigid air and ice shards that deal 4d6 piercing damage plus 4d6 cold damage to creatures in a 20-foot emanation (DC 36 Reflex check save)."
+    desc: "  If the boiling spring is destroyed with cold damage, their body freezes over and explodes, sending out a wave of frigid air and ice shards that deal 4d6 piercing damage plus 4d6 cold damage to creatures in a @Template[emanation|distance:20] (DC 36 Reflex check save)."
 
   - name: "Scalding Breath"
-    desc: "`pf2:2` (fire,primal) The boiling spring breathes out a cloud of steam in a 30-foot cone that deals 14d6 fire damage to each creature in the area (DC 33 Reflex check save). The boiling spring can't use Scalding Breath again for 1d4 rounds."
+    desc: "`pf2:2` (fire,primal) The boiling spring breathes out a cloud of steam in a @Template[cone|distance:30] that deals 14d6 fire damage to each creature in the area (DC 33 Reflex check save). The boiling spring can't use Scalding Breath again for 1d4 rounds."
  
 ```
 

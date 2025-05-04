@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/ghoul
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Ghoul Gnawer"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #184: The Ghouls Hunger"
 name: "Ghoul Gnawer"
 level: "Creature 11"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "ghoul"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[ghoul]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Chthonian, Common, Draconic, Kelish, Necril"
 skills:
   - name: "Skills"
-    desc: "Arcana: +21, Crafting: +21, Deception: +23, Diplomacy: +23, Intimidation: +23, Kabriri Lore: +21, Occultism: +21, Secret Eater Lore: +21, Stealth: +19"
+    desc: "Arcana: +21, Crafting: +21, Deception: +23, Diplomacy: +23, Intimidation: +23, Occultism: +21, Stealth: +19, Kabriri Lore: +21, Secret Eater Lore: +21"
 abilityMods: [1, 3, 1, 5, 3, 7]
 speed: 30 feet
 sourcebook: "_Pathfinder #184: The Ghouls Hunger_"

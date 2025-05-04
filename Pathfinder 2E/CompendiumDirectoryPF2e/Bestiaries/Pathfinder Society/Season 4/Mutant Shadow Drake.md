@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/dragon
   - pf2e/creature/type/evil
   - pf2e/creature/type/shadow
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Mutant Shadow Drake"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-13: Within the Prairies"
 name: "Mutant Shadow Drake"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "tiny"
-trait_01: "chaotic"
-trait_02: "dragon"
-trait_03: "evil"
-trait_04: "shadow"
+trait_01: [[chaotic]]
+trait_02: [[dragon]]
+trait_03: [[evil]]
+trait_04: [[shadow]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -77,7 +78,7 @@ attacks:
     desc: "`pf2:2`  The shadow drake makes one bite Strike and two tail Strikes in any order."
 
   - name: "Shadow Breath"
-    desc: "`pf2:2` (arcane,cold,shadow) A shadow drake spits a ball of black liquid that explodes into a cloud of frigid black shadow. This attack has a range of 40 feet and explodes in a 5-foot-radius burst. Creatures within the burst take 3d6 + 4 cold damage (DC 20 Reflex check save). The explosion of shadow also snuffs out mundane light sources the size of a torch, lantern, or smaller, and attempts to counteract magical light with a +10 counteract modifier.\n\nThe shadow drake can't use Shadow Breath again for 1d6 rounds."
+    desc: "`pf2:2` (arcane,cold,shadow) A shadow drake spits a ball of black liquid that explodes into a cloud of frigid black shadow. This attack has a range of 40 feet and explodes in a 5-foot-radius burst. Creatures within the burst take 3d6+4 cold damage (DC 20 Reflex check save). The explosion of shadow also snuffs out mundane light sources the size of a torch, lantern, or smaller, and attempts to counteract magical light with a +10 counteract modifier.\n\nThe shadow drake can't use Shadow Breath again for 1d6 rounds."
 
   - name: "Speed Surge"
     desc: "`pf2:1`  **Frequency** three times per day\n* * *\n\n**Effect** The shadow drake Strides or Flies twice."

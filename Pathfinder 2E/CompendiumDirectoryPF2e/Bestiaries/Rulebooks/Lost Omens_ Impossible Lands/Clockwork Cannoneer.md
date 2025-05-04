@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/clockwork
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Clockwork Cannoneer"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Impossible Lands"
 name: "Clockwork Cannoneer"
 level: "Creature 15"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "clockwork"
-trait_02: "construct"
-trait_03: "mindless"
+trait_01: [[clockwork]]
+trait_02: [[construct]]
+trait_03: [[mindless]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -66,13 +67,13 @@ attacks:
     desc: "`pf2:1` Cannonball +29 (range increment 100 feet)\n__Damage__  6d12 bludgeoning"
 
   - name: "Bombard"
-    desc: "`pf2:2` (fire) The clockwork cannoneer launches an explosive shot up to a range of 200 feet that explodes in a 20-foot burst. Creatures within the burst take 5d10 bludgeoning damage (DC 36 Reflex check)."
+    desc: "`pf2:2` (fire) The clockwork cannoneer launches an explosive shot up to a range of 200 feet that explodes in a @Template[burst|distance:20]. Creatures within the burst take 5d10 bludgeoning damage (DC 36 Reflex check)."
 
   - name: "Muzzleburn"
     desc: "  The heat from a discharged cannon sears those who touch its metal shell. The clockwork cannoneer's bore Strike deal an additional 2d6 fire damage until the end of its next turn after it makes a cannonball Strike or uses its Bombard or Powder Blast abilities."
 
   - name: "Powder Blast"
-    desc: "`pf2:2` (fire) The clockwork cannoneer spews flames from one of its cannons, dealing 8d6 fire damage in a 30-foot cone (DC 36 Reflex check). Those that fail the save also take 2d6 persistent fire damage."
+    desc: "`pf2:2` (fire) The clockwork cannoneer spews flames from one of its cannons, dealing 8d6 fire damage in a @Template[cone|distance:30] (DC 36 Reflex check). Those that fail the save also take 2d6 persistent fire damage."
  
 ```
 

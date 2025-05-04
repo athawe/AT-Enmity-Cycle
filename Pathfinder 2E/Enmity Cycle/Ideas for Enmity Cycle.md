@@ -16,7 +16,8 @@
 - I'll wash my beard in your blood!
 
 - Maybe the reason I don't find that the group engages with the world to the extent that I wish they did is because they are presented with areas that don't feel like they need heroes. If things are fine and dandy, who needs heroes?
-
+- https://pathfinderwiki.com/wiki/Armun_Kelisk is nearby 
+- https://pathfinderwiki.com/wiki/Concordance_of_Elements_(faction) - would have opinions on the use and access to ley lines, depending on if the party pursues it.
 ## Lamasara House Rules 
 - Everyone is making characters at level 4 for this game, expecting to pass level 6 by the end. I'll be adding in some extra content, but not a ton. Please build short backstories for your characters, using details on the local area as well as the backstory starters below.
 - This adventure takes place in the desert nation of [Thuvia](https://pathfinderwiki.com/wiki/Thuvia). There are 5 main settlements here, each with distinct culture. You'll likely be someone from one of them unless you wish to be from somewhere else in the [Golden Road](https://pathfinderwiki.com/wiki/Golden_Road) subregion. Still, the adventure starts in Lamasara, so if you're not from there then you need to have a reason for why you've come. 

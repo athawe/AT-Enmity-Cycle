@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/giant
   - pf2e/creature/type/good
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Wood Giant"
@@ -26,10 +27,10 @@ level: "Creature 6"
 
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "giant"
-trait_03: "good"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[giant]]
+trait_03: [[good]]
+trait_04: [[humanoid]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Fey, Jotun; speak with animals"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +13, Athletics: +15, Forest Lore: +14, Nature: +14, Stealth: +13 (+15 in forests), Survival: +13"
+    desc: "Acrobatics: +13, Athletics: +15, Nature: +14, Stealth: +13, Survival: +13, Forest Lore: +14"
 abilityMods: [5, 5, 4, 2, 3, 1]
 speed: 35 feet
 sourcebook: "_Pathfinder Bestiary 2_"

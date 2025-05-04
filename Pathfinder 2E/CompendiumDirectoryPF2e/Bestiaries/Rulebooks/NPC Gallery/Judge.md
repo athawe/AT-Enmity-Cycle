@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Judge"
@@ -25,9 +26,9 @@ level: "Creature -1"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
-trait_03: "lawful"
+trait_01: [[human]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Deception: +8, Diplomacy: +12, Intimidation: +12, Legal Lore: +16, Society: +14"
+    desc: "Deception: +8, Diplomacy: +12, Intimidation: +12, Society: +14, Legal Lore: +16"
 abilityMods: [0, -1, 1, 4, 4, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

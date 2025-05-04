@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - magical
+  - pf2eHazard
   - complex
 source: Pathfinder Lost Omens: Impossible Lands
 aliases: "Compendium.pf2e.lost-omens-impossible-lands-bestiary.Actor.FrLxEXUPE3mMLrYN" 
@@ -22,8 +23,8 @@ name: "Mana Whorl"
 level: "Hazard 7"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "magical"
+trait_01: [[environmental]]
+trait_02: [[magical]]
 modifier: 4
 sourcebook: "_Pathfinder Lost Omens: Impossible Lands_"
 perception:

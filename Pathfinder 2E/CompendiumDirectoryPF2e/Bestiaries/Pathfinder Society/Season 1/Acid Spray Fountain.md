@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #1-00: Origin of the Open Road
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.mhKK0mhhI9V3OiUQ" 
@@ -22,14 +23,14 @@ name: "Acid Spray Fountain"
 level: "Hazard 6"
 
 trait_06: "Complex"
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 16
 sourcebook: "_Pathfinder Society Scenario #1-00: Origin of the Open Road_"
 ac: 24
 armorclass:
   - name: AC
-    desc: "24; __Fort__ +14, __Ref__ +13, __Will__ +0"
+    desc: "24; __Fort__ +14, __Ref__ +13, "
 hp: 56
 health:
   - name: ""

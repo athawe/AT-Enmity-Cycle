@@ -28,8 +28,7 @@ abilities_top:
   - name: "Traditions"
     desc: "arcane, occult"
   - name: "Range"
-    desc: "30 feet; 1 cube 20 feet on each side; **Area** 20-foot cube
-"
+    desc: "30 feet; 1 cube 20 feet on each side; **Area** 20-foot cube"
   - name: "Defense"
     desc: " reflex"
   - name: "Duration"

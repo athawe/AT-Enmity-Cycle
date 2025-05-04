@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.r3EXyntNIazKf2gP"
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/3
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Large"
-trait_01: "mindless"
-trait_02: "ooze"
+trait_01: [[mindless]]
+trait_02: [[ooze]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -34,7 +35,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +11 (+13 to Shove)"
+    desc: "Athletics: +11"
 abilityMods: [4, -5, 5, -5, 0, -5]
 speed: 20 feet
 sourcebook: "_Pathfinder Monster Core_"

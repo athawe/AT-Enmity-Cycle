@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.wHQmyXnG4Yax4KcK" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Enormous Dragonfly"
@@ -23,7 +24,7 @@ level: "Creature 9"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +17 (+19 to Maneuver in Flight), Athletics: +19, Stealth: +19"
+    desc: "Acrobatics: +17, Athletics: +19, Stealth: +19"
 abilityMods: [6, 4, 2, -5, 3, 0]
 speed: 20 feet,  fly 60 feet
 sourcebook: "_Pathfinder Kingmaker_"

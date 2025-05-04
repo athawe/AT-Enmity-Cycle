@@ -24,6 +24,7 @@ abilities_top:
     desc: "1 hour; **Cost** incense worth 50 gp"
   - name: "Primary Check"
     desc: "Arcana or Occultism (expert); **Secondary Checks** Survival"
+
   - name: "Duration"
     desc: "up to 10 minutes"
 abilities_mid:

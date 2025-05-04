@@ -36,7 +36,9 @@ abilities_top:
     desc: "arcane, primal"
   - name: "Cast"
     desc: "2 to 2 rounds"
-**Area** 30-foot cone
+
+  - name: "Area"
+    desc: "30-foot cone"
   - name: "Defense"
     desc: "basic reflex"
 abilities_mid:

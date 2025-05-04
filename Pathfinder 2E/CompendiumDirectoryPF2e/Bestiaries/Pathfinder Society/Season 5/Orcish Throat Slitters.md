@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/orc
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Orcish Throat Slitters"
@@ -25,9 +26,9 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "orc"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[orc]]
 modifier: 12
 perception:
   - name: "Perception"

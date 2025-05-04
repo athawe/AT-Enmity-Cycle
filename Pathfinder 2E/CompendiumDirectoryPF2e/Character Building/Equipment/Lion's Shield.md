@@ -22,7 +22,7 @@ This steel shield (Hardness 6, HP 36, BT 18) is forged into the shape of a roari
 
 * * *
 
-**Activate—Lion’s Bite** `pf2:1` (manipulate)
+**Activate—Lion's Bite** `pf2:1` (manipulate)
 
 **Frequency** once per day
 

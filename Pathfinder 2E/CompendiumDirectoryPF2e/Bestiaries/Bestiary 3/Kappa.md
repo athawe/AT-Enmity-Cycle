@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/beast
   - pf2e/creature/type/chaotic
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Kappa"
@@ -25,9 +26,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "amphibious"
-trait_02: "beast"
-trait_03: "chaotic"
+trait_01: [[amphibious]]
+trait_02: [[beast]]
+trait_03: [[chaotic]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Thalassic"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8, Athletics: +7 (+9 to Grapple), Medicine: +9, Survival: +7"
+    desc: "Acrobatics: +8, Athletics: +7, Medicine: +9, Survival: +7"
 abilityMods: [3, 4, 1, 1, 3, 1]
 speed: 15 feet,  swim 40 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -54,7 +55,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Head Bowl"
-    desc: "  The depression atop a kappa's head is filled with water. Spilling, evaporating, or otherwise removing all of the water from the top of a kappa's head reduces all their Speeds to 5 feet until the basin is again filled with water.\n\nA kappa who becomes [[Conditions/Prone|Prone]] must succeed at a DC 15 Reflex check save or spill their water, and a kappa who becomes unconscious automatically spills their water.\n\nIf a kappa is [[Conditions/Grabbed|Grappled]], [[Conditions/Restrained|Restrained]], or [[Conditions/Stunned 1|Stunned]], another creature can attempt to spill the water from their bowl by spending a single action, which has the attack and manipulate traits, to attempt an Athletics check against the kappa's Fortitude DC. On a success, the creature spills the kappa's water."
+    desc: "  The depression atop a kappa's head is filled with water. Spilling, evaporating, or otherwise removing all of the water from the top of a kappa's head reduces all their Speeds to 5 feet until the basin is again filled with water.\n\nA kappa who becomes [[Conditions/Prone|Prone]] must succeed at a DC 15 Reflex check save or spill their water, and a kappa who becomes unconscious automatically spills their water.\n\nIf a kappa is [[Conditions/Grabbed|Grappled]], [[Conditions/Restrained|Restrained]], or [[Conditions/Stunned|Stunned]], another creature can attempt to spill the water from their bowl by spending a single action, which has the attack and manipulate traits, to attempt an Athletics check against the kappa's Fortitude DC. On a success, the creature spills the kappa's water."
 
 attacks:
   - name: ""

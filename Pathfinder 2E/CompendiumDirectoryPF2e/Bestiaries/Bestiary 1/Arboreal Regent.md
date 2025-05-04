@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.c6AE2Mh8BRtBgbtz"
 tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Arboreal Regent"
@@ -24,8 +25,8 @@ level: "Creature 8"
 
 alignment: ""
 size: "huge"
-trait_01: "good"
-trait_02: "plant"
+trait_01: [[good]]
+trait_02: [[plant]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Arboreal, Common, Fey; speak with plants"
 skills:
   - name: "Skills"
-    desc: "Athletics: +19, Diplomacy: +16, Intimidation: +16, Nature: +18, Stealth: +11 (+21 in forests)"
+    desc: "Athletics: +19, Diplomacy: +16, Intimidation: +16, Nature: +18, Stealth: +11"
 abilityMods: [7, -1, 6, 1, 4, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary_"

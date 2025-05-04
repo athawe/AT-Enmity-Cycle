@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Bhuta"
@@ -26,10 +27,10 @@ level: "Creature 11"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "incorporeal"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[incorporeal]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 22
 perception:
   - name: "Perception"

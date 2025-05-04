@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/lizardfolk
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Terwa Chosen"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #171: Hurricane&#x27;s Howl"
 name: "Terwa Chosen"
 level: "Creature 8"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
-trait_02: "lawful"
-trait_03: "lizardfolk"
+trait_01: [[humanoid]]
+trait_02: [[lawful]]
+trait_03: [[lizardfolk]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Iruxi"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +16, Astrology Lore: +14, Athletics: +18, Diplomacy: +14, Intimidation: +14, Religion: +18"
+    desc: "Acrobatics: +16, Athletics: +18, Diplomacy: +14, Intimidation: +14, Religion: +18, Astrology Lore: +14"
 abilityMods: [6, 4, 4, 0, 4, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder #171: Hurricane&#x27;s Howl_"

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/elemental
   - pf2e/creature/type/genie
+  - pf2eMonster
   - pf2e/creature/level/12
   - remaster
 statblock: inline
@@ -23,12 +24,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Rage of Elements"
 name: "Jabali Shuyookh"
 level: "Creature 12"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "earth"
-trait_02: "elemental"
-trait_03: "genie"
+trait_01: [[earth]]
+trait_02: [[elemental]]
+trait_03: [[genie]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -86,7 +87,7 @@ attacks:
     desc: " (arcane,earth) When the jabali Pushes a creature into a stone barrier, the surface grips it with fingers of stone. The target must succeed at a DC 30 Reflex check save or become [[Conditions/Grabbed|Grabbed]] by the surface ([[Actions/Escape|Escape]] DC 36)."
 
   - name: "Stone Crush"
-    desc: "`pf2:1` (arcane,earth) The jabali deals 2d6 + 13 bludgeoning damage to all creatures within 100 feet that are [[Conditions/Grabbed|Grabbed]] by stone clutch, with a DC 32 Fortitude check save."
+    desc: "`pf2:1` (arcane,earth) The jabali deals 2d6+13 bludgeoning damage to all creatures within 100 feet that are [[Conditions/Grabbed|Grabbed]] by stone clutch, with a DC 32 Fortitude check save."
 
   - name: "[[Bestiary Ability Glossary/Push|Push 15 feet]]"
     desc: "`pf2:1`  "

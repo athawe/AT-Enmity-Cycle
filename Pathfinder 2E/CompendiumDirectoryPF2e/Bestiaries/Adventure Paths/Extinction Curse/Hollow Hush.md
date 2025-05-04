@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Hollow Hush"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #155: Lord of the Black Sands"
 name: "Hollow Hush"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -69,7 +70,7 @@ attacks:
     desc: "`pf2:3`  Hollow Hush casts up to three spells chosen from its at-will innate spells and its emotional focus spells."
 
   - name: "Feed on Emotion"
-    desc: "`pf2:1` (attack,emotion,incapacitation,mental) **Frequency** once per round\n* * *\n\n**Effect** Hollow Hush feeds on the emotional unrest of a single creature within 30 feet that's currently affected by an emotion effect. The target must succeed at a DC 41 Will check save or take 5d10 mental damage and be [[Conditions/Stunned 1|Stunned]] for 1 round. If the target fails its saving throw, Hollow Hush regains the same number of Hit Points and Feed on Emotion does not cost Hollow Hush an action, allowing it to use another action this turn."
+    desc: "`pf2:1` (attack,emotion,incapacitation,mental) **Frequency** once per round\n* * *\n\n**Effect** Hollow Hush feeds on the emotional unrest of a single creature within 30 feet that's currently affected by an emotion effect. The target must succeed at a DC 41 Will check save or take 5d10 mental damage and be [[Conditions/Stunned|Stunned]] for 1 round. If the target fails its saving throw, Hollow Hush regains the same number of Hit Points and Feed on Emotion does not cost Hollow Hush an action, allowing it to use another action this turn."
 
   - name: "Rapid Strikes"
     desc: "`pf2:2`  Hollow Hush attempts three claw Strikes, each against a different target within reach. The multiple attack penalty applies to each attack, but increases only after all the attacks have been made."

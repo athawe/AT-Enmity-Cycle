@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/22
 statblock: inline
 name: "Risen Fetch"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Risen Fetch"
 level: "Creature 22"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fey"
-trait_04: "plant"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fey]]
+trait_04: [[plant]]
 modifier: 38
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ attacks:
     desc: "`pf2:1` Fetch Weapon +41 (agile, magical, versatile b, versatile p)\n__Damage__  4d8 + 18 slashing 4d6 mental"
 
   - name: "Primal Innate Spells"
-    desc: "DC 45, attack +37; __10th __  _[[Spells/Alter Reality|Alter Reality]]_; __9th __  _[[Spells/Duplicate Foe|Duplicate Foe]]_, _[[Spells/Overwhelming Presence|Overwhelming Presence]]_, _[[Spells/Telepathic Demand|Telepathic Demand]]_, _[[Spells/Weird|Weird]]_; __8th __  _[[Spells/Duplicate Foe|Duplicate Foe]]_, _[[Spells/Spirit Song|Spirit Song]]_, _[[Spells/Suggestion|Suggestion]]_; __7th __  _[[Spells/Duplicate Foe|Duplicate Foe]]_, _[[Spells/Interplanar Teleport|Plane Shift (to or from the First World only)]]_; __3rd __  _[[Spells/Illusory Disguise|Illusory Disguise (At Will)]]_\n__Cantrips__  __(1st)__ _[[Spells/Read Aura|Read Aura]]_, _[[Spells/Telekinetic Projectile|Telekinetic Projectile]]_\n__Constant__  __(9th)__ _[[Spells/Air Walk|Air Walk]]_, _[[Spells/Truespeech|Tongues]]_, _[[Spells/Truesight|True Seeing]]_"
+    desc: "DC 45, attack +37; __10th __  _[[Spells/Alter Reality|Alter Reality]]_; __9th __  _[[Spells/Duplicate Foe|Duplicate Foe]]_, _[[Spells/Overwhelming Presence|Overwhelming Presence]]_, _[[Spells/Telepathic Demand|Telepathic Demand]]_, _[[Spells/Weird|Weird]]_; __8th __  _[[Spells/Duplicate Foe|Duplicate Foe]]_, _[[Spells/Spirit Song|Spirit Song]]_, _[[Spells/Suggestion|Suggestion]]_; __7th __  _[[Spells/Duplicate Foe|Duplicate Foe]]_, _[[Spells/Interplanar Teleport|Plane Shift (to or from the First World only)]]_; __3rd __  _[[Spells/Illusory Disguise|Illusory Disguise (At Will)]]_\n__Cantrips__  __(10th)__ _[[Spells/Read Aura|Read Aura]]_, _[[Spells/Telekinetic Projectile|Telekinetic Projectile]]_\n__Constant__  __(9th)__ _[[Spells/Air Walk|Air Walk]]_, _[[Spells/Truespeech|Tongues]]_, _[[Spells/Truesight|True Seeing]]_"
 
   - name: "Duplicate Victim"
     desc: "`pf2:r` (occult) **Trigger** The risen fetch critically hits a humanoid target with a fetch weapon Strike and has a [[Spells/Duplicate Foe|Duplicate Foe]] spell available\n\n**Effect** The risen fetch casts _duplicate foe_ on the target, who takes a -4 status penalty on the saving throw to resist."

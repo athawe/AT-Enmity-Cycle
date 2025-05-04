@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/phantom
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Phantom Gecko"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #196: The Summer That Never Was"
 name: "Phantom Gecko"
 level: "Creature 1"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "ethereal"
-trait_02: "evil"
-trait_03: "incorporeal"
-trait_04: "phantom"
-trait_05: "spirit"
+trait_01: [[ethereal]]
+trait_02: [[evil]]
+trait_03: [[incorporeal]]
+trait_04: [[phantom]]
+trait_05: [[spirit]]
 modifier: 5
 perception:
   - name: "Perception"

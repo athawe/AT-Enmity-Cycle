@@ -26,10 +26,10 @@ level: "Creature 6"
 
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "giant"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[giant]]
+trait_04: [[humanoid]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -37,7 +37,7 @@ perception:
 languages: "Jotun"
 skills:
   - name: "Skills"
-    desc: "Athletics: +18, Intimidation: +14"
+    desc: ""
 abilityMods: [6, 3, 5, -2, 3, 2]
 speed: 35 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -72,7 +72,7 @@ attacks:
     desc: "`pf2:1` Rock +16 (brutal, range increment 120 feet)\n__Damage__  2d6 + 10 bludgeoning plus rock"
 
   - name: "Smear"
-    desc: "`pf2:2` (attack) **Requirements** The cave giant is within reach of a creature that is adjacent to a wall or other solid vertical surface\n* * *\n\n**Effect** The cave giant snags the creature and smashes it against the wall. The giant attempts an Athletics check check against the target's Reflex DC. On a success, the cave giant [[Bestiary Ability Glossary/Grab|Grabs]] the creature and smears it along the nearby wall, dealing 2d8 + 8 bludgeoning damage. On a critical success, the damage is doubled."
+    desc: "`pf2:2` (attack) **Requirements** The cave giant is within reach of a creature that is adjacent to a wall or other solid vertical surface\n* * *\n\n**Effect** The cave giant snags the creature and smashes it against the wall. The giant attempts an Athletics check check against the target's Reflex DC. On a success, the cave giant [[Bestiary Ability Glossary/Grab|Grabs]] the creature and smears it along the nearby wall, dealing 2d8+8 bludgeoning damage. On a critical success, the damage is doubled."
 
   - name: "[[Bestiary Ability Glossary/Throw Rock|Throw Rock]]"
     desc: "`pf2:1`  "

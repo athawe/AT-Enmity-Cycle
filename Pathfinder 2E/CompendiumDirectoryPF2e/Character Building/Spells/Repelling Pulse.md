@@ -27,7 +27,9 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "divine, occult"
-**Area** 30-foot emanation
+
+  - name: "Area"
+    desc: "30-foot emanation"
   - name: "Defense"
     desc: " reflex"
 abilities_mid:

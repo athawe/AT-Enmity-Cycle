@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.NoOG4QIbIEBWKk1I"
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Soul Slime"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #186: Ghost King&#x27;s Rage"
 name: "Soul Slime"
 level: "Creature 18"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "mindless"
-trait_02: "ooze"
+trait_01: [[mindless]]
+trait_02: [[ooze]]
 modifier: 27
 perception:
   - name: "Perception"
@@ -64,7 +65,7 @@ attacks:
     desc: "`pf2:r`  **Trigger** The soul slime takes physical damage\n* * *\n\n**Effect** The impact causes the soul slime to release a burst of semi-digested soul fragments. The soul slime becomes [[Conditions/Concealed|Concealed]] until the beginning of its next turn. The soul slime can't use this concealment to Hide or [[Actions/Sneak|Sneak]]."
 
   - name: "Disturbing Wail"
-    desc: "`pf2:2` (auditory,mental) **Requirements** The soul slime is using Soul Facsimile to adopt a creature's form\n* * *\n\n**Effect** The soul slime releases an incoherent wail composed of countless overlapping noises made by the creatures whose souls it has siphoned. This disturbing cacophony deals 6d10 mental damage and 6d10 sonic damage to each creature in a 30-foot-radius burst centered on the soul slime (DC 37 Will check). On a failed save, a creature is additionally [[Conditions/Stunned 1|Stunned 2]]. The soul slime can't use Disturbing Wail again for 1d4 rounds."
+    desc: "`pf2:2` (auditory,mental) **Requirements** The soul slime is using Soul Facsimile to adopt a creature's form\n* * *\n\n**Effect** The soul slime releases an incoherent wail composed of countless overlapping noises made by the creatures whose souls it has siphoned. This disturbing cacophony deals 6d10 mental damage and 6d10 sonic damage to each creature in a 30-foot-radius burst centered on the soul slime (DC 37 Will check). On a failed save, a creature is additionally [[Conditions/Stunned|Stunned 2]]. The soul slime can't use Disturbing Wail again for 1d4 rounds."
 
   - name: "[[Bestiary Ability Glossary/Engulf|Engulf]]"
     desc: "`pf2:2`  DC 40 Reflex check, 5d10 bludgeoning damage, Escape DC 40, Rupture 20\n\n* * *\n"

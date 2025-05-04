@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
   - pf2e/creature/type/sprite
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Pixie"
@@ -25,9 +26,9 @@ level: "Creature 4"
 
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "fey"
-trait_03: "sprite"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
+trait_03: [[sprite]]
 modifier: 12
 perception:
   - name: "Perception"

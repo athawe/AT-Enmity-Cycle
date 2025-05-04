@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.rage-of-elements-bestiary.Actor.YWFBlSODRkWD60Je"
 tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/13
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 13"
 
 alignment: ""
 size: "huge"
-trait_01: "air"
-trait_02: "elemental"
+trait_01: [[air]]
+trait_02: [[elemental]]
 modifier: 20
 perception:
   - name: "Perception"
@@ -71,13 +72,13 @@ attacks:
     desc: "`pf2:1`  The picture-in-clouds shifts into their choice of an eagle shape, elephant shape, or sword shape."
 
   - name: "Elephant Blast"
-    desc: "`pf2:2`  **Requirements** The picture-in-clouds is in elephant shape\n* * *\n\n**Effect** The picture-in-clouds breathes out a 30-foot cone of air from their cloudy trunk. Creatures in the area must attempt a DC 30 Fortitude check save to stand their ground. A creature pushed into a solid object stops moving and takes 4d10 bludgeoning damage.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is pushed 20 feet.\n\n**Failure** The creature is pushed 40 feet.\n\n**Critical Failure** The creature is pushed 40 feet and knocked [[Conditions/Prone|Prone]]."
+    desc: "`pf2:2`  **Requirements** The picture-in-clouds is in elephant shape\n* * *\n\n**Effect** The picture-in-clouds breathes out a @Template[cone|distance:30] of air from their cloudy trunk. Creatures in the area must attempt a DC 30 Fortitude check save to stand their ground. A creature pushed into a solid object stops moving and takes 4d10 bludgeoning damage.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is pushed 20 feet.\n\n**Failure** The creature is pushed 40 feet.\n\n**Critical Failure** The creature is pushed 40 feet and knocked [[Conditions/Prone|Prone]]."
 
   - name: "Feather Storm"
     desc: "`pf2:2` (move) **Requirements** The picture-in-clouds is in eagle shape\n* * *\n\n**Effect** The picture-in-clouds Flies 125 feet, flapping their wings and creating a barrier along their path. This barrier has the effects of [[Spells/Wall of Wind|Wall of Wind]] (DC 30 Fortitude check) and lasts until the end of the picture-in-clouds's next turn."
 
   - name: "Slicing Wind"
-    desc: "`pf2:1`  **Requirements** The picture-in-clouds is in sword shape\n* * *\n\n**Effect** The picture-in-clouds spins, forming a whirlwind that deals 5d8 slashing damage in a 15-foot emanation (DC 30 Reflex check save)."
+    desc: "`pf2:1`  **Requirements** The picture-in-clouds is in sword shape\n* * *\n\n**Effect** The picture-in-clouds spins, forming a whirlwind that deals 5d8 slashing damage in a @Template[emanation|distance:15] (DC 30 Reflex check save)."
 
   - name: "Swiftness"
     desc: "  The picture-in-clouds's movement doesn't trigger reactions."

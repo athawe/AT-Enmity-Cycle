@@ -18,7 +18,15 @@ type:
 - retired adventurer, runs [[Fent's Fights]] in [[North Shoulder]] 
 
 ### Danphy Mollwether
-- short-tempered landlord
+- short-tempered landlord in [[Theatre District]]
+
+### [[Johann Baklava]] 
+- male human fighter 7
+- owns a boxing gym in Little Arm. 
+- https://www.instagram.com/reel/C9cp-jixaU9/?utm_source=ig_web_copy_link
+### [[Roger Roe]]
+- male human orator 7 / fighter 6
+- Runs his own newspaper company([[The Thirsty Reporter]]) and regularly attends [[Townsfolk#Johann Baklava|Johann Baklava]]'s gym, [[Bam-Bam Boxing]]. 
 
 
 ```dataview

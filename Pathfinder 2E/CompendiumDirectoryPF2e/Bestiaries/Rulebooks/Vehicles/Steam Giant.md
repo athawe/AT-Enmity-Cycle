@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
   - remaster
 source: Pathfinder GM Core
@@ -20,7 +21,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder GM Core"
 name: "Steam Giant"
 level: "Vehicle 14"
-rare_03: "Rare"
+rare_03: [[Rare]]
 
 size: "huge"
 modifier: 
@@ -54,7 +55,7 @@ attacks:
     desc: "10d10 (DC 29)"
 
   - name: "Flame Jet"
-    desc: "`pf2:3` (fire) Two crew members each perform a 3-action activity on their turn to produce a gout of flames that erupts at the end of the second character's turn from any corner of any space the steam giant occupies. The flames deal 6d8 fire damage to each creature in a 30-foot cone (DC 32 Reflex check save). The flame jet stops working if the steam giant is broken."
+    desc: "`pf2:3` (fire) Two crew members each perform a 3-action activity on their turn to produce a gout of flames that erupts at the end of the second character's turn from any corner of any space the steam giant occupies. The flames deal 6d8 fire damage to each creature in a @Template[cone|distance:30] (DC 32 Reflex check save). The flame jet stops working if the steam giant is broken."
 
 
 

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
   - pf2e/creature/type/wight
+  - pf2eMonster
   - pf2e/creature/level/3
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "undead"
-trait_02: "unholy"
-trait_03: "wight"
+trait_01: [[undead]]
+trait_02: [[unholy]]
+trait_03: [[wight]]
 modifier: 10
 perception:
   - name: "Perception"

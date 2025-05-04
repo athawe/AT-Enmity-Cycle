@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #162: Ruins of the Radiant Siege
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.kidMmEzwgoBcHdnR" 
@@ -22,8 +23,8 @@ name: "The Laughing Fiend's Greeting"
 level: "Hazard 20"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 36
 sourcebook: "_Pathfinder #162: Ruins of the Radiant Siege_"
 perception:

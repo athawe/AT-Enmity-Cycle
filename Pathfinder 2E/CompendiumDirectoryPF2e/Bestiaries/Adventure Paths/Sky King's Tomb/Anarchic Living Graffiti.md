@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.cz1RF98nyHhEj3MN"
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/construct
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Anarchic Living Graffiti"
@@ -21,16 +22,16 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #193: Mantle of Gold"
 name: "Anarchic Living Graffiti"
 level: "Creature 0"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "construct"
+trait_01: [[chaotic]]
+trait_02: [[construct]]
 modifier: 6
 perception:
   - name: "Perception"
     desc: "+6; Darkvision"
-languages: "Dwarven, Protean; (can’t speak)"
+languages: "Dwarven, Protean; (can&#x27;t speak)"
 skills:
   - name: "Skills"
     desc: "Acrobatics: +6, Crafting: +3, Deception: +5, Stealth: +6"

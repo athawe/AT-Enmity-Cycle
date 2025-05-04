@@ -24,7 +24,11 @@ abilities_top:
     desc: "3 days; **Cost** 100 gp in special wine and symbolic herbs; **Secondary Casters** 2"
   - name: "Primary Check"
     desc: "Occultism (master) or Religion (master); **Secondary Checks** Crafting"
-**Targets** the secondary caster who doesn&#x27;t perform the Crafting check  - name: "Duration"
+
+  - name: "Targets"
+
+    desc: "the secondary caster who doesn&#x27;t perform the Crafting check"
+  - name: "Duration"
     desc: "1 day"
 abilities_mid:
   - name: ""

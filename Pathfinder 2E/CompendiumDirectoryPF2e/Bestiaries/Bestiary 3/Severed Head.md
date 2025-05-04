@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Severed Head"
@@ -26,10 +27,10 @@ level: "Creature -1"
 
 alignment: ""
 size: "tiny"
-trait_01: "evil"
-trait_02: "mindless"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[mindless]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +6 (+8 to Maneuver in Flight)"
+    desc: "Acrobatics: +6"
 abilityMods: [1, 2, 0, -5, 2, 0]
 speed: 15 feet,  fly 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"

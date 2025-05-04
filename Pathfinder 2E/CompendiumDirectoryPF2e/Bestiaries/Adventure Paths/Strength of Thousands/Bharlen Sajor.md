@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Bharlen Sajor"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #171: Hurricane&#x27;s Howl"
 name: "Bharlen Sajor"
 level: "Creature 11"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -73,10 +74,10 @@ attacks:
     desc: "`pf2:1` Fist +23 (agile, electricity, magical, unarmed)\n__Damage__  2d6 + 11 bludgeoning plus push 1d6 electricity plus push"
 
   - name: "Ranged"
-    desc: "`pf2:1` Shock Heavy Crossbow +24 (electricity, magical, range increment 120 feet, reload 2)\n__Damage__  2d10 + 8 piercing"
+    desc: "`pf2:1` Shock Trident +24 (electricity, magical, thrown 20 ft.)\n__Damage__  2d8 + 11 piercing"
 
   - name: "Ranged"
-    desc: "`pf2:1` Shock Trident +24 (electricity, magical, thrown 20 ft.)\n__Damage__  2d8 + 11 piercing"
+    desc: "`pf2:1` Shock Heavy Crossbow +24 (electricity, magical, range increment 120 feet, reload 2)\n__Damage__  2d10 + 8 piercing"
 
   - name: "Brute Strength"
     desc: "  Bharlen deals an extra 1d8 damage with tridents, and a trident gains the shove trait while she is using it in melee (both the extra damage die and the shove trait have been included in Bharlen's trident Strikes above)."
@@ -85,13 +86,13 @@ attacks:
     desc: "`pf2:2` (arcane,electricity) Bharlen unleashes crackling lightning in a 30-foot cone. Creatures in the area take 6d12 electricity damage (DC 30 Reflex check save).\n\nBharlen can use this ability once every 1d4 rounds."
 
   - name: "Graveknight's Curse"
-    desc: "  This curse affects anyone who wears a graveknight's armor for at least 1 hour.\n\n**Saving Throw** DC 40 Will check save\n\n**Onset** 1 hour\n\n**Stage 1** [[Conditions/Doomed 1|Doomed 1]] and cannot remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed 1|Doomed 2]], all speeds reduced by 10, and cannot remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight."
+    desc: "  This curse affects anyone who wears a graveknight's armor for at least 1 hour.\n\n**Saving Throw** DC 40 Will check save\n\n**Onset** 1 hour\n\n**Stage 1** [[Conditions/Doomed|Doomed 1]] and cannot remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed|Doomed 2]], all speeds reduced by 10, and cannot remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight."
 
   - name: "Ruinous Weapons"
     desc: "  Any weapons Bharlen wields gain the effects of the _[[Equipment/Weapon Potency (+1)|+1]] [[Equipment/Striking|Striking]]_ and _[[Equipment/Shock|Shock]]_ runes."
 
   - name: "Sodden Strike"
-    desc: "`pf2:2` (divine,water) Bharlen calls to the endless storm to lend murderous power to her blows. She makes a Strike; on a hit, seawater appears in the target's lungs and the target is [[Conditions/Sickened 1|Sickened 1]] ([[Conditions/Sickened 1|Sickened 3]] on a critical hit)."
+    desc: "`pf2:2` (divine,water) Bharlen calls to the endless storm to lend murderous power to her blows. She makes a Strike; on a hit, seawater appears in the target's lungs and the target is [[Conditions/Sickened|Sickened 1]] ([[Conditions/Sickened|Sickened 3]] on a critical hit)."
 
   - name: "Weapon Master"
     desc: "  Bharlen has access to the critical specialization effects of any weapon she wields."

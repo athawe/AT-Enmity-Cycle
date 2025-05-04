@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.menace-under-otari-bestiary.Actor.hiGwRWdxAsoCII4f"
 tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/fire
+  - pf2eMonster
   - pf2e/creature/level/3
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Small"
-trait_01: "elemental"
-trait_02: "fire"
+trait_01: [[elemental]]
+trait_02: [[fire]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -56,7 +57,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Fetid Fumes"
-    desc: "  A cloud of smoke surrounds the cinder rat. All creatures within 5 feet, including the cinder rat, gain the [[Conditions/Concealed|Concealed]] condition from this smoke. A creature that comes within 5 feet of the cinder rat or begins its turn within 5 feet must succeed at a DC 22 Fortitude check save or take a -1 status penalty to all checks and DCs for 1 round _(Use [[Conditions/Sickened 1|Sickened 1]])_."
+    desc: "  A cloud of smoke surrounds the cinder rat. All creatures within 5 feet, including the cinder rat, gain the [[Conditions/Concealed|Concealed]] condition from this smoke. A creature that comes within 5 feet of the cinder rat or begins its turn within 5 feet must succeed at a DC 22 Fortitude check save or take a -1 status penalty to all checks and DCs for 1 round _(Use [[Conditions/Sickened|Sickened 1]])_."
 
 attacks:
   - name: ""

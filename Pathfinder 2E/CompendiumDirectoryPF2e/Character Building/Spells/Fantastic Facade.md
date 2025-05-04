@@ -26,7 +26,11 @@ abilities_top:
     desc: "1 week; **Cost** mystical paint, elaborate veils, and powdered minerals worth 20,000 gp total; **Secondary Casters** 3"
   - name: "Primary Check"
     desc: "Arcana or Occultism (legendary); **Secondary Checks** Society or Survival; Deception; Stealth"
-**Targets** 1 settlement and its residents  - name: "Duration"
+
+  - name: "Targets"
+
+    desc: "1 settlement and its residents"
+  - name: "Duration"
     desc: "unlimited"
 abilities_mid:
   - name: ""

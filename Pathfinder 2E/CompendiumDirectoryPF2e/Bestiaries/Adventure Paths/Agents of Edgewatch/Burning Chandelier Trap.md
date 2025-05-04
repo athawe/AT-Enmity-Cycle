@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - mechanical
+  - pf2eHazard
   - complex
 source: Pathfinder #160: Assault on Hunting Lodge Seven
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.FmiOJ9HEdCBDB89z" 
@@ -22,14 +23,14 @@ name: "Burning Chandelier Trap"
 level: "Hazard 15"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "mechanical"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
 modifier: 26
 sourcebook: "_Pathfinder #160: Assault on Hunting Lodge Seven_"
 ac: 36
 armorclass:
   - name: AC
-    desc: "36; __Fort__ +27, __Ref__ +22, __Will__ +0"
+    desc: "36; __Fort__ +27, __Ref__ +22, "
 hp: 120
 health:
   - name: ""

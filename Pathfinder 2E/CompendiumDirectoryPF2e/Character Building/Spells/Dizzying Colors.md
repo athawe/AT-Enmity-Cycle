@@ -32,7 +32,9 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, occult"
-**Area** 15-foot cone
+
+  - name: "Area"
+    desc: "15-foot cone"
   - name: "Defense"
     desc: " will"
   - name: "Duration"

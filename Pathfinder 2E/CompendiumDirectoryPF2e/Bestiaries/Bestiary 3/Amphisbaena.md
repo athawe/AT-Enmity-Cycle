@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.H796hayJm3J7MYJg" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Amphisbaena"
@@ -23,7 +24,7 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -59,7 +60,7 @@ attacks:
     desc: "`pf2:1` Spit +12 (range increment 15 feet)\n__Damage__  1d6 poison plus amphisbaena-venom,blinding-spittle"
 
   - name: "Amphisbaena Venom"
-    desc: " (poison) **Saving Throw** DC 18 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)\n\n**Stage 2** 2d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 2]] and [[Conditions/Slowed 1|Slowed 1]] (1 round)\n\n**Stage 3** 3d6 poison damage and [[Conditions/Paralyzed|Paralyzed]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 18 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage and [[Conditions/Enfeebled|Enfeebled 1]] (1 round)\n\n**Stage 2** 2d6 poison damage and [[Conditions/Enfeebled|Enfeebled 2]] and [[Conditions/Slowed|Slowed 1]] (1 round)\n\n**Stage 3** 3d6 poison damage and [[Conditions/Paralyzed|Paralyzed]] (1 round)"
 
   - name: "Blinding Spittle"
     desc: "  A creature critically hit by an amphisbaena's spit Strike is [[Conditions/Blinded|Blinded]] for 1 round."

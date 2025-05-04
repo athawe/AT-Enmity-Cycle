@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/troop
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "Necromancer Troop"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #186: Ghost King&#x27;s Rage"
 name: "Necromancer Troop"
 level: "Creature 19"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "grg"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "troop"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[troop]]
 modifier: 35
 perception:
   - name: "Perception"
@@ -66,7 +67,7 @@ attacks:
     desc: "DC 46, attack +38; __9th __ (2 slots) _[[Spells/Flense|Flense]]_, _[[Spells/Implosion|Implosion]]_; __8th __ (3 slots) _[[Spells/Eclipse Burst|Eclipse Burst]]_, _[[Spells/Enervation|Enervation]]_, _[[Spells/Flense|Flense]]_; __7th __ (3 slots) _[[Spells/Eclipse Burst|Eclipse Burst]]_, _[[Spells/Grim Tendrils|Grim Tendrils]]_, _[[Spells/Rouse Skeletons|Rouse Skeletons]]_\n__Cantrips__  __(10th)__ _[[Spells/Ancient Dust|Ancient Dust]]_, _[[Spells/Void Warp|Chill Touch]]_, _[[Spells/Torturous Trauma|Torturous Trauma]]_"
 
   - name: "Teach You a Lesson"
-    desc: "`pf2:1`  `pf2:1` to `pf2:3`\n\n**Frequency** once per round\n* * *\n\n**Effect** The members of the mob wildly swing their textbooks and supplies—primarily spellbooks and staves—in a chaotic attack at each enemy adjacent to the troop (DC 41 Reflex check). The damage depends on the number of actions.\n\n`pf2:1` 2d12 + 14 bludgeoning damage\n\n`pf2:2` 3d12 + 14 bludgeoning damage\n\n`pf2:3` 4d12 + 14 bludgeoning damage"
+    desc: "`pf2:1`  `pf2:1` to `pf2:3`\n\n**Frequency** once per round\n* * *\n\n**Effect** The members of the mob wildly swing their textbooks and supplies—primarily spellbooks and staves—in a chaotic attack at each enemy adjacent to the troop (DC 41 Reflex check). The damage depends on the number of actions.\n\n`pf2:1` 2d12+14 bludgeoning damage\n\n`pf2:2` 3d12+14 bludgeoning damage\n\n`pf2:3` 4d12+14 bludgeoning damage"
 
   - name: "Troop Movement"
     desc: "  Whenever the troop Strides, they first Form Up as a free action to condense into a 20-foot-by-20-foot area (minus any missing squares), then moves up to their Speed. This works just like a Gargantuan creature moving; for instance, if any square of the troop enters difficult terrain, the extra movement cost applies to the whole troop."

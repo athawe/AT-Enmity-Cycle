@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.4h9jhODg2NwiYsPg" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Purple Worm"
@@ -23,7 +24,7 @@ level: "Creature 13"
 
 alignment: ""
 size: "grg"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 20
 perception:
   - name: "Perception"
@@ -43,14 +44,14 @@ hp: 270
 health:
   - name: ""
   - name: HP
-    desc: "270"
+    desc: "270; __Immunities__  immobilized"
 abilities_top:
   - name: ""
 
 abilities_mid:
   - name: ""
   - name: "Inexorable"
-    desc: "  The purple worm recovers from the [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Slowed 1|Slowed]], and [[Conditions/Stunned 1|Stunned]] conditions at the end of its turn. It's also immune to penalties to its Speeds and the [[Conditions/Immobilized|Immobilized]] condition, and it ignores difficult terrain and greater difficult terrain."
+    desc: "  The purple worm recovers from the [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Slowed|Slowed]], and [[Conditions/Stunned|Stunned]] conditions at the end of its turn. It's also immune to penalties to its Speeds and the [[Conditions/Immobilized|Immobilized]] condition, and it ignores difficult terrain and greater difficult terrain."
 
   - name: "Shake It Off"
     desc: "`pf2:r`  **Frequency** once per day\n\n**Trigger** The purple worm would be affected by a condition or adverse effect (such as [[Spells/Cursed Metamorphosis|Cursed Metamorphosis]])\n* * *\n\n**Effect** The purple worm negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way."
@@ -74,7 +75,7 @@ attacks:
     desc: "`pf2:r`  **Trigger** The purple worm [[Conditions/Grabbed|Grabs]] a creature.\n* * *\n\n**Effect** The worm uses Swallow Whole."
 
   - name: "Purple Worm Venom"
-    desc: " (poison) **Saving Throw** DC 32 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 5d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 2]] (1 round)\n\n**Stage 2** 6d6 poison damage, and enfeebled 2 (1 round)\n\n**Stage 3** 8d6 poison damage and enfeebled 2 (1 round)"
+    desc: " (poison) **Saving Throw** DC 32 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 5d6 poison damage and [[Conditions/Enfeebled|Enfeebled 2]] (1 round)\n\n**Stage 2** 6d6 poison damage, and enfeebled 2 (1 round)\n\n**Stage 3** 8d6 poison damage and enfeebled 2 (1 round)"
 
   - name: "Regurgitate"
     desc: "  The purple worm can violently regurgitate a creature or boulder it has swallowed to make a ranged Strike. The Strike deals bludgeoning damage depending on the size of the projectile: Tiny deals 2d6+13, Small 3d6+13, Medium 4d6+13, Large 5d6+13, and Huge 6d6+13. A regurgitated creature takes falling damage from the height of the target or from 20 feet, whichever is greater.\n\nBoulders occupy space in the worm's stomach as a creature of equivalent size, and purple worms often have several boulders swallowed. A purple worm can use a single action to swallow a new boulder."
@@ -83,7 +84,7 @@ attacks:
     desc: "  A purple worm can burrow through solid stone at a Speed of 20 feet. It can leave a tunnel if it desires, and it usually does."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Huge, 3d6 + 9 bludgeoning, Rupture 24\n\n* * *\n"
+    desc: "`pf2:1` (attack) Huge, 3d6+9 bludgeoning, Rupture 24\n\n* * *\n"
 
   - name: "Thrash"
     desc: "`pf2:2`  The worm makes a Strike once against each creature in its reach. It can Strike up to once with its jaws, up to once with its stinger, and any number of times with its body. Each attack counts toward the worm's multiple attack penalty, but the multiple attack penalty doesn't increase until after it makes all the attacks."

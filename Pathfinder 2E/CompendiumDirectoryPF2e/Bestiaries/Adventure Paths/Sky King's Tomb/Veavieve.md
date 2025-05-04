@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Veavieve"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #194: Cult of the Cave Worm"
 name: "Veavieve"
 level: "Creature 6"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fey"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fey]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Common, Fey"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +14, Cave Worm Lore: +15, Deception: +15, Nature: +12, Performance: +18, Thievery: +12"
+    desc: "Acrobatics: +14, Deception: +15, Nature: +12, Performance: +18, Thievery: +12, Cave Worm Lore: +15"
 abilityMods: [1, 5, 1, 3, -2, 5]
 speed: 30 feet
 sourcebook: "_Pathfinder #194: Cult of the Cave Worm_"

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.lost-omens-monsters-of-myth-bestiary.Actor.IO7sPevkM0z
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Taljjae (The Hero)"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Monsters of Myth"
 name: "Taljjae (The Hero)"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "fey"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -77,7 +78,7 @@ attacks:
     desc: "`pf2:1` (stance) **Frequency** once per round\n* * *\n\n**Effect** Taljjae removes its current mask and dons a new one. The change refreshes Taljjae, restoring 25 Hit Points. Once Taljjae has removed a mask, it can't Change Characters back to that mask until it has worn all of its unbroken masks at least once, after which the cycle starts again. Taljjae can't don a broken mask.\n\nWhen Taljjae Changes Characters, it gains access to the listed abilities. Any items (such as weapons) associated with its previous mask immediately disappear and are replaced by fresh ones for its new mask, but the effects of any mask abilities it has active persist. Removing a mask and later reapplying it doesn't restore any limited-use abilities."
 
   - name: "Cometfall Arrow"
-    desc: "`pf2:2`  Taljjae fires an arrow that could shoot a star from the sky. All creatures in a 120-foot line take 10d12 piercing damage (DC 37 Reflex check save); on a critical failure, the target falls to the ground without taking falling damage, and it can't Fly, Leap, levitate, or otherwise leave the ground until the end of Taljjae's next turn.\n\nTaljjae then can't use Cometfall Arrow for 1d4 rounds."
+    desc: "`pf2:2`  Taljjae fires an arrow that could shoot a star from the sky. All creatures in a @Template[line|distance:120] take 10d12 piercing damage (DC 37 Reflex check save); on a critical failure, the target falls to the ground without taking falling damage, and it can't Fly, Leap, levitate, or otherwise leave the ground until the end of Taljjae's next turn.\n\nTaljjae then can't use Cometfall Arrow for 1d4 rounds."
 
   - name: "Double Shot"
     desc: "`pf2:1`  Taljjae fires two shots, making two Strikes, each against a separate target and with a -2 penalty. Both attacks count toward its multiple attack penalty, but the penalty doesn't increase until after it makes both attacks."

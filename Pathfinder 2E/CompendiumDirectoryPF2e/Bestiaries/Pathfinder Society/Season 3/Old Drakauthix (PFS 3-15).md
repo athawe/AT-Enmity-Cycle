@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.bgwjxU9MmKJtcxx5" 
 tags:
   - pf2e/creature/type/fungus
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Old Drakauthix (PFS 3-15)"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #3-15: Cavern of Sundered Songs"
 name: "Old Drakauthix (PFS 3-15)"
 level: "Creature 11"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "huge"
-trait_01: "fungus"
+trait_01: [[fungus]]
 modifier: 19
 perception:
   - name: "Perception"

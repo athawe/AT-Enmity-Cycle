@@ -31,7 +31,9 @@ abilities_top:
     desc: "arcane, occult"
   - name: "Cast"
     desc: "1 minute"
-**Area** 120-foot emanation
+
+  - name: "Area"
+    desc: "120-foot emanation"
   - name: "Duration"
     desc: "1 hour"
 abilities_mid:

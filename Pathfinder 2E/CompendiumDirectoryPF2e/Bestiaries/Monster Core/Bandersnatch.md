@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.fgZx6VJkVZ26GFyI"
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/tane
+  - pf2eMonster
   - pf2e/creature/level/17
   - remaster
 statblock: inline
@@ -22,11 +23,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Monster Core"
 name: "Bandersnatch"
 level: "Creature 17"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "beast"
-trait_02: "tane"
+trait_01: [[beast]]
+trait_02: [[tane]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -89,7 +90,7 @@ attacks:
     desc: "  At the start of its turn, the bandersnatch gains an additional reaction that can be used only to attempt an Attack of Opportunity."
 
   - name: "Pain"
-    desc: "  A bandersnatch's quills create exceptionally painful wounds. The wounded creature must succeed at a DC 38 Fortitude check save to resist becoming [[Conditions/Drained 1|Drained 1]] ([[Conditions/Drained 1|Drained 2]] on a critical failure) by this pain. Further bandersnatch Strikes that cause pain increase the amount of drain by 1 for each failed save to a maximum of drained 4."
+    desc: "  A bandersnatch's quills create exceptionally painful wounds. The wounded creature must succeed at a DC 38 Fortitude check save to resist becoming [[Conditions/Drained|Drained 1]] ([[Conditions/Drained|Drained 2]] on a critical failure) by this pain. Further bandersnatch Strikes that cause pain increase the amount of drain by 1 for each failed save to a maximum of drained 4."
 
   - name: "Relentless Tracker"
     desc: "  The bandersnatch can [[Actions/Track|Track]] while moving at its full speed."

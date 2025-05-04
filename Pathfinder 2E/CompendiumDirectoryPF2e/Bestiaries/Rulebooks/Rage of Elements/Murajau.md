@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.rage-of-elements-bestiary.Actor.Rv14qdCi4cTEBXJ4"
 tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 5"
 
 alignment: ""
 size: "Large"
-trait_01: "amphibious"
-trait_02: "humanoid"
+trait_01: [[amphibious]]
+trait_02: [[humanoid]]
 modifier: 13
 perception:
   - name: "Perception"

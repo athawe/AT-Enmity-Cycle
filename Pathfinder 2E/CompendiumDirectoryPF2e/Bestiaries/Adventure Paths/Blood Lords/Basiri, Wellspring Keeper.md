@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/skeleton
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "Basiri, Wellspring Keeper"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #186: Ghost King&#x27;s Rage"
 name: "Basiri, Wellspring Keeper"
 level: "Creature 19"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "aquatic"
-trait_02: "evil"
-trait_03: "skeleton"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[aquatic]]
+trait_02: [[evil]]
+trait_03: [[skeleton]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Draconic, Necril, Sphinx, Thalassic; telepathy 100 feet, tongues"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +31, Athletics: +37, Bardic Lore: +35, Deception: +32, Diplomacy: +32, Intimidation: +32, Occultism: +33, Religion: +33"
+    desc: "Acrobatics: +31, Athletics: +37, Deception: +32, Diplomacy: +32, Intimidation: +32, Occultism: +33, Religion: +33, Bardic Lore: +35"
 abilityMods: [10, 4, 4, 6, 6, 6]
 speed: 35 feet,  swim 40 feet
 sourcebook: "_Pathfinder #186: Ghost King&#x27;s Rage_"

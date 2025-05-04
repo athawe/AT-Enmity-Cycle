@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Dark Archive
 aliases: "Compendium.pf2e.pathfinder-dark-archive.Actor.NGV18Lovi4HsjJOc" 
@@ -22,14 +23,14 @@ name: "Shuffling Hall"
 level: "Hazard -1"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 5
 sourcebook: "_Pathfinder Dark Archive_"
 ac: 18
 armorclass:
   - name: AC
-    desc: "18; __Fort__ +2, __Ref__ +5, __Will__ +0"
+    desc: "18; __Fort__ +2, __Ref__ +5, "
 hp: 12
 health:
   - name: ""

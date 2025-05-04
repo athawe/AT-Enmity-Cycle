@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.EB00f6ADElWInuix"
 tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/shobhad
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Shobhad Hunter (7-8)"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Special #3-99: Fate in the Future"
 name: "Shobhad Hunter (7-8)"
 level: "Creature 6"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "humanoid"
-trait_02: "shobhad"
+trait_01: [[humanoid]]
+trait_02: [[shobhad]]
 modifier: 16
 perception:
   - name: "Perception"

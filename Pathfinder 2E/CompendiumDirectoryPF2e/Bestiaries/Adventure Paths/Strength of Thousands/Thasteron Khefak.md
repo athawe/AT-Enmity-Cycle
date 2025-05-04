@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.caSI33WvJJlF6qpb" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Thasteron Khefak"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #173: Doorway to the Red Star"
 name: "Thasteron Khefak"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -51,7 +52,7 @@ abilities_top:
     desc: "  A khefak can gain nourishment by eating objects with hardness 10 or lower. When attacking an object with its mandibles, it ignores the first 10 points of that object's Hardness."
 
   - name: "Radiation Aura"
-    desc: " (aura,radiation) 10 feet. Thasteron khefaks convert radioactive minerals they eat into thasteron, a combustive fuel. The more radioactive elements of the material concentrates in their chitin and taints the air around them. A creature who begins their turn within this aura must succeed at a DC 20 Fortitude check saving throw or become [[Conditions/Sickened 1|Sickened 1]] ([[Conditions/Sickened 1|Sickened 2]] on a critical failure)."
+    desc: " (aura,radiation) 10 feet. Thasteron khefaks convert radioactive minerals they eat into thasteron, a combustive fuel. The more radioactive elements of the material concentrates in their chitin and taints the air around them. A creature who begins their turn within this aura must succeed at a DC 20 Fortitude check saving throw or become [[Conditions/Sickened|Sickened 1]] ([[Conditions/Sickened|Sickened 2]] on a critical failure)."
 
 abilities_mid:
   - name: ""

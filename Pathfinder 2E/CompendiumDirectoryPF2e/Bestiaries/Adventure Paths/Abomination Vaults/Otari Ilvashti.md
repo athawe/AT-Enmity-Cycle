@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/spirit
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Otari Ilvashti"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #163: Ruins of Gauntlight"
 name: "Otari Ilvashti"
 level: "Creature 9"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "ghost"
-trait_03: "good"
-trait_04: "incorporeal"
-trait_05: "spirit"
-trait_06: "undead"
+trait_01: [[chaotic]]
+trait_02: [[ghost]]
+trait_03: [[good]]
+trait_04: [[incorporeal]]
+trait_05: [[spirit]]
+trait_06: [[undead]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -72,7 +73,7 @@ attacks:
     desc: "`pf2:1` Ghostly Hand +19 (agile, finesse, magical)\n__Damage__  3d6 + 6 void"
 
   - name: "Filth Fever"
-    desc: " (disease) The [[Conditions/Sickened 1|Sickened]] and [[Conditions/Unconscious|Unconscious]] conditions from filth fever don't improve on their own until the disease is cured.\n\n**Saving Throw** DC 25 Fortitude check\n* * *\n\n**Stage 1** carrier with no ill effect (1d4 hours)\n\n**Stage 2** [[Conditions/Sickened 1|Sickened 1]] (1 day)\n\n**Stage 3** Sickened 1 and [[Conditions/Slowed 1|Slowed 1]] as long as the affected creature remains sickened (1 day)\n\n**Stage 4** [[Conditions/Unconscious|Unconscious]] (1 day)\n\n**Stage 5** dead"
+    desc: " (disease) The [[Conditions/Sickened|Sickened]] and [[Conditions/Unconscious|Unconscious]] conditions from filth fever don't improve on their own until the disease is cured.\n\n**Saving Throw** DC 25 Fortitude check\n* * *\n\n**Stage 1** carrier with no ill effect (1d4 hours)\n\n**Stage 2** [[Conditions/Sickened|Sickened 1]] (1 day)\n\n**Stage 3** Sickened 1 and [[Conditions/Slowed|Slowed 1]] as long as the affected creature remains sickened (1 day)\n\n**Stage 4** [[Conditions/Unconscious|Unconscious]] (1 day)\n\n**Stage 5** dead"
 
   - name: "Infested Shadow"
     desc: "`pf2:2` (divine,teleportation) Otari fades away, momentarily emerges from the shadow of another creature within 30 feet, and makes a ghostly hand Strike against a single target within reach of this creature (but not against the creature whose shadow he infests).\n\nOn a successful Strike, the target is also [[Conditions/Off-Guard|Off-Guard]] until the start of Otari's next turn. Otari then reappears at his starting point.\n\nThe creature whose shadow Otari infests is exposed to filth fever."

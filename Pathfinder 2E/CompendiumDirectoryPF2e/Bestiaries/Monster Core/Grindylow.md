@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.sC4B1pjGrKFXhjOQ"
 tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/amphibious
+  - pf2eMonster
   - pf2e/creature/level/0
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 0"
 
 alignment: ""
 size: "Small"
-trait_01: "aberration"
-trait_02: "amphibious"
+trait_01: [[aberration]]
+trait_02: [[amphibious]]
 modifier: 5
 perception:
   - name: "Perception"

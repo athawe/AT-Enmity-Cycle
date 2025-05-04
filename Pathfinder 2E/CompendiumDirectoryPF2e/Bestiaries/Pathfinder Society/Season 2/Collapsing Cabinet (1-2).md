@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #2-03: Catastrophe&#x27;s Spark
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.ErhCUif0jmnDKogH" 
@@ -22,14 +23,14 @@ name: "Collapsing Cabinet (1-2)"
 level: "Hazard 1"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 7
 sourcebook: "_Pathfinder Society Scenario #2-03: Catastrophe's Spark_"
 ac: 12
 armorclass:
   - name: AC
-    desc: "12; __Fort__ +10, __Ref__ +2, __Will__ +0"
+    desc: "12; __Fort__ +10, __Ref__ +2, "
 hp: 20
 health:
   - name: ""

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Carl The Cobbler"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: A Few Flowers More"
 name: "Carl The Cobbler"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fey"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fey]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Fey"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +13, Athletics: +15, Crafting: +13 (+15 for shoes), Deception: +11, Intimidation: +13, Nature: +10, Stealth: +13"
+    desc: "Acrobatics: +13, Athletics: +15, Crafting: +13, Deception: +11, Intimidation: +13, Nature: +10, Stealth: +13"
 abilityMods: [4, 4, 2, 1, 1, 2]
 speed: 50 feet
 sourcebook: "_Pathfinder Adventure: A Few Flowers More_"
@@ -58,7 +59,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Divine Revulsion"
-    desc: " (emotion,fear,mental) If a redcap sees a creature brandish a religious symbol of a good deity (which requires an interact action by that creature) or use one to cast a divine spell, the redcap must attempt a DC 19 Will check save. It then becomes temporarily immune to all brandished religious symbols for 10 minutes.\n* * *\n\n**Critical Success** The redcap is unaffected\n\n**Success** The redcap is [[Conditions/Frightened 1|Frightened 2]]\n\n**Failure** The redcap gains the [[Conditions/Fleeing|Fleeing]] condition for 1 round and is [[Conditions/Frightened 1|Frightened 4]]"
+    desc: " (emotion,fear,mental) If a redcap sees a creature brandish a religious symbol of a good deity (which requires an interact action by that creature) or use one to cast a divine spell, the redcap must attempt a DC 19 Will check save. It then becomes temporarily immune to all brandished religious symbols for 10 minutes.\n* * *\n\n**Critical Success** The redcap is unaffected\n\n**Success** The redcap is [[Conditions/Frightened|Frightened 2]]\n\n**Failure** The redcap gains the [[Conditions/Fleeing|Fleeing]] condition for 1 round and is [[Conditions/Frightened|Frightened 4]]"
 
 attacks:
   - name: ""

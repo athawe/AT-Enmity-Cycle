@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/elemental
   - pf2e/creature/type/fire
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Thoqqua"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: Crown of the Kobold King"
 name: "Thoqqua"
 level: "Creature 2"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "earth"
-trait_02: "elemental"
-trait_03: "fire"
+trait_01: [[earth]]
+trait_02: [[elemental]]
+trait_03: [[fire]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Pyric; (can&#x27;t speak any language)"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Stealth: +5 (+7 in Lava)"
+    desc: "Acrobatics: +7, Stealth: +5"
 abilityMods: [3, 1, 2, -2, 1, 0]
 speed: 25 feet,  burrow 15 feet
 sourcebook: "_Pathfinder Adventure: Crown of the Kobold King_"

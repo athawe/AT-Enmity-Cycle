@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/phantom
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Cloudsplitter"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #168: King of the Mountain"
 name: "Cloudsplitter"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "air"
-trait_02: "fire"
-trait_03: "good"
-trait_04: "lawful"
-trait_05: "phantom"
-trait_06: "spirit"
+trait_01: [[air]]
+trait_02: [[fire]]
+trait_03: [[good]]
+trait_04: [[lawful]]
+trait_05: [[phantom]]
+trait_06: [[spirit]]
 modifier: 32
 perception:
   - name: "Perception"
@@ -81,7 +82,7 @@ attacks:
     desc: "DC 41, attack +33; __8th __  _[[Spells/Calm|Calm Emotions (At Will)]]_, _[[Spells/Gust of Wind|Gust of Wind (x3)]]_, _[[Spells/Heal|Heal (x2)]]_, _[[Spells/Punishing Winds|Punishing Winds]]_, _[[Spells/Spirit Link|Spirit Link (with Jin-Hae only)]]_; __2nd __  _[[Spells/Detect Alignment|Detect Alignment (At Will)]]_\n__Cantrips__  __(9th)__ _[[Spells/Light|Light]]_\n__Constant__  __(9th)__ _[[Spells/Air Walk|Air Walk]]_"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (divine,fire) Cloudsplitter breathes fire in a 30-foot cone, dealing 18d6 fire damage (DC 40 Reflex check save). Cloudsplitter can't use Breath Weapon again for 1d4 rounds."
+    desc: "`pf2:2` (divine,fire) Cloudsplitter breathes fire in a @Template[cone|distance:30], dealing 18d6 fire damage (DC 40 Reflex check save). Cloudsplitter can't use Breath Weapon again for 1d4 rounds."
 
   - name: "Rearing Thrust"
     desc: "`pf2:2`  The Cloudsplitter rushes forward, rears up on their hind legs, and descends upon their target with their horn. Cloudsplitter Strides and makes a horn Strike. If this Strike hits, it deals an additional 2d8 damage, and the target is knocked [[Conditions/Prone|Prone]]."

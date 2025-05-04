@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #146: Cult of Cinders
 aliases: "Compendium.pf2e.age-of-ashes-bestiary.Actor.zNIjGSxkG8xyDLgR" 
@@ -22,14 +23,14 @@ name: "Dragon Pillar"
 level: "Hazard 6"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 0
 sourcebook: "_Pathfinder #146: Cult of Cinders_"
 ac: 24
 armorclass:
   - name: AC
-    desc: "24; __Fort__ +17, __Ref__ +8, __Will__ +0"
+    desc: "24; __Fort__ +17, __Ref__ +8, "
 hp: 56
 health:
   - name: ""
@@ -71,7 +72,7 @@ attacks:
     desc: "passive (divine, poison) 6d6 poison damage (DC 24 Reflex check save.)"
 
   - name: "Indigo Eye Beam"
-    desc: "passive (incapacitation) DC 24 Will check save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is [[Conditions/Slowed 1|Slowed 1]] for 1 round.\n\n**Failure** The target is [[Conditions/Confused|Confused]] for 1 round.\n\n**Critical Failure** The target is controlled by the dragon pillar and remains within 60 feet of it at all times, defending the dragon pillar from all non-Cinderclaws. While a target is controlled, it is treated as a Cinderclaw ally by the dragon pillar. The dragon pillar can control up to 3 targets at a time; any targets in excess who critically fail this saving throw are instead confused for 1d4+1 rounds. A controlled creature can attempt a new Will save once every 24 hours to escape control, but doing so automatically causes the dragon pillar to attack it with a new eye beam to attempt to re-establish control. The control ends if the pillar is destroyed."
+    desc: "passive (incapacitation) DC 24 Will check save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is [[Conditions/Slowed|Slowed 1]] for 1 round.\n\n**Failure** The target is [[Conditions/Confused|Confused]] for 1 round.\n\n**Critical Failure** The target is controlled by the dragon pillar and remains within 60 feet of it at all times, defending the dragon pillar from all non-Cinderclaws. While a target is controlled, it is treated as a Cinderclaw ally by the dragon pillar. The dragon pillar can control up to 3 targets at a time; any targets in excess who critically fail this saving throw are instead confused for 1d4+1 rounds. A controlled creature can attempt a new Will save once every 24 hours to escape control, but doing so automatically causes the dragon pillar to attack it with a new eye beam to attempt to re-establish control. The control ends if the pillar is destroyed."
 
   - name: "Yellow Eye Beam"
     desc: "passive (divine, electricity) 6d6 electricity damage (DC 24 Reflex check save.)"
@@ -83,7 +84,7 @@ attacks:
     desc: "passive (divine, fire) 6d6 fire damage (DC 24 Reflex check save.)"
 
   - name: "Violet Eye Beam"
-    desc: "passive (divine, incapacitation) DC 24 Will check save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is [[Conditions/Stunned 1|Stunned 1]].\n\n**Failure** The target is [[Conditions/Stunned 1|Stunned 3]].\n\n**Critical Failure** The target is [[Conditions/Stunned 1|Stunned 7]]."
+    desc: "passive (divine, incapacitation) DC 24 Will check save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target is [[Conditions/Stunned|Stunned 1]].\n\n**Failure** The target is [[Conditions/Stunned|Stunned 3]].\n\n**Critical Failure** The target is [[Conditions/Stunned|Stunned 7]]."
 
   - name: "Routine"
     desc: "(1 action) On its initiative, the dragon pillar fires an eye beam at the closest target within 120 feet."

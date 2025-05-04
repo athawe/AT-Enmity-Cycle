@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.wuaSG22lLjQ6yali"
 tags:
   - pf2e/creature/type/dragon
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Wyvern"
@@ -24,8 +25,8 @@ level: "Creature 6"
 
 alignment: ""
 size: "Large"
-trait_01: "dragon"
-trait_02: "evil"
+trait_01: [[dragon]]
+trait_02: [[evil]]
 modifier: 13
 perception:
   - name: "Perception"

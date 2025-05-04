@@ -27,8 +27,10 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
-**Area** 30-foot emanation
-**Targets** 1 ally and 1 enemy  - name: "Duration"
+
+  - name: "Area"
+    desc: "30-foot emanation1 ally and 1 enemy"
+  - name: "Duration"
     desc: "until the start of your next turn"
 abilities_mid:
   - name: ""

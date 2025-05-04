@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/clockwork
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Clockwork Dragon"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Clockwork Dragon"
 level: "Creature 16"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "clockwork"
-trait_02: "construct"
-trait_03: "mindless"
+trait_01: [[clockwork]]
+trait_02: [[construct]]
+trait_03: [[mindless]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -57,7 +58,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Self-Destruct"
-    desc: "`pf2:r`  A clockwork dragon must use this reaction unless specifically programmed otherwise by its creator.\n\n**Trigger** The clockwork dragon is reduced to 0 Hit Points.\n* * *\n\n**Effect** The dragon screeches to a stop and emits a steady, loud ticking sound. At the beginning of what would have been its next turn, the dragon explodes, dealing 12d10 piercing damage in a 40-foot emanation (DC 37 Reflex check save).\n\nAn adjacent creature can cancel the self-destruct sequence by succeeding at a DC 37 Thievery check check to [[Actions/Disable a Device|Disable a Device]]."
+    desc: "`pf2:r`  A clockwork dragon must use this reaction unless specifically programmed otherwise by its creator.\n\n**Trigger** The clockwork dragon is reduced to 0 Hit Points.\n* * *\n\n**Effect** The dragon screeches to a stop and emits a steady, loud ticking sound. At the beginning of what would have been its next turn, the dragon explodes, dealing 12d10 piercing damage in a @Template[emanation|distance:40] (DC 37 Reflex check save).\n\nAn adjacent creature can cancel the self-destruct sequence by succeeding at a DC 37 Thievery check check to [[Actions/Disable a Device|Disable a Device]]."
 
 attacks:
   - name: ""
@@ -75,13 +76,13 @@ attacks:
     desc: "`pf2:1` Wing +31 (agile, reach 15 feet)\n__Damage__  2d10 + 15 piercing"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (arcane,fire) The clockwork dragon breathes a spray of flaming oil that deals 16d6 fire damage in a 40-foot cone (DC 37 Reflex check save).\n\nCreatures that fail their saves are covered in burning oil and take 2d6 persistent fire.\n\nThe clockwork dragon can't use Breath Weapon again for 2 rounds."
+    desc: "`pf2:2` (arcane,fire) The clockwork dragon breathes a spray of flaming oil that deals 16d6 fire damage in a @Template[cone|distance:40] (DC 37 Reflex check save).\n\nCreatures that fail their saves are covered in burning oil and take 2d6 persistent fire.\n\nThe clockwork dragon can't use Breath Weapon again for 2 rounds."
 
   - name: "Draconic Frenzy"
     desc: "`pf2:2`  The clockwork dragon makes two claw Strikes and one wing Strike in any order."
 
   - name: "Spearing Tail"
-    desc: "`pf2:2`  The clockwork dragon attacks with the sharp point of its tail.\n\nIt makes a tail Strike against each creature in a 20-foot line, rolling the attack roll once and applying the result to each target. Any creature hit takes 4d6 bleed (2 * 4d6 persistent bleed on a critical hit). This counts as two attacks for the dragon's multiple attack penalty."
+    desc: "`pf2:2`  The clockwork dragon attacks with the sharp point of its tail.\n\nIt makes a tail Strike against each creature in a @Template[line|distance:20], rolling the attack roll once and applying the result to each target. Any creature hit takes 4d6 bleed (8d6 persistent bleed on a critical hit). This counts as two attacks for the dragon's multiple attack penalty."
  
 ```
 

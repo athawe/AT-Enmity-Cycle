@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
   - pf2e/creature/type/shadow
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Alapolo"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #174: Shadows of the Ancients"
 name: "Alapolo"
 level: "Creature 17"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "fey"
-trait_03: "shadow"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
+trait_03: [[shadow]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Fey"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +30, Deception: +30, Diplomacy: +30, Performance: +30 (+36 Dancing), Shadow Lore: +30, Stealth: +36"
+    desc: "Acrobatics: +30, Deception: +30, Diplomacy: +30, Performance: +30, Stealth: +36, Shadow Lore: +30"
 abilityMods: [0, 9, 5, 0, 6, 9]
 speed: 40 feet
 sourcebook: "_Pathfinder #174: Shadows of the Ancients_"
@@ -66,7 +67,7 @@ attacks:
     desc: "`pf2:1` Shadow Claw +33 (agile, finesse, magical, reach 10 feet)\n__Damage__  3d10 + 15 slashing"
 
   - name: "Enticing Invitation"
-    desc: "`pf2:2` (incapacitation,mental,primal) The alapolo whispers an invitation to a creature within 30 feet. The creature must attempt a DC 38 Will check save.\n* * *\n\n**Critical Success** The target is unaffected and temporarily immune to all Enticing Invitations for 24 hours.\n\n**Success** The target must spend 1 action on its next turn dancing in place.\n\n**Failure** The target becomes [[Conditions/Drained 1|Drained 1]]. It is also [[Conditions/Fascinated|Fascinated]] by the alapolo for 1 minute and can't attack the alapolo as long as it's fascinated. While fascinated, the target must spend 2 actions on each of its turns dancing in place.\n\n**Critical Failure** As failure, except the target is [[Conditions/Drained 1|Drained 3]] and must spend 3 actions on each of its turns dancing in place."
+    desc: "`pf2:2` (incapacitation,mental,primal) The alapolo whispers an invitation to a creature within 30 feet. The creature must attempt a DC 38 Will check save.\n* * *\n\n**Critical Success** The target is unaffected and temporarily immune to all Enticing Invitations for 24 hours.\n\n**Success** The target must spend 1 action on its next turn dancing in place.\n\n**Failure** The target becomes [[Conditions/Drained|Drained 1]]. It is also [[Conditions/Fascinated|Fascinated]] by the alapolo for 1 minute and can't attack the alapolo as long as it's fascinated. While fascinated, the target must spend 2 actions on each of its turns dancing in place.\n\n**Critical Failure** As failure, except the target is [[Conditions/Drained|Drained 3]] and must spend 3 actions on each of its turns dancing in place."
 
   - name: "Shifting Shadows"
     desc: "  An alapolo's movement doesn't trigger reactions."

@@ -25,6 +25,7 @@ abilities_top:
     desc: "1 day; **Cost** rare items and offerings worth a total value of 2 gp x the spell rank x the target's level, see text for more details; **Secondary Casters** 2"
   - name: "Primary Check"
     desc: "Arcana or Nature (expert); **Secondary Checks** Diplomacy"
+
   - name: "Duration"
     desc: "see text"
 abilities_mid:

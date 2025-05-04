@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/giant
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/8
   - remaster
 statblock: inline
@@ -27,10 +28,10 @@ level: "Creature 8"
 
 alignment: ""
 size: "Large"
-trait_01: "amphibious"
-trait_02: "giant"
-trait_03: "humanoid"
-trait_04: "water"
+trait_01: [[amphibious]]
+trait_02: [[giant]]
+trait_03: [[humanoid]]
+trait_04: [[water]]
 modifier: 16
 perception:
   - name: "Perception"

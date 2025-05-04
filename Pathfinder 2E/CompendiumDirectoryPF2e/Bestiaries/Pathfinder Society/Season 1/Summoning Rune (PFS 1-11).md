@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - magical
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #1-11: Flames of Rebellion
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.qgWB2lP5EyaHsvKH" 
@@ -21,13 +22,13 @@ name: "Summoning Rune (PFS 1-11)"
 level: "Hazard 1"
 
 trait_06: "Complex"
-trait_01: "magical"
+trait_01: [[magical]]
 modifier: 7
 sourcebook: "_Pathfinder Society Scenario #1-11: Flames of Rebellion_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

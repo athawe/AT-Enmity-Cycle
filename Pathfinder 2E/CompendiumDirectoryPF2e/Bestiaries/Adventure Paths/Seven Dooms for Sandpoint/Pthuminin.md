@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Pthuminin"
@@ -22,16 +23,16 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #200: Seven Dooms for Sandpoint"
 name: "Pthuminin"
 level: "Creature 11"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 21
 perception:
   - name: "Perception"
-    desc: "+21; Darkvision, Thoughtsense (Imprecise) 60 Feet"
+    desc: "+21; Darkvision, Thoughtsense (Precise) 60 Feet"
 languages: "Aklo, Common, Sakvroth; telepathy 100 feet"
 skills:
   - name: "Skills"
@@ -51,7 +52,7 @@ health:
 abilities_top:
   - name: ""
 
-  - name: "Thoughtsense"
+  - name: "Thoughtsense 60 feet"
     desc: " (mental,occult) The gosreg senses a creature's mental essence as a precise sense with the listed range; it cannot sense mindless creatures with thoughtsense."
 
 abilities_mid:

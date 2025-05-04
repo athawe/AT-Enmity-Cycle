@@ -26,6 +26,7 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, occult"
+
   - name: "Duration"
     desc: "until the end of your turn"
 abilities_mid:

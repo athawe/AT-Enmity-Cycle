@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #152: Legacy of the Lost God
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.mTQYkgy9lfrv2yGG" 
@@ -22,14 +23,14 @@ name: "Mask of Aroden's Guises"
 level: "Hazard 10"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 20
 sourcebook: "_Pathfinder #152: Legacy of the Lost God_"
 ac: 30
 armorclass:
   - name: AC
-    desc: "30; __Fort__ +20, __Ref__ +16, __Will__ +0"
+    desc: "30; __Fort__ +20, __Ref__ +16, "
 hp: 48
 health:
   - name: ""

@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Undead Brain Collector"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: Malevolence"
 name: "Undead Brain Collector"
 level: "Creature 7"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -73,7 +74,7 @@ attacks:
     desc: "`pf2:2` (mental,occult) The undead brain collector extrudes a writhing tangle of ectoplasm from its bursted brain blisters. These ectoplasmic strands lash out at all living targets within 30 feet. Targets in this area must attempt a DC 25 Will check save.\n\nAfter the undead brain collector uses this ability, seven phantom brains glow and shimmer where its brain blisters once were. It can't use Brainlash again until all seven phantom brains are Absorbed.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes 4d6 mental damage.\n\n**Failure** The creature takes 8d6 mental damage.\n\n**Critical Failure** The creature takes 8d6 mental damage and is [[Conditions/Confused|Confused]]."
 
   - name: "Mind-Rotting Toxin"
-    desc: " (poison) **Saving Throw** DC 25 Fortitude check\n\n**Maximum Duration** 6 rounds\n* * *\n\n**Stage 1** 1d6 void and [[Conditions/Stupefied 1|Stupefied 1]] (1 round)\n\n**Stage 2** 1d6 void, stupefied 1, and [[Conditions/Slowed 1|Slowed 1]] (1 round)\n\n**Stage 3** 2d6 void, [[Conditions/Stupefied 1|Stupefied 2]], and slowed 1 (1 round)"
+    desc: " (poison) **Saving Throw** DC 25 Fortitude check\n\n**Maximum Duration** 6 rounds\n* * *\n\n**Stage 1** 1d6 void and [[Conditions/Stupefied|Stupefied 1]] (1 round)\n\n**Stage 2** 1d6 void, stupefied 1, and [[Conditions/Slowed|Slowed 1]] (1 round)\n\n**Stage 3** 2d6 void, [[Conditions/Stupefied|Stupefied 2]], and slowed 1 (1 round)"
  
 ```
 

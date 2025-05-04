@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Sepid"
@@ -27,11 +28,11 @@ level: "Creature 14"
 
 alignment: ""
 size: "Large"
-trait_01: "div"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "lawful"
-trait_05: "unholy"
+trait_01: [[div]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[lawful]]
+trait_05: [[unholy]]
 modifier: 24
 perception:
   - name: "Perception"
@@ -83,7 +84,7 @@ attacks:
     desc: "_[[Spells/Create Undead|Create Undead (No Secondary Caster Required)]]_, _[[Spells/Div Pact|Div Pact]]_"
 
   - name: "Rain of Debris"
-    desc: "`pf2:2` (divine,unholy) The sepid calls forth a hail of stone, wood, metal, and similar debris in a 40-foot emanation, dealing 10d6 bludgeoning damage and 5d6 spirit damage. Each creature in the area other than the sepid must attempt a DC 31 Reflex check saving throw.\n\nThe sepid can't use Rain of Debris again for 1d4 rounds."
+    desc: "`pf2:2` (divine,unholy) The sepid calls forth a hail of stone, wood, metal, and similar debris in a @Template[emanation|distance:40], dealing 10d6 bludgeoning damage and 5d6 spirit damage. Each creature in the area other than the sepid must attempt a DC 31 Reflex check saving throw.\n\nThe sepid can't use Rain of Debris again for 1d4 rounds."
  
 ```
 

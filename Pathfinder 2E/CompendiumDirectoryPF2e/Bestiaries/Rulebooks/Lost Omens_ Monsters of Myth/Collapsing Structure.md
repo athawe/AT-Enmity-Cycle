@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - kaiju
+  - pf2eHazard
   - complex
 source: Pathfinder Lost Omens: Monsters of Myth
 aliases: "Compendium.pf2e.lost-omens-monsters-of-myth-bestiary.Actor.0ypo8Vt3B6p9DqAt" 
@@ -22,14 +23,14 @@ name: "Collapsing Structure"
 level: "Hazard 15"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "kaiju"
+trait_01: [[environmental]]
+trait_02: [[kaiju]]
 modifier: 20
 sourcebook: "_Pathfinder Lost Omens: Monsters of Myth_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

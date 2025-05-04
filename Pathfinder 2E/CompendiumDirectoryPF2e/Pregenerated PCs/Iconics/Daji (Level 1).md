@@ -54,12 +54,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Daji (Level 1)
-creatures:
-  - 1: Daji (Level 1)
-```
-
 
 
 

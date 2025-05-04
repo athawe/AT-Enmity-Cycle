@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Abyssal Warhound"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-99: Blessings of the Forest"
 name: "Abyssal Warhound"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "animal"
-trait_02: "chaotic"
-trait_03: "demon"
-trait_04: "evil"
-trait_05: "fiend"
-trait_06: "unholy"
+trait_01: [[animal]]
+trait_02: [[chaotic]]
+trait_03: [[demon]]
+trait_04: [[evil]]
+trait_05: [[fiend]]
+trait_06: [[unholy]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -41,7 +42,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Athletics: +5, Intimidation: +7, Survival: +8 (+10 to Track)"
+    desc: "Acrobatics: +7, Athletics: +5, Intimidation: +7, Survival: +8"
 abilityMods: [4, 0, 4, -4, 1, 0]
 speed: 30 feet
 sourcebook: "_Pathfinder Society Scenario #4-99: Blessings of the Forest_"

@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/ghoul
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Ghoul Antipaladin"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #184: The Ghouls Hunger"
 name: "Ghoul Antipaladin"
 level: "Creature 9"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "ghoul"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[ghoul]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common, Necril"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +18, Athletics: +20, Intimidation: +20, Kabriri Lore: +18, Religion: +18, Survival: +18"
+    desc: "Acrobatics: +18, Athletics: +20, Intimidation: +20, Religion: +18, Survival: +18, Kabriri Lore: +18"
 abilityMods: [6, 4, 6, 1, 4, 4]
 speed: 20 feet
 sourcebook: "_Pathfinder #184: The Ghouls Hunger_"
@@ -80,7 +81,7 @@ attacks:
     desc: "`pf2:1` Heavy Crossbow +19 (range increment 120 feet, reload 2)\n__Damage__  2d8 + 11 piercing"
 
   - name: "Divine Focus Spells"
-    desc: "1 Focus Point, DC 25, attack +17; __5th __  _[[Spells/Touch of Corruption|Touch of Corruption]]_"
+    desc: "1 Focus Point, DC 25, attack +17; __5th __  _[[Spells/Touch of the Void|Touch of Corruption]]_"
 
   - name: "[[Creature Family Ability Glossary/(Ghoul) Consume Flesh|Consume Flesh]]"
     desc: "`pf2:1` (manipulate) **Requirements** The ghoul antipaladin is adjacent to the corpse of a creature that died within the last hour\n* * *\n\n**Effect** The ghoul antipaladin devours a chunk of the corpse and regains 4d6 Hit Points. It can regain Hit Points from any given corpse only once."

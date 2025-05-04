@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/cold
   - pf2e/creature/type/elemental
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Icicle Snake"
@@ -25,9 +26,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "cold"
-trait_02: "elemental"
-trait_03: "water"
+trait_01: [[cold]]
+trait_02: [[elemental]]
+trait_03: [[water]]
 modifier: 7
 perception:
   - name: "Perception"

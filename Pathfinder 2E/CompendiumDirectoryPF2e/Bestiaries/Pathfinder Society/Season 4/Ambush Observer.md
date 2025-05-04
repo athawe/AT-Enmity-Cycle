@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/elf
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Ambush Observer"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-99: Blessings of the Forest"
 name: "Ambush Observer"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "elf"
-trait_02: "evil"
-trait_03: "humanoid"
+trait_01: [[elf]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Elven"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +10, Athletics: +8, Deception: +7, Society: +7, Stealth: +12, Thievery: +12 (can Disable traps that require master proficiency), Underworld Lore: +7"
+    desc: "Acrobatics: +10, Athletics: +8, Deception: +7, Society: +7, Stealth: +12, Thievery: +12, Underworld Lore: +7"
 abilityMods: [2, 4, 1, 1, 2, 1]
 speed: 30 feet
 sourcebook: "_Pathfinder Society Scenario #4-99: Blessings of the Forest_"

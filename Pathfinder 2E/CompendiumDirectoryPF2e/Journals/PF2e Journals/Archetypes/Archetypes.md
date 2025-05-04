@@ -165,6 +165,7 @@ tags:
 - [[Unexpected Sharpshooter]]
 - [[Vampire]]
 - [[Vehicle Mechanic]]
+- [[Verduran Shadow]]
 - [[Vigilante]]
 - [[Viking]]
 - [[Weapon Improviser]]

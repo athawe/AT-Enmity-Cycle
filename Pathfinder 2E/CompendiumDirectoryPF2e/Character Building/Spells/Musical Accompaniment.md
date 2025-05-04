@@ -31,10 +31,11 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, occult"
+
   - name: "Duration"
     desc: "1 minute"
 abilities_mid:
   - name: ""
-    desc: "You're surrounded by orchestral music that shifts and changes to match your behavior. This music provides a +1 status bonus to Performance checks. At the GM's discretion, it provides this bonus to Deception, Diplomacy, and Intimidation checks as the music changes to support you in social situations, though some creatures are unaffected by such obvious attempts to use music to illicit specific emotions. This music moves with you and has a maximum volume equal to four humans shouting. You take a -4 penalty to Stealth checks while the music is playing. You can't control the exact music this spell creates. The music doesn't create intelligible words or singing. You can Dismiss this spell.\n\n[[Spell Effects/Spell Effect_ Musical Accompaniment|Spell Effect: Musical Accompaniment]]\n* * *\n\n**Heightened (2nd)** The duration increases to 10 minutes.\n\n**Heightened (3rd)** The duration increases to 1 hour.\n\n**Heightened (5th)** The duration increases to 24 hours."
+    desc: "You're surrounded by orchestral music that shifts and changes to match your behavior. This music provides a +1 status bonus to Performance checks. At the GM's discretion, it provides this bonus to Deception, Diplomacy, and Intimidation checks as the music changes to support you in social situations, though some creatures are unaffected by such obvious attempts to use music to illicit specific emotions. This music moves with you and has a maximum volume equal to four humans shouting. You take a -4 penalty to Stealth checks while the music is playing. You can't control the exact music this spell creates. The music doesn't create intelligible words or singing. You can Dismiss this spell.\n\n[[Spell Effects/Spell Effect_ Musical Accompaniment|Spell Effect: Musical Accompaniment]]\n* * *\n\n**Heightened (2nd)** The duration increases to 10 minutes."
 sourcebook: "_Pathfinder Lost Omens: Firebrands_"
 ```

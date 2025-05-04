@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/goblin
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Dmiri Yoltosha"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #145: Hellknight Hill"
 name: "Dmiri Yoltosha"
 level: "Creature 4"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "goblin"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[goblin]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -66,10 +67,10 @@ attacks:
     desc: "`pf2:1` Dagger +12 (agile, finesse, versatile s)\n__Damage__  1d4 + 3 piercing"
 
   - name: "Ranged"
-    desc: "`pf2:1` Composite Shortbow +12 (deadly d10, range increment 60 feet, reload 0)\n__Damage__  1d6 + 1 piercing"
+    desc: "`pf2:1` Dagger +12 (agile, thrown 10 ft., versatile s)\n__Damage__  1d4 + 3 piercing"
 
   - name: "Ranged"
-    desc: "`pf2:1` Dagger +12 (agile, thrown 10 ft., versatile s)\n__Damage__  1d4 + 3 piercing"
+    desc: "`pf2:1` Composite Shortbow +12 (deadly d10, range increment 60 feet, reload 0)\n__Damage__  1d6 + 1 piercing"
 
   - name: "Flurry"
     desc: "  Dmiri's multiple attack penalty against her hunted prey is -3 (-2 with an agile weapon) on her second attack and -6 (-4 with an agile weapon) on her third or subsequent attacks."

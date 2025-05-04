@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.zj2sCM8tQSMG9Qm6"
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/dragon
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Najra Lizard"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #158: Sixty Feet Under"
 name: "Najra Lizard"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "tiny"
-trait_01: "chaotic"
-trait_02: "dragon"
+trait_01: [[chaotic]]
+trait_02: [[dragon]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Draconic"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +14, Deception: +10 (+12 to Create a Diversion), Stealth: +12, Survival: +12"
+    desc: "Acrobatics: +14, Deception: +10, Stealth: +12, Survival: +12"
 abilityMods: [-1, 4, 2, -1, 3, 2]
 speed: 30 feet
 sourcebook: "_Pathfinder #158: Sixty Feet Under_"

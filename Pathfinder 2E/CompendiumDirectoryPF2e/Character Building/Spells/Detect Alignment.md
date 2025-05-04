@@ -27,7 +27,9 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "divine, occult"
-**Area** 30-foot emanation
+
+  - name: "Area"
+    desc: "30-foot emanation"
 abilities_mid:
   - name: ""
     desc: "Your eyes glow as you sense aligned auras. Choose chaotic, evil, good, or lawful. You detect auras of that alignment. You receive no information beyond presence or absence. You can choose not to detect creatures or effects you're aware have that alignment.\n\nOnly creatures of 6th level or higher-unless divine spellcasters, undead, or beings from the Outer Sphere-have alignment auras.\n* * *\n\n**Heightened (2nd)** You learn each aura's location and strength."

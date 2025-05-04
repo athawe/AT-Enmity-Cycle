@@ -68,12 +68,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Kyra (Beginner Box)
-creatures:
-  - 1: Kyra (Beginner Box)
-```
-
 
 
 

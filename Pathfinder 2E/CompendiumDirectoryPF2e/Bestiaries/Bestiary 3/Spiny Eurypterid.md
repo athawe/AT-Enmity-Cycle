@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.ChzqT42N5waJZ9VS"
 tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Spiny Eurypterid"
@@ -24,8 +25,8 @@ level: "Creature 5"
 
 alignment: ""
 size: "Large"
-trait_01: "amphibious"
-trait_02: "animal"
+trait_01: [[amphibious]]
+trait_02: [[animal]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -67,7 +68,7 @@ attacks:
     desc: "  A creature [[Conditions/Grabbed|Grabbed]] by the spiny eurypterid takes 2d6 piercing damage at the start of that creature's turn."
 
   - name: "Spiny Eurypterid Venom"
-    desc: " (poison) **Saving Throw** DC 22 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d8 poison damage and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)\n\n**Stage 2** 1d8 poison damage and [[Conditions/Enfeebled 1|Enfeebled 2]] (1 round)\n\n**Stage 3** 2d8 poison damage and [[Conditions/Enfeebled 1|Enfeebled 3]] (1 round)."
+    desc: " (poison) **Saving Throw** DC 22 Fortitude check\n* * *\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d8 poison damage and [[Conditions/Enfeebled|Enfeebled 1]] (1 round)\n\n**Stage 2** 1d8 poison damage and [[Conditions/Enfeebled|Enfeebled 2]] (1 round)\n\n**Stage 3** 2d8 poison damage and [[Conditions/Enfeebled|Enfeebled 3]] (1 round)."
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

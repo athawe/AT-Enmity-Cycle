@@ -4,6 +4,7 @@ title: "Chatterer of Follies"
 cssclasses: pf2e,pf2e-spell
 tags:
   - pf2e/weapon
+  - trait/illusion
   - trait/magical
   - trait/shove
   - trait/two-hand-d10
@@ -15,7 +16,7 @@ license: OGL
 ---
 # Chatterer of Follies
 ## Item 6
-### [uncommon](uncommon "Uncommon Rarity Trait")[[magical]][[shove]][[two-hand-d10]][[versatile-p]]
+### [uncommon](uncommon "Uncommon Rarity Trait")[[illusion]][[magical]][[shove]][[two-hand-d10]][[versatile-p]]
 
 |  |  |
 | -- | -- |

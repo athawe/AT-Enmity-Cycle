@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.httXfBPGseF9csXa"
 tags:
   - pf2e/creature/type/bugbear
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/3
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "bugbear"
-trait_02: "humanoid"
+trait_01: [[bugbear]]
+trait_02: [[humanoid]]
 modifier: 8
 perception:
   - name: "Perception"

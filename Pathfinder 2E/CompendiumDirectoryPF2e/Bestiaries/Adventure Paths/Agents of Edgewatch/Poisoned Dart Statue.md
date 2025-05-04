@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - mechanical
+  - pf2eHazard
   - complex
 source: Pathfinder #160: Assault on Hunting Lodge Seven
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.64TX3n5xufgjqbwK" 
@@ -21,13 +22,13 @@ name: "Poisoned Dart Statue"
 level: "Hazard 14"
 
 trait_06: "Complex"
-trait_01: "mechanical"
+trait_01: [[mechanical]]
 modifier: 24
 sourcebook: "_Pathfinder #160: Assault on Hunting Lodge Seven_"
 ac: 34
 armorclass:
   - name: AC
-    desc: "34; __Fort__ +20, __Ref__ +25, __Will__ +0"
+    desc: "34; __Fort__ +20, __Ref__ +25, "
 hp: 96
 health:
   - name: ""

@@ -26,7 +26,7 @@ district:
 %% Essential information for the PCs, necessary clues, etc. _NOT_ key info about the NPC (that's what background is for). %%
 
 1. A wealthy merchant of great valuables - a young [[Fortune Dragon (Young, Spellcaster)|fortune dragon]] in disguise. Valuables tend to stick to him when he gets angry.
-2. Fortune dragons are seekers of novel experiences. This desire for originality leads fortune dragons to approach visitors of other ancestries with curiosity, though this initial interest quickly wanes if a visitor lacks exciting qualities.
+2. Fortune dragons are seekers of novel experiences. This desire for originality leads fortune dragons to approach visitors of other ancestries with curiosity, though this initial interest quickly wanes if a visitor lacks exciting qualities. 
 
 ### Statblock
 

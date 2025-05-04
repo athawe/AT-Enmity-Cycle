@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.74Sw9n7c4sMaK9Rx"
 tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/stheno
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Stheno Harpist"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Stheno Harpist"
 level: "Creature 1"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
-trait_02: "stheno"
+trait_01: [[humanoid]]
+trait_02: [[stheno]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common; speak with snakes"
 skills:
   - name: "Skills"
-    desc: "Crafting: +4, Diplomacy: +7, Performance: +7 (+8 for stringed instruments), Stealth: +5"
+    desc: "Crafting: +4, Diplomacy: +7, Performance: +7, Stealth: +5"
 abilityMods: [0, 2, 3, 1, -1, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"

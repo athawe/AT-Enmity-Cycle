@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.IaSxoVNZFYatdfjI"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Drunkard"
@@ -24,8 +25,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Alcohol Lore: +3, Athletics: +7, Intimidation: +8"
+    desc: "Athletics: +7, Intimidation: +8, Alcohol Lore: +3"
 abilityMods: [3, 2, 4, -1, 0, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

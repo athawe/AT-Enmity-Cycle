@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Kingmaker
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.oqlZNnsV8XMGn7JN" 
@@ -22,8 +23,8 @@ name: "Praise of Yog-Sothoth"
 level: "Hazard 19"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 37
 sourcebook: "_Pathfinder Kingmaker_"
 perception:

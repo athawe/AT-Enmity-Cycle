@@ -8,7 +8,7 @@ tags:
 ---
 # Punt
 
-> Your weapon files 1d4 \* 5 feet in a random direction 1d8 (determined by the GM).
+> Your weapon files 1d4\*5 feet in a random direction 1d8 (determined by the GM).
 
 `Melee`
 

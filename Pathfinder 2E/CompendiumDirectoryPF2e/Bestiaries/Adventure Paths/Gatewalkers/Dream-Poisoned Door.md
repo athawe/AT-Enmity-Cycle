@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #189: Dreamers of the Nameless Spires
 aliases: "Compendium.pf2e.gatewalkers-bestiary.Actor.jzU3LPOPpzd5RDTW" 
@@ -22,8 +23,8 @@ name: "Dream-Poisoned Door"
 level: "Hazard 12"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 25
 sourcebook: "_Pathfinder #189: Dreamers of the Nameless Spires_"
 perception:

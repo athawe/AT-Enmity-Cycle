@@ -25,6 +25,7 @@ abilities_top:
     desc: "1 hour; **Cost** rare candles and incense worth a total value of 50 gp; **Secondary Casters** 1"
   - name: "Primary Check"
     desc: "Occultism (expert) or Religion (expert); **Secondary Checks** Occultism or Religion (whichever isn&#x27;t used for the primary check)"
+
   - name: "Duration"
     desc: "up to 10 minutes"
 abilities_mid:

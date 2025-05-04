@@ -25,7 +25,7 @@ license: OGL
 
 
 
-You wreath yourself in molten stone and hurtle toward your enemy. [[Actions/Leap|Leap]] up to your Speed. At the end of your Leap, a wave of lava crashes onto all creatures in a 10-foot emanation. Each creature in the area takes 0d6 bludgeoning + floor1 - 4 / 3 + 2d6 fire damage, with a Reflex check save against your class DC.
+You wreath yourself in molten stone and hurtle toward your enemy. [[Actions/Leap|Leap]] up to your Speed. At the end of your Leap, a wave of lava crashes onto all creatures in a 10-foot emanation. Each creature in the area takes 0d6 bludgeoning + 1d6 fire damage, with a Reflex check save against your class DC.
 
 The cooling remains of the lava form a temporary protective shell around you, granting you a +2 circumstance bonus to AC until the start of your next turn.
 

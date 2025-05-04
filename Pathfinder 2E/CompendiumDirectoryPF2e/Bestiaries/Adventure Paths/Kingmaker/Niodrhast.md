@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "Niodrhast"
@@ -22,16 +23,16 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Niodrhast"
 level: "Creature 19"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "grg"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 33
 perception:
   - name: "Perception"
-    desc: "+33; Greater Darkvision, Thoughtsense (Imprecise) 100 Feet"
+    desc: "+33; Greater Darkvision, Thoughtsense (Precise) 100 Feet"
 languages: "Aklo, Alghollthu, Sakvroth; telepathy 100 feet"
 skills:
   - name: "Skills"
@@ -51,7 +52,7 @@ health:
 abilities_top:
   - name: ""
 
-  - name: "Thoughtsense"
+  - name: "Thoughtsense (Precise) 100 feet"
     desc: " (mental,occult) The neothelid uses its mind as a precise sense at the listed range to notice all non-mindless creatures."
 
 abilities_mid:
@@ -75,7 +76,7 @@ attacks:
     desc: "_[[Spells/Geas|Geas]]_, _[[Spells/Inveigle|Inveigle]]_"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (acid,occult) The neothelid breathes a spray of acid that deals 20d6 acid damage in a 60-foot cone (DC 41 Reflex check save). The neothelid can't use Breath Weapon again for 1d4 rounds."
+    desc: "`pf2:2` (acid,occult) The neothelid breathes a spray of acid that deals 20d6 acid damage in a @Template[cone|distance:60] (DC 41 Reflex check save). The neothelid can't use Breath Weapon again for 1d4 rounds."
 
   - name: "Instant Suggestion"
     desc: "`pf2:r`  **Trigger** A creature fails a Will save against a spell or effect created by the neothelid\n* * *\n\n**Effect** The neothelid casts a [[Spells/Suggestion|Suggestion]] spell it has available on the creature that failed its Will save."

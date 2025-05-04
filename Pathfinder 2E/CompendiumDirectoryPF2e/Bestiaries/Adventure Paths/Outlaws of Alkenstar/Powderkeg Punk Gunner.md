@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.outlaws-of-alkenstar-bestiary.Actor.7qaFFvXAYHp2G0CX"
 tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Powderkeg Punk Gunner"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #178: Punks in a Powder Keg"
 name: "Powderkeg Punk Gunner"
 level: "Creature 0"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "humanoid"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Goblin"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +5, Athletics: +2, Crafting: +3, Gunpowder Lore: +5, Intimidation: +6, Stealth: +5"
+    desc: "Acrobatics: +5, Athletics: +2, Crafting: +3, Intimidation: +6, Stealth: +5, Gunpowder Lore: +5"
 abilityMods: [0, 3, 2, 1, 0, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder #178: Punks in a Powder Keg_"

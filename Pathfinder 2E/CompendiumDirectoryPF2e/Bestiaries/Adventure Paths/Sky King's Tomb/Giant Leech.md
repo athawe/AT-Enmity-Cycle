@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.8mPOfXAKoc5FcPVI"
 tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Giant Leech"
@@ -24,8 +25,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "animal"
+trait_01: [[amphibious]]
+trait_02: [[animal]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -50,7 +51,7 @@ abilities_top:
   - name: ""
 
   - name: "Parasitizing"
-    desc: "  While burrowed into Lady Shimmersnip, a giant leech has cover, can't make attacks, and can Squirm. If a giant leech is [[Conditions/Grabbed|Grabbed]], [[Conditions/Restrained|Restrained]], or [[Conditions/Stunned 1|Stunned]], a creature can attempt to remove the leech by spending a single action, which has the attack and manipulate traits, attempting an Athletics check or Medicine check check against the giant leech's Fortitude DC. On a success, the creature extracts the leech, reduces Lady Shimmersnip's [[Conditions/Clumsy 1|Clumsy]] condition by 1, and places the leech in a space adjacent to the creature and Lady Shimmersnip."
+    desc: "  While burrowed into Lady Shimmersnip, a giant leech has cover, can't make attacks, and can Squirm. If a giant leech is [[Conditions/Grabbed|Grabbed]], [[Conditions/Restrained|Restrained]], or [[Conditions/Stunned|Stunned]], a creature can attempt to remove the leech by spending a single action, which has the attack and manipulate traits, attempting an Athletics check or Medicine check check against the giant leech's Fortitude DC. On a success, the creature extracts the leech, reduces Lady Shimmersnip's [[Conditions/Clumsy|Clumsy]] condition by 1, and places the leech in a space adjacent to the creature and Lady Shimmersnip."
 
 abilities_mid:
   - name: ""
@@ -61,7 +62,7 @@ attacks:
     desc: "`pf2:1` Mouth +10 ()\n__Damage__  1d4 + 6 piercing plus grab"
 
   - name: "Blood Drain"
-    desc: "`pf2:1`  **Requirements** The giant leech has a creature [[Conditions/Grabbed|Grabbed]] or [[Conditions/Restrained|Restrained]]\n* * *\n\n**Effect** The giant leech drains blood from the creature it has grabbed. This deals 2d4 damage. A creature that has its blood drained by a giant leech is [[Conditions/Drained 1|Drained 1]] until it receives any kind or amount of healing."
+    desc: "`pf2:1`  **Requirements** The giant leech has a creature [[Conditions/Grabbed|Grabbed]] or [[Conditions/Restrained|Restrained]]\n* * *\n\n**Effect** The giant leech drains blood from the creature it has grabbed. This deals 2d4 damage. A creature that has its blood drained by a giant leech is [[Conditions/Drained|Drained 1]] until it receives any kind or amount of healing."
 
   - name: "Gnash"
     desc: "`pf2:1`  **Frequency** once per round\n\n**Requirements** The giant leech is parasitizing Lady Shimmersnip\n* * *\n\n**Effect** Lady Shimmersnip takes 1 slashing that bypasses her resistances."

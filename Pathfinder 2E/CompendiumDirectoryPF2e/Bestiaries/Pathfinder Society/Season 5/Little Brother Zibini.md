@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/sylph
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Little Brother Zibini"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #5-10: The Crocodile&#x27;s Smile"
 name: "Little Brother Zibini"
 level: "Creature -1"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "goblin"
-trait_03: "good"
-trait_04: "humanoid"
-trait_05: "sylph"
+trait_01: [[chaotic]]
+trait_02: [[goblin]]
+trait_03: [[good]]
+trait_04: [[humanoid]]
+trait_05: [[sylph]]
 modifier: 2
 perception:
   - name: "Perception"

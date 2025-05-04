@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Special #3-99: Fate in the Future
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.pBRkhSlkyNznhzP9" 
@@ -22,14 +23,14 @@ name: "Poisoned Dart Trap (3-4)"
 level: "Hazard 3"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 10
 sourcebook: "_Pathfinder Society Special #3-99: Fate in the Future_"
 ac: 19
 armorclass:
   - name: AC
-    desc: "19; __Fort__ +12, __Ref__ +6, __Will__ +0"
+    desc: "19; __Fort__ +12, __Ref__ +6, "
 hp: 44
 health:
   - name: ""
@@ -56,7 +57,7 @@ attacks:
     desc: "Dart +16 () "
 
   - name: "Graveroot"
-    desc: "passive (poison) **Saving Throw** DC 19 Fortitude check\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 1d10 poison damage (1 round)\n\n**Stage 2** 1d12 poison damage and [[Conditions/Stupefied 1|Stupefied 1]] (1 round)\n\n**Stage 3** 2d6 poison damage and [[Conditions/Stupefied 1|Stupefied 2]] (1 round)"
+    desc: "passive (poison) **Saving Throw** DC 19 Fortitude check\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 1d10 poison damage (1 round)\n\n**Stage 2** 1d12 poison damage and [[Conditions/Stupefied|Stupefied 1]] (1 round)\n\n**Stage 3** 2d6 poison damage and [[Conditions/Stupefied|Stupefied 2]] (1 round)"
 
 
   - name: "Reset"

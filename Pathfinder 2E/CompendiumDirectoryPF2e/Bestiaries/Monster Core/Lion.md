@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.6KF6TQvLHHpE0uAM" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/3
   - remaster
 statblock: inline
@@ -24,7 +25,7 @@ level: "Creature 3"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -32,7 +33,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8, Athletics: +11, Stealth: +10"
+    desc: "Acrobatics: +8, Athletics: +9, Stealth: +10"
 abilityMods: [4, 3, 2, -4, 2, -2]
 speed: 30 feet
 sourcebook: "_Pathfinder Monster Core_"

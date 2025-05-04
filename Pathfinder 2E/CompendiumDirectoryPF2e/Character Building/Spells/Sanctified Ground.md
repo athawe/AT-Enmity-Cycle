@@ -31,7 +31,9 @@ abilities_top:
     desc: "divine"
   - name: "Cast"
     desc: "1 minute; **Cost** 1 vial of holy water"
-**Area** 30-foot burst
+
+  - name: "Area"
+    desc: "30-foot burst"
   - name: "Duration"
     desc: "until the next time you make your daily preparations"
 abilities_mid:

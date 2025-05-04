@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.SUpy8sleRwi2Egsq" 
 tags:
   - pf2e/creature/type/fungus
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Drakauthix"
@@ -23,7 +24,7 @@ level: "Creature 9"
 
 alignment: ""
 size: "huge"
-trait_01: "fungus"
+trait_01: [[fungus]]
 modifier: 17
 perception:
   - name: "Perception"

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Sezruth (3-4)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-21: In Pursuit of Water"
 name: "Sezruth (3-4)"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "div"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "unholy"
+trait_01: [[div]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[unholy]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -74,7 +75,7 @@ attacks:
     desc: "_[[Spells/Div Pact|Div Pact]]_"
 
   - name: "Cursed Gaze"
-    desc: "`pf2:2` (concentrate,curse,divine,emotion,fear,mental,visual) The aghash fixes their gaze on one creature they can see within 20 feet. The creature must attempt a DC 22 Will check save\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes 2d8 mental damage and becomes [[Conditions/Frightened 1|Frightened 1]].\n\n**Failure** The creature takes 4d8 mental damage and becomes either [[Conditions/Frightened 1|Frightened 2]] or [[Conditions/Stunned 1|Stunned 1]] (the aghash's choice).\n\n**Critical Failure** The creature takes 8d8 mental damage and becomes Frightened 2 and [[Conditions/Stunned 1|Stunned 2]]."
+    desc: "`pf2:2` (concentrate,curse,divine,emotion,fear,mental,visual) The aghash fixes their gaze on one creature they can see within 20 feet. The creature must attempt a DC 22 Will check save\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes 2d8 mental damage and becomes [[Conditions/Frightened|Frightened 1]].\n\n**Failure** The creature takes 4d8 mental damage and becomes either [[Conditions/Frightened|Frightened 2]] or [[Conditions/Stunned|Stunned 1]] (the aghash's choice).\n\n**Critical Failure** The creature takes 8d8 mental damage and becomes Frightened 2 and [[Conditions/Stunned|Stunned 2]]."
 
   - name: "Sandstorm"
     desc: "`pf2:3` (divine,earth) **Frequency** once per day\n* * *\n\n**Effect** The aghash creates a temporary sandstorm in a 30-foot emanation that lasts for 5 rounds. Creatures within the emanation take a -4 circumstance penalty to Perception checks and must succeed at a DC 19 Fortitude check save. On a failure, they're forced to hold their breath or else they start suffocating. A creature within the sandstorm at the end of its turn takes 1d10 slashing damage. Divs are immune to all effects of an aghash's sandstorm"

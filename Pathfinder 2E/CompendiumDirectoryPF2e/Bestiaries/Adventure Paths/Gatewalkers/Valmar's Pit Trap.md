@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #188: They Watched the Stars
 aliases: "Compendium.pf2e.gatewalkers-bestiary.Actor.PGqYo173cQAYLHTz" 
@@ -22,14 +23,14 @@ name: "Valmar's Pit Trap"
 level: "Hazard 4"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 15
 sourcebook: "_Pathfinder #188: They Watched the Stars_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +2, __Ref__ +3, __Will__ +0"
+    desc: "10; __Fort__ +2, __Ref__ +3, "
 hp: 6
 health:
   - name: ""

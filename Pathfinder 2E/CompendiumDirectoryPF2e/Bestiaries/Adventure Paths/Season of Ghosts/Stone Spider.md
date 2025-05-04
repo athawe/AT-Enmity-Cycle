@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/celestial
   - pf2e/creature/type/good
   - pf2e/creature/type/holy
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Stone Spider"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #196: The Summer That Never Was"
 name: "Stone Spider"
 level: "Creature 5"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "celestial"
-trait_02: "good"
-trait_03: "holy"
+trait_01: [[celestial]]
+trait_02: [[good]]
+trait_03: [[holy]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Empyrean; telepathy 60 feet"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +12, Athletics: +13, Intimidation: +9, Religion: +14, Settlement Lore (Regarding their Home Settlement): +12, Society: +10"
+    desc: "Acrobatics: +12, Athletics: +13, Intimidation: +9, Religion: +14, Society: +10, Settlement Lore (Regarding their Home Settlement): +12"
 abilityMods: [4, 5, 3, 1, 5, 0]
 speed:  fly 40 feet
 sourcebook: "_Pathfinder #196: The Summer That Never Was_"

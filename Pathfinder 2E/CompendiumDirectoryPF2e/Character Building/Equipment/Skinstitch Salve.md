@@ -26,7 +26,7 @@ This sticky salve stubbornly holds wounds closed and encourages swift natural he
 
 * * *
 
-**Effect** You [[Actions/Administer First Aid|Administer First Aid]] without requiring [[Equipment/Healer's Toolkit|Healer's Toolkit]]. You either gain a +2 item bonus to the Medicine check, or you can use the skinstitch salve's Medicine modifier of 1d20 + 13 instead of your own.
+**Effect** You [[Actions/Administer First Aid|Administer First Aid]] without requiring [[Equipment/Healer's Toolkit|Healer's Toolkit]]. You either gain a +2 item bonus to the Medicine check, or you can use the skinstitch salve's Medicine modifier of 1d20+13 instead of your own.
 
 * * *
 

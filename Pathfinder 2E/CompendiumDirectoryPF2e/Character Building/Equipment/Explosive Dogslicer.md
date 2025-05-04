@@ -6,6 +6,7 @@ tags:
   - pf2e/weapon
   - trait/backstabber
   - trait/combination
+  - trait/fatal-d10
   - trait/goblin
   - trait/scatter-5
   - trait/uncommon
@@ -15,7 +16,7 @@ license: OGL
 ---
 # Explosive Dogslicer
 ## Item 1
-### [uncommon](uncommon "Uncommon Rarity Trait")[[backstabber]][[combination]][[goblin]][[scatter-5]]
+### [uncommon](uncommon "Uncommon Rarity Trait")[[backstabber]][[combination]][[fatal-d10]][[goblin]][[scatter-5]]
 
 |  |  |
 | -- | -- |

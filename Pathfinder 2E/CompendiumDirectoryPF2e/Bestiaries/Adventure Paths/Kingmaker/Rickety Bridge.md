@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Kingmaker
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.hGQ4uxhxwtrnGfj0" 
@@ -21,7 +22,7 @@ name: "Rickety Bridge"
 level: "Hazard 4"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 12
 sourcebook: "_Pathfinder Kingmaker_"
 perception:

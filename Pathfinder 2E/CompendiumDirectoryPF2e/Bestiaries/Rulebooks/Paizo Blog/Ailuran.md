@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.blog-bestiary.Actor.F8UHnGYafHS3Pnyt"
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Ailuran"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Blog"
 name: "Ailuran"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "fey"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Fey"
 skills:
   - name: "Skills"
-    desc: "Athletics: +12, Diplomacy: +10, Lore: +13, Nature: +12, Stealth: +10, Survival: +10"
+    desc: "Athletics: +12, Diplomacy: +10, Nature: +12, Stealth: +10, Survival: +10, Lore: +13"
 abilityMods: [4, 5, 4, 4, 3, 4]
 speed: 20 feet
 sourcebook: "_Pathfinder Blog_"

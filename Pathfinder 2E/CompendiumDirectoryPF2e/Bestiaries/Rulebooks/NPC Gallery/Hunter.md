@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.Hle05FibgOeZr7wF"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Hunter"
@@ -24,8 +25,8 @@ level: "Creature 7"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Forest Lore: +13, Medicine: +15, Nature: +17, Stealth: +17, Survival: +17"
+    desc: "Medicine: +15, Nature: +17, Stealth: +17, Survival: +17, Forest Lore: +13"
 abilityMods: [4, 4, 2, 1, 4, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

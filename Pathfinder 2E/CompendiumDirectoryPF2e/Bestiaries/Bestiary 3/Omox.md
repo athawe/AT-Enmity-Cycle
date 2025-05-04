@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/ooze
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Omox"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Omox"
 level: "Creature 12"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "demon"
-trait_03: "evil"
-trait_04: "fiend"
-trait_05: "ooze"
-trait_06: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[demon]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
+trait_05: [[ooze]]
+trait_06: [[unholy]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -84,7 +85,7 @@ attacks:
     desc: "`pf2:2` (concentrate,teleportation) **Requirements** The omox is in a space of liquid.\n* * *\n\n**Effect** The omox teleports from its current space to any unoccupied space of liquid within 120 feet."
 
   - name: "Slime Trap"
-    desc: "  A creature hit by an omox's slime ball must attempt a DC 32 Reflex check save.\n* * *\n\n**Success** The creature is unaffected.\n\n**Failure** The creature takes a -10-foot circumstance penalty to its Speeds for 1 minute or until it [[Actions/Escape|Escapes]] (DC 35).\n\n**Critical Failure** As failure, but the target is also [[Conditions/Clumsy 1|Clumsy 1]] for the same duration.\n\n[[Bestiary Effects/Effect_ Slime Trap|Effect: Slime Trap]]"
+    desc: "  A creature hit by an omox's slime ball must attempt a DC 32 Reflex check save.\n* * *\n\n**Success** The creature is unaffected.\n\n**Failure** The creature takes a -10-foot circumstance penalty to its Speeds for 1 minute or until it [[Actions/Escape|Escapes]] (DC 35).\n\n**Critical Failure** As failure, but the target is also [[Conditions/Clumsy|Clumsy 1]] for the same duration.\n\n[[Bestiary Effects/Effect_ Slime Trap|Effect: Slime Trap]]"
 
   - name: "Smother"
     desc: "`pf2:1`  **Requirements** The omox has a creature [[Conditions/Grabbed|Grabbed]].\n* * *\n\n**Effect** The demon flows over the grabbed creature, covering it in oozing acidic slime. The creature must succeed at a DC 32 Fortitude check save or else it becomes [[Conditions/Blinded|Blinded]] and must hold its breath or begin suffocating. These effects lasts as long as the omox has the creature grabbed."

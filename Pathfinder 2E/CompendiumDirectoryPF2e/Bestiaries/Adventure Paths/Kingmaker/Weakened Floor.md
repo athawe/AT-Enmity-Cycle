@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Kingmaker
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.EI8wQc9kzooDHQoJ" 
@@ -21,7 +22,7 @@ name: "Weakened Floor"
 level: "Hazard 5"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 16
 sourcebook: "_Pathfinder Kingmaker_"
 perception:

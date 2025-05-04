@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/clockwork
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Glass Buccaneer"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #180: The Smoking Gun"
 name: "Glass Buccaneer"
 level: "Creature 9"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "clockwork"
-trait_02: "construct"
-trait_03: "mindless"
+trait_01: [[clockwork]]
+trait_02: [[construct]]
+trait_03: [[mindless]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +18, Deception: +12 (+20 to Feint), Stealth: +20"
+    desc: "Athletics: +18, Deception: +12, Stealth: +20"
 abilityMods: [5, 6, 3, -5, 2, -5]
 speed: 25 feet
 sourcebook: "_Pathfinder #180: The Smoking Gun_"
@@ -73,7 +74,7 @@ attacks:
     desc: "`pf2:1` Arm Gun +21 (concussive, magical, range 40 feet, reload 1, scatter 10)\n__Damage__  2d8 + 6 piercing"
 
   - name: "Firearms Critical Specialization"
-    desc: "  When the buccaneer makes a critical hit with a firearm, the target must succeed at a DC 28 Fortitude check save or be [[Conditions/Stunned 1|Stunned 1]]."
+    desc: "  When the buccaneer makes a critical hit with a firearm, the target must succeed at a DC 28 Fortitude check save or be [[Conditions/Stunned|Stunned 1]]."
 
   - name: "Pirate's Feint"
     desc: "`pf2:1` (mental) The clockwork buccaneer [[Actions/Feint|Feints]]. If the target becomes [[Conditions/Off-Guard|Off-Guard]] to the buccaneer's melee attacks, it becomes off-guard to the buccaneer's ranged attacks as well."
@@ -85,7 +86,7 @@ attacks:
     desc: "  The clockwork buccaneer deals an extra 2d6 precision damage to [[Conditions/Off-Guard|Off-Guard]] creatures."
 
   - name: "Water Jet"
-    desc: "`pf2:1`  **Requirements** The clockwork buccaneer has a full water tank\n* * *\n\n**Effect** The clockwork buccaneer fires a narrow but highly pressurized blast of water in a 60-foot line, dealing 10d6 bludgeoning damage to creatures and unattended objects in the area (DC 28 Fortitude check; unattended objects automatically fail). Creatures and objects that fail the save are also knocked back 5 feet (10 feet on a critical failure). This empties the buccaneer's water tank."
+    desc: "`pf2:1`  **Requirements** The clockwork buccaneer has a full water tank\n* * *\n\n**Effect** The clockwork buccaneer fires a narrow but highly pressurized blast of water in a @Template[line|distance:60], dealing 10d6 bludgeoning damage to creatures and unattended objects in the area (DC 28 Fortitude check; unattended objects automatically fail). Creatures and objects that fail the save are also knocked back 5 feet (10 feet on a critical failure). This empties the buccaneer's water tank."
 
   - name: "Water Jump"
     desc: "`pf2:1`  **Requirements** The clockwork buccaneer has a full water tank\n* * *\n\n**Effect** The clockwork buccaneer jumps 60 feet, propelling itself through the air with a jet of water. This empties the buccaneer's water tank."

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.OhuPV1g5LfejhtAz"
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "The Horned Hunter"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "The Horned Hunter"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "fey"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
 modifier: 35
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Fey"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +35, Athletics: +35, First World Lore: +32, Nature: +33, Stealth: +35, Survival: +33"
+    desc: "Acrobatics: +35, Athletics: +35, Nature: +33, Stealth: +35, Survival: +33, First World Lore: +32"
 abilityMods: [8, 6, 6, 4, 6, 8]
 speed: 35 feet
 sourcebook: "_Pathfinder Kingmaker_"
@@ -89,7 +90,7 @@ attacks:
     desc: "  The Horned Hunter's multiple attack penalty for attacks against his hunted prey is -3 (-2 with an agile weapon) on his second attack in a turn, and -6 (-4 with an agile weapon) on his third or subsequent attacks. The first time he hits his hunted prey in a round, he deals 2d8 additional precision damage."
 
   - name: "Play the Pipes"
-    desc: "`pf2:3` (auditory,primal) **Requirements** The satyr is holding a musical instrument.\n* * *\n\n**Effect** The satyr plays a melody on his instrument to cast [[Spells/Charm|Charm]], [[Spells/Fear|Fear]], [[Spells/Sleep|Sleep]], or [[Spells/Suggestion|Suggestion]] without expending the spell slot and using his music in place of providing the spell's component actions. The spell gains the auditory trait and targets all creatures in a 60-foot emanation instead of its usual targets. A creature that succeeds at its Will save against any spell is then temporarily immune from spells played from that satyr's pipes for 1 minute. Satyrs are immune to this music."
+    desc: "`pf2:3` (auditory,primal) **Requirements** The satyr is holding a musical instrument.\n* * *\n\n**Effect** The satyr plays a melody on his instrument to cast [[Spells/Charm|Charm]], [[Spells/Fear|Fear]], [[Spells/Sleep|Sleep]], or [[Spells/Suggestion|Suggestion]] without expending the spell slot and using his music in place of providing the spell's component actions. The spell gains the auditory trait and targets all creatures in a @Template[emanation|distance:60] instead of its usual targets. A creature that succeeds at its Will save against any spell is then temporarily immune from spells played from that satyr's pipes for 1 minute. Satyrs are immune to this music."
  
 ```
 

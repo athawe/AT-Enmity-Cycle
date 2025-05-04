@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/celestial
   - pf2e/creature/type/good
   - pf2e/creature/type/holy
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Balisse"
@@ -26,10 +27,10 @@ level: "Creature 8"
 
 alignment: ""
 size: "Medium"
-trait_01: "angel"
-trait_02: "celestial"
-trait_03: "good"
-trait_04: "holy"
+trait_01: [[angel]]
+trait_02: [[celestial]]
+trait_03: [[good]]
+trait_04: [[holy]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -72,7 +73,7 @@ attacks:
     desc: "_[[Spells/Angelic Messenger|Angelic Messenger]]_, _[[Spells/Atone|Atone]]_, _[[Spells/Geas|Geas]]_"
 
   - name: "Brand of the Impenitent"
-    desc: "`pf2:2` (curse,divine) **Frequency** Once per day\n* * *\n\n**Effect** The balisse marks an evil creature within its confessor's aura as irredeemable. It can only do so after a failed attempt to convince the creature to repent. The touched creature takes a -1 status penalty to AC and saves, reduces its resistances by 2 and gains weakness 2 to unholy. The duration depends on the targets DC 26 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected\n\n**Success** The duration is 1 round\n\n**Failure** The duration is 1 day\n\n**Critical Failure** The duration is permanent\n\n[[Bestiary Effects/Effect_ Brand of the Impenitent|Effect: Brand of the Impenitent]]"
+    desc: "`pf2:2` (curse,divine) **Frequency** Once per day\n* * *\n\n**Effect** The balisse marks an evil creature within its confessor's aura as irredeemable. It can only do so after a failed attempt to convince the creature to repent. The touched creature takes a -1 status penalty to AC and saves, reduces its resistances by 2 and gains weakness 2 to holy. The duration depends on the targets DC 26 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected\n\n**Success** The duration is 1 round\n\n**Failure** The duration is 1 day\n\n**Critical Failure** The duration is permanent\n\n[[Bestiary Effects/Effect_ Brand of the Impenitent|Effect: Brand of the Impenitent]]"
 
   - name: "Flaming Armament"
     desc: "  Any weapon gains the effects of a _[[Equipment/Flaming|Flaming]]_ property rune while a balisse wields it."

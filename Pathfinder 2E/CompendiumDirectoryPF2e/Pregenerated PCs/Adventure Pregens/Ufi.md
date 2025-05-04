@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Ufi
-creatures:
-  - 1: Ufi
-```
-
 
 
 

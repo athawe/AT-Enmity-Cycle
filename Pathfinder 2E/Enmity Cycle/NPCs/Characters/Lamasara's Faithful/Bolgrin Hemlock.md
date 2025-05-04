@@ -29,7 +29,7 @@ district: "[[Theatre District]]"
 
 ### Statblock
 
-male human [[Warden]] 6
+male human [[Captain Of The Guard]] 6
 
 ### Activity Log 
 

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.57pzXwM9qFiRTwq9"
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Dig-Widget"
@@ -24,8 +25,8 @@ level: "Creature 5"
 
 alignment: ""
 size: "Small"
-trait_01: "construct"
-trait_02: "mindless"
+trait_01: [[construct]]
+trait_02: [[mindless]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +12, Athletics: +9 (+12 to Leap or Climb), Stealth: +14, Thievery: +15"
+    desc: "Acrobatics: +12, Athletics: +9, Stealth: +14, Thievery: +15"
 abilityMods: [2, 5, 1, -5, 0, -5]
 speed: 30 feet,  burrow 15 feet
 sourcebook: "_Pathfinder Bestiary 2_"

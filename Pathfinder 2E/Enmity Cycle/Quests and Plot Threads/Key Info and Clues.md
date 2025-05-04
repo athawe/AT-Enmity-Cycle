@@ -10,6 +10,33 @@ The next sun orchid festival is in two months. Zridi wants the Enmity Cycle to b
 # Locations
 ## Thuvia 
 - The Junira River to the east of Thuvia is at least 200 feet wide at most locations in the desert.
+- Desert 
+	- Descriptors - Arid Dry Scorching Bleak Sunbaked Vast Barren Desolate Isolated Unforgiving Windy Dusty Rocky Sparse Infertile Blistering Rugged Salty Harsh Baked Uninviting Uncultivated Uninhabited Expansive Empty
+	- Sight 
+		- A distant mirage of a temple shimmers in the heat of the sun.
+		- The bleached bones of a predator hide, half-covered by sand. 
+		- An endless expanse of slowly shifting dunes washes away to the horizon.
+		- As the sun rises and sets, shadows of cacti grow and die across blood-red sands that blush purple.
+	- Smell
+		- Dry, dusty smells of sand and heat slowly clog up your nose.
+		- The faint hint of cactus blossom is carried by the hot wind.
+		- The lingering stench of a rotting corpse is sharp in the still air.
+		- The crisp, cold air at night stings as you breathe it in, and smells of long, dark nights.
+	- Sound 
+		- The endless hissing of sand as it shifts down the dunes suddenly stops.
+		- In the distance, rumbling thunder growls ominously. 
+		- The lonely howl of a predator echoes in the distance.
+		- The chirps of insects suddenly stop. A moment later, they fill the air again.
+	- Touch 
+		- The blistering heat of the sun-baked sand beneath your feet burns through the soles of your shoes.
+		- Scratching and stinging, the prickly bite of cactus spines warn you against getting too close.
+		- The grains of sand stuck in your teeth add a new level of suffering to this infernal place. 
+		- Sun-burnt skin seems to crack in the frigid night air, only to boil again when the sun rises. 
+	- Taste
+		- Each bite, and each sip, is gritted with sand, crunching between your teeth and scouring your throat.
+		- You taste copper, dust, and pain as you swallow. Dehydration is setting in.
+		- The salty remains of sweat on your lips does nothing to help your thirst. 
+		- The water you drink has never tasted as sweet and cold as it does in the hot desert.
 ### [[Lamasara]] 
 - 
 

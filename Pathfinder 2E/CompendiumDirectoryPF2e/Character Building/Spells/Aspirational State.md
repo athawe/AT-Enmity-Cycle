@@ -26,6 +26,7 @@ abilities_top:
     desc: "4 hours; **Cost** totems related to the associated goal"
   - name: "Primary Check"
     desc: "DC 32 Occultism (master; DC 34 for levels 9-10); **Secondary Checks** DC 24 Arcana, Athletics, Nature, Occultism, Performance, Religion, or Society (DC 27 for levels 9-10)"
+
   - name: "Duration"
     desc: "up to 24 hours"
 abilities_mid:

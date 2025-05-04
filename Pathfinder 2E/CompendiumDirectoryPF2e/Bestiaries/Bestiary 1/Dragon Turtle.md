@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.gX66KyBxUOvMv5Sf"
 tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/dragon
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Dragon Turtle"
@@ -24,8 +25,8 @@ level: "Creature 9"
 
 alignment: ""
 size: "huge"
-trait_01: "amphibious"
-trait_02: "dragon"
+trait_01: [[amphibious]]
+trait_02: [[dragon]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -64,7 +65,7 @@ attacks:
     desc: "`pf2:1` Claw +21 (agile)\n__Damage__  2d8 + 9 slashing"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (air,fire,primal) The dragon turtle breathes a massive blast of steam that deals 10d6 fire damage to creatures within a 50-foot cone (DC 27 Reflex check save). This steam blast affects creatures within the water, as well as outside.\n\nThe dragon turtle can't use its Breath Weapon again for 1d4 rounds or until it takes a critical hit (whichever comes first)."
+    desc: "`pf2:2` (air,fire,primal) The dragon turtle breathes a massive blast of steam that deals 10d6 fire damage to creatures within a @Template[cone|distance:50] (DC 27 Reflex check save). This steam blast affects creatures within the water, as well as outside.\n\nThe dragon turtle can't use its Breath Weapon again for 1d4 rounds or until it takes a critical hit (whichever comes first)."
 
   - name: "Capsize"
     desc: "`pf2:1` (attack,move) The dragon turtle tries to capsize an adjacent aquatic vessel of its size or smaller. The dragon turtle must succeed at an Athletics check check with a DC of 30 or the pilot's Sailing Lore DC, whichever is higher."

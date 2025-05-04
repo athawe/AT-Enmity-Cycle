@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/evil
   - pf2e/creature/type/soulbound
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Mister Beak"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #163: Ruins of Gauntlight"
 name: "Mister Beak"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "tiny"
-trait_01: "chaotic"
-trait_02: "construct"
-trait_03: "evil"
-trait_04: "soulbound"
+trait_01: [[chaotic]]
+trait_02: [[construct]]
+trait_03: [[evil]]
+trait_04: [[soulbound]]
 modifier: 10
 perception:
   - name: "Perception"

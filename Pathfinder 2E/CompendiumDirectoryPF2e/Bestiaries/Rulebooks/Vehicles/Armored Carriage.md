@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
+  - pf2eVehicle
 
 source: Pathfinder Guns &amp; Gears
 aliases: "Compendium.pf2e.vehicles.Actor.WjOkOaWOGkLmuSq5" 
@@ -19,7 +20,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Guns & Gears"
 name: "Armored Carriage"
 level: "Vehicle 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 
 size: "Large"
 modifier: 

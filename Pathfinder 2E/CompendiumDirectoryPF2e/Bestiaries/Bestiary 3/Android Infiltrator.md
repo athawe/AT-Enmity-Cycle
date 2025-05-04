@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.iNgKGHzMOAHjWQeI"
 tags:
   - pf2e/creature/type/android
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Android Infiltrator"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Android Infiltrator"
 level: "Creature 2"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "android"
-trait_02: "humanoid"
+trait_01: [[android]]
+trait_02: [[humanoid]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Androffan, Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8, Athletics: +6, Crafting: +7, Deception: +3, Engineering Lore: +7, Society: +7, Stealth: +10, Thievery: +8"
+    desc: "Acrobatics: +8, Athletics: +6, Crafting: +7, Deception: +3, Society: +7, Stealth: +10, Thievery: +8, Engineering Lore: +7"
 abilityMods: [2, 4, 2, 3, 0, -1]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"

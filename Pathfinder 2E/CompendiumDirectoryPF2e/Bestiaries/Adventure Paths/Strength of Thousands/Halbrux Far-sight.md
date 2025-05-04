@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/giant
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Halbrux Far-sight"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #171: Hurricane&#x27;s Howl"
 name: "Halbrux Far-sight"
 level: "Creature 11"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "giant"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[giant]]
+trait_03: [[humanoid]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Cyclops, Jotun"
 skills:
   - name: "Skills"
-    desc: "Athletics: +22, Crafting: +22, Fortune-Telling Lore: +22, Ghol-Gan Lore: +24, Intimidation: +22, Occultism: +22, Religion: +21, Survival: +19"
+    desc: "Athletics: +22, Crafting: +22, Intimidation: +22, Occultism: +22, Religion: +21, Survival: +19, Fortune-Telling Lore: +22, Ghol-Gan Lore: +24"
 abilityMods: [7, 0, 2, 7, 2, 5]
 speed: 30 feet
 sourcebook: "_Pathfinder #171: Hurricane&#x27;s Howl_"

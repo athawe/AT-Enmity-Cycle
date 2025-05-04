@@ -66,12 +66,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Eteleon
-creatures:
-  - 1: Eteleon
-```
-
 
 
 

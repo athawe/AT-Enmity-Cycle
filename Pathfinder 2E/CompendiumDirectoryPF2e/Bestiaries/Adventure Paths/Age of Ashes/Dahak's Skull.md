@@ -6,6 +6,7 @@ tags:
   - fire
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #146: Cult of Cinders
 aliases: "Compendium.pf2e.age-of-ashes-bestiary.Actor.h7apR3QSxVZmy2nt" 
@@ -23,15 +24,15 @@ name: "Dahak's Skull"
 level: "Hazard 6"
 
 trait_06: "Complex"
-trait_01: "fire"
-trait_02: "magical"
-trait_03: "trap"
+trait_01: [[fire]]
+trait_02: [[magical]]
+trait_03: [[trap]]
 modifier: 0
 sourcebook: "_Pathfinder #146: Cult of Cinders_"
 ac: 24
 armorclass:
   - name: AC
-    desc: "24; __Fort__ +17, __Ref__ +8, __Will__ +0"
+    desc: "24; __Fort__ +17, __Ref__ +8, "
 hp: 56
 health:
   - name: ""

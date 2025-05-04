@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.qE0iZoeeOp7og5A5" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Giant Seahorse"
@@ -23,7 +24,7 @@ level: "Creature 3"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +11, Stealth: +10 (+12 in underwater vegetation)"
+    desc: "Athletics: +11, Stealth: +10"
 abilityMods: [4, 3, 4, -4, 1, 3]
 speed:  swim 30 feet
 sourcebook: "_Pathfinder Bestiary 3_"

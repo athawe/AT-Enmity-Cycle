@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.Vt28ucE0FUJYl1fD"
 tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Coral Capuchin"
@@ -24,8 +25,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "tiny"
-trait_01: "amphibious"
-trait_02: "beast"
+trait_01: [[amphibious]]
+trait_02: [[beast]]
 modifier: 8
 perception:
   - name: "Perception"

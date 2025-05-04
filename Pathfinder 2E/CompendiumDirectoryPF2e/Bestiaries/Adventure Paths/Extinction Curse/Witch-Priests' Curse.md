@@ -6,6 +6,7 @@ tags:
   - curse
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #155: Lord of the Black Sands
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.nJBpLZFgEuF7uZAZ" 
@@ -23,9 +24,9 @@ name: "Witch-Priests' Curse"
 level: "Hazard 18"
 
 
-trait_01: "curse"
-trait_02: "magical"
-trait_03: "trap"
+trait_01: [[curse]]
+trait_02: [[magical]]
+trait_03: [[trap]]
 modifier: 32
 sourcebook: "_Pathfinder #155: Lord of the Black Sands_"
 perception:

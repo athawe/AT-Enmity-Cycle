@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.8CYHgj4SV2LvlaUs"
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/4
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "beast"
-trait_02: "unholy"
+trait_01: [[beast]]
+trait_02: [[unholy]]
 modifier: 12
 perception:
   - name: "Perception"

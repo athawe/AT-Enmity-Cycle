@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Bounty #14: The Blackwood Truce
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.e9kWyI8plxVuMOe3" 
@@ -21,13 +22,13 @@ name: "Deep Mud"
 level: "Hazard -1"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 2
 sourcebook: "_Pathfinder Bounty #14: The Blackwood Truce_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 10
 health:
   - name: ""

@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Sabora Sharkosa"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #179: Cradle of Quartz"
 name: "Sabora Sharkosa"
 level: "Creature 7"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "aiuvarin"
-trait_02: "elf"
-trait_03: "evil"
-trait_04: "human"
-trait_05: "humanoid"
-trait_06: "lawful"
+trait_01: [[aiuvarin]]
+trait_02: [[elf]]
+trait_03: [[evil]]
+trait_04: [[human]]
+trait_05: [[humanoid]]
+trait_06: [[lawful]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -41,7 +42,7 @@ perception:
 languages: "Common, Elven, Kelish, Osiriani"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +17, Alkenstar Lore: +11, Athletics: +17, Deception: +15, Diplomacy: +15, Society: +11, Stealth: +17, Thievery: +17"
+    desc: "Acrobatics: +17, Athletics: +17, Deception: +15, Diplomacy: +15, Society: +11, Stealth: +17, Thievery: +17, Alkenstar Lore: +11"
 abilityMods: [4, 4, 2, 0, 1, 2]
 speed: 30 feet
 sourcebook: "_Pathfinder #179: Cradle of Quartz_"

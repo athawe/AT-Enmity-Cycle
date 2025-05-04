@@ -21,7 +21,7 @@ columnWidth: x
 abilities_top:
   - name: ""
   - name: "Cast"
-    desc: "2 hours; **Cost** rare incense, offerings, or charitable donations to the rightful owners worth a total value of 5 gp × the target’s level (minimum 1 gp)"
+    desc: "2 hours; **Cost** rare incense, offerings, or charitable donations to the rightful owners worth a total value of 5 gp × the target's level (minimum 1 gp)"
   - name: "Primary Check"
     desc: "Occultism (trained) or Religion (trained); **Secondary Checks** Occultism or Religion (whichever is used for the primary check); Diplomacy, Performance, Society, or a Lore corresponding to the rightful owners"
   - name: "Range"

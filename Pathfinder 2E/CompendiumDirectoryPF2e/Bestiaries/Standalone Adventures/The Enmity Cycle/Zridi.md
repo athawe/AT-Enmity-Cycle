@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Zridi"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: The Enmity Cycle"
 name: "Zridi"
 level: "Creature 8"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "div"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "lawful"
-trait_05: "unholy"
+trait_01: [[div]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[lawful]]
+trait_05: [[unholy]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -74,7 +75,7 @@ attacks:
     desc: "_[[Spells/Div Pact|Div Pact]]_"
 
   - name: "[[Bestiary 3/Pairaka/Bubonic Plague|Bubonic Plague]]"
-    desc: " (disease) A creature can't remove the fatigued condition while infected\n\n**Saving Throw** DC 24 Fortitude check\n* * *\n\n**Onset** 1 day\n\n**Stage 1** [[Conditions/Fatigued|Fatigued]] (1 day)\n\n**Stage 2** [[Conditions/Enfeebled 1|Enfeebled 2]] and fatigued (1 day)\n\n**Stage 3** [[Conditions/Enfeebled 1|Enfeebled 3]], fatigued, and take 1d6 bleed every 1d20 minutes (1 day)"
+    desc: " (disease) A creature can't remove the fatigued condition while infected\n\n**Saving Throw** DC 24 Fortitude check\n* * *\n\n**Onset** 1 day\n\n**Stage 1** [[Conditions/Fatigued|Fatigued]] (1 day)\n\n**Stage 2** [[Conditions/Enfeebled|Enfeebled 2]] and fatigued (1 day)\n\n**Stage 3** [[Conditions/Enfeebled|Enfeebled 3]], fatigued, and take 1d6 bleed every 1d20 minutes (1 day)"
 
   - name: "[[Bestiary Ability Glossary/Change Shape|Change Shape]]"
     desc: "`pf2:1` (concentrate,divine,polymorph) Zridi can take the appearance of any Small or Medium humanoid or animal. This doesn't change her Speed or her attack and damage modifiers with the Strikes, but it might change the damage type her Strikes deal.\n\n* * *\n"

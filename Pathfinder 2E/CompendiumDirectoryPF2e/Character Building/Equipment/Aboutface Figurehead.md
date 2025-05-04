@@ -20,7 +20,7 @@ license: OGL
 **Bulk** 0; **Size** med
 **Usage** attached-to-ships-bow
 
-**Usage** attached to a ship’s bow
+**Usage** attached to a ship's bow
 
 This otherwise plain-looking figurehead has the concerned expression of someone afraid they're being chased. If the vessel the figurehead is attached to has the sluggish vehicle ability, the figurehead suppresses that ability. Captains frequently give the ability to activate an _aboutface figurehead_ to the person at the helm of their ship.
 

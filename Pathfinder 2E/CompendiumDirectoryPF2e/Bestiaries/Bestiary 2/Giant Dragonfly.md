@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.b5b6J3TqbcXnmKyy" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Giant Dragonfly"
@@ -23,7 +24,7 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +10 (+12 to Maneuver in Flight), Athletics: +12, Stealth: +12"
+    desc: "Acrobatics: +10, Athletics: +12, Stealth: +12"
 abilityMods: [4, 4, 2, -5, 3, 0]
 speed: 20 feet,  fly 60 feet
 sourcebook: "_Pathfinder Bestiary 2_"

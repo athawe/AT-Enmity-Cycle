@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Deimavigga"
@@ -27,11 +28,11 @@ level: "Creature 17"
 
 alignment: ""
 size: "Medium"
-trait_01: "devil"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "lawful"
-trait_05: "unholy"
+trait_01: [[devil]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[lawful]]
+trait_05: [[unholy]]
 modifier: 32
 perception:
   - name: "Perception"
@@ -83,7 +84,7 @@ attacks:
     desc: "`pf2:1` (concentrate,divine,polymorph) The deimavigga can take on the appearance of any humanoid. This doesn't change their Speed or attack and damage bonuses with Strikes but might change the damage type their Strikes deal (typically to bludgeoning).\n\n* * *\n"
 
   - name: "Whisper Earworm"
-    desc: "`pf2:1` (divine,emotion,mental) The deimavigga whispers a terrifying multiversal truth to one adjacent creature, shaking its faith in reality and divinity. The target must attempt a DC 43 Will check save. Celestials and fiends gain a +2 status bonus to this save.\n* * *\n\n**Critical Success** The target is unaffected and temporarily immune to Whisper Earworm for 24 hours.\n\n**Success** The target is unaffected.\n\n**Failure** The next time the target rests, it ruminates on the deimavigga's words instead of sleeping or otherwise resting and awakens [[Conditions/Fatigued|Fatigued]]. The target also becomes [[Conditions/Drained 1|Drained 1]] and [[Conditions/Stupefied 1|Stupefied 1]] until it's no longer fatigued.\n\n**Critical Failure** As failure, but [[Conditions/Drained 1|Drained 2]]. After this rest, the target must attempt another DC 43 Will check save. On a failure, the target becomes [[Conditions/Stupefied 1|Stupefied 2]] and takes a -4 status penalty to Will saves against effects from evil creatures. These effects last until the target unlearns the truth spoken by the deimavigga, requiring a [[Spells/Rewrite Memory|Rewrite Memory]] spell, other means of modifying their memory, or powerful magic such as [[Spells/Wish|Wish]]."
+    desc: "`pf2:1` (divine,emotion,mental) The deimavigga whispers a terrifying multiversal truth to one adjacent creature, shaking its faith in reality and divinity. The target must attempt a DC 43 Will check save. Celestials and fiends gain a +2 status bonus to this save.\n* * *\n\n**Critical Success** The target is unaffected and temporarily immune to Whisper Earworm for 24 hours.\n\n**Success** The target is unaffected.\n\n**Failure** The next time the target rests, it ruminates on the deimavigga's words instead of sleeping or otherwise resting and awakens [[Conditions/Fatigued|Fatigued]]. The target also becomes [[Conditions/Drained|Drained 1]] and [[Conditions/Stupefied|Stupefied 1]] until it's no longer fatigued.\n\n**Critical Failure** As failure, but [[Conditions/Drained|Drained 2]]. After this rest, the target must attempt another DC 43 Will check save. On a failure, the target becomes [[Conditions/Stupefied|Stupefied 2]] and takes a -4 status penalty to Will saves against effects from evil creatures. These effects last until the target unlearns the truth spoken by the deimavigga, requiring a [[Spells/Rewrite Memory|Rewrite Memory]] spell, other means of modifying their memory, or powerful magic such as [[Spells/Wish|Wish]]."
  
 ```
 

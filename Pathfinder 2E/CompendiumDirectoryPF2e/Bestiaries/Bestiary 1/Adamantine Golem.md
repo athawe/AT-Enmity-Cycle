@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/golem
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Adamantine Golem"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Adamantine Golem"
 level: "Creature 18"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "construct"
-trait_02: "golem"
-trait_03: "mindless"
+trait_01: [[construct]]
+trait_02: [[golem]]
+trait_03: [[mindless]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -54,13 +55,13 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "[[Creature Family Ability Glossary/(Golem) Golem Antimagic|Golem Antimagic]]"
-    desc: "  harmed by acid (9d10 damage, 2d10 damage from areas or persistent damage); healed by fire (area 2d10 Hit Points); slowed by electricity\n* * *\n\nA golem is immune to spells and magical abilities other than its own, but each type of golem is affected by a few types of magic in special ways. These exceptions are listed in shortened form in the golem's stat block, with the full rules appearing here. If an entry lists multiple types (such as \"cold and water\"), either type of spell can affect the golem.\n\n*   **Harmed By** Any magic of this type that targets the golem causes it to take the listed amount of damage (this damage has no type) instead of the usual effect. If the golem starts its turn in an area of magic of this type or is affected by a persistent effect of the appropriate type, it takes the damage listed in the parenthetical.\n*   **Healed By** Any magic of this type that targets the golem makes the golem lose the slowed condition and gain HP equal to half the damage the spell would have dealt. If the golem starts its turn in an area of this type of magic, it gains the HP listed in the parenthetical.\n*   **Slowed By** Any magic of this type that targets the golem causes it to be [[Conditions/Slowed 1|Slowed 1]] for 2d6 rounds instead of the usual effect. If the golem starts its turn in an area of this type of magic, it's slowed 1 for that round.\n*   **Vulnerable To** Each golem is vulnerable to one or more specific spells, with the effects described in its stat block."
+    desc: "  harmed by acid (9d10 damage, 2d10 damage from areas or persistent damage); healed by fire (area 2d10 Hit Points); slowed by electricity\n* * *\n\nA golem is immune to spells and magical abilities other than its own, but each type of golem is affected by a few types of magic in special ways. These exceptions are listed in shortened form in the golem's stat block, with the full rules appearing here. If an entry lists multiple types (such as \"cold and water\"), either type of spell can affect the golem.\n\n*   **Harmed By** Any magic of this type that targets the golem causes it to take the listed amount of damage (this damage has no type) instead of the usual effect. If the golem starts its turn in an area of magic of this type or is affected by a persistent effect of the appropriate type, it takes the damage listed in the parenthetical.\n*   **Healed By** Any magic of this type that targets the golem makes the golem lose the slowed condition and gain HP equal to half the damage the spell would have dealt. If the golem starts its turn in an area of this type of magic, it gains the HP listed in the parenthetical.\n*   **Slowed By** Any magic of this type that targets the golem causes it to be [[Conditions/Slowed|Slowed 1]] for 2d6 rounds instead of the usual effect. If the golem starts its turn in an area of this type of magic, it's slowed 1 for that round.\n*   **Vulnerable To** Each golem is vulnerable to one or more specific spells, with the effects described in its stat block."
 
   - name: "Repair Mode"
-    desc: "  When the adamantine golem is at 0 HP, it isn't destroyed. Instead, it enters repair mode, during which it is [[Conditions/Slowed 1|Slowed 1]], can't take reactions, and can take only the Self-Repair action.\n\nOnce it has more than 30 HP, it can use any type of action and can use reactions, though it remains slowed 1 and can't take any reactions until the start of its next turn.\n\nIf a critical hit with an adamantine _[[Equipment/Vorpal|Vorpal]]_ weapon reduces the golem to 0 HP, or if such a weapon hits it while it's already at 0 HP, then the golem is destroyed."
+    desc: "  When the adamantine golem is at 0 HP, it isn't destroyed. Instead, it enters repair mode, during which it is [[Conditions/Slowed|Slowed 1]], can't take reactions, and can take only the Self-Repair action.\n\nOnce it has more than 30 HP, it can use any type of action and can use reactions, though it remains slowed 1 and can't take any reactions until the start of its next turn.\n\nIf a critical hit with an adamantine _[[Equipment/Vorpal|Vorpal]]_ weapon reduces the golem to 0 HP, or if such a weapon hits it while it's already at 0 HP, then the golem is destroyed."
 
   - name: "Vulnerable to Dispelling"
-    desc: "  The golem can be targeted by [[Spells/Disjunction|Disjunction]] and [[Spells/Dispel Magic|Dispel Magic]].\n\nIf targeted by such a spell of 9th level or higher, the golem has its resistance to physical damage lowered to 15 and is [[Conditions/Slowed 1|Slowed 1]] (or [[Conditions/Slowed 1|Slowed 2]] if in repair mode) for 1d4 rounds. During this time, if the golem is reduced to 0 HP while already in repair mode, it is destroyed."
+    desc: "  The golem can be targeted by [[Spells/Disjunction|Disjunction]] and [[Spells/Dispel Magic|Dispel Magic]].\n\nIf targeted by such a spell of 9th level or higher, the golem has its resistance to physical damage lowered to 15 and is [[Conditions/Slowed|Slowed 1]] (or [[Conditions/Slowed|Slowed 2]] if in repair mode) for 1d4 rounds. During this time, if the golem is reduced to 0 HP while already in repair mode, it is destroyed."
 
 attacks:
   - name: ""

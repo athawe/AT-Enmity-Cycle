@@ -26,7 +26,8 @@ district: "[[Grand Market]]"
 %% Essential information for the PCs, necessary clues, etc. _NOT_ key info about the NPC (that's what background is for). %%
 
 1. male human tiefling bard 3 
-2. slips in propaganda for the Lingering Note as he tells news to a live audience at the Two Knight brewery in Grand Market 
+2. slips in propaganda for the Lingering Note as he tells news to a live audience at the Two Knight brewery in Grand Market.
+3. Hands out pamphlets with detailing of upcoming affairs.  *Decipher Writing* (secret Society check, DC 15)
 
 ### Statblock
 

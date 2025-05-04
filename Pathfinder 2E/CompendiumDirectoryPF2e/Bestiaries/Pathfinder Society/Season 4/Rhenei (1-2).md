@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/ratfolk
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Rhenei (1-2)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Quest #14: The Swordlord&#x27;s Challenge"
 name: "Rhenei (1-2)"
 level: "Creature -1"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "good"
-trait_02: "humanoid"
-trait_03: "ratfolk"
+trait_01: [[good]]
+trait_02: [[humanoid]]
+trait_03: [[ratfolk]]
 modifier: 3
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Ysoki"
 skills:
   - name: "Skills"
-    desc: "Arcana: +2, Athletics: +4, Dueling Lore: +3, Intimidation: +5"
+    desc: "Arcana: +2, Athletics: +4, Intimidation: +5, Dueling Lore: +3"
 abilityMods: [0, 2, 1, 0, 2, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Quest #14: The Swordlord&#x27;s Challenge_"

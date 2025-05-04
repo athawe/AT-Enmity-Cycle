@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - magical
+  - pf2eHazard
   - complex
 source: Pathfinder #160: Assault on Hunting Lodge Seven
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.jgSS31hwrQ1n4jVF" 
@@ -21,13 +22,13 @@ name: "Waxworks Onslaught Trap"
 level: "Hazard 16"
 
 trait_06: "Complex"
-trait_01: "magical"
+trait_01: [[magical]]
 modifier: 27
 sourcebook: "_Pathfinder #160: Assault on Hunting Lodge Seven_"
 ac: 39
 armorclass:
   - name: AC
-    desc: "39; __Fort__ +30, __Ref__ +25, __Will__ +0"
+    desc: "39; __Fort__ +30, __Ref__ +25, "
 hp: 104
 health:
   - name: ""

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kitsune
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Kitsune Trickster"
@@ -25,9 +26,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "humanoid"
-trait_03: "kitsune"
+trait_01: [[chaotic]]
+trait_02: [[humanoid]]
+trait_03: [[kitsune]]
 modifier: 10
 perception:
   - name: "Perception"

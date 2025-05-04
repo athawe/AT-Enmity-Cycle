@@ -52,7 +52,7 @@ This potent weapon used by Treerazer is a _+4 greater corrosive major striking o
 
 * * *
 
-**Activate—Rejuvenating Deforestation** `pf2:1`(concentrate, death, healing, positive)
+**Activate—Rejuvenating Deforestation** `pf2:1` (concentrate, death, healing, positive)
 
 **Frequency** once per minute
 

@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/werecreature
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Wereboar"
@@ -27,11 +28,11 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "beast"
-trait_02: "chaotic"
-trait_03: "human"
-trait_04: "humanoid"
-trait_05: "werecreature"
+trait_01: [[beast]]
+trait_02: [[chaotic]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
+trait_05: [[werecreature]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -83,7 +84,7 @@ attacks:
     desc: "`pf2:2`  The wereboar Strides twice and then makes a melee Strike. As long as they moved at least 20 feet, they gain a +2 circumstance bonus to their attack roll."
 
   - name: "[[Bestiary Ability Glossary/Change Shape|Change Shape]]"
-    desc: "`pf2:1` (concentrate,polymorph,primal) The werecreature changes into their humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true werecreature's natural form is their hybrid shape. In humanoid shape, the werecreature uses their original humanoid size, loses their jaws and claw Strikes, and gains a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by their claw. In animal shape, their Speed and size change to that of the animal, they gain any special Strike effects of the animal that they didn't already have (such as [[Bestiary Ability Glossary/Grab|Grab]]), and they lose their weapon Strikes.\n\nHuman with fist +10 for 1d4 + 2 bludgeoning damage, or [[Bestiary 1/Boar|Boar]] with Speed 40 feet and tusk for 2d6 + 4 piercing damage.\n\n* * *\n"
+    desc: "`pf2:1` (concentrate,polymorph,primal) The werecreature changes into their humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true werecreature's natural form is their hybrid shape. In humanoid shape, the werecreature uses their original humanoid size, loses their jaws and claw Strikes, and gains a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by their claw. In animal shape, their Speed and size change to that of the animal, they gain any special Strike effects of the animal that they didn't already have (such as [[Bestiary Ability Glossary/Grab|Grab]]), and they lose their weapon Strikes.\n\nHuman with fist +10 for 1d4+2 bludgeoning damage, or [[Bestiary 1/Boar|Boar]] with Speed 40 feet and tusk for 2d6+4 piercing damage.\n\n* * *\n"
 
   - name: "Curse of the Wereboar"
     desc: " (curse,primal) This curse affects only humanoids\n\n**Saving Throw** DC 15 Fortitude check.\n\nOn each full moon, the cursed creature must succeed at another Fortitude save or turn into a wearboar until dawn. The creature is under the GM's control and goes on a rampage for half the night before falling unconscious until dawn."

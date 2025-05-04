@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/ghoul
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Lacedon"
@@ -28,12 +29,12 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "ghoul"
-trait_05: "undead"
-trait_06: "unholy"
+trait_01: [[amphibious]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[ghoul]]
+trait_05: [[undead]]
+trait_06: [[unholy]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -41,7 +42,7 @@ perception:
 languages: "Common, Necril, Thalassic"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8, Athletics: +9 (+11 to Swim), Stealth: +8, Survival: +7"
+    desc: "Acrobatics: +8, Athletics: +9, Stealth: +8, Survival: +7"
 abilityMods: [3, 4, 3, 1, 1, 3]
 speed: 25 feet,  swim 30 feet
 sourcebook: "_Pathfinder Book of the Dead_"

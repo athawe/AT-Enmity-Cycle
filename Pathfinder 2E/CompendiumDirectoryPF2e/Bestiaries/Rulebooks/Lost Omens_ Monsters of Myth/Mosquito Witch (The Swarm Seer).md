@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.lost-omens-monsters-of-myth-bestiary.Actor.mE9MQ0hnRml
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Mosquito Witch (The Swarm Seer)"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Monsters of Myth"
 name: "Mosquito Witch (The Swarm Seer)"
 level: "Creature 10"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "fey"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -61,13 +62,13 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Fecund Wounds"
-    desc: "  Insect larvae clog and wriggle out of open wounds within 100 feet of the Mosquito Witch. A creature that takes bleed damage in the area also becomes [[Conditions/Clumsy 1|Clumsy 1]] for 1 round."
+    desc: "  Insect larvae clog and wriggle out of open wounds within 100 feet of the Mosquito Witch. A creature that takes bleed damage in the area also becomes [[Conditions/Clumsy|Clumsy 1]] for 1 round."
 
   - name: "Haunting Gaze"
-    desc: " (aura,emotion,fear,mental,visual) 30 feet. When a creature ends its turn in the emanation, it must attempt a DC 29 Will check save. If the creature fails, it becomes [[Conditions/Frightened 1|Frightened 1]]. If it's already frightened, its frightened value instead increases by 1 (maximum [[Conditions/Frightened 1|Frightened 3]]) and doesn't decrease by 1 at the end of the creature's next turn. If a creature's frightened value is 3 or higher before failing its save, the creature is also [[Conditions/Fleeing|Fleeing]] for 1 round."
+    desc: " (aura,emotion,fear,mental,visual) 30 feet. When a creature ends its turn in the emanation, it must attempt a DC 29 Will check save. If the creature fails, it becomes [[Conditions/Frightened|Frightened 1]]. If it's already frightened, its frightened value instead increases by 1 (maximum [[Conditions/Frightened|Frightened 3]]) and doesn't decrease by 1 at the end of the creature's next turn. If a creature's frightened value is 3 or higher before failing its save, the creature is also [[Conditions/Fleeing|Fleeing]] for 1 round."
 
   - name: "Obscuring Host"
-    desc: "  20 feet. A thick swarm of mosquitoes surrounds the Mosquito Witch, creating concealment in the aura. A creature that begins its turn in the emanation becomes [[Conditions/Sickened 1|Sickened 1]] unless it succeeds at a DC 26 Fortitude check save. The Mosquito Witch and arthropods can see through this aura and are immune to its sickened effect."
+    desc: "  20 feet. A thick swarm of mosquitoes surrounds the Mosquito Witch, creating concealment in the aura. A creature that begins its turn in the emanation becomes [[Conditions/Sickened|Sickened 1]] unless it succeeds at a DC 26 Fortitude check save. The Mosquito Witch and arthropods can see through this aura and are immune to its sickened effect."
 
 attacks:
   - name: ""

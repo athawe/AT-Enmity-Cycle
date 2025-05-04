@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/titan
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/23
 statblock: inline
 name: "Danava Titan"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Danava Titan"
 level: "Creature 23"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "humanoid"
-trait_02: "lawful"
-trait_03: "titan"
-trait_04: "water"
+trait_01: [[humanoid]]
+trait_02: [[lawful]]
+trait_03: [[titan]]
+trait_04: [[water]]
 modifier: 41
 perception:
   - name: "Perception"

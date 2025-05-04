@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/tanggal
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Manananggal"
@@ -26,10 +27,10 @@ level: "Creature 8"
 
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "tanggal"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[tanggal]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -71,7 +72,7 @@ attacks:
     desc: "DC 26, attack +18; __4th __ (1 slots) _[[Spells/Sleep|Sleep]]_; __3rd __ (1 slots) _[[Spells/Fear|Fear]]_; __2nd __ (3 slots) _[[Spells/Darkness|Darkness (x3)]]_; __1st __ (3 slots) _[[Spells/Enfeeble|Ray of Enfeeblement (x3)]]_\n__Cantrips__  __(4th)__ _[[Compendium.pf2e.spells-srd.Item.kl2q6JvBZwed4B6v|Dancing Lights]]_"
 
   - name: "Blood Drain"
-    desc: "`pf2:1`  **Requirements** The manananggal has a creature grabbed.\n* * *\n\n**Effect** The manananggal drives its tongue into the grabbed creature to drink its blood. This deals 4d6 damage, and the manananggal gains temporary Hit Points equal to the damage dealt. A creature whose blood is drained by a manananggal is [[Conditions/Drained 1|Drained 1]] until it receives healing (of any kind or amount)."
+    desc: "`pf2:1`  **Requirements** The manananggal has a creature grabbed.\n* * *\n\n**Effect** The manananggal drives its tongue into the grabbed creature to drink its blood. This deals 4d6 damage, and the manananggal gains temporary Hit Points equal to the damage dealt. A creature whose blood is drained by a manananggal is [[Conditions/Drained|Drained 1]] until it receives healing (of any kind or amount)."
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

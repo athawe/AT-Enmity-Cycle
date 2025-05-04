@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - trap
+  - pf2eHazard
 
 source: Pathfinder Bounty #6: The Road from Otari
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.PIAR4xFEhkWlWg8D" 
@@ -22,8 +23,8 @@ name: "Hidden Bog"
 level: "Hazard -1"
 
 
-trait_01: "environmental"
-trait_02: "trap"
+trait_01: [[environmental]]
+trait_02: [[trap]]
 modifier: 4
 sourcebook: "_Pathfinder Bounty #6: The Road from Otari_"
 perception:

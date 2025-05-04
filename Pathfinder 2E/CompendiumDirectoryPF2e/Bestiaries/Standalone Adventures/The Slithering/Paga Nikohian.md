@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/halfling
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Paga Nikohian"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: The Slithering"
 name: "Paga Nikohian"
 level: "Creature 9"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "halfling"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[halfling]]
+trait_03: [[humanoid]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Dwarven, Halfling, Mwangi"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +19, Arcana: +16, Aspis Consortium Lore: +16, Crafting: +16, Deception: +22, Diplomacy: +20, Intimidation: +20, Occultism: +16, Society: +18, Stealth: +21, Thievery: +19"
+    desc: "Acrobatics: +19, Arcana: +16, Crafting: +16, Deception: +22, Diplomacy: +20, Intimidation: +20, Occultism: +16, Society: +18, Stealth: +21, Thievery: +19, Aspis Consortium Lore: +16"
 abilityMods: [0, 4, 1, 1, 3, 5]
 speed: 25 feet
 sourcebook: "_Pathfinder Adventure: The Slithering_"
@@ -66,7 +67,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Slime Whip +21 (disarm, finesse, reach 10 feet, trip)\n__Damage__  2d4 + 10 slashing"
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Dagger +20 (agile, thrown 10 ft., versatile s)\n__Damage__  1d4 + 10 piercing"
 
   - name: "Ranged"

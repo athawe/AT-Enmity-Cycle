@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.AlLBsYO3ax9OQzAK" 
 tags:
   - pf2e/creature/type/construct
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Tupilaq"
@@ -23,7 +24,7 @@ level: "Creature 7"
 
 alignment: ""
 size: "Small"
-trait_01: "construct"
+trait_01: [[construct]]
 modifier: 16
 perception:
   - name: "Perception"

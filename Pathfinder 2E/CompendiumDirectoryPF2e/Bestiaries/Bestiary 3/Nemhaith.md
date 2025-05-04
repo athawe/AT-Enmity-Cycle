@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/spirit
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Nemhaith"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Nemhaith"
 level: "Creature 15"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "incorporeal"
-trait_03: "spirit"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[evil]]
+trait_02: [[incorporeal]]
+trait_03: [[spirit]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 31
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Common; telepathy 100 feet"
 skills:
   - name: "Skills"
-    desc: "Deception: +27, Diplomacy: +27, Dwelling Lore: +25, Intimidation: +29, Religion: +31, Stealth: +29"
+    desc: "Deception: +27, Diplomacy: +27, Intimidation: +29, Religion: +31, Stealth: +29, Dwelling Lore: +25"
 abilityMods: [-5, 6, 0, 4, 8, 6]
 speed:  fly 40 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -79,10 +80,10 @@ attacks:
     desc: "DC 36, attack +28; __8th __  _[[Spells/Execute|Finger of Death (x3)]]_, _[[Spells/Harm|Harm (x3)]]_, _[[Spells/Wall of Force|Wall of Force]]_"
 
   - name: "Drain Life"
-    desc: " (divine) When the nemhaith damages a living creature with its spirit tendril Strike, the creature must succeed at a DC 36 Fortitude check save or become [[Conditions/Drained 1|Drained 2]].\n\nFurther damage dealt by the nemhaith increases the condition value by 1 on a failed save, to a maximum of drained 4."
+    desc: " (divine) When the nemhaith damages a living creature with its spirit tendril Strike, the creature must succeed at a DC 36 Fortitude check save or become [[Conditions/Drained|Drained 2]].\n\nFurther damage dealt by the nemhaith increases the condition value by 1 on a failed save, to a maximum of drained 4."
 
   - name: "Rage of Spirits"
-    desc: "`pf2:2`  The nemhaith's bound spirits rage and smash everything in a 30-foot emanation. Creatures in this area take 4d6 sonic damage and 4d6 void damage (DC 36 Fortitude check save)."
+    desc: "`pf2:2`  The nemhaith's bound spirits rage and smash everything in a @Template[emanation|distance:30]. Creatures in this area take 4d6 sonic damage and 4d6 void damage (DC 36 Fortitude check save)."
 
   - name: "Throw Spirits"
     desc: "`pf2:1`  The nemhaith directs its bound spirits as a group to move up to 1 mile away (they have a fly Speed of 60 feet). The nemhaith can see and hear through the thrown spirits, but it loses its aura and can't use its spirit dart ranged Strike or Rage of Spirits.\n\nThe nemhaith regains these abilities when the spirits return to the nemhaith's space."

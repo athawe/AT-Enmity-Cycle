@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #1-01: The Absalom Initiation
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.OTTvIkBvJ2ABYwEd" 
@@ -21,7 +22,7 @@ name: "Whispering Souls"
 level: "Hazard 4"
 
 
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 13
 sourcebook: "_Pathfinder Society Scenario #1-01: The Absalom Initiation_"
 perception:

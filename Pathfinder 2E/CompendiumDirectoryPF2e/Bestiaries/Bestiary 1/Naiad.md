@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/nymph
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Naiad"
@@ -28,12 +29,12 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "chaotic"
-trait_03: "fey"
-trait_04: "good"
-trait_05: "nymph"
-trait_06: "water"
+trait_01: [[amphibious]]
+trait_02: [[chaotic]]
+trait_03: [[fey]]
+trait_04: [[good]]
+trait_05: [[nymph]]
+trait_06: [[water]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -63,7 +64,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Water Dependent"
-    desc: "  A naiad bonds to a spring, pool, pond, or similar-sized water feature. While within 300 feet of her bonded body of water, she can use her innate [[Spells/Tidal Surge|Tidal Surge]] at will. She doesn't recover Hit Points or reduce the [[Conditions/Drained 1|Drained]] condition when resting beyond that range. Unlike most other nymphs, she doesn't suffer penalties from being apart from her bonded body of water. A naiad can perform a 24-hour ritual to bond herself to a new body of water."
+    desc: "  A naiad bonds to a spring, pool, pond, or similar-sized water feature. While within 300 feet of her bonded body of water, she can use her innate [[Spells/Tidal Surge|Tidal Surge]] at will. She doesn't recover Hit Points or reduce the [[Conditions/Drained|Drained]] condition when resting beyond that range. Unlike most other nymphs, she doesn't suffer penalties from being apart from her bonded body of water. A naiad can perform a 24-hour ritual to bond herself to a new body of water."
 
 attacks:
   - name: ""

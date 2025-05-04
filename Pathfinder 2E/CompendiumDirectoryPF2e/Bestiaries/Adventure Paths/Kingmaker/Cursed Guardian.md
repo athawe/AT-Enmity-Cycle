@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.V7FoP8iIcehuiF20"
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/chaotic
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Cursed Guardian"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Cursed Guardian"
 level: "Creature 4"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "chaotic"
+trait_01: [[beast]]
+trait_02: [[chaotic]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -45,14 +46,14 @@ hp: 58
 health:
   - name: ""
   - name: HP
-    desc: "58, Deadeye&#x27;s Shame"
+    desc: "58, Deadeye&#x27;s Shame; __Weaknesses__ Deadeye&#x27;s Shame 5"
 abilities_top:
   - name: ""
 
 abilities_mid:
   - name: ""
   - name: "Deadeye's Shame"
-    desc: "  The cursed guardian has weakness 5 to all damage inflicted upon it by a worshipper of Erastil, and it takes a -2 circumstance penalty to all saving throws to resist effects caused by worshippers of Erastil. If it ever suffers a critical hit from or critically fails a save against an effect caused by a worshipper of Erastil, the cursed guardian is [[Conditions/Stunned 1|Stunned 1]]."
+    desc: "  The cursed guardian has weakness 5 to all damage inflicted upon it by a worshipper of Erastil, and it takes a -2 circumstance penalty to all saving throws to resist effects caused by worshippers of Erastil. If it ever suffers a critical hit from or critically fails a save against an effect caused by a worshipper of Erastil, the cursed guardian is [[Conditions/Stunned|Stunned 1]]."
 
 attacks:
   - name: ""

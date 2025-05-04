@@ -28,7 +28,9 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, primal"
-**Area** 120-foot line
+
+  - name: "Area"
+    desc: "120-foot line"
   - name: "Defense"
     desc: "basic reflex"
 abilities_mid:

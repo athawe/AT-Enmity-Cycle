@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Arodeth"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #190: The Choosing"
 name: "Arodeth"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Draconic, Thassilonian"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +25, Arcana: +25, Diplomacy: +24, Fortune-Telling Lore: +27, Intimidation: +24, Occultism: +27, Society: +25"
+    desc: "Acrobatics: +25, Arcana: +25, Diplomacy: +24, Intimidation: +24, Occultism: +27, Society: +25, Fortune-Telling Lore: +27"
 abilityMods: [1, 5, 1, 5, 2, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder #190: The Choosing_"

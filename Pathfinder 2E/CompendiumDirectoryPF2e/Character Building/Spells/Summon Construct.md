@@ -34,6 +34,6 @@ abilities_top:
     desc: "1 minute"
 abilities_mid:
   - name: ""
-    desc: "You summon a creature that has the construct trait and whose level is –1 to fight for you.\n* * *\n\n**Heightened** As listed in the [[PF2e Journals/GM Screen/summon|summon]] trait"
+    desc: "You summon a creature that has the construct trait and whose level is –1 to fight for you.\n* * *\n\n**Heightened** As listed in the [[PF2e Journals/GM Screen/summon|summon]] trait."
 sourcebook: "_Pathfinder Player Core_"
 ```

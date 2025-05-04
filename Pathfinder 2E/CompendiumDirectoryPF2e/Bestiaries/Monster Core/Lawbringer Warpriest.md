@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/nephilim
+  - pf2eMonster
   - pf2e/creature/level/5
   - remaster
 statblock: inline
@@ -23,12 +24,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Monster Core"
 name: "Lawbringer Warpriest"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
-trait_03: "nephilim"
+trait_01: [[human]]
+trait_02: [[humanoid]]
+trait_03: [[nephilim]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -36,14 +37,14 @@ perception:
 languages: "Common, Empyrean"
 skills:
   - name: "Skills"
-    desc: "Athletics: +11, Diplomacy: +12, Medicine: +9, Religion: +11, Society: +7"
-abilityMods: [4, 1, 3, 0, 2, 3]
+    desc: "Athletics: +11, Diplomacy: +11, Medicine: +10, Religion: +12, Society: +7"
+abilityMods: [4, 1, 3, 0, 3, 2]
 speed: 20 feet
 sourcebook: "_Pathfinder Monster Core_"
 ac: 23
 armorclass:
   - name: AC
-    desc: "23; __Fort__ +12, __Ref__ +8, __Will__ +11"
+    desc: "23; __Fort__ +12, __Ref__ +8, __Will__ +12"
 hp: 64
 health:
   - name: ""

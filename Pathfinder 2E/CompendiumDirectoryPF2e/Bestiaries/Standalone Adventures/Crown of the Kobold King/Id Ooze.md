@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.crown-of-the-kobold-king-bestiary.Actor.C5t3ypLIiJGSUM
 tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Id Ooze"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: Crown of the Kobold King"
 name: "Id Ooze"
 level: "Creature 7"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "ooze"
+trait_01: [[amphibious]]
+trait_02: [[ooze]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Sakvroth; (can&#x27;t speak any language); telepathy 60 ft"
 skills:
   - name: "Skills"
-    desc: "Athletics: +16, Deception: +15, Occultism: +15, Stealth: +15 (+17 in moist areas)"
+    desc: "Athletics: +16, Deception: +15, Occultism: +15, Stealth: +15"
 abilityMods: [5, 2, 4, 2, 4, 4]
 speed: 10 feet,  climb 10 feet,  swim 20 feet
 sourcebook: "_Pathfinder Adventure: Crown of the Kobold King_"

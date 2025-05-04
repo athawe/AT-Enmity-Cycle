@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Adventure: The Fall of Plaguestone
 aliases: "Compendium.pf2e.fall-of-plaguestone-bestiary.Actor.rn6KT8OMYUi0EuCN" 
@@ -22,14 +23,14 @@ name: "Falling Debris"
 level: "Hazard 1"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 7
 sourcebook: "_Pathfinder Adventure: The Fall of Plaguestone_"
 ac: 16
 armorclass:
   - name: AC
-    desc: "16; __Fort__ +8, __Ref__ +2, __Will__ +0"
+    desc: "16; __Fort__ +8, __Ref__ +2, "
 hp: 20
 health:
   - name: ""

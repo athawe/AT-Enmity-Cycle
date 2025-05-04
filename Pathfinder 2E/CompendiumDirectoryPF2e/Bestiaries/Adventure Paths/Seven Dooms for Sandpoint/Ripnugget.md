@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Ripnugget"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #200: Seven Dooms for Sandpoint"
 name: "Ripnugget"
 level: "Creature 6"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -70,13 +71,13 @@ attacks:
     desc: "`pf2:1` Dogslicer +15 (agile, backstabber, finesse, goblin, magical)\n__Damage__  1d6 bleed 2d6 + 4 slashing 1d6 fire"
 
   - name: "[[Creature Family Ability Glossary/(Graveknight) Devastating Blast|Devastating Blast]]"
-    desc: "`pf2:2` (arcane,cold) The graveknight unleashes a 30-foot cone of energy. Creatures in the area take 4d12 fire damage (DC 24 Reflex check save).\n\nThe graveknight can use this ability once every 1d4 rounds."
+    desc: "`pf2:2` (arcane,cold) The graveknight unleashes a @Template[cone|distance:30] of energy. Creatures in the area take 4d12 fire damage (DC 24 Reflex check save).\n\nThe graveknight can use this ability once every 1d4 rounds."
 
   - name: "Dogslicer Cruelty"
-    desc: "  On a critical hit with a dogslicer, Ripnugget yanks bits of flesh from his victim as he rips the blade free. The target becomes [[Conditions/Sickened 1|Sickened 1]] from the pain, and is [[Conditions/Off-Guard|Off-Guard]] as long as they remain sickened."
+    desc: "  On a critical hit with a dogslicer, Ripnugget yanks bits of flesh from his victim as he rips the blade free. The target becomes [[Conditions/Sickened|Sickened 1]] from the pain, and is [[Conditions/Off-Guard|Off-Guard]] as long as they remain sickened."
 
   - name: "[[Creature Family Ability Glossary/(Graveknight) Graveknight's Curse|Graveknight's Curse]]"
-    desc: " (arcane,curse) This curse affects anyone who wears a graveknight's armor for at least 1 hour.\n\n**Saving Throw** DC 24 Will check save\n* * *\n\n**Onset** 1 hour\n\n**Stage 1** [[Conditions/Doomed 1|Doomed 1]] and cannot remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed 1|Doomed 2]], the creature's Speed is reduced by 10, and cannot remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight.\n\n[[Bestiary Effects/Effect_ Graveknight's Curse|Effect: Graveknight's Curse]]"
+    desc: " (arcane,curse) This curse affects anyone who wears a graveknight's armor for at least 1 hour.\n\n**Saving Throw** DC 24 Will check save\n* * *\n\n**Onset** 1 hour\n\n**Stage 1** [[Conditions/Doomed|Doomed 1]] and cannot remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed|Doomed 2]], the creature's Speed is reduced by 10, and cannot remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight.\n\n[[Bestiary Effects/Effect_ Graveknight's Curse|Effect: Graveknight's Curse]]"
 
   - name: "[[Creature Family Ability Glossary/(Graveknight) Phantom Mount|Phantom Mount]]"
     desc: "`pf2:3` (arcane,summon) Ripnugget's mount is a giant gecko (HP 37; AC 19, Fort +11, Ref +8, Will +7) named Stickfoot.\n* * *\n\nThe graveknight summons a supernatural mount as per [[Spells/Marvelous Mount|Marvelous Mount]], heightened to a level equal to half the graveknight's level.\n\nUnlike _phantom steed_, the steed's AC and saving throw bonuses are all 4 lower than the graveknight's, and the steed has one-third the graveknight's Hit Points (rounded down).\n\nIf the steed is destroyed, the graveknight must wait 1 hour before using this ability again."

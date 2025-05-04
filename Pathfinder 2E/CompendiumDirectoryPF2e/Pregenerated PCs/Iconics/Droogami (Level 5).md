@@ -59,12 +59,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Droogami (Level 5)
-creatures:
-  - 1: Droogami (Level 5)
-```
-
 
 
 

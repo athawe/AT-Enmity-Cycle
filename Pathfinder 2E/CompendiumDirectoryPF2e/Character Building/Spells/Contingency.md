@@ -30,6 +30,7 @@ abilities_top:
     desc: "arcane"
   - name: "Cast"
     desc: "10 minutes"
+
   - name: "Duration"
     desc: "until the next time you make your daily preparations"
 abilities_mid:

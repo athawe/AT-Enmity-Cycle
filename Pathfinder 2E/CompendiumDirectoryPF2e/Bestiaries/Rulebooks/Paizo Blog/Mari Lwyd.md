@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.blog-bestiary.Actor.CHLE0BV8wQJY4ksk"
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Mari Lwyd"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Blog"
 name: "Mari Lwyd"
 level: "Creature 11"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "fey"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
 modifier: 21
 perception:
   - name: "Perception"

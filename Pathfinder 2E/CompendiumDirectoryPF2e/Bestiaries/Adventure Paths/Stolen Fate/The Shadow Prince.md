@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/illusion
   - pf2e/creature/type/mental
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "The Shadow Prince"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #191: The Destiny War"
 name: "The Shadow Prince"
 level: "Creature 11"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "illusion"
-trait_04: "mental"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[illusion]]
+trait_04: [[mental]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -68,7 +69,7 @@ attacks:
   - name: ""
 
   - name: "Melee"
-    desc: "`pf2:1` Illusory Weapon +24 (mental, occult)\n__Damage__  4d6 + 10 mental plus urban-legend 1d6 bleed plus urban-legend"
+    desc: "`pf2:1` Illusory Weapon +24 (illusion, mental, occult)\n__Damage__  4d6 + 10 mental plus urban-legend 1d6 bleed plus urban-legend"
 
   - name: "Occult Innate Spells"
     desc: "DC 30, attack +22; __5th __  _[[Spells/Phantasmal Killer|Phantasmal Killer (x3)]]_; __4th __  _[[Spells/Translocate|Dimension Door (x2)]]_\n__Cantrips__  __(6th)__ _[[Spells/Shield|Shield]]_, _[[Spells/Telekinetic Projectile|Telekinetic Projectile]]_"

@@ -38,6 +38,6 @@ abilities_top:
     desc: "until the start of your next turn"
 abilities_mid:
   - name: ""
-    desc: "You push at the target’s mind to deflect their ire. The target must attempt a Will save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target takes a -1 circumstance penalty to attack rolls and damage rolls against you.\n\n**Failure** The target can't use hostile actions against you.\n\n**Critical Failure** The target is [[Conditions/Stunned 1|Stunned 1]] and can't use hostile actions against you."
+    desc: "You push at the target's mind to deflect their ire. The target must attempt a Will save.\n* * *\n\n**Critical Success** The target is unaffected.\n\n**Success** The target takes a -1 circumstance penalty to attack rolls and damage rolls against you.\n\n**Failure** The target can't use hostile actions against you.\n\n**Critical Failure** The target is [[Conditions/Stunned 1|Stunned 1]] and can't use hostile actions against you."
 sourcebook: "_Pathfinder Player Core_"
 ```

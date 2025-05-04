@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/elemental
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Wind Malevolent (3-4)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-02: Mountain of Sea and Sky"
 name: "Wind Malevolent (3-4)"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "air"
-trait_02: "elemental"
-trait_03: "evil"
+trait_01: [[air]]
+trait_02: [[elemental]]
+trait_03: [[evil]]
 modifier: 7
 perception:
   - name: "Perception"

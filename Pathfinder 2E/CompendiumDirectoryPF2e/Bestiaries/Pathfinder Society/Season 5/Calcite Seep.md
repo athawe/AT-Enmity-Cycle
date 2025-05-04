@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #5-13: Thick as Thieves
 aliases: "Compendium.pf2e.pfs-season-5-bestiary.Actor.0BWqVxX1osDP2C8n" 
@@ -21,7 +22,7 @@ name: "Calcite Seep"
 level: "Hazard 5"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 8
 sourcebook: "_Pathfinder Society Scenario #5-13: Thick as Thieves_"
 perception:

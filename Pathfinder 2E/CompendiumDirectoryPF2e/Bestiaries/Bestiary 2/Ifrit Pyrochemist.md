@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/naari
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Ifrit Pyrochemist"
@@ -27,11 +28,11 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
-trait_05: "naari"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
+trait_05: [[naari]]
 modifier: 3
 perception:
   - name: "Perception"

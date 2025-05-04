@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Taunting Skull"
@@ -25,9 +26,9 @@ level: "Creature 5"
 
 alignment: ""
 size: "tiny"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Necril; any one language spoken in life"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +12 (+14 to Manuver in Flight), Intimidation: +12 (+14 to Demoralize)"
+    desc: "Acrobatics: +12, Intimidation: +12"
 abilityMods: [1, 5, 1, 0, 4, 1]
 speed: 15 feet,  fly 40 feet
 sourcebook: "_Pathfinder Book of the Dead_"

@@ -29,6 +29,7 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, occult"
+
   - name: "Duration"
     desc: "3 rounds"
 abilities_mid:

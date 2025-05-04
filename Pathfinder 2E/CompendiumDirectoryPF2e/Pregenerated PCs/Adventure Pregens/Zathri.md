@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Zathri
-creatures:
-  - 1: Zathri
-```
-
 
 
 

@@ -1,14 +1,32 @@
+---
+tags:
+  - district
+---
 
+**Description**: An ever bustling hub of shopping and chatter. Buildings of white stone dot the district, with sheets tied up between them providing shelter from the wind and shade. The people mill about here, small crowds gather around popular street vendors for food and assorted artistic wares. 
+**Theme Music**: 
+## Social Encounters 
+`dice: 2d8` 
+- 2 - Nothing
+- 3 - Government (1 on a d4 to be a Lord, else a public servant)
+- 4-5 - Lingering Note 
+- 6-7 - Other Hand 
+- 8-9 - Lamasara Mercantile League 
+- 10-11 - Townsfolk
+- 12-14 - Lamasara's Faithful 
+- 15 - Runewatchers 
+- 16 - Pathfinder Society 
+## Locations
 #### [[The White Deer]] LOCATION 4 
 Lamasara MERCANTILE LEAGUE EMPLOYER HOUSING RESTAURANT 
 **Wares** Standard food and drink, including pepper-crusted venison, seasonal drinks from Two Knight Brewery, the “big pork pie” that feeds four, and weedwraps (strips of candied venison wrapped in fresh seaweed); lodging 
-[[Lamasara Mercantile League#Garridan Viskalai|Garridan Viskalai]] (LN male human innkeeper 4; indifferent; Perception *DC 17*, Will *DC 17*) 
+[[Lamasara Mercantile League#Garrida Viskalai|Garrida Viskalai]] (LN female catfolk innkeeper 4; indifferent; Perception *DC 17*, Will *DC 17*) 
 
 #### [[The Way North]] LOCATION 4 
 Lamasara MERCANTILE LEAGUE EMPLOYER LIBRARY MERCHANT 
 **Wares** Local regional maps and novelty treasure maps ranging in price from 5 sp to 10 gp; spellcasting services 
 **Spellcasting** Arcane spells are available for purchase from Veznutt. Veznutt typically has the following spells available: *3rd* ? ? ? *2nd* comprehend language, dispel magic; *1st* alarm, mage armor, unseen servant; *Cantrips (3rd)* dancing lights, mage hand, prestidigitation, read aura, sigil. Other spells are available if arrangements can be made a day in advance, and if the GM wishes to include the spells in question in Veznutt’s spellbook. 
-[[Veznutt Parooh]] (NG male gnome wizard 6; indifferent; *Perception DC 18, Will DC 20*) 
+[[Veznutt Parooh]] (NG male gnome wizard 6; indifferent; *Perception DC 24, Will DC 20*) 
 
 #### [[Rings and Things]] LOCATION 3 
 Lamasara MERCANTILE LEAGUE EMPLOYER MERCHANT 
@@ -24,7 +42,7 @@ Lamasara MERCANTILE LEAGUE MERCHANT WORKSHOP
 #### [[Savah's Armoury]] LOCATION 4
 Lamasara MERCANTILE LEAGUE MERCHANT 
 **Wares** armor, shields, weapons, ammunition, runes 
-[[Lamasara Mercantile League#Samri Bevnik|Samri Bevnik]] (NG male dwarf smith (fighter 7); indifferent; *Perception DC 21, Will DC 18*) 
+[[Lamasara Mercantile League#Samri Bevnik|Samri Bevnik]] (NG male dwarf smith (fighter 7); indifferent; *Perception DC 21, Will DC 20) 
 
 #### [[Rovanky Tannery]] LOCATION 3 
 Lamasara MERCANTILE LEAGUE MERCHANT WORKSHOP 
@@ -73,16 +91,16 @@ Lamasara MERCANTILE LEAGUE EMPLOYER MERCHANT
 #### [[The Feedbag]] LOCATION 5 
 The Other Hand CRIMINAL EMPLOYER MUNICIPAL PARLOR RESTAURANT 
 **Wares** standard food and drink, including cheese curd soup, Foamer’s Gulp (frothy ale served in an oversized mug), lard fries (strips of pork skin fried in seasoned lard), and Old Murdermaw stout 
-[[Deyad Vhiski]] (NE male human rogue 7; indifferent; *Perception DC 22, Will DC 20*)
+[[Deyad Vhiski]] (NE male human rogue 7; indifferent; *Perception DC 23, Will DC 20*)
 
 #### [[Wheen's Wagons]] LOCATION 3 
 Lamasara MERCANTILE LEAGUE EMPLOYER MERCHANT 
 **Wares** wagons, wheel repairs, courier service 
-[[Lamasara Mercantile League#Bilivar Wheen|Bilivar Wheen]] (N male human wheelwright 3; indifferent; *Perception DC 15, Will DC 15*)
+[[Lamasara Mercantile League#Bilivar Wheen|Bilivar Wheen]] (N male dwarf wheelwright 3; indifferent; *Perception DC 15, Will DC 15*)
 
 #### [[Vernah's Fine Clothing]] LOCATION 5 
 Lingering Note MERCHANT 
-**Wares** clothing, non-metallic light armor 
+**Wares** clothing, non-metallic light armor, [[Clothing (Desert)]]  
 [[The Lingering Note#Rynshinn Povalli|Rynshinn Povalli]] (NG female elf tailor 5; indifferent; *Perception DC 18, Will DC 18*) 
 
 #### [[Hannah's Herbs]] LOCATION 4

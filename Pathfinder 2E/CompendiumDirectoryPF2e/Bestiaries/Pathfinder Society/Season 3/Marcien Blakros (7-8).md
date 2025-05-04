@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/shadow
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Marcien Blakros (7-8)"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #3-19: Mean Streets of Shadow Absalom"
 name: "Marcien Blakros (7-8)"
 level: "Creature 8"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fetchling"
-trait_03: "humanoid"
-trait_04: "lawful"
-trait_05: "shadow"
+trait_01: [[evil]]
+trait_02: [[fetchling]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
+trait_05: [[shadow]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Aklo, Common, Necril, Sakvroth, Shadowtongue"
 skills:
   - name: "Skills"
-    desc: "Arcana: +15, Deception: +18, Diplomacy: +16, Intimidation: +18, Occultism: +17, Shadow Plane Lore: +17, Society: +15, Stealth: +18"
+    desc: "Arcana: +15, Deception: +18, Diplomacy: +16, Intimidation: +18, Occultism: +17, Society: +15, Stealth: +18, Shadow Plane Lore: +17"
 abilityMods: [0, 4, 0, 3, 3, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #3-19: Mean Streets of Shadow Absalom_"
@@ -64,7 +65,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Staff +15 (magical, two-hand d8)\n__Damage__  2d4 + 8 bludgeoning"
 
-  - name: "Ranged"
+  - name: "Melee"
     desc: "`pf2:1` Backbiter +19 (concealable, concussive, fatal d10, magical)\n__Damage__  2d6 + 8 piercing plus curse-of-conflicted-loyalties"
 
   - name: "Occult Spontaneous Spells"

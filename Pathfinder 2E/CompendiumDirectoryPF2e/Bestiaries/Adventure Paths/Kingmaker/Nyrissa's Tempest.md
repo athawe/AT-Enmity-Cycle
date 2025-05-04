@@ -3,6 +3,7 @@ title: Nyrissa's Tempest
 obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
+  - pf2eHazard
   - complex
 source: Pathfinder Kingmaker
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.rsm5ZSX6oKJWQRvf" 

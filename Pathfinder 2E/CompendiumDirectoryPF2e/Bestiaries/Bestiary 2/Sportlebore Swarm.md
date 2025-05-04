@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.3VFHZyjSjNA1jbiO"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Sportlebore Swarm"
@@ -24,8 +25,8 @@ level: "Creature 7"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
-trait_02: "swarm"
+trait_01: [[animal]]
+trait_02: [[swarm]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -50,7 +51,7 @@ abilities_top:
   - name: ""
 
   - name: "Sportlebore Infestation"
-    desc: " (disease) **Saving Throw** DC 22 Fortitude check\n\n**Stage 1** carrier with no ill effect (1 day)\n\n**Stage 2** [[Conditions/Enfeebled 1|Enfeebled 1]] (1 hour)\n\n**Stage 3** [[Conditions/Enfeebled 1|Enfeebled 2]] (1 hour)\n\n**Stage 4** 4d6 bludgeoning damage (DC 25 Fortitude check save) as the host painfully vomits out a sportlebore swarm and returns to stage 1"
+    desc: " (disease) **Saving Throw** DC 22 Fortitude check\n\n**Stage 1** carrier with no ill effect (1 day)\n\n**Stage 2** [[Conditions/Enfeebled|Enfeebled 1]] (1 hour)\n\n**Stage 3** [[Conditions/Enfeebled|Enfeebled 2]] (1 hour)\n\n**Stage 4** 4d6 bludgeoning damage (DC 25 Fortitude check save) as the host painfully vomits out a sportlebore swarm and returns to stage 1"
 
 abilities_mid:
   - name: ""

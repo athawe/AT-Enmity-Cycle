@@ -24,7 +24,11 @@ abilities_top:
     desc: "1 day; **Cost** precious metals, rare incense, and herbs worth a total value of 15 gp per spell rank"
   - name: "Primary Check"
     desc: "Arcana (expert) or Occultism (expert)"
-**Targets** 1 object  - name: "Duration"
+
+  - name: "Targets"
+
+    desc: "1 object"
+  - name: "Duration"
     desc: "unlimited"
 abilities_mid:
   - name: ""

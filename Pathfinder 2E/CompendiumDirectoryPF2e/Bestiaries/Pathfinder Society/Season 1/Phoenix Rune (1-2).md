@@ -7,6 +7,7 @@ tags:
   - fire
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Quest #2: Unforgiving Fire
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.Nr8LlIa0kRW71fJs" 
@@ -24,16 +25,16 @@ name: "Phoenix Rune (1-2)"
 level: "Hazard 0"
 
 
-trait_01: "auditory"
-trait_02: "fire"
-trait_03: "magical"
-trait_04: "trap"
+trait_01: [[auditory]]
+trait_02: [[fire]]
+trait_03: [[magical]]
+trait_04: [[trap]]
 modifier: 11
 sourcebook: "_Pathfinder Society Quest #2: Unforgiving Fire_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 10
 health:
   - name: ""

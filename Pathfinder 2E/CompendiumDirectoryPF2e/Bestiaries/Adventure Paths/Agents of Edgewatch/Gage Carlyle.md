@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.eqwAdGsAk5JZKxUY"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Gage Carlyle"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #159: All or Nothing"
 name: "Gage Carlyle"
 level: "Creature 11"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 24
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Dwarven, Elven, Gnomish, Halfling"
 skills:
   - name: "Skills"
-    desc: "Arcana: +19, Deception: +24, Diplomacy: +22, Games Lore: +23, Intimidation: +20, Occultism: +19, Performance: +22, Society: +23, Thievery: +21"
+    desc: "Arcana: +19, Deception: +24, Diplomacy: +22, Intimidation: +20, Occultism: +19, Performance: +22, Society: +23, Thievery: +21, Games Lore: +23"
 abilityMods: [0, 2, 1, 4, 5, 5]
 speed: 25 feet
 sourcebook: "_Pathfinder #159: All or Nothing_"
@@ -55,7 +56,7 @@ abilities_mid:
 attacks:
   - name: ""
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Dagger +22 (agile, finesse, magical, thrown 10 ft., versatile s)\n__Damage__  3d4 + 3 piercing"
 
   - name: "Ranged"

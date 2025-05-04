@@ -26,6 +26,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
   - name: "Duration"
     desc: "until the end of your next turn"
 abilities_mid:

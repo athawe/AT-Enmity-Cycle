@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder #200: Seven Dooms for Sandpoint
 aliases: "Compendium.pf2e.seven-dooms-for-sandpoint-bestiary.Actor.6Os01sBDa1hxrZjs" 
@@ -21,13 +22,13 @@ name: "Promise of Plagues"
 level: "Hazard 11"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 19
 sourcebook: "_Pathfinder #200: Seven Dooms for Sandpoint_"
 ac: 34
 armorclass:
   - name: AC
-    desc: "34; __Fort__ +18, __Ref__ +26, __Will__ +0"
+    desc: "34; __Fort__ +18, __Ref__ +26, "
 hp: 80
 health:
   - name: ""

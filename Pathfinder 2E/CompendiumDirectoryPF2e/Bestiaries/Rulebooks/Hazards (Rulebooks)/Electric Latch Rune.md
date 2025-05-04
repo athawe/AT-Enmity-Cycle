@@ -6,6 +6,7 @@ tags:
   - electricity
   - magical
   - trap
+  - pf2eHazard
 
   - remaster
 source: Pathfinder GM Core
@@ -24,15 +25,15 @@ name: "Electric Latch Rune"
 level: "Hazard 3"
 
 
-trait_01: "electricity"
-trait_02: "magical"
-trait_03: "trap"
+trait_01: [[electricity]]
+trait_02: [[magical]]
+trait_03: [[trap]]
 modifier: 10
 sourcebook: "_Pathfinder GM Core_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

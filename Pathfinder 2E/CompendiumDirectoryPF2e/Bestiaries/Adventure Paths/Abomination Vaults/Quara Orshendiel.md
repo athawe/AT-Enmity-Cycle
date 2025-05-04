@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/drow
   - pf2e/creature/type/elf
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Quara Orshendiel"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #165: Eyes of Empty Death"
 name: "Quara Orshendiel"
 level: "Creature 11"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "drow"
-trait_03: "elf"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[drow]]
+trait_03: [[elf]]
+trait_04: [[humanoid]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -93,7 +94,7 @@ attacks:
     desc: "`pf2:2`  Quara Strides or Steps, then Strikes. This Strike deals an additional 3d6 damage."
 
   - name: "Stupor Poison"
-    desc: "  Stupor poison is a more potent distillation of [[Equipment/Lethargy Poison|Lethargy Poison]]. Further exposure to stupor poison doesn't require the target to attempt additional saving throws; only failing a saving throw against an ongoing exposure can progress its stage.\n* * *\n\n**Saving Throw** DC 20 Fortitude check\n\n**Maximum Duration** 6 hours\n\n**Stage 1** [[Conditions/Slowed 1|Slowed 1]] and [[Conditions/Off-Guard|Off-Guard]] (1 round)\n\n**Stage 2** [[Conditions/Slowed 1|Slowed 2]] and off-guard (1 round)\n\n**Stage 3** [[Conditions/Unconscious|Unconscious]] with no Perception check to wake up (1 round)\n\n**Stage 4** unconscious with no Perception check to wake up (1d6 hours)"
+    desc: "  Stupor poison is a more potent distillation of [[Equipment/Lethargy Poison|Lethargy Poison]]. Further exposure to stupor poison doesn't require the target to attempt additional saving throws; only failing a saving throw against an ongoing exposure can progress its stage.\n* * *\n\n**Saving Throw** DC 20 Fortitude check\n\n**Maximum Duration** 6 hours\n\n**Stage 1** [[Conditions/Slowed|Slowed 1]] and [[Conditions/Off-Guard|Off-Guard]] (1 round)\n\n**Stage 2** [[Conditions/Slowed|Slowed 2]] and off-guard (1 round)\n\n**Stage 3** [[Conditions/Unconscious|Unconscious]] with no Perception check to wake up (1 round)\n\n**Stage 4** unconscious with no Perception check to wake up (1d6 hours)"
  
 ```
 

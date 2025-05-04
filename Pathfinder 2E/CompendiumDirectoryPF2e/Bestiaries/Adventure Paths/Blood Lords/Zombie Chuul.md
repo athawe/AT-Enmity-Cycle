@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
   - pf2e/creature/type/zombie
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Zombie Chuul"
@@ -25,19 +26,19 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #182: Graveclaw"
 name: "Zombie Chuul"
 level: "Creature 7"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "amphibious"
-trait_02: "evil"
-trait_03: "mindless"
-trait_04: "undead"
-trait_05: "unholy"
-trait_06: "zombie"
-modifier: 0
+trait_01: [[amphibious]]
+trait_02: [[evil]]
+trait_03: [[mindless]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
+trait_06: [[zombie]]
+modifier: 11
 perception:
   - name: "Perception"
-    desc: "+0; Darkvision, Tremorsense (Imprecise) 30 Feet"
+    desc: "+11; Darkvision, Tremorsense (Imprecise) 30 Feet"
 languages: ""
 skills:
   - name: "Skills"
@@ -58,7 +59,7 @@ abilities_top:
   - name: ""
 
   - name: "Slow"
-    desc: "  The zombie chuul is permanently [[Conditions/Slowed 1|Slowed 1]] and can't use reactions."
+    desc: "  The zombie chuul is permanently [[Conditions/Slowed|Slowed 1]] and can't use reactions."
 
 abilities_mid:
   - name: ""
@@ -69,7 +70,7 @@ attacks:
     desc: "`pf2:1` Claw +18 (reach 10 feet)\n__Damage__  2d12 + 12 slashing plus grab"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  1d12 + 7 bludgeoning damage, DC 25 Fortitude check ([[Conditions/Grabbed|Grabbed]] by claw only)\n\n* * *\n"
+    desc: "`pf2:1`  1d12+7 bludgeoning damage, DC 25 Fortitude check ([[Conditions/Grabbed|Grabbed]] by claw only)\n\n* * *\n"
 
   - name: "Mandibles"
     desc: "`pf2:1`  **Requirements** A creature is [[Conditions/Grabbed|Grabbed]] and [[Conditions/Paralyzed|Paralyzed]] by the zombie chuul's tentacles\n* * *\n\n**Effect** The creature takes 3d6 piercing damage."

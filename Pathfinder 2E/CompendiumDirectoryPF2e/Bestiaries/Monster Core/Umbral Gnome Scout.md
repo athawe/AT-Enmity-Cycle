@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.63gNd2JNUDcAjYzo"
 tags:
   - pf2e/creature/type/gnome
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "gnome"
-trait_02: "humanoid"
+trait_01: [[gnome]]
+trait_02: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -34,7 +35,7 @@ perception:
 languages: "Gnomish, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Nature: +5, Stealth: +7 (+10 underground), Survival: +5"
+    desc: "Acrobatics: +7, Nature: +5, Stealth: +7, Survival: +5"
 abilityMods: [2, 4, 2, 0, 2, -1]
 speed: 20 feet
 sourcebook: "_Pathfinder Monster Core_"

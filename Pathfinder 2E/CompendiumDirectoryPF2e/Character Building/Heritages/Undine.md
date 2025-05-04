@@ -3,15 +3,15 @@ obsidianUIMode: preview
 title: "Undine"
 cssclasses: pf2e,pf2e-action
 tags:
-  - trait/undine
   - trait/amphibious
+  - trait/undine
   - trait/uncommon
 aliases: "Compendium.pf2e.heritages.Item.Gmk7oNITvMVBy78Z"
 license: OGL
 ---
 # Undine
 
-### [uncommon](uncommon "Uncommon Rarity Trait")[[undine]][[amphibious]]
+### [uncommon](uncommon "Uncommon Rarity Trait")[[amphibious]][[undine]]
 
 
 

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/acid
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Crawling Slurry"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #174: Shadows of the Ancients"
 name: "Crawling Slurry"
 level: "Creature 16"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "acid"
-trait_02: "mindless"
-trait_03: "ooze"
+trait_01: [[acid]]
+trait_02: [[mindless]]
+trait_03: [[ooze]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +35, Stealth: +30 (+34 in Acidic Surroundings)"
+    desc: "Athletics: +35, Stealth: +30"
 abilityMods: [5, 9, 6, -5, 0, -5]
 speed: 30 feet,  climb 20 feet
 sourcebook: "_Pathfinder #174: Shadows of the Ancients_"

@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
   - remaster
 source: Pathfinder GM Core
@@ -22,13 +23,13 @@ name: "Titanic Flytrap"
 level: "Hazard 4"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 15
 sourcebook: "_Pathfinder GM Core_"
 ac: 21
 armorclass:
   - name: AC
-    desc: "21; __Fort__ +15, __Ref__ +8, __Will__ +0"
+    desc: "21; __Fort__ +15, __Ref__ +8, "
 hp: 56
 health:
   - name: ""
@@ -58,7 +59,7 @@ attacks:
     desc: "passive The target is trapped by the flytrap's jaws, gaining the [[Conditions/Grabbed|Grabbed]] condition until it Escapes (DC 21). Additionally, it is exposed to the titanic flytrap toxin from the hundreds of tiny hairs that line the inside of its leaves. If the flytrap's jaws Strike was a critical success, the target takes a –2 circumstance penalty to its saving throws against this poison. At the end of each of the target's turns that it remains grabbed, the target takes 3d6 acid damage."
 
   - name: "Titanic Flytrap Toxin"
-    desc: "passive (contact, poison) **Saving Throw** DC 21 Fortitude check\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 2d6 poison damage and [[Conditions/Stunned 1|Stunned 1]] (1 round)\n\n**Stage 2** 3d6 poison damage and [[Conditions/Stunned 1|Stunned 2]] (1 round)\n\n**Stage 3** 4d6 poison damage and [[Conditions/Paralyzed|Paralyzed]] (1 round)"
+    desc: "passive (contact, poison) **Saving Throw** DC 21 Fortitude check\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 2d6 poison damage and [[Conditions/Stunned|Stunned 1]] (1 round)\n\n**Stage 2** 3d6 poison damage and [[Conditions/Stunned|Stunned 2]] (1 round)\n\n**Stage 3** 4d6 poison damage and [[Conditions/Paralyzed|Paralyzed]] (1 round)"
 
 
   - name: "Reset"

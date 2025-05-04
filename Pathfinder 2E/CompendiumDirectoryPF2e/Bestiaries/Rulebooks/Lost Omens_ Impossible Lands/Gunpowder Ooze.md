@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.lost-omens-impossible-lands-bestiary.Actor.qbfMDAa3RXv
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Gunpowder Ooze"
@@ -24,8 +25,8 @@ level: "Creature 14"
 
 alignment: ""
 size: "Large"
-trait_01: "mindless"
-trait_02: "ooze"
+trait_01: [[mindless]]
+trait_02: [[ooze]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Combust"
-    desc: "  Due to the volatile nature of its composition, the gunpowder ooze reacts explosively when exposed to open flame. Any time the gunpowder ooze takes fire damage from a source other than a gunpowder ooze's combust or gunpowder residue, it explodes, dealing 15d6 fire damage to creatures in a 15-foot emanation including itself (DC 34 Reflex check). When the gunpowder ooze combusts, it automatically splits as long as it has 10 or more HP."
+    desc: "  Due to the volatile nature of its composition, the gunpowder ooze reacts explosively when exposed to open flame. Any time the gunpowder ooze takes fire damage from a source other than a gunpowder ooze's combust or gunpowder residue, it explodes, dealing 15d6 fire damage to creatures in a @Template[emanation|distance:15] including itself (DC 34 Reflex check). When the gunpowder ooze combusts, it automatically splits as long as it has 10 or more HP."
 
   - name: "Split"
     desc: "  When a gunpowder ooze that has 10 or more HP is hit by an attack that would deal slashing or piercing damage, it splits into two identical oozes, each with half the original's HP. One ooze is in the same space as the original, and the other is in an adjacent, unoccupied space. If no adjacent space is unoccupied, it automatically pushes creatures and objects out of the way to fill a space (the GM decides if an object or creature is too big or heavy to push)."

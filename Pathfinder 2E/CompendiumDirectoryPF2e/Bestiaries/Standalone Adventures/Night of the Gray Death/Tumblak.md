@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/sahkil
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Tumblak"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: Night of the Gray Death"
 name: "Tumblak"
 level: "Creature 18"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fiend"
-trait_03: "incorporeal"
-trait_04: "sahkil"
-trait_05: "unholy"
+trait_01: [[evil]]
+trait_02: [[fiend]]
+trait_03: [[incorporeal]]
+trait_04: [[sahkil]]
+trait_05: [[unholy]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Chthonian, Diabolic, Empyrean, Requian; telepathy 100 feet"
 skills:
   - name: "Skills"
-    desc: "Athletics: +35, Deception: +31, Grave Lore: +28, Intimidation: +35, Religion: +29, Stealth: +31"
+    desc: "Athletics: +35, Deception: +31, Intimidation: +35, Religion: +29, Stealth: +31, Grave Lore: +28"
 abilityMods: [9, 5, 6, 2, 5, 9]
 speed:  fly 40 feet
 sourcebook: "_Pathfinder Adventure: Night of the Gray Death_"

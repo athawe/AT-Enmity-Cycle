@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Yonsuu"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #171: Hurricane&#x27;s Howl"
 name: "Yonsuu"
 level: "Creature 11"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "catfolk"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[catfolk]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -72,10 +73,10 @@ attacks:
     desc: "`pf2:1` Dagger +23 (agile, thrown 10 ft., versatile s)\n__Damage__  1d4 + 6 piercing"
 
   - name: "Hampering Strike"
-    desc: "  A foe that takes damage from Yonsuu's melee Strike is [[Conditions/Slowed 1|Slowed 1]] for 1 round ([[Conditions/Slowed 1|Slowed 3]] if the Strike is a critical hit)."
+    desc: "  A foe that takes damage from Yonsuu's melee Strike is [[Conditions/Slowed|Slowed 1]] for 1 round ([[Conditions/Slowed|Slowed 3]] if the Strike is a critical hit)."
 
   - name: "Subduing Attack"
-    desc: "  Yonsuu deals an additional 3d6 precision damage to creatures that are [[Conditions/Frightened 1|Frightened]] or within reach of at least one of their allies.\n\nYonsuu can make an attack with this additional damage as a nonlethal attack, if they choose."
+    desc: "  Yonsuu deals an additional 3d6 precision damage to creatures that are [[Conditions/Frightened|Frightened]] or within reach of at least one of their allies.\n\nYonsuu can make an attack with this additional damage as a nonlethal attack, if they choose."
  
 ```
 

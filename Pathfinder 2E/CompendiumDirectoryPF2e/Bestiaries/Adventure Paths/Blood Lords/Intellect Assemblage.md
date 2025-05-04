@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.3Yi3PBesesksFZi6" 
 tags:
   - pf2e/creature/type/construct
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "Intellect Assemblage"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #186: Ghost King&#x27;s Rage"
 name: "Intellect Assemblage"
 level: "Creature 19"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "construct"
+trait_01: [[construct]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Common; telepathy 100 feet; tongues"
 skills:
   - name: "Skills"
-    desc: "Athletics: +37, Bardic Lore: +33, Occultism: +33"
+    desc: "Athletics: +37, Occultism: +33, Bardic Lore: +33"
 abilityMods: [10, 5, 6, 5, 3, -3]
 speed: 40 feet
 sourcebook: "_Pathfinder #186: Ghost King&#x27;s Rage_"
@@ -56,7 +57,7 @@ abilities_mid:
     desc: " (aura,illusion,mental,visual) 20 feet. The thought shards composing the intellect assemblage's body reflect countless memories, thoughts, and dreams. A creature that starts its turn in the aura must succeed at a DC 38 Will check save or become [[Conditions/Fascinated|Fascinated]] with the intellect assemblage for 1 round. An intellect assemblage can suppress or activate this aura as a single action with the concentrate trait."
 
   - name: "Meticulous"
-    desc: "  An intellect assemblage is analytical. Whenever they fail a saving throw against a mental spell or effect, the intellect assemblage is [[Conditions/Slowed 1|Slowed 1]] for 1d4 rounds as they sift through the new information."
+    desc: "  An intellect assemblage is analytical. Whenever they fail a saving throw against a mental spell or effect, the intellect assemblage is [[Conditions/Slowed|Slowed 1]] for 1d4 rounds as they sift through the new information."
 
 attacks:
   - name: ""

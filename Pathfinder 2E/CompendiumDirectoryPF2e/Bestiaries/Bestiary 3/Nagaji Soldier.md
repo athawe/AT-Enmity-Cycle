@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.NikAalo85JWVE6d2"
 tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/nagaji
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Nagaji Soldier"
@@ -24,8 +25,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
-trait_02: "nagaji"
+trait_01: [[humanoid]]
+trait_02: [[nagaji]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Draconic"
 skills:
   - name: "Skills"
-    desc: "Athletics: +8, Intimidation: +5, Nature: +6 (+8 to Command an Animal that is a reptile)"
+    desc: "Athletics: +8, Intimidation: +5, Nature: +6"
 abilityMods: [4, 1, 3, -1, 2, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"

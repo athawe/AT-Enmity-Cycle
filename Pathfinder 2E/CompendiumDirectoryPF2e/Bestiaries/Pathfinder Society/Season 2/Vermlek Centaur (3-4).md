@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Vermlek Centaur (3-4)"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-18: The Fanciful March of Urwal"
 name: "Vermlek Centaur (3-4)"
 level: "Creature 4"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "demon"
-trait_03: "evil"
-trait_04: "fiend"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[demon]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
+trait_05: [[unholy]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -73,7 +74,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Longsword +14 (unholy, versatile p)\n__Damage__  1d8 + 5 slashing"
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Light Hammer +14 (agile, thrown 20 ft., unholy)\n__Damage__  1d6 + 5 bludgeoning"
 
   - name: "Ranged"
@@ -92,7 +93,7 @@ attacks:
     desc: "`pf2:3`  Medium or Smaller; Hoof; DC 21 Reflex check\n\n* * *\n"
 
   - name: "Unsettling Movement"
-    desc: " (emotion,fear,mental,visual) Whenever the vermlek Abandons a Body or Inhabits a Body, all creatures within 30 feet who can see the vermlek must succeed at a DC 20 Will check save or become [[Conditions/Frightened 1|Frightened 1]]. On a critical failure, the creature is frightened 1 and [[Conditions/Sickened 1|Sickened 1]].\n\nRegardless of the result, creatures are immune to the same vermlek's unsettling movement for 24 hours."
+    desc: " (emotion,fear,mental,visual) Whenever the vermlek Abandons a Body or Inhabits a Body, all creatures within 30 feet who can see the vermlek must succeed at a DC 20 Will check save or become [[Conditions/Frightened|Frightened 1]]. On a critical failure, the creature is frightened 1 and [[Conditions/Sickened|Sickened 1]].\n\nRegardless of the result, creatures are immune to the same vermlek's unsettling movement for 24 hours."
  
 ```
 

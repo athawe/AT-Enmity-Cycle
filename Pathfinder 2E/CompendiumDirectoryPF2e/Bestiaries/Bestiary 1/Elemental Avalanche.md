@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.XoXf5ExS95Vv6lNf"
 tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Elemental Avalanche"
@@ -24,8 +25,8 @@ level: "Creature 11"
 
 alignment: ""
 size: "huge"
-trait_01: "earth"
-trait_02: "elemental"
+trait_01: [[earth]]
+trait_02: [[elemental]]
 modifier: 20
 perception:
   - name: "Perception"
@@ -50,7 +51,7 @@ abilities_top:
   - name: ""
 
   - name: "Earthbound"
-    desc: "  When not touching solid ground, the elemental avalanche is [[Conditions/Slowed 1|Slowed 1]], can't use reactions, and can't Trample."
+    desc: "  When not touching solid ground, the elemental avalanche is [[Conditions/Slowed|Slowed 1]], can't use reactions, and can't Trample."
 
 abilities_mid:
   - name: ""

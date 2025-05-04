@@ -60,12 +60,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Ekene
-creatures:
-  - 1: Ekene
-```
-
 
 
 

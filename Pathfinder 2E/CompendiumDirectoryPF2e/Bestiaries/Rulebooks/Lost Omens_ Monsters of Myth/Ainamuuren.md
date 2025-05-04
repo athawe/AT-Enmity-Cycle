@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/cold
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Ainamuuren"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Monsters of Myth"
 name: "Ainamuuren"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "cold"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[cold]]
+trait_03: [[humanoid]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Erutaki, Jotun"
 skills:
   - name: "Skills"
-    desc: "Athletics: +28, Medicine: +24, Nature: +26, Stealth: +24 (+25 in forests and snow)"
+    desc: "Athletics: +28, Medicine: +24, Nature: +26, Stealth: +24"
 abilityMods: [8, 4, 5, 2, 5, 0]
 speed: 35 feet
 sourcebook: "_Pathfinder Lost Omens: Monsters of Myth_"
@@ -55,7 +56,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Blizzard Evasion"
-    desc: "`pf2:r`  **Trigger** Ainamuuren takes at least 40 points of physical damage from a single attack, and he isn't currently discorporated\n* * *\n\n**Effect** Ainamuuren discorporates into a whirling blizzard for 3 rounds. During this time, he gains resistance 10 to physical damage and weakness 10 to force damage. He gains a fly speed of 40 feet, but the only action he can take is to Fly. While discorporated, the first time each round that Ainamuuren enters another creature's space or a creature enters Ainamuuren's space, that creature takes 4d8 cold damage and must succeed at a DC 34 Fortitude check save or be [[Conditions/Stunned 1|Stunned 1]]. At the start of his turn, Ainamuuren can end this effect as a free action."
+    desc: "`pf2:r`  **Trigger** Ainamuuren takes at least 40 points of physical damage from a single attack, and he isn't currently discorporated\n* * *\n\n**Effect** Ainamuuren discorporates into a whirling blizzard for 3 rounds. During this time, he gains resistance 10 to physical damage and weakness 10 to force damage. He gains a fly speed of 40 feet, but the only action he can take is to Fly. While discorporated, the first time each round that Ainamuuren enters another creature's space or a creature enters Ainamuuren's space, that creature takes 4d8 cold damage and must succeed at a DC 34 Fortitude check save or be [[Conditions/Stunned|Stunned 1]]. At the start of his turn, Ainamuuren can end this effect as a free action."
 
   - name: "Frostbite Runes"
     desc: "  Ainamuuren is marked by the runes of the saumen kar, a gift tied to their ancient curse. Ainamuuren gains a +1 status bonus to saving throws against evil and necromancy spells and effects. He can sense the presence of evil undead as a pervasive taste of oily corruption in the air. This is a vague sense that allows him to know when such a creature is within 60 feet, though he can't precisely pinpoint their location with this sense. This sense also extends to living creatures who have the void healing ability, like dhampir."

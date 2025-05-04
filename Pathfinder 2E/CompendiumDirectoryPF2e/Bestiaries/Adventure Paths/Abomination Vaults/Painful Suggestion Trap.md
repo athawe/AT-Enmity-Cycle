@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #164: Hands of the Devil
 aliases: "Compendium.pf2e.abomination-vaults-bestiary.Actor.knoWZfTiLY7xGwhB" 
@@ -22,8 +23,8 @@ name: "Painful Suggestion Trap"
 level: "Hazard 8"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 16
 sourcebook: "_Pathfinder #164: Hands of the Devil_"
 perception:

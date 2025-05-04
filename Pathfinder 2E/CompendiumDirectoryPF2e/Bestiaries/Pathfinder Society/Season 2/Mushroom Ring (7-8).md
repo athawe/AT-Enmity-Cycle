@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #2-00: The King in Thorns
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.UtMuL2qXMHxt2ccB" 
@@ -22,14 +23,14 @@ name: "Mushroom Ring (7-8)"
 level: "Hazard 8"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 18
 sourcebook: "_Pathfinder Society Scenario #2-00: The King in Thorns_"
 ac: 27
 armorclass:
   - name: AC
-    desc: "27; __Fort__ +19, __Ref__ +13, __Will__ +0"
+    desc: "27; __Fort__ +19, __Ref__ +13, "
 hp: 138
 health:
   - name: ""

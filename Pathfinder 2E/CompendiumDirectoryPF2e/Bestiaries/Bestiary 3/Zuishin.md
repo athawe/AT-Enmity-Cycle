@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/kami
   - pf2e/creature/type/lawful
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Zuishin"
@@ -26,10 +27,10 @@ level: "Creature 10"
 
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "kami"
-trait_03: "lawful"
-trait_04: "spirit"
+trait_01: [[good]]
+trait_02: [[kami]]
+trait_03: [[lawful]]
+trait_04: [[spirit]]
 modifier: 21
 perception:
   - name: "Perception"

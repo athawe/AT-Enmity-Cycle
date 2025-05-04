@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.jdqCEhsHDs4ABh2X"
 tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Jorogumo"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Jorogumo"
 level: "Creature 13"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "humanoid"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -73,7 +74,7 @@ attacks:
     desc: "`pf2:1` (concentrate,occult,polymorph) The jorogumo takes on the appearance of any Small or Medium spider. This doesn't change their Speed or Strikes.\n\n* * *\n"
 
   - name: "Jorogumo Venom"
-    desc: " (incapacitation,poison) **Saving Throw** DC 32 Fortitude check\n* * *\n\n**Maximum Duration** 4 hours\n\n**Stage 1** 3d6 poison damage and [[Conditions/Stupefied 1|Stupefied 1]] (1 round)\n\n**Stage 2** 3d6 poison damage and [[Conditions/Stupefied 1|Stupefied 2]] (1 round)\n\n**Stage 3** 4d6 poison damage and Stupefied 2 (1 round)\n\n**Stage 4** [[Conditions/Paralyzed|Paralyzed]] for 1d4 hours"
+    desc: " (incapacitation,poison) **Saving Throw** DC 32 Fortitude check\n* * *\n\n**Maximum Duration** 4 hours\n\n**Stage 1** 3d6 poison damage and [[Conditions/Stupefied|Stupefied 1]] (1 round)\n\n**Stage 2** 3d6 poison damage and [[Conditions/Stupefied|Stupefied 2]] (1 round)\n\n**Stage 3** 4d6 poison damage and Stupefied 2 (1 round)\n\n**Stage 4** [[Conditions/Paralyzed|Paralyzed]] for 1d4 hours"
 
   - name: "Spider Legs"
     desc: "`pf2:1` (concentrate,occult,polymorph) **Requirements** The jorogumo is in humanoid form\n* * *\n\n**Effect** Eight large spider legs sprout from the jorogumo's back, granting them a 40-foot climb Speed and allowing them to use the Darting Legs reaction."

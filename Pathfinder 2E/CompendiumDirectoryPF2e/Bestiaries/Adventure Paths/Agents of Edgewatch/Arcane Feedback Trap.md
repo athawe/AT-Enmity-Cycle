@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - arcane
   - magical
+  - pf2eHazard
 
 source: Pathfinder #160: Assault on Hunting Lodge Seven
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.XTHcALqbg5kgxtPw" 
@@ -22,14 +23,14 @@ name: "Arcane Feedback Trap"
 level: "Hazard 13"
 
 
-trait_01: "arcane"
-trait_02: "magical"
+trait_01: [[arcane]]
+trait_02: [[magical]]
 modifier: 25
 sourcebook: "_Pathfinder #160: Assault on Hunting Lodge Seven_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Irkem Dresh"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #178: Punks in a Powder Keg"
 name: "Irkem Dresh"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "dwarf"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[dwarf]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Dwarven, Jotun"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +9, Banking Lore: +8, Deception: +7, Diplomacy: +5, Intimidation: +9, Nature: +7, Society: +6, Thievery: +6"
+    desc: "Acrobatics: +9, Deception: +7, Diplomacy: +5, Intimidation: +9, Nature: +7, Society: +6, Thievery: +6, Banking Lore: +8"
 abilityMods: [1, 4, 3, 1, 3, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder #178: Punks in a Powder Keg_"

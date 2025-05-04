@@ -20,7 +20,7 @@ license: OGL
 
 You defend the freedom of others. You gain the [[Actions/Liberating Step|Liberating Step]] champion's reaction and the [[Spells/Lay on Hands|Lay on Hands]] devotion spell. Your code gains the follow edicts and anathema:
 
-**Edicts** oppose slavery and tyranny, fight for others’ freedom to make their own decisions, respect choices others make for their own lives
+**Edicts** oppose slavery and tyranny, fight for others' freedom to make their own decisions, respect choices others make for their own lives
 
 **Anathema** force or threaten someone to act a certain way, engage in slavery or tyranny
 

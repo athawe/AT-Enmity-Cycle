@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #147: Tomorrow Must Burn
 aliases: "Compendium.pf2e.age-of-ashes-bestiary.Actor.We1Nq7CrqDQHEZxY" 
@@ -22,8 +23,8 @@ name: "Quarry Sluiceway"
 level: "Hazard 9"
 
 trait_06: "Complex"
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 17
 sourcebook: "_Pathfinder #147: Tomorrow Must Burn_"
 perception:

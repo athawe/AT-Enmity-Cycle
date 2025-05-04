@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.mQJL411e9Iz8dJoh"
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/fire
+  - pf2eMonster
   - pf2e/creature/level/15
   - remaster
 statblock: inline
@@ -22,11 +23,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Monster Core"
 name: "Phoenix"
 level: "Creature 15"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "beast"
-trait_02: "fire"
+trait_01: [[beast]]
+trait_02: [[fire]]
 modifier: 27
 perception:
   - name: "Perception"

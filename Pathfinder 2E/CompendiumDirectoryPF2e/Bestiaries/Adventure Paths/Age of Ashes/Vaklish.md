@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/rakshasa
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Vaklish"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #147: Tomorrow Must Burn"
 name: "Vaklish"
 level: "Creature 12"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fiend"
-trait_03: "lawful"
-trait_04: "rakshasa"
-trait_05: "unholy"
+trait_01: [[evil]]
+trait_02: [[fiend]]
+trait_03: [[lawful]]
+trait_04: [[rakshasa]]
+trait_05: [[unholy]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -83,7 +84,7 @@ attacks:
     desc: "`pf2:1` (concentrate,occult,polymorph) Vaklish takes on the appearance of any Medium humanoid. This doesn't change Valish's Speed or the attack and damage modifiers with his Strikes but might change the damage type his Strikes deal (typically to bludgeoning). He typically loses his fangs Strike unless the humanoid form has fangs or a similar unarmed attack.\n\n* * *\n"
 
   - name: "Disturbing Vision"
-    desc: "`pf2:1` (concentrate,mental,occult) Vaklish's eyes flash green as it projects a telepathic wave in a 30-foot emanation. All creatures in the area are assailed by a vision of evil decadence from one of the rakshasa's past lives. Each non-evil creature in the area must succeed at a DC 32 Will check save or become [[Conditions/Sickened 1|Sickened 1]] (and [[Conditions/Stunned 1|Stunned 1]] on a critical failure).\n\nThe visions last 1d4 rounds, and while they do, Vaklish and all evil creatures in the area gain a +1 status bonus to all checks. Vaklish can use this ability again only once the previous visions end.\n\n[[Bestiary Effects/Effect_ Disturbing Vision|Effect: Disturbing Vision]]"
+    desc: "`pf2:1` (concentrate,mental,occult) Vaklish's eyes flash green as it projects a telepathic wave in a @Template[emanation|distance:30]. All creatures in the area are assailed by a vision of evil decadence from one of the rakshasa's past lives. Each non-evil creature in the area must succeed at a DC 32 Will check save or become [[Conditions/Sickened|Sickened 1]] (and [[Conditions/Stunned|Stunned 1]] on a critical failure).\n\nThe visions last 1d4 rounds, and while they do, Vaklish and all evil creatures in the area gain a +1 status bonus to all checks. Vaklish can use this ability again only once the previous visions end.\n\n[[Bestiary Effects/Effect_ Disturbing Vision|Effect: Disturbing Vision]]"
  
 ```
 

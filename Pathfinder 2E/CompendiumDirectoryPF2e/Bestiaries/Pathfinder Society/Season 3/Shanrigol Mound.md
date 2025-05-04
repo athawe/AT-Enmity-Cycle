@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.YsF8TteK6XsThooV"
 tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Shanrigol Mound"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #3-14: The Tomb Between Worlds"
 name: "Shanrigol Mound"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "undead"
+trait_01: [[aberration]]
+trait_02: [[undead]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -50,7 +51,7 @@ abilities_top:
   - name: ""
 
   - name: "Necrotic Decay"
-    desc: " (divine,void) When the shanrigol mound dies, its flesh rots away and sublimates into a foul-smelling gas that fills a 5-foot emanation around the body. This gas deals 4d6 void damage to creatures in this area as their flesh curdles and rots as well (DC 22 Fortitude check save)."
+    desc: " (divine,void) When the shanrigol mound dies, its flesh rots away and sublimates into a foul-smelling gas that fills a @Template[emanation|distance:5] around the body. This gas deals 4d6 void damage to creatures in this area as their flesh curdles and rots as well (DC 22 Fortitude check save)."
 
 abilities_mid:
   - name: ""
@@ -67,10 +68,10 @@ attacks:
     desc: "`pf2:1`  **Requirements** The shanrigol has a creature grabbed\n* * *\n\n**Effect** The shanrigol squeezes the life essence from its target, dealing 1d6+8 bludgeoning and 1d4 persistent bleed damage (DC 21 Fortitude check save).\n\nThe shanrigol regains temporary Hit Points equal to half the amount of bludgeoning damage a single target takes; these temporary Hit Points last for 1 minute."
 
   - name: "Shred Flesh"
-    desc: "  A shanrigol rips flesh away from targets in great chunks. Creatures critically hit by the shanrigol's fleshy slap Strike take an additional 1d6 bleed and are [[Conditions/Enfeebled 1|Enfeebled 1]] for as long as they are bleeding."
+    desc: "  A shanrigol rips flesh away from targets in great chunks. Creatures critically hit by the shanrigol's fleshy slap Strike take an additional 1d6 bleed and are [[Conditions/Enfeebled|Enfeebled 1]] for as long as they are bleeding."
 
   - name: "Undulating Step"
-    desc: "`pf2:2`  The shanrigol separates its flesh from its bones to fit through small spaces. It Strides, ignoring difficult terrain and fitting through tight spaces as though it were a Tiny creature. It can't use any actions other than until it occupies an area large enough for its normal form."
+    desc: "`pf2:2`  The shanrigol separates its flesh from its bones to fit through small spaces. It Strides, ignoring difficult terrain and fitting through tight spaces as though it were a Tiny creature. It can't use any actions other than Undulating Step until it occupies an area large enough for its normal form."
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

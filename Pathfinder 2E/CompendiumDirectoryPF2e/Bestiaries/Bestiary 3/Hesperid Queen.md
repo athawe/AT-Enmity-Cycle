@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/light
   - pf2e/creature/type/nymph
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "Hesperid Queen"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Hesperid Queen"
 level: "Creature 19"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "fey"
-trait_02: "lawful"
-trait_03: "light"
-trait_04: "nymph"
+trait_01: [[fey]]
+trait_02: [[lawful]]
+trait_03: [[light]]
+trait_04: [[nymph]]
 modifier: 34
 perception:
   - name: "Perception"
@@ -59,7 +60,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "[[Creature Family Ability Glossary/(Nymph Queen) Nymph's Beauty|Nymph's Beauty]]"
-    desc: " (aura,emotion,incapacitation,mental,primal,visual) 30 feet. Creatures that start their turn in the aura must succeed at a DC 38 Will check save or become transfixed in awe, causing them to be [[Conditions/Stunned 1|Stunned]] for 1 round."
+    desc: " (aura,emotion,incapacitation,mental,primal,visual) 30 feet. Creatures that start their turn in the aura must succeed at a DC 38 Will check save or become transfixed in awe, causing them to be [[Conditions/Stunned|Stunned]] for 1 round."
 
 attacks:
   - name: ""

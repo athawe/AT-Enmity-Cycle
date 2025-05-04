@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Aspis Agent"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Special #3-98: Expedition Into Pallid Peril"
 name: "Aspis Agent"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -51,7 +52,7 @@ health:
 abilities_top:
   - name: ""
   - name: "Items"
-    desc: "[[Equipment/Dagger|Dagger]], [[Equipment/Thunderstone (Lesser)|Thunderstone (Lesser)]], Bronze Aspis Consortium Badge"
+    desc: "[[Equipment/Dagger|Dagger]], [[Equipment/Blasting Stone (Lesser)|Thunderstone (Lesser)]], Bronze Aspis Consortium Badge"
 abilities_mid:
   - name: ""
   - name: "Impress the Boss"
@@ -60,7 +61,7 @@ abilities_mid:
 attacks:
   - name: ""
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Dagger +7 (agile, thrown 10 ft., versatile s)\n__Damage__  1d4 + 2 piercing"
 
   - name: "Ranged"

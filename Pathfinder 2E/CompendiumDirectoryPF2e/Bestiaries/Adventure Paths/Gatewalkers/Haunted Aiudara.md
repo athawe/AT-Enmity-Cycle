@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
   - complex
 source: Pathfinder #187: The Seventh Arch
 aliases: "Compendium.pf2e.gatewalkers-bestiary.Actor.6c4I4D3DgJmsSZEI" 
@@ -21,7 +22,7 @@ name: "Haunted Aiudara"
 level: "Hazard 6"
 
 trait_06: "Complex"
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 15
 sourcebook: "_Pathfinder #187: The Seventh Arch_"
 perception:
@@ -40,7 +41,7 @@ attacks:
   - name: ""
 
   - name: "Forceful Screech"
-    desc: "`pf2:r` (divine) **Trigger** A creature comes within 30 feet of the aiudara\n* * *\n\n**Effect** Three aiudara wraiths screech in unison and manifest to protect the arch. Each creature within 30 feet must attempt a DC 27 Will check save. The haunt rolls initiative.\n\n**Success** The creature is unaffected.\n\n**Failure** The creature takes 2d8 + 9 force.\n\n**Critical Failure** The creature takes 4d8 + 9 force and is [[Conditions/Fatigued|Fatigued]]."
+    desc: "`pf2:r` (divine) **Trigger** A creature comes within 30 feet of the aiudara\n* * *\n\n**Effect** Three aiudara wraiths screech in unison and manifest to protect the arch. Each creature within 30 feet must attempt a DC 27 Will check save. The haunt rolls initiative.\n\n**Success** The creature is unaffected.\n\n**Failure** The creature takes 2d8+9 force.\n\n**Critical Failure** The creature takes 4d8+9 force and is [[Conditions/Fatigued|Fatigued]]."
   - name: "Melee"
     desc: "Forceful Hand +17 (magical) "
 

@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #147: Tomorrow Must Burn
 aliases: "Compendium.pf2e.age-of-ashes-bestiary.Actor.zdJHl3xMY7n2Lwlf" 
@@ -22,14 +23,14 @@ name: "Trapped Lathe"
 level: "Hazard 10"
 
 trait_06: "Complex"
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 19
 sourcebook: "_Pathfinder #147: Tomorrow Must Burn_"
 ac: 30
 armorclass:
   - name: AC
-    desc: "30; __Fort__ +22, __Ref__ +14, __Will__ +0"
+    desc: "30; __Fort__ +22, __Ref__ +14, "
 hp: 72
 health:
   - name: ""

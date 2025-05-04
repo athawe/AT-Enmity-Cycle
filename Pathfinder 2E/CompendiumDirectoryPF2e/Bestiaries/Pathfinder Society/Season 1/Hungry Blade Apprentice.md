@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Hungry Blade Apprentice"
@@ -26,10 +27,10 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Rapier +11 (deadly d8, disarm, finesse)\n__Damage__  1d6 + 6 piercing"
 
-  - name: "Ranged"
+  - name: "Melee"
     desc: "`pf2:1` Shortbow +11 ()\n__Damage__  1d6 piercing"
 
   - name: "[[Bestiary Ability Glossary/Sneak Attack|Sneak Attack]]"

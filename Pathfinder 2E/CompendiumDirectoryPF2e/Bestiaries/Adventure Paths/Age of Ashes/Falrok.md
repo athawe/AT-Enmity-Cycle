@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/ghoul
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Falrok"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #148: Fires of the Haunted City"
 name: "Falrok"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "ghoul"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[ghoul]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Draconic, Dwarven, Necril, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +29, Crafting: +24, Deception: +27, Diplomacy: +27, Saggorak Lore: +24, Society: +24, Stealth: +29"
+    desc: "Acrobatics: +29, Crafting: +24, Deception: +27, Diplomacy: +27, Society: +24, Stealth: +29, Saggorak Lore: +24"
 abilityMods: [4, 8, 5, 3, 2, 6]
 speed: 30 feet,  burrow 20 feet
 sourcebook: "_Pathfinder #148: Fires of the Haunted City_"
@@ -64,7 +65,7 @@ abilities_mid:
     desc: "`pf2:r`  **Trigger** A creature within Falrok's melee reach is hit by a melee attack from one of his allies.\n* * *\n\n**Effect** When Falrok's enemy is hit by one of his allies, he capitalizes upon the distraction, making a Strike against the triggering creature."
 
   - name: "[[Creature Family Ability Glossary/(Ghast) Stench|Stench]]"
-    desc: " (aura,olfactory) 10 feet. A creature entering the aura or starting its turn in the aura must succeed at a DC 34 Fortitude check save or become [[Conditions/Sickened 1|Sickened 1]] (plus [[Conditions/Slowed 1|Slowed 1]] as long as it's sickened on a critical failure).\n\nWhile within the aura, the creature takes a -2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune for 1 minute.\n\n[[Bestiary Effects/Effect_ Stench|Effect: Stench]]"
+    desc: " (aura,olfactory) 10 feet. A creature entering the aura or starting its turn in the aura must succeed at a DC 34 Fortitude check save or become [[Conditions/Sickened|Sickened 1]] (plus [[Conditions/Slowed|Slowed 1]] as long as it's sickened on a critical failure).\n\nWhile within the aura, the creature takes a -2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune for 1 minute.\n\n[[Bestiary Effects/Effect_ Stench|Effect: Stench]]"
 
 attacks:
   - name: ""

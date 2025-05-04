@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.rage-of-elements-bestiary.Actor.Z5qBvEJ628DGe8zS"
 tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/metal
+  - pf2eMonster
   - pf2e/creature/level/13
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 13"
 
 alignment: ""
 size: "huge"
-trait_01: "elemental"
-trait_02: "metal"
+trait_01: [[elemental]]
+trait_02: [[metal]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -71,7 +72,7 @@ attacks:
     desc: "`pf2:1` (emotion,mental,primal) **Frequency** once per round\n* * *\n\n**Effect** The melomach's footsteps raise a clanging sound through their body to create a brief musical phrase. The melomach Strides, then generates the effect of one of the following bard composition cantrips at 7th rank: [[Spells/Allegro|Allegro]], [[Spells/Dirge of Doom|Dirge of Doom]] (adds the fear trait), or [[Spells/Triple Time|Triple Time]]."
 
   - name: "Scream"
-    desc: "`pf2:2` (primal,sonic) The melomach unleashes a guttural, ear-piercing wail. All creatures in a 120-foot cone take 7d12 sonic damage with a DC 32 Fortitude check save.\n\nThe melomach can't Scream again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage.\n\n**Failure** The creature takes full damage, is [[Conditions/Stunned 1|Stunned 1]], and is [[Conditions/Deafened|Deafened]] for 1 minute.\n\n**Critical Failure** The creature takes double damage, is [[Conditions/Stunned 1|Stunned 3]], and is deafened permanently."
+    desc: "`pf2:2` (primal,sonic) The melomach unleashes a guttural, ear-piercing wail. All creatures in a @Template[cone|distance:120] take 7d12 sonic damage with a DC 32 Fortitude check save.\n\nThe melomach can't Scream again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage.\n\n**Failure** The creature takes full damage, is [[Conditions/Stunned|Stunned 1]], and is [[Conditions/Deafened|Deafened]] for 1 minute.\n\n**Critical Failure** The creature takes double damage, is [[Conditions/Stunned|Stunned 3]], and is deafened permanently."
  
 ```
 

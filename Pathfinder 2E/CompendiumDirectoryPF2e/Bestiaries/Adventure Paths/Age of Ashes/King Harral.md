@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "King Harral"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #148: Fires of the Haunted City"
 name: "King Harral"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "lawful"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[lawful]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -49,11 +50,11 @@ hp: 195
 health:
   - name: ""
   - name: HP
-    desc: "195, void healing, rejuvenation; __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious; __Resistances__ cold 10, physical 10 (except bludgeoning)"
+    desc: "195, void healing, rejuvenation; __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious; __Resistances__ cold 10, physical 10 (except magical bludgeoning)"
 abilities_top:
   - name: ""
   - name: "Items"
-    desc: "[[Equipment/Maul|+2 Striking Thundering Maul]], [[Equipment/Full Plate|+1 Resilient Full Plate]], [[Equipment/Wand of Smoldering Fireballs (7th-Level Spell)|Wand of Smoldering Fireballs (7th-Level Spell)]]"
+    desc: "[[Equipment/Maul|+2 Striking Thundering Maul]], [[Equipment/Full Plate|+1 Resilient Full Plate]], [[Equipment/Wand of Smoldering Fireballs (7th-Rank Spell)|Wand of Smoldering Fireballs (7th-Rank Spell)]]"
 abilities_mid:
   - name: ""
   - name: "Counterspell"

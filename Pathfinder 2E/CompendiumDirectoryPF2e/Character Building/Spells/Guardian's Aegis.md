@@ -24,6 +24,7 @@ abilities_top:
     desc: "1 day; **Cost** rare oils worth 10 gp × the primary caster's level; **Secondary Casters** 1"
   - name: "Primary Check"
     desc: "Occultism or Religion; **Secondary Checks** Athletics, Diplomacy, or Society"
+
   - name: "Duration"
     desc: "1 week"
 abilities_mid:

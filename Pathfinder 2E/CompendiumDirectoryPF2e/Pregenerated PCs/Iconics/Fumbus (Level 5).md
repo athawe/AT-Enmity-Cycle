@@ -60,12 +60,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Fumbus (Level 5)
-creatures:
-  - 1: Fumbus (Level 5)
-```
-
 
 
 

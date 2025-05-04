@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #170: Spoken on the Song Wind
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.otOOVXZU1CdTcLxS" 
@@ -22,8 +23,8 @@ name: "Boulder Deadfall Trap"
 level: "Hazard 7"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 15
 sourcebook: "_Pathfinder #170: Spoken on the Song Wind_"
 perception:
@@ -42,7 +43,7 @@ attacks:
   - name: ""
 
   - name: "Deadfall"
-    desc: "`pf2:r` **Trigger** A creature enters the area without taking care to avoid the hidden trigger plate\n* * *\n\n**Effect** Creatures within 10 feet of the cave entrance take 4d10 + 18 bludgeoning damage (DC 25 Reflex check save)."
+    desc: "`pf2:r` **Trigger** A creature enters the area without taking care to avoid the hidden trigger plate\n* * *\n\n**Effect** Creatures within 10 feet of the cave entrance take 4d10+18 bludgeoning damage (DC 25 Reflex check save)."
 
 
   - name: "Reset"

@@ -6,6 +6,7 @@ tags:
   - magical
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #168: King of the Mountain
 aliases: "Compendium.pf2e.fists-of-the-ruby-phoenix-bestiary.Actor.mdOASi6f7CTVH1ys" 
@@ -23,15 +24,15 @@ name: "Dimensional Darkside Mirror"
 level: "Hazard 19"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 37
 sourcebook: "_Pathfinder #168: King of the Mountain_"
 ac: 34
 armorclass:
   - name: AC
-    desc: "34; __Fort__ +25, __Ref__ +20, __Will__ +0"
+    desc: "34; __Fort__ +25, __Ref__ +20, "
 hp: 4
 health:
   - name: ""

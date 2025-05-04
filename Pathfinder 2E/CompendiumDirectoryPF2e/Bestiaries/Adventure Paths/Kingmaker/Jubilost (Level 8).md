@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/gnome
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Jubilost (Level 8)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Jubilost (Level 8)"
 level: "Creature 8"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "gnome"
-trait_02: "humanoid"
-trait_03: "fey"
+trait_01: [[gnome]]
+trait_02: [[humanoid]]
+trait_03: [[fey]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Draconic, Elven, Hallit, Jotun, Kelish, Pyric, Common, Fey, Gnomish"
 skills:
   - name: "Skills"
-    desc: "Academia Lore: +0, First World Lore: +0, Forest Lore: +0, Hill Lore: +0, River Lore: +0, "
+    desc: ""
 abilityMods: [-1, 3, 3, 4, 2, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder Kingmaker_"

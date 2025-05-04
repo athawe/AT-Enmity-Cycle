@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #157: Devil at the Dreaming Palace
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.xw7S8108irh2D1Uw" 
@@ -22,14 +23,14 @@ name: "Dart Barrage"
 level: "Hazard 3"
 
 trait_06: "Complex"
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 11
 sourcebook: "_Pathfinder #157: Devil at the Dreaming Palace_"
 ac: 22
 armorclass:
   - name: AC
-    desc: "22; __Fort__ +13, __Ref__ +7, __Will__ +0"
+    desc: "22; __Fort__ +13, __Ref__ +7, "
 hp: 60
 health:
   - name: ""

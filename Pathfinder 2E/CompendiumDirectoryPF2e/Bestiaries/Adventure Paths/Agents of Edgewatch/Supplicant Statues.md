@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - mechanical
+  - pf2eHazard
   - complex
 source: Pathfinder #160: Assault on Hunting Lodge Seven
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.JFcEtt18SGlb5uxm" 
@@ -22,14 +23,14 @@ name: "Supplicant Statues"
 level: "Hazard 14"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "mechanical"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
 modifier: 30
 sourcebook: "_Pathfinder #160: Assault on Hunting Lodge Seven_"
 ac: 34
 armorclass:
   - name: AC
-    desc: "34; __Fort__ +20, __Ref__ +28, __Will__ +0"
+    desc: "34; __Fort__ +20, __Ref__ +28, "
 hp: 96
 health:
   - name: ""

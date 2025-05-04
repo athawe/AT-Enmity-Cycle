@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Gloaming Will-o&#x27;-Wisp"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #160: Assault on Hunting Lodge Seven"
 name: "Gloaming Will-o'-Wisp"
 level: "Creature 13"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "aberration"
-trait_02: "air"
-trait_03: "chaotic"
-trait_04: "evil"
+trait_01: [[aberration]]
+trait_02: [[air]]
+trait_03: [[chaotic]]
+trait_04: [[evil]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -56,7 +57,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Hypnotic Glow"
-    desc: " (aura,light,mental) 30 feet. Similar to other will-o'-wisps, a gloaming will-o'-wisp is naturally invisible, but glows with a faint colored light. They cast dim light in the aura, which makes them visible. In addition, any non-aberration creature that ends their turn in the aura and can see the gloaming will-o'-wisp is distracted by the gloaming will-o'-wisp's glow and must attempt a DC 31 Will check save. On a failure, the creature is [[Conditions/Stupefied 1|Stupefied 1]] for 1 round and takes 3d6 mental damage."
+    desc: " (aura,light,mental) 30 feet. Similar to other will-o'-wisps, a gloaming will-o'-wisp is naturally invisible, but glows with a faint colored light. They cast dim light in the aura, which makes them visible. In addition, any non-aberration creature that ends their turn in the aura and can see the gloaming will-o'-wisp is distracted by the gloaming will-o'-wisp's glow and must attempt a DC 31 Will check save. On a failure, the creature is [[Conditions/Stupefied|Stupefied 1]] for 1 round and takes 3d6 mental damage."
 
   - name: "Magic Immunity"
     desc: "  A will-o'-wisp is immune to all spells except _faerie fire_, _glitterdust_, _magic missile_, and _maze_."

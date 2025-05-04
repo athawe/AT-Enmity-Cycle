@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "Runecarved Lich"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Book of the Dead"
 name: "Runecarved Lich"
 level: "Creature 19"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 32
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Chthonian, Common, Diabolic, Draconic, Empyrean, Necril, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Arcana: +34, Crafting: +38 (can craft magic items), Deception: +35, Diplomacy: +35, Intimidation: +37, Occultism: +36, Religion: +34, Stealth: +33"
+    desc: "Arcana: +34, Crafting: +38, Deception: +35, Diplomacy: +35, Intimidation: +37, Occultism: +36, Religion: +34, Stealth: +33"
 abilityMods: [5, 6, 4, 7, 7, 10]
 speed: 25 feet
 sourcebook: "_Pathfinder Book of the Dead_"
@@ -47,11 +48,11 @@ hp: 330
 health:
   - name: ""
   - name: HP
-    desc: "330, void healing, rejuvenation (as horde lich); __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious; __Resistances__ cold 10, physical 10 (except bludgeoning)"
+    desc: "330, void healing, rejuvenation (as horde lich); __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious; __Resistances__ cold 10, physical 10 (except magical bludgeoning)"
 abilities_top:
   - name: ""
   - name: "Items"
-    desc: "[[Equipment/Battle Axe|+2 Greater Striking Grievous Battle Axe]], [[Equipment/Wand of Shardstorm (7th-Rank Spell)|Wand of Manifold Missiles (7th-Level Spell)]], [[Equipment/Magic Wand (6th-Rank Spell)|Wand of Wall of Force (Level 6)]]"
+    desc: "[[Equipment/Battle Axe|+2 Greater Striking Grievous Battle Axe]], [[Equipment/Wand of Shardstorm (7th-Rank Spell)|Wand of Manifold Missiles (7th-Rank Spell)]], [[Equipment/Magic Wand (6th-Rank Spell)|Wand of Wall of Force (Level 6)]]"
 abilities_mid:
   - name: ""
   - name: "[[Bestiary Ability Glossary/Frightful Presence|Frightful Presence]]"

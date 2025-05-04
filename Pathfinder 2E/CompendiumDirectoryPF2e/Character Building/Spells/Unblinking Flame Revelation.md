@@ -23,7 +23,11 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
-**Targets** the creature you hit  - name: "Duration"
+
+  - name: "Targets"
+
+    desc: "the creature you hit"
+  - name: "Duration"
     desc: "2 rounds"
 abilities_mid:
   - name: ""

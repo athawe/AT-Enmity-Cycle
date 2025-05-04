@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/nephilim
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Lasheeli"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #183: Field of Maidens"
 name: "Lasheeli"
 level: "Creature 10"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
-trait_03: "nephilim"
+trait_01: [[human]]
+trait_02: [[humanoid]]
+trait_03: [[nephilim]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Drooni, Empyrean"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +19, Bardic Lore: +18, Diplomacy: +21 (+23 when orating), Holomog Lore: +20, Occultism: +20, Performance: +21, Religion: +19, Society: +20"
+    desc: "Acrobatics: +19, Diplomacy: +21, Occultism: +20, Performance: +21, Religion: +19, Society: +20, Bardic Lore: +18, Holomog Lore: +20"
 abilityMods: [0, 3, 0, 4, 3, 5]
 speed: 30 feet
 sourcebook: "_Pathfinder #183: Field of Maidens_"

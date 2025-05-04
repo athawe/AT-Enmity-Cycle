@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.SG8fOxo4SS7bXpav" 
 tags:
   - pf2e/creature/type/aberration
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Bog Strider"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 2"
 name: "Bog Strider"
 level: "Creature 2"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
+trait_01: [[aberration]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Thalassic"
 skills:
   - name: "Skills"
-    desc: "Athletics: +8 (+10 to Leap while Water Striding or Swimming), Stealth: +8, Survival: +8"
+    desc: "Athletics: +8, Stealth: +8, Survival: +8"
 abilityMods: [2, 4, 2, 0, 2, 0]
 speed: 25 feet,  swim 20 feet
 sourcebook: "_Pathfinder Bestiary 2_"

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/earth
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Gargoyle"
@@ -26,10 +27,10 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "beast"
-trait_02: "chaotic"
-trait_03: "earth"
-trait_04: "evil"
+trait_01: [[beast]]
+trait_02: [[chaotic]]
+trait_03: [[earth]]
+trait_04: [[evil]]
 modifier: 10
 perception:
   - name: "Perception"

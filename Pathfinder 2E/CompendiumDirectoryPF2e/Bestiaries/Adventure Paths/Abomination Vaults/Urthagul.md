@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Urthagul"
@@ -25,9 +26,9 @@ level: "Creature 10"
 
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +19 (+23 to Squeeze), Athletics: +23, Stealth: +19, Survival: +17"
+    desc: "Acrobatics: +19, Athletics: +23, Stealth: +19, Survival: +17"
 abilityMods: [7, 3, 6, 0, 3, 0]
 speed: 40 feet,  climb 20 feet
 sourcebook: "_Pathfinder Abomination Vaults Hardcover Compilation_"

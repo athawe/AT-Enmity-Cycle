@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Choker"
@@ -25,9 +26,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Athletics: +9 (+11 to Grapple), Stealth: +9"
+    desc: "Athletics: +9, Stealth: +9"
 abilityMods: [3, 3, 1, -3, 1, -2]
 speed: 20 feet,  climb 15 feet
 sourcebook: "_Pathfinder Bestiary 2_"
@@ -63,7 +64,7 @@ attacks:
     desc: "`pf2:1` Arm +11 (reach 10 feet)\n__Damage__  1d6 + 3 bludgeoning plus strangling-fingers"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  1d6 + 3 bludgeoning, DC 19 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  1d6+3 bludgeoning, DC 19 Fortitude check\n\n* * *\n"
 
   - name: "Hidden Movement"
     desc: "  If the choker starts its turn [[Conditions/Hidden|Hidden]] from or [[Conditions/Undetected|Undetected]] by a creature, that creature is [[Conditions/Off-Guard|Off-Guard]] against the choker's attacks until the end of the turn."

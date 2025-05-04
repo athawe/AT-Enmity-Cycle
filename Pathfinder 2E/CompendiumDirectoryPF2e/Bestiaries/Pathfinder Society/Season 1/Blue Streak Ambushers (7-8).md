@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Blue Streak Ambushers (7-8)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #1-24: Lightning Strikes, Stars Fall"
 name: "Blue Streak Ambushers (7-8)"
 level: "Creature 5"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
-trait_03: "lawful"
+trait_01: [[human]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Hallit"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +13, Architecture Lore: +11, Athletics: +13, Deception: +7, Engineering Lore: +11, Society: +9, Stealth: +11, Thievery: +13"
+    desc: "Acrobatics: +13, Athletics: +13, Deception: +7, Society: +9, Stealth: +11, Thievery: +13, Architecture Lore: +11, Engineering Lore: +11"
 abilityMods: [4, 4, 1, 2, 2, 0]
 speed: 25 feet,  climb 15 feet
 sourcebook: "_Pathfinder Society Scenario #1-24: Lightning Strikes, Stars Fall_"

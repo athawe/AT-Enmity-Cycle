@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/shadow
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Betobeto-San"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Betobeto-San"
 level: "Creature 12"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "incorporeal"
-trait_02: "shadow"
-trait_03: "spirit"
+trait_01: [[incorporeal]]
+trait_02: [[shadow]]
+trait_03: [[spirit]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -53,12 +54,12 @@ abilities_top:
   - name: "Items"
     desc: "Sandals"
   - name: "Fearsense (Precise) 60 feet"
-    desc: " (mental,occult) The betobeto-san is aware of all [[Conditions/Frightened 1|Frightened]] creatures within the listed range."
+    desc: " (mental,occult) The betobeto-san is aware of all [[Conditions/Frightened|Frightened]] creatures within the listed range."
 
 abilities_mid:
   - name: ""
   - name: "Ominous Footsteps"
-    desc: " (auditory,aura,emotion,fear,illusion,mental,occult) 60 feet. The betobeto-san's footsteps seem to draw ever closer, yet the source remains difficult to pinpoint. Each creature that starts its turn within 60 feet of the betobeto-san must attempt a DC 29 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune for 1 minute.\n\n**Success** The creature becomes [[Conditions/Frightened 1|Frightened 1]].\n\n**Failure** The creature becomes [[Conditions/Frightened 1|Frightened 2]].\n\n**Critical Failure** The creature becomes [[Conditions/Frightened 1|Frightened 4]]."
+    desc: " (auditory,aura,emotion,fear,illusion,mental,occult) 60 feet. The betobeto-san's footsteps seem to draw ever closer, yet the source remains difficult to pinpoint. Each creature that starts its turn within 60 feet of the betobeto-san must attempt a DC 29 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune for 1 minute.\n\n**Success** The creature becomes [[Conditions/Frightened|Frightened 1]].\n\n**Failure** The creature becomes [[Conditions/Frightened|Frightened 2]].\n\n**Critical Failure** The creature becomes [[Conditions/Frightened|Frightened 4]]."
 
   - name: "Shadow Invisibility"
     desc: "  The betobeto-san is [[Conditions/Invisible|Invisible]] unless within an area of bright light."

@@ -17,7 +17,7 @@ license: OGL
 
 
 
-**Prerequisites** Dual-Weapon Dedication
+**Prerequisites** Dual-Weapon Warrior Dedication
 * * *
 When you lash out with both weapons, you leave no room for the target to escape your attack.
 

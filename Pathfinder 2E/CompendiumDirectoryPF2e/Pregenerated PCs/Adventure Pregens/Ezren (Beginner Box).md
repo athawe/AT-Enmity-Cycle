@@ -69,12 +69,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Ezren (Beginner Box)
-creatures:
-  - 1: Ezren (Beginner Box)
-```
-
 
 
 

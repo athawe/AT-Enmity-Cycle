@@ -13,6 +13,7 @@ tags:
   - pf2e/creature/type/oni
   - pf2e/creature/type/unholy
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Water Yai"
@@ -30,14 +31,14 @@ level: "Creature 17"
 
 alignment: ""
 size: "huge"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "giant"
-trait_05: "humanoid"
-trait_06: "oni"
-trait_07: "unholy"
-trait_08: "water"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[giant]]
+trait_05: [[humanoid]]
+trait_06: [[oni]]
+trait_07: [[unholy]]
+trait_08: [[water]]
 modifier: 32
 perception:
   - name: "Perception"

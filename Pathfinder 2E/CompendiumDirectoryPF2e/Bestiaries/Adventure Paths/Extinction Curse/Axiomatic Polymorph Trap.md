@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #156: The Apocalypse Prophet
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.1HIqZAGVSR2pAiY6" 
@@ -22,14 +23,14 @@ name: "Axiomatic Polymorph Trap"
 level: "Hazard 20"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 37
 sourcebook: "_Pathfinder #156: The Apocalypse Prophet_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 10
 health:
   - name: ""

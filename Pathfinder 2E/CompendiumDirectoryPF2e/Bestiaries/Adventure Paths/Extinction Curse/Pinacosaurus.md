@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.KXNSBeUWLxMfd2Zg"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/dinosaur
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Pinacosaurus"
@@ -24,8 +25,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
-trait_02: "dinosaur"
+trait_01: [[animal]]
+trait_02: [[dinosaur]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -61,7 +62,7 @@ attacks:
     desc: "`pf2:1` Foot +13 ()\n__Damage__  1d8 + 5 bludgeoning"
 
   - name: "Punishing Tail"
-    desc: "  A creature hit by the pinacosaurus's tail must attempt a DC 21 Fortitude check save. On a failure, it's [[Conditions/Slowed 1|Slowed 1]] until the end of its next turn; on a critical failure, it's [[Conditions/Stunned 1|Stunned]] until the end of its next turn."
+    desc: "  A creature hit by the pinacosaurus's tail must attempt a DC 21 Fortitude check save. On a failure, it's [[Conditions/Slowed|Slowed 1]] until the end of its next turn; on a critical failure, it's [[Conditions/Stunned|Stunned]] until the end of its next turn."
 
   - name: "[[Bestiary Ability Glossary/Trample|Trample]]"
     desc: "`pf2:3`  Small or smaller, foot, DC 21 Reflex check save\n\n* * *\n"

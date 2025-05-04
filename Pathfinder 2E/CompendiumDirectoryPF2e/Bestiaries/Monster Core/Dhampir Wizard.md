@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/dhampir
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "dhampir"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[dhampir]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -56,7 +57,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Blood of the Night"
-    desc: "  The dhampir's penalty and Hit Point reduction from the [[Conditions/Drained 1|Drained]] condition are reduced as though the condition value were 1 lower."
+    desc: "  The dhampir's penalty and Hit Point reduction from the [[Conditions/Drained|Drained]] condition are reduced as though the condition value were 1 lower."
 
 attacks:
   - name: ""

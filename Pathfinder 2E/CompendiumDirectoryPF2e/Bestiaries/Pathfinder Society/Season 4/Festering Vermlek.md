@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Festering Vermlek"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-99: Blessings of the Forest"
 name: "Festering Vermlek"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "demon"
-trait_03: "evil"
-trait_04: "fiend"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[demon]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
+trait_05: [[unholy]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Chthonian, Draconic, Empyrean; telepathy 100 feet"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +4, Athletics: +6, Deception: +5 (+8 to impersonate while inhabiting a body), Stealth: +6"
+    desc: "Acrobatics: +4, Athletics: +6, Deception: +5, Stealth: +6"
 abilityMods: [3, 1, 4, 0, 1, 2]
 speed: 25 feet,  burrow 15 feet
 sourcebook: "_Pathfinder Society Scenario #4-99: Blessings of the Forest_"
@@ -59,7 +60,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Recoil from Wasted Opportunities"
-    desc: "  Vermleks can't stand the sight of a good meal presented and then swiftly taken away. Whenever a dying creature within sight of the vermlek has its [[Conditions/Dying 1|Dying]] condition removed, the vermlek takes 1d6 mental damage."
+    desc: "  Vermleks can't stand the sight of a good meal presented and then swiftly taken away. Whenever a dying creature within sight of the vermlek has its [[Conditions/Dying|Dying]] condition removed, the vermlek takes 1d6 mental damage."
 
 attacks:
   - name: ""
@@ -83,7 +84,7 @@ attacks:
     desc: "`pf2:3` (manipulate) The worm demon crawls into the body of an adjacent dead Medium humanoid, consuming the bulk of the victim's skeleton and internal organs as it does so and cramming itself into the cavity.\n\nAs long as it Inhabits a Body, the worm demon loses its bite attack, can wield weapons like a humanoid, gains a +3 circumstance bonus to AC, and gains a +3 circumstance bonus to Deception checks to [[Actions/Impersonate|Impersonate]] the creature it is inhabiting. It cannot use this ability if it is already Inhabiting a Body."
 
   - name: "Unsettling Movement"
-    desc: " (emotion,fear,mental,visual) Whenever the vermlek Abandons a Body or Inhabits a Body, all creatures within 30 feet who can see the vermlek must succeed at a DC 16 Will check save or become [[Conditions/Frightened 1|Frightened 1]]. On a critical failure, the creature is frightened 1 and [[Conditions/Sickened 1|Sickened 1]]. Regardless of the result, creatures are immune to the same vermlek's unsettling movement for 24 hours."
+    desc: " (emotion,fear,mental,visual) Whenever the vermlek Abandons a Body or Inhabits a Body, all creatures within 30 feet who can see the vermlek must succeed at a DC 16 Will check save or become [[Conditions/Frightened|Frightened 1]]. On a critical failure, the creature is frightened 1 and [[Conditions/Sickened|Sickened 1]]. Regardless of the result, creatures are immune to the same vermlek's unsettling movement for 24 hours."
  
 ```
 

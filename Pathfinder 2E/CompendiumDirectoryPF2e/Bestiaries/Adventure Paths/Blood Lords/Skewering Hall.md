@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #186: Ghost King&#x27;s Rage
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.puzF8NkxRVv3Lrz8" 
@@ -22,14 +23,14 @@ name: "Skewering Hall"
 level: "Hazard 19"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 37
 sourcebook: "_Pathfinder #186: Ghost King's Rage_"
 ac: 43
 armorclass:
   - name: AC
-    desc: "43; __Fort__ +35, __Ref__ +29, __Will__ +0"
+    desc: "43; __Fort__ +35, __Ref__ +29, "
 hp: 130
 health:
   - name: ""

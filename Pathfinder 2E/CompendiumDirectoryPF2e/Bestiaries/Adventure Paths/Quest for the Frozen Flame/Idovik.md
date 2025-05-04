@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/eidolon
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Idovik"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #176: Lost Mammoth Valley"
 name: "Idovik"
 level: "Creature 7"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "chaotic"
-trait_03: "eidolon"
+trait_01: [[beast]]
+trait_02: [[chaotic]]
+trait_03: [[eidolon]]
 modifier: 14
 perception:
   - name: "Perception"

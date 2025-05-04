@@ -30,7 +30,9 @@ abilities_top:
     desc: "1 day; **Cost** water infused with a dozen deadly toxins worth a total of 50 gp; **Secondary Casters** 2"
   - name: "Primary Check"
     desc: "Nature (expert); **Secondary Checks** Crafting, Medicine"
-**Area** 40-foot burst
+
+  - name: "Area"
+    desc: "40-foot burst"
   - name: "Duration"
     desc: "1 year"
 abilities_mid:

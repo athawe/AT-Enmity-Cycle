@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder #193: Mantle of Gold
 aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.ECqZqo4je63DH9X0" 
@@ -21,7 +22,7 @@ name: "Coal Residue"
 level: "Hazard 2"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 9
 sourcebook: "_Pathfinder #193: Mantle of Gold_"
 perception:

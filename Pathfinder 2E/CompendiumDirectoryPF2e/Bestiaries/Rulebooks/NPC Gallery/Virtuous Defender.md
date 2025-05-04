@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Virtuous Defender"
@@ -26,10 +27,10 @@ level: "Creature 4"
 
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[good]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Varisian"
 skills:
   - name: "Skills"
-    desc: "Diplomacy: +12, Intimidation: +11, Religion: +9, Shining Crusade Lore: +8, Survival: +9"
+    desc: "Diplomacy: +12, Intimidation: +11, Religion: +9, Survival: +9, Shining Crusade Lore: +8"
 abilityMods: [4, 0, 3, 0, 1, 3]
 speed: 20 feet
 sourcebook: "_Pathfinder Lost Omens: Character Guide_"

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Eunice"
@@ -26,10 +27,10 @@ level: "Creature 0"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "good"
-trait_03: "human"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[good]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Draconic"
 skills:
   - name: "Skills"
-    desc: "Arcana: +7, Farming Lore: +5, Occultism: +6"
+    desc: "Arcana: +7, Occultism: +6, Farming Lore: +5"
 abilityMods: [0, 4, 0, 4, -1, -1]
 speed: 25 feet
 sourcebook: "_Pathfinder #157: Devil at the Dreaming Palace_"
@@ -59,7 +60,7 @@ abilities_mid:
 attacks:
   - name: ""
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Dagger +8 (agile, finesse, thrown 10 ft., versatile s)\n__Damage__  1d4 piercing"
 
   - name: "Prepared Arcane Spells"

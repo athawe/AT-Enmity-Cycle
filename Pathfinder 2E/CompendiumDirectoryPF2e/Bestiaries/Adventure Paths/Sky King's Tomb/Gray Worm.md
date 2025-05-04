@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.lZQuFJzcKp6xXWm1" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Gray Worm"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #194: Cult of the Cave Worm"
 name: "Gray Worm"
 level: "Creature 11"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -43,7 +44,7 @@ hp: 248
 health:
   - name: ""
   - name: HP
-    desc: "248, void healing; __Weaknesses__ vitality 10"
+    desc: "248, void healing; __Immunities__  immobilized; __Weaknesses__ vitality 10"
 abilities_top:
   - name: ""
 
@@ -53,7 +54,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Inexorable"
-    desc: "  The gray worm recovers from the [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Slowed 1|Slowed]], and [[Conditions/Stunned 1|Stunned]] conditions at the end of its turn. It's also immune to penalties to its Speeds and the [[Conditions/Immobilized|Immobilized]] condition, and it ignores difficult terrain and greater difficult terrain."
+    desc: "  The gray worm recovers from the [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Slowed|Slowed]], and [[Conditions/Stunned|Stunned]] conditions at the end of its turn. It's also immune to penalties to its Speeds and the [[Conditions/Immobilized|Immobilized]] condition, and it ignores difficult terrain and greater difficult terrain."
 
   - name: "Shake It Off"
     desc: "`pf2:r`  **Frequency** once per day\n\n**Trigger** The gray worm would be affected by a condition or adverse effect (such as [[Spells/Cursed Metamorphosis|Cursed Metamorphosis]])\n* * *\n\n**Effect** The gray worm negates the triggering condition or effect.\n* * *\n\n**Effect** s from artifacts, deities, or a similarly powerful source can't be avoided in this way."

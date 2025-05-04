@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.pCDp2hdim12wonW5"
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Living Rune (Occult)"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Living Rune (Occult)"
 level: "Creature 13"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Small"
-trait_01: "construct"
-trait_02: "lawful"
+trait_01: [[construct]]
+trait_02: [[lawful]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "truescript"
 skills:
   - name: "Skills"
-    desc: "Deception: +24, Occultism: +0, Stealth: +25 (+31 to Hide or Sneak among inscriptions)"
+    desc: "Deception: +24, Occultism: +0, Stealth: +25"
 abilityMods: [1, 6, 1, 8, 8, 5]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"

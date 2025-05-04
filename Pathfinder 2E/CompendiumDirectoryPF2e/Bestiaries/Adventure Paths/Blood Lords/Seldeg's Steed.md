@@ -5,6 +5,7 @@ noteType: pf2eMonster
 cssClasses: pf2e
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.6DRyViLYSsw2sYBy" 
 tags:
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Seldeg&#x27;s Steed"
@@ -19,7 +20,7 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #186: Ghost King&#x27;s Rage"
 name: "Seldeg's Steed"
 level: "Creature 13"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
 modifier: 0

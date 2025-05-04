@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #181: Zombie Feast
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.Kg7E5rophKEmIqDz" 
@@ -22,14 +23,14 @@ name: "Sickle Blade"
 level: "Hazard 3"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 10
 sourcebook: "_Pathfinder #181: Zombie Feast_"
 ac: 19
 armorclass:
   - name: AC
-    desc: "19; __Fort__ +12, __Ref__ +4, __Will__ +0"
+    desc: "19; __Fort__ +12, __Ref__ +4, "
 hp: 44
 health:
   - name: ""

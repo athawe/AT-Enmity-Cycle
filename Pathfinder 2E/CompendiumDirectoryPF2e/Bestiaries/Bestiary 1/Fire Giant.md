@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/giant
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Fire Giant"
@@ -27,11 +28,11 @@ level: "Creature 10"
 
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "fire"
-trait_03: "giant"
-trait_04: "humanoid"
-trait_05: "lawful"
+trait_01: [[evil]]
+trait_02: [[fire]]
+trait_03: [[giant]]
+trait_04: [[humanoid]]
+trait_05: [[lawful]]
 modifier: 18
 perception:
   - name: "Perception"

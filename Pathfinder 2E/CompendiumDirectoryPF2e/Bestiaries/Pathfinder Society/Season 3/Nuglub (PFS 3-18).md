@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
   - pf2e/creature/type/gremlin
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Nuglub (PFS 3-18)"
@@ -26,10 +27,10 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fey"
-trait_04: "gremlin"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fey]]
+trait_04: [[gremlin]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8, Crafting: +5 (+7 traps), Intimidation: +7, Stealth: +8"
+    desc: "Acrobatics: +8, Crafting: +5, Intimidation: +7, Stealth: +8"
 abilityMods: [1, 4, 3, -1, -1, 1]
 speed: 30 feet,  climb 20 feet
 sourcebook: "_Pathfinder Society Scenario #3-18: Dacilane Academy&#x27;s Delightful Disaster_"

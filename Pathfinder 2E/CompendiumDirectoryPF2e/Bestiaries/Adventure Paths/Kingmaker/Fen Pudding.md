@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Fen Pudding"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Fen Pudding"
 level: "Creature 12"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "amphibious"
-trait_02: "mindless"
-trait_03: "ooze"
+trait_01: [[amphibious]]
+trait_02: [[mindless]]
+trait_03: [[ooze]]
 modifier: 15
 perception:
   - name: "Perception"

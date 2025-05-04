@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.dniiLeUhXaq5CElX" 
 tags:
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Arboreal Reaper"
@@ -23,7 +24,7 @@ level: "Creature 7"
 
 alignment: ""
 size: "Large"
-trait_01: "plant"
+trait_01: [[plant]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Arboreal, Common, Fey"
 skills:
   - name: "Skills"
-    desc: "Athletics: +17, Intimidation: +17, Nature: +15, Stealth: +14 (+18 in forests)"
+    desc: "Athletics: +17, Intimidation: +17, Nature: +15, Stealth: +14"
 abilityMods: [6, 2, 4, 2, 2, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"

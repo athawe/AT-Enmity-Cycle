@@ -28,8 +28,10 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, primal"
-**Area** 100-foot emanation
-**Targets** any number of creatures wearing metal armor, creatures made of metal, creatures that have the metal trait, and unattended metal objects  - name: "Defense"
+
+  - name: "Area"
+    desc: "100-foot emanationany number of creatures wearing metal armor, creatures made of metal, creatures that have the metal trait, and unattended metal objects"
+  - name: "Defense"
     desc: " reflex"
   - name: "Duration"
     desc: "1 minute"

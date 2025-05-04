@@ -6,8 +6,8 @@
   "nativeMenus": false,
   "baseFontSize": 15,
   "enabledCssSnippets": [
+    "S - Encoded Icons",
     "pf2e-spell",
-    "S - Encoded Fonts",
-    "S - Encoded Icons"
+    "S - Encoded Fonts"
   ]
 }

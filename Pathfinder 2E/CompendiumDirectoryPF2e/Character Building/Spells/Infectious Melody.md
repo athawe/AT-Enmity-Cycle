@@ -29,8 +29,10 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "occult"
-**Area** 15-foot emanation
-**Targets** enemies in the area  - name: "Defense"
+
+  - name: "Area"
+    desc: "15-foot emanationenemies in the area"
+  - name: "Defense"
     desc: " will"
   - name: "Duration"
     desc: "varies"

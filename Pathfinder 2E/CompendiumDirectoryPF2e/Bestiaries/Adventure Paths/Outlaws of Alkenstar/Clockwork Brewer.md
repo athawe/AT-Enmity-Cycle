@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/clockwork
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Clockwork Brewer"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #178: Punks in a Powder Keg"
 name: "Clockwork Brewer"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "clockwork"
-trait_02: "construct"
-trait_03: "mindless"
+trait_01: [[clockwork]]
+trait_02: [[construct]]
+trait_03: [[mindless]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -76,7 +77,7 @@ attacks:
     desc: "`pf2:1` (auditory,mental) The clockwork brewer clearly delivers a disarmingly friendly greeting to a creature within 30 feet. The creature attempts a DC 17 Will check save. On a failure, the creature is [[Conditions/Off-Guard|Off-Guard]] against the clockwork brewer's next attack before the end of the brewer's next turn. The target is then immune to Pre-Programmed Greeting for 1 day."
 
   - name: "Smokeside Sour"
-    desc: " (ingested,poison) **Saving Throw** DC 12 Fortitude check\n\n**Maximum Duration** 1 hour\n\n**Stage 1** [[Conditions/Clumsy 1|Clumsy 1]] (10 minutes)\n\n**Stage 2** clumsy 1 and [[Conditions/Stupefied 1|Stupefied 1]] (10 minutes)\n\n**Stage 3** [[Conditions/Clumsy 1|Clumsy 2]], [[Conditions/Stupefied 1|Stupefied 2]], and sickened (40 minutes)"
+    desc: " (ingested,poison) **Saving Throw** DC 12 Fortitude check\n\n**Maximum Duration** 1 hour\n\n**Stage 1** [[Conditions/Clumsy|Clumsy 1]] (10 minutes)\n\n**Stage 2** clumsy 1 and [[Conditions/Stupefied|Stupefied 1]] (10 minutes)\n\n**Stage 3** [[Conditions/Clumsy|Clumsy 2]], [[Conditions/Stupefied|Stupefied 2]], and sickened (40 minutes)"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Lamia Matriarch"
@@ -25,9 +26,9 @@ level: "Creature 8"
 
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[beast]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Chthonian, Common, Draconic"
 skills:
   - name: "Skills"
-    desc: "Athletics: +18, Cult Lore: +15, Deception: +25, Diplomacy: +20, Intimidation: +18, Occultism: +17, Stealth: +16, Survival: +13"
+    desc: "Athletics: +18, Deception: +25, Diplomacy: +20, Intimidation: +18, Occultism: +17, Stealth: +16, Survival: +13, Cult Lore: +15"
 abilityMods: [6, 4, 3, 3, 3, 6]
 speed: 30 feet,  climb 30 feet,  swim 30 feet
 sourcebook: "_Pathfinder Bestiary_"
@@ -73,7 +74,7 @@ attacks:
     desc: "`pf2:3`  The lamia matriarch makes a scimitar attack against each enemy within reach. Each attack counts toward their multiple attack penalty, but the penalty does not increase until after all the attacks. The first enemy she damages is subject to matriarch's caress."
 
   - name: "Matriarch's Caress"
-    desc: "`pf2:2` (curse,mental,occult) The lamia touches a creature, who must succeed at a DC 28 Will check save or become [[Conditions/Stupefied 1|Stupefied 1]] (or [[Conditions/Stupefied 1|Stupefied 2]] on a critical failure). If the target fails additional saves against this ability, the condition value increases by 1 if failed or 2 if critically failed (to a maximum of stupefied 4). This condition value decreases by 1 every 24 hours."
+    desc: "`pf2:2` (curse,mental,occult) The lamia touches a creature, who must succeed at a DC 28 Will check save or become [[Conditions/Stupefied|Stupefied 1]] (or [[Conditions/Stupefied|Stupefied 2]] on a critical failure). If the target fails additional saves against this ability, the condition value increases by 1 if failed or 2 if critically failed (to a maximum of stupefied 4). This condition value decreases by 1 every 24 hours."
  
 ```
 

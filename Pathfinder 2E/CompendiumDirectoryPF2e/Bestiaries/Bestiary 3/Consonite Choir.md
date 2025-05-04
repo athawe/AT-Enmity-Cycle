@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/elemental
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Consonite Choir"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Consonite Choir"
 level: "Creature 13"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "grg"
-trait_01: "earth"
-trait_02: "elemental"
-trait_03: "swarm"
+trait_01: [[earth]]
+trait_02: [[elemental]]
+trait_03: [[swarm]]
 modifier: 23
 perception:
   - name: "Perception"

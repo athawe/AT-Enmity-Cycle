@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/fire
   - pf2e/creature/type/good
   - pf2e/creature/type/holy
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Phoenix"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Phoenix"
 level: "Creature 15"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "beast"
-trait_02: "fire"
-trait_03: "good"
-trait_04: "holy"
+trait_01: [[beast]]
+trait_02: [[fire]]
+trait_03: [[good]]
+trait_04: [[holy]]
 modifier: 27
 perception:
   - name: "Perception"

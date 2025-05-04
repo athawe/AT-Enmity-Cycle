@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/mindless
   - pf2e/creature/type/zombie
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Clockwork Shambler"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #180: The Smoking Gun"
 name: "Clockwork Shambler"
 level: "Creature -1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "construct"
-trait_02: "evil"
-trait_03: "mindless"
-trait_04: "zombie"
+trait_01: [[construct]]
+trait_02: [[evil]]
+trait_03: [[mindless]]
+trait_04: [[zombie]]
 modifier: 0
 perception:
   - name: "Perception"
@@ -54,7 +55,7 @@ abilities_top:
   - name: ""
 
   - name: "Slow"
-    desc: "  A zombie is permanently [[Conditions/Slowed 1|Slowed 1]] and can't use reactions."
+    desc: "  A zombie is permanently [[Conditions/Slowed|Slowed 1]] and can't use reactions."
 
 abilities_mid:
   - name: ""

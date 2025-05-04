@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fey
   - pf2e/creature/type/good
   - pf2e/creature/type/holy
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Unicorn"
@@ -27,11 +28,11 @@ level: "Creature 3"
 
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "chaotic"
-trait_03: "fey"
-trait_04: "good"
-trait_05: "holy"
+trait_01: [[beast]]
+trait_02: [[chaotic]]
+trait_03: [[fey]]
+trait_04: [[good]]
+trait_05: [[holy]]
 modifier: 13
 perception:
   - name: "Perception"

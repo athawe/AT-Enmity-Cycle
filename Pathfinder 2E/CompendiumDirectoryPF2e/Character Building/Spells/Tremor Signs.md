@@ -8,6 +8,7 @@ tags:
   - trait/cantrip
   - trait/earth
   - trait/manipulate
+  - trait/subtle
   - trait/common
   - remaster
 aliases: "Compendium.pf2e.spells-srd.Item.uMADQaASgYNsSDDM" 
@@ -21,6 +22,7 @@ level: "Cantrip 1"
 trait_01: "cantrip"
 trait_02: "earth"
 trait_03: "manipulate"
+trait_04: "subtle"
 layout: Basic Pathfinder 2e Layout
 columns: 1
 columnWidth: x

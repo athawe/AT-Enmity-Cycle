@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/mindless
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/0
   - remaster
 statblock: inline
@@ -27,10 +28,10 @@ level: "Creature 0"
 
 alignment: ""
 size: "Medium"
-trait_01: "devil"
-trait_02: "fiend"
-trait_03: "mindless"
-trait_04: "unholy"
+trait_01: [[devil]]
+trait_02: [[fiend]]
+trait_03: [[mindless]]
+trait_04: [[unholy]]
 modifier: 0
 perception:
   - name: "Perception"

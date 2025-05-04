@@ -7,6 +7,7 @@ tags:
   - environmental
   - kaiju
   - teleportation
+  - pf2eHazard
   - complex
 source: Pathfinder Lost Omens: Monsters of Myth
 aliases: "Compendium.pf2e.lost-omens-monsters-of-myth-bestiary.Actor.XwBFT7VO9M7M6AgQ" 
@@ -24,16 +25,16 @@ name: "Planar Tear"
 level: "Hazard 20"
 
 trait_06: "Complex"
-trait_01: "divine"
-trait_02: "environmental"
-trait_03: "kaiju"
-trait_04: "teleportation"
+trait_01: [[divine]]
+trait_02: [[environmental]]
+trait_03: [[kaiju]]
+trait_04: [[teleportation]]
 modifier: 32
 sourcebook: "_Pathfinder Lost Omens: Monsters of Myth_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.ZDrt7yX9seyY3lCC"
 tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/shabti
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Shabti Votary"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #186: Ghost King&#x27;s Rage"
 name: "Shabti Votary"
 level: "Creature 18"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
-trait_02: "shabti"
+trait_01: [[humanoid]]
+trait_02: [[shabti]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Necril, Osiriani, Requian"
 skills:
   - name: "Skills"
-    desc: "Boneyard Lore: +32, Diplomacy: +30, Intimidation: +30, Medicine: +34, Performance: +30, Religion: +34"
+    desc: "Diplomacy: +30, Intimidation: +30, Medicine: +34, Performance: +30, Religion: +34, Boneyard Lore: +32"
 abilityMods: [0, 1, 5, 4, 6, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder #186: Ghost King&#x27;s Rage_"

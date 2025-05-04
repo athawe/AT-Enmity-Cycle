@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.yydyiiBoUGrzPu2v" 
 tags:
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Pokmit Bloody-Pike"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #185: A Taste of Ashes"
 name: "Pokmit Bloody-Pike"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "undead"
+trait_01: [[undead]]
 modifier: 31
 perception:
   - name: "Perception"
@@ -75,10 +76,10 @@ attacks:
     desc: "`pf2:1` Composite Longbow +32 (cold, deadly d10, magical, propulsive, range increment 100 feet, reload 0, volley 30 ft.)\n__Damage__  3d8 + 17 piercing"
 
   - name: "Devastating Blast"
-    desc: "`pf2:2` (arcane,cold) Pokmit unleashes a 30-foot cone of cold. Creatures in the area take 10d12 cold damage (DC 40 Reflex check). The graveknight can use this ability once every 1d4 rounds."
+    desc: "`pf2:2` (arcane,cold) Pokmit unleashes a @Template[cone|distance:30] of cold. Creatures in the area take 10d12 cold damage (DC 40 Reflex check). The graveknight can use this ability once every 1d4 rounds."
 
   - name: "Graveknight's Curse"
-    desc: " (curse) This curse affects anyone who wears a graveknight's armor for at least 1 hour.\n\n**Saving Throw** DC 44 Will check save\n\n**Onset** 1 hour\n\n**Stage 1** [[Conditions/Doomed 1|Doomed 1]] and can't remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed 1|Doomed 2]], hampered 10, and can't remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight"
+    desc: " (curse) This curse affects anyone who wears a graveknight's armor for at least 1 hour.\n\n**Saving Throw** DC 44 Will check save\n\n**Onset** 1 hour\n\n**Stage 1** [[Conditions/Doomed|Doomed 1]] and can't remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed|Doomed 2]], hampered 10, and can't remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight"
 
   - name: "Pike Master"
     desc: "`pf2:3`  Pokmit's longspear reach increases by 5 feet until the start of his next turn, and he makes a single longspear Strike against any number of creatures. These attacks count toward Pokmit's multiple attack penalty, but the penalty doesn't increase until after all the attacks."

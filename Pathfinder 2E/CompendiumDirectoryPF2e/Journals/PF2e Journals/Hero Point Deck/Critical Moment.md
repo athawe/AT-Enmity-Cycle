@@ -11,3 +11,5 @@ Play this after rolling a check.
 * * *
 
 Reroll the check twice and take the best result. This is a fortune effect. If you still fail this check, you become [[Conditions/Doomed 1|Doomed 1]].
+
+[[Other Effects/Effect_ Critical Moment|Effect: Critical Moment]]

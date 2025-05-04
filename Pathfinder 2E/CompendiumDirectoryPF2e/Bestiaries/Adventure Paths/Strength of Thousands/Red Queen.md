@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.MAy066x8JPjIRWyW" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Red Queen"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #174: Shadows of the Ancients"
 name: "Red Queen"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "huge"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -69,7 +70,7 @@ attacks:
     desc: "  When the Red Queen makes a Deception check to [[Actions/Feint|Feint]], she compares her result to the Will DC of each enemy within 30 feet to determine the effect against that enemy. On a critical success, the creature is [[Conditions/Off-Guard|Off-Guard]] to all melee attacks, not just melee attacks from the Red Queen, until the end of her next turn."
 
   - name: "Red Ant Venom"
-    desc: " (poison) **Saving Throw** DC 40 Fortitude check\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 3d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)\n\n**Stage 2** 4d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 2]] (1 round)\n\n**Stage 3** 6d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 3]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 40 Fortitude check\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 3d6 poison damage and [[Conditions/Enfeebled|Enfeebled 1]] (1 round)\n\n**Stage 2** 4d6 poison damage and [[Conditions/Enfeebled|Enfeebled 2]] (1 round)\n\n**Stage 3** 6d6 poison damage and [[Conditions/Enfeebled|Enfeebled 3]] (1 round)"
  
 ```
 

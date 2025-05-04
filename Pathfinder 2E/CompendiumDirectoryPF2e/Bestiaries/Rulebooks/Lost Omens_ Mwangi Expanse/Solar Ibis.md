@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.lost-omens-mwangi-expanse-bestiary.Actor.RVVSRRYAhQ3dV
 tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/good
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Solar Ibis"
@@ -24,8 +25,8 @@ level: "Creature 7"
 
 alignment: ""
 size: "Medium"
-trait_01: "beast"
-trait_02: "good"
+trait_01: [[beast]]
+trait_02: [[good]]
 modifier: 17
 perception:
   - name: "Perception"
@@ -70,7 +71,7 @@ attacks:
     desc: "`pf2:2`  The solar ibis Flies up to double its fly Speed in a straight line, descends at least 10 feet, and then makes a talon Strike."
 
   - name: "Light Shatter"
-    desc: "`pf2:2` (arcane,fire,light) The solar ibis detonates its halo, sending shards of burning light in all directions that deal 6d8 fire damage to all creatures in a 20-foot emanation (DC 22 Reflex check save). The shards deal an extra 6d8 spirit damage against fiends and undead.\n\nThe solar ibis can't use Light Shatter again for 1d4 rounds, and its Blinding Halo is extinguished during this time. The halo is restored automatically once the 1d4 rounds have passed."
+    desc: "`pf2:2` (arcane,fire,light) The solar ibis detonates its halo, sending shards of burning light in all directions that deal 6d8 fire damage to all creatures in a @Template[emanation|distance:20] (DC 22 Reflex check save). The shards deal an extra 6d8 spirit damage against fiends and undead.\n\nThe solar ibis can't use Light Shatter again for 1d4 rounds, and its Blinding Halo is extinguished during this time. The halo is restored automatically once the 1d4 rounds have passed."
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/dream
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Dreamscraper"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #189: Dreamers of the Nameless Spires"
 name: "Dreamscraper"
 level: "Creature 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "aberration"
-trait_02: "dream"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[dream]]
+trait_03: [[evil]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo; telepathy 100 feet"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +17, Athletics: +13, Deception: +13, Stealth: +17 (+19 against sleeping creatures), Thievery: +15"
+    desc: "Acrobatics: +17, Athletics: +13, Deception: +13, Stealth: +17, Thievery: +15"
 abilityMods: [2, 6, 4, 2, 4, 2]
 speed: 20 feet,  fly 40 feet
 sourcebook: "_Pathfinder #189: Dreamers of the Nameless Spires_"

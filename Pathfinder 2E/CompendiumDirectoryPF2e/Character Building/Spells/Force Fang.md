@@ -31,6 +31,6 @@ abilities_top:
     desc: "varies; **Targets** 1 creature"
 abilities_mid:
   - name: ""
-    desc: "You briefly turn your attack into pure force to bypass your opponent's defenses. Choose a target within your reach, or within the reach of a melee weapon you're wielding. If you can use [[Actions/Spellstrike|Spellstrike]] with a ranged weapon (with the starlit span hybrid study, for example), you can target a creature in the first range increment of your ranged weapon. For an instant, you transform your weapon or unarmed attack into a spike of pure force, replacing all its normal statistics and abilities. The force fang automatically deals 1d4+1 force damage to the target.\n* * *\n\n**Heightened (+2)** The damage increases by 1d4+1.\n\n_Note: Conflux spells refresh Spellstrike._"
+    desc: "You briefly turn your attack into pure force to bypass your opponent's defenses. Choose a target within your reach, or within the reach of a melee weapon you're wielding. If you can use [[Actions/Spellstrike|Spellstrike]] with a ranged weapon (with the starlit span hybrid study, for example), you can target a creature in the first range increment of your ranged weapon. For an instant, you transform your weapon or unarmed attack into a spike of pure force, replacing all its normal statistics and abilities. The force fang automatically deals 1d4+1 force damage to the target.\n* * *\n\n**Heightened (+2)** The damage increases by 1d4+1."
 sourcebook: "_Pathfinder Secrets of Magic_"
 ```

@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/holy
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Trumpet Archon"
@@ -27,11 +28,11 @@ level: "Creature 14"
 
 alignment: ""
 size: "Medium"
-trait_01: "archon"
-trait_02: "celestial"
-trait_03: "good"
-trait_04: "holy"
-trait_05: "lawful"
+trait_01: [[archon]]
+trait_02: [[celestial]]
+trait_03: [[good]]
+trait_04: [[holy]]
+trait_05: [[lawful]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -77,7 +78,7 @@ attacks:
     desc: "`pf2:1` (auditory,divine,emotion,linguistic,mental) The trumpet archon offers an ally praise or encouragement. The archon attempts to counteract one emotion effect on the ally (with a counteract modifier of +24), and the archon and the ally both gain a +1 status bonus to attack rolls and saving throws for 1 round."
 
   - name: "Trumpet Blast"
-    desc: "`pf2:1` (auditory,divine,emotion,mental) The trumpet archon blows mightily on their horn, creating a tone of such beauty and grandeur those who hear it are paralyzed in awe. Non-archons within 100 feet must attempt a DC 34 Fortitude check save.\n\nThey are temporarily immune for 10 minutes.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Off-Guard|Off-Guard]].\n\n**Failure** The creature is [[Conditions/Stunned 1|Stunned 1]] and off-guard as long as it's stunned.\n\n**Critical Failure** The creature is [[Conditions/Paralyzed|Paralyzed]] for 1 round."
+    desc: "`pf2:1` (auditory,divine,emotion,mental) The trumpet archon blows mightily on their horn, creating a tone of such beauty and grandeur those who hear it are paralyzed in awe. Non-archons within 100 feet must attempt a DC 34 Fortitude check save.\n\nThey are temporarily immune for 10 minutes.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Off-Guard|Off-Guard]].\n\n**Failure** The creature is [[Conditions/Stunned|Stunned 1]] and off-guard as long as it's stunned.\n\n**Critical Failure** The creature is [[Conditions/Paralyzed|Paralyzed]] for 1 round."
  
 ```
 

@@ -31,6 +31,7 @@ abilities_top:
     desc: "1 day; **Cost** lenses and fine mineral dusts worth 300 gp total; **Secondary Casters** 2"
   - name: "Primary Check"
     desc: "Nature (master); **Secondary Checks** Crafting, Diplomacy"
+
   - name: "Duration"
     desc: "8 hours"
 abilities_mid:

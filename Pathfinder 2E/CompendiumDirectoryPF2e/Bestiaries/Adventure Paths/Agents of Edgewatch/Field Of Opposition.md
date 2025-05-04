@@ -6,6 +6,7 @@ tags:
   - illusion
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #162: Ruins of the Radiant Siege
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.8VAGXECLAk91hoAv" 
@@ -23,15 +24,15 @@ name: "Field Of Opposition"
 level: "Hazard 20"
 
 trait_06: "Complex"
-trait_01: "illusion"
-trait_02: "magical"
-trait_03: "trap"
+trait_01: [[illusion]]
+trait_02: [[magical]]
+trait_03: [[trap]]
 modifier: 35
 sourcebook: "_Pathfinder #162: Ruins of the Radiant Siege_"
 ac: 45
 armorclass:
   - name: AC
-    desc: "45; __Fort__ +33, __Ref__ +30, __Will__ +0"
+    desc: "45; __Fort__ +33, __Ref__ +30, "
 hp: 150
 health:
   - name: ""

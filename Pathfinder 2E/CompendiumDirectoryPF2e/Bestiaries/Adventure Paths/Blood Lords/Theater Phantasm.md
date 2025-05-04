@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.EqO67DHLlB88vSJZ"
 tags:
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Theater Phantasm"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #185: A Taste of Ashes"
 name: "Theater Phantasm"
 level: "Creature 16"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "incorporeal"
-trait_02: "undead"
+trait_01: [[incorporeal]]
+trait_02: [[undead]]
 modifier: 32
 perception:
   - name: "Perception"

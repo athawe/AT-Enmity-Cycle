@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.gB7km6bV9dCXUQjZ"
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Synthetic Khismar (7-8)"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #1-24: Lightning Strikes, Stars Fall"
 name: "Synthetic Khismar (7-8)"
 level: "Creature 8"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "construct"
-trait_02: "evil"
+trait_01: [[construct]]
+trait_02: [[evil]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -71,7 +72,7 @@ attacks:
     desc: "`pf2:2`  Synthetic Khismar makes two storm-fist Strikes against a single target. If either of the attacks deals damage, the target is [[Conditions/Off-Guard|Off-Guard]] until the beginning of Synthetic Khismar's next turn. His multiple attack penalty increases after making both attacks."
 
   - name: "Self-Destruct"
-    desc: "`pf2:2`  **Requirements** Synthetic Khismar has 20 HP or fewer\n* * *\n\n**Effect** Synthetic Khismar explodes in a ball of burning plasma, destroying himself completely and dealing 10d6 electricity damage to all creatures within 10-foot emanation (DC 26 Reflex check)\n* * *\n\n**Special** Synthetic Khismar automatically activates this ability as a free action when brought to 0 Hit Points."
+    desc: "`pf2:2`  **Requirements** Synthetic Khismar has 20 HP or fewer\n* * *\n\n**Effect** Synthetic Khismar explodes in a ball of burning plasma, destroying himself completely and dealing 10d6 electricity damage to all creatures within @Template[emanation|distance:10] (DC 26 Reflex check)\n* * *\n\n**Special** Synthetic Khismar automatically activates this ability as a free action when brought to 0 Hit Points."
 
   - name: "Technology Control"
     desc: " (concentrate) **Frequency** once per turn\n\n**Range** 100 feet\n* * *\n\n**Effect** Synthetic Khismar chooses the target of one technological construct or hazard; if this would cause the technological construct or hazard to attack a creature it would not normally attack, it takes a -2 circumstance penalty to its attack rolls and DCs against that creature."

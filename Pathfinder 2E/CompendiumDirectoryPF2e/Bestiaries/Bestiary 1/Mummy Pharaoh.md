@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/mummy
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Mummy Pharaoh"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Mummy Pharaoh"
 level: "Creature 9"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "lawful"
-trait_03: "mummy"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[evil]]
+trait_02: [[lawful]]
+trait_03: [[mummy]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 20
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ abilities_mid:
     desc: "`pf2:r`  The mummy pharaoh can use Attack of Opportunity when a creature within its reach uses a concentrate action, in addition to its normal trigger. It can disrupt triggering concentrate actions, and it disrupts actions on any hit, not just a critical hit.\n\n* * *\n"
 
   - name: "Great Despair"
-    desc: " (aura,divine,emotion,fear,incapacitation,mental) 30 feet. Living creatures are [[Conditions/Frightened 1|Frightened 1]] while in a mummy pharaoh's despair aura. They can't naturally recover from this fear while in the area but recover instantly once they leave the area. When a creature first enters the area, it must succeed at a DC 26 Will check save (after taking the penalty from being frightened) or be [[Conditions/Paralyzed|Paralyzed]] for 1d4 rounds. The creature is then temporarily immune for 24 hours.\n\n[[Bestiary Effects/Effect_ Despair|Effect: Despair]]"
+    desc: " (aura,divine,emotion,fear,incapacitation,mental) 30 feet. Living creatures are [[Conditions/Frightened|Frightened 1]] while in a mummy pharaoh's despair aura. They can't naturally recover from this fear while in the area but recover instantly once they leave the area. When a creature first enters the area, it must succeed at a DC 26 Will check save (after taking the penalty from being frightened) or be [[Conditions/Paralyzed|Paralyzed]] for 1d4 rounds. The creature is then temporarily immune for 24 hours.\n\n[[Bestiary Effects/Effect_ Despair|Effect: Despair]]"
 
   - name: "Rejuvenation"
     desc: " (divine) When a mummy pharaoh is destroyed, necromantic energies rebuild its body in its tomb over 1d10 days. If the re-forming body is destroyed during that time, the process starts anew. A slain mummy pharaoh can be destroyed for good with a [[Spells/Consecrate|Consecrate]] ritual."
@@ -83,10 +84,10 @@ attacks:
     desc: " (divine) The mummy pharaoh can deliver insidious mummy rot through melee weapons it wields."
 
   - name: "Insidious Mummy Rot"
-    desc: " (curse,disease,divine) This disease and any damage from it can't be healed until this curse is removed. A creature killed by insidious mummy rot turns to sand and can't be resurrected except by a 7th-rank [[Spells/Resurrect|Resurrect]] ritual or similar magic.\n\n**Saving Throw** DC 26 Fortitude check\n* * *\n\n**Stage 1** carrier with no ill effect (1 minute)\n\n**Stage 2** 8d6 void damage and [[Conditions/Stupefied 1|Stupefied 2]] (1 day)"
+    desc: " (curse,disease,divine) This disease and any damage from it can't be healed until this curse is removed. A creature killed by insidious mummy rot turns to sand and can't be resurrected except by a 7th-rank [[Spells/Resurrect|Resurrect]] ritual or similar magic.\n\n**Saving Throw** DC 26 Fortitude check\n* * *\n\n**Stage 1** carrier with no ill effect (1 minute)\n\n**Stage 2** 8d6 void damage and [[Conditions/Stupefied|Stupefied 2]] (1 day)"
 
   - name: "Sandstorm Wrath"
-    desc: "`pf2:2` (concentrate,divine,fire) The mummy pharaoh exhales a 60-foot cone of superheated sand that deals 5d6 fire damage and 5d6 slashing damage (DC 28 Reflex check save).\n\nThe mummy pharaoh can't use Sandstorm Wrath again for 1d4 rounds."
+    desc: "`pf2:2` (concentrate,divine,fire) The mummy pharaoh exhales a @Template[cone|distance:60] of superheated sand that deals 5d6 fire damage and 5d6 slashing damage (DC 28 Reflex check save).\n\nThe mummy pharaoh can't use Sandstorm Wrath again for 1d4 rounds."
  
 ```
 

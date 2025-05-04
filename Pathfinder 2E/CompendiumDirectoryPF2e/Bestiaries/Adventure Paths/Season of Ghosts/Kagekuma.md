@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/nindoru
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Kagekuma"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #198: No Breath to Cry"
 name: "Kagekuma"
 level: "Creature 8"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "nindoru"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[nindoru]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Aklo, Common, Necril"
 skills:
   - name: "Skills"
-    desc: "Deception: +18 (+20 to Impersonate a peasant or laborer), Occultism: +15, Society: +17, Stealth: +18, Survival: +16, Thievery: +18"
+    desc: "Deception: +18, Occultism: +15, Society: +17, Stealth: +18, Survival: +16, Thievery: +18"
 abilityMods: [4, 6, 3, 3, 6, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder #198: No Breath to Cry_"
@@ -78,7 +79,7 @@ attacks:
     desc: "  When a kagekuma wields a broken, non-magical weapon, they don't take any of the disadvantages of the weapon being broken. While the kagekuma wields it, the weapon becomes a _+1 striking weapon_, and it deals an additional 1d6 mental damage on a successful hit."
 
   - name: "Shadow Bite"
-    desc: "`pf2:2` (occult) **Requirements** The kagekuma is casting a shadow\n* * *\n\n**Effect** The kagekuma targets an adjacent creature that's casting a shadow, then its shadow feeds on that creature's shadow. If the kagekuma has a manifested bundle, observers (including the creature whose shadow is being bitten) can notice the kagekuma's Shadow Bite only if they succeed at a DC 38 Perception check check. The target must succeed at a DC 26 Fortitude check save or become [[Conditions/Drained 1|Drained 1]] ([[Conditions/Drained 1|Drained 2]] on a critical failure)."
+    desc: "`pf2:2` (occult) **Requirements** The kagekuma is casting a shadow\n* * *\n\n**Effect** The kagekuma targets an adjacent creature that's casting a shadow, then its shadow feeds on that creature's shadow. If the kagekuma has a manifested bundle, observers (including the creature whose shadow is being bitten) can notice the kagekuma's Shadow Bite only if they succeed at a DC 38 Perception check check. The target must succeed at a DC 26 Fortitude check save or become [[Conditions/Drained|Drained 1]] ([[Conditions/Drained|Drained 2]] on a critical failure)."
 
   - name: "[[Actor.183L006AcuLnHJbY.Item.QpNtaCLLdgHDywU0|Shed Bundle]]"
     desc: "`pf2:1`  **Requirements** The kagekuma has a manifested bundle\n\n**Frequency** once per day\n* * *\n\n**Effect** The kagekuma causes its bundle to vanish, Strides, and then attempts a kusarigama Strike and a bite Strike."

@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.aZNYR8Zn18ljILfO" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/2
   - remaster
 statblock: inline
@@ -24,7 +25,7 @@ level: "Creature 2"
 
 alignment: ""
 size: "tiny"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 11
 perception:
   - name: "Perception"

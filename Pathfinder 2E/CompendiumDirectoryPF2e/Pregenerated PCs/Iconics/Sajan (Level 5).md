@@ -60,12 +60,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Sajan (Level 5)
-creatures:
-  - 1: Sajan (Level 5)
-```
-
 
 
 

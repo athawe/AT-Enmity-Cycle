@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/skeleton
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Raseri Kanton Skeleton"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Special #3-98: Expedition Into Pallid Peril"
 name: "Raseri Kanton Skeleton"
 level: "Creature 4"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "skeleton"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[skeleton]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -66,7 +67,7 @@ attacks:
     desc: "`pf2:1` Greatpick +14 (fatal d12)\n__Damage__  1d10 + 7 piercing"
 
   - name: "Bone Missile"
-    desc: "`pf2:2`  The Raseri Kanton skeleton yanks a rib from its ribcage to use as a javelin. The skeleton loses 4 HP, then makes a ranged Strike with an attack bonus of +10 that deals 1d10 + 11 piercing damage with a range increment of 20 feet."
+    desc: "`pf2:2`  The Raseri Kanton skeleton yanks a rib from its ribcage to use as a javelin. The skeleton loses 4 HP, then makes a ranged Strike with an attack bonus of +10 that deals 1d10+11 piercing damage with a range increment of 20 feet."
  
 ```
 

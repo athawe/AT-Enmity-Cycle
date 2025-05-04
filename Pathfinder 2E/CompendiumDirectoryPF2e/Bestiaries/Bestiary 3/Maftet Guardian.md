@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.U3rMc5sN05MempVX" 
 tags:
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Maftet Guardian"
@@ -23,7 +24,7 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "humanoid"
+trait_01: [[humanoid]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Common, Sphinx"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +13, Arcana: +13, Athletics: +15, Ruins Lore (Applies Only to Their Home Ruins): +15, Stealth: +13"
+    desc: "Acrobatics: +13, Arcana: +13, Athletics: +15, Stealth: +13, Ruins Lore (Applies Only to Their Home Ruins): +15"
 abilityMods: [5, 3, 4, 3, 2, 0]
 speed: 30 feet,  fly 40 feet
 sourcebook: "_Pathfinder Bestiary 3_"

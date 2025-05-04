@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.kingmaker-bestiary.Actor.ndoXVn6MPPxSJvcC" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Black Smilodon"
@@ -23,7 +24,7 @@ level: "Creature 14"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 25
 perception:
   - name: "Perception"

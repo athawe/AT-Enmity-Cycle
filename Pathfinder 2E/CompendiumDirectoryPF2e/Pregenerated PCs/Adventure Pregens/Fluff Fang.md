@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Fluff Fang
-creatures:
-  - 1: Fluff Fang
-```
-
 
 
 

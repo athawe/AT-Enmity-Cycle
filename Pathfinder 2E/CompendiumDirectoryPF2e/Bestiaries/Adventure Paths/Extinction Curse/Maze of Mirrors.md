@@ -6,6 +6,7 @@ tags:
   - magical
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #152: Legacy of the Lost God
 aliases: "Compendium.pf2e.extinction-curse-bestiary.Actor.UNXMz1Q7hinlaxek" 
@@ -23,15 +24,15 @@ name: "Maze of Mirrors"
 level: "Hazard 9"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 18
 sourcebook: "_Pathfinder #152: Legacy of the Lost God_"
 ac: 28
 armorclass:
   - name: AC
-    desc: "28; __Fort__ +29, __Ref__ +14, __Will__ +0"
+    desc: "28; __Fort__ +29, __Ref__ +14, "
 hp: 64
 health:
   - name: ""
@@ -61,7 +62,7 @@ attacks:
     desc: "Spectral Gore +21 () "
 
   - name: "Routine"
-    desc: "(3 actions) The trap uses its first action to magically shuffle the mirrors, rendering markings or maps of the maze ineffective. Creatures in the maze that fail a DC 26 Will check save are [[Conditions/Stupefied 1|Stupefied 1]] until they leave the maze. If the target fails additional saves against this ability, the condition value increases by 1 (to a maximum of [[Conditions/Stupefied 1|Stupefied 4]]).\n\nFor its second action, the trap's ghostly minotaur attacks a random creature in the maze with its spectral gore.\n\nFor its third action, the trap makes another spectral gore attack against a random creature."
+    desc: "(3 actions) The trap uses its first action to magically shuffle the mirrors, rendering markings or maps of the maze ineffective. Creatures in the maze that fail a DC 26 Will check save are [[Conditions/Stupefied|Stupefied 1]] until they leave the maze. If the target fails additional saves against this ability, the condition value increases by 1 (to a maximum of [[Conditions/Stupefied|Stupefied 4]]).\n\nFor its second action, the trap's ghostly minotaur attacks a random creature in the maze with its spectral gore.\n\nFor its third action, the trap makes another spectral gore attack against a random creature."
   - name: "Reset"
     desc: "The trap deactivates and resets if 1 minute passes without any creature in the maze."
 ```

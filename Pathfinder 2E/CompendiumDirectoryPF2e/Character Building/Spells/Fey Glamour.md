@@ -30,8 +30,7 @@ columnWidth: x
 abilities_top:
   - name: ""
   - name: "Range"
-    desc: "30 feet; **Area** 30-foot burst
-; **Targets** up to 10 creatures"
+    desc: "30 feet; **Area** 30-foot burst; **Targets** up to 10 creatures"
   - name: "Duration"
     desc: "10 minutes"
 abilities_mid:

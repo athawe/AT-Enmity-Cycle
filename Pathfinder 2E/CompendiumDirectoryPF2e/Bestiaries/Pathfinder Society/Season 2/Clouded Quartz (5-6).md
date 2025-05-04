@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/giant
   - pf2e/creature/type/troll
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Clouded Quartz (5-6)"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-20: Breaking the Storm: Bastion in Embers"
 name: "Clouded Quartz (5-6)"
 level: "Creature 7"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "earth"
-trait_03: "evil"
-trait_04: "giant"
-trait_05: "troll"
+trait_01: [[chaotic]]
+trait_02: [[earth]]
+trait_03: [[evil]]
+trait_04: [[giant]]
+trait_05: [[troll]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -70,7 +71,7 @@ abilities_mid:
     desc: "`pf2:r`  "
 
   - name: "Sunlight Petrification"
-    desc: "  If exposed to direct sunlight, Clouded Quartz immediately becomes [[Conditions/Slowed 1|Slowed 1]] and can't use reactions or Trample. The slowed value increases by 1 each time she ends her turn in sunlight. If Clouded Quartz's actions are reduced to 0 in this way, she becomes [[Conditions/Petrified|Petrified]] until she spends at least 1 minute in darkness. Spells like [[Spells/Sunburst|Sunburst]] that create magical sunlight cannot petrify Clouded Quartz, but she's slowed 1 for 1d4 rounds after being exposed to such an effect."
+    desc: "  If exposed to direct sunlight, Clouded Quartz immediately becomes [[Conditions/Slowed|Slowed 1]] and can't use reactions or Trample. The slowed value increases by 1 each time she ends her turn in sunlight. If Clouded Quartz's actions are reduced to 0 in this way, she becomes [[Conditions/Petrified|Petrified]] until she spends at least 1 minute in darkness. Spells like [[Spells/Sunburst|Sunburst]] that create magical sunlight cannot petrify Clouded Quartz, but she's slowed 1 for 1d4 rounds after being exposed to such an effect."
 
 attacks:
   - name: ""

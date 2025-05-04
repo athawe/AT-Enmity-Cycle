@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - magical
+  - pf2eHazard
 
 source: Pathfinder #200: Seven Dooms for Sandpoint
 aliases: "Compendium.pf2e.seven-dooms-for-sandpoint-bestiary.Actor.iLKiiMo1s5kz5vQh" 
@@ -22,8 +23,8 @@ name: "Corpselight Mist"
 level: "Hazard 6"
 
 
-trait_01: "environmental"
-trait_02: "magical"
+trait_01: [[environmental]]
+trait_02: [[magical]]
 modifier: 0
 sourcebook: "_Pathfinder #200: Seven Dooms for Sandpoint_"
 perception:

@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #4-14: Shattering Golden Chains
 aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.lutwHdRXlCllpIsG" 
@@ -22,14 +23,14 @@ name: "Adagio"
 level: "Hazard 5"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 14
 sourcebook: "_Pathfinder Society Scenario #4-14: Shattering Golden Chains_"
 ac: 24
 armorclass:
   - name: AC
-    desc: "24; __Fort__ +9, __Ref__ +16, __Will__ +0"
+    desc: "24; __Fort__ +9, __Ref__ +16, "
 hp: 52
 health:
   - name: ""

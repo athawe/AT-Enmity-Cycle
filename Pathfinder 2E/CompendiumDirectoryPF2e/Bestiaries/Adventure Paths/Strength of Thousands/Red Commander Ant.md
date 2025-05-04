@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.UOXavVdqiOPyB6xa" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Red Commander Ant"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #174: Shadows of the Ancients"
 name: "Red Commander Ant"
 level: "Creature 17"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -68,7 +69,7 @@ attacks:
     desc: "`pf2:2` (olfactory) The red commander ant gives a pheromone signal to spur other ants into a fury. All ants within 30 feet who can smell this signal gain a +1 status bonus to attack rolls, reduce their frightened condition to 0, and are immune to the frightened condition for 1 minute."
 
   - name: "Red Ant Venom"
-    desc: " (poison) **Saving Throw** DC 38 Fortitude check\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 3d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)\n\n**Stage 2** 4d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 2]] (1 round)\n\n**Stage 3** 6d6 poison damage and [[Conditions/Enfeebled 1|Enfeebled 3]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 38 Fortitude check\n\n**Maximum Duration** 4 rounds\n\n**Stage 1** 3d6 poison damage and [[Conditions/Enfeebled|Enfeebled 1]] (1 round)\n\n**Stage 2** 4d6 poison damage and [[Conditions/Enfeebled|Enfeebled 2]] (1 round)\n\n**Stage 3** 6d6 poison damage and [[Conditions/Enfeebled|Enfeebled 3]] (1 round)"
 
   - name: "The Queen's Enemy"
     desc: "`pf2:1` (concentrate) The red commander ant designates a single creature within 60 feet that it can see as its queen's enemy. All ants within 120 feet of the red commander ant deal an additional 1d8 bleed damage when they hit the target with mandibles Strikes. These effects last for 1 minute, or until the red commander ant uses The Queen's Enemy on a different creature."

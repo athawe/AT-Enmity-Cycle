@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/swarm
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Crawling Hand Swarm"
@@ -26,10 +27,10 @@ level: "Creature 5"
 
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "swarm"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[swarm]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 11
 perception:
   - name: "Perception"

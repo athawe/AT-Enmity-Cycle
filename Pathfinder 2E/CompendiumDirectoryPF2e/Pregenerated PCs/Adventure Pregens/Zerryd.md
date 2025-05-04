@@ -57,12 +57,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Zerryd
-creatures:
-  - 1: Zerryd
-```
-
 
 
 

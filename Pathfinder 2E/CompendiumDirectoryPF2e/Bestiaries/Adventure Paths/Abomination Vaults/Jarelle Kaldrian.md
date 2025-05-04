@@ -12,6 +12,7 @@ tags:
   - pf2e/creature/type/spirit
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Jarelle Kaldrian"
@@ -26,16 +27,16 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #163: Ruins of Gauntlight"
 name: "Jarelle Kaldrian"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "ghost"
-trait_03: "incorporeal"
-trait_04: "lawful"
-trait_05: "spirit"
-trait_06: "undead"
-trait_07: "unholy"
+trait_01: [[evil]]
+trait_02: [[ghost]]
+trait_03: [[incorporeal]]
+trait_04: [[lawful]]
+trait_05: [[spirit]]
+trait_06: [[undead]]
+trait_07: [[unholy]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -43,7 +44,7 @@ perception:
 languages: "Aklo, Common, Necril, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Library Lore: +0, Library Lore: +15, Stealth: +14"
+    desc: "Stealth: +14, Library Lore: +15"
 abilityMods: [-5, 5, 0, 2, 3, 0]
 speed:  fly 25 feet
 sourcebook: "_Pathfinder #163: Ruins of Gauntlight_"
@@ -77,7 +78,7 @@ attacks:
     desc: "`pf2:2` (divine,incapacitation,mental,possession) Jarelle attempts to possess an adjacent corporeal creature. This has the same effect as the [[Spells/Possession|Possession]] spell (with a spell DC of 22), except since Jarelle doesn't have a physical body, she is unaffected by that restriction of the spell."
 
   - name: "Poisoned Breath"
-    desc: "`pf2:2` (divine,poison) Jarelle exhales a 15-foot cone of toxic mist that deals 5d6 poison damage (DC 22 Fortitude check save; on a critical failure, the target is also [[Conditions/Enfeebled 1|Enfeebled 1]] for 24 hours).\n\nShe then can't use Poisoned Breath again for 1d4 rounds."
+    desc: "`pf2:2` (divine,poison) Jarelle exhales a @Template[cone|distance:15] of toxic mist that deals 5d6 poison damage (DC 22 Fortitude check save; on a critical failure, the target is also [[Conditions/Enfeebled|Enfeebled 1]] for 24 hours).\n\nShe then can't use Poisoned Breath again for 1d4 rounds."
  
 ```
 

@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #4-04: To Seek the Heart of Calamity
 aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.Nu2CYUqvUOsaeVih" 
@@ -21,7 +22,7 @@ name: "Death Drop (3-4)"
 level: "Hazard 3"
 
 
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 13
 sourcebook: "_Pathfinder Society Scenario #4-04: To Seek the Heart of Calamity_"
 perception:

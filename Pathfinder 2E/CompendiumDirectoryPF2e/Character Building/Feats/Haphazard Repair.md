@@ -23,7 +23,7 @@ You quickly fix your innovation, at the cost of its stability. You [[Actions/Rep
 
 * * *
 
-Unstable Check
+PF2E.SpecificRule.Inventor.Unstable.FlatCheck.Label
 
 On a failure, the innovation malfunctions in a spectacular (though harmless) fashion, such as a belch of smoke or shower of sparks, and it becomes incapable of being used for further unstable actions.
 

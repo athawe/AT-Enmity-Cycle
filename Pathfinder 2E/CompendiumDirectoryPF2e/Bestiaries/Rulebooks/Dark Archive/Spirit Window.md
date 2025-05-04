@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
 
 source: Pathfinder Dark Archive
 aliases: "Compendium.pf2e.pathfinder-dark-archive.Actor.eX1vJnbUagKPdSbU" 
@@ -21,13 +22,13 @@ name: "Spirit Window"
 level: "Hazard 20"
 
 
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 41
 sourcebook: "_Pathfinder Dark Archive_"
 ac: 45
 armorclass:
   - name: AC
-    desc: "45; __Fort__ +36, __Ref__ +30, __Will__ +0"
+    desc: "45; __Fort__ +36, __Ref__ +30, "
 hp: 132
 health:
   - name: ""

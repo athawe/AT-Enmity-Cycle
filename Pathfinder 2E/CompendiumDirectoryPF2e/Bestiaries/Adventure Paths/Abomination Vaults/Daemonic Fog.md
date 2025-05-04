@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - magical
+  - pf2eHazard
 
 source: Pathfinder #165: Eyes of Empty Death
 aliases: "Compendium.pf2e.abomination-vaults-bestiary.Actor.s8Ofcsub5QJJmgA5" 
@@ -22,8 +23,8 @@ name: "Daemonic Fog"
 level: "Hazard 9"
 
 
-trait_01: "environmental"
-trait_02: "magical"
+trait_01: [[environmental]]
+trait_02: [[magical]]
 modifier: 20
 sourcebook: "_Pathfinder #165: Eyes of Empty Death_"
 perception:

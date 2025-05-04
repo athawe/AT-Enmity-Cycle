@@ -28,8 +28,7 @@ columnWidth: x
 abilities_top:
   - name: ""
   - name: "Range"
-    desc: "30 feet; **Area** 15-foot emanation
-"
+    desc: "30 feet; **Area** 15-foot emanation"
   - name: "Duration"
     desc: "1 minute"
 abilities_mid:

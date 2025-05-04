@@ -26,8 +26,7 @@ abilities_top:
   - name: "Traditions"
     desc: "divine, occult"
   - name: "Range"
-    desc: "touch; **Area** 10-foot emanation
-"
+    desc: "touch; **Area** 10-foot emanation"
   - name: "Duration"
     desc: "1 minute"
 abilities_mid:

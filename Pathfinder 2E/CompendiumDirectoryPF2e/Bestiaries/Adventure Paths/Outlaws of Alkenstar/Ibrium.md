@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Ibrium"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #180: The Smoking Gun"
 name: "Ibrium"
 level: "Creature 10"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 20
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Petran"
 skills:
   - name: "Skills"
-    desc: "Arcana: +24, Deception: +19, Diplomacy: +19, Elemental Lore: +22, Nex Lore: +22, Society: +19"
+    desc: "Arcana: +24, Deception: +19, Diplomacy: +19, Society: +19, Elemental Lore: +22, Nex Lore: +22"
 abilityMods: [0, 4, 0, 5, 3, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder #180: The Smoking Gun_"

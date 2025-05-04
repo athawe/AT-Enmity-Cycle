@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/hag
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Rusty Mae"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #147: Tomorrow Must Burn"
 name: "Rusty Mae"
 level: "Creature 10"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "evil"
-trait_02: "hag"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[hag]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Aklo, Common, Diabolic, Jotun"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +17, Athletics: +21 (+23 to Grapple), Deception: +19, Diplomacy: +21, Intimidation: +17, Religion: +22, Stealth: +19"
+    desc: "Acrobatics: +17, Athletics: +21, Deception: +19, Diplomacy: +21, Intimidation: +17, Religion: +22, Stealth: +19"
 abilityMods: [7, 5, 5, 4, 6, 5]
 speed: 40 feet
 sourcebook: "_Pathfinder #147: Tomorrow Must Burn_"

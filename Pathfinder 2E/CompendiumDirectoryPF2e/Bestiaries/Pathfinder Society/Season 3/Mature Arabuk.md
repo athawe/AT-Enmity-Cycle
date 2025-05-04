@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.83lyaQloNlS16sJu" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Mature Arabuk"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Special #3-99: Fate in the Future"
 name: "Mature Arabuk"
 level: "Creature 7"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -71,7 +72,7 @@ attacks:
     desc: "  On a critical hit with an antler reverberation Strike, the target is [[Conditions/Deafened|Deafened]] for 1 minute."
 
   - name: "Dominance Display"
-    desc: "`pf2:2` (auditory,concentrate,emotion,fear,mental,primal) **Frequency** once per hour\n* * *\n\n**Effect** The arabuk postures and roars. All non-arabuk creatures within 30 feet must attempt a DC 23 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune to this arabuk's Dominance Display for 24 hours.\n\n**Success** The creature takes 2d12 sonic damage.\n\n**Failure** The creature takes 2d12 + 13 sonic damage and is [[Conditions/Frightened 1|Frightened 1]].\n\n**Critical Failure** The creature takes 2d12 + 13 sonic damage and is [[Conditions/Frightened 1|Frightened 2]]."
+    desc: "`pf2:2` (auditory,concentrate,emotion,fear,mental,primal) **Frequency** once per hour\n* * *\n\n**Effect** The arabuk postures and roars. All non-arabuk creatures within 30 feet must attempt a DC 23 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune to this arabuk's Dominance Display for 24 hours.\n\n**Success** The creature takes 2d12 sonic damage.\n\n**Failure** The creature takes 2d12+13 sonic damage and is [[Conditions/Frightened|Frightened 1]].\n\n**Critical Failure** The creature takes 2d12+13 sonic damage and is [[Conditions/Frightened|Frightened 2]]."
 
   - name: "Pounce"
     desc: "`pf2:1`  The arabuk Strides and makes a Strike at the end of that movement. If the arabuk began this action [[Conditions/Hidden|Hidden]], it remains hidden until after this ability's Strike."

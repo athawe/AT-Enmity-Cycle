@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder #174: Shadows of the Ancients
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.JRn1QlBUtlU7xjYR" 
@@ -21,13 +22,13 @@ name: "Venom Pool"
 level: "Hazard 18"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 30
 sourcebook: "_Pathfinder #174: Shadows of the Ancients_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

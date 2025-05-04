@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #187: The Seventh Arch
 aliases: "Compendium.pf2e.gatewalkers-bestiary.Actor.2MSC6ZWMXaKAt6OA" 
@@ -22,8 +23,8 @@ name: "Cordon Alarm"
 level: "Hazard 2"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 8
 sourcebook: "_Pathfinder #187: The Seventh Arch_"
 perception:

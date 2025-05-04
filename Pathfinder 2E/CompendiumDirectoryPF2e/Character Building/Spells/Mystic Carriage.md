@@ -24,6 +24,7 @@ abilities_top:
     desc: "1 hour; **Cost** toy carriage, horse statues, rare incense, and feathers worth 50 gp"
   - name: "Primary Check"
     desc: "Arcana (Expert) or Occultism (Expert); **Secondary Checks** Crafting or Driving Lore"
+
   - name: "Duration"
     desc: "1 week or until the named destination is reached, whichever comes first"
 abilities_mid:

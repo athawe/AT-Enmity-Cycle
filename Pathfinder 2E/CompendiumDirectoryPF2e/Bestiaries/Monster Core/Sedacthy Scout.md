@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/amphibious
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/sedacthy
+  - pf2eMonster
   - pf2e/creature/level/2
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "humanoid"
-trait_03: "sedacthy"
+trait_01: [[amphibious]]
+trait_02: [[humanoid]]
+trait_03: [[sedacthy]]
 modifier: 9
 perception:
   - name: "Perception"

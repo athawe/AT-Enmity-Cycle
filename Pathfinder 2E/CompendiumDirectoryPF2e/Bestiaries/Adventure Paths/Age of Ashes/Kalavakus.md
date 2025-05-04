@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Kalavakus"
@@ -27,11 +28,11 @@ level: "Creature 10"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "demon"
-trait_03: "evil"
-trait_04: "fiend"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[demon]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
+trait_05: [[unholy]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -85,7 +86,7 @@ attacks:
     desc: "_[[Spells/Demonic Pact|Abyssal Pact]]_"
 
   - name: "Enslave Soul"
-    desc: "`pf2:2` (arcane,mental) The demon enslaves the soul of a living creature within 60 feet. The target can attempt to resist this enslavement with a DC 29 Will check save.\n\nA slaver demon can have only one living soul enslaved with this ability at a time, and no more than one slaver demon can enslave the same soul. If a slaver demon kills a creature whose soul it has enslaved, the demon regains 20 HP and the soul is consigned to an eternity of toil in the Abyss, adding to the slaver demon's tally of souls and allowing the demon to enslave another.\n* * *\n\n**Success** The target avoids being enslaved and is temporarily immune for 24 hours.\n\n**Failure** The target is enslaved and is [[Conditions/Enfeebled 1|Enfeebled 2]] for 24 hours or until the slaver demon is slain, whichever comes first.\n\n**Critical Failure** As failure, and the target also suffers the effects of a failed saving throw against [[Spells/Dominate|Dominate]]."
+    desc: "`pf2:2` (arcane,mental) The demon enslaves the soul of a living creature within 60 feet. The target can attempt to resist this enslavement with a DC 29 Will check save.\n\nA slaver demon can have only one living soul enslaved with this ability at a time, and no more than one slaver demon can enslave the same soul. If a slaver demon kills a creature whose soul it has enslaved, the demon regains 20 HP and the soul is consigned to an eternity of toil in the Abyss, adding to the slaver demon's tally of souls and allowing the demon to enslave another.\n* * *\n\n**Success** The target avoids being enslaved and is temporarily immune for 24 hours.\n\n**Failure** The target is enslaved and is [[Conditions/Enfeebled|Enfeebled 2]] for 24 hours or until the slaver demon is slain, whichever comes first.\n\n**Critical Failure** As failure, and the target also suffers the effects of a failed saving throw against [[Spells/Dominate|Dominate]]."
  
 ```
 

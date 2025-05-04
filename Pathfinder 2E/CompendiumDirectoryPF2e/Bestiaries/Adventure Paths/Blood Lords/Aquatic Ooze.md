@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aquatic
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Aquatic Ooze"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #182: Graveclaw"
 name: "Aquatic Ooze"
 level: "Creature 4"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "aquatic"
-trait_02: "mindless"
-trait_03: "ooze"
+trait_01: [[aquatic]]
+trait_02: [[mindless]]
+trait_03: [[ooze]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +11, Stealth: +10 (+12 in moist environments)"
+    desc: "Athletics: +11, Stealth: +10"
 abilityMods: [5, 2, 4, -5, 0, -5]
 speed: 10 feet,  climb 10 feet,  swim 10 feet
 sourcebook: "_Pathfinder #182: Graveclaw_"

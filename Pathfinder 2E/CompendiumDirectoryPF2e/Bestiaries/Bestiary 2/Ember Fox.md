@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/fire
   - pf2e/creature/type/good
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Ember Fox"
@@ -25,9 +26,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "elemental"
-trait_02: "fire"
-trait_03: "good"
+trait_01: [[elemental]]
+trait_02: [[fire]]
+trait_03: [[good]]
 modifier: 8
 perception:
   - name: "Perception"

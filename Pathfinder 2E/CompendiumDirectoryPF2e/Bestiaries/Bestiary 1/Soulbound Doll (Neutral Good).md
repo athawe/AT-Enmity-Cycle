@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/good
   - pf2e/creature/type/soulbound
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Soulbound Doll (Neutral Good)"
@@ -25,9 +26,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "tiny"
-trait_01: "construct"
-trait_02: "good"
-trait_03: "soulbound"
+trait_01: [[construct]]
+trait_02: [[good]]
+trait_03: [[soulbound]]
 modifier: 8
 perception:
   - name: "Perception"

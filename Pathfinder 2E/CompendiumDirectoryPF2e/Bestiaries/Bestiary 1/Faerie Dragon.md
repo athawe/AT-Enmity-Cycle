@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/dragon
   - pf2e/creature/type/good
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Faerie Dragon"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Faerie Dragon"
 level: "Creature 2"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "tiny"
-trait_01: "chaotic"
-trait_02: "dragon"
-trait_03: "good"
+trait_01: [[chaotic]]
+trait_02: [[dragon]]
+trait_03: [[good]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -66,7 +67,7 @@ attacks:
     desc: "DC 21, attack +13; __2nd __  _[[Spells/Invisibility|Invisibility (Self Only)]]_"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (arcane,poison) The dragon breathes euphoric gas in a 10-foot cone. Each creature in the area must succeed at a DC 18 Fortitude check save or become [[Conditions/Stupefied 1|Stupefied 2]] and [[Conditions/Slowed 1|Slowed 1]] for 1d4 rounds; on a critical failure, the duration is 1 minute.\n\nThe faerie dragon can't use Breath Weapon again for 1d4 rounds."
+    desc: "`pf2:2` (arcane,poison) The dragon breathes euphoric gas in a @Template[cone|distance:10]. Each creature in the area must succeed at a DC 18 Fortitude check save or become [[Conditions/Stupefied|Stupefied 2]] and [[Conditions/Slowed|Slowed 1]] for 1d4 rounds; on a critical failure, the duration is 1 minute.\n\nThe faerie dragon can't use Breath Weapon again for 1d4 rounds."
  
 ```
 

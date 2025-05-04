@@ -31,6 +31,7 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "divine, primal"
+
   - name: "Duration"
     desc: "1 minute"
 abilities_mid:

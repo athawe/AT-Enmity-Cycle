@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/charau-ka
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Malarunk"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #145: Hellknight Hill"
 name: "Malarunk"
 level: "Creature 5"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "charau-ka"
-trait_03: "evil"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[charau-ka]]
+trait_03: [[evil]]
+trait_04: [[humanoid]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Boggard, Draconic, Mwangi"
 skills:
   - name: "Skills"
-    desc: "Athletics: +10, Dragon Lore: +11, Intimidation: +11, Religion: +13, Stealth: +8"
+    desc: "Athletics: +10, Intimidation: +11, Religion: +13, Stealth: +8, Dragon Lore: +11"
 abilityMods: [3, 2, 2, 0, 4, 2]
 speed: 25 feet,  climb 25 feet
 sourcebook: "_Pathfinder #145: Hellknight Hill_"

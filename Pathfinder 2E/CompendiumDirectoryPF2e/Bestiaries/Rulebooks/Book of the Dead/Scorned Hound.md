@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Scorned Hound"
@@ -25,9 +26,9 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -57,7 +58,7 @@ abilities_mid:
     desc: " (detection,occult) A scorned hound knows the direction of its past owner or family (as long as they're both on the same plane), but not the distance."
 
   - name: "Stench"
-    desc: " (aura,olfactory) 15 feet. A creature entering the aura or starting its turn in the aura must succeed at a DC 14 Fortitude check save or become [[Conditions/Sickened 1|Sickened 1]] (plus [[Conditions/Slowed 1|Slowed 1]] for as long as it's sickened on a critical failure). While within the aura, affected creatures take a -2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune for 1 minute."
+    desc: " (aura,olfactory) 15 feet. A creature entering the aura or starting its turn in the aura must succeed at a DC 14 Fortitude check save or become [[Conditions/Sickened|Sickened 1]] (plus [[Conditions/Slowed|Slowed 1]] for as long as it's sickened on a critical failure). While within the aura, affected creatures take a -2 circumstance penalty to saves against disease and to recover from the sickened condition. A creature that succeeds at its save is temporarily immune for 1 minute."
 
 attacks:
   - name: ""

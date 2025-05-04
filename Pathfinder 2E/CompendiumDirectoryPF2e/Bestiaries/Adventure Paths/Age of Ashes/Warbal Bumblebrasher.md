@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/goblin
   - pf2e/creature/type/good
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Warbal Bumblebrasher"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #145: Hellknight Hill"
 name: "Warbal Bumblebrasher"
 level: "Creature 1"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "goblin"
-trait_02: "good"
-trait_03: "humanoid"
+trait_01: [[goblin]]
+trait_02: [[good]]
+trait_03: [[humanoid]]
 modifier: 3
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Goblin"
 skills:
   - name: "Skills"
-    desc: "Diplomacy: +8, Goblin Lore: +9, Nature: +5, Religion: +5, Society: +7, Survival: +3"
+    desc: "Diplomacy: +8, Nature: +5, Religion: +5, Society: +7, Survival: +3, Goblin Lore: +9"
 abilityMods: [-1, 2, 2, 2, 0, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder #145: Hellknight Hill_"

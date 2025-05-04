@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/ghoul
   - pf2e/creature/type/undead
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Augrael"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #163: Ruins of Gauntlight"
 name: "Augrael"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "ghoul"
-trait_03: "undead"
+trait_01: [[chaotic]]
+trait_02: [[ghoul]]
+trait_03: [[undead]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Common, Necril, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8, Athletics: +9 (+12 to Climb), Crafting: +9 (Repair only), Occultism: +10, Stealth: +10"
+    desc: "Acrobatics: +8, Athletics: +9, Crafting: +9, Occultism: +10, Stealth: +10"
 abilityMods: [4, 3, 1, 1, 3, 1]
 speed: 30 feet,  burrow 5 feet,  climb 20 feet
 sourcebook: "_Pathfinder #163: Ruins of Gauntlight_"

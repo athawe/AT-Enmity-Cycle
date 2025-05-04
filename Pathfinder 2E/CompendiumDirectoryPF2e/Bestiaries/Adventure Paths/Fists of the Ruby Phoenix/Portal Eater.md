@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/astral
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Portal Eater"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #167: Ready? Fight!"
 name: "Portal Eater"
 level: "Creature 18"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "astral"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[astral]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -78,10 +79,10 @@ attacks:
     desc: "`pf2:r` (occult) **Trigger** A creature Casts a Spell that targets the portal eater\n* * *\n\n**Effect** The portal eater attempts to counteract the spell (counteract modifier +32, counteract rank 9th). If the spell is counteracted, it targets the caster instead."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Gargantuan, 17d6 + 8 force damage, Rupture 33\n\n* * *\n"
+    desc: "`pf2:1` (attack) Gargantuan, 17d6+8 force damage, Rupture 33\n\n* * *\n"
 
   - name: "Unfurl Realities"
-    desc: "`pf2:2` (light,occult) The portal eater unfurls its crystalline cloak of stolen realities, releasing a wave of cosmic energy and casting [[Spells/Prismatic Spray|Prismatic Spray]] (DC 39) in a 60-foot emanation. The portal eater can't Unfurl Realities again for 1d4 rounds."
+    desc: "`pf2:2` (light,occult) The portal eater unfurls its crystalline cloak of stolen realities, releasing a wave of cosmic energy and casting [[Spells/Prismatic Spray|Prismatic Spray]] (DC 39) in a @Template[emanation|distance:60]. The portal eater can't Unfurl Realities again for 1d4 rounds."
  
 ```
 

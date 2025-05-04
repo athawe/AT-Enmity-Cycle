@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/beast
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 5"
 
 alignment: ""
 size: "Medium"
-trait_01: "air"
-trait_02: "beast"
-trait_03: "humanoid"
+trait_01: [[air]]
+trait_02: [[beast]]
+trait_03: [[humanoid]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -36,7 +37,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +13, Deception: +11, Intimidation: +13, Performance: +11 (+16 singing), Stealth: +11, Thievery: +13"
+    desc: "Acrobatics: +13, Deception: +11, Intimidation: +13, Performance: +11, Stealth: +11, Thievery: +13"
 abilityMods: [1, 4, 0, -1, 1, 4]
 speed: 20 feet,  fly 60 feet
 sourcebook: "_Pathfinder Beginner Box_"

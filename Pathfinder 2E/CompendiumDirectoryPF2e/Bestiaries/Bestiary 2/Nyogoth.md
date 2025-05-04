@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/qlippoth
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Nyogoth"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 2"
 name: "Nyogoth"
 level: "Creature 10"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "qlippoth"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[qlippoth]]
+trait_05: [[unholy]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -73,10 +74,10 @@ attacks:
     desc: "DC 26, attack +20; __5th __  _[[Spells/Toxic Cloud|Cloudkill]]_; __4th __  _[[Spells/Acid Arrow|Acid Arrow (At will)]]_, _[[Spells/Translocate|Dimension Door]]_; __3rd __  _[[Spells/Fear|Fear (At will)]]_"
 
   - name: "Feeding Frenzy"
-    desc: "`pf2:1`  **Requirements** The nyogoth has [[Conditions/Grabbed|Grabbed]] a creature\n* * *\n\n**Effect** The nyogoth slavers and chews at the grabbed creature, dealing 2d6 + 7 slashing damage and 1d6 acid damage (DC 29 Fortitude check save)."
+    desc: "`pf2:1`  **Requirements** The nyogoth has [[Conditions/Grabbed|Grabbed]] a creature\n* * *\n\n**Effect** The nyogoth slavers and chews at the grabbed creature, dealing 2d6+7 slashing and 1d6 acid damage (DC 29 Fortitude check save)."
 
   - name: "Nauseating Display"
-    desc: "`pf2:2` (concentrate,emotion,fear,incapacitation,mental,occult,visual) The nyogoth untangles its tentacles and prolapses its many mouths, turning itself inside out in a truly nauseating display. Creatures in a 30-foot emanation must attempt a DC 29 Will check save, after which they are temporarily immune to further Nauseating Displays for 1 minute.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Sickened 1|Sickened 1]].\n\n**Failure** The creature is [[Conditions/Stunned 1|Stunned 3]] and [[Conditions/Sickened 1|Sickened 1]].\n\n**Critical Failure** The creature is [[Conditions/Stunned 1|Stunned 5]] and [[Conditions/Sickened 1|Sickened 2]]."
+    desc: "`pf2:2` (concentrate,emotion,fear,incapacitation,mental,occult,visual) The nyogoth untangles its tentacles and prolapses its many mouths, turning itself inside out in a truly nauseating display. Creatures in a @Template[emanation|distance:30] must attempt a DC 29 Will check save, after which they are temporarily immune to further Nauseating Displays for 1 minute.\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Sickened|Sickened 1]].\n\n**Failure** The creature is [[Conditions/Stunned|Stunned 3]] and [[Conditions/Sickened|Sickened 1]].\n\n**Critical Failure** The creature is [[Conditions/Stunned|Stunned 5]] and [[Conditions/Sickened|Sickened 2]]."
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

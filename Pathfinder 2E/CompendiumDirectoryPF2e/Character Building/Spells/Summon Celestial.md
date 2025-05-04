@@ -34,6 +34,6 @@ abilities_top:
     desc: "1 minute"
 abilities_mid:
   - name: ""
-    desc: "You summon a creature that has the celestial trait and whose level is 5 or lower to fight for you. The GM might determine your deity restricts the specific types of celestials you can summon in certain cases. For instance, Calistria doesn't typically allow her followers to summon aeons.\n* * *\n\n**Heightened** As listed in the [[PF2e Journals/GM Screen/summon|summon]] trait"
+    desc: "You summon a creature that has the celestial trait and whose level is 5 or lower to fight for you. The GM might determine your deity restricts the specific types of celestials you can summon in certain cases. For instance, Calistria doesn't typically allow her followers to summon aeons.\n* * *\n\n**Heightened** As listed in the [[PF2e Journals/GM Screen/summon|summon]] trait."
 sourcebook: "_Pathfinder Player Core_"
 ```

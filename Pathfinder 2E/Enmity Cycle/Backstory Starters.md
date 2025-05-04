@@ -42,7 +42,7 @@
 
 - (Enemy) You've wronged a few people in the past, but only one took it to heart to the extent of becoming your bitter enemy. Who are they, and what did you do to them? Do you hope to reconcile? Head of the Shelyn faith.  Falsified art and replaced the original. Thorn finds him in a coffin in the catacombs and rescued him. After this, he suggested beer batter to Connor's character, setting him on a new path.
 	- NOTE: If you wish, your enemy could be of a higher level than you (maybe you're with the party for protection?). Former enemies can make formidable allies if one puts in the effort ;)
-- Certain art fanatics and financiers make connections throughout the city to find out about the most impressive upcoming creations. You've been in contact with a few such wealthy people from either [[The Lingering Note]]. How long have you known them, and how well? Freelancer - 5 years
+- Certain art fanatics and financiers make connections throughout the city to find out about the most impressive upcoming creations. You've been in contact with a few such wealthy people from [[The Lingering Note]]. How long have you known them, and how well? Freelancer - 5 years
 - [[Additional Lore]] feat on *Underworld Lore*
 - What is a reasonable (ie. level-appropriate) personal goal that you have? To visit every pleasure barge and build his own smuggling network to the point that he doesn't have to take part at all.
 - What are the values & ideals that you care about the most? Money, trust, no going back on your word. Business isn't personal.

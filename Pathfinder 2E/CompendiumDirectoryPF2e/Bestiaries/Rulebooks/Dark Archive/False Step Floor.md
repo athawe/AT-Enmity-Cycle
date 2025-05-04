@@ -6,6 +6,7 @@ tags:
   - magical
   - teleportation
   - trap
+  - pf2eHazard
 
 source: Pathfinder Dark Archive
 aliases: "Compendium.pf2e.pathfinder-dark-archive.Actor.6EELzUwaHp1oMfCO" 
@@ -23,9 +24,9 @@ name: "False Step Floor"
 level: "Hazard 6"
 
 
-trait_01: "magical"
-trait_02: "teleportation"
-trait_03: "trap"
+trait_01: [[magical]]
+trait_02: [[teleportation]]
+trait_03: [[trap]]
 modifier: 15
 sourcebook: "_Pathfinder Dark Archive_"
 perception:

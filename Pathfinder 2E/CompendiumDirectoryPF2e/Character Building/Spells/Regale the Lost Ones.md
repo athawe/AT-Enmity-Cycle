@@ -21,10 +21,14 @@ columnWidth: x
 abilities_top:
   - name: ""
   - name: "Cast"
-    desc: "4 hours; **Cost** fees for opera actors, their meals, facial paint, costumes, incense, and offerings of alcohol, tobacco, and food for the lost ones with a total value of 2 gp × the spell rank × the settlement’s level; **Secondary Casters** 3"
+    desc: "4 hours; **Cost** fees for opera actors, their meals, facial paint, costumes, incense, and offerings of alcohol, tobacco, and food for the lost ones with a total value of 2 gp × the spell rank × the settlement's level; **Secondary Casters** 3"
   - name: "Primary Check"
     desc: "Performance (expert); **Secondary Checks** Acrobatics, Occultism, or Religion"
-**Targets** a settlement with a level equal to or lower than twice the ritual’s level  - name: "Duration"
+
+  - name: "Targets"
+
+    desc: "a settlement with a level equal to or lower than twice the ritual&#x27;s level"
+  - name: "Duration"
     desc: "1 year"
 abilities_mid:
   - name: ""

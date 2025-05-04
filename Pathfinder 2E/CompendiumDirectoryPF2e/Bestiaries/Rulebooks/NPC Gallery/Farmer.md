@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.u3tXaX3sOtCvuHW3"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Farmer"
@@ -24,8 +25,8 @@ level: "Creature 0"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Athletics: +5, Farming Lore: +4, Nature: +4, Survival: +4"
+    desc: "Athletics: +5, Nature: +4, Survival: +4, Farming Lore: +4"
 abilityMods: [3, 1, 3, 0, 2, 0]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

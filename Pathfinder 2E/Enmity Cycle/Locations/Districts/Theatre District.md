@@ -1,4 +1,22 @@
-Lingering Note members are less likely to be found in the Theatre District.
+---
+tags:
+  - district
+---
+
+Description: Loud, boisterous and cramped to the point of being intimate. The Theater District has winding, tight cobblestone roads and a variety of structures of all sizes. Many of the larger ones have wooden 
+Theme Music: 
+## Social Encounters 
+`dice: 2d8` 
+- 2 - Nothing
+- 3 - Lingering Note 
+- 4 - Government (1 on a d4 to be a Lord, else a public servant)
+- 5-6 - Lamasara Mercantile League 
+- 7-9 - Other Hand 
+- 10-11 - Townsfolk
+- 12-14 - Lamasara's Faithful 
+- 15 - Runewatchers 
+- 16 - Pathfinder Society 
+## Locations
 #### [[Larksong Temple]] LOCATION 5
 Lamasara's Faithful LODGE MERCHANT MUNICIPAL TEMPLE 
 **Wares** healing magic, religious items (including +1 versions of the favored weapons of most of Lamasara’s prominent religions: crossbows, starknives, longbows, tridents, scimitars, and glaives), divine scrolls 
@@ -9,23 +27,23 @@ Lamasara's Faithful LODGE MERCHANT MUNICIPAL TEMPLE
 Lamasara's Faithful LODGE MERCHANT MUNICIPAL TEMPLE 
 **Wares** same as others
 **Spellcasting** same as others
-[[Khoyar Roshan]] - (male human cleric 16) High priest of Pharasma; friendly
+[[Khoyar Roshan]] - (male human cleric 16) **High priest of Pharasma**; friendly
 
 #### [[Lamasara Cemetery]] LOCATION 3 
 Lamasara's Faithful EMPLOYER MERCHANT 
 **Wares** spellcasting services 
-[[Lamasara's Faithful#Naffer Vosk|Naffer Vosk]], gravedigger (NG male human gravedigger 3; indifferent; Perception *DC 20, Will *DC 20*).
+[[Lamasara's Faithful#Naffer Vosk|Naffer Vosk]], gravedigger (NG male human gravedigger 3; indifferent; Perception *DC 20, Will DC 20*).
 
 #### [[Lamasara Garrison]] LOCATION 5
 Lamasara's Faithful EMPLOYER GARRISON MUNICIPAL 
-[[Bolgrin Hemlock]] (NG male human fighter 6; indifferent; *Perception DC 19, Will DC 19*)
+[[Bolgrin Hemlock]] (NG male human fighter 6; indifferent; *Perception DC 22, Will DC 21*)
 
 #### [[Castle]] LOCATION 8 
 TOWNSFOLK MUNICIPAL 
-[[Shayliss Vinder]] (CG female catfolk (secretly suli) genie sorcerer/vigilante 7; indifferent; *Perception DC 19, Will DC 21*)
-[[Sheed Caltor]] (CG orc noble 4), Lord of Commerce
+[[Shayliss Vinder]] (CG female catfolk (secretly suli) genie sorcerer/vigilante 7; indifferent; *Perception DC 23, Will DC 21*)
+[[Sheed Caltor]] (CG human [[CompendiumDirectoryPF2e/Bestiaries/Rulebooks/NPC Gallery/Noble|Noble]] 6), Lord of Commerce
 [[Horgron Hardass]] (LG dwarf [[Warden]] 8), Lord of Law 
-[[Luwarin Laramelkii]] (CG elf [[Astronomer]]), Lord of Art
+[[Luwarin Laramelkii]] (CG elf [[Astronomer]] 7), Lord of Art
 
 #### [[Cracktooth's Tavern]] LOCATION 3 
 Lamasara MERCANTILE LEAGUE PARLOR RESTAURANT VENUE 
@@ -42,6 +60,7 @@ THE OTHER HAND EMPLOYER MERCHANT PARLOR VENUE
 **Wares** Pauper’s Pit (no chairs and bad view of the stage—1 cp), general seating (1 sp), balcony seating (1 gp; includes refreshments) 
 [[The Other Hand#Cyrdak Drokkus|Cyrdak Drokkus]] (CN male human bard 6; indifferent; *Perception DC 21, Will DC 21*)
 - ==WORKS FOR JONAH==
+- chubby and boisterous 
 
 #### [[Turandarok Academy]] LOCATION 6 
 RUNEWATCHERS EMPLOYER LIBRARY MERCHANT MUNICIPAL 
@@ -52,11 +71,17 @@ RUNEWATCHERS EMPLOYER LIBRARY MERCHANT MUNICIPAL
 #### [[Goblin Squash Stables]] LOCATION 4
 Lamasara MERCANTILE LEAGUE EMPLOYER MERCHANT 
 **Wares** stabling 
-- [ ] ==Will probably need prices here==
+- 1 gp per camel, 5 sp to feed one for a week.
 [[Lamasara Mercantile League#Daviren Hosk|Daviren Hosk]] (N male human ranger 4; indifferent; *Perception DC 20, Will DC 20*) 
 
 #### [[The Feathered Serpent]] LOCATION 5 
 Lamasara MERCANTILE LEAGUE MERCHANT 
-**Wares** adventuring gear, curiosities, artwork, windup toys, magic items, and spellcasting services 
+**Wares** adventuring gear, curiosities, artwork, windup toys, magic items, and spellcasting services, [[Purifying Spoon (Teaspoon)]], [[Purifying Spoon (Tablespoon)]],  
 **Spellcasting** Vorvashali dabbles in arcane magic, and has the following spells available: **1st** mending, **Cantrips** (1st) detect magic, read aura. Other spells are available if arrangements can be made a day in advance, and if the GM wishes to include those spells in Vorvashali’s spellbook. 
 [[Lamasara Mercantile League#Vorvashali Voon|Vorvashali Voon]] (LN male human merchant 5; friendly; *Perception DC 20, Will DC 20*) 
+
+#### [[Simple Styles]] Location 3
+Lamasara MERCANTILE LEAGUE MERCHANT 
+**Wares** haircuts, styles 
+[[Jonah]] does all kinds of haircuts, coming across as a boisterous and enthusiastic fellow. He has a few assistants that he's trained too. The salon has a private booth for those who don't want to be seen through the window. He also uses this to conduct deals and handle business. He only lets a small amount of his magical skill be known to people.  
+When does the evil within show? 

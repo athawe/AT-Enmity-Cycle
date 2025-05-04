@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #190: The Choosing
 aliases: "Compendium.pf2e.stolen-fate-bestiary.Actor.8DBXzHdkxiSOVeKu" 
@@ -22,8 +23,8 @@ name: "Guardian Mural"
 level: "Hazard 15"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 30
 sourcebook: "_Pathfinder #190: The Choosing_"
 perception:

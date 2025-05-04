@@ -25,9 +25,11 @@ This _+1 resilient chain shirt_ is made of small, interlocking currents of wind 
 
 **Activate—Slicing Links** `pf2:2` (concentrate)
 
+**Frequency** Once per day
+
 * * *
 
-**Effect** You unbind the currents that form your armor and release them as cutting whorls of air that slice into creatures in a 60-foot cone. Creatures in the area take 6d6 slashing damage with a DC 41 Fortitude check save. A creature that fails its save is also pushed 10 feet (or 20 feet on a critical failure). You lose the AC bonus of your armor until the end of your turn, when the air currents reform the wisp chain around you.
+**Effect** You unbind the currents that form your armor and release them as cutting whorls of air that slice into creatures in a 60-foot cone. Creatures in the area take 16d6 slashing damage with a DC 41 Fortitude check save. A creature that fails its save is also pushed 10 feet (or 20 feet on a critical failure). You lose the AC bonus of your armor until the end of your turn, when the air currents reform the wisp chain around you.
 
 *Source: Pathfinder Rage of Elements*
 *OGL*

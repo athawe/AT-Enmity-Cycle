@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.oR8cm0Aj5FIDF67w"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/earth
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Zetogeki"
@@ -24,8 +25,8 @@ level: "Creature 7"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
-trait_02: "earth"
+trait_01: [[animal]]
+trait_02: [[earth]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +12, Athletics: +18, Stealth: +12 (+16 in mountains)"
+    desc: "Acrobatics: +12, Athletics: +18, Stealth: +12"
 abilityMods: [5, 1, 5, -4, 2, -1]
 speed: 35 feet,  climb 35 feet
 sourcebook: "_Pathfinder Bestiary 3_"

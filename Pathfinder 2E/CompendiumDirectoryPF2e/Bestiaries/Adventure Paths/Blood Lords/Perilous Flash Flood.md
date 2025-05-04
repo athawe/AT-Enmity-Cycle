@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder #183: Field of Maidens
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.picyq0Q5kjJeAfH8" 
@@ -21,7 +22,7 @@ name: "Perilous Flash Flood"
 level: "Hazard 10"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 22
 sourcebook: "_Pathfinder #183: Field of Maidens_"
 perception:

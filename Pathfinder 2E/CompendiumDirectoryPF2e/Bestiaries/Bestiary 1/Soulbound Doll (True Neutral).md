@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.Pl3J94dvVY159G64"
 tags:
   - pf2e/creature/type/construct
   - pf2e/creature/type/soulbound
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Soulbound Doll (True Neutral)"
@@ -24,8 +25,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "tiny"
-trait_01: "construct"
-trait_02: "soulbound"
+trait_01: [[construct]]
+trait_02: [[soulbound]]
 modifier: 8
 perception:
   - name: "Perception"

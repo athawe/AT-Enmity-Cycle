@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.1QWZDaBoefL5rWkz" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Hodag"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 2"
 name: "Hodag"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Common; (can&#x27;t speak any language)"
 skills:
   - name: "Skills"
-    desc: "Athletics: +15, Stealth: +14 (+16 in forests), Survival: +12"
+    desc: "Athletics: +15, Stealth: +14, Survival: +12"
 abilityMods: [5, 4, 5, -2, 4, 0]
 speed: 25 feet,  burrow 15 feet
 sourcebook: "_Pathfinder Bestiary 2_"

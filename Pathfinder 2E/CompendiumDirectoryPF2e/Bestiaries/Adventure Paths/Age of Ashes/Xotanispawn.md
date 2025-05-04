@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fire
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Xotanispawn"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #149: Against the Scarlet Triad"
 name: "Xotanispawn"
 level: "Creature 17"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "animal"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "fire"
-trait_05: "unholy"
+trait_01: [[animal]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[fire]]
+trait_05: [[unholy]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -58,7 +59,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Explosion"
-    desc: " (fire) When a Xotanispawn dies, it explodes, dealing 15d8 fire damage to creatures in a 30-foot emanation (DC 39 Reflex check save)."
+    desc: " (fire) When a Xotanispawn dies, it explodes, dealing 15d8 fire damage to creatures in a @Template[emanation|distance:30] (DC 39 Reflex check save)."
 
   - name: "[[Bestiary Ability Glossary/Frightful Presence|Frightful Presence]]"
     desc: " (aura,emotion,fear,mental) 60 feet. DC 36 Will check\n\n* * *\n"
@@ -76,7 +77,7 @@ attacks:
     desc: "`pf2:1` Claw +30 (agile, reach 10 feet)\n__Damage__  4d6 + 9 slashing 2d8 fire"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (arcane,fire) The Xotanispawn sprays a 60-foot cone of magma that deals 10d10 fire damage and 2d6 persistent fire damage to all creatures in the area (DC 39 Reflex check save).\n\nThe Xotanispawn can't use its Breath Weapon again for 1d4 rounds."
+    desc: "`pf2:2` (arcane,fire) The Xotanispawn sprays a @Template[cone|distance:60] of magma that deals 10d10 fire damage and 2d6 persistent fire damage to all creatures in the area (DC 39 Reflex check save).\n\nThe Xotanispawn can't use its Breath Weapon again for 1d4 rounds."
 
   - name: "Heat Surge"
     desc: "  When the Xotanispawn critically hits, its body surges with heat, increasing the damage of its Internal Furnace to 10d8 persistent fire damage until the start of its next turn."

@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #186: Ghost King&#x27;s Rage
 aliases: "Compendium.pf2e.blood-lords-bestiary.Actor.AyUIaZ5TiRkyl3NL" 
@@ -22,8 +23,8 @@ name: "Crush the Uninvited"
 level: "Hazard 20"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 38
 sourcebook: "_Pathfinder #186: Ghost King's Rage_"
 perception:

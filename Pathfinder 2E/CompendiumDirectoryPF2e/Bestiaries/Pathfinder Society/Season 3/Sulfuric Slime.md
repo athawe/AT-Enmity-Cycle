@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.yfh8wibKauDIh6Dj"
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Sulfuric Slime"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #3-10: Delve the Pallid Depths"
 name: "Sulfuric Slime"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "mindless"
-trait_02: "ooze"
+trait_01: [[mindless]]
+trait_02: [[ooze]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Stealth: +2 (+5 in water or mud)"
+    desc: "Stealth: +2"
 abilityMods: [0, -3, 2, -5, 1, -5]
 speed: 10 feet,  swim 10 feet
 sourcebook: "_Pathfinder Society Scenario #3-10: Delve the Pallid Depths_"

@@ -57,12 +57,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Merisiel (Beginner Box)
-creatures:
-  - 1: Merisiel (Beginner Box)
-```
-
 
 
 

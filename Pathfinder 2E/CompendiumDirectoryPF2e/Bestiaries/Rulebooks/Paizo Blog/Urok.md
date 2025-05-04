@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kobold
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Urok"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Blog"
 name: "Urok"
 level: "Creature 9"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "aphorite"
-trait_02: "humanoid"
-trait_03: "kobold"
-trait_04: "lawful"
+trait_01: [[aphorite]]
+trait_02: [[humanoid]]
+trait_03: [[kobold]]
+trait_04: [[lawful]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Aklo, Common, Diabolic, Draconic, Sakvroth, Utopian"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +20, Arcana: +20, Athletics: +13, Deception: +16, Diplomacy: +16, Intimidation: +16, Lore: +20, Lore: +20, Religion: +16, Society: +20, Stealth: +20, Survival: +16, Thievery: +20"
+    desc: "Acrobatics: +20, Arcana: +20, Athletics: +13, Deception: +16, Diplomacy: +16, Intimidation: +16, Religion: +16, Society: +20, Stealth: +20, Survival: +16, Thievery: +20, Lore: +20"
 abilityMods: [0, 4, 0, 4, 2, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder Blog_"
@@ -75,7 +76,7 @@ attacks:
     desc: "`pf2:1` Dagger +19 (agile, finesse, thrown 10 ft., versatile s)\n__Damage__  2d4 + 8 piercing"
 
   - name: "Kobold Breath"
-    desc: "`pf2:2` (arcane,poison) Urok breathes a poisonous mist that deals 5d4 poison damage in a 15-foot cone (DC 25 Fortitude check save).\n\nHe can't use Kobold Breath again for 1d4 rounds."
+    desc: "`pf2:2` (arcane,poison) Urok breathes a poisonous mist that deals 5d4 poison damage in a @Template[cone|distance:15] (DC 25 Fortitude check save).\n\nHe can't use Kobold Breath again for 1d4 rounds."
 
   - name: "Mastermind"
     desc: "  If Urok successfully identifies a creature using Recall Knowledge, that creature is off-guard against his attacks until the start of his next turn; if he critically succeeds, it's off-guard against his attacks for 1 minute."

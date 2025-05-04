@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/dwarf
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Hrungul Ironeye"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #195: Heavy is the Crown"
 name: "Hrungul Ironeye"
 level: "Creature 8"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "dwarf"
-trait_02: "humanoid"
-trait_03: "lawful"
+trait_01: [[dwarf]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -58,7 +59,7 @@ abilities_mid:
     desc: "`pf2:r`  "
 
   - name: "Bravery"
-    desc: "  When the Hrungul rolls a success on a Will save against a fear effect, he gets a critical success instead. In addition, any time he gains the [[Conditions/Frightened 1|Frightened]] condition, reduce its value by 1."
+    desc: "  When the Hrungul rolls a success on a Will save against a fear effect, he gets a critical success instead. In addition, any time he gains the [[Conditions/Frightened|Frightened]] condition, reduce its value by 1."
 
   - name: "[[Bestiary Ability Glossary/Shield Block|Shield Block]]"
     desc: "`pf2:r`  "

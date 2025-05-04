@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/clockwork
   - pf2e/creature/type/construct
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Possessed Clockwork Heap"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-06: Signal from the Electric Laboratory"
 name: "Possessed Clockwork Heap"
 level: "Creature 7"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "clockwork"
-trait_03: "construct"
-trait_04: "evil"
+trait_01: [[chaotic]]
+trait_02: [[clockwork]]
+trait_03: [[construct]]
+trait_04: [[evil]]
 modifier: 14
 perception:
   - name: "Perception"

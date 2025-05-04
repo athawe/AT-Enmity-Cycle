@@ -33,5 +33,5 @@ abilities_top:
 abilities_mid:
   - name: ""
     desc: ""
-sourcebook: "__"
+sourcebook: "_Pathfinder #197: Let the Leaves Fall_"
 ```

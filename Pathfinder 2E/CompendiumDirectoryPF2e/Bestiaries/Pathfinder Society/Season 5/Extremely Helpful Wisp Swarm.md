@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #5-13: Thick as Thieves
 aliases: "Compendium.pf2e.pfs-season-5-bestiary.Actor.sAUzCiBg92IFZxJt" 
@@ -21,13 +22,13 @@ name: "Extremely Helpful Wisp Swarm"
 level: "Hazard 9"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 14
 sourcebook: "_Pathfinder Society Scenario #5-13: Thick as Thieves_"
 ac: 25
 armorclass:
   - name: AC
-    desc: "25; __Fort__ +23, __Ref__ +15, __Will__ +0"
+    desc: "25; __Fort__ +23, __Ref__ +15, "
 hp: 20
 health:
   - name: ""
@@ -56,7 +57,8 @@ attacks:
   - name: "Melee"
     desc: "Headbutt +20 () "
 
-
+  - name: "Routine"
+    desc: "**(3 actions)** The wisp swarm loses one action for each successful check to [[Actions/Disable a Device|disable]] it. The wisps swarm to work on each of their actions, making a headbutt Strike against any creature within 10 feet of the tree and destroying 2d4 pages of notes."
 
 ```
 

@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder Society Intro #1: The Second Confirmation
 aliases: "Compendium.pf2e.pfs-introductions-bestiary.Actor.7u3dkPN8iSpW4QPB" 
@@ -21,7 +22,7 @@ name: "Swampy Quicksand"
 level: "Hazard 2"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 10
 sourcebook: "_Pathfinder Society Intro #1: The Second Confirmation_"
 perception:

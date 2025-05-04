@@ -41,7 +41,7 @@ Belladonna cultivated in planes hazardous to living visitors, such as the Shadow
 
 * * *
 
-Craft Requirements Supply one casting of [[Spells/Spirit Blast|Spirit Blast]].
+**Craft Requirements** Supply one casting of [[Spells/Spirit Blast|Spirit Blast]].
 
 *Source: Pathfinder #160: Assault on Hunting Lodge Seven*
 *OGL*

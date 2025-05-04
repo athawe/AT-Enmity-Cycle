@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/gnome
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/spriggan
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Spriggan Bully"
@@ -27,11 +28,11 @@ level: "Creature 3"
 
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "gnome"
-trait_04: "humanoid"
-trait_05: "spriggan"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[gnome]]
+trait_04: [[humanoid]]
+trait_05: [[spriggan]]
 modifier: 10
 perception:
   - name: "Perception"

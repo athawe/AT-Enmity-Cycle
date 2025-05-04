@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - haunt
   - mental
+  - pf2eHazard
 
 source: Pathfinder #195: Heavy is the Crown
 aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.3OEyOaXP3TfeFvgN" 
@@ -22,8 +23,8 @@ name: "Unbreakable Sorrow"
 level: "Hazard 9"
 
 
-trait_01: "haunt"
-trait_02: "mental"
+trait_01: [[haunt]]
+trait_02: [[mental]]
 modifier: 20
 sourcebook: "_Pathfinder #195: Heavy is the Crown_"
 perception:
@@ -42,7 +43,7 @@ attacks:
   - name: ""
 
   - name: "Mourn"
-    desc: "`pf2:r` (mental, occult) **Trigger** A living creature approaches the statue\n* * *\n\n**Effect** The trap deals 4d10 + 14 mental damage to all creatures in the room (DC 28 Will check save). On a failed save, a creature additionally falls [[Conditions/Prone|Prone]] and begins to weep, taking 1d10 persistent mental damage."
+    desc: "`pf2:r` (mental, occult) **Trigger** A living creature approaches the statue\n* * *\n\n**Effect** The trap deals 4d10+14 mental damage to all creatures in the room (DC 28 Will check save). On a failed save, a creature additionally falls [[Conditions/Prone|Prone]] and begins to weep, taking 1d10 persistent mental damage."
 
 
   - name: "Reset"

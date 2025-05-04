@@ -2,9 +2,6 @@
   "readableLineLength": false,
   "showLineNumber": true,
   "rightToLeft": false,
-  "spellcheck": true,
-  "attachmentFolderPath": "zz-Attachments",
-  "showRibbon": true,
-  "alwaysUpdateLinks": true,
-  "newFileLocation": "current"
+  "spellcheck": false,
+  "attachmentFolderPath": "zz-Attachments"
 }

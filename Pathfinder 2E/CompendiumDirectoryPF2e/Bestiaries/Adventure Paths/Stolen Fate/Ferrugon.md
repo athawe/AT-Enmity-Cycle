@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/lawful
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Ferrugon"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #190: The Choosing"
 name: "Ferrugon"
 level: "Creature 12"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "devil"
-trait_02: "evil"
-trait_03: "fiend"
-trait_04: "lawful"
-trait_05: "unholy"
+trait_01: [[devil]]
+trait_02: [[evil]]
+trait_03: [[fiend]]
+trait_04: [[lawful]]
+trait_05: [[unholy]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -82,7 +83,7 @@ attacks:
     desc: "_[[Spells/Diabolic Pact|Infernal Pact]]_"
 
   - name: "Ferrugon Tetanus"
-    desc: " (disease) **Saving Throw** DC 32 Fortitude check\n\n**Onset** 1d4 days\n\n**Stage 1** [[Conditions/Clumsy 1|Clumsy 1]] (1 week)\n\n**Stage 2** [[Conditions/Clumsy 1|Clumsy 2]] and can't speak (1 day)\n\n**Stage 3** [[Conditions/Paralyzed|Paralyzed]] (1 day)\n\n**Stage 4** death"
+    desc: " (disease) **Saving Throw** DC 32 Fortitude check\n\n**Onset** 1d4 days\n\n**Stage 1** [[Conditions/Clumsy|Clumsy 1]] (1 week)\n\n**Stage 2** [[Conditions/Clumsy|Clumsy 2]] and can't speak (1 day)\n\n**Stage 3** [[Conditions/Paralyzed|Paralyzed]] (1 day)\n\n**Stage 4** death"
 
   - name: "Sunder Objects"
     desc: "  When a ferrugon damages an item or structure, they deal an additional 2d8 damage to that item or structure."

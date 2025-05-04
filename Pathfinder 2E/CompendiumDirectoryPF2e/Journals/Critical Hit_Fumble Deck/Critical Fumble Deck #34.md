@@ -26,6 +26,6 @@ tags:
 
 # You made 'em Bigger
 
-> The target increases in size, with the effects of a 2nd level [[Spells/Enlarge|Enlarge]] spell. [[Spell Effects/Spell Effect\_ Enlarge|Spell Effect: Enlarge]]
+> The target increases in size, with the effects of a 2nd level [[Spells/Enlarge|Enlarge]] spell. [[Spell Effects/Spell Effect_ Enlarge|Spell Effect: Enlarge]]
 
 `Spell`

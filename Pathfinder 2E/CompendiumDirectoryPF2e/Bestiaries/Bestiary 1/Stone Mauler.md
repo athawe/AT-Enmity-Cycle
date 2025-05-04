@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.NeYU7wwCv0RUesZ1"
 tags:
   - pf2e/creature/type/earth
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Stone Mauler"
@@ -24,8 +25,8 @@ level: "Creature 9"
 
 alignment: ""
 size: "Large"
-trait_01: "earth"
-trait_02: "elemental"
+trait_01: [[earth]]
+trait_02: [[elemental]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -50,7 +51,7 @@ abilities_top:
   - name: ""
 
   - name: "Earthbound"
-    desc: "  When not touching solid ground, a stone mauler is [[Conditions/Slowed 1|Slowed 1]] and can't use reactions."
+    desc: "  When not touching solid ground, a stone mauler is [[Conditions/Slowed|Slowed 1]] and can't use reactions."
 
 abilities_mid:
   - name: ""

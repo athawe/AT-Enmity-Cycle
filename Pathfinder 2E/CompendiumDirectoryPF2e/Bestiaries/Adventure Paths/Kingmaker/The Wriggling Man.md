@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/21
 statblock: inline
 name: "The Wriggling Man"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "The Wriggling Man"
 level: "Creature 21"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "swarm"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[swarm]]
 modifier: 35
 perception:
   - name: "Perception"
@@ -69,7 +70,7 @@ attacks:
     desc: "DC 44, attack +36; __10th __  _[[Spells/Freeze Time|Time Stop]]_; __9th __  _[[Spells/Disjunction|Disjunction]]_; __8th __  _[[Spells/Hidden Mind|Mind Blank]]_; __7th __  _[[Spells/Contingency|Contingency]]_, _[[Spells/Project Image|Project Image]]_, _[[Spells/Reverse Gravity|Reverse Gravity]]_; __6th __  _[[Spells/Cursed Metamorphosis|Baleful Polymorph]]_, _[[Spells/Never Mind|Feeblemind]]_, _[[Spells/Truesight|True Seeing]]_; __5th __  _[[Spells/Black Tentacles|Black Tentacles]]_, _[[Spells/Illusory Scene|Illusory Scene]]_, _[[Spells/Mind Probe|Mind Probe]]_; __4th __  _[[Spells/Translocate|Dimension Door]]_, _[[Spells/Fly|Fly]]_, _[[Spells/Suggestion|Suggestion]]_, _[[Compendium.pf2e.spells-srd.Item.hkfH9Z53hPzcOwNB|Veil]]_; __3rd __  _[[Spells/Blindness|Blindness]]_, _[[Spells/Earthbind|Earthbind]]_, _[[Spells/Fireball|Fireball]]_, _[[Spells/Slow|Slow]]_; __2nd __  _[[Spells/Revealing Light|Glitterdust]]_, _[[Spells/Invisibility|Invisibility]]_, _[[Spells/Mirror Image|Mirror Image]]_; __1st __  _[[Spells/Charm|Charm]]_, _[[Spells/Command|Command]]_, _[[Spells/Force Barrage|Magic Missile]]_, _[[Spells/Enfeeble|Ray of Enfeeblement]]_, _[[Spells/Ventriloquism|Ventriloquism]]_\n__Cantrips__  __(10th)__ _[[Spells/Acid Splash|Acid Splash]]_, _[[Spells/Daze|Daze]]_, _[[Spells/Electric Arc|Electric Arc]]_, _[[Spells/Ray of Frost|Ray of Frost]]_, _[[Spells/Shield|Shield]]_"
 
   - name: "Major Staff of Transmutation"
-    desc: "DC 44, attack +36; __6th __  _[[Spells/Cursed Metamorphosis|Baleful Polymorph]]_, _[[Spells/Dragon Form|Dragon Form]]_; __5th __  _[[Spells/Humanoid Form|Humanoid Form]]_; __4th __  _[[Spells/Vapor Form|Gaseous Form]]_, _[[Spells/Shape Stone|Shape Stone]]_; __3rd __  _[[Spells/Feet to Fins|Feet to Fins]]_, _[[Spells/Jump|Jump]]_; __2nd __  _[[Spells/Enlarge|Enlarge]]_, _[[Spells/Humanoid Form|Humanoid Form]]_; __1st __  _[[Spells/Fleet Step|Fleet Step]]_, _[[Spells/Jump|Jump]]_\n__Cantrips__  __(1st)__ _[[Spells/Sigil|Sigil]]_"
+    desc: "DC 44, attack +36; __6th __  _[[Spells/Cursed Metamorphosis|Baleful Polymorph]]_, _[[Spells/Dragon Form|Dragon Form]]_; __5th __  _[[Spells/Humanoid Form|Humanoid Form]]_; __4th __  _[[Spells/Vapor Form|Gaseous Form]]_, _[[Spells/Shape Stone|Shape Stone]]_; __3rd __  _[[Spells/Feet to Fins|Feet to Fins]]_, _[[Spells/Jump|Jump]]_; __2nd __  _[[Spells/Enlarge|Enlarge]]_, _[[Spells/Humanoid Form|Humanoid Form]]_; __1st __  _[[Spells/Fleet Step|Fleet Step]]_, _[[Spells/Jump|Jump]]_\n__Cantrips__  __(10th)__ _[[Spells/Sigil|Sigil]]_"
 
   - name: "Contingency"
     desc: "`pf2:r`  **Trigger** The Wriggling Man is reduced to 50 or fewer HP\n* * *\n\n**Effect** [[Spells/Translocate|Translocate]], heightened to 5th level, teleports the Wriggling Man to area **M6**."

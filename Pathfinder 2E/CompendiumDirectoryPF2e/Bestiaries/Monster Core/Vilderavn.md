@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.NxLQHUMs57TktiZa" 
 tags:
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/16
   - remaster
 statblock: inline
@@ -21,10 +22,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Monster Core"
 name: "Vilderavn"
 level: "Creature 16"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "fey"
+trait_01: [[fey]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -32,7 +33,7 @@ perception:
 languages: "Aklo, Common, Diabolic, Fey; Truespeech"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +30, Athletics: +32, Deception: +29, Heraldry Lore: +26, Society: +24, Stealth: +32, Warfare Lore: +26"
+    desc: "Acrobatics: +30, Athletics: +32, Deception: +29, Society: +24, Stealth: +32, Heraldry Lore: +26, Warfare Lore: +26"
 abilityMods: [8, 6, 5, 4, 4, 7]
 speed: 40 feet,  fly 120 feet
 sourcebook: "_Pathfinder Monster Core_"
@@ -51,7 +52,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "[[Bestiary Ability Glossary/Frightful Presence|Aura of Disquietude]]"
-    desc: " (aura,emotion,fear,mental) 30 feet DC 35 Will check\n\nAs frightful presence, plus a creature frightened by the aura becomes suspicious; it doesn't count any other creature as its ally and can't Aid or flank. On a critical failure, the creature also can't be a willing target for harmless or helpful magic.\n\n* * *\n"
+    desc: " (aura,emotion,fear,mental) 30 feet. DC 35 Will check\n\nAs [[Bestiary Ability Glossary/Frightful Presence|Frightful Presence]], plus a creature frightened by the aura becomes suspicious; it doesn't count any other creature as its ally and can't [[Actions/Aid|Aid]] or flank. On a critical failure, the creature also can't be a willing target for harmless or helpful magic.\n\n[[Bestiary Effects/Effect_ Aura of Disquietude|Effect: Aura of Disquietude]]\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Reactive Strike|Reactive Strike]]"
     desc: "`pf2:r`  "

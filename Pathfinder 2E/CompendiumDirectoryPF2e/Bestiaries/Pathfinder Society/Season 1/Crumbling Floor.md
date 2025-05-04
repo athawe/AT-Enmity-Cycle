@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #1-01: The Absalom Initiation
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.c6Nj3CaiHSXpfehS" 
@@ -22,8 +23,8 @@ name: "Crumbling Floor"
 level: "Hazard 0"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 2
 sourcebook: "_Pathfinder Society Scenario #1-01: The Absalom Initiation_"
 perception:

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Takulu Ot"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #169: Kindled Magic"
 name: "Takulu Ot"
 level: "Creature 4"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[good]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Amurrun, Common, Elven, Fey, Iruxi, Xanmba"
 skills:
   - name: "Skills"
-    desc: "Academia Lore: +13, Arcana: +13, Diplomacy: +11, Library Lore: +11, Nature: +9, Performance: +11"
+    desc: "Arcana: +13, Diplomacy: +11, Nature: +9, Performance: +11, Academia Lore: +13, Library Lore: +11"
 abilityMods: [-1, 2, 1, 5, 3, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder #169: Kindled Magic_"

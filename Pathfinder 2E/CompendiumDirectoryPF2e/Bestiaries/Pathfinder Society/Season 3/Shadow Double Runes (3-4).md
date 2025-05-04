@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Intro: Year of Shattered Sanctuaries
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.L2BPCPQ4fRMviF2d" 
@@ -22,8 +23,8 @@ name: "Shadow Double Runes (3-4)"
 level: "Hazard 1"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 9
 sourcebook: "_Pathfinder Society Intro: Year of Shattered Sanctuaries_"
 perception:

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.menace-under-otari-bestiary.Actor.Hkq9ZS2J2iKnT7vT"
 tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/1
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "mindless"
-trait_02: "ooze"
+trait_01: [[mindless]]
+trait_02: [[ooze]]
 modifier: 3
 perception:
   - name: "Perception"
@@ -34,7 +35,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Stealth: +1 (+4 in sewers)"
+    desc: "Stealth: +1"
 abilityMods: [2, -5, 4, -5, 0, -5]
 speed: 10 feet
 sourcebook: "_Pathfinder Beginner Box_"

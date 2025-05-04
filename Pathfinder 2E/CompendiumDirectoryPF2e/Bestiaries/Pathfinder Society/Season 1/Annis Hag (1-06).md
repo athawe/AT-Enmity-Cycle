@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/hag
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Annis Hag (1-06)"
@@ -26,10 +27,10 @@ level: "Creature 6"
 
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "hag"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[hag]]
+trait_04: [[humanoid]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Aklo, Common, Sakvroth, Tien"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +10, Athletics: +14 (+16 to Grapple), Crafting: +11, Deception: +11, Intimidation: +11, Stealth: +14"
+    desc: "Acrobatics: +10, Athletics: +14, Crafting: +11, Deception: +11, Intimidation: +11, Stealth: +14"
 abilityMods: [6, 4, 4, 1, 4, 3]
 speed: 40 feet
 sourcebook: "_Pathfinder Society Scenario #1-06: Lost on the Spirit Road_"

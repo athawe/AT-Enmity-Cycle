@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/duergar
   - pf2e/creature/type/dwarf
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "duergar"
-trait_02: "dwarf"
-trait_03: "humanoid"
+trait_01: [[duergar]]
+trait_02: [[dwarf]]
+trait_03: [[humanoid]]
 modifier: 4
 perception:
   - name: "Perception"
@@ -64,7 +65,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Warhammer +4 (shove)\n__Damage__  1d8 + 1 bludgeoning"
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Alchemical Grenade +8 (range increment 20 feet, splash)\n__Damage__  1d6 acid"
 
   - name: "Occult Innate Spells"

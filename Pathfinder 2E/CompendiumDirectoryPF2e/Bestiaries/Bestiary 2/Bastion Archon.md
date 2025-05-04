@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/holy
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Bastion Archon"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 2"
 name: "Bastion Archon"
 level: "Creature 20"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "huge"
-trait_01: "archon"
-trait_02: "celestial"
-trait_03: "good"
-trait_04: "holy"
-trait_05: "lawful"
+trait_01: [[archon]]
+trait_02: [[celestial]]
+trait_03: [[good]]
+trait_04: [[holy]]
+trait_05: [[lawful]]
 modifier: 37
 perception:
   - name: "Perception"
@@ -64,7 +65,7 @@ abilities_mid:
     desc: "`pf2:r`  **Damage Reduction** 22\n\n* * *\n"
 
   - name: "Ultimate Sacrifice"
-    desc: " (divine,healing) If the bastion archon is slain by an evil creature, it explodes in a geyser of holy light, restoring 140 HP to all good-aligned creatures in a 40-foot emanation. The ground in the affected area is also subjected to a level 10 [[Spells/Consecrate|Consecrate]] ritual, and the ground is consecrated for 10 years (or only 24 hours if the ultimate sacrifice took place in Hell, Abaddon, or the Abyss)."
+    desc: " (divine,healing) If the bastion archon is slain by an evil creature, it explodes in a geyser of holy light, restoring 140 HP to all good-aligned creatures in a @Template[emanation|distance:40]. The ground in the affected area is also subjected to a level 10 [[Spells/Consecrate|Consecrate]] ritual, and the ground is consecrated for 10 years (or only 24 hours if the ultimate sacrifice took place in Hell, Abaddon, or the Abyss)."
 
 attacks:
   - name: ""
@@ -85,7 +86,7 @@ attacks:
     desc: "`pf2:1` (move) The bastion archon locks itself in place, becoming voluntarily [[Conditions/Immobilized|Immobilized]]. While Entrenched, the archon can't be forcibly moved or tripped, and it gains a +2 circumstance bonus to AC and Reflex saves. Entrench ends automatically as soon as the bastion archon uses another move action."
 
   - name: "Holy Beam"
-    desc: "`pf2:2` (divine,holy,incapacitation,light) The bastion archon releases a blinding beam of holy light in a 500-foot line that deals 20d6 spirit damage to non-archons in the area, with a DC 38 Reflex check save.\n\nThe bastion archon can't use Holy Beam again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage.\n\n**Failure** The creature takes full damage and is [[Conditions/Blinded|Blinded]] for 1d4 rounds.\n\n**Critical Failure** The creature takes double damage and is blinded permanently."
+    desc: "`pf2:2` (divine,holy,incapacitation,light) The bastion archon releases a blinding beam of holy light in a @Template[line|distance:500] that deals 20d6 spirit damage to non-archons in the area, with a DC 38 Reflex check save.\n\nThe bastion archon can't use Holy Beam again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage.\n\n**Failure** The creature takes full damage and is [[Conditions/Blinded|Blinded]] for 1d4 rounds.\n\n**Critical Failure** The creature takes double damage and is blinded permanently."
  
 ```
 

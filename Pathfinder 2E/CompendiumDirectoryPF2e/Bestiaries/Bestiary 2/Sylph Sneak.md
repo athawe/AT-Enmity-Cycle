@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/sylph
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Sylph Sneak"
@@ -27,11 +28,11 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "good"
-trait_03: "human"
-trait_04: "humanoid"
-trait_05: "sylph"
+trait_01: [[chaotic]]
+trait_02: [[good]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
+trait_05: [[sylph]]
 modifier: 5
 perception:
   - name: "Perception"

@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.vqgcpFLXabsGj7RQ" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Awakened Giant Chameleon"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-00: The King in Thorns"
 name: "Awakened Giant Chameleon"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Common, Mwangi"
 skills:
   - name: "Skills"
-    desc: "Athletics: +10, Nature: +8, Stealth: +10 (+13 to Hide)"
+    desc: "Athletics: +10, Nature: +8, Stealth: +10"
 abilityMods: [5, 3, 1, 0, 3, -2]
 speed: 30 feet,  climb 20 feet
 sourcebook: "_Pathfinder Society Scenario #2-00: The King in Thorns_"

@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder #187: The Seventh Arch
 aliases: "Compendium.pf2e.gatewalkers-bestiary.Actor.9CAmwWwblxh0RWfj" 
@@ -21,13 +22,13 @@ name: "Blooming Jijioa"
 level: "Hazard 5"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 16
 sourcebook: "_Pathfinder #187: The Seventh Arch_"
 ac: 25
 armorclass:
   - name: AC
-    desc: "25; __Fort__ +17, __Ref__ +9, __Will__ +0"
+    desc: "25; __Fort__ +17, __Ref__ +9, "
 hp: 52
 health:
   - name: ""

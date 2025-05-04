@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.vMy0FZGQnFwgHWtd"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Apocalypse Ant Swarm"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #174: Shadows of the Ancients"
 name: "Apocalypse Ant Swarm"
 level: "Creature 18"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "grg"
-trait_01: "animal"
-trait_02: "swarm"
+trait_01: [[animal]]
+trait_02: [[swarm]]
 modifier: 30
 perception:
   - name: "Perception"
@@ -61,7 +62,7 @@ attacks:
   - name: ""
 
   - name: "Swarming Bites"
-    desc: "`pf2:1`  Each enemy in the swarm's space takes 7d8 piercing damage (DC 39 Fortitude check). A creature that fails its save against Swarming Bites becomes [[Conditions/Clumsy 1|Clumsy 1]] for 1 round (1 minute on a critical failure). If the creature attempts a concentrate or manipulate action while affected, it must succeed at a DC 5 Flat check or the action is lost; roll the check after spending the action, but before any effects are applied."
+    desc: "`pf2:1`  Each enemy in the swarm's space takes 7d8 piercing damage (DC 39 Fortitude check). A creature that fails its save against Swarming Bites becomes [[Conditions/Clumsy|Clumsy 1]] for 1 round (1 minute on a critical failure). If the creature attempts a concentrate or manipulate action while affected, it must succeed at a DC 5 Flat check or the action is lost; roll the check after spending the action, but before any effects are applied."
  
 ```
 

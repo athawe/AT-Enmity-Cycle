@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-dark-archive.Actor.34gooaLEuQh0Cu9n"
 tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Cocoon of Lucid Potential"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Dark Archive Web Supplement: In Darkness"
 name: "Cocoon of Lucid Potential"
 level: "Creature 13"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "grg"
-trait_01: "aberration"
-trait_02: "evil"
+trait_01: [[aberration]]
+trait_02: [[evil]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -58,7 +59,7 @@ abilities_mid:
     desc: "`pf2:0`  **Trigger** The Weaver would be reduced to 0 Hit Points\n* * *\n\n**Effect** The cocoon's vitality is linked to the Weaver's. It loses 15 Hit Points to the Weaver. It can use this ability even if it would otherwise be unable to act."
 
   - name: "In There Somewhere"
-    desc: "  Killia's individuality still rests within the cocoon, yet trying to resist assimilation. If a PC succeeds at a DC 32 Diplomacy check check on the cocoon, the cocoon takes 5d6 mental damage and is [[Conditions/Stunned 1|Stunned 1]] as Killia's consciousness fights the Weaver. The cocoon can't be affected in this way more than once per turn."
+    desc: "  Killia's individuality still rests within the cocoon, yet trying to resist assimilation. If a PC succeeds at a DC 32 Diplomacy check check on the cocoon, the cocoon takes 5d6 mental damage and is [[Conditions/Stunned|Stunned 1]] as Killia's consciousness fights the Weaver. The cocoon can't be affected in this way more than once per turn."
 
 attacks:
   - name: ""

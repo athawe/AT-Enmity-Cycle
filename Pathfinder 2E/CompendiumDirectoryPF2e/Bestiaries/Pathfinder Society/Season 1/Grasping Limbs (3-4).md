@@ -3,6 +3,7 @@ title: Grasping Limbs (3-4)
 obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
+  - pf2eHazard
   - complex
 source: Pathfinder Society Quest #9: Wayfinder Origins
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.xwLdaMLETLv6XSlK" 
@@ -25,7 +26,7 @@ sourcebook: "_Pathfinder Society Quest #9: Wayfinder Origins_"
 ac: 16
 armorclass:
   - name: AC
-    desc: "16; __Fort__ +10, __Ref__ +4, __Will__ +0"
+    desc: "16; __Fort__ +10, __Ref__ +4, "
 hp: 24
 health:
   - name: ""

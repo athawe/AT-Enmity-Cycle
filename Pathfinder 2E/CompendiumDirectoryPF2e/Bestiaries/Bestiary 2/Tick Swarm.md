@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.jgMFqFDNUWsrnnBH"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Tick Swarm"
@@ -24,8 +25,8 @@ level: "Creature 9"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
-trait_02: "swarm"
+trait_01: [[animal]]
+trait_02: [[swarm]]
 modifier: 18
 perception:
   - name: "Perception"
@@ -64,7 +65,7 @@ attacks:
     desc: "`pf2:1`  Each enemy in the swarm's space takes 3d6 piercing damage (DC 28 Reflex check save) plus Cling and exposure to tick fever."
 
   - name: "Tick Fever"
-    desc: " (disease) **Saving Throw** DC 27 Fortitude check\n\n**Onset** 1 day\n\n**Stage 1** [[Conditions/Enfeebled 1|Enfeebled 1]] (1 day)\n\n**Stage 2** [[Conditions/Enfeebled 1|Enfeebled 2]] (1 day)."
+    desc: " (disease) **Saving Throw** DC 27 Fortitude check\n\n**Onset** 1 day\n\n**Stage 1** [[Conditions/Enfeebled|Enfeebled 1]] (1 day)\n\n**Stage 2** [[Conditions/Enfeebled|Enfeebled 2]] (1 day)."
  
 ```
 

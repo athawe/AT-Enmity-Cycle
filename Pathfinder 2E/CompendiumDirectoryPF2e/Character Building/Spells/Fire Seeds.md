@@ -29,6 +29,7 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "primal"
+
   - name: "Defense"
     desc: "basic reflex"
   - name: "Duration"

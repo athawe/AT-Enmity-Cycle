@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Akiros Ismort"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Akiros Ismort"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 10
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Shameful Memories"
-    desc: " (emotion,mental,visual) If Akiros sees another creature openly wearing Erastil's holy symbol, he must attempt a DC 15 Will check save. Unless he critically fails his saving throw, he is temporarily immune to Shameful Memories for 24 hours.\n* * *\n\n**Critical Success** Akiros is unaffected.\n\n**Success** Akiros is distracted by shame and becomes [[Conditions/Sickened 1|Sickened 1]] for 1 round.\n\n**Failure** Akiros becomes [[Conditions/Sickened 1|Sickened 2]] with his shame.\n\n**Critical Failure** As failure, but Akiros is [[Conditions/Stunned 1|Stunned 1]] as well. He does not become temporarily immune to Shameful Memories, and he can be affected by this weakness again; this likely means he will have to immediately attempt the save again once he recovers from the stun."
+    desc: " (emotion,mental,visual) If Akiros sees another creature openly wearing Erastil's holy symbol, he must attempt a DC 15 Will check save. Unless he critically fails his saving throw, he is temporarily immune to Shameful Memories for 24 hours.\n* * *\n\n**Critical Success** Akiros is unaffected.\n\n**Success** Akiros is distracted by shame and becomes [[Conditions/Sickened|Sickened 1]] for 1 round.\n\n**Failure** Akiros becomes [[Conditions/Sickened|Sickened 2]] with his shame.\n\n**Critical Failure** As failure, but Akiros is [[Conditions/Stunned|Stunned 1]] as well. He does not become temporarily immune to Shameful Memories, and he can be affected by this weakness again; this likely means he will have to immediately attempt the save again once he recovers from the stun."
 
 attacks:
   - name: ""

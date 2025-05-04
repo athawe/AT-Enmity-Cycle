@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #4-02: Return to the Grave
 aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.Vy5P6hdCiVLeRWTa" 
@@ -21,7 +22,7 @@ name: "A Broken Promise (1-2)"
 level: "Hazard 2"
 
 
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 11
 sourcebook: "_Pathfinder Society Scenario #4-02: Return to the Grave_"
 perception:

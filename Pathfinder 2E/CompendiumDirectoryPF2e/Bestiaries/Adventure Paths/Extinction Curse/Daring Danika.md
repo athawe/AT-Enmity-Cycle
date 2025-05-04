@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Daring Danika"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #151: The Show Must Go On"
 name: "Daring Danika"
 level: "Creature 2"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +6 (+7 to disarm), Diplomacy: +7, Intimidation: +7, Nature: +6, Performance: +7"
+    desc: "Athletics: +6, Diplomacy: +7, Intimidation: +7, Nature: +6, Performance: +7"
 abilityMods: [0, 3, 1, 1, 1, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder #151: The Show Must Go On_"

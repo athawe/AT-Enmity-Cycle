@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #178: Punks in a Powder Keg
 aliases: "Compendium.pf2e.outlaws-of-alkenstar-bestiary.Actor.64BpT3gs4q1n187w" 
@@ -22,14 +23,14 @@ name: "Wooden Bullets Trap"
 level: "Hazard 3"
 
 trait_06: "Complex"
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 10
 sourcebook: "_Pathfinder #178: Punks in a Powder Keg_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +15, __Ref__ +5, __Will__ +0"
+    desc: "10; __Fort__ +15, __Ref__ +5, "
 hp: 50
 health:
   - name: ""

@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #1-20: The Lost Legend
 aliases: "Compendium.pf2e.pfs-season-1-bestiary.Actor.t93p04HpLq4O2BjR" 
@@ -22,14 +23,14 @@ name: "Boggard Pit (3-4)"
 level: "Hazard 1"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 9
 sourcebook: "_Pathfinder Society Scenario #1-20: The Lost Legend_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +1, __Ref__ +1, __Will__ +0"
+    desc: "10; __Fort__ +1, __Ref__ +1, "
 hp: 7
 health:
   - name: ""

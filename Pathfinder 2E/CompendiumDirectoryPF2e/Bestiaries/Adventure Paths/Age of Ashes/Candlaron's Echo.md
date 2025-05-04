@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/ghost
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/21
 statblock: inline
 name: "Candlaron&#x27;s Echo"
@@ -25,9 +26,9 @@ level: "Creature 21"
 
 alignment: ""
 size: "Medium"
-trait_01: "ghost"
-trait_02: "incorporeal"
-trait_03: "spirit"
+trait_01: [[ghost]]
+trait_02: [[incorporeal]]
+trait_03: [[spirit]]
 modifier: 35
 perception:
   - name: "Perception"
@@ -66,13 +67,13 @@ attacks:
     desc: "`pf2:1` Ghostly Hand +39 (agile, finesse, magical)\n__Damage__  8d8 + 8 void"
 
   - name: "Arcane Innate Spells"
-    desc: "DC 44, attack +39; __10th __  _[[Spells/Wish|Wish]]_; __9th __  _[[Spells/Disjunction|Disjunction]]_, _[[Spells/Telepathic Demand|Telepathic Demand]]_; __8th __  _[[Spells/Quandary|Maze]]_, _[[Spells/Power Word Stun|Power Word Stun]]_; __7th __  _[[Spells/Duplicate Foe|Duplicate Foe]]_, _[[Spells/Prismatic Spray|Prismatic Spray]]_, _[[Spells/Reverse Gravity|Reverse Gravity]]_; __6th __  _[[Spells/Chain Lightning|Chain Lightning (x2)]]_, _[[Spells/Mislead|Mislead]]_; __5th __  _[[Spells/Cone of Cold|Cone of Cold]]_, _[[Spells/Wave of Despair|Crushing Despair]]_, _[[Spells/Hallucination|Hallucination]]_; __4th __  _[[Spells/Resilient Sphere|Resilient Sphere]]_, _[[Spells/Suggestion|Suggestion (x2)]]_; __3rd __  _[[Spells/Blindness|Blindness]]_, _[[Spells/Dispel Magic|Dispel Magic]]_, _[[Spells/Slow|Slow]]_; __2nd __  _[[Spells/Blur|Blur]]_, _[[Spells/Telekinetic Maneuver|Telekinetic Maneuver (x2)]]_; __1st __  _[[Spells/Grease|Grease]]_, _[[Spells/Enfeeble|Ray of Enfeeblement (x2)]]_\n__Cantrips__  __(1st)__ _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Ghost Sound|Ghost Sound]]_, _[[Spells/Telekinetic Hand|Mage Hand]]_, _[[Spells/Read Aura|Read Aura]]_"
+    desc: "DC 44, attack +39; __10th __  _[[Spells/Wish|Wish]]_; __9th __  _[[Spells/Disjunction|Disjunction]]_, _[[Spells/Telepathic Demand|Telepathic Demand]]_; __8th __  _[[Spells/Quandary|Maze]]_, _[[Spells/Power Word Stun|Power Word Stun]]_; __7th __  _[[Spells/Duplicate Foe|Duplicate Foe]]_, _[[Spells/Prismatic Spray|Prismatic Spray]]_, _[[Spells/Reverse Gravity|Reverse Gravity]]_; __6th __  _[[Spells/Chain Lightning|Chain Lightning (x2)]]_, _[[Spells/Mislead|Mislead]]_; __5th __  _[[Spells/Cone of Cold|Cone of Cold]]_, _[[Spells/Wave of Despair|Crushing Despair]]_, _[[Spells/Hallucination|Hallucination]]_; __4th __  _[[Spells/Containment|Resilient Sphere]]_, _[[Spells/Suggestion|Suggestion (x2)]]_; __3rd __  _[[Spells/Blindness|Blindness]]_, _[[Spells/Dispel Magic|Dispel Magic]]_, _[[Spells/Slow|Slow]]_; __2nd __  _[[Spells/Blur|Blur]]_, _[[Spells/Telekinetic Maneuver|Telekinetic Maneuver (x2)]]_; __1st __  _[[Spells/Grease|Grease]]_, _[[Spells/Enfeeble|Ray of Enfeeblement (x2)]]_\n__Cantrips__  __(10th)__ _[[Spells/Detect Magic|Detect Magic]]_, _[[Spells/Ghost Sound|Ghost Sound]]_, _[[Spells/Telekinetic Hand|Mage Hand]]_, _[[Spells/Read Aura|Read Aura]]_"
 
   - name: "Frightful Moan"
-    desc: "`pf2:1` (auditory,divine,emotion,fear,mental) Candlaron's echo laments its fate, forcing each living creature within 30 feet to attempt a DC 44 Will check save.\n\nOn a failure, a creature becomes [[Conditions/Frightened 1|Frightened 2]] (or [[Conditions/Frightened 1|Frightened 3]] on a critical failure). On a success, a creature is temporarily immune to the echo's frightful moan for 1 minute."
+    desc: "`pf2:1` (auditory,divine,emotion,fear,mental) Candlaron's echo laments its fate, forcing each living creature within 30 feet to attempt a DC 44 Will check save.\n\nOn a failure, a creature becomes [[Conditions/Frightened|Frightened 2]] (or [[Conditions/Frightened|Frightened 3]] on a critical failure). On a success, a creature is temporarily immune to the echo's frightful moan for 1 minute."
 
   - name: "Telekinetic Assault"
-    desc: "`pf2:2` (divine) The echo cries out in pain and anguish as small objects and debris fly about in a 30-foot emanation. Creatures in this area take 12d6 bludgeoning damage subject to a DC 44 Reflex check save."
+    desc: "`pf2:2` (divine) The echo cries out in pain and anguish as small objects and debris fly about in a @Template[emanation|distance:30]. Creatures in this area take 12d6 bludgeoning damage subject to a DC 44 Reflex check save."
  
 ```
 

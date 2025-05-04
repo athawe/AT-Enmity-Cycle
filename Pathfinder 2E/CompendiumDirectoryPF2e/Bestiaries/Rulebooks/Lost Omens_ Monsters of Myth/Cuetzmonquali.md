@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fire
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Cuetzmonquali"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Monsters of Myth"
 name: "Cuetzmonquali"
 level: "Creature 17"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "huge"
-trait_01: "beast"
-trait_02: "evil"
-trait_03: "fire"
-trait_04: "unholy"
+trait_01: [[beast]]
+trait_02: [[evil]]
+trait_03: [[fire]]
+trait_04: [[unholy]]
 modifier: 32
 perception:
   - name: "Perception"
@@ -83,10 +84,10 @@ attacks:
     desc: "`pf2:1` Horn +33 (magical, reach 10 feet)\n__Damage__  2d8 + 15 piercing 2d10 fire"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (divine,fire) Cuetzmonquali unleashes a blast of fire that deals 12d10 fire damage in a 50-foot cone (DC 38 Reflex check save). Creatures that fail their saves catch on fire and take 1d12 persistent fire damage. Cuetzmonquali can't use Breath Weapon again for 1d4 rounds."
+    desc: "`pf2:2` (divine,fire) Cuetzmonquali unleashes a blast of fire that deals 12d10 fire damage in a @Template[cone|distance:50] (DC 38 Reflex check save). Creatures that fail their saves catch on fire and take 1d12 persistent fire damage. Cuetzmonquali can't use Breath Weapon again for 1d4 rounds."
 
   - name: "Burning Venom"
-    desc: " (fire,poison) **Saving Throw** DC 38 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 4d6 poison plus 2d10 fire, and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)\n\n**Stage 2** 6d6 poison plus 3d10 fire, and [[Conditions/Enfeebled 1|Enfeebled 2]] (1 round)\n\n**Stage 3** 8d6 poison plus 4d10 fire, and [[Conditions/Enfeebled 1|Enfeebled 3]] (1 round)"
+    desc: " (fire,poison) **Saving Throw** DC 38 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 4d6 poison plus 2d10 fire, and [[Conditions/Enfeebled|Enfeebled 1]] (1 round)\n\n**Stage 2** 6d6 poison plus 3d10 fire, and [[Conditions/Enfeebled|Enfeebled 2]] (1 round)\n\n**Stage 3** 8d6 poison plus 4d10 fire, and [[Conditions/Enfeebled|Enfeebled 3]] (1 round)"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
     desc: "`pf2:1`  2d6+8 bludgeoning damage plus 2d10 fire damage, DC 38 Fortitude check save\n\n* * *\n"

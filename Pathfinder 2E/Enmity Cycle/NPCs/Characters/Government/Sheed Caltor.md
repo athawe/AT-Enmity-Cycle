@@ -25,7 +25,7 @@ district:
 
 %% Essential information for the PCs, necessary clues, etc. _NOT_ key info about the NPC (that's what background is for). %%
 
-1. (CG orc noble 4), is the suave **Lord of Commerce** in Lamasara's government. 
+1. (CG human [[CompendiumDirectoryPF2e/Bestiaries/Rulebooks/NPC Gallery/Noble|Noble]] 6), is the suave **Lord of Commerce** in Lamasara's government. 
 2. Sheed is mostly concerned with his image, his income, and his status on Queen Zamere's Council.
 
 ### Statblock

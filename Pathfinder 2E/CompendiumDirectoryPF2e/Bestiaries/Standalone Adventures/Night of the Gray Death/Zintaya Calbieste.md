@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/elf
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Zintaya Calbieste"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: Night of the Gray Death"
 name: "Zintaya Calbieste"
 level: "Creature 14"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "aberration"
-trait_02: "elf"
-trait_03: "evil"
-trait_04: "humanoid"
+trait_01: [[aberration]]
+trait_02: [[elf]]
+trait_03: [[evil]]
+trait_04: [[humanoid]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Elven"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +25, Athletics: +26, Deception: +25, Intimidation: +25, Society: +22, Stealth: +27 (+29 to hide)"
+    desc: "Acrobatics: +25, Athletics: +26, Deception: +25, Intimidation: +25, Society: +22, Stealth: +27"
 abilityMods: [4, 5, 2, 0, 4, 3]
 speed: 30 feet
 sourcebook: "_Pathfinder Adventure: Night of the Gray Death_"
@@ -53,7 +54,7 @@ health:
 abilities_top:
   - name: ""
   - name: "Items"
-    desc: "[[Equipment/Hand Crossbow|+2 Striking Hand Crossbow]], [[Equipment/Kukri|+2 Striking Kukri]], [[Equipment/Studded Leather Armor|Studded Leather Armor]], Executioner's Hood, 10x [[Equipment/Bolts|Bolts]], 3x [[Equipment/Shadow Essence|Shadow Essence]]"
+    desc: "[[Equipment/Hand Crossbow|+2 Striking Hand Crossbow]], [[Equipment/Kukri|+2 Striking Kukri]], [[Equipment/Studded Leather Armor|Studded Leather Armor]], Executioner's Hood, 10x [[Equipment/Bolts|Bolts]], 3x [[Equipment/Nethershade|Shadow Essence]]"
 abilities_mid:
   - name: ""
   - name: "Anonymity"

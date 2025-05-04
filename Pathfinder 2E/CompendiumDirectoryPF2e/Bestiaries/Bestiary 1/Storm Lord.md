@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.LUtSo30fQWj7mrDn"
 tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/9
 statblock: inline
 name: "Storm Lord"
@@ -24,8 +25,8 @@ level: "Creature 9"
 
 alignment: ""
 size: "Large"
-trait_01: "air"
-trait_02: "elemental"
+trait_01: [[air]]
+trait_02: [[elemental]]
 modifier: 18
 perception:
   - name: "Perception"

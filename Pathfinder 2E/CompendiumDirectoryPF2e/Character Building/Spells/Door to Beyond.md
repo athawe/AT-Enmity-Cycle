@@ -28,8 +28,7 @@ columnWidth: x
 abilities_top:
   - name: ""
   - name: "Range"
-    desc: "5 feet; **Area** 20-foot emanation
-"
+    desc: "5 feet; **Area** 20-foot emanation"
   - name: "Defense"
     desc: " fortitude"
   - name: "Duration"

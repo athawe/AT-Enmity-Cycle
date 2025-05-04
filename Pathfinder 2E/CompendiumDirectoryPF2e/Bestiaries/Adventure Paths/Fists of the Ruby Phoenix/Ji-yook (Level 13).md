@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kitsune
+  - pf2eMonster
   - pf2e/creature/level/13
 statblock: inline
 name: "Ji-yook (Level 13)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #167: Ready? Fight!"
 name: "Ji-yook (Level 13)"
 level: "Creature 13"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "good"
-trait_03: "humanoid"
-trait_04: "kitsune"
+trait_01: [[chaotic]]
+trait_02: [[good]]
+trait_03: [[humanoid]]
+trait_04: [[kitsune]]
 modifier: 26
 perception:
   - name: "Perception"

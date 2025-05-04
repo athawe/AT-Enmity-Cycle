@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #3-17: Dreams of a Dustbound Isle
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.yhQALO3emgx8Z5N9" 
@@ -21,7 +22,7 @@ name: "Waking Terror"
 level: "Hazard 9"
 
 trait_06: "Complex"
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 21
 sourcebook: "_Pathfinder Society Scenario #3-17: Dreams of a Dustbound Isle_"
 perception:

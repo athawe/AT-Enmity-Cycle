@@ -6,6 +6,7 @@ tags:
   - divine
   - environmental
   - kaiju
+  - pf2eHazard
 
 source: Pathfinder Lost Omens: Monsters of Myth
 aliases: "Compendium.pf2e.lost-omens-monsters-of-myth-bestiary.Actor.EmWSRL2aYBcHCgrW" 
@@ -23,15 +24,15 @@ name: "Crystal Pin"
 level: "Hazard 20"
 
 
-trait_01: "divine"
-trait_02: "environmental"
-trait_03: "kaiju"
+trait_01: [[divine]]
+trait_02: [[environmental]]
+trait_03: [[kaiju]]
 modifier: 0
 sourcebook: "_Pathfinder Lost Omens: Monsters of Myth_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

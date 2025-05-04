@@ -37,6 +37,7 @@ abilities_top:
     desc: "arcane, occult, primal"
   - name: "Cast"
     desc: "10 minutes"
+
   - name: "Duration"
     desc: "24 hours"
 abilities_mid:

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/ethereal
   - pf2e/creature/type/evil
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Potted Violet Etheroot"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-17: Trapping the Hag&#x27;s Claw"
 name: "Potted Violet Etheroot"
 level: "Creature 7"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Large"
-trait_01: "ethereal"
-trait_02: "evil"
-trait_03: "plant"
+trait_01: [[ethereal]]
+trait_02: [[evil]]
+trait_03: [[plant]]
 modifier: 18
 perception:
   - name: "Perception"

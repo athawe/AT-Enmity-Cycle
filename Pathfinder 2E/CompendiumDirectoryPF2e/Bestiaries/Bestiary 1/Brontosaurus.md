@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.05E3kkjoLZVjFOeO"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/dinosaur
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Brontosaurus"
@@ -24,8 +25,8 @@ level: "Creature 10"
 
 alignment: ""
 size: "grg"
-trait_01: "animal"
-trait_02: "dinosaur"
+trait_01: [[animal]]
+trait_02: [[dinosaur]]
 modifier: 16
 perception:
   - name: "Perception"

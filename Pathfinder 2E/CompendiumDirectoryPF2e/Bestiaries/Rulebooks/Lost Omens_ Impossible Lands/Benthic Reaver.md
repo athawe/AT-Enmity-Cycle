@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/21
 statblock: inline
 name: "Benthic Reaver"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Impossible Lands"
 name: "Benthic Reaver"
 level: "Creature 21"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "grg"
-trait_01: "chaotic"
-trait_02: "cold"
-trait_03: "evil"
-trait_04: "undead"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[cold]]
+trait_03: [[evil]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
 modifier: 41
 perception:
   - name: "Perception"
@@ -82,10 +83,10 @@ attacks:
     desc: "DC 41, attack +33\n__Constant__  __(9th)__ _[[Spells/Truesight|True Seeing]]_"
 
   - name: "Numbing Ice"
-    desc: " (cold) A creature who takes damage from the benthic reaver's eye beam Strike must succeed at a DC 41 Fortitude check save or become [[Conditions/Slowed 1|Slowed 2]] as cold stiffens its limbs. A flying creature who fails its save also descends safely to the ground below. This is forced movement."
+    desc: " (cold) A creature who takes damage from the benthic reaver's eye beam Strike must succeed at a DC 41 Fortitude check save or become [[Conditions/Slowed|Slowed 2]] as cold stiffens its limbs. A flying creature who fails its save also descends safely to the ground below. This is forced movement."
 
   - name: "Song of the Lost"
-    desc: "`pf2:1` (arcane,auditory,emotion,fear,mental) The benthic reaver unleashes a cry of mourning. All creatures within 60 feet must attempt a DC 41 Will check save to resist. The benthic reaver can't use Song of the Lost for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Frightened 1|Frightened 1]].\n\n**Failure** The creature is [[Conditions/Frightened 1|Frightened 2]].\n\n**Critical Failure** As failure, but the creature is also [[Conditions/Stunned 1|Stunned 1]] with sympathy."
+    desc: "`pf2:1` (arcane,auditory,emotion,fear,mental) The benthic reaver unleashes a cry of mourning. All creatures within 60 feet must attempt a DC 41 Will check save to resist. The benthic reaver can't use Song of the Lost for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Frightened|Frightened 1]].\n\n**Failure** The creature is [[Conditions/Frightened|Frightened 2]].\n\n**Critical Failure** As failure, but the creature is also [[Conditions/Stunned|Stunned 1]] with sympathy."
 
   - name: "Tail Sweep"
     desc: "`pf2:2`  The benthic reaver makes a tail Strike against each enemy within its reach. These attacks count toward the benthic reaver's multiple attack penalty, but the multiple attack penalty doesn't increase until after the benthic reaver makes all its attacks."

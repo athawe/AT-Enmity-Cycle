@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/aquatic
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Giant Jellyfish"
@@ -25,9 +26,9 @@ level: "Creature 7"
 
 alignment: ""
 size: "Large"
-trait_01: "animal"
-trait_02: "aquatic"
-trait_03: "mindless"
+trait_01: [[animal]]
+trait_02: [[aquatic]]
+trait_03: [[mindless]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -60,7 +61,7 @@ attacks:
     desc: "`pf2:1` Tentacle +18 (agile, reach 20 feet)\n__Damage__  2d8 + 8 bludgeoning plus jellyfish-venom"
 
   - name: "Jellyfish Venom"
-    desc: " (poison) **Saving Throw** DC 25 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 2d8 poison damage and [[Conditions/Clumsy 1|Clumsy 1]] (1 round)\n\n**Stage 2** 3d6 poison damage and [[Conditions/Clumsy 1|Clumsy 2]] (1 round)\n\n**Stage 3** 2d10 poison damage and [[Conditions/Paralyzed|Paralyzed]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 25 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 2d8 poison damage and [[Conditions/Clumsy|Clumsy 1]] (1 round)\n\n**Stage 2** 3d6 poison damage and [[Conditions/Clumsy|Clumsy 2]] (1 round)\n\n**Stage 3** 2d10 poison damage and [[Conditions/Paralyzed|Paralyzed]] (1 round)"
 
   - name: "Squeeze"
     desc: "  A giant jellyfish can fit into tight spaces as if it were a Medium creature. It can move at its full Speed while [[Actions/Squeeze|Squeezing]]."

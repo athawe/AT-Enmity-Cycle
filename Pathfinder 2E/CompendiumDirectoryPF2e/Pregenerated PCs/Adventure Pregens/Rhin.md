@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Rhin
-creatures:
-  - 1: Rhin
-```
-
 
 
 

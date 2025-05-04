@@ -21,7 +21,7 @@ columnWidth: x
 abilities_top:
   - name: ""
   - name: "Cast"
-    desc: "1 hour; **Secondary Casters** up to 5"
+    desc: "1 hour"
   - name: "Primary Check"
     desc: "Arcana or Occultism (trained); **Secondary Checks** Whichever is used for the primary check"
   - name: "Range"

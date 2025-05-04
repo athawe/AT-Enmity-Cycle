@@ -4,6 +4,7 @@ title: "Broadleaf Shield"
 cssclasses: pf2e,pf2e-spell
 tags:
   - trait/magical
+  - trait/plant
   - trait/wood
   - trait/common
   - remaster
@@ -12,7 +13,7 @@ license: OGL
 ---
 # Broadleaf Shield
 ## Item 6
-### [[magical]][[wood]]
+### [[magical]][[plant]][[wood]]
 
 
 **Price** 225 gp; 

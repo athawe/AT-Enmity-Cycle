@@ -25,6 +25,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
   - name: "Duration"
     desc: "5 rounds"
 abilities_mid:

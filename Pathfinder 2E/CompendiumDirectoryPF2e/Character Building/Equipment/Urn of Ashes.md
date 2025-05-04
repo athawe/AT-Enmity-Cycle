@@ -32,7 +32,7 @@ This sealed pewter urn contains the ashes of a benevolent ancestor, with a slive
 
 * * *
 
-**Activate** `pf2:1`envision, interact (attack)
+**Activate** `pf2:1` envision, interact (attack)
 
 **Frequency** once per round
 
@@ -40,7 +40,7 @@ This sealed pewter urn contains the ashes of a benevolent ancestor, with a slive
 
 **Effect** The urn shoots a bolt of void energy at a foe within 30 feet.
 
-Attempt a spell attack roll against the target's AC, using a modifier of 1d20 + 15 or your own spell attack roll modifier, whichever is higher. On a success, the bolt deals 4d4 void damage (doubled on a critical success).
+Attempt a spell attack roll against the target's AC, using a modifier of 1d20+15 or your own spell attack roll modifier, whichever is higher. On a success, the bolt deals 4d4 void damage (doubled on a critical success).
 
 *Source: Pathfinder Advanced Player's Guide*
 *OGL*

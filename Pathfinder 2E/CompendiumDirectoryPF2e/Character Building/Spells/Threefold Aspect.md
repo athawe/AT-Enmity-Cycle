@@ -31,7 +31,11 @@ abilities_top:
     desc: "occult, primal"
   - name: "Cast"
     desc: "1 minute"
-**Targets** Self  - name: "Duration"
+
+  - name: "Targets"
+
+    desc: "Self"
+  - name: "Duration"
     desc: "until the next time you make your daily preparations"
 abilities_mid:
   - name: ""

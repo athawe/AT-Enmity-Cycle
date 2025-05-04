@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kobold
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Greeleep (3-4)"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-12: Snakes in the Grass"
 name: "Greeleep (3-4)"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "humanoid"
-trait_04: "kobold"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[humanoid]]
+trait_04: [[kobold]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Draconic"
 skills:
   - name: "Skills"
-    desc: "Arcana: +10, Crafting: +10, Deception: +5, Dragon Lore: +10, Nature: +11"
+    desc: "Arcana: +10, Crafting: +10, Deception: +5, Nature: +11, Dragon Lore: +10"
 abilityMods: [2, 3, 2, 4, 3, -1]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Scenario #2-12: Snakes in the Grass_"

@@ -30,8 +30,10 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "divine, occult"
-**Area** 15-foot emanation
-**Targets** you and allies in the area  - name: "Duration"
+
+  - name: "Area"
+    desc: "15-foot emanationyou and allies in the area"
+  - name: "Duration"
     desc: "1 minute"
 abilities_mid:
   - name: ""

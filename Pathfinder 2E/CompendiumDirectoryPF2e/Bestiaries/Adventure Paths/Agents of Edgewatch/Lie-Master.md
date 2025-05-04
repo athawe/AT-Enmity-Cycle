@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Lie-Master"
@@ -27,11 +28,11 @@ level: "Creature 15"
 
 alignment: ""
 size: "huge"
-trait_01: "chaotic"
-trait_02: "demon"
-trait_03: "evil"
-trait_04: "fiend"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[demon]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
+trait_05: [[unholy]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Chthonian, Draconic, Empyrean; telepathy 100 feet, tongues"
 skills:
   - name: "Skills"
-    desc: "Deception: +28, Diplomacy: +26, Intimidation: +26, Religion: +22, Society: +22, Stealth: +21"
+    desc: "Deception: +30, Diplomacy: +28, Intimidation: +28, Religion: +24, Society: +24, Stealth: +23"
 abilityMods: [7, 2, 7, 3, 3, 7]
 speed: 35 feet
 sourcebook: "_Pathfinder #161: Belly of the Black Whale_"
@@ -59,7 +60,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Truth Vulnerability"
-    desc: "  A glabrezu's lies sustain them, and the truth can destroy them. Whenever a revelation effect counteracts or reveals the glabrezu's illusions or the glabrezu fails a save against an effect that would prevent them from lying (such as zone of truth), the demon takes 3d6 + 4 mental damage. They take this damage only once per effect, even if the effect reveals multiple illusions or prevents multiple lies."
+    desc: "  A glabrezu's lies sustain them, and the truth can destroy them. Whenever a revelation effect counteracts or reveals the glabrezu's illusions or the glabrezu fails a save against an effect that would prevent them from lying (such as zone of truth), the demon takes 3d6+4 mental damage. They take this damage only once per effect, even if the effect reveals multiple illusions or prevents multiple lies."
 
 attacks:
   - name: ""

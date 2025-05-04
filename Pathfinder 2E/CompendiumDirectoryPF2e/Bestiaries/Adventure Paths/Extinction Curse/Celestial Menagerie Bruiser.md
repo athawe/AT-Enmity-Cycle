@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Celestial Menagerie Bruiser"
@@ -25,9 +26,9 @@ level: "Creature 8"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Athletics: +17 (+20 to Shove), Circus Lore: +12, Intimidation: +16, Stealth: +13, Survival: +12, Thievery: +13"
+    desc: "Athletics: +17, Intimidation: +16, Stealth: +13, Survival: +12, Thievery: +13, Circus Lore: +12"
 abilityMods: [5, 1, 2, 0, 0, 2]
 speed: 25 feet
 sourcebook: "_Pathfinder #152: Legacy of the Lost God_"

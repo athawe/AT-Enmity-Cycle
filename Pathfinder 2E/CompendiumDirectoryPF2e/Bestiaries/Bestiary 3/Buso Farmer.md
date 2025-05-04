@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.hNW3X8MbQQ9pUMiR"
 tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Buso Farmer"
@@ -24,8 +25,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "humanoid"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Fey, Goblin"
 skills:
   - name: "Skills"
-    desc: "Arcana: +8, Athletics: +9, Cooking Lore: +10, Farming Lore: +10, Nature: +8"
+    desc: "Arcana: +8, Athletics: +9, Nature: +8, Cooking Lore: +10, Farming Lore: +10"
 abilityMods: [4, 1, 2, 3, 1, -1]
 speed: 25 feet
 sourcebook: "_Pathfinder Bestiary 3_"

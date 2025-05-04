@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/kobold
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Duhgik"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Blog"
 name: "Duhgik"
 level: "Creature 6"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "good"
-trait_02: "humanoid"
-trait_03: "kobold"
+trait_01: [[good]]
+trait_02: [[humanoid]]
+trait_03: [[kobold]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Draconic, Dwarven, Gnomish, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +12, Crafting: +15, Deception: +12, Lore: +13, Medicine: +10, Stealth: +14, Survival: +12"
+    desc: "Acrobatics: +12, Crafting: +15, Deception: +12, Medicine: +10, Stealth: +14, Survival: +12, Lore: +13"
 abilityMods: [2, 4, 2, 5, 4, 2]
 speed: 30 feet
 sourcebook: "_Pathfinder Blog_"

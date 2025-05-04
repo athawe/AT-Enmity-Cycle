@@ -10,7 +10,7 @@ aliases: "Compendium.pf2e.feats-srd.Item.6gLWr3xghsHSFwxc"
 license: OGL
 ---
 # Water Step
-## Feat 6
+## Feat 8
 ### [[monk]]
 
 **Category** class; 

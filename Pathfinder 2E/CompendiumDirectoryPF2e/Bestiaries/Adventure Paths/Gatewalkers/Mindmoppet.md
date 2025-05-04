@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.gatewalkers-bestiary.Actor.qbTNd1UeIxYEihNs"
 tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Mindmoppet"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #189: Dreamers of the Nameless Spires"
 name: "Mindmoppet"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "tiny"
-trait_01: "lawful"
-trait_02: "ooze"
+trait_01: [[lawful]]
+trait_02: [[ooze]]
 modifier: 12
 perception:
   - name: "Perception"

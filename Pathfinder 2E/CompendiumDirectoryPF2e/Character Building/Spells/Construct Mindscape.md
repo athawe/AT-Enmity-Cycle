@@ -26,6 +26,7 @@ abilities_top:
     desc: "1 day; **Cost** precious clay, wood, or other modeling materials worth spell rank × 20 gp; **Secondary Casters** 2"
   - name: "Primary Check"
     desc: "Arcana or Occultism (master); **Secondary Checks** Arcana or Occultism, Crafting"
+
   - name: "Duration"
     desc: "1 day"
 abilities_mid:

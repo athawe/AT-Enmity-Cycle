@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Lost Omens: Impossible Lands
 aliases: "Compendium.pf2e.lost-omens-impossible-lands-bestiary.Actor.wj7dVmPstRWzcLzC" 
@@ -21,7 +22,7 @@ name: "Cracked Earth"
 level: "Hazard 3"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 12
 sourcebook: "_Pathfinder Lost Omens: Impossible Lands_"
 perception:

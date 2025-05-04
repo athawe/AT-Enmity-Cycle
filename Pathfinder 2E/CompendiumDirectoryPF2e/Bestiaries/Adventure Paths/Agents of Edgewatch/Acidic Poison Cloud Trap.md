@@ -6,6 +6,7 @@ tags:
   - alchemical
   - mechanical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder #159: All or Nothing
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.aLhAofozzdTuqfcg" 
@@ -23,15 +24,15 @@ name: "Acidic Poison Cloud Trap"
 level: "Hazard 13"
 
 trait_06: "Complex"
-trait_01: "alchemical"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[alchemical]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 30
 sourcebook: "_Pathfinder #159: All or Nothing_"
 ac: 34
 armorclass:
   - name: AC
-    desc: "34; __Fort__ +28, __Ref__ +20, __Will__ +0"
+    desc: "34; __Fort__ +28, __Ref__ +20, "
 hp: 40
 health:
   - name: ""

@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/phantom
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Phantom Beast"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Phantom Beast"
 level: "Creature 8"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "ethereal"
-trait_03: "incorporeal"
-trait_04: "phantom"
-trait_05: "spirit"
+trait_01: [[chaotic]]
+trait_02: [[ethereal]]
+trait_03: [[incorporeal]]
+trait_04: [[phantom]]
+trait_05: [[spirit]]
 modifier: 18
 perception:
   - name: "Perception"

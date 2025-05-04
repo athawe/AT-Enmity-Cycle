@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/tengu
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Tengu Sneak"
@@ -25,9 +26,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "humanoid"
-trait_03: "tengu"
+trait_01: [[chaotic]]
+trait_02: [[humanoid]]
+trait_03: [[tengu]]
 modifier: 6
 perception:
   - name: "Perception"

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/clockwork
   - pf2e/creature/type/construct
   - pf2e/creature/type/mindless
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Clockwork Clock Tower"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #174: Shadows of the Ancients"
 name: "Clockwork Clock Tower"
 level: "Creature 20"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "grg"
-trait_01: "clockwork"
-trait_02: "construct"
-trait_03: "mindless"
+trait_01: [[clockwork]]
+trait_02: [[construct]]
+trait_03: [[mindless]]
 modifier: 34
 perception:
   - name: "Perception"
@@ -57,7 +58,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Doleful Tolling"
-    desc: "`pf2:0` (arcane,auditory,incapacitation) **Trigger** The clockwork clock tower rolls initiative\n* * *\n\n**Effect** The clock tower chimes, and all non-clockwork creatures within 300 feet who can hear it must succeed at a DC 42 Will check save or be [[Conditions/Slowed 1|Slowed 1]] for 1 round ([[Conditions/Slowed 1|Slowed 2]] on a critical failure)."
+    desc: "`pf2:0` (arcane,auditory,incapacitation) **Trigger** The clockwork clock tower rolls initiative\n* * *\n\n**Effect** The clock tower chimes, and all non-clockwork creatures within 300 feet who can hear it must succeed at a DC 42 Will check save or be [[Conditions/Slowed|Slowed 1]] for 1 round ([[Conditions/Slowed|Slowed 2]] on a critical failure)."
 
   - name: "Durable Exterior"
     desc: "  When a clockwork clock tower is reduced to fewer than 200 HP or is damaged by a critical hit, its exterior shatters to reveal internal mechanisms, reducing its AC to 44 until it recovers enough HP to reach 200 HP or more."
@@ -75,7 +76,7 @@ attacks:
     desc: "`pf2:1`  The clockwork clock tower loses 1 day from its winding time and becomes [[Conditions/Quickened|Quickened]] for 3 rounds. It can use this extra action to Step, Stride, or Strike. This quickened condition ends immediately if the clock tower is damaged by orichalcum."
 
   - name: "Stutter Time"
-    desc: " (arcane,incapacitation) A creature struck by a clockwork clock tower's fist must make a DC 40 Will check save as time flows unevenly around it.\n* * *\n\n**Critical Success** The creature is [[Conditions/Quickened|Quickened]] for 1 round and can use this extra action to Step, Stride, or Strike.\n\n**Success** The creature is unaffected.\n\n**Failure** The creature is [[Conditions/Stunned 1|Stunned 3]].\n\n**Critical Failure** The creature is knocked out of time, which ceases to flow around the creature for 1 round. It is invulnerable to all damage, it can't be targeted or affected by anything, and no rounds elapse for any timed durations, conditions, afflictions, and other effects it has. The target can't act and remains fixed in place, defying gravity if applicable. After time begins to flow again for it, the creature is stunned 3."
+    desc: " (arcane,incapacitation) A creature struck by a clockwork clock tower's fist must make a DC 40 Will check save as time flows unevenly around it.\n* * *\n\n**Critical Success** The creature is [[Conditions/Quickened|Quickened]] for 1 round and can use this extra action to Step, Stride, or Strike.\n\n**Success** The creature is unaffected.\n\n**Failure** The creature is [[Conditions/Stunned|Stunned 3]].\n\n**Critical Failure** The creature is knocked out of time, which ceases to flow around the creature for 1 round. It is invulnerable to all damage, it can't be targeted or affected by anything, and no rounds elapse for any timed durations, conditions, afflictions, and other effects it has. The target can't act and remains fixed in place, defying gravity if applicable. After time begins to flow again for it, the creature is stunned 3."
 
   - name: "[[Bestiary Ability Glossary/Trample|Trample]]"
     desc: "`pf2:3`  Huge or smaller, foot, DC 42 Reflex check save"

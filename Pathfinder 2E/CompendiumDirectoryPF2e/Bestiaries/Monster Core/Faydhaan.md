@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/elemental
   - pf2e/creature/type/genie
   - pf2e/creature/type/water
+  - pf2eMonster
   - pf2e/creature/level/9
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 9"
 
 alignment: ""
 size: "Large"
-trait_01: "elemental"
-trait_02: "genie"
-trait_03: "water"
+trait_01: [[elemental]]
+trait_02: [[genie]]
+trait_03: [[water]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -36,7 +37,7 @@ perception:
 languages: "Common, Thalassic, Muan, Petran, Pyric, Sussuran, Talican; Truespeech"
 skills:
   - name: "Skills"
-    desc: "Athletics: +19 (+23 to Swim), Crafting: +16, Deception: +18, Diplomacy: +20, Nature: +18, Performance: +20, Society: +16, Stealth: +18"
+    desc: "Athletics: +19, Crafting: +16, Deception: +18, Diplomacy: +20, Nature: +18, Performance: +20, Society: +16, Stealth: +18"
 abilityMods: [4, 5, 2, 1, 3, 5]
 speed: 25 feet,  swim 40 feet
 sourcebook: "_Pathfinder Monster Core_"

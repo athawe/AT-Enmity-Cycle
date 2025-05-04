@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
 
 source: Pathfinder #199: To Bloom Below the Web
 aliases: "Compendium.pf2e.season-of-ghosts-bestiary.Actor.CwU5qtPvGmHYvlzN" 
@@ -21,7 +22,7 @@ name: "Unwelcoming Facade"
 level: "Hazard 10"
 
 
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 22
 sourcebook: "_Pathfinder #199: To Bloom Below the Web_"
 perception:
@@ -40,7 +41,7 @@ attacks:
   - name: ""
 
   - name: "Horrifying Vision"
-    desc: "`pf2:r` (emotion, fear, mental, occult) **Trigger** A Small or larger creature approaches within 30 feet of the house's exterior\n* * *\n\n**Effect** A wave of malice fills the minds of all living creatures outside of the manor within 60 feet with overwhelming fear; each creature must attempt a DC 29 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune to Horrifying Vision for 24 hours. In addition to this temporary immunity, the creature can attempt a DC 23 Occultism check or DC 23 Religion check check as a free action to notice that despite there being only one face in the facade, several spiritual echoes seem to infuse the building. On a critical success, the creature realizes that only the most powerful force infusing the manor is evil and that the other elements are non-hostile spirits who are overwhelmed and trapped by that singular force.\n\n**Success** The creature experiences a brief vision of the manor's facade twisting into an immense, horrific face and becomes [[Conditions/Frightened 1|Frightened 1]]. The creature can attempt the same Occultism or Religion check as above, but the DC increases to 33. DC 33 Occultism check DC 33 Religion check\n\n**Failure** As failure, but the creature becomes [[Conditions/Frightened 1|Frightened 2]] and is [[Conditions/Fleeing|Fleeing]] for as long as it remains frightened. The creature can attempt the Occultism or Religion check to Recall Knowledge normally (DC 33).\n\n**Critical Failure** As failure, but the creature can't reduce its frightened condition below 1 for 1 minute. In addition, the overwhelming fear causes the creature to become [[Conditions/Stupefied 1|Stupefied 1]]; this condition persists until it's cured magically or the hazard is disabled."
+    desc: "`pf2:r` (emotion, fear, mental, occult) **Trigger** A Small or larger creature approaches within 30 feet of the house's exterior\n* * *\n\n**Effect** A wave of malice fills the minds of all living creatures outside of the manor within 60 feet with overwhelming fear; each creature must attempt a DC 29 Will check save.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune to Horrifying Vision for 24 hours. In addition to this temporary immunity, the creature can attempt a DC 23 Occultism check or DC 23 Religion check check as a free action to notice that despite there being only one face in the facade, several spiritual echoes seem to infuse the building. On a critical success, the creature realizes that only the most powerful force infusing the manor is evil and that the other elements are non-hostile spirits who are overwhelmed and trapped by that singular force.\n\n**Success** The creature experiences a brief vision of the manor's facade twisting into an immense, horrific face and becomes [[Conditions/Frightened|Frightened 1]]. The creature can attempt the same Occultism or Religion check as above, but the DC increases to 33. DC 33 Occultism check DC 33 Religion check\n\n**Failure** As failure, but the creature becomes [[Conditions/Frightened|Frightened 2]] and is [[Conditions/Fleeing|Fleeing]] for as long as it remains frightened. The creature can attempt the Occultism or Religion check to Recall Knowledge normally (DC 33).\n\n**Critical Failure** As failure, but the creature can't reduce its frightened condition below 1 for 1 minute. In addition, the overwhelming fear causes the creature to become [[Conditions/Stupefied|Stupefied 1]]; this condition persists until it's cured magically or the hazard is disabled."
 
 
   - name: "Reset"

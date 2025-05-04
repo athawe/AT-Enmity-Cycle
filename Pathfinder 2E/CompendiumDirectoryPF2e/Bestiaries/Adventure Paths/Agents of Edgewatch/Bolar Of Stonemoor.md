@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/dwarf
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Bolar Of Stonemoor"
@@ -25,9 +26,9 @@ level: "Creature -1"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "dwarf"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[dwarf]]
+trait_03: [[humanoid]]
 modifier: 3
 perception:
   - name: "Perception"

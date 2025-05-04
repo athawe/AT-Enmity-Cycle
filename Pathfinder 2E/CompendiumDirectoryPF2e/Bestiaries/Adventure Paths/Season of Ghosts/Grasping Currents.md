@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
   - complex
 source: Pathfinder #196: The Summer That Never Was
 aliases: "Compendium.pf2e.season-of-ghosts-bestiary.Actor.2tgUyKdEjrK5hRye" 
@@ -21,7 +22,7 @@ name: "Grasping Currents"
 level: "Hazard 3"
 
 trait_06: "Complex"
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 20
 sourcebook: "_Pathfinder #196: The Summer That Never Was_"
 perception:

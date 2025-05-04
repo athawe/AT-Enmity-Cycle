@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/fire
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Azer"
@@ -26,10 +27,10 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "elemental"
-trait_02: "fire"
-trait_03: "humanoid"
-trait_04: "lawful"
+trait_01: [[elemental]]
+trait_02: [[fire]]
+trait_03: [[humanoid]]
+trait_04: [[lawful]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -75,7 +76,7 @@ attacks:
     desc: " (fire,primal) The azer's Strikes deal an extra 1d6 fire damage (included in strikes).\n\nWhen the azer successfully performs a [[Actions/Grapple|Grapple]] or [[Actions/Shove|Shove]] action, they also deal 1d6 fire damage to their target."
 
   - name: "Scorch"
-    desc: "`pf2:2` (fire,primal) The azer shrouds their light hammer in flames and hurls it forward, dealing 2d6 fire damage to each creature in a 20-foot line (DC 16 Reflex check save)."
+    desc: "`pf2:2` (fire,primal) The azer shrouds their light hammer in flames and hurls it forward, dealing 2d6 fire damage to each creature in a @Template[line|distance:20] (DC 16 Reflex check save)."
  
 ```
 

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/cold
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Adlet"
@@ -25,9 +26,9 @@ level: "Creature 10"
 
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "cold"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[cold]]
+trait_03: [[humanoid]]
 modifier: 18
 perception:
   - name: "Perception"

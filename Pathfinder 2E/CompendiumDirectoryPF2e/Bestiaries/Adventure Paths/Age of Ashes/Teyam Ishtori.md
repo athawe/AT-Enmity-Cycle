@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "Teyam Ishtori"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #149: Against the Scarlet Triad"
 name: "Teyam Ishtori"
 level: "Creature 19"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "tiny"
-trait_01: "evil"
-trait_02: "undead"
-trait_03: "unholy"
+trait_01: [[evil]]
+trait_02: [[undead]]
+trait_03: [[unholy]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -88,7 +89,7 @@ attacks:
     desc: "  Teyam long ago absorbed the spells from a staff into gemstone nodules embedded in her skull, with larger nodules representing higher-rank spells. She can cast any of the spells as though it were Activating the staff, and regains 1 charge per 4 hours spent in torpor, to a maximum of 10 charges. Teyam has the spells from a [[Equipment/Staff of Power|Staff of Power]]"
 
   - name: "Trap Soul"
-    desc: "`pf2:1`  **Frequency** once per day per gem\n* * *\n\n**Effect** Ten blight quartz gemstones on Teyam's skull can trap the souls of the living. The Activated gem casts [[Spells/Seize Soul|Seize Soul]]. This bind soul can target and affect a dying creature instead of a corpse. The dying creature can attempt a DC 43 Fortitude check save; if it succeeds, it doesn't die and its soul is not trapped but it's [[Conditions/Drained 1|Drained 2]] (or is unaffected entirely on a critical success). When the soul of a creature gets trapped, the creature's body swiftly turns to dust.\n\nThe gemstones work like the black sapphires used in bind soul, except that they can hold creatures of up to 17th level and have a value of 200 gp apiece. Teyam can Devour a Soul it has trapped."
+    desc: "`pf2:1`  **Frequency** once per day per gem\n* * *\n\n**Effect** Ten blight quartz gemstones on Teyam's skull can trap the souls of the living. The Activated gem casts [[Spells/Seize Soul|Seize Soul]]. This bind soul can target and affect a dying creature instead of a corpse. The dying creature can attempt a DC 43 Fortitude check save; if it succeeds, it doesn't die and its soul is not trapped but it's [[Conditions/Drained|Drained 2]] (or is unaffected entirely on a critical success). When the soul of a creature gets trapped, the creature's body swiftly turns to dust.\n\nThe gemstones work like the black sapphires used in bind soul, except that they can hold creatures of up to 17th level and have a value of 200 gp apiece. Teyam can Devour a Soul it has trapped."
  
 ```
 

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/giant
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Taiga Giant"
@@ -25,9 +26,9 @@ level: "Creature 12"
 
 alignment: ""
 size: "huge"
-trait_01: "chaotic"
-trait_02: "giant"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[giant]]
+trait_03: [[humanoid]]
 modifier: 23
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Jotun"
 skills:
   - name: "Skills"
-    desc: "Athletics: +22, Genealogy Lore: +16, Religion: +20, Stealth: +10 (+22 in undergrowth), Survival: +25"
+    desc: "Athletics: +22, Religion: +20, Stealth: +10, Survival: +25, Genealogy Lore: +16"
 abilityMods: [7, 1, 5, 1, 4, 2]
 speed: 30 feet
 sourcebook: "_Pathfinder Bestiary 2_"

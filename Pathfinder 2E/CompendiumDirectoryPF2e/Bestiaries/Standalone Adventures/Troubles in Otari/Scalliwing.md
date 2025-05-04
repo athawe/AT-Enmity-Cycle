@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/couatl
   - pf2e/creature/type/good
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Scalliwing"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: Troubles in Otari"
 name: "Scalliwing"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "tiny"
-trait_01: "beast"
-trait_02: "chaotic"
-trait_03: "couatl"
-trait_04: "good"
+trait_01: [[beast]]
+trait_02: [[chaotic]]
+trait_03: [[couatl]]
+trait_04: [[good]]
 modifier: 12
 perception:
   - name: "Perception"

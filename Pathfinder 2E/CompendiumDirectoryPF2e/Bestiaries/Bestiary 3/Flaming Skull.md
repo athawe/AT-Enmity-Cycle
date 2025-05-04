@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/mindless
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Flaming Skull"
@@ -26,10 +27,10 @@ level: "Creature 2"
 
 alignment: ""
 size: "tiny"
-trait_01: "evil"
-trait_02: "mindless"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[mindless]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Necril"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8 (+10 to Maneuver in Flight)"
+    desc: "Acrobatics: +8"
 abilityMods: [1, 4, 1, -5, 3, 0]
 speed: 15 feet,  fly 30 feet
 sourcebook: "_Pathfinder Bestiary 3_"

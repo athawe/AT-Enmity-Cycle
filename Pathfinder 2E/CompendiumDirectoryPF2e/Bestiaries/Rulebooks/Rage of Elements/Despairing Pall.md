@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.rage-of-elements-bestiary.Actor.vM6zlGT02raJqPTu"
 tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/1
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 1"
 
 alignment: ""
 size: "Small"
-trait_01: "air"
-trait_02: "elemental"
+trait_01: [[air]]
+trait_02: [[elemental]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -65,7 +66,7 @@ attacks:
     desc: "`pf2:1` Lightning Bolt +7 (electricity, range increment 50 feet)\n__Damage__  1d6 electricity"
 
   - name: "Downcast"
-    desc: "`pf2:2` (air,emotion,mental) The despairing pall Flies up to its Speed, then rains gloom and despair in a 15-foot line straight down. Creatures in the area must succeed at a DC 16 Will check save or take a –1 status penalty to attack rolls until the end of the despairing pall's next turn.\n\n[[Bestiary Effects/Effect_ Downcast|Effect: Downcast]]"
+    desc: "`pf2:2` (air,emotion,mental) The despairing pall Flies up to its Speed, then rains gloom and despair in a @Template[line|distance:15] straight down. Creatures in the area must succeed at a DC 16 Will check save or take a –1 status penalty to attack rolls until the end of the despairing pall's next turn.\n\n[[Bestiary Effects/Effect_ Downcast|Effect: Downcast]]"
  
 ```
 

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Burning Mammoth Longshield"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #175: Broken Tusk Moon"
 name: "Burning Mammoth Longshield"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Hallit"
 skills:
   - name: "Skills"
-    desc: "Athletics: +6 (+8 to Shove with Shield Raised), Intimidation: +6, Survival: +6"
+    desc: "Athletics: +6, Intimidation: +6, Survival: +6"
 abilityMods: [3, 1, 3, 0, 1, 1]
 speed: 20 feet
 sourcebook: "_Pathfinder #175: Broken Tusk Moon_"

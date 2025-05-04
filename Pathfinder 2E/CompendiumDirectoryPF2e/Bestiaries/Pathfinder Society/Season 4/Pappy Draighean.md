@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.1G589gnuWGIOdrou"
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Pappy Draighean"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-16: Dacilane Academy&#x27;s First Great Prank War"
 name: "Pappy Draighean"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "fey"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
 modifier: 13
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Fey"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +10, Deception: +11, Gold Lore: +9, Nature: +9, Performance: +11, Thievery: +10"
+    desc: "Acrobatics: +10, Deception: +11, Nature: +9, Performance: +11, Thievery: +10, Gold Lore: +9"
 abilityMods: [1, 4, 1, 3, 3, 4]
 speed: 30 feet
 sourcebook: "_Pathfinder Society Scenario #4-16: Dacilane Academy&#x27;s First Great Prank War_"

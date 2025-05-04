@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aquatic
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/merfolk
+  - pf2eMonster
   - pf2e/creature/level/2
   - remaster
 statblock: inline
@@ -26,9 +27,9 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "aquatic"
-trait_02: "humanoid"
-trait_03: "merfolk"
+trait_01: [[aquatic]]
+trait_02: [[humanoid]]
+trait_03: [[merfolk]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -36,7 +37,7 @@ perception:
 languages: "Common, Thalassic"
 skills:
   - name: "Skills"
-    desc: "Athletics: +7 (+9 to Swim), Deception: +6, Nature: +8, Religion: +8"
+    desc: "Athletics: +7, Deception: +6, Nature: +8, Religion: +8"
 abilityMods: [3, 2, 0, 1, 4, 2]
 speed: 5 feet,  swim 30 feet
 sourcebook: "_Pathfinder Monster Core_"

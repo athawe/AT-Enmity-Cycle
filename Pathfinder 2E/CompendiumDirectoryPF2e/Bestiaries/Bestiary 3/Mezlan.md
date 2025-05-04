@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.Pvuvyd4RKVyiVWlJ" 
 tags:
   - pf2e/creature/type/ooze
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Mezlan"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Mezlan"
 level: "Creature 14"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "ooze"
+trait_01: [[ooze]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Aklo, Azlanti; polyglot"
 skills:
   - name: "Skills"
-    desc: "Athletics: +28, Deception: +27 (+31 to Impersonate), Occultism: +24, Stealth: +28"
+    desc: "Athletics: +28, Deception: +27, Occultism: +24, Stealth: +28"
 abilityMods: [8, 6, 5, 4, 5, 5]
 speed: 30 feet
 sourcebook: "_Pathfinder Bestiary 3_"

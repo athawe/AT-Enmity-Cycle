@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #4-11: Prisoners of the Electric Castle
 aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.TYB4yp93pCDfRevV" 
@@ -22,14 +23,14 @@ name: "In The Witch's Grasp"
 level: "Hazard 7"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 20
 sourcebook: "_Pathfinder Society Scenario #4-11: Prisoners of the Electric Castle_"
 ac: 23
 armorclass:
   - name: AC
-    desc: "23; __Fort__ +18, __Ref__ +12, __Will__ +0"
+    desc: "23; __Fort__ +18, __Ref__ +12, "
 hp: 20
 health:
   - name: ""

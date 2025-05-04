@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/fiend
   - pf2e/creature/type/troll
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Spark Troll (1-2)"
@@ -28,12 +29,12 @@ level: "Creature -1"
 
 alignment: ""
 size: "tiny"
-trait_01: "chaotic"
-trait_02: "elemental"
-trait_03: "evil"
-trait_04: "fiend"
-trait_05: "troll"
-trait_06: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[elemental]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
+trait_05: [[troll]]
+trait_06: [[unholy]]
 modifier: 3
 perception:
   - name: "Perception"
@@ -69,7 +70,7 @@ attacks:
     desc: "`pf2:1` Barbed Tongue +7 (finesse, reach 10 feet, unholy)\n__Damage__  1d4 piercing"
 
   - name: "Lightning Blast"
-    desc: "`pf2:2` (concentrate,electricity,primal) The spark troll calls lightning down from the sky, then redirects it out from their hands in a 40-foot line. Creatures in the line take 1d4 electricity damage (DC 16 Reflex check save)."
+    desc: "`pf2:2` (concentrate,electricity,primal) The spark troll calls lightning down from the sky, then redirects it out from their hands in a @Template[line|distance:40]. Creatures in the line take 1d4 electricity damage (DC 16 Reflex check save)."
  
 ```
 

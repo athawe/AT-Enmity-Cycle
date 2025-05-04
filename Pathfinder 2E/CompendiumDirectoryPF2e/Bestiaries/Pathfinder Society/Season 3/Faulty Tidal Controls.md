@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Society Special #3-98: Expedition Into Pallid Peril
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.riCZJcenSSIQckJi" 
@@ -22,14 +23,14 @@ name: "Faulty Tidal Controls"
 level: "Hazard 1"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 10
 sourcebook: "_Pathfinder Society Special #3-98: Expedition Into Pallid Peril_"
 ac: 19
 armorclass:
   - name: AC
-    desc: "19; __Fort__ +11, __Ref__ +4, __Will__ +0"
+    desc: "19; __Fort__ +11, __Ref__ +4, "
 hp: 23
 health:
   - name: ""

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.rage-of-elements-bestiary.Actor.qdVEmjf6e98KPzyK"
 tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/8
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 8"
 
 alignment: ""
 size: "Medium"
-trait_01: "air"
-trait_02: "elemental"
+trait_01: [[air]]
+trait_02: [[elemental]]
 modifier: 17
 perception:
   - name: "Perception"

@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/20
 statblock: inline
 name: "Balor"
@@ -27,11 +28,11 @@ level: "Creature 20"
 
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "demon"
-trait_03: "evil"
-trait_04: "fiend"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[demon]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
+trait_05: [[unholy]]
 modifier: 36
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ abilities_mid:
     desc: "`pf2:r`  The balor can use Attack of Opportunity when a creature within their reach uses a concentrate action, in addition to its normal trigger. They can disrupt triggering concentrate actions, and they disrupt actions on any hit, not just a critical hit.\n\n* * *\n"
 
   - name: "Aura of Flame"
-    desc: " (aura,divine,fire) 20 feet. A foe that starts its turn in the aura takes 3d6 + 10 fire damage, or 6d6 + 20 fire damage if the balor has [[Conditions/Grabbed|Grabbed]] or [[Conditions/Restrained|Restrained]] it. A creature that hits a balor with an unarmed Strike takes 3d6 + 10 fire damage, and weapons that hit a balor take 3d6 + 10 fire damage."
+    desc: " (aura,divine,fire) 20 feet. A foe that starts its turn in the aura takes 3d6+10 fire damage, or 6d6+20 fire damage if the balor has [[Conditions/Grabbed|Grabbed]] or [[Conditions/Restrained|Restrained]] it. A creature that hits a balor with an unarmed Strike takes 3d6+10 fire damage, and weapons that hit a balor take 3d6+10 fire damage."
 
   - name: "Death Throes"
     desc: " (death,divine,fire) When a balor dies, their body explodes in a 100-Foot Aura of intense demonic flame. All creatures and objects in range take 16d10 fire damage (DC 45 Reflex check save). Because the flame is infused with Abyssal energy, creatures in the area apply only half their usual fire resistance. Creatures with immunity to fire use an outcome one degree of success better than what they rolled, instead of gaining the usual benefit of immunity. The bodies of creatures reduced to 0 Hit Points by a balor's death throes are completely incinerated into fine ash."

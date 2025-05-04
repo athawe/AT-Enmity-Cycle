@@ -33,8 +33,10 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
-**Area** 5-foot emanation
-**Targets** enemies in area  - name: "Defense"
+
+  - name: "Area"
+    desc: "5-foot emanationenemies in area"
+  - name: "Defense"
     desc: " will"
   - name: "Duration"
     desc: "1 minute"

@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
   - pf2e/creature/type/wraith
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Aiudara Wraith"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #150: Broken Promises"
 name: "Aiudara Wraith"
 level: "Creature 18"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "astral"
-trait_02: "evil"
-trait_03: "incorporeal"
-trait_04: "undead"
-trait_05: "unholy"
-trait_06: "wraith"
+trait_01: [[astral]]
+trait_02: [[evil]]
+trait_03: [[incorporeal]]
+trait_04: [[undead]]
+trait_05: [[unholy]]
+trait_06: [[wraith]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -69,10 +70,10 @@ attacks:
     desc: "`pf2:1` Spectral Hand +35 (agile, finesse, magical)\n__Damage__  4d10 + 16 force plus dimensional-shunt,drain-life"
 
   - name: "Dimensional Shunt"
-    desc: "`pf2:2` (arcane,teleportation) The aiudara wraith's touch displaces creatures and flings them through space. The creature must attempt a DC 40 Fortitude check save.\n* * *\n\n**Critical Success** The creature is unaffected and becomes temporarily immune to dimensional shunt for 1 minute.\n\n**Success** The creature is pushed 5 feet in a random direction.\n\n**Failure** The creature is teleported 20 feet in a direction of the aiudara wraith's choice.\n\n**Critical Failure** As failure, but the creature is also [[Conditions/Stunned 1|Stunned 2]]."
+    desc: "`pf2:2` (arcane,teleportation) The aiudara wraith's touch displaces creatures and flings them through space. The creature must attempt a DC 40 Fortitude check save.\n* * *\n\n**Critical Success** The creature is unaffected and becomes temporarily immune to dimensional shunt for 1 minute.\n\n**Success** The creature is pushed 5 feet in a random direction.\n\n**Failure** The creature is teleported 20 feet in a direction of the aiudara wraith's choice.\n\n**Critical Failure** As failure, but the creature is also [[Conditions/Stunned|Stunned 2]]."
 
   - name: "Drain Life"
-    desc: " (arcane) When an aiudara wraith damages a living creature with its spectral hand Strike, the aiudara wraith gains 18 temporary Hit Points and the target must succeed at a DC 40 Fortitude check save or become [[Conditions/Drained 1|Drained 1]] and [[Conditions/Stupefied 1|Stupefied 1]] as long as it is drained. Further damage dealt by the aiudara wraith's spectral hand Strikes increases the value of the drained and stupefied conditions by 1 each on a failed save, to a maximum of 10 for both."
+    desc: " (arcane) When an aiudara wraith damages a living creature with its spectral hand Strike, the aiudara wraith gains 18 temporary Hit Points and the target must succeed at a DC 40 Fortitude check save or become [[Conditions/Drained|Drained 1]] and [[Conditions/Stupefied|Stupefied 1]] as long as it is drained. Further damage dealt by the aiudara wraith's spectral hand Strikes increases the value of the drained and stupefied conditions by 1 each on a failed save, to a maximum of 10 for both."
 
   - name: "Instantaneous Movement"
     desc: " (arcane,teleportation) An aiudara wraith moves by means of localized teleportation. An aiudara wraith's Stride does not have the move trait. When an aiudara wraith Strides, it reaches its destination within the range of its Speed immediately."

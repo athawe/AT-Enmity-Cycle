@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/halfling
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Edgrin Galesong"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Adventure: Crown of the Kobold King"
 name: "Edgrin Galesong"
 level: "Creature 2"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "good"
-trait_03: "halfling"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[good]]
+trait_03: [[halfling]]
+trait_04: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common, Draconic, Halfling"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Bardic Lore: +7, Deception: +8, Diplomacy: +8, Performance: +8, Society: +7, Stealth: +7"
+    desc: "Acrobatics: +7, Deception: +8, Diplomacy: +8, Performance: +8, Society: +7, Stealth: +7, Bardic Lore: +7"
 abilityMods: [-1, 3, 2, 1, 1, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Adventure: Crown of the Kobold King_"

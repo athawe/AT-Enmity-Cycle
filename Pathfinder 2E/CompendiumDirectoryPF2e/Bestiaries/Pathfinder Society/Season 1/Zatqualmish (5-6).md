@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/gnome
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Zatqualmish (5-6)"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Quest #8: Shadows of the Black Sovereign"
 name: "Zatqualmish (5-6)"
 level: "Creature 6"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "gnome"
-trait_03: "humanoid"
+trait_01: [[evil]]
+trait_02: [[gnome]]
+trait_03: [[humanoid]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Dwarven, Elven, Fey, Gnomish"
 skills:
   - name: "Skills"
-    desc: "Crafting: +9, Deception: +14, Diplomacy: +12, Legal Lore: +9, Occultism: +11, Performance: +14, Society: +11 (+12 to Create Forgeries), Thievery: +11, Underworld Lore: +9"
+    desc: "Crafting: +9, Deception: +14, Diplomacy: +12, Occultism: +11, Performance: +14, Society: +11, Thievery: +11, Legal Lore: +9, Underworld Lore: +9"
 abilityMods: [1, 3, 2, 1, 1, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Society Quest #8: Shadows of the Black Sovereign_"

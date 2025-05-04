@@ -6,6 +6,7 @@ tags:
   - fire
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Society Special #3-99: Fate in the Future
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.hjdO3H4Kh3iZbRAD" 
@@ -23,9 +24,9 @@ name: "Firespark Trap (3-4)"
 level: "Hazard 3"
 
 
-trait_01: "fire"
-trait_02: "magical"
-trait_03: "trap"
+trait_01: [[fire]]
+trait_02: [[magical]]
+trait_03: [[trap]]
 modifier: 11
 sourcebook: "_Pathfinder Society Special #3-99: Fate in the Future_"
 perception:

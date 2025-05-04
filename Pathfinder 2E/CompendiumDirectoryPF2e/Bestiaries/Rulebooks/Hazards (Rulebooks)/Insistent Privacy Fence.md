@@ -6,6 +6,7 @@ tags:
   - electricity
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder Guns &amp; Gears
 aliases: "Compendium.pf2e.hazards.Actor.mWhmhYBHH9X1Ebb9" 
@@ -23,15 +24,15 @@ name: "Insistent Privacy Fence"
 level: "Hazard 8"
 
 
-trait_01: "electricity"
-trait_02: "mechanical"
-trait_03: "trap"
+trait_01: [[electricity]]
+trait_02: [[mechanical]]
+trait_03: [[trap]]
 modifier: 30
 sourcebook: "_Pathfinder Guns & Gears_"
 ac: 25
 armorclass:
   - name: AC
-    desc: "25; __Fort__ +20, __Ref__ +14, __Will__ +0"
+    desc: "25; __Fort__ +20, __Ref__ +14, "
 hp: 60
 health:
   - name: ""

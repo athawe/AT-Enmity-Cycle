@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - mechanical
+  - pf2eHazard
   - complex
 source: Pathfinder #161: Belly of the Black Whale
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.b7AnzEzoMGFpM33z" 
@@ -21,13 +22,13 @@ name: "Ink Drowning Vats"
 level: "Hazard 18"
 
 trait_06: "Complex"
-trait_01: "mechanical"
+trait_01: [[mechanical]]
 modifier: 36
 sourcebook: "_Pathfinder #161: Belly of the Black Whale_"
 ac: 39
 armorclass:
   - name: AC
-    desc: "39; __Fort__ +30, __Ref__ +27, __Will__ +0"
+    desc: "39; __Fort__ +30, __Ref__ +27, "
 hp: 112
 health:
   - name: ""

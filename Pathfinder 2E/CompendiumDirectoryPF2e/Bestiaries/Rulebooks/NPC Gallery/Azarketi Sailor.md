@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/azarketi
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Azarketi Sailor"
@@ -26,10 +27,10 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "amphibious"
-trait_02: "azarketi"
-trait_03: "chaotic"
-trait_04: "humanoid"
+trait_01: [[amphibious]]
+trait_02: [[azarketi]]
+trait_03: [[chaotic]]
+trait_04: [[humanoid]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +8, Athletics: +7 (+9 to Swim), Nature: +5, Sailing Lore: +6, Stealth: +8 (+10 underwater), Survival: +7"
+    desc: "Acrobatics: +8, Athletics: +7, Nature: +5, Stealth: +8, Survival: +7, Sailing Lore: +6"
 abilityMods: [3, 4, 2, 0, 1, 1]
 speed: 25 feet,  swim 25 feet
 sourcebook: "_Pathfinder Lost Omens: Absalom, City of Lost Omens_"

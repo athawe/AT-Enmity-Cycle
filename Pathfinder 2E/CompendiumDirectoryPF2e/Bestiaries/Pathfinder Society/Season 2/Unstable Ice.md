@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - trap
+  - pf2eHazard
 
 source: Pathfinder Bounty #1: The Whitefang Wyrm
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.NFKQObG0b0lVsvgS" 
@@ -22,8 +23,8 @@ name: "Unstable Ice"
 level: "Hazard 0"
 
 
-trait_01: "environmental"
-trait_02: "trap"
+trait_01: [[environmental]]
+trait_02: [[trap]]
 modifier: 5
 sourcebook: "_Pathfinder Bounty #1: The Whitefang Wyrm_"
 perception:

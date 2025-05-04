@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Jamandi Aldori"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Jamandi Aldori"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "aiuvarin"
-trait_02: "chaotic"
-trait_03: "elf"
-trait_04: "good"
-trait_05: "human"
-trait_06: "humanoid"
+trait_01: [[aiuvarin]]
+trait_02: [[chaotic]]
+trait_03: [[elf]]
+trait_04: [[good]]
+trait_05: [[human]]
+trait_06: [[humanoid]]
 modifier: 23
 perception:
   - name: "Perception"
@@ -41,7 +42,7 @@ perception:
 languages: "Common, Elven, Hallit"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +29, Athletics: +27, Diplomacy: +24, Intimidation: +26, Restov Lore: +23, Society: +23"
+    desc: "Acrobatics: +29, Athletics: +27, Diplomacy: +24, Intimidation: +26, Society: +23, Restov Lore: +23"
 abilityMods: [3, 5, 2, 1, 3, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder Kingmaker_"

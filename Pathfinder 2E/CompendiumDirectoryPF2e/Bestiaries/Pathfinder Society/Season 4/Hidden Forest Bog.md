@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #4-99: Blessings of the Forest
 aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.eon011qZn3I3wYxK" 
@@ -21,7 +22,7 @@ name: "Hidden Forest Bog"
 level: "Hazard 2"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 11
 sourcebook: "_Pathfinder Society Scenario #4-99: Blessings of the Forest_"
 perception:

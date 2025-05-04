@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.sky-kings-tomb-bestiary.Actor.MKMVa2UeDQOBu49a"
 tags:
   - pf2e/creature/type/animal
   - pf2e/creature/type/swarm
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Bloodseeker Swarm"
@@ -24,8 +25,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Medium"
-trait_01: "animal"
-trait_02: "swarm"
+trait_01: [[animal]]
+trait_02: [[swarm]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -55,7 +56,7 @@ attacks:
   - name: ""
 
   - name: "Blood Draining Bites"
-    desc: "`pf2:1`  Each creature in the swarm's space takes 1d6 piercing damage plus 1d6 persistent bleed damage and is [[Conditions/Drained 1|Drained 1]]. A successful DC 20 Reflex check save reduces the piercing damage by half and negates the bleed damage and drained condition."
+    desc: "`pf2:1`  Each creature in the swarm's space takes 1d6 piercing damage plus 1d6 persistent bleed damage and is [[Conditions/Drained|Drained 1]]. A successful DC 20 Reflex check save reduces the piercing damage by half and negates the bleed damage and drained condition."
  
 ```
 
@@ -73,7 +74,7 @@ Decades ago, the Court of Ether bred bloodseekers as show animals, thinking them
 
 #### Bloodseeker Swarm
 
-The Court of Ether release the less useful, smaller breed of bloodseekers into the Endless Gulf, where they form into dangerous swarms of the insatiable devourers. This has lead to a dangerous new game, Seek-a-Bang, where fey mounted on giant bloodseekers throw thunderstones at swarms of their mounts’ smaller cousins and see how many they can kill with a single throw. So far, the fatalities are few enough to be acceptable.
+The Court of Ether release the less useful, smaller breed of bloodseekers into the Endless Gulf, where they form into dangerous swarms of the insatiable devourers. This has lead to a dangerous new game, Seek-a-Bang, where fey mounted on giant bloodseekers throw thunderstones at swarms of their mounts' smaller cousins and see how many they can kill with a single throw. So far, the fatalities are few enough to be acceptable.
 
 #### Bloodseeker Breeds
 

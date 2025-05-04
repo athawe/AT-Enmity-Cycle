@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/monitor
   - pf2e/creature/type/protean
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Akizendri"
@@ -25,9 +26,9 @@ level: "Creature 3"
 
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "monitor"
-trait_03: "protean"
+trait_01: [[chaotic]]
+trait_02: [[monitor]]
+trait_03: [[protean]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -75,13 +76,13 @@ attacks:
     desc: "`pf2:1` (concentrate,divine,polymorph) The akizendri takes on the appearance of any Small or smaller creature. This doesn't change its Speed or its attack and damage bonuses with its Strikes, but might change the damage type its Strikes deal.\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Constrict|Constrict]]"
-    desc: "`pf2:1`  1d8 + 3 bludgeoning damage, DC 20 Fortitude check\n\n* * *\n"
+    desc: "`pf2:1`  1d8+3 bludgeoning damage, DC 20 Fortitude check\n\n* * *\n"
 
   - name: "Garbled Thoughts"
-    desc: " (divine,emotion,mental) A creature hit by the akizendri's bite Strike must attempt a DC 20 Will check save.\n\n**Success** The creature is unaffected.\n\n**Failure** The creature is [[Conditions/Stupefied 1|Stupefied 1]] for 1d4 rounds.\n\n**Critical Failure** As failure, but the creature is also [[Conditions/Confused|Confused]] for 1 round."
+    desc: " (divine,emotion,mental) A creature hit by the akizendri's bite Strike must attempt a DC 20 Will check save.\n\n**Success** The creature is unaffected.\n\n**Failure** The creature is [[Conditions/Stupefied|Stupefied 1]] for 1d4 rounds.\n\n**Critical Failure** As failure, but the creature is also [[Conditions/Confused|Confused]] for 1 round."
 
   - name: "Text Immersion"
-    desc: " (divine) When the akizendri casts [[Spells/Secret Page|Secret Page]], it can physically immerse itself in the text, changing the message of the text in the process. It can exit the book at any point by Dismissing _secret page_, at which point it appears in a space adjacent to the text. If it does so to begin combat, it rolls a Deception check for initiative. As long as it remains immersed in the text, the akizendri has no body. It can communicate telepathically with a creature as long as the creature touches the book or scroll that contains the secret page. It can sense nearby creatures using its entropy sense, but not in any other way, nor can it use any attack, manipulate, or move actions or speak aloud. If the object it is immersed in is destroyed, the akizendri reappears in an adjacent square and is [[Conditions/Stunned 1|Stunned 1]]."
+    desc: " (divine) When the akizendri casts [[Spells/Secret Page|Secret Page]], it can physically immerse itself in the text, changing the message of the text in the process. It can exit the book at any point by Dismissing _secret page_, at which point it appears in a space adjacent to the text. If it does so to begin combat, it rolls a Deception check for initiative. As long as it remains immersed in the text, the akizendri has no body. It can communicate telepathically with a creature as long as the creature touches the book or scroll that contains the secret page. It can sense nearby creatures using its entropy sense, but not in any other way, nor can it use any attack, manipulate, or move actions or speak aloud. If the object it is immersed in is destroyed, the akizendri reappears in an adjacent square and is [[Conditions/Stunned|Stunned 1]]."
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

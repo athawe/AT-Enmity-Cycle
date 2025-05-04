@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/holy
   - pf2e/creature/type/lawful
   - pf2e/creature/type/petitioner
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Petitioner (Heaven)"
@@ -27,11 +28,11 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "celestial"
-trait_02: "good"
-trait_03: "holy"
-trait_04: "lawful"
-trait_05: "petitioner"
+trait_01: [[celestial]]
+trait_02: [[good]]
+trait_03: [[holy]]
+trait_04: [[lawful]]
+trait_05: [[petitioner]]
 modifier: 7
 perception:
   - name: "Perception"

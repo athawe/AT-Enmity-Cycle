@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - magical
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #4-16: Dacilane Academy&#x27;s First Great Prank War
 aliases: "Compendium.pf2e.pfs-season-4-bestiary.Actor.TzfxNwZgSLCaIRcL" 
@@ -22,14 +23,14 @@ name: "Hallways Full of Even More Mostly Illusory Opossums"
 level: "Hazard 5"
 
 
-trait_01: "environmental"
-trait_02: "magical"
+trait_01: [[environmental]]
+trait_02: [[magical]]
 modifier: 10
 sourcebook: "_Pathfinder Society Scenario #4-16: Dacilane Academy's First Great Prank War_"
 ac: 25
 armorclass:
   - name: AC
-    desc: "25; __Fort__ +17, __Ref__ +15, __Will__ NaN"
+    desc: "25; __Fort__ +17, __Ref__ +15, "
 hp: 54
 health:
   - name: ""

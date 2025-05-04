@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.S2DdLrq9V7M5WzM3"
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Dvorovoi"
@@ -24,8 +25,8 @@ level: "Creature 3"
 
 alignment: ""
 size: "Small"
-trait_01: "chaotic"
-trait_02: "fey"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Fey"
 skills:
   - name: "Skills"
-    desc: "Crafting: +8, Household Lore: +11, Nature: +9, Stealth: +9"
+    desc: "Crafting: +8, Nature: +9, Stealth: +9, Household Lore: +11"
 abilityMods: [3, 2, 1, -1, 0, 1]
 speed: 30 feet
 sourcebook: "_Pathfinder Bestiary 3_"

@@ -28,8 +28,7 @@ abilities_top:
   - name: "Traditions"
     desc: "divine, primal"
   - name: "Range"
-    desc: "120 feet; **Area** 20-foot burst
-"
+    desc: "120 feet; **Area** 20-foot burst"
   - name: "Defense"
     desc: "basic fortitude"
 abilities_mid:

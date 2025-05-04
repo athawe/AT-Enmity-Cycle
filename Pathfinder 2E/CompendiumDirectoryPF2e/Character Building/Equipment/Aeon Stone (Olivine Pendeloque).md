@@ -20,7 +20,7 @@ license: OGL
 **Bulk** 0; **Size** med
 **Usage** worn
 
-An _olivine pendeloque aeon stone_ imparts the calmness of still earth and a solidity of thought, granting you a +2 item bonus to saving throws against effects that cause the [[Conditions/Confused|Confused]], [[Conditions/Frightened 1|Frightened]], or [[Conditions/Stupefied 1|Stupefied]] conditions.
+An _olivine pendeloque aeon stone_ imparts the calmness of still earth and a solidity of thought, granting you a +3 item bonus to saving throws against effects that cause the [[Conditions/Confused|Confused]], [[Conditions/Frightened 1|Frightened]], or [[Conditions/Stupefied 1|Stupefied]] conditions.
 
 **Activate—Still Earth** `pf2:r` (concentrate)
 

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/dwarf
   - pf2e/creature/type/good
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Krohan Veldollow"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #193: Mantle of Gold"
 name: "Krohan Veldollow"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "dwarf"
-trait_02: "good"
-trait_03: "humanoid"
+trait_01: [[dwarf]]
+trait_02: [[good]]
+trait_03: [[humanoid]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Dwarven, Sakvroth"
 skills:
   - name: "Skills"
-    desc: "Athletics: +9, Dwarf Lore: +8, Medicine: +8, Occultism: +8, Society: +6, Stealth: +5"
+    desc: "Athletics: +9, Medicine: +8, Occultism: +8, Society: +6, Stealth: +5, Dwarf Lore: +8"
 abilityMods: [2, 0, 2, 1, 3, 1]
 speed: 20 feet
 sourcebook: "_Pathfinder #193: Mantle of Gold_"

@@ -27,6 +27,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
 abilities_mid:
   - name: ""
     desc: "**Trigger** You expend one of your wizard spell slots to cast a wizard spell of the necromancy school.\n* * *\n\nYou use some of the spell's magic to heal yourself, regaining 1d8 Hit Points per rank of the spell."

@@ -26,6 +26,7 @@ abilities_top:
     desc: "1 day; **Cost** costumes and a stage large enough to fit all casters;"
   - name: "Primary Check"
     desc: "Occultism (expert); **Secondary Checks** Crafting, Performance"
+
   - name: "Duration"
     desc: "1 month"
 abilities_mid:

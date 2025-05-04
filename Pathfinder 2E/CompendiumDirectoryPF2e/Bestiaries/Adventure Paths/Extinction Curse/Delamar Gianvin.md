@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Delamar Gianvin"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #152: Legacy of the Lost God"
 name: "Delamar Gianvin"
 level: "Creature 6"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Elven"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +15, Circus Lore: +10, Criminal Lore: +10, Deception: +14, Diplomacy: +14, Society: +12, Stealth: +17, Thievery: +15"
+    desc: "Acrobatics: +15, Deception: +14, Diplomacy: +14, Society: +12, Stealth: +17, Thievery: +15, Circus Lore: +10, Criminal Lore: +10"
 abilityMods: [1, 5, 0, 2, 2, 4]
 speed: 30 feet
 sourcebook: "_Pathfinder #152: Legacy of the Lost God_"
@@ -69,7 +70,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Rapier +17 (deadly d8, disarm, finesse, magical)\n__Damage__  1d6 + 5 piercing"
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Hand Crossbow +16 (range increment 60 feet, reload 1)\n__Damage__  1d6 + 5 piercing"
 
   - name: "Quick Draw"

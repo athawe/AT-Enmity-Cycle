@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.RtWlzHaOrfFdJyJY"
 tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/21
 statblock: inline
 name: "Alchemical Horror"
@@ -24,8 +25,8 @@ level: "Creature 21"
 
 alignment: ""
 size: "huge"
-trait_01: "aberration"
-trait_02: "evil"
+trait_01: [[aberration]]
+trait_02: [[evil]]
 modifier: 35
 perception:
   - name: "Perception"
@@ -64,10 +65,10 @@ attacks:
     desc: "`pf2:1` Pseudopod +37 (acid, magical, reach 15 feet)\n__Damage__  4d10 + 18 bludgeoning 2d6 acid"
 
   - name: "Alchemical Torrent"
-    desc: "`pf2:2` (acid,primal) The alchemical horror spews a torrent of alchemical fluids in a 30-foot cone that deals 20d6 acid damage to creatures in the area (DC 43 Reflex check save).\n\nThe alchemical horror can't use this ability again for 1d4 rounds."
+    desc: "`pf2:2` (acid,primal) The alchemical horror spews a torrent of alchemical fluids in a @Template[cone|distance:30] that deals 20d6 acid damage to creatures in the area (DC 43 Reflex check save).\n\nThe alchemical horror can't use this ability again for 1d4 rounds."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Large, 4d12 + 18 bludgeoning damage, Rupture 40\n\n* * *\n"
+    desc: "`pf2:1` (attack) Large, 4d12+18 bludgeoning damage, Rupture 40\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

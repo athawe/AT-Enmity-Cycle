@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder Adventure: Crown of the Kobold King
 aliases: "Compendium.pf2e.crown-of-the-kobold-king-bestiary.Actor.Fc7tNLDNl86CAXEG" 
@@ -21,7 +22,7 @@ name: "Unsafe Stairs"
 level: "Hazard 0"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 6
 sourcebook: "_Pathfinder Adventure: Crown of the Kobold King_"
 perception:

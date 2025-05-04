@@ -32,7 +32,11 @@ abilities_top:
     desc: "arcane, divine, primal"
   - name: "Cast"
     desc: "1 minute"
-**Targets** 1 body of water of at least 5 square feet  - name: "Duration"
+
+  - name: "Targets"
+
+    desc: "1 body of water of at least 5 square feet"
+  - name: "Duration"
     desc: "10 minutes"
 abilities_mid:
   - name: ""

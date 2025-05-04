@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - haunt
+  - pf2eHazard
   - complex
 source: Pathfinder #197: Let the Leaves Fall
 aliases: "Compendium.pf2e.season-of-ghosts-bestiary.Actor.oqykabSneBB3BM90" 
@@ -21,13 +22,13 @@ name: "Arms of the Drowned"
 level: "Hazard 3"
 
 trait_06: "Complex"
-trait_01: "haunt"
+trait_01: [[haunt]]
 modifier: 20
 sourcebook: "_Pathfinder #197: Let the Leaves Fall_"
 ac: 19
 armorclass:
   - name: AC
-    desc: "19; __Fort__ +6, __Ref__ +12, __Will__ NaN"
+    desc: "19; __Fort__ +6, __Ref__ +12, "
 hp: 46
 health:
   - name: ""

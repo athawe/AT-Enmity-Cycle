@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.QAodADCKmbkf53CE"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/-1
 statblock: inline
 name: "Librarian"
@@ -24,8 +25,8 @@ level: "Creature -1"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Academia Lore: +11, Arcana: +9, Library Lore: +13, Nature: +8, Religion: +8"
+    desc: "Arcana: +9, Nature: +8, Religion: +8, Academia Lore: +11, Library Lore: +13"
 abilityMods: [0, 1, 0, 4, 3, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

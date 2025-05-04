@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Valeros (Beginner Box)
-creatures:
-  - 1: Valeros (Beginner Box)
-```
-
 
 
 

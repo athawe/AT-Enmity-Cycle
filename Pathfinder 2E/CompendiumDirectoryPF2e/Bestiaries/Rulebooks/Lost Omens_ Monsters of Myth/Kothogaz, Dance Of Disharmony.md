@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/21
 statblock: inline
 name: "Kothogaz, Dance Of Disharmony"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Lost Omens: Monsters of Myth"
 name: "Kothogaz, Dance Of Disharmony"
 level: "Creature 21"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "grg"
-trait_01: "beast"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[beast]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 41
 perception:
   - name: "Perception"
@@ -63,7 +64,7 @@ abilities_mid:
     desc: "  Kothogaz is permanently [[Conditions/Quickened|Quickened 1]]. It can use this extra action to Stride or Strike."
 
   - name: "Noxious Aura"
-    desc: " (aura,poison) 120 feet. A creature that enters or begins its turn in the emanation must succeed at a DC 41 Fortitude check save or be [[Conditions/Sickened 1|Sickened 2]] (sickened 3 on a critical failure)."
+    desc: " (aura,poison) 120 feet. A creature that enters or begins its turn in the emanation must succeed at a DC 41 Fortitude check save or be [[Conditions/Sickened|Sickened 2]] (sickened 3 on a critical failure)."
 
   - name: "Reactive"
     desc: "  Kothogaz gains 3 reactions each round."
@@ -87,7 +88,7 @@ attacks:
     desc: "`pf2:2` (auditory,teleportation) Kothogaz disappears, then bursts as a cacophonous sound from the throat of a creature within 240 feet. Kothogaz appears within reach of the creature and makes a melee Strike against it. The Strike deals an additional 2d12 sonic damage."
 
   - name: "Many-Eyed Blight"
-    desc: " (disease,virulent) DC 44 Fortitude check\n\n**Stage 1** [[Conditions/Stupefied 1|Stupefied 2]]\n\n**Stage 2** stupefied 2 and [[Conditions/Dazzled|Dazzled]]\n\n**Stage 3** [[Conditions/Stupefied 1|Stupefied 3]], [[Conditions/Confused|Confused]], and [[Conditions/Blinded|Blinded]]\n\n**Stage 4** if you die, at the next new moon, your body splits, and your viscera become an undead under Kothogaz's control."
+    desc: " (disease,virulent) DC 44 Fortitude check\n\n**Stage 1** [[Conditions/Stupefied|Stupefied 2]]\n\n**Stage 2** stupefied 2 and [[Conditions/Dazzled|Dazzled]]\n\n**Stage 3** [[Conditions/Stupefied|Stupefied 3]], [[Conditions/Confused|Confused]], and [[Conditions/Blinded|Blinded]]\n\n**Stage 4** if you die, at the next new moon, your body splits, and your viscera become an undead under Kothogaz's control."
 
   - name: "Pox the Land"
     desc: "`pf2:2` (poison) Kothogaz raises a pustule from the ground within 120 feet, which erupts in a 10-foot radius, 200-foot-high cylinder of cloying filth. Creatures in the area must succeed at a DC 44 Reflex check save or take 6d10 poison damage. On a failure, they can't fly for 1 round (1 minute on a critical failure); flying creatures fall safely to the ground."
@@ -96,7 +97,7 @@ attacks:
     desc: "`pf2:1`  The earth festers in Kothogaz's wake. Kothogaz Strides up to its Speed. Squares through which Kothogaz passes are greater difficult terrain until the start of its next turn, and any creature that enters or begins its turn in those squares must succeed at a DC 44 Reflex check save or take 4d10 poison damage and 4d10 acid damage (on a critical failure, double damage and exposed to many-eyed blight)."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Huge, 4d10+18 bludgeoning plus 2d12 sonic and [[Conditions/Clumsy 1|Clumsy 1]] while swallowed, Rupture 40"
+    desc: "`pf2:1` (attack) Huge, 4d10+18 bludgeoning plus 2d12 sonic and [[Conditions/Clumsy|Clumsy 1]] while swallowed, Rupture 40"
  
 ```
 

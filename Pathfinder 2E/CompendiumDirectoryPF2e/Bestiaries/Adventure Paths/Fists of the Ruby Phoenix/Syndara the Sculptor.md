@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/lawful
   - pf2e/creature/type/monitor
+  - pf2eMonster
   - pf2e/creature/level/22
 statblock: inline
 name: "Syndara the Sculptor"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #168: King of the Mountain"
 name: "Syndara the Sculptor"
 level: "Creature 22"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "aeon"
-trait_02: "evil"
-trait_03: "lawful"
-trait_04: "monitor"
+trait_01: [[aeon]]
+trait_02: [[evil]]
+trait_03: [[lawful]]
+trait_04: [[monitor]]
 modifier: 39
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Senzar, Taldane, Tien, Utopian"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +41, Arcana: +37, Athletics: +39, Deception: +34, Demiplane Lore: +45, Intimidation: +39, Occultism: +37"
+    desc: "Acrobatics: +41, Arcana: +37, Athletics: +39, Deception: +34, Intimidation: +39, Occultism: +37, Demiplane Lore: +45"
 abilityMods: [10, 11, 8, 8, 11, 7]
 speed: 40 feet
 sourcebook: "_Pathfinder #168: King of the Mountain_"
@@ -110,7 +111,7 @@ attacks:
     desc: "`pf2:2`  **Frequency** once per round\n* * *\n\n**Effect** Syndara bends time to make multiple attacks. He makes three unarmed Strikes. If multiple attacks hit the same creature, combine their damage for the purpose of resistances and weaknesses."
 
   - name: "Vicious Impact"
-    desc: "  Syndara has had an eternity to reflect on his own weaknesses and the weakness of others. If he critically hits with a melee Strike, he can target the eyes, joints, or other weak points to add one of the following effects of his choice unless the target succeeds on a DC 46 Fortitude check save.\n\n- The target becomes [[Conditions/Clumsy 1|Clumsy 1]] for 1 minute.\n\n- The target becomes [[Conditions/Enfeebled 1|Enfeebled 1]] for 1 minute.\n\n- The target takes 3d6 bleed.\n\n- The target can't Step for 1 minute."
+    desc: "  Syndara has had an eternity to reflect on his own weaknesses and the weakness of others. If he critically hits with a melee Strike, he can target the eyes, joints, or other weak points to add one of the following effects of his choice unless the target succeeds on a DC 46 Fortitude check save.\n\n- The target becomes [[Conditions/Clumsy|Clumsy 1]] for 1 minute.\n\n- The target becomes [[Conditions/Enfeebled|Enfeebled 1]] for 1 minute.\n\n- The target takes 3d6 bleed.\n\n- The target can't Step for 1 minute."
 
   - name: "Walk the Spiral"
     desc: "  **Requirements** Syndara is in the Glass Lighthouse\n\n**Trigger** Syndara Strikes a creature on his own turn\n* * *\n\n**Effect** Syndara rotates the space of the Glass Lighthouse around himself to carry him to a distant location in an instant. He Strides twice. This movement doesn't trigger reactions. If his next action is to attack a different target than the triggering creature, he gains a +1 circumstance bonus to that attack; each time he Walks the Spiral in a turn, this bonus increases by 1, to a maximum of +3."

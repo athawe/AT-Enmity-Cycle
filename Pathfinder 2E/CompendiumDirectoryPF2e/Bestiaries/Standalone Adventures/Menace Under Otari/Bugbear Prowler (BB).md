@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.menace-under-otari-bestiary.Actor.UjREHs2JQoO85Glt"
 tags:
   - pf2e/creature/type/bugbear
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
   - remaster
 statblock: inline
@@ -25,8 +26,8 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "bugbear"
-trait_02: "humanoid"
+trait_01: [[bugbear]]
+trait_02: [[humanoid]]
 modifier: 7
 perception:
   - name: "Perception"

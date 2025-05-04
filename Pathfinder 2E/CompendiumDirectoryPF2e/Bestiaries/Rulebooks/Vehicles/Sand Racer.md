@@ -5,6 +5,7 @@ noteType: pf2eVehicle
 cssClasses: pf2e
 tags:
   - magical
+  - pf2eVehicle
 
 source: Pathfinder #173: Doorway to the Red Star
 aliases: "Compendium.pf2e.vehicles.Actor.8rXCF2Fr4iA0VmFx" 
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #173: Doorway to the Red Star"
 name: "Sand Racer"
 level: "Vehicle 15"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 
 size: "Large"
-trait_01: "magical"
+trait_01: [[magical]]
 modifier: 
 perception:
   - name: ""

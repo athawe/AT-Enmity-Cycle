@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.VHXsmfnOBRBXB6TL" 
 tags:
   - pf2e/creature/type/animal
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Megalania"
@@ -23,7 +24,7 @@ level: "Creature 7"
 
 alignment: ""
 size: "huge"
-trait_01: "animal"
+trait_01: [[animal]]
 modifier: 15
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Athletics: +18, Stealth: +15 (+17 in Undergrowth)"
+    desc: "Athletics: +18, Stealth: +15"
 abilityMods: [7, 2, 4, -4, 2, -2]
 speed: 25 feet,  swim 25 feet
 sourcebook: "_Pathfinder Bestiary 2_"
@@ -56,10 +57,10 @@ attacks:
     desc: "`pf2:1` Jaws +18 (reach 10 feet)\n__Damage__  2d10 + 9 piercing plus grab,megalania-venom"
 
   - name: "Megalania Venom"
-    desc: " (poison) **Saving Throw** DC 25 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage and [[Conditions/Clumsy 1|Clumsy 1]] (1 round)\n\n**Stage 2** 2d6 poison damage, [[Conditions/Clumsy 1|Clumsy 2]], and [[Conditions/Off-Guard|Off-Guard]] (1 round)\n\n**Stage 3** 2d6 poison damage, [[Conditions/Clumsy 1|Clumsy 3]], and [[Conditions/Off-Guard|Off-Guard]] (1 round)"
+    desc: " (poison) **Saving Throw** DC 25 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison damage and [[Conditions/Clumsy|Clumsy 1]] (1 round)\n\n**Stage 2** 2d6 poison damage, [[Conditions/Clumsy|Clumsy 2]], and [[Conditions/Off-Guard|Off-Guard]] (1 round)\n\n**Stage 3** 2d6 poison damage, [[Conditions/Clumsy|Clumsy 3]], and [[Conditions/Off-Guard|Off-Guard]] (1 round)"
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Large, 2d10 + 7 bludgeoning, Rupture 16\n\n* * *\n"
+    desc: "`pf2:1` (attack) Large, 2d10+7 bludgeoning, Rupture 16\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

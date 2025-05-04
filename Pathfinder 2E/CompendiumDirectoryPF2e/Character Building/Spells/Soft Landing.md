@@ -26,8 +26,7 @@ abilities_top:
   - name: "Traditions"
     desc: "arcane, occult, primal"
   - name: "Range"
-    desc: "1 mile; **Area** 60-foot emanation
-"
+    desc: "1 mile; **Area** 60-foot emanation"
   - name: "Duration"
     desc: "1 minute"
 abilities_mid:

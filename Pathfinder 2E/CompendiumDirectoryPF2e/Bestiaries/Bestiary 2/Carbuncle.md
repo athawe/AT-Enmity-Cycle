@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.tdCyjq57rgfPezjT" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Carbuncle"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 2"
 name: "Carbuncle"
 level: "Creature 1"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "tiny"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 7
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "carbuncle empathy 30 feet"
 skills:
   - name: "Skills"
-    desc: "Stealth: +3 (+7 in grass or undergrowth), Survival: +6"
+    desc: "Stealth: +3, Survival: +6"
 abilityMods: [-3, 0, 3, -2, 3, 0]
 speed: 15 feet
 sourcebook: "_Pathfinder Bestiary 2_"

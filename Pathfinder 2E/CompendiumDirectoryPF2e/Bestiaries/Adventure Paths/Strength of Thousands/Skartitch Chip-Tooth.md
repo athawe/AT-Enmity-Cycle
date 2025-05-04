@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/ratfolk
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Skartitch Chip-Tooth"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #173: Doorway to the Red Star"
 name: "Skartitch Chip-Tooth"
 level: "Creature 16"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "evil"
-trait_02: "humanoid"
-trait_03: "lawful"
-trait_04: "ratfolk"
+trait_01: [[evil]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
+trait_04: [[ratfolk]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Akitonian, Shobhad"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +29, Athletics: +26, Deception: +31, Diplomacy: +29, Engineering Lore: +27, Intimidation: +31, Occultism: +25, Society: +27, Stealth: +29, Thievery: +31, Underworld Lore: +29"
+    desc: "Acrobatics: +29, Athletics: +26, Deception: +31, Diplomacy: +29, Intimidation: +31, Occultism: +25, Society: +27, Stealth: +29, Thievery: +31, Engineering Lore: +27, Underworld Lore: +29"
 abilityMods: [2, 5, 2, 3, 2, 5]
 speed: 25 feet,  burrow 15 feet
 sourcebook: "_Pathfinder #173: Doorway to the Red Star_"

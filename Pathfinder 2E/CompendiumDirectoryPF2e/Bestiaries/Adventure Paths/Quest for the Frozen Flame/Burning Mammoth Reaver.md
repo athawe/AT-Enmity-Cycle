@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Burning Mammoth Reaver"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #175: Broken Tusk Moon"
 name: "Burning Mammoth Reaver"
 level: "Creature 2"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
 modifier: 8
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Hallit"
 skills:
   - name: "Skills"
-    desc: "Athletics: +8, Intimidation: +7 (+9 to Demoralize), Nature: +8, Survival: +8"
+    desc: "Athletics: +8, Intimidation: +7, Nature: +8, Survival: +8"
 abilityMods: [4, 2, 1, 0, 2, 1]
 speed: 25 feet
 sourcebook: "_Pathfinder #175: Broken Tusk Moon_"

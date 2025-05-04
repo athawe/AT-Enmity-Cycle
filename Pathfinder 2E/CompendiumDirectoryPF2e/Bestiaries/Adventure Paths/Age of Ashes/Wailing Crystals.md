@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - environmental
   - magical
+  - pf2eHazard
   - complex
 source: Pathfinder #148: Fires of the Haunted City
 aliases: "Compendium.pf2e.age-of-ashes-bestiary.Actor.HI2xA7LCpNPkpV03" 
@@ -22,14 +23,14 @@ name: "Wailing Crystals"
 level: "Hazard 13"
 
 trait_06: "Complex"
-trait_01: "environmental"
-trait_02: "magical"
+trait_01: [[environmental]]
+trait_02: [[magical]]
 modifier: 27
 sourcebook: "_Pathfinder #148: Fires of the Haunted City_"
 ac: 34
 armorclass:
   - name: AC
-    desc: "34; __Fort__ +26, __Ref__ +18, __Will__ +0"
+    desc: "34; __Fort__ +26, __Ref__ +18, "
 hp: 72
 health:
   - name: ""

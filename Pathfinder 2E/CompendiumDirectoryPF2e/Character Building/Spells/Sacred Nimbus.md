@@ -28,8 +28,7 @@ abilities_top:
   - name: "Traditions"
     desc: "divine, primal"
   - name: "Range"
-    desc: "30 feet; **Area** 10-foot square
-"
+    desc: "30 feet; **Area** 10-foot square"
   - name: "Defense"
     desc: " reflex"
   - name: "Duration"

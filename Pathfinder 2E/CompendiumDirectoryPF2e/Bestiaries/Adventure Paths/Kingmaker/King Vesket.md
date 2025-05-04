@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lizardfolk
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "King Vesket"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "King Vesket"
 level: "Creature 6"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "humanoid"
-trait_03: "lizardfolk"
+trait_01: [[chaotic]]
+trait_02: [[humanoid]]
+trait_03: [[lizardfolk]]
 modifier: 12
 perception:
   - name: "Perception"
@@ -66,7 +67,7 @@ attacks:
   - name: "Melee"
     desc: "`pf2:1` Tail +17 (agile, sweep)\n__Damage__  2d6 + 7 bludgeoning"
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Trident +18 (magical, thrown 20 ft.)\n__Damage__  2d8 + 7 piercing"
 
   - name: "Ranged"

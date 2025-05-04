@@ -3,6 +3,7 @@ title: Sticky Web Lurker Noose
 obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
+  - pf2eHazard
 
 source: Pathfinder Society Scenario #2-18: The Fanciful March of Urwal
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.OMEVkAFReRtjj1zb" 
@@ -25,7 +26,7 @@ sourcebook: "_Pathfinder Society Scenario #2-18: The Fanciful March of Urwal_"
 ac: 19
 armorclass:
   - name: AC
-    desc: "19; __Fort__ +12, __Ref__ +6, __Will__ +0"
+    desc: "19; __Fort__ +12, __Ref__ +6, "
 hp: 0
 health:
   - name: ""

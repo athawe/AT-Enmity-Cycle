@@ -29,7 +29,11 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, occult"
-**Targets** 1 creature  - name: "Defense"
+
+  - name: "Targets"
+
+    desc: "1 creature"
+  - name: "Defense"
     desc: " will"
   - name: "Duration"
     desc: "varies"

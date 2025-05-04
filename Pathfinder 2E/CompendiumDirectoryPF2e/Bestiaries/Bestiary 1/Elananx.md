@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fey
   - pf2e/creature/type/fire
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Elananx"
@@ -25,9 +26,9 @@ level: "Creature 6"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "fey"
-trait_03: "fire"
+trait_01: [[evil]]
+trait_02: [[fey]]
+trait_03: [[fire]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Fey; (can&#x27;t speak any language)"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +14, Athletics: +14, Survival: +14 (+17 to Track)"
+    desc: "Acrobatics: +14, Athletics: +14, Survival: +14"
 abilityMods: [4, 4, 2, -3, 2, -2]
 speed: 30 feet
 sourcebook: "_Pathfinder Bestiary_"
@@ -54,7 +55,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Cinder Dispersal"
-    desc: "`pf2:r` (fire,primal) **Frequency** once per day\n\n**Trigger** The elananx takes damage from a hostile source.\n* * *\n\n**Effect** The elananx disperses into a cloud of smoke and cinders, filling its space and a 20-foot emanation. While in this form, the elananx can't be attacked or targeted, and it doesn't take up space. Anything inside this cloud is [[Conditions/Concealed|Concealed]], and any creature ending its turn there takes 2d6 fire damage. At the start of its turn, the elananx returns to its normal form in any square the cloud covered. If the elananx Strikes a creature using its first action after returning to its normal form, the target is [[Conditions/Off-Guard|Off-Guard]] and the Strike deals an extra 1d6 fire damage."
+    desc: "`pf2:r` (fire,primal) **Frequency** once per day\n\n**Trigger** The elananx takes damage from a hostile source.\n* * *\n\n**Effect** The elananx disperses into a cloud of smoke and cinders, filling its space and a @Template[emanation|distance:20]. While in this form, the elananx can't be attacked or targeted, and it doesn't take up space. Anything inside this cloud is [[Conditions/Concealed|Concealed]], and any creature ending its turn there takes 2d6 fire damage. At the start of its turn, the elananx returns to its normal form in any square the cloud covered. If the elananx Strikes a creature using its first action after returning to its normal form, the target is [[Conditions/Off-Guard|Off-Guard]] and the Strike deals an extra 1d6 fire damage."
 
 attacks:
   - name: ""

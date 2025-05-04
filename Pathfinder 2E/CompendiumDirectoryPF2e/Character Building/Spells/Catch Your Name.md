@@ -23,6 +23,7 @@ abilities_top:
   - name: ""
   - name: "Traditions"
     desc: "arcane, divine, occult, primal"
+
   - name: "Defense"
     desc: " will"
 abilities_mid:

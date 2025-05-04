@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #187: The Seventh Arch
 aliases: "Compendium.pf2e.gatewalkers-bestiary.Actor.GJCVwAFKDG91TXok" 
@@ -22,14 +23,14 @@ name: "Formian Sting Trench"
 level: "Hazard 4"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 0
 sourcebook: "_Pathfinder #187: The Seventh Arch_"
 ac: 18
 armorclass:
   - name: AC
-    desc: "18; __Fort__ +8, __Ref__ +8, __Will__ +0"
+    desc: "18; __Fort__ +8, __Ref__ +8, "
 hp: 30
 health:
   - name: ""
@@ -56,7 +57,7 @@ attacks:
     desc: "Stinger +17 () "
 
   - name: "Formian Trench Poison"
-    desc: "passive (poison) **Saving Throw** DC 21 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison (1 round)\n\n**Stage 2** 1d6 poison and [[Conditions/Clumsy 1|Clumsy 1]] (1 round)\n\n**Stage 3** 1d6 poison, clumsy 1, and [[Conditions/Enfeebled 1|Enfeebled 1]] (1 round)\n\n**Stage 4** 2d6 poison, clumsy 1, and enfeebled 1 (1 round)"
+    desc: "passive (poison) **Saving Throw** DC 21 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 1d6 poison (1 round)\n\n**Stage 2** 1d6 poison and [[Conditions/Clumsy|Clumsy 1]] (1 round)\n\n**Stage 3** 1d6 poison, clumsy 1, and [[Conditions/Enfeebled|Enfeebled 1]] (1 round)\n\n**Stage 4** 2d6 poison, clumsy 1, and enfeebled 1 (1 round)"
 
 
   - name: "Reset"

@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-2.Actor.hvoIxruNUei1auQT"
 tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Melody On The Wind"
@@ -24,8 +25,8 @@ level: "Creature 10"
 
 alignment: ""
 size: "huge"
-trait_01: "air"
-trait_02: "elemental"
+trait_01: [[air]]
+trait_02: [[elemental]]
 modifier: 21
 perception:
   - name: "Perception"
@@ -67,7 +68,7 @@ attacks:
     desc: "`pf2:1` Solid Refrain +23 (range increment 70 feet)\n__Damage__  2d8 + 10 sonic"
 
   - name: "Mesmerizing Melody"
-    desc: "`pf2:1` (auditory,concentrate,mental,primal) The melody on the wind sings in a sonorous chorus. Any creature in a 30-foot emanation must attempt a DC 30 Will check save to resist becoming fascinated by the melody on the wind. A creature that succeeds at its save is temporarily immune for 24 hours.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Fascinated|Fascinated]] for 1 round.\n\n**Failure** The creature is fascinated for 1d4 rounds."
+    desc: "`pf2:1` (auditory,concentrate,mental,primal) The melody on the wind sings in a sonorous chorus. Any creature in a @Template[emanation|distance:30] must attempt a DC 30 Will check save to resist becoming fascinated by the melody on the wind. A creature that succeeds at its save is temporarily immune for 24 hours.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Fascinated|Fascinated]] for 1 round.\n\n**Failure** The creature is fascinated for 1d4 rounds."
 
   - name: "Swiftness"
     desc: "  The melody on the wind's movement doesn't trigger reactions."

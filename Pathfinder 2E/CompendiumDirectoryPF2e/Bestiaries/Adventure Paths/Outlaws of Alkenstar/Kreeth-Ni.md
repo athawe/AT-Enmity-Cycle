@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/fey
   - pf2e/creature/type/good
   - pf2e/creature/type/sprite
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Kreeth-Ni"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #179: Cradle of Quartz"
 name: "Kreeth-Ni"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "tiny"
-trait_01: "fey"
-trait_02: "good"
-trait_03: "sprite"
+trait_01: [[fey]]
+trait_02: [[good]]
+trait_03: [[sprite]]
 modifier: 11
 perception:
   - name: "Perception"

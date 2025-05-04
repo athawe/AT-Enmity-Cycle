@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #173: Doorway to the Red Star
 aliases: "Compendium.pf2e.strength-of-thousands-bestiary.Actor.YADSROPDxyIPYg5L" 
@@ -22,14 +23,14 @@ name: "Flensing Chute"
 level: "Hazard 12"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 25
 sourcebook: "_Pathfinder #173: Doorway to the Red Star_"
 ac: 10
 armorclass:
   - name: AC
-    desc: "10; __Fort__ +0, __Ref__ +0, __Will__ +0"
+    desc: "10; "
 hp: 0
 health:
   - name: ""

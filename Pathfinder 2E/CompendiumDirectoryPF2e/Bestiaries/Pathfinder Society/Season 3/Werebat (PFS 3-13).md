@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/werecreature
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Werebat (PFS 3-13)"
@@ -27,11 +28,11 @@ level: "Creature 2"
 
 alignment: ""
 size: "Medium"
-trait_01: "beast"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
-trait_05: "werecreature"
+trait_01: [[beast]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
+trait_05: [[werecreature]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -77,7 +78,7 @@ attacks:
     desc: "`pf2:1` Wing +10 (agile, finesse)\n__Damage__  1d6 + 4 bludgeoning"
 
   - name: "Change Shape"
-    desc: "`pf2:1` (concentrate,polymorph,primal) Human with Fist attack for 1d4 + 2 bludgeoning damage and no fly Speed. In hybrid form, their Speed changes to 25 feet and fly 25 feet."
+    desc: "`pf2:1` (concentrate,polymorph,primal) Human with Fist attack for 1d4+2 bludgeoning damage and no fly Speed. In hybrid form, their Speed changes to 25 feet and fly 25 feet."
 
   - name: "Curse of the Werebat"
     desc: " (curse,primal) This curse affects only humanoids\n\n**Saving Throw** DC 15 Fortitude check DC.\n\nOn each full moon, the cursed creature must succeed at another Fortitude save or turn into a werebat until dawn. The creature is under the GM's control and goes on a rampage for half the night before falling unconscious until dawn."

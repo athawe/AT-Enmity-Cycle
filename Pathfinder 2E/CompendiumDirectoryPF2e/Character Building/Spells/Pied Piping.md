@@ -34,6 +34,7 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
   - name: "Defense"
     desc: " will"
   - name: "Duration"

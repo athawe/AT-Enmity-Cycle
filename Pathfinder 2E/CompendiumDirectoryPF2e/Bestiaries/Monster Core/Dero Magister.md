@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.qyCcr32PVcnNm4Wr"
 tags:
   - pf2e/creature/type/dero
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/5
   - remaster
 statblock: inline
@@ -22,11 +23,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Monster Core"
 name: "Dero Magister"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Small"
-trait_01: "dero"
-trait_02: "humanoid"
+trait_01: [[dero]]
+trait_02: [[humanoid]]
 modifier: 8
 perception:
   - name: "Perception"

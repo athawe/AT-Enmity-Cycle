@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.npc-gallery.Actor.pZOgcQRwXrX9g0s8"
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/8
 statblock: inline
 name: "Guildmaster"
@@ -24,8 +25,8 @@ level: "Creature 8"
 
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 16
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Architecture Lore: +25, Athletics: +13, Bureaucracy Lore: +19, Crafting: +25, Diplomacy: +24, Intimidation: +22, Society: +21"
+    desc: "Athletics: +13, Crafting: +25, Diplomacy: +24, Intimidation: +22, Society: +21, Architecture Lore: +25, Bureaucracy Lore: +19"
 abilityMods: [3, 1, 1, 4, 2, 3]
 speed: 25 feet
 sourcebook: "_Pathfinder Gamemastery Guide_"

@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/mortic
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Gurgist Mauler"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Gurgist Mauler"
 level: "Creature 6"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
-trait_03: "mortic"
+trait_01: [[human]]
+trait_02: [[humanoid]]
+trait_03: [[mortic]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -58,10 +59,10 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Consecration Vulnerability"
-    desc: "  An angheuvore in a place of worship dedicated to a non-evil deity or on sacred ground, such as an area blessed by [[Spells/Sanctified Ground|Sanctified Ground]], is [[Conditions/Slowed 1|Slowed 1]]."
+    desc: "  A gurgist in a place of worship dedicated to a non-evil deity or on sacred ground, such as an area blessed by [[Spells/Anointed Ground|Anointed Ground]], is [[Conditions/Slowed|Slowed 1]]."
 
   - name: "Rotting Flesh"
-    desc: "  Any creature that hits the gurgist with an unarmed attack, tries to [[Actions/Grapple|Grapple]] them, or otherwise touches the gurgist is covered with rotten flesh and putrid fluids.\n\nThe creature must succeed at a DC 22 Fortitude check save or become [[Conditions/Sickened 1|Sickened 1]] ([[Conditions/Sickened 1|Sickened 2]] on a critical failure)."
+    desc: "  Any creature that hits the gurgist with an unarmed attack, tries to [[Actions/Grapple|Grapple]] them, or otherwise touches the gurgist is covered with rotten flesh and putrid fluids.\n\nThe creature must succeed at a DC 22 Fortitude check save or become [[Conditions/Sickened|Sickened 1]] ([[Conditions/Sickened|Sickened 2]] on a critical failure)."
 
 attacks:
   - name: ""
@@ -76,7 +77,7 @@ attacks:
     desc: "`pf2:1` Composite Shortbow +14 (deadly d10, propulsive, range increment 60 feet)\n__Damage__  1d6 + 5 piercing"
 
   - name: "Calculated Blow"
-    desc: "`pf2:2`  The gurgist makes a melee Strike, aiming for their target's weak points and taking their time to line up a precise blow. If this Strike hits, the gurgist deals an additional 1d8 precision damage, and the target must succeed at a DC 23 Fortitude check save or become [[Conditions/Clumsy 1|Clumsy 2]] for 1 minute."
+    desc: "`pf2:2`  The gurgist makes a melee Strike, aiming for their target's weak points and taking their time to line up a precise blow. If this Strike hits, the gurgist deals an additional 1d8 precision damage, and the target must succeed at a DC 23 Fortitude check save or become [[Conditions/Clumsy|Clumsy 2]] for 1 minute."
 
   - name: "Death Gasp"
     desc: "`pf2:1` (divine) The gurgist draws in a deep breath and holds it, temporarily suspending their biological processes and becoming undead.\n\nThe gurgist gains the undead trait and becomes immune to bleed, death effects, disease, [[Conditions/Paralyzed|Paralyzed]], poison, and sleep. Any such effects the gurgist is currently suffering from are suspended, but take effect again once they take a breath.\n\nDeath Gasp lasts as long as the gurgist holds their breath (up to 9 rounds).\n\n[[Bestiary Effects/Effect_ Death Gasp|Effect: Death Gasp]]"

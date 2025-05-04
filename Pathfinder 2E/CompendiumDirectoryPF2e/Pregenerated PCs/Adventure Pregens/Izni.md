@@ -63,12 +63,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Izni
-creatures:
-  - 1: Izni
-```
-
 
 
 

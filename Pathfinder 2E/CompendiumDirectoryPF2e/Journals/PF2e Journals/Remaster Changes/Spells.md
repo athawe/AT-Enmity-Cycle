@@ -51,6 +51,7 @@ tags:
 | Glibness | Renamed | [[Spells/Honeyed Words\|Honeyed Words]] |
 | Glitterdust | Merged | [[Spells/Revealing Light\|Revealing Light]] |
 | Globe of Invulnerability | Renamed | [[Spells/Dispelling Globe\|Dispelling Globe]] |
+| Goodberry | Renamed | [[Spells/Cornucopia\|Cornucopia]] |
 | Hallucinatory Terrain | Renamed | [[Spells/Mirage\|Mirage]] |
 | Hideous Laughter | Renamed | [[Spells/Laughing Fit\|Laughing Fit]] |
 | Horrid Wilting | Renamed | [[Spells/Desiccate\|Desiccate]] |
@@ -94,6 +95,7 @@ tags:
 | Remove Disease | Renamed | [[Spells/Cleanse Affliction\|Cleanse Affliction]] |
 | Remove Fear | Renamed | [[Spells/Clear Mind\|Clear Mind]] |
 | Remove Paralysis | Renamed | [[Spells/Sure Footing\|Sure Footing]] |
+| Resilient Sphere | Renamed | [[Spells/Containment\|Containment]] |
 | Restore Senses | Renamed | [[Spells/Sound Body\|Sound Body]] |
 | Scorching Ray | Renamed | [[Spells/Blazing Bolt\|Blazing Bolt]] |
 | Searing Light | Renamed | [[Spells/Holy Light\|Holy Light]] |

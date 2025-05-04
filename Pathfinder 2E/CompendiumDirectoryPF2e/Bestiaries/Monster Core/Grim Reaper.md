@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-monster-core.Actor.kKFfigxrJ2vbJazp"
 tags:
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/21
   - remaster
 statblock: inline
@@ -22,11 +23,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Monster Core"
 name: "Grim Reaper"
 level: "Creature 21"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "undead"
-trait_02: "unholy"
+trait_01: [[undead]]
+trait_02: [[unholy]]
 modifier: 41
 perception:
   - name: "Perception"
@@ -46,7 +47,7 @@ hp: 320
 health:
   - name: ""
   - name: HP
-    desc: "320, death&#x27;s embrace, void healing; __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious,  bleed; __Resistances__ all damage 15"
+    desc: "320, death&#x27;s grace, void healing; __Immunities__  death effects,  disease,  paralyzed,  poison,  unconscious,  bleed; __Resistances__ all damage 15"
 abilities_top:
   - name: ""
   - name: "Items"
@@ -63,7 +64,7 @@ abilities_mid:
     desc: " (aura,divine,misfortune) 20 feet.\n\nLiving creatures in the aura must roll twice on all d20 rolls and use the lower result.\n\n[[Bestiary Effects/Effect_ Aura of Misfortune|Effect: Aura of Misfortune]]"
 
   - name: "Lurking Death"
-    desc: "`pf2:r` (teleportation) **Trigger** A creature within 100 feet makes a ranged attack or uses an action that has the concentrate, manipulate, or move trait\n* * *\n\n**Effect** The Grim Reaper teleports to a square adjacent to the triggering creature and makes a melee Strike against it. If the Strike hits, the Grim Reaper disrupts the triggering action."
+    desc: "`pf2:r` (divine,teleportation) **Trigger** A creature within 100 feet makes a ranged attack or uses an action that has the concentrate, manipulate, or move trait\n* * *\n\n**Effect** The Grim Reaper teleports to a square adjacent to the triggering creature and makes a melee Strike against it. If the Strike hits, the Grim Reaper disrupts the triggering action."
 
   - name: "[[Bestiary Ability Glossary/Void Healing|Void Healing]]"
     desc: "  The Grim Reaper can choose whether or not it takes vitality damage.\n\n* * *\n"
@@ -81,7 +82,7 @@ attacks:
     desc: " (death) A creature critically hit by any of the grim reaper's attacks or that critically fails against any of its spells must succeed at a DC 47 Fortitude check save or die."
 
   - name: "Energy Drain"
-    desc: "  When the Grim Reaper hits and deals damage with its scythe, it regains 20 Hit Points, and the target must succeed at a DC 43 Fortitude check save or become [[Conditions/Doomed 1|Doomed 1]]. If the target is already doomed, the doomed value increases by 1 (to a maximum of [[Conditions/Doomed 1|Doomed 3]])."
+    desc: "  When the Grim Reaper hits and deals damage with its scythe, it regains 20 Hit Points, and the target must succeed at a DC 43 Fortitude check save or become [[Conditions/Doomed|Doomed 1]]. If the target is already doomed, the doomed value increases by 1 (to a maximum of [[Conditions/Doomed|Doomed 3]])."
 
   - name: "Final Death"
     desc: "  A creature killed by the Grim Reaper can't be brought back to life by any means short of divine intervention."

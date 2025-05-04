@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/werecreature
+  - pf2eMonster
   - pf2e/creature/level/16
 statblock: inline
 name: "Wereant Disciple"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #174: Shadows of the Ancients"
 name: "Wereant Disciple"
 level: "Creature 16"
-rare_03: "Rare"
+rare_03: [[Rare]]
 alignment: ""
 size: "Medium"
-trait_01: "beast"
-trait_02: "evil"
-trait_03: "human"
-trait_04: "humanoid"
-trait_05: "lawful"
-trait_06: "werecreature"
+trait_01: [[beast]]
+trait_02: [[evil]]
+trait_03: [[human]]
+trait_04: [[humanoid]]
+trait_05: [[lawful]]
+trait_06: [[werecreature]]
 modifier: 28
 perception:
   - name: "Perception"
@@ -90,7 +91,7 @@ attacks:
     desc: " (polymorph,primal) When a full moon appears in the night sky, the wereant must enter hybrid form, can't Change Shape thereafter, becomes one size larger, increases its reach by 5 feet, and increases the damage of their mandibles Strike by 2.\n\nWhen the moon sets or the sun rises, the werecreature returns to humanoid form and is [[Conditions/Fatigued|Fatigued]] for 2d4 hours.\n\n[[Bestiary Effects/Effect_ Moon Frenzy|Effect: Moon Frenzy]]"
 
   - name: "Staggering Blow"
-    desc: "  A creature damaged by the wereant disciple's carapace fist Strike must succeed at a DC 35 Fortitude check save or become [[Conditions/Stunned 1|Stunned 1]] ([[Conditions/Stunned 1|Stunned 2]] on a critical failure). If the Strike is a critical hit, a creature that fails the save is also [[Conditions/Paralyzed|Paralyzed]] for 1 round."
+    desc: "  A creature damaged by the wereant disciple's carapace fist Strike must succeed at a DC 35 Fortitude check save or become [[Conditions/Stunned|Stunned 1]] ([[Conditions/Stunned|Stunned 2]] on a critical failure). If the Strike is a critical hit, a creature that fails the save is also [[Conditions/Paralyzed|Paralyzed]] for 1 round."
  
 ```
 

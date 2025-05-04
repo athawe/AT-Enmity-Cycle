@@ -66,12 +66,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Takemiru
-creatures:
-  - 1: Takemiru
-```
-
 
 
 

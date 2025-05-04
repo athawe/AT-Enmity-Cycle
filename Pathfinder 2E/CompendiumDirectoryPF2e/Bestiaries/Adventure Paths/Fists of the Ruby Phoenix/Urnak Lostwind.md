@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/orc
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Urnak Lostwind"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #167: Ready? Fight!"
 name: "Urnak Lostwind"
 level: "Creature 14"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "human"
-trait_03: "humanoid"
-trait_04: "orc"
+trait_01: [[good]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
+trait_04: [[orc]]
 modifier: 25
 perception:
   - name: "Perception"
@@ -37,7 +38,7 @@ perception:
 languages: "Orcish, Skald, Taldane"
 skills:
   - name: "Skills"
-    desc: "Athletics: +27, Intimidation: +23, Sailing Lore: +23, Survival: +25"
+    desc: "Athletics: +27, Intimidation: +23, Survival: +25, Sailing Lore: +23"
 abilityMods: [5, 3, 5, 1, 3, 1]
 speed: 20 feet
 sourcebook: "_Pathfinder #167: Ready? Fight!_"

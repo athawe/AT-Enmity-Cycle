@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/elf
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Mialari Docur"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #147: Tomorrow Must Burn"
 name: "Mialari Docur"
 level: "Creature 10"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "elf"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[elf]]
+trait_03: [[humanoid]]
 modifier: 20
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Diabolic, Draconic, Elven, Halfling, Shadowtongue"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +17, Arcana: +18, Deception: +22, Diplomacy: +21, Intimidation: +18, Kintargo Lore: +16, Occultism: +16, Society: +20, Stealth: +19, Thievery: +22"
+    desc: "Acrobatics: +17, Arcana: +18, Deception: +22, Diplomacy: +21, Intimidation: +18, Occultism: +16, Society: +20, Stealth: +19, Thievery: +22, Kintargo Lore: +16"
 abilityMods: [0, 5, 1, 4, 3, 4]
 speed: 30 feet
 sourcebook: "_Pathfinder #147: Tomorrow Must Burn_"

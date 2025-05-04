@@ -25,6 +25,7 @@ abilities_top:
     desc: "arcane"
   - name: "Cast"
     desc: "1 minute"
+
   - name: "Duration"
     desc: "until used or 1 minute"
 abilities_mid:

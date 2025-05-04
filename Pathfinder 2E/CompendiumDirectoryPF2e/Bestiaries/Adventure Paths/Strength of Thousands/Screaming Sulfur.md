@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/incorporeal
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/10
 statblock: inline
 name: "Screaming Sulfur"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #171: Hurricane&#x27;s Howl"
 name: "Screaming Sulfur"
 level: "Creature 10"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "huge"
-trait_01: "evil"
-trait_02: "incorporeal"
-trait_03: "spirit"
+trait_01: [[evil]]
+trait_02: [[incorporeal]]
+trait_03: [[spirit]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -57,7 +58,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Agonizing Cries"
-    desc: " (auditory,aura,emotion,mental) 30 feet. The screaming sulfur constantly shrieks with the pained wails of countless spirits.\n\nA living creature that enters or starts its turn in the aura must succeed at a DC 26 Will check save or become [[Conditions/Frightened 1|Frightened 1]] as long as it remains in the aura ([[Conditions/Frightened 1|Frightened 2]] on a critical failure).\n\nA creature that succeeds is temporarily immune for 1 hour."
+    desc: " (auditory,aura,emotion,mental) 30 feet. The screaming sulfur constantly shrieks with the pained wails of countless spirits.\n\nA living creature that enters or starts its turn in the aura must succeed at a DC 26 Will check save or become [[Conditions/Frightened|Frightened 1]] as long as it remains in the aura ([[Conditions/Frightened|Frightened 2]] on a critical failure).\n\nA creature that succeeds is temporarily immune for 1 hour."
 
   - name: "[[Creature Family Ability Glossary/(Ghost) Rejuvenation|Rejuvenation]]"
     desc: " (divine) Blessing the site where the screaming sulfur was formed and burying whatever dead remain allows the spirits within the screaming sulfur to move on to the afterlife, rendering it inert.\n* * *\n\nWhen a ghost is destroyed, it re-forms after 2d4 days within the location it's bound to, fully healed. A ghost can be permanently destroyed only if someone determines the reason for its existence and sets right whatever prevents the spirit from resting."

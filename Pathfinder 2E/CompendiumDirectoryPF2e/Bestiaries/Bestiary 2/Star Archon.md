@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/good
   - pf2e/creature/type/holy
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/19
 statblock: inline
 name: "Star Archon"
@@ -27,11 +28,11 @@ level: "Creature 19"
 
 alignment: ""
 size: "Medium"
-trait_01: "archon"
-trait_02: "celestial"
-trait_03: "good"
-trait_04: "holy"
-trait_05: "lawful"
+trait_01: [[archon]]
+trait_02: [[celestial]]
+trait_03: [[good]]
+trait_04: [[holy]]
+trait_05: [[lawful]]
 modifier: 35
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ abilities_mid:
     desc: " (divine,light,visual) Whenever the star archon takes slashing damage, bright light pours from their wounds. Non-archons within 10 feet must attempt a DC 38 Fortitude check save.\n\nOn a failure, a creature is [[Conditions/Dazzled|Dazzled]] for 1 round. On a critical failure, the creature is [[Conditions/Blinded|Blinded]] for 1d4 rounds instead.\n\nThe creature is then temporarily immune for 1 round."
 
   - name: "Explosive Rebirth"
-    desc: " (death,divine,fire) When killed, the star archon explodes in a blinding flash of holy energy that deals 12d6 fire damage and 12d6 spirit damage to anything in a 100-foot emanation, with a DC 40 Reflex check save.\n\nA non-archon creature that sees the explosion and critically fails its save is permanently [[Conditions/Blinded|Blinded]] as well.\n\nThe slain star archon reincarnates 1d4 rounds later as a shield archon."
+    desc: " (death,divine,fire) When killed, the star archon explodes in a blinding flash of holy energy that deals 12d6 fire damage and 12d6 spirit damage to anything in a @Template[emanation|distance:100], with a DC 40 Reflex check save.\n\nA non-archon creature that sees the explosion and critically fails its save is permanently [[Conditions/Blinded|Blinded]] as well.\n\nThe slain star archon reincarnates 1d4 rounds later as a shield archon."
 
   - name: "[[Bestiary Ability Glossary/Retributive Strike|Retributive Strike]]"
     desc: "`pf2:r`  **Damage Reduction** 21\n\nA star archon can also make a Retributive Strike by throwing its starknife, and the enemy and ally can be within 60 feet instead of 15 feet.\n\n* * *\n"

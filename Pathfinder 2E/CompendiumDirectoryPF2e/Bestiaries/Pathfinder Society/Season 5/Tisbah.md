@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/vishkanya
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Tisbah"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #5-10: The Crocodile&#x27;s Smile"
 name: "Tisbah"
 level: "Creature 2"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "ardande"
-trait_02: "chaotic"
-trait_03: "humanoid"
-trait_04: "vishkanya"
+trait_01: [[ardande]]
+trait_02: [[chaotic]]
+trait_03: [[humanoid]]
+trait_04: [[vishkanya]]
 modifier: 5
 perception:
   - name: "Perception"
@@ -68,7 +69,7 @@ attacks:
     desc: "2 Focus Points, DC 18, attack +10; __1st __  _[[Spells/Telekinetic Hand|Mage Hand (Amped)]]_, _[[Spells/Telekinetic Projectile|Telekinetic Projectile (Amped)]]_, _[[Spells/Telekinetic Rend|Telekinetic Rend (Amped)]]_"
 
   - name: "Psi Amps"
-    desc: "  Tisbah can cast psi cantrips as amped cantrips by using one focus point and making the following alterations:\n\n_Mage Hand_: Tisbah targets a creature of Medium size or smaller and attempts to [[Actions/Shove|Shove]] them with a spell attack roll against their Fortitude DC. The first time each round Tisbah Sustains this Spell, she can attempt to Shove the creature again. The target takes a –10-foot circumstance penalty to its Speeds until the spell ends.\n\n_Telekinetic Projectile_: Tisbah increases the damage of this cantrip by 2d6. On a successful Strike, she pushes the target 5 feet away, or 10 feet away on a critical success.\n\n_Telekinetic Rend_: Tisbah changes the cantrip's damage to 1d6 bludgeoning and 1d6 slashing. A creature that critically fails its save is also [[Conditions/Stunned 1|Stunned 1]]."
+    desc: "  Tisbah can cast psi cantrips as amped cantrips by using one focus point and making the following alterations:\n\n_Mage Hand_: Tisbah targets a creature of Medium size or smaller and attempts to [[Actions/Shove|Shove]] them with a spell attack roll against their Fortitude DC. The first time each round Tisbah Sustains this Spell, she can attempt to Shove the creature again. The target takes a –10-foot circumstance penalty to its Speeds until the spell ends.\n\n_Telekinetic Projectile_: Tisbah increases the damage of this cantrip by 2d6. On a successful Strike, she pushes the target 5 feet away, or 10 feet away on a critical success.\n\n_Telekinetic Rend_: Tisbah changes the cantrip's damage to 1d6 bludgeoning and 1d6 slashing. A creature that critically fails its save is also [[Conditions/Stunned|Stunned 1]]."
 
   - name: "Psychic Practice"
     desc: "  Tisbah's range for [[Spells/Telekinetic Projectile|Telekinetic Projectile]] increases to 60 feet."

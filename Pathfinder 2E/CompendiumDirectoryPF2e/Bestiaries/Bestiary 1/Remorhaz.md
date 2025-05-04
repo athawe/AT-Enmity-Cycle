@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pathfinder-bestiary.Actor.Zbvh6ChdD0TWv257" 
 tags:
   - pf2e/creature/type/beast
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Remorhaz"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary"
 name: "Remorhaz"
 level: "Creature 7"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "huge"
-trait_01: "beast"
+trait_01: [[beast]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -62,7 +63,7 @@ attacks:
     desc: "`pf2:1` Tail +18 (fire, reach 15 feet)\n__Damage__  1d10 + 3 bludgeoning 2d6 fire"
 
   - name: "Breath Weapon"
-    desc: "`pf2:2` (fire,primal) The remorhaz unleashes a gout of flame that deals 8d6 fire damage in a 30-foot cone (DC 26 Reflex check save).\n\nIt can't use Breath Weapon again for 1d4 rounds."
+    desc: "`pf2:2` (fire,primal) The remorhaz unleashes a gout of flame that deals 8d6 fire damage in a @Template[cone|distance:30] (DC 26 Reflex check save).\n\nIt can't use Breath Weapon again for 1d4 rounds."
 
   - name: "Ice Tunneler"
     desc: "  A remorhaz can leave a tunnel when it burrows through ice or snow, and it usually does."

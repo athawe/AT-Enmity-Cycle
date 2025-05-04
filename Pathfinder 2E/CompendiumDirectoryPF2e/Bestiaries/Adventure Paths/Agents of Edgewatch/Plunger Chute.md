@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #157: Devil at the Dreaming Palace
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.1UIJ4oknQ7btkUCb" 
@@ -22,14 +23,14 @@ name: "Plunger Chute"
 level: "Hazard 3"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 12
 sourcebook: "_Pathfinder #157: Devil at the Dreaming Palace_"
 ac: 22
 armorclass:
   - name: AC
-    desc: "22; __Fort__ +14, __Ref__ +8, __Will__ +0"
+    desc: "22; __Fort__ +14, __Ref__ +8, "
 hp: 40
 health:
   - name: ""

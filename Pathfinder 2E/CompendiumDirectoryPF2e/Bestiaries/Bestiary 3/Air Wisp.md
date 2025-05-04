@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.0HTju4vf8ADAAh2g"
 tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Air Wisp"
@@ -24,8 +25,8 @@ level: "Creature 0"
 
 alignment: ""
 size: "tiny"
-trait_01: "air"
-trait_02: "elemental"
+trait_01: [[air]]
+trait_02: [[elemental]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Sussuran"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +7, Plane of Air Lore: +4, Stealth: +7"
+    desc: "Acrobatics: +7, Stealth: +7, Plane of Air Lore: +4"
 abilityMods: [0, 3, 1, 0, 2, 0]
 speed:  fly 40 feet
 sourcebook: "_Pathfinder Bestiary 3_"

@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/minion
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Arskuva the Gnasher"
@@ -26,10 +27,10 @@ level: "Creature 12"
 
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "minion"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[minion]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 22
 perception:
   - name: "Perception"

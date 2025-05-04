@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.seven-dooms-for-sandpoint-bestiary.Actor.tlduVEwwd5zQa
 tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Charn Scarnetti"
@@ -21,11 +22,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #200: Seven Dooms for Sandpoint"
 name: "Charn Scarnetti"
 level: "Creature 3"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
+trait_01: [[human]]
+trait_02: [[humanoid]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Deception: +10, Diplomacy: +10, Gambling Lore: +8, Intimidation: +9"
+    desc: "Deception: +10, Diplomacy: +10, Intimidation: +9, Gambling Lore: +8"
 abilityMods: [2, 3, 1, 1, 2, 4]
 speed: 25 feet
 sourcebook: "_Pathfinder #200: Seven Dooms for Sandpoint_"

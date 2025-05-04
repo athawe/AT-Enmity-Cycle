@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Graveknight Captain"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #172: Secrets of the Temple-City"
 name: "Graveknight Captain"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "lawful"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[lawful]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -75,10 +76,10 @@ attacks:
     desc: "`pf2:1` Fist +15 (agile, electricity, unarmed)\n__Damage__  2d4 + 7 bludgeoning 1d6 electricity"
 
   - name: "[[Creature Family Ability Glossary/(Graveknight) Devastating Blast|Devastating Blast]]"
-    desc: "`pf2:2` (arcane) The graveknight unleashes a 30-foot cone of energy. Creatures in the area take 4d12 electricity damage (DC 24 basic Reflex save).\n\nThe graveknight can use this ability once every 1d4 rounds."
+    desc: "`pf2:2` (arcane) The graveknight unleashes a @Template[cone|distance:30] of energy. Creatures in the area take 4d12 electricity damage (DC 24 basic Reflex save).\n\nThe graveknight can use this ability once every 1d4 rounds."
 
   - name: "[[Creature Family Ability Glossary/(Graveknight) Graveknight's Curse|Graveknight's Curse]]"
-    desc: " (arcane,curse) This curse affects anyone who wears a graveknight's armor for at least 1 hour.\n* * *\n\n**Saving Throw** DC 24 Will check save\n\n**Onset** 1 hour\n\n**Stage 1** [[Conditions/Doomed 1|Doomed 1]] and cannot remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed 1|Doomed 2]], speed penalty of -10 feet, and cannot remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight."
+    desc: " (arcane,curse) This curse affects anyone who wears a graveknight's armor for at least 1 hour.\n* * *\n\n**Saving Throw** DC 24 Will check save\n\n**Onset** 1 hour\n\n**Stage 1** [[Conditions/Doomed|Doomed 1]] and cannot remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed|Doomed 2]], speed penalty of -10 feet, and cannot remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight."
 
   - name: "[[Creature Family Ability Glossary/(Graveknight) Weapon Master|Weapon Master]]"
     desc: "  The graveknight has access to the critical specialization effects of any weapons it wields."

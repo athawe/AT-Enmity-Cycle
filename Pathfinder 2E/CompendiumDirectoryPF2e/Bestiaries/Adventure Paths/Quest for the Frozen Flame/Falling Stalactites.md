@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
 
 source: Pathfinder #176: Lost Mammoth Valley
 aliases: "Compendium.pf2e.quest-for-the-frozen-flame-bestiary.Actor.cgoupvfNv0canswK" 
@@ -21,13 +22,13 @@ name: "Falling Stalactites"
 level: "Hazard 3"
 
 
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 13
 sourcebook: "_Pathfinder #176: Lost Mammoth Valley_"
 ac: 16
 armorclass:
   - name: AC
-    desc: "16; __Fort__ +12, __Ref__ +12, __Will__ +0"
+    desc: "16; __Fort__ +12, __Ref__ +12, "
 hp: 42
 health:
   - name: ""

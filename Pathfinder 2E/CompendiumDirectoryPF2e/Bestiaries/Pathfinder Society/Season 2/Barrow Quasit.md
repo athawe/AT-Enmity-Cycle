@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/3
 statblock: inline
 name: "Barrow Quasit"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #2-15: A Dirge for Sarkoris"
 name: "Barrow Quasit"
 level: "Creature 3"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "tiny"
-trait_01: "chaotic"
-trait_02: "demon"
-trait_03: "evil"
-trait_04: "fiend"
-trait_05: "unholy"
+trait_01: [[chaotic]]
+trait_02: [[demon]]
+trait_03: [[evil]]
+trait_04: [[fiend]]
+trait_05: [[unholy]]
 modifier: 9
 perception:
   - name: "Perception"
@@ -76,7 +77,7 @@ attacks:
     desc: "`pf2:1` (concentrate,divine,healing) **Frequency** once per round\n* * *\n\n**Effect** The quasit restores 1d6 HP to itself."
 
   - name: "Barrow Quasit Venom"
-    desc: " (poison) **Saving Throw** DC 20 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 2d6 poison damage (1 round)\n\n**Stage 2** 2d6 poison damage (1 round)\n\n**Stage 3** 2d6 poison damage and [[Conditions/Slowed 1|Slowed 1]] (1 round)."
+    desc: " (poison) **Saving Throw** DC 20 Fortitude check\n\n**Maximum Duration** 6 rounds\n\n**Stage 1** 2d6 poison damage (1 round)\n\n**Stage 2** 2d6 poison damage (1 round)\n\n**Stage 3** 2d6 poison damage and [[Conditions/Slowed|Slowed 1]] (1 round)."
 
   - name: "[[Bestiary Ability Glossary/Change Shape|Change Shape]]"
     desc: "`pf2:1` (concentrate,divine,polymorph) *   **Bat**\n    *   **Senses** Echolocation 40 feet\n    *   **Speed** 15 feet, fly 30 feet\n    *   **Melee** fangs +10/+6/+2 (agile), **Damage** 1d8 piercing damage\n    *   **Melee** wing +10/+6/+2 (agile), **Damage** 1d6 bludgeoning damage\n*   **Centipede**\n    *   **Speed** 10 feet, climb 10 feet\n    *   **Melee** mandibles +10/+5/+0 (poison), **Damage** 2 piercing damage + 1d6 poison damage\n*   **Toad**\n    *   **Senses** [[Bestiary Ability Glossary/Scent|Scent]] (Imprecise) 30 feet\n    *   **Speed** 5 feet\n    *   **Melee** jaws +10/+5/+0, **Damage** 2 bludgeoning damage\n*   **Wolf**\n    *   **Size** Medium\n    *   **Senses** [[Bestiary Ability Glossary/Scent|Scent]] (Imprecise) 30 feet\n    *   **Speed** 40 feet, climb 10 feet\n    *   **Melee** jaws +10/+5/+0, **Damage** 2d6 piercing damage plus [[Bestiary Ability Glossary/Knockdown|Knockdown]]\n\n* * *\n"

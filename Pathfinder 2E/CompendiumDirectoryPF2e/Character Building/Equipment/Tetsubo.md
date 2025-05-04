@@ -22,7 +22,7 @@ license: ORC
 | **Category** martial melee weapon | **Group** club |
 | **Price** 3 gp |  |
 | **Bulk** 3 | **Size** med |
-| **Damage** 1d10 bludgeoning  | **Usage** held-in-one-hand |
+| **Damage** 1d10 bludgeoning  | **Usage** held-in-two-hands |
 
 
 

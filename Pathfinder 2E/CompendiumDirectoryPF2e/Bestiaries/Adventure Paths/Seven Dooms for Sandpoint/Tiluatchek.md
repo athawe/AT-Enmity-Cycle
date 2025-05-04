@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Tiluatchek"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #200: Seven Dooms for Sandpoint"
 name: "Tiluatchek"
 level: "Creature 12"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Small"
-trait_01: "aberration"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 19
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Aklo, Common, Sakvroth; (can&#x27;t speak any language), telepathy 100 feet"
 skills:
   - name: "Skills"
-    desc: "Athletics: +17, Crafting: +21, Deception: +22 (+24 with liar’s lexicon), Diplomacy: +20, Occultism: +21, Society: +21, Stealth: +20"
+    desc: "Athletics: +17, Crafting: +21, Deception: +22, Diplomacy: +20, Occultism: +21, Society: +21, Stealth: +20"
 abilityMods: [3, 6, 5, 7, 5, 6]
 speed: 35 feet
 sourcebook: "_Pathfinder #200: Seven Dooms for Sandpoint_"
@@ -72,7 +73,7 @@ attacks:
     desc: "`pf2:1` (move) **Requirements** The intellect devourer is controlling a body with Body Thief\n* * *\n\n**Effect** The intellect devourer leaves its host body, which dies instantly and is no longer a suitable host for any Body Thief ability. The intellect devourer appears at full size in an adjacent space."
 
   - name: "Nightmare Curse"
-    desc: "`pf2:2` (curse,illusion,incapacitation,mental,occult) **Frequency** once per day\n* * *\n\n**Effect** Tiluatchek reaches out with his mind to infect the dreams of a single creature within 60 feet that he can see. The target suddenly experiences a brief but overwhelming memory of a harrowing nightmare it had at some point in the past and must attempt a DC 32 Will check save. The effects of this curse are permanent until the target is cured (although any frightened condition values imparted by the curse pass and end normally).\n* * *\n\n**Critical Success** The target is unaffected, and the nightmare vision passes as swiftly as it appears.\n\n**Success** The vision causes the target to become [[Conditions/Frightened 1|Frightened 1]]. The target also becomes cursed. Every time it attempts to sleep, it's plagued by nightmares of being stalked through an endless maze of caverns by something that wants to steal its body and eat its brain. The cursed creature now requires 10 hours of rest (rather than 8) in order to be able to make its daily preparations and can't take the Long-Term Rest activity at all.\n\n**Failure** As success, but [[Conditions/Frightened 1|Frightened 2]], and each time the target sleeps, it suffers the effects of a [[Spells/Nightmare|Nightmare]] spell (DC 32 Will check save).\n\n**Critical Failure** As failure, but [[Conditions/Frightened 1|Frightened 3]] and [[Conditions/Fleeing|Fleeing]] for as long as it remains frightened. If the cursed target ever rolls a critical failure against a nightmare spell while it remains cursed (including those caused by the curse itself), it dies in its sleep. If at the time of this death Tiluatchek is also dead (but for no more than 1 year), the intellect devourer is restored to life inside of the target creature's body as if he'd used Body Thief to take the body over."
+    desc: "`pf2:2` (curse,illusion,incapacitation,mental,occult) **Frequency** once per day\n* * *\n\n**Effect** Tiluatchek reaches out with his mind to infect the dreams of a single creature within 60 feet that he can see. The target suddenly experiences a brief but overwhelming memory of a harrowing nightmare it had at some point in the past and must attempt a DC 32 Will check save. The effects of this curse are permanent until the target is cured (although any frightened condition values imparted by the curse pass and end normally).\n* * *\n\n**Critical Success** The target is unaffected, and the nightmare vision passes as swiftly as it appears.\n\n**Success** The vision causes the target to become [[Conditions/Frightened|Frightened 1]]. The target also becomes cursed. Every time it attempts to sleep, it's plagued by nightmares of being stalked through an endless maze of caverns by something that wants to steal its body and eat its brain. The cursed creature now requires 10 hours of rest (rather than 8) in order to be able to make its daily preparations and can't take the Long-Term Rest activity at all.\n\n**Failure** As success, but [[Conditions/Frightened|Frightened 2]], and each time the target sleeps, it suffers the effects of a [[Spells/Nightmare|Nightmare]] spell (DC 32 Will check save).\n\n**Critical Failure** As failure, but [[Conditions/Frightened|Frightened 3]] and [[Conditions/Fleeing|Fleeing]] for as long as it remains frightened. If the cursed target ever rolls a critical failure against a nightmare spell while it remains cursed (including those caused by the curse itself), it dies in its sleep. If at the time of this death Tiluatchek is also dead (but for no more than 1 year), the intellect devourer is restored to life inside of the target creature's body as if he'd used Body Thief to take the body over."
 
   - name: "Ravage"
     desc: "`pf2:3` (death) The intellect devourer makes two talon Strikes against a [[Conditions/Paralyzed|Paralyzed]], [[Conditions/Restrained|Restrained]], or [[Conditions/Unconscious|Unconscious]] creature, using the same attack modifier as its highest attack modifier.\n\nThese Strikes gain the death trait. If Ravage kills the target, the intellect devourer may use Body Thief against it as a free action."

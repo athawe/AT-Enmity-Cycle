@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #2-21: In Pursuit of Water
 aliases: "Compendium.pf2e.pfs-season-2-bestiary.Actor.fNX8O2z4d3peG5zJ" 
@@ -22,14 +23,14 @@ name: "Foretold Ruin (3-4)"
 level: "Hazard 3"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 13
 sourcebook: "_Pathfinder Society Scenario #2-21: In Pursuit of Water_"
 ac: 18
 armorclass:
   - name: AC
-    desc: "18; __Fort__ +12, __Ref__ +6, __Will__ +0"
+    desc: "18; __Fort__ +12, __Ref__ +6, "
 hp: 44
 health:
   - name: ""

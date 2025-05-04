@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/lawful
   - pf2e/creature/type/undead
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/17
 statblock: inline
 name: "Seldeg Bheldis"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #186: Ghost King&#x27;s Rage"
 name: "Seldeg Bheldis"
 level: "Creature 17"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "evil"
-trait_02: "lawful"
-trait_03: "undead"
-trait_04: "unholy"
+trait_01: [[evil]]
+trait_02: [[lawful]]
+trait_03: [[undead]]
+trait_04: [[unholy]]
 modifier: 26
 perception:
   - name: "Perception"
@@ -84,13 +85,13 @@ attacks:
     desc: "`pf2:1` Flaming Javelin +30 (fire, magical, thrown 30 ft.)\n__Damage__  3d6 + 17 piercing 2d10 fire"
 
   - name: "Champion Devotion Spells"
-    desc: "1 Focus Point, DC 35, attack +27; __9th __  _[[Spells/Touch of Corruption|Touch of Corruption]]_"
+    desc: "1 Focus Point, DC 35, attack +27; __9th __  _[[Spells/Touch of the Void|Touch of Corruption]]_"
 
   - name: "[[Creature Family Ability Glossary/(Graveknight) Devastating Blast|Devastating Blast]]"
-    desc: "`pf2:2` (arcane,fire) Seldeg unleashes a 30-foot cone of fire. Creatures in the area take 9d12 fire damage (DC 35 Reflex check). Seldeg can use this ability once every 1d4 rounds."
+    desc: "`pf2:2` (arcane,fire) Seldeg unleashes a @Template[cone|distance:30] of fire. Creatures in the area take 9d12 fire damage (DC 35 Reflex check). Seldeg can use this ability once every 1d4 rounds."
 
   - name: "[[Creature Family Ability Glossary/(Graveknight) Graveknight's Curse|Graveknight's Curse]]"
-    desc: " (arcane,curse) This curse affects anyone who wears a graveknight's armor for at least 1 hour.\n\n**Saving Throw** DC 35 Will check save\n* * *\n\n**Onset** 1 hour\n\n**Stage 1** [[Conditions/Doomed 1|Doomed 1]] and cannot remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed 1|Doomed 2]], the creature's Speed is reduced by 10, and cannot remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight.\n\n[[Bestiary Effects/Effect_ Graveknight's Curse|Effect: Graveknight's Curse]]"
+    desc: " (arcane,curse) This curse affects anyone who wears a graveknight's armor for at least 1 hour.\n\n**Saving Throw** DC 35 Will check save\n* * *\n\n**Onset** 1 hour\n\n**Stage 1** [[Conditions/Doomed|Doomed 1]] and cannot remove the armor (1 day)\n\n**Stage 2** [[Conditions/Doomed|Doomed 2]], the creature's Speed is reduced by 10, and cannot remove the armor (1 day)\n\n**Stage 3** dies and transforms into the armor's graveknight.\n\n[[Bestiary Effects/Effect_ Graveknight's Curse|Effect: Graveknight's Curse]]"
 
   - name: "[[Creature Family Ability Glossary/(Graveknight) Phantom Mount|Phantom Steed]]"
     desc: "`pf2:3` (arcane) HP 130; AC 39, Fort +28, Ref +25, Will +22\n* * *\n\nSeldeg summons a supernatural mount as per [[Spells/Marvelous Mount|Marvelous Mount]] (8th level). Unlike phantom steed, the steed's AC and saving throw bonuses are all 4 levels lower than Seldeg's, and the steed has one-third of Seldeg's Hit Points (rounded down). If the steed is destroyed, Seldeg must wait 1 hour before using this ability again."

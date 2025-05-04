@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/giant
   - pf2e/creature/type/troll
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "The Misbegotten Troll"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "The Misbegotten Troll"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "evil"
-trait_03: "giant"
-trait_04: "troll"
+trait_01: [[chaotic]]
+trait_02: [[evil]]
+trait_03: [[giant]]
+trait_04: [[troll]]
 modifier: 31
 perception:
   - name: "Perception"
@@ -78,10 +79,10 @@ attacks:
     desc: "`pf2:1` (concentrate) **Requirements** The troll king's regeneration is not currently deactivated.\n* * *\n\n**Effect** The troll king regains 25 HP."
 
   - name: "Jangle the Chain"
-    desc: "`pf2:1` (auditory,emotion,manipulate,mental,primal) The Misbegotten Troll shakes his chain of caged sprites, causing the supernatural cages to amplify their despair. All creatures other than the Misbegotten Troll or his smilodon pets within 30 feet must attempt a DC 40 Will check save. The Misbegotten Troll can't Jangle the Chain again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune to Jangle the Chain for 24 hours.\n\n**Success** The creature is [[Conditions/Sickened 1|Sickened 1]] by despair.\n\n**Failure** The creature is [[Conditions/Stunned 1|Stunned 1]] by sadness, and then sickened 1 by despair once the stun effect ends.\n\n**Critical Failure** The creature is [[Conditions/Stunned 1|Stunned 3]] by sadness, and then [[Conditions/Sickened 1|Sickened 2]] by despair once the stun effect ends."
+    desc: "`pf2:1` (auditory,emotion,manipulate,mental,primal) The Misbegotten Troll shakes his chain of caged sprites, causing the supernatural cages to amplify their despair. All creatures other than the Misbegotten Troll or his smilodon pets within 30 feet must attempt a DC 40 Will check save. The Misbegotten Troll can't Jangle the Chain again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected and is temporarily immune to Jangle the Chain for 24 hours.\n\n**Success** The creature is [[Conditions/Sickened|Sickened 1]] by despair.\n\n**Failure** The creature is [[Conditions/Stunned|Stunned 1]] by sadness, and then sickened 1 by despair once the stun effect ends.\n\n**Critical Failure** The creature is [[Conditions/Stunned|Stunned 3]] by sadness, and then [[Conditions/Sickened|Sickened 2]] by despair once the stun effect ends."
 
   - name: "Primordial Roar"
-    desc: "`pf2:1` (auditory,emotion,fear,mental) The troll king unleashes a bestial roar. Each non-troll creature within 100 feet must attempt a DC 40 Will check save. The creature is then temporarily immune for 10 minutes.\n\nThis ability doesn't affect his pet black smilodons.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Frightened 1|Frightened 1]]\n\n**Failure** The creature is [[Conditions/Frightened 1|Frightened 2]]\n\n**Critical Failure** The creature is [[Conditions/Frightened 1|Frightened 3]]"
+    desc: "`pf2:1` (auditory,emotion,fear,mental) The troll king unleashes a bestial roar. Each non-troll creature within 100 feet must attempt a DC 40 Will check save. The creature is then temporarily immune for 10 minutes.\n\nThis ability doesn't affect his pet black smilodons.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Frightened|Frightened 1]]\n\n**Failure** The creature is [[Conditions/Frightened|Frightened 2]]\n\n**Critical Failure** The creature is [[Conditions/Frightened|Frightened 3]]"
 
   - name: "[[Bestiary Ability Glossary/Rend|Rend]]"
     desc: "`pf2:1`  claw\n\n* * *\n"

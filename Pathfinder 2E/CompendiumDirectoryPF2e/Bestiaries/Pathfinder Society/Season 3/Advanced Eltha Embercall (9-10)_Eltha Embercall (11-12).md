@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.3r3etd3bUOn58TH3" 
 tags:
   - pf2e/creature/type/dwarf
+  - pf2eMonster
   - pf2e/creature/level/11
 statblock: inline
 name: "Advanced Eltha Embercall (9-10)/Eltha Embercall (11-12)"
@@ -20,10 +21,10 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #3-15: Cavern of Sundered Songs"
 name: "Advanced Eltha Embercall (9-10)/Eltha Embercall (11-12)"
 level: "Creature 11"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "dwarf"
+trait_01: [[dwarf]]
 modifier: 24
 perception:
   - name: "Perception"
@@ -31,7 +32,7 @@ perception:
 languages: "Common, Dwarven, Sakvroth, Wildsong"
 skills:
   - name: "Skills"
-    desc: "Athletics: +21, Crafting: +19, Darklands Lore: +19, Nature: +24, Stealth: +19, Survival: +22"
+    desc: "Athletics: +21, Crafting: +19, Nature: +24, Stealth: +19, Survival: +22, Darklands Lore: +19"
 abilityMods: [2, 2, 5, 1, 5, 1]
 speed: 20 feet
 sourcebook: "_Pathfinder Society Scenario #3-15: Cavern of Sundered Songs_"

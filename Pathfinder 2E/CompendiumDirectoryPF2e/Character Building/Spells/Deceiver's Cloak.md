@@ -32,10 +32,11 @@ columns: 1
 columnWidth: x
 abilities_top:
   - name: ""
+
   - name: "Duration"
     desc: "1 hour"
 abilities_mid:
   - name: ""
-    desc: "Your patron drapes a cloak of illusion about you, making you appear as another creature of the same body shape with roughly similar height and weight as yourself. This has the effects of a 3rd-rank[[Spells/Illusory Disguise|Illusory Disguise]].\n* * *\n\n**Heightened (6th)** You can appear as any creature of the same size, even with a completely different body shape."
+    desc: "Your patron drapes a cloak of illusion about you, making you appear as another creature of the same body shape with roughly similar height and weight as yourself. This has the effects of a 3rd-rank [[Spells/Illusory Disguise|Illusory Disguise]].\n* * *\n\n**Heightened (6th)** You can appear as any creature of the same size, even with a completely different body shape."
 sourcebook: "_Pathfinder Player Core_"
 ```

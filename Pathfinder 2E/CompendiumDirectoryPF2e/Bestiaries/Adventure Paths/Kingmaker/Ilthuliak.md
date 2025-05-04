@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/dragon
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/21
 statblock: inline
 name: "Ilthuliak"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Ilthuliak"
 level: "Creature 21"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "grg"
-trait_01: "acid"
-trait_02: "amphibious"
-trait_03: "chaotic"
-trait_04: "dragon"
-trait_05: "evil"
+trait_01: [[acid]]
+trait_02: [[amphibious]]
+trait_03: [[chaotic]]
+trait_04: [[dragon]]
+trait_05: [[evil]]
 modifier: 37
 perception:
   - name: "Perception"
@@ -39,7 +40,7 @@ perception:
 languages: "Aklo, Common, Draconic, Fey, Goblin, Jotun, Orcish"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +35, Arcana: +36, Athletics: +41, Deception: +40, First World Lore: +38, Intimidation: +40, Stealth: +35"
+    desc: "Acrobatics: +35, Arcana: +36, Athletics: +41, Deception: +40, Intimidation: +40, Stealth: +35, First World Lore: +38"
 abilityMods: [8, 5, 6, 4, 5, 5]
 speed: 70 feet,  fly 180 feet,  swim 70 feet
 sourcebook: "_Pathfinder Kingmaker_"
@@ -79,7 +80,7 @@ attacks:
     desc: "`pf2:1` Horns +37 (magical, reach 20 feet)\n__Damage__  3d6 + 16 piercing"
 
   - name: "Arcane Prepared Spells"
-    desc: "DC 44, attack +32; __10th __  _[[Spells/Freeze Time|Time Stop]]_; __9th __  _[[Spells/Disjunction|Disjunction]]_, _[[Spells/Implosion|Implosion]]_, _[[Spells/Weird|Weird]]_; __8th __  _[[Spells/Disappearance|Disappearance]]_, _[[Spells/Desiccate|Horrid Wilting]]_, _[[Spells/Hidden Mind|Mind Blank]]_; __7th __  _[[Spells/Execute|Finger of Death]]_, _[[Spells/Reverse Gravity|Reverse Gravity]]_, _[[Spells/Spell Turning|Spell Turning]]_; __6th __  _[[Spells/Dominate|Dominate]]_, _[[Spells/Truesight|True Seeing]]_, _[[Spells/Wall of Force|Wall of Force]]_; __5th __  _[[Spells/Black Tentacles|Black Tentacles]]_, _[[Spells/Scouting Eye|Prying Eye]]_; __4th __  _[[Spells/Clairvoyance|Clairvoyance]]_, _[[Spells/Translocate|Dimension Door]]_, _[[Spells/Resilient Sphere|Resilient Sphere]]_, _[[Spells/Suggestion|Suggestion]]_; __3rd __  _[[Spells/Blindness|Blindness]]_, _[[Spells/Slow|Slow]]_, _[[Spells/Stinking Cloud|Stinking Cloud]]_; __2nd __  _[[Spells/Revealing Light|Glitterdust]]_, _[[Spells/Mirror Image|Mirror Image]]_, _[[Spells/Telekinetic Maneuver|Telekinetic Maneuver]]_; __1st __  _[[Spells/Command|Command]]_, _[[Spells/Enfeeble|Ray of Enfeeblement]]_, _[[Spells/Sure Strike|True Strike]]_\n__Cantrips__  __(7th)__ _[[Compendium.pf2e.spells-srd.Item.kl2q6JvBZwed4B6v|Dancing Lights]]_, _[[Spells/Electric Arc|Electric Arc]]_, _[[Spells/Prestidigitation|Prestidigitation]]_, _[[Spells/Read Aura|Read Aura]]_, _[[Spells/Shield|Shield]]_"
+    desc: "DC 44, attack +32; __10th __  _[[Spells/Freeze Time|Time Stop]]_; __9th __  _[[Spells/Disjunction|Disjunction]]_, _[[Spells/Implosion|Implosion]]_, _[[Spells/Weird|Weird]]_; __8th __  _[[Spells/Disappearance|Disappearance]]_, _[[Spells/Desiccate|Horrid Wilting]]_, _[[Spells/Hidden Mind|Mind Blank]]_; __7th __  _[[Spells/Execute|Finger of Death]]_, _[[Spells/Reverse Gravity|Reverse Gravity]]_, _[[Spells/Spell Turning|Spell Turning]]_; __6th __  _[[Spells/Dominate|Dominate]]_, _[[Spells/Truesight|True Seeing]]_, _[[Spells/Wall of Force|Wall of Force]]_; __5th __  _[[Spells/Black Tentacles|Black Tentacles]]_, _[[Spells/Scouting Eye|Prying Eye]]_; __4th __  _[[Spells/Clairvoyance|Clairvoyance]]_, _[[Spells/Translocate|Dimension Door]]_, _[[Spells/Containment|Resilient Sphere]]_, _[[Spells/Suggestion|Suggestion]]_; __3rd __  _[[Spells/Blindness|Blindness]]_, _[[Spells/Slow|Slow]]_, _[[Spells/Stinking Cloud|Stinking Cloud]]_; __2nd __  _[[Spells/Revealing Light|Glitterdust]]_, _[[Spells/Mirror Image|Mirror Image]]_, _[[Spells/Telekinetic Maneuver|Telekinetic Maneuver]]_; __1st __  _[[Spells/Command|Command]]_, _[[Spells/Enfeeble|Ray of Enfeeblement]]_, _[[Spells/Sure Strike|True Strike]]_\n__Cantrips__  __(7th)__ _[[Compendium.pf2e.spells-srd.Item.kl2q6JvBZwed4B6v|Dancing Lights]]_, _[[Spells/Electric Arc|Electric Arc]]_, _[[Spells/Prestidigitation|Prestidigitation]]_, _[[Spells/Read Aura|Read Aura]]_, _[[Spells/Shield|Shield]]_"
 
   - name: "Arcane Innate Spells"
     desc: "DC 44, attack +36; __2nd __  _[[Spells/Darkness|Darkness (At Will)]]_"

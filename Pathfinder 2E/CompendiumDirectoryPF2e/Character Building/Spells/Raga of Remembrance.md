@@ -24,7 +24,11 @@ abilities_top:
     desc: "1 hour; **Cost** ceramics, incense, and pigments worth 100,000 gp; **Secondary Casters** 3"
   - name: "Primary Check"
     desc: "Occultism or Religion (legendary); **Secondary Checks** Diplomacy or Performance; Nature; Religion or Society"
-**Targets** the primary caster  - name: "Duration"
+
+  - name: "Targets"
+
+    desc: "the primary caster"
+  - name: "Duration"
     desc: "7 hours"
 abilities_mid:
   - name: ""

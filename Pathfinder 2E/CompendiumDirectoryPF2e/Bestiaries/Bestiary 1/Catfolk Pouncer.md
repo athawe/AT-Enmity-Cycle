@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/good
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Catfolk Pouncer"
@@ -26,10 +27,10 @@ level: "Creature 1"
 
 alignment: ""
 size: "Medium"
-trait_01: "catfolk"
-trait_02: "chaotic"
-trait_03: "good"
-trait_04: "humanoid"
+trait_01: [[catfolk]]
+trait_02: [[chaotic]]
+trait_03: [[good]]
+trait_04: [[humanoid]]
 modifier: 6
 perception:
   - name: "Perception"

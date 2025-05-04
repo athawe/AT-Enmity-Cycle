@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.H8PaAZanEOT85KjD"
 tags:
   - pf2e/creature/type/leshy
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Vine Leshy"
@@ -24,8 +25,8 @@ level: "Creature 0"
 
 alignment: ""
 size: "Small"
-trait_01: "leshy"
-trait_02: "plant"
+trait_01: [[leshy]]
+trait_02: [[plant]]
 modifier: 6
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Fey, Wildsong; speak with plants (plants with vines only)"
 skills:
   - name: "Skills"
-    desc: "Athletics: +4, Diplomacy: +5, Nature: +4, Performance: +5 (+6 for Oratory), Society: +1, Survival: +4"
+    desc: "Athletics: +4, Diplomacy: +5, Nature: +4, Performance: +5, Society: +1, Survival: +4"
 abilityMods: [2, 1, 1, -1, 2, 3]
 speed: 20 feet,  climb 20 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -53,7 +54,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Verdant Burst"
-    desc: "  When a vine leshy dies, a burst of primal energy explodes from its body, restoring 1d4 Hit Points to each plant creature in a 30-foot emanation. This area fills with tangling vines, becoming difficult terrain. If the terrain is not a viable environment for the vines, they wither after 24 hours."
+    desc: "  When a vine leshy dies, a burst of primal energy explodes from its body, restoring 1d4 Hit Points to each plant creature in a @Template[emanation|distance:30]. This area fills with tangling vines, becoming difficult terrain. If the terrain is not a viable environment for the vines, they wither after 24 hours."
 
 attacks:
   - name: ""

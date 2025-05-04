@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Black Whale Guard"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #161: Belly of the Black Whale"
 name: "Black Whale Guard"
 level: "Creature 12"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "human"
-trait_02: "humanoid"
-trait_03: "lawful"
+trait_01: [[human]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
 modifier: 23
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common"
 skills:
   - name: "Skills"
-    desc: "Athletics: +23, Games Lore: +17, Intimidation: +24"
+    desc: "Athletics: +23, Intimidation: +24, Games Lore: +17"
 abilityMods: [5, 3, 5, -1, 0, 4]
 speed: 20 feet
 sourcebook: "_Pathfinder #161: Belly of the Black Whale_"
@@ -60,10 +61,10 @@ abilities_mid:
 attacks:
   - name: ""
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Club +24 (thrown 10 ft.)\n__Damage__  1d6 + 11 bludgeoning"
 
-  - name: "Melee"
+  - name: "Ranged"
     desc: "`pf2:1` Nightmare Cudgel +25 (thrown 10 ft.)\n__Damage__  2d6 + 11 acid"
 
   - name: "Melee"

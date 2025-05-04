@@ -10,6 +10,7 @@ tags:
   - pf2e/creature/type/cold
   - pf2e/creature/type/evil
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Kun"
@@ -24,14 +25,14 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #167: Ready? Fight!"
 name: "Kun"
 level: "Creature 14"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "grg"
-trait_01: "aquatic"
-trait_02: "beast"
-trait_03: "cold"
-trait_04: "evil"
-trait_05: "unholy"
+trait_01: [[aquatic]]
+trait_02: [[beast]]
+trait_03: [[cold]]
+trait_04: [[evil]]
+trait_05: [[unholy]]
 modifier: 27
 perception:
   - name: "Perception"
@@ -73,13 +74,13 @@ attacks:
     desc: "DC 32, attack +24; __7th __  _[[Spells/Control Water|Control Water (At Will)]]_, _[[Spells/Darkness|Darkness (At Will)]]_, _[[Spells/Wall of Ice|Wall of Ice]]_"
 
   - name: "Funnel"
-    desc: "`pf2:2` (cold,primal,water) The kun inhales violently, sucking in heat and all creatures in the water in a 60-foot cone. Creatures in the area must succeed at a DC 33 Fortitude check save or take 10d8 cold damage. The kun can't Funnel again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage.\n\n**Failure** The creature takes full damage and is pulled 30 feet toward the kun.\n\n**Critical Failure** The creature takes double damage and is pulled 60 feet toward the kun."
+    desc: "`pf2:2` (cold,primal,water) The kun inhales violently, sucking in heat and all creatures in the water in a @Template[cone|distance:60]. Creatures in the area must succeed at a DC 33 Fortitude check save or take 10d8 cold damage. The kun can't Funnel again for 1d4 rounds.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature takes half damage.\n\n**Failure** The creature takes full damage and is pulled 30 feet toward the kun.\n\n**Critical Failure** The creature takes double damage and is pulled 60 feet toward the kun."
 
   - name: "Heart of Darkness"
     desc: "  Whenever the kun makes an attack from within an area of darkness, their attack deals an additional 2d6 spirit damage."
 
   - name: "[[Bestiary Ability Glossary/Swallow Whole|Swallow Whole]]"
-    desc: "`pf2:1` (attack) Huge, 3d12 + 7 bludgeoning damage, Rupture 30\n\n* * *\n"
+    desc: "`pf2:1` (attack) Huge, 3d12+7 bludgeoning damage, Rupture 30\n\n* * *\n"
 
   - name: "[[Bestiary Ability Glossary/Grab|Grab]]"
     desc: "`pf2:1`  "

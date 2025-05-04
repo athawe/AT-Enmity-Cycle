@@ -11,6 +11,7 @@ tags:
   - pf2e/creature/type/evil
   - pf2e/creature/type/fiend
   - pf2e/creature/type/unholy
+  - pf2eMonster
   - pf2e/creature/level/5
 statblock: inline
 name: "Abyssal Warhound Pack Leader"
@@ -25,15 +26,15 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Society Scenario #4-99: Blessings of the Forest"
 name: "Abyssal Warhound Pack Leader"
 level: "Creature 5"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Large"
-trait_01: "animal"
-trait_02: "chaotic"
-trait_03: "demon"
-trait_04: "evil"
-trait_05: "fiend"
-trait_06: "unholy"
+trait_01: [[animal]]
+trait_02: [[chaotic]]
+trait_03: [[demon]]
+trait_04: [[evil]]
+trait_05: [[fiend]]
+trait_06: [[unholy]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -41,7 +42,7 @@ perception:
 languages: ""
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +13, Athletics: +10, Intimidation: +13, Survival: +13 (+15 to Track)"
+    desc: "Acrobatics: +13, Athletics: +10, Intimidation: +13, Survival: +13"
 abilityMods: [4, 0, 5, -4, 2, 2]
 speed: 30 feet
 sourcebook: "_Pathfinder Society Scenario #4-99: Blessings of the Forest_"

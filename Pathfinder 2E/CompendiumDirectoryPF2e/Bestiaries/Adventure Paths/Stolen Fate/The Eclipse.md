@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - environmental
+  - pf2eHazard
   - complex
 source: Pathfinder #192: Worst of All Possible Worlds
 aliases: "Compendium.pf2e.stolen-fate-bestiary.Actor.99X7MbA4YeZu7lwJ" 
@@ -21,13 +22,13 @@ name: "The Eclipse"
 level: "Hazard 19"
 
 trait_06: "Complex"
-trait_01: "environmental"
+trait_01: [[environmental]]
 modifier: 0
 sourcebook: "_Pathfinder #192: Worst of All Possible Worlds_"
 ac: 46
 armorclass:
   - name: AC
-    desc: "46; __Fort__ +32, __Ref__ +38, __Will__ +0"
+    desc: "46; __Fort__ +32, __Ref__ +38, "
 hp: 124
 health:
   - name: ""

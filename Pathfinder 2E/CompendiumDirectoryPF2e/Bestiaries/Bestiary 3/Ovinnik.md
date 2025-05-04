@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.pathfinder-bestiary-3.Actor.fuCPoL2OVcQf5uT9"
 tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/fey
+  - pf2eMonster
   - pf2e/creature/level/4
 statblock: inline
 name: "Ovinnik"
@@ -24,8 +25,8 @@ level: "Creature 4"
 
 alignment: ""
 size: "tiny"
-trait_01: "chaotic"
-trait_02: "fey"
+trait_01: [[chaotic]]
+trait_02: [[fey]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -33,7 +34,7 @@ perception:
 languages: "Common, Fey"
 skills:
   - name: "Skills"
-    desc: "Household Lore: +12, Intimidation: +11, Stealth: +13"
+    desc: "Intimidation: +11, Stealth: +13, Household Lore: +12"
 abilityMods: [0, 5, 0, 2, 5, 3]
 speed: 30 feet,  climb 20 feet
 sourcebook: "_Pathfinder Bestiary 3_"
@@ -67,7 +68,7 @@ attacks:
     desc: "DC 21, attack +13; __4th __  _[[Spells/Read Omens|Read Omens]]_; __2nd __  _[[Spells/Augury|Augury]]_, _[[Spells/Breathe Fire|Burning Hands]]_, _[[Spells/Floating Flame|Flaming Sphere]]_, _[[Spells/Cleanse Cuisine|Purify Food and Drink (At Will)]]_\n__Cantrips__  __(2nd)__ _[[Spells/Daze|Daze]]_, _[[Spells/Produce Flame|Produce Flame]]_"
 
   - name: "Raise Grain Cloud"
-    desc: "`pf2:2`  While in their bound storeroom or granary, the ovinnik slams a paw against the ground, stirring up a cloud of grain dust in an 20-foot emanation.\n\nWithin this cloud, they gain a +4 status bonus to any fire damage they deal. The ovinnik doubles their fire resistance against this increased damage. The grain cloud dissipates after the first such effect or after 1 minute if no such effects occur."
+    desc: "`pf2:2`  While in their bound storeroom or granary, the ovinnik slams a paw against the ground, stirring up a cloud of grain dust in an @Template[emanation|distance:20].\n\nWithin this cloud, they gain a +4 status bonus to any fire damage they deal. The ovinnik doubles their fire resistance against this increased damage. The grain cloud dissipates after the first such effect or after 1 minute if no such effects occur."
  
 ```
 

@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.fall-of-plaguestone-bestiary.Actor.wBCpq9pX4NZFXE0T" 
 tags:
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/0
 statblock: inline
 name: "Vine Lasher"
@@ -23,7 +24,7 @@ level: "Creature 0"
 
 alignment: ""
 size: "Small"
-trait_01: "plant"
+trait_01: [[plant]]
 modifier: 4
 perception:
   - name: "Perception"

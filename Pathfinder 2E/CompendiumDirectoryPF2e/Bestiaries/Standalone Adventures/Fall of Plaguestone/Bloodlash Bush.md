@@ -6,6 +6,7 @@ cssClasses: pf2e
 aliases: "Compendium.pf2e.fall-of-plaguestone-bestiary.Actor.C7Wb70xpG2PvTslg" 
 tags:
   - pf2e/creature/type/plant
+  - pf2eMonster
   - pf2e/creature/level/2
 statblock: inline
 name: "Bloodlash Bush"
@@ -23,7 +24,7 @@ level: "Creature 2"
 
 alignment: ""
 size: "Small"
-trait_01: "plant"
+trait_01: [[plant]]
 modifier: 6
 perception:
   - name: "Perception"

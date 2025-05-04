@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - mechanical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #164: Hands of the Devil
 aliases: "Compendium.pf2e.abomination-vaults-bestiary.Actor.AdFuuUS7bIVqp5K7" 
@@ -22,14 +23,14 @@ name: "Rusty Grate Pit"
 level: "Hazard 6"
 
 
-trait_01: "mechanical"
-trait_02: "trap"
+trait_01: [[mechanical]]
+trait_02: [[trap]]
 modifier: 10
 sourcebook: "_Pathfinder #164: Hands of the Devil_"
 ac: 21
 armorclass:
   - name: AC
-    desc: "21; __Fort__ +17, __Ref__ +11, __Will__ +0"
+    desc: "21; __Fort__ +17, __Ref__ +11, "
 hp: 56
 health:
   - name: ""

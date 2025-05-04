@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/human
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/12
 statblock: inline
 name: "Ilora Nuski"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Kingmaker"
 name: "Ilora Nuski"
 level: "Creature 12"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "chaotic"
-trait_02: "human"
-trait_03: "humanoid"
+trait_01: [[chaotic]]
+trait_02: [[human]]
+trait_03: [[humanoid]]
 modifier: 22
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Common, Hallit, Skald"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +23, Athletics: +21 (+23 to Jump), Nature: +22, River Lore: +22, Society: +20, Stealth: +25, Survival: +24"
+    desc: "Acrobatics: +23, Athletics: +21, Nature: +22, Society: +20, Stealth: +25, Survival: +24, River Lore: +22"
 abilityMods: [3, 5, 3, 2, 4, -1]
 speed: 30 feet
 sourcebook: "_Pathfinder Kingmaker_"

@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
   - complex
 source: Pathfinder Society Scenario #3-11: No Time for Treason
 aliases: "Compendium.pf2e.pfs-season-3-bestiary.Actor.psBBFRgVi0NwKSWX" 
@@ -22,8 +23,8 @@ name: "Muesello's Greater Summoning Rune"
 level: "Hazard 5"
 
 trait_06: "Complex"
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 13
 sourcebook: "_Pathfinder Society Scenario #3-11: No Time for Treason_"
 perception:

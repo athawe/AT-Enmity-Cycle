@@ -7,6 +7,7 @@ aliases: "Compendium.pf2e.rage-of-elements-bestiary.Actor.dLFxm5kZBRzvqf1f"
 tags:
   - pf2e/creature/type/air
   - pf2e/creature/type/elemental
+  - pf2eMonster
   - pf2e/creature/level/18
   - remaster
 statblock: inline
@@ -22,11 +23,11 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Rage of Elements"
 name: "Eural, The East Wind"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "air"
-trait_02: "elemental"
+trait_01: [[air]]
+trait_02: [[elemental]]
 modifier: 33
 perception:
   - name: "Perception"
@@ -34,7 +35,7 @@ perception:
 languages: "Common, Empyrean, Sussuran; truespeech"
 skills:
   - name: "Skills"
-    desc: "Acrobatics: +38, Arcana: +31, Nature: +33, Occultism: +31, Performance: +38, Planar Lore: +33, Religion: +31, Stealth: +36, Survival: +33"
+    desc: "Acrobatics: +38, Arcana: +31, Nature: +33, Occultism: +31, Performance: +38, Religion: +31, Stealth: +36, Survival: +33, Planar Lore: +33"
 abilityMods: [4, 9, 7, 6, 6, 9]
 speed: 25 feet,  fly 200 feet
 sourcebook: "_Pathfinder Rage of Elements_"
@@ -62,7 +63,7 @@ abilities_mid:
     desc: " (air,aura) 80 feet. The winds grow turbulent for those who would dare to fly in the same space as an anemos, but they take care to never harm or inconvenience their shepherd. Air within the emanation is difficult terrain for Flying creatures that do not have the air trait. While the aura is active, the anemos cannot be affected by environmental air or weather affects unless they choose to be."
 
   - name: "Earthbane"
-    desc: "  An anemos's regeneration is suppressed for 1 round if the anemos is affected by an earth effect, or for as long as they are in contact with the ground and 1 round thereafter. If an anemos is submerged in at least 1 inch of mud, dirt, or stone, the anemos's aura deactivates, and the anemos becomes [[Conditions/Stunned 1|Stunned 2]] and [[Conditions/Clumsy 1|Clumsy 2]]."
+    desc: "  An anemos's regeneration is suppressed for 1 round if the anemos is affected by an earth effect, or for as long as they are in contact with the ground and 1 round thereafter. If an anemos is submerged in at least 1 inch of mud, dirt, or stone, the anemos's aura deactivates, and the anemos becomes [[Conditions/Stunned|Stunned 2]] and [[Conditions/Clumsy|Clumsy 2]]."
 
   - name: "Redirect Weather"
     desc: "`pf2:r` (divine) **Requirements** The anemos's aura is active\n\n**Trigger** A creature within the anemos's aura uses an air or electricity spell, or an air or electricity spell otherwise comes into effect within the anemos's aura\n* * *\n\n**Effect** The winds and weather of the spell obey the anemos's call. The anemos makes all the choices to determine the targets, destination, or other effects of the spell, as though they were the caster."
@@ -74,10 +75,10 @@ attacks:
     desc: "`pf2:1` Thunderbolt +35 (electricity, magical)\n__Damage__  3d8 + 12 electricity 3d6 sonic"
 
   - name: "Ranged"
-    desc: "`pf2:1` Air Blast +35 (agile, air, magical, range 100 feet)\n__Damage__  3d10 + 12 bludgeoning"
+    desc: "`pf2:1` Thunderbolt +35 (electricity, magical, thrown 30 ft.)\n__Damage__  3d8 + 10 electricity 3d6 sonic"
 
   - name: "Ranged"
-    desc: "`pf2:1` Thunderbolt +35 (electricity, magical, thrown 30 ft.)\n__Damage__  3d8 + 10 electricity 3d6 sonic"
+    desc: "`pf2:1` Air Blast +35 (agile, air, magical, range 100 feet)\n__Damage__  3d10 + 12 bludgeoning"
 
   - name: "Divine Innate Spells"
     desc: "DC 40, attack +32; __9th __  _[[Spells/Cleanse Air|Cleanse Air]]_; __8th __  _[[Spells/Chain Lightning|Chain Lightning]]_; __7th __  _[[Spells/Humanoid Form|Humanoid Form (At Will)]]_; __5th __  _[[Spells/Pressure Zone|Pressure Zone]]_; __4th __  _[[Spells/Airlift|Airlift (At Will)]]_, _[[Spells/Vapor Form|Vapor Form (At Will)]]_, _[[Spells/Voice on the Breeze|Voice on the Breeze (At Will)]]_; __1st __  _[[Spells/Air Bubble|Air Bubble (At Will)]]_"

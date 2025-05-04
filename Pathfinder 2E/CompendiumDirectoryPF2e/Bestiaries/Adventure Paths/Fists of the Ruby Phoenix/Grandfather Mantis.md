@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/minion
   - pf2e/creature/type/monitor
   - pf2e/creature/type/spirit
+  - pf2eMonster
   - pf2e/creature/level/15
 statblock: inline
 name: "Grandfather Mantis"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #167: Ready? Fight!"
 name: "Grandfather Mantis"
 level: "Creature 15"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "minion"
-trait_03: "monitor"
-trait_04: "spirit"
+trait_01: [[good]]
+trait_02: [[minion]]
+trait_03: [[monitor]]
+trait_04: [[spirit]]
 modifier: 27
 perception:
   - name: "Perception"

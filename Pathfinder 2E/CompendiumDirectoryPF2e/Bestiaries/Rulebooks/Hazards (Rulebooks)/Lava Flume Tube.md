@@ -4,6 +4,7 @@ obsidianUIMode: preview
 noteType: pf2eHazard
 tags:
   - mechanical
+  - pf2eHazard
   - complex
 source: Pathfinder Core Rulebook
 aliases: "Compendium.pf2e.hazards.Actor.oNLgR1iq6MVvNRWo" 
@@ -21,13 +22,13 @@ name: "Lava Flume Tube"
 level: "Hazard 10"
 
 trait_06: "Complex"
-trait_01: "mechanical"
+trait_01: [[mechanical]]
 modifier: 19
 sourcebook: "_Pathfinder Core Rulebook_"
 ac: 30
 armorclass:
   - name: AC
-    desc: "30; __Fort__ +20, __Ref__ +16, __Will__ +0"
+    desc: "30; __Fort__ +20, __Ref__ +16, "
 hp: 48
 health:
   - name: ""

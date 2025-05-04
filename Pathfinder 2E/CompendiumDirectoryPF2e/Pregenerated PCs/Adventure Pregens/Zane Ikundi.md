@@ -67,12 +67,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Zane Ikundi
-creatures:
-  - 1: Zane Ikundi
-```
-
 
 
 

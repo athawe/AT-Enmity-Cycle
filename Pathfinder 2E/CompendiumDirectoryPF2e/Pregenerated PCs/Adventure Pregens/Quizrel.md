@@ -57,12 +57,6 @@ attacks:
  
 ```
 
-```encounter-table
-name: Quizrel
-creatures:
-  - 1: Quizrel
-```
-
 
 
 

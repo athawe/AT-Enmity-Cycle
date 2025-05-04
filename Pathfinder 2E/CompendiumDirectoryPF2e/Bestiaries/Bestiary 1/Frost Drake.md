@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/cold
   - pf2e/creature/type/dragon
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/7
 statblock: inline
 name: "Frost Drake"
@@ -26,10 +27,10 @@ level: "Creature 7"
 
 alignment: ""
 size: "Large"
-trait_01: "chaotic"
-trait_02: "cold"
-trait_03: "dragon"
-trait_04: "evil"
+trait_01: [[chaotic]]
+trait_02: [[cold]]
+trait_03: [[dragon]]
+trait_04: [[evil]]
 modifier: 14
 perception:
   - name: "Perception"
@@ -74,7 +75,7 @@ attacks:
     desc: "`pf2:2`  The frost drake makes two Fangs Strikes and one Tail Strike in any order."
 
   - name: "Freezing Mist Breath"
-    desc: "`pf2:2` (arcane,cold) The frost drake spits a ball of liquid up to 60 feet that explodes into a 20-foot burst cloud of freezing mist. Those in the burst take 8d6 cold damage (DC 25 Reflex check save). The mist cakes all surfaces in the area with a sheet of slippery ice that turns the area into difficult terrain for 2d4 rounds.\n\nIt can't use Freezing Mist Breath again for 1d6 rounds."
+    desc: "`pf2:2` (arcane,cold) The frost drake spits a ball of liquid up to 60 feet that explodes into a @Template[burst|distance:20] cloud of freezing mist. Those in the burst take 8d6 cold damage (DC 25 Reflex check save). The mist cakes all surfaces in the area with a sheet of slippery ice that turns the area into difficult terrain for 2d4 rounds.\n\nIt can't use Freezing Mist Breath again for 1d6 rounds."
 
   - name: "Ice Climb"
     desc: "  A frost drake can climb on ice as though it had the listed climb Speed. It ignores difficult terrain and greater difficult terrain from ice and snow and doesn't risk falling when crossing ice."

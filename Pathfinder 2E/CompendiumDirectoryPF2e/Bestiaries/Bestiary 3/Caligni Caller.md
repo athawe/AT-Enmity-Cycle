@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
   - pf2e/creature/type/humanoid
+  - pf2eMonster
   - pf2e/creature/level/6
 statblock: inline
 name: "Caligni Caller"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Caligni Caller"
 level: "Creature 6"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "caligni"
-trait_02: "chaotic"
-trait_03: "evil"
-trait_04: "humanoid"
+trait_01: [[caligni]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
+trait_04: [[humanoid]]
 modifier: 11
 perception:
   - name: "Perception"
@@ -57,7 +58,7 @@ abilities_top:
 abilities_mid:
   - name: ""
   - name: "Death Umbra"
-    desc: " (darkness) When the caller dies, an explosion of shadow devours their body. Each creature in a 10-foot emanation must attempt a DC 22 Fortitude check save.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Enfeebled 1|Enfeebled 1]] for 1 minute.\n\n**Failure** The creature is [[Conditions/Enfeebled 1|Enfeebled 2]] and [[Conditions/Slowed 1|Slowed 1]] for 1 minute."
+    desc: " (darkness) When the caller dies, an explosion of shadow devours their body. Each creature in a @Template[emanation|distance:10] must attempt a DC 22 Fortitude check save.\n* * *\n\n**Critical Success** The creature is unaffected.\n\n**Success** The creature is [[Conditions/Enfeebled|Enfeebled 1]] for 1 minute.\n\n**Failure** The creature is [[Conditions/Enfeebled|Enfeebled 2]] and [[Conditions/Slowed|Slowed 1]] for 1 minute."
 
 attacks:
   - name: ""

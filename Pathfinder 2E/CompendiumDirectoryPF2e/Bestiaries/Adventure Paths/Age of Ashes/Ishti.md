@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/beast
   - pf2e/creature/type/chaotic
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/18
 statblock: inline
 name: "Ishti"
@@ -22,12 +23,12 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder #149: Against the Scarlet Triad"
 name: "Ishti"
 level: "Creature 18"
-rare_03: "Unique"
+rare_03: [[Unique]]
 alignment: ""
 size: "Large"
-trait_01: "beast"
-trait_02: "chaotic"
-trait_03: "evil"
+trait_01: [[beast]]
+trait_02: [[chaotic]]
+trait_03: [[evil]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Chthonian, Common, Draconic"
 skills:
   - name: "Skills"
-    desc: "Athletics: +33, Crafting: +31 (+35 for Poison), Deception: +32, Intimidation: +30, Occultism: +29, Stealth: +33"
+    desc: "Athletics: +33, Crafting: +31, Deception: +32, Intimidation: +30, Occultism: +29, Stealth: +33"
 abilityMods: [9, 7, 3, 3, 3, 6]
 speed: 40 feet,  climb 40 feet,  fly 40 feet,  swim 40 feet
 sourcebook: "_Pathfinder #149: Against the Scarlet Triad_"
@@ -67,7 +68,7 @@ attacks:
     desc: "`pf2:1` (concentrate,occult,polymorph) Ishti can take on the appearance of a Medium humanoid. This doesn't change her Speed or her attack and damage modifiers with her Strikes, but it does prevent them from using her cursed touch. Ishti has a fixed humanoid form-they cannot adopt a different appearance each time they use this ability, and the appearance resembles that of their upper torso when in their true form.\n\n* * *\n"
 
   - name: "Matriarch's Caress"
-    desc: "`pf2:2` (curse,mental,occult) Ishti touches a creature, who must succeed at a DC 40 Will check save or become [[Conditions/Stupefied 1|Stupefied 1]] ([[Conditions/Stupefied 1|Stupefied 2]] if it critically fails).\n\nIf the target fails additional saves against this ability, the condition value increases by 1 (or 2 if it critically fails) (to a maximum of stupefied 4). This condition value decreases by 1 every 24 hours."
+    desc: "`pf2:2` (curse,mental,occult) Ishti touches a creature, who must succeed at a DC 40 Will check save or become [[Conditions/Stupefied|Stupefied 1]] ([[Conditions/Stupefied|Stupefied 2]] if it critically fails).\n\nIf the target fails additional saves against this ability, the condition value increases by 1 (or 2 if it critically fails) (to a maximum of stupefied 4). This condition value decreases by 1 every 24 hours."
 
   - name: "Poison Weapon"
     desc: "`pf2:1` (manipulate) Ishti applies a poison to a piercing or slashing weapon of her choice."

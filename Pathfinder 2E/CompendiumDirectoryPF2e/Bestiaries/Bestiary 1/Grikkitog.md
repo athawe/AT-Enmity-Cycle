@@ -8,6 +8,7 @@ tags:
   - pf2e/creature/type/aberration
   - pf2e/creature/type/earth
   - pf2e/creature/type/evil
+  - pf2eMonster
   - pf2e/creature/level/14
 statblock: inline
 name: "Grikkitog"
@@ -25,9 +26,9 @@ level: "Creature 14"
 
 alignment: ""
 size: "huge"
-trait_01: "aberration"
-trait_02: "earth"
-trait_03: "evil"
+trait_01: [[aberration]]
+trait_02: [[earth]]
+trait_03: [[evil]]
 modifier: 29
 perception:
   - name: "Perception"
@@ -35,7 +36,7 @@ perception:
 languages: "Petran"
 skills:
   - name: "Skills"
-    desc: "Athletics: +28, Deception: +27 (+31 to imitate stone), Survival: +25"
+    desc: "Athletics: +28, Deception: +27, Survival: +25"
 abilityMods: [8, 4, 5, 2, 5, 5]
 speed: 20 feet,  burrow 20 feet
 sourcebook: "_Pathfinder Bestiary_"

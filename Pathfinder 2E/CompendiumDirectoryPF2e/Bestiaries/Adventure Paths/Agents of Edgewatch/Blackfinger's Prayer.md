@@ -5,6 +5,7 @@ noteType: pf2eHazard
 tags:
   - magical
   - trap
+  - pf2eHazard
 
 source: Pathfinder #162: Ruins of the Radiant Siege
 aliases: "Compendium.pf2e.agents-of-edgewatch-bestiary.Actor.AZ6AaYdx2NwLWSwh" 
@@ -22,14 +23,14 @@ name: "Blackfinger's Prayer"
 level: "Hazard 19"
 
 
-trait_01: "magical"
-trait_02: "trap"
+trait_01: [[magical]]
+trait_02: [[trap]]
 modifier: 30
 sourcebook: "_Pathfinder #162: Ruins of the Radiant Siege_"
 ac: 40
 armorclass:
   - name: AC
-    desc: "40; __Fort__ +38, __Ref__ +30, __Will__ +0"
+    desc: "40; __Fort__ +38, __Ref__ +30, "
 hp: 150
 health:
   - name: ""

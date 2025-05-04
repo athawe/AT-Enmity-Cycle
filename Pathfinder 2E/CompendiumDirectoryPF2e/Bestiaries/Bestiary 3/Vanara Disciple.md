@@ -9,6 +9,7 @@ tags:
   - pf2e/creature/type/humanoid
   - pf2e/creature/type/lawful
   - pf2e/creature/type/vanara
+  - pf2eMonster
   - pf2e/creature/level/1
 statblock: inline
 name: "Vanara Disciple"
@@ -23,13 +24,13 @@ layout: Basic Pathfinder 2e Layout
 source: "Pathfinder Bestiary 3"
 name: "Vanara Disciple"
 level: "Creature 1"
-rare_03: "Uncommon"
+rare_03: [[Uncommon]]
 alignment: ""
 size: "Medium"
-trait_01: "good"
-trait_02: "humanoid"
-trait_03: "lawful"
-trait_04: "vanara"
+trait_01: [[good]]
+trait_02: [[humanoid]]
+trait_03: [[lawful]]
+trait_04: [[vanara]]
 modifier: 6
 perception:
   - name: "Perception"
